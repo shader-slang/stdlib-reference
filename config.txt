@@ -1,0 +1,22 @@
+@title: Slang Standard Library Reference
+@libname: Slang's Standard Library
+@rootdir: /stdlib-reference/
+
+@preamble:
+---
+layout: stdlib-reference
+---
+@end
+
+@includedecl:
+__BuiltinArithmeticType
+__BuiltinLogicalType
+__BuiltinFloatingPointType
+__ITextureShape
+__ITextureShape1D2D3D
+__Shape1D
+__Shape2D
+__Shape3D
+__ShapeCube
+__ShapeBuffer
+@end

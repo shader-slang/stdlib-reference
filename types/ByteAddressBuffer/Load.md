@@ -1,0 +1,66 @@
+---
+layout: stdlib-reference
+---
+
+# ByteAddressBuffer\.Load
+
+## Signature 
+
+<pre>
+/// Requires Capability Set 1:
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>(<span class="code_keyword">int</span> <span class='code_param'>location</span>);
+
+/// Requires Capability Set 2:
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>(
+    <span class="code_keyword">int</span> <span class='code_param'>location</span>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>status</span>);
+
+T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(<span class="code_keyword">int</span> <span class='code_param'>location</span>);
+
+T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(
+    <span class="code_keyword">int</span> <span class='code_param'>location</span>,
+    <span class="code_keyword">int</span> <span class='code_param'>alignment</span>);
+
+</pre>
+
+## Parameters
+
+* `T`
+* `location`
+* `status`
+* `alignment`
+
+## Availability and Requirements
+
+### Capability Set 1
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### metal
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+
+### Capability Set 2
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+
+
