@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/usize_t">usize_t</a> = uintptr_t;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/usize_t" class="code_type">usize_t</a> = uintptr_t;
 </pre>
 

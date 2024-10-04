@@ -22,7 +22,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> T : __BuiltinType;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/WaveActiveAllEqual">WaveActiveAllEqual</a>&lt;T, N:<span class="code_keyword">int</span>, M:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T">T</a>, N, M&gt; <span class='code_param'>value</span>)
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/WaveActiveAllEqual">WaveActiveAllEqual</a>&lt;T, N:<span class="code_keyword">int</span>, M:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>value</span>)
     <span class='code_keyword'>where</span> T : __BuiltinType;
 
 </pre>

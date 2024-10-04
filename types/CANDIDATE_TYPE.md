@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/CANDIDATE_TYPE">CANDIDATE_TYPE</a> = <span class="code_keyword">uint</span>;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/CANDIDATE_TYPE" class="code_type">CANDIDATE_TYPE</a> = <span class="code_keyword">uint</span>;
 </pre>
 

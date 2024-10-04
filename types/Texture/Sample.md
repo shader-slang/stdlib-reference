@@ -112,8 +112,8 @@ The sampled texture value.
 ## Remarks
 
 The <span class='code'><a href="/stdlib-reference/types/Texture/Sample">Sample</a></span> function is defined for all read-only texture types, including
-<span class='code'><a href="/stdlib-reference/types/Texture1D">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2D">Texture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture3D">Texture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/TextureCube">TextureCube</a></span>,
-<span class='code'><a href="/stdlib-reference/types/Texture1DArray">Texture1DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2DArray">Texture2DArray</a></span> and <span class='code'><a href="/stdlib-reference/types/TextureCubeArray">TextureCubeArray</a></span>.
+<span class='code'><a href="/stdlib-reference/types/Texture1D" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2D" class="code_type">Texture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture3D" class="code_type">Texture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/TextureCube" class="code_type">TextureCube</a></span>,
+<span class='code'><a href="/stdlib-reference/types/Texture1DArray" class="code_type">Texture1DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2DArray" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="/stdlib-reference/types/TextureCubeArray" class="code_type">TextureCubeArray</a></span>.
 
 The function is not available for read-write texture types.
 

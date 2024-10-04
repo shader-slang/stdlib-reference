@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format&gt;.<a href="/stdlib-reference/types/Texture/Coords">Coords</a> = 
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format&gt;.<a href="/stdlib-reference/types/Texture/Coords" class="code_type">Coords</a> = 
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, Shape.dimensions&gt;;
 </pre>
 

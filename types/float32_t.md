@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/float32_t">float32_t</a> = <span class="code_keyword">float</span>;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/float32_t" class="code_type">float32_t</a> = <span class="code_keyword">float</span>;
 </pre>
 
