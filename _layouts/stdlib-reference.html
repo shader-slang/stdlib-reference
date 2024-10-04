@@ -116,6 +116,11 @@
       fill: currentColor;
       vertical-align: text-top;
     }
+    .code
+    {
+      font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+      background-color: #F0F0F0;
+    }
     .code_type
     {
       color:#267F99
@@ -309,18 +314,17 @@
       event.stopPropagation();
     }
     var path = window.location.pathname;
+    if (!path.ends(".html"))
+    {
+      if (!path.endsWith("/"))
+        path += "/";
+      path += "index.html";
+    }
     var firstSlash = path.indexOf("/");
     if (firstSlash == -1)
       firstSlash = path.length();
     var pageName = path.substr(firstSlash);
     var dotLoc = pageName.lastIndexOf(".");
-    if (dotLoc == -1)
-    {
-      if (!pageName.endsWith("/"))
-      pageName += "/";
-      pageName += "index";
-      dotLoc = pageName.length;
-    }
     var currentPageID = pageName.substr(0, dotLoc);
 
     var tocLists = document.getElementsByClassName("toc_root_list");
