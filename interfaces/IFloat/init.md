@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IFloat\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,5 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `value`
+#### value : float
+#### value : This
 

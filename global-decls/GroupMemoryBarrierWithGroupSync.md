@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # GroupMemoryBarrierWithGroupSync
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

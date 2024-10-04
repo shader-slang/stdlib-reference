@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # GetRenderTargetSamplePosition
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `Index`
+#### Index : int
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveMultiPrefixSum
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,11 +32,13 @@ T <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum">WaveMultiPrefixSum
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `value`
-* `mask`
+#### T
+#### N : int
+#### M : int
+#### value : T
+#### mask : vector\<uint,4\>
+#### value : vector\<T,N\>
+#### value : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

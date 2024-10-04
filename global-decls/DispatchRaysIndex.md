@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DispatchRaysIndex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

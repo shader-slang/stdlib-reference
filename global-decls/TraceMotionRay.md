@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # TraceMotionRay
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -22,16 +28,16 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `payload_t`
-* `AccelerationStructure`
-* [`RayFlags`](/stdlib-reference/global-decls/RayFlags)
-* `InstanceInclusionMask`
-* `RayContributionToHitGroupIndex`
-* `MultiplierForGeometryContributionToHitGroupIndex`
-* `MissShaderIndex`
-* `Ray`
-* `CurrentTime`
-* `Payload`
+#### payload\_t
+#### AccelerationStructure : RaytracingAccelerationStructure
+#### RayFlags : uint
+#### InstanceInclusionMask : uint
+#### RayContributionToHitGroupIndex : uint
+#### MultiplierForGeometryContributionToHitGroupIndex : uint
+#### MissShaderIndex : uint
+#### Ray : RayDesc
+#### CurrentTime : float
+#### Payload : payload\_t
 
 ## Availability and Requirements
 

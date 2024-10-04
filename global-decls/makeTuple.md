@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # makeTuple
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,6 +19,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `v`
+#### T
+#### v : T
 

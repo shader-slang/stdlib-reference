@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # any
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,10 +29,12 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # matrix\<T,R,C\>\.neg
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

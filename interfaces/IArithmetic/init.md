@@ -4,6 +4,13 @@ layout: stdlib-reference
 
 # IArithmetic\.init
 
+## Description
+
+Initialize from the same type.
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `val`
-* `value`
+#### val : int
+#### value : This
 

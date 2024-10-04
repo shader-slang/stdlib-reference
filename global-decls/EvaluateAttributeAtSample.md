@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # EvaluateAttributeAtSample
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,11 +32,13 @@ T <a href="/stdlib-reference/global-decls/EvaluateAttributeAtSample">EvaluateAtt
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
-* `sampleindex`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### sampleindex : uint
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

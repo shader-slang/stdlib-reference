@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # asdouble
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -19,8 +25,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `lowbits`
-* `highbits`
+#### lowbits : uint
+#### highbits : uint
+#### lowbits : vector\<uint,2\>
+#### highbits : vector\<uint,2\>
 
 ## Availability and Requirements
 

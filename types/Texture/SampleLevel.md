@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.SampleLevel
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -47,10 +53,10 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-* `location`
-* `level`
-* `offset`
-* `s`
+#### location : vector\<float,isArray+Shape\.dimensions\>
+#### level : float
+#### offset : vector\<int,Shape\.planeDimensions\>
+#### s : SamplerState
 
 ## Availability and Requirements
 

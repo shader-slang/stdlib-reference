@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveMultiPrefixBitAnd
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -29,11 +35,13 @@ T <a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd">WaveMultiPrefix
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `expr`
-* `mask`
+#### T
+#### N : int
+#### M : int
+#### expr : T
+#### mask : vector\<uint,4\>
+#### expr : vector\<T,N\>
+#### expr : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

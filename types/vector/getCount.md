@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # vector\<T, N:int\>\.getCount
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

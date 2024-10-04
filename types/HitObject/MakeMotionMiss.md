@@ -6,8 +6,11 @@ layout: stdlib-reference
 
 ## Description
 
-See MakeMiss but handles Motion 
+See MakeMiss but handles Motion
 Currently only supported on VK
+
+
+
 
 ## Signature 
 
@@ -21,9 +24,9 @@ Currently only supported on VK
 
 ## Parameters
 
-* `MissShaderIndex`
-* `Ray`
-* `CurrentTime`
+#### MissShaderIndex : uint
+#### Ray : RayDesc
+#### CurrentTime : float
 
 ## Availability and Requirements
 

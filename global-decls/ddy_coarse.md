@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ddy\_coarse
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,12 @@ T <a href="/stdlib-reference/global-decls/ddy_coarse">ddy_coarse</a>&lt;T&gt;(T 
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

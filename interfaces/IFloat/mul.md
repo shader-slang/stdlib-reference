@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IFloat\.mul
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `other`
+#### other : This
 

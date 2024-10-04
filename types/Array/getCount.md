@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Array\<T, N:int\>\.getCount
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

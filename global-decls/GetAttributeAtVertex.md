@@ -6,17 +6,20 @@ layout: stdlib-reference
 
 ## Description
 
- Get the value of a vertex attribute at a specific vertex.
+Get the value of a vertex attribute at a specific vertex.
 
- The `GetAttributeAtVertex()` function can be used in a fragment shader
- to get the value of the given `attribute` at the vertex of the primitive
- that corresponds to the given `vertexIndex`.
+The <span class='code'><a href="/stdlib-reference/global-decls/GetAttributeAtVertex">GetAttributeAtVertex</a>()</span> function can be used in a fragment shader
+to get the value of the given <span class='code'>attribute</span> at the vertex of the primitive
+that corresponds to the given <span class='code'>vertexIndex</span>.
 
- Note that the `attribute` must have been a declared varying input to
- the fragment shader with the `nointerpolation` modifier.
+Note that the <span class='code'>attribute</span> must have been a declared varying input to
+the fragment shader with the <span class='code'>nointerpolation</span> modifier.
 
- This function can be applied to scalars, vectors, and matrices of
- built-in scalar types.
+This function can be applied to scalars, vectors, and matrices of
+built-in scalar types.
+
+
+
 
 ## Signature 
 
@@ -40,11 +43,13 @@ T <a href="/stdlib-reference/global-decls/GetAttributeAtVertex">GetAttributeAtVe
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `attribute`
-* `vertexIndex`
+#### T
+#### N : int
+#### M : int
+#### attribute : T
+#### vertexIndex : uint
+#### attribute : vector\<T,N\>
+#### attribute : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

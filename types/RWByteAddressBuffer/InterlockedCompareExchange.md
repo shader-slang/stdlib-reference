@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedCompareExchange
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dest`
-* `compare_value`
-* `value`
-* `original_value`
+#### dest : uint
+#### compare\_value : uint
+#### value : uint
+#### original\_value : uint
 
 ## Availability and Requirements
 

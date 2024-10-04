@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* T
+#### T
 
 ## Methods
 

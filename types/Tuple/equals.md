@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Tuple\<T\>\.equals
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `other`
+#### other : Tuple\<T\>
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedStructuredBuffer\<T, L\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ T <a href="/stdlib-reference/types/RasterizerOrderedStructuredBuffer/index" clas
 
 ## Parameters
 
-* `TIndex`
-* `index`
+#### TIndex
+#### index : TIndex
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedByteAddressBuffer\.GetDimensions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dim`
+#### dim : uint
 
 ## Availability and Requirements
 

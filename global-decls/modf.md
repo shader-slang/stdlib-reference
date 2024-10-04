@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # modf
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,12 +32,16 @@ T <a href="/stdlib-reference/global-decls/modf">modf</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `L`
-* `x`
-* `ip`
+#### T
+#### N : int
+#### M : int
+#### L : int
+#### x : T
+#### ip : T
+#### x : vector\<T,N\>
+#### ip : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### ip : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

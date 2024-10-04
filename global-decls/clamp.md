@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # clamp
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -47,12 +53,18 @@ T <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
-* `minBound`
-* `maxBound`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### minBound : T
+#### maxBound : T
+#### x : vector\<T,N\>
+#### minBound : vector\<T,N\>
+#### maxBound : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### minBound : matrix\<T,N,M\>
+#### maxBound : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

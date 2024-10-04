@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # OutputVertices\<T, MAX\_VERTS:uint\>\.\_setVertex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `v`
-* `index`
-* `val`
+#### v : OutputVertices\<T, MAX\_VERTS\>
+#### index : uint
+#### val : T
 

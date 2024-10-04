@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # vector\<T,N\>\.div
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `other`
+#### other : vector\<T,N\>
 

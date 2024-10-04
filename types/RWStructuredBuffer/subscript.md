@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWStructuredBuffer\<T, L\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ T <a href="/stdlib-reference/types/RWStructuredBuffer/index" class="code_type">R
 
 ## Parameters
 
-* `TIndex`
-* `index`
+#### TIndex
+#### index : TIndex
 

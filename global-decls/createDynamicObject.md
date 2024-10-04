@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # createDynamicObject
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ T <a href="/stdlib-reference/global-decls/createDynamicObject">createDynamicObje
 
 ## Parameters
 
-* `T`
-* `U`
-* `typeId`
-* `value`
+#### T
+#### U
+#### typeId : uint
+#### value : U
 

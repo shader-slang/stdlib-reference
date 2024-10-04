@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # normalize
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,9 +23,10 @@ T <a href="/stdlib-reference/global-decls/normalize">normalize</a>&lt;T&gt;(T <s
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
+#### T
+#### N : int
+#### x : vector\<T,N\>
+#### x : T
 
 ## Availability and Requirements
 

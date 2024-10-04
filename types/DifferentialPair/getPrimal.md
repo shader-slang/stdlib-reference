@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DifferentialPair\<T\>\.getPrimal
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

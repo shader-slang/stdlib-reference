@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # asint
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -35,9 +41,17 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `M`
-* `x`
+#### N : int
+#### M : int
+#### x : float
+#### x : uint
+#### x : vector\<float,N\>
+#### x : vector\<uint,N\>
+#### x : matrix\<float,N,M\>
+#### x : matrix\<uint,N,M\>
+#### x : int
+#### x : vector\<int,N\>
+#### x : matrix\<int,N,M\>
 
 ## Availability and Requirements
 

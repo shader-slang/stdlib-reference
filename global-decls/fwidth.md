@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # fwidth
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,10 +29,12 @@ T <a href="/stdlib-reference/global-decls/fwidth">fwidth</a>&lt;T&gt;(T <span cl
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

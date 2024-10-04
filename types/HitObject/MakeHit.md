@@ -13,6 +13,9 @@ TraceRay. The computed index must reference a valid hit group record in the shad
 Attributes parameter must either be an attribute struct, such as
 BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attributes from.
 
+
+
+
 ## Signature 
 
 <pre>
@@ -41,17 +44,17 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 
 ## Parameters
 
-* `attr_t`
-* `AccelerationStructure`
-* [`InstanceIndex`](/stdlib-reference/global-decls/InstanceIndex)
-* [`GeometryIndex`](/stdlib-reference/global-decls/GeometryIndex)
-* [`PrimitiveIndex`](/stdlib-reference/global-decls/PrimitiveIndex)
-* [`HitKind`](/stdlib-reference/global-decls/HitKind)
-* `RayContributionToHitGroupIndex`
-* `MultiplierForGeometryContributionToHitGroupIndex`
-* `Ray`
-* `attributes`
-* `HitGroupRecordIndex`
+#### attr\_t
+#### AccelerationStructure : RaytracingAccelerationStructure
+#### InstanceIndex : uint
+#### GeometryIndex : uint
+#### PrimitiveIndex : uint
+#### HitKind : uint
+#### RayContributionToHitGroupIndex : uint
+#### MultiplierForGeometryContributionToHitGroupIndex : uint
+#### Ray : RayDesc
+#### attributes : attr\_t
+#### HitGroupRecordIndex : uint
 
 ## Availability and Requirements
 

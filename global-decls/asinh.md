@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # asinh
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,9 +23,10 @@ T <a href="/stdlib-reference/global-decls/asinh">asinh</a>&lt;T&gt;(T <span clas
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
+#### T
+#### N : int
+#### x : T
+#### x : vector\<T,N\>
 
 ## Availability and Requirements
 

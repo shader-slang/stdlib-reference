@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.SampleCmp
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -43,10 +49,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `location`
-* `compareValue`
-* `offset`
-* `s`
+#### location : vector\<float,isArray+Shape\.dimensions\>
+#### compareValue : float
+#### offset : vector\<int,Shape\.planeDimensions\>
+#### s : SamplerComparisonState
 
 ## Availability and Requirements
 

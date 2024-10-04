@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DeviceMemoryBarrier
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

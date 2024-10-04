@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedAddF32
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,9 +26,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `valueToAdd`
-* `originalValue`
+#### byteAddress : uint
+#### valueToAdd : float
+#### originalValue : float
 
 ## Availability and Requirements
 

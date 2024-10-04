@@ -9,6 +9,9 @@ layout: stdlib-reference
 Invokes closesthit or miss shading for the specified hit object. In case of a NOP HitObject, no
 shader is invoked.
 
+
+
+
 ## Signature 
 
 <pre>
@@ -21,10 +24,10 @@ shader is invoked.
 
 ## Parameters
 
-* `payload_t`
-* `AccelerationStructure`
-* `HitOrMiss`
-* `Payload`
+#### payload\_t
+#### AccelerationStructure : RaytracingAccelerationStructure
+#### HitOrMiss : HitObject
+#### Payload : payload\_t
 
 ## Availability and Requirements
 

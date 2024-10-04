@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IFloat\.scale
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,6 +20,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* [`scale`](/stdlib-reference/interfaces/IFloat/scale)
+#### T
+#### scale : T
 

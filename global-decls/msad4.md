@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # msad4
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `reference`
-* `source`
-* `accum`
+#### reference : uint
+#### source : vector\<uint,2\>
+#### accum : vector\<uint,4\>
 
 ## Availability and Requirements
 

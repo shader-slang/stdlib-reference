@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # InputPatch\<T, N:int\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,6 +20,6 @@ T <a href="/stdlib-reference/types/InputPatch/index" class="code_type">InputPatc
 
 ## Parameters
 
-* `TIndex`
-* `index`
+#### TIndex
+#### index : TIndex
 

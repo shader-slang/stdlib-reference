@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ReportHitOptix
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `tHit`
-* `hitKind`
-* `attribs`
+#### T
+#### tHit : float
+#### hitKind : uint
+#### attribs : T
 
 ## Availability and Requirements
 

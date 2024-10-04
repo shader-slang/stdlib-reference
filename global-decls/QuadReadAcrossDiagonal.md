@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # QuadReadAcrossDiagonal
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,12 @@ T <a href="/stdlib-reference/global-decls/QuadReadAcrossDiagonal">QuadReadAcross
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `localValue`
+#### T
+#### N : int
+#### M : int
+#### localValue : T
+#### localValue : vector\<T,N\>
+#### localValue : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

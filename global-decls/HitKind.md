@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # HitKind
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # fma
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -29,12 +35,18 @@ T <a href="/stdlib-reference/global-decls/fma">fma</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `a`
-* `b`
-* `c`
+#### T
+#### N : int
+#### M : int
+#### a : T
+#### b : T
+#### c : T
+#### a : vector\<T,N\>
+#### b : vector\<T,N\>
+#### c : vector\<T,N\>
+#### a : matrix\<T,N,M\>
+#### b : matrix\<T,N,M\>
+#### c : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

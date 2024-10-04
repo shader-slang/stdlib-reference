@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.WriteSamplerFeedbackLevel
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -41,12 +47,13 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `S`
-* `tex`
-* `samp`
-* `location`
-* `lod`
-* `texArray`
+#### S
+#### tex : Texture2D\<S\>
+#### samp : SamplerState
+#### location : vector\<float,2\>
+#### lod : float
+#### texArray : Texture2DArray\<S\>
+#### location : vector\<float,3\>
 
 ## Availability and Requirements
 

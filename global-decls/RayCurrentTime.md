@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayCurrentTime
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

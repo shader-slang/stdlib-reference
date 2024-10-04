@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveActiveCountBits
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `value`
+#### value : bool
 
 ## Availability and Requirements
 

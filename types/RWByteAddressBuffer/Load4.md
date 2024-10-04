@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.Load4
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -24,9 +30,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `location`
-* `alignment`
-* `status`
+#### location : int
+#### alignment : int
+#### status : uint
 
 ## Availability and Requirements
 

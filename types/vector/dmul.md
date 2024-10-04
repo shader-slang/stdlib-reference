@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # vector\<T,N\>\.dmul
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,7 +23,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `U`
-* `a`
-* `b`
+#### U
+#### a : U
+#### b : vector\<T,N\>
 

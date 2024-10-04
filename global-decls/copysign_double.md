@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # copysign\_double
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `x`
-* `y`
+#### N : int
+#### x : vector\<double,N\>
+#### y : vector\<double,N\>
 
 ## Availability and Requirements
 

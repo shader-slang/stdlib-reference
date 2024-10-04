@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveActiveBallot
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `condition`
+#### condition : bool
 
 ## Availability and Requirements
 

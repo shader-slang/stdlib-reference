@@ -9,6 +9,9 @@ layout: stdlib-reference
 Executes motion ray traversal (including anyhit and intersection shaders) like TraceRay, but returns the
 resulting hit information as a HitObject and does not trigger closesthit or miss shaders.
 
+
+
+
 ## Signature 
 
 <pre>
@@ -27,16 +30,16 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 
 ## Parameters
 
-* `payload_t`
-* `AccelerationStructure`
-* [`RayFlags`](/stdlib-reference/global-decls/RayFlags)
-* `InstanceInclusionMask`
-* `RayContributionToHitGroupIndex`
-* `MultiplierForGeometryContributionToHitGroupIndex`
-* `MissShaderIndex`
-* `Ray`
-* `CurrentTime`
-* `Payload`
+#### payload\_t
+#### AccelerationStructure : RaytracingAccelerationStructure
+#### RayFlags : uint
+#### InstanceInclusionMask : uint
+#### RayContributionToHitGroupIndex : uint
+#### MultiplierForGeometryContributionToHitGroupIndex : uint
+#### MissShaderIndex : uint
+#### Ray : RayDesc
+#### CurrentTime : float
+#### Payload : payload\_t
 
 ## Availability and Requirements
 

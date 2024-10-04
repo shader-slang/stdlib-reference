@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ConsumeStructuredBuffer\<T, L\>\.GetDimensions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `numStructs`
-* `stride`
+#### numStructs : uint
+#### stride : uint
 

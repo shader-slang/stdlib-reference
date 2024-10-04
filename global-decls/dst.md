@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # dst
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `x`
-* `y`
+#### T
+#### x : vector\<T,4\>
+#### y : vector\<T,4\>
 

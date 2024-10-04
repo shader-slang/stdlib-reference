@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.InterlockedAddF32
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -36,9 +42,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `coord`
-* `value`
-* `originalValue`
+#### coord : vector\<uint,Shape\.dimensions\>
+#### value : float
+#### originalValue : float
 
 ## Availability and Requirements
 

@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Returns true if the HitObject encodes a miss, otherwise returns false.
 
+
+
+
 ## Signature 
 
 <pre>

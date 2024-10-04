@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # InterlockedCompareStore
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -31,9 +37,18 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dest`
-* `compare_value`
-* `value`
+#### dest : int64\_t
+#### compare\_value : int64\_t
+#### value : int64\_t
+#### dest : uint64\_t
+#### compare\_value : uint64\_t
+#### value : uint64\_t
+#### dest : int
+#### compare\_value : int
+#### value : int
+#### dest : uint
+#### compare\_value : uint
+#### value : uint
 
 ## Availability and Requirements
 

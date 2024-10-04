@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # unmodified
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,6 +19,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `SLANG_anonymous_6`
+#### T
+#### SLANG\_anonymous\_6 : T
 

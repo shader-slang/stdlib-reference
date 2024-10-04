@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # LineStream\<T\>\.RestartStrip
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

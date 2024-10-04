@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Values 
 
-* _Relaxed_
-* _Acquire_
-* _Release_
-* _AcquireRelease_
-* _SeqCst_
+#### _Relaxed_
+#### _Acquire_
+#### _Release_
+#### _AcquireRelease_
+#### _SeqCst_

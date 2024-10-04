@@ -6,12 +6,15 @@ layout: stdlib-reference
 
 ## Description
 
- Query the footprint that would be accessed by a texture sampling operation.
+Query the footprint that would be accessed by a texture sampling operation.
 
- This operation queries the footprint that would be accessed
- by a comparable call to:
+This operation queries the footprint that would be accessed
+by a comparable call to:
 
-     t.SampleLevel(sampler, coords, lod);
+t.SampleLevel(sampler, coords, lod);
+
+
+
 
 ## Signature 
 
@@ -31,8 +34,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `granularity`
-* `sampler`
-* `coords`
-* `lod`
+#### granularity : uint
+#### sampler : SamplerState
+#### coords : vector\<float,Shape\.dimensions\>
+#### lod : float
 

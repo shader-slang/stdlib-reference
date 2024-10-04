@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ProcessQuadTessFactorsMax
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -18,11 +24,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `RawEdgeFactors`
-* `InsideScale`
-* `RoundedEdgeTessFactors`
-* `RoundedInsideTessFactors`
-* `UnroundedInsideTessFactors`
+#### RawEdgeFactors : vector\<float,4\>
+#### InsideScale : float
+#### RoundedEdgeTessFactors : vector\<float,4\>
+#### RoundedInsideTessFactors : vector\<float,2\>
+#### UnroundedInsideTessFactors : vector\<float,2\>
 
 ## Availability and Requirements
 

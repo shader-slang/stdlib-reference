@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # lit
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `n_dot_l`
-* `n_dot_h`
-* `m`
+#### n\_dot\_l : float
+#### n\_dot\_h : float
+#### m : float
 
 ## Availability and Requirements
 

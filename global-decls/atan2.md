@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # atan2
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,11 +32,15 @@ T <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `y`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### y : T
+#### x : T
+#### y : vector\<T,N\>
+#### x : vector\<T,N\>
+#### y : matrix\<T,N,M\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

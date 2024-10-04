@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayQuery\<rayFlagsGeneric:uint\>\.CommittedPrimitiveIndex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

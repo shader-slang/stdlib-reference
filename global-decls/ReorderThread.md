@@ -14,6 +14,9 @@ NumCoherenceHintBits.
 Where possible, reordering will also attempt to retain locality in the thread429496726642949671684294967193s launch indices
 (DispatchRaysIndex in DXR).
 
+
+
+
 ## Signature 
 
 <pre>
@@ -32,9 +35,9 @@ Where possible, reordering will also attempt to retain locality in the thread429
 
 ## Parameters
 
-* `CoherenceHint`
-* `NumCoherenceHintBitsFromLSB`
-* `HitOrMiss`
+#### CoherenceHint : uint
+#### NumCoherenceHintBitsFromLSB : uint
+#### HitOrMiss : HitObject
 
 ## Availability and Requirements
 

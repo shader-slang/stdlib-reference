@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # transpose
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

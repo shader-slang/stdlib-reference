@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # asuint
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -34,12 +40,20 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `M`
-* `value`
-* `lowbits`
-* `highbits`
-* `x`
+#### N : int
+#### M : int
+#### value : double
+#### lowbits : uint
+#### highbits : uint
+#### x : float
+#### x : int
+#### x : vector\<float,N\>
+#### x : vector\<int,N\>
+#### x : matrix\<float,N,M\>
+#### x : matrix\<int,N,M\>
+#### x : uint
+#### x : vector\<uint,N\>
+#### x : matrix\<uint,N,M\>
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveGetConvergedMulti
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

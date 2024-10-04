@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # AppendStructuredBuffer\<T, L\>\.Append
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `value`
+#### value : T
 

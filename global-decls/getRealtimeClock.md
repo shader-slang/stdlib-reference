@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # getRealtimeClock
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

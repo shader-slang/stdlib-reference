@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # QuadReadLaneAt
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,11 +32,13 @@ T <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `sourceValue`
-* `quadLaneID`
+#### T
+#### N : int
+#### M : int
+#### sourceValue : T
+#### quadLaneID : uint
+#### sourceValue : vector\<T,N\>
+#### sourceValue : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

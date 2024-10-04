@@ -13,13 +13,13 @@ differential types of an arbitrary type T.
 
 ## Generic Parameters
 
-* T : [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index)
+#### T: IDifferentiable
 
 ## Properties
 
-* [d](/stdlib-reference/types/DifferentialPair/d)
-* [p](/stdlib-reference/types/DifferentialPair/p)
-* [v](/stdlib-reference/types/DifferentialPair/v)
+#### [d](/stdlib-reference/types/DifferentialPair/d)
+#### [p](/stdlib-reference/types/DifferentialPair/p)
+#### [v](/stdlib-reference/types/DifferentialPair/v)
 
 ## Methods
 

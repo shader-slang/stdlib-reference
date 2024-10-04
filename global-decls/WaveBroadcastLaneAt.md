@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveBroadcastLaneAt
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,11 +32,13 @@ T <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLane
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `value`
-* `lane`
+#### T
+#### N : int
+#### M : int
+#### value : T
+#### lane : int
+#### value : vector\<T,N\>
+#### value : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

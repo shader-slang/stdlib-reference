@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # noise
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,6 +21,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `x`
+#### N : int
+#### x : float
+#### x : vector\<float,N\>
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.\_NvInterlockedAddFp16x2
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `fp16x2Value`
+#### byteAddress : uint
+#### fp16x2Value : uint
 
 ## Availability and Requirements
 

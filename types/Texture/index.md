@@ -6,15 +6,15 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* T
-* Shape : [\_\_ITextureShape](/stdlib-reference/interfaces/ITextureShape/index)
-* isArray : int
-* isMS : int
-* sampleCount : int
-* access : int
-* isShadow : int
-* isCombined : int
-* format : int
+#### T
+#### Shape: \_\_ITextureShape
+#### isArray : int
+#### isMS : int
+#### sampleCount : int
+#### access : int
+#### isShadow : int
+#### isCombined : int
+#### format : int
 
 ## Methods
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Ptr\<T, addrSpace:uint64\_t\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,6 +21,6 @@ T <a href="/stdlib-reference/types/Ptr/index" class="code_type">Ptr</a>&lt;T, ad
 
 ## Parameters
 
-* `TInt`
-* `index`
+#### TInt
+#### index : TInt
 

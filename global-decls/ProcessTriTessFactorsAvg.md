@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ProcessTriTessFactorsAvg
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -18,11 +24,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `RawEdgeFactors`
-* `InsideScale`
-* `RoundedEdgeTessFactors`
-* `RoundedInsideTessFactor`
-* `UnroundedInsideTessFactor`
+#### RawEdgeFactors : vector\<float,3\>
+#### InsideScale : float
+#### RoundedEdgeTessFactors : vector\<float,3\>
+#### RoundedInsideTessFactor : float
+#### UnroundedInsideTessFactor : float
 
 ## Availability and Requirements
 

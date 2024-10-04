@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # countbits
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `value`
+#### N : int
+#### value : uint
+#### value : vector\<uint,N\>
 
 ## Availability and Requirements
 

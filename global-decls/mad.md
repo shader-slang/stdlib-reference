@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # mad
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -53,12 +59,18 @@ T <a href="/stdlib-reference/global-decls/mad">mad</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `mvalue`
-* `avalue`
-* `bvalue`
+#### T
+#### N : int
+#### M : int
+#### mvalue : T
+#### avalue : T
+#### bvalue : T
+#### mvalue : vector\<T,N\>
+#### avalue : vector\<T,N\>
+#### bvalue : vector\<T,N\>
+#### mvalue : matrix\<T,N,M\>
+#### avalue : matrix\<T,N,M\>
+#### bvalue : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

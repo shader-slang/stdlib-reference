@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.GatherBlue
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -291,14 +297,14 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `s`
-* `location`
-* `status`
-* `offset`
-* `offset1`
-* `offset2`
-* `offset3`
-* `offset4`
+#### s : SamplerState
+#### location : vector\<float,isArray+Shape\.dimensions\>
+#### status : uint
+#### offset : vector\<int,Shape\.planeDimensions\>
+#### offset1 : vector\<int,Shape\.planeDimensions\>
+#### offset2 : vector\<int,Shape\.planeDimensions\>
+#### offset3 : vector\<int,Shape\.planeDimensions\>
+#### offset4 : vector\<int,Shape\.planeDimensions\>
 
 ## Availability and Requirements
 

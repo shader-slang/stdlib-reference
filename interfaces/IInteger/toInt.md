@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IInteger\.toInt
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

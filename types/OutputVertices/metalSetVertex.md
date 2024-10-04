@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # OutputVertices\<T, MAX\_VERTS:uint\>\.\_metalSetVertex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `index`
-* `val`
+#### index : uint
+#### val : T
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # AllMemoryBarrier
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

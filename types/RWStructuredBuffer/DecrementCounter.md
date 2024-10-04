@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWStructuredBuffer\<T, L\>\.DecrementCounter
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

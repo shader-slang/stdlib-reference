@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # matrix\<T,R,C\>\.dmul
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,7 +23,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `U`
-* `a`
-* `b`
+#### U
+#### a : U
+#### b : matrix\<T,N,M\>
 

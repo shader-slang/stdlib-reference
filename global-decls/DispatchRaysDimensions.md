@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DispatchRaysDimensions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

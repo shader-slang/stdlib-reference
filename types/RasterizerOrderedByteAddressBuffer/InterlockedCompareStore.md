@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedByteAddressBuffer\.InterlockedCompareStore
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dest`
-* `compare_value`
-* `value`
+#### dest : uint
+#### compare\_value : uint
+#### value : uint
 
 ## Availability and Requirements
 

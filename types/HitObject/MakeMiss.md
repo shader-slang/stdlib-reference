@@ -10,6 +10,9 @@ Creates a HitObject representing a miss based on values explicitly passed as arg
 tracing a ray. The provided shader table index must reference a valid miss record in the shader
 table.
 
+
+
+
 ## Signature 
 
 <pre>
@@ -21,8 +24,8 @@ table.
 
 ## Parameters
 
-* `MissShaderIndex`
-* `Ray`
+#### MissShaderIndex : uint
+#### Ray : RayDesc
 
 ## Availability and Requirements
 

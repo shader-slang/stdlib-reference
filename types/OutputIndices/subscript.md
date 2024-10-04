@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # OutputIndices\<T, MAX\_PRIMITIVES:uint\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,5 +20,5 @@ T <a href="/stdlib-reference/types/OutputIndices/index" class="code_type">Output
 
 ## Parameters
 
-* `index`
+#### index : uint
 

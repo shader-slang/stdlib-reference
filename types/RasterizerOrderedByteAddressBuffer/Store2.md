@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedByteAddressBuffer\.Store2
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,9 +26,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `address`
-* `value`
-* `alignment`
+#### address : uint
+#### value : vector\<uint,2\>
+#### alignment : uint
 
 ## Availability and Requirements
 

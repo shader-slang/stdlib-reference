@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IDifferentiable\.dzero
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

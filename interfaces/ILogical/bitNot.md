@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ILogical\.bitNot
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

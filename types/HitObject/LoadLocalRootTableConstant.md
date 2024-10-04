@@ -9,6 +9,9 @@ layout: stdlib-reference
 Loads a root constant from the local root table referenced by the hit object. Valid if the hit object
 represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 
+
+
+
 ## Signature 
 
 <pre>
@@ -18,7 +21,7 @@ represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 
 ## Parameters
 
-* `RootConstantOffsetInBytes`
+#### RootConstantOffsetInBytes : uint
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # round
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,12 @@ T <a href="/stdlib-reference/global-decls/round">round</a>&lt;T&gt;(T <span clas
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

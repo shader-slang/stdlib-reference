@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Atomic\<T\>\.load
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,5 +20,5 @@ T <a href="/stdlib-reference/types/Atomic/index" class="code_type">Atomic</a>&lt
 
 ## Parameters
 
-* `order`
+#### order : MemoryOrder = MemoryOrder\\.Relaxed
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Atomic\<T\>\.store
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `newValue`
-* `order`
+#### newValue : T
+#### order : MemoryOrder = MemoryOrder\\.Relaxed
 

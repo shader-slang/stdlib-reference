@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IFunc\<TR, each TP\>\.operator\(\)
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,5 +19,5 @@ TR <a href="/stdlib-reference/interfaces/IFunc/index" class="code_type">IFunc</a
 
 ## Parameters
 
-* `p`
+#### p : TP
 

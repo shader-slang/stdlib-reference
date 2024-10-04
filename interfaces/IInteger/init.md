@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IInteger\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,5 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `val`
+#### val : int
+#### val : int64\_t
 

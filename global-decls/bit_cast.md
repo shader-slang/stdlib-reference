@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # bit\_cast
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ T <a href="/stdlib-reference/global-decls/bit_cast">bit_cast</a>&lt;T, U&gt;(U <
 
 ## Parameters
 
-* `T`
-* `U`
-* `value`
+#### T
+#### U
+#### value : U
 

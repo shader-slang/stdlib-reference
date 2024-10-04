@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ILogical\.not
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

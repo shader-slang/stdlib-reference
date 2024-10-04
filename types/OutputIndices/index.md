@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* T
-* MAX\_PRIMITIVES : uint
+#### T
+#### MAX\_PRIMITIVES : uint
 
 ## Methods
 

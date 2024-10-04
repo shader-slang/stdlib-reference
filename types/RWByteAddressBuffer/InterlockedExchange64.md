@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedExchange64
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -21,9 +27,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `value`
-* `outOriginalValue`
+#### byteAddress : uint
+#### value : int64\_t
+#### outOriginalValue : int64\_t
+#### value : uint64\_t
+#### outOriginalValue : uint64\_t
 
 ## Availability and Requirements
 

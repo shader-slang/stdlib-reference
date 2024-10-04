@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # String\.getLength
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedCompareExchange64
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,10 +29,13 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `compareValue`
-* `value`
-* `outOriginalValue`
+#### byteAddress : uint
+#### compareValue : int64\_t
+#### value : int64\_t
+#### outOriginalValue : int64\_t
+#### compareValue : uint64\_t
+#### value : uint64\_t
+#### outOriginalValue : uint64\_t
 
 ## Availability and Requirements
 

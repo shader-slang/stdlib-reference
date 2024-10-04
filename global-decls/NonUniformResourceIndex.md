@@ -6,8 +6,11 @@ layout: stdlib-reference
 
 ## Description
 
-`NonUniformResourceIndex` function is used to indicate if the resource index is
+<span class='code'><a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformResourceIndex</a></span> function is used to indicate if the resource index is
 divergent, and ensure scalarization happens correctly for each divergent lane.
+
+
+
 
 ## Signature 
 
@@ -21,9 +24,9 @@ T <a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformRes
 
 ## Parameters
 
-* `T`
-* `index`
-* `value`
+#### T
+#### index : T
+#### value : T
 
 ## Availability and Requirements
 

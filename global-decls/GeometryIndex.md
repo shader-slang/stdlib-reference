@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # GeometryIndex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

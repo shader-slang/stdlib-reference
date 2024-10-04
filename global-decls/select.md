@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # select
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -21,9 +27,12 @@ T <a href="/stdlib-reference/global-decls/select">select</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `condition`
-* `ifTrue`
-* `ifFalse`
+#### T
+#### N : int
+#### condition : bool
+#### ifTrue : T
+#### ifFalse : T
+#### condition : vector\<bool,N\>
+#### ifTrue : vector\<T,N\>
+#### ifFalse : vector\<T,N\>
 

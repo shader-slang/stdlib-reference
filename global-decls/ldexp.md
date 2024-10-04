@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ldexp
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -38,12 +44,18 @@ T <a href="/stdlib-reference/global-decls/ldexp">ldexp</a>&lt;T, E&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `E`
-* `x`
-* [`exp`](/stdlib-reference/global-decls/exp)
+#### T
+#### N : int
+#### M : int
+#### E
+#### x : T
+#### exp : T
+#### x : vector\<T,N\>
+#### exp : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### exp : matrix\<T,N,M\>
+#### exp : E
+#### exp : vector\<E,N\>
 
 ## Availability and Requirements
 

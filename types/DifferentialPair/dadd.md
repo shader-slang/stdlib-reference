@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DifferentialPair\<T\>\.dadd
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `a`
-* `b`
+#### a : DifferentialPair\<T\.Differential\>
+#### b : DifferentialPair\<T\.Differential\>
 

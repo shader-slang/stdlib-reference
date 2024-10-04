@@ -4,6 +4,13 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.Sample
 
+## Description
+
+Samples the texture at the given location.
+
+
+
+
 ## Signature 
 
 <pre>
@@ -81,11 +88,37 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-* `location`
-* `offset`
-* [`clamp`](/stdlib-reference/global-decls/clamp)
-* `status`
-* `s`
+#### location : vector\<float,isArray+Shape\.dimensions\>
+The location to sample the texture at.
+
+#### offset : vector\<int,Shape\.planeDimensions\>
+Texel offset to apply.
+
+#### clamp : float
+The max level of detail to use.
+
+#### status : uint
+\[out\] The result status of the operation.
+This parameter is currently only used when targeting HLSL.
+For other targets, the result status is always 0.
+
+#### s : SamplerState
+The <span class='code'><a href="/stdlib-reference/types/SamplerState/index" class="code_type">SamplerState</a></span> to use for the sampling operation. This parameter is omitted when <span class='code'>this</span> is a combined texture sampler type (<span class='code'>isCombined==0</span>).
+
+
+## Return value
+The sampled texture value.
+
+## Remarks
+
+The <span class='code'><a href="/stdlib-reference/types/Texture/Sample">Sample</a></span> function is defined for all read-only texture types, including
+<span class='code'><a href="/stdlib-reference/types/Texture1D">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2D">Texture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture3D">Texture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/TextureCube">TextureCube</a></span>,
+<span class='code'><a href="/stdlib-reference/types/Texture1DArray">Texture1DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2DArray">Texture2DArray</a></span> and <span class='code'><a href="/stdlib-reference/types/TextureCubeArray">TextureCubeArray</a></span>.
+
+The function is not available for read-write texture types.
+
+For HLSL/D3D targets, the texture element type must be a scalar or vector of float or half types.
+
 
 ## Availability and Requirements
 
@@ -161,4 +194,7 @@ Available in all stages.
 
 Requires capabilities: `spvImageQuery`, `spvSparseResidency`.
 
+
+## See Also
+<span class='code'><a href="/stdlib-reference/types/Texture/SampleBias">SampleBias</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture/SampleGrad">SampleGrad</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture/SampleCmp">SampleCmp</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture/SampleCmpLevelZero">SampleCmpLevelZero</a></span>.
 

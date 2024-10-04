@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # refract
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,11 +29,13 @@ T <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `i`
-* `n`
-* `eta`
+#### T
+#### N : int
+#### i : vector\<T,N\>
+#### n : vector\<T,N\>
+#### eta : T
+#### i : T
+#### n : T
 
 ## Availability and Requirements
 

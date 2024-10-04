@@ -6,12 +6,12 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* T
+#### T
 
 ## Properties
 
-* [hasValue](/stdlib-reference/types/Optional/hasValue)
-* [value](/stdlib-reference/types/Optional/value)
+#### [hasValue](/stdlib-reference/types/Optional/hasValue)
+#### [value](/stdlib-reference/types/Optional/value)
 
 ## Methods
 

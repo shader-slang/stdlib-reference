@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # mul
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -112,16 +118,30 @@ T <a href="/stdlib-reference/global-decls/mul">mul</a>&lt;T, N:<span class="code
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `R`
-* `C`
-* `x`
-* `y`
-* `left`
-* `right`
-* `dOut`
+#### T
+#### N : int
+#### M : int
+#### R : int
+#### C : int
+#### x : T
+#### y : T
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### y : matrix\<T,N,M\>
+#### left : vector\<T,N\>
+#### right : matrix\<T,N,M\>
+#### left : matrix\<T,N,M\>
+#### right : vector\<T,M\>
+#### left : matrix\<T,R,N\>
+#### right : matrix\<T,N,C\>
+#### left : DifferentialPair\<vector\<T,N\>\>
+#### right : DifferentialPair\<matrix\<T,N,M\>\>
+#### left : DifferentialPair\<matrix\<T,N,M\>\>
+#### right : DifferentialPair\<vector\<T,M\>\>
+#### left : DifferentialPair\<matrix\<T,R,N\>\>
+#### right : DifferentialPair\<matrix\<T,N,C\>\>
+#### dOut : matrix\<T,R,C\>
 
 ## Availability and Requirements
 

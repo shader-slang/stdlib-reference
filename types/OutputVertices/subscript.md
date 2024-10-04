@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # OutputVertices\<T, MAX\_VERTS:uint\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,5 +20,5 @@ T <a href="/stdlib-reference/types/OutputVertices/index" class="code_type">Outpu
 
 ## Parameters
 
-* `index`
+#### index : uint
 

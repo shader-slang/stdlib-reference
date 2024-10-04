@@ -8,8 +8,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* T
-* N : int
+#### T
+#### N : int
 
 ## Methods
 

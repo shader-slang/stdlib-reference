@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Given a string returns an integer hash of that string.
 
+
+
+
 ## Signature 
 
 <pre>
@@ -17,5 +20,5 @@ Given a string returns an integer hash of that string.
 
 ## Parameters
 
-* [`string`](/stdlib-reference/types/string)
+#### string : String
 

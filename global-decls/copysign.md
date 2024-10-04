@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # copysign
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -21,10 +27,12 @@ T <a href="/stdlib-reference/global-decls/copysign">copysign</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
-* `y`
+#### T
+#### N : int
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
+#### x : T
+#### y : T
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # faceforward
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,11 +23,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `N`
-* `n`
-* `i`
-* `ng`
+#### T
+#### N : int
+#### n : vector\<T,N\>
+#### i : vector\<T,N\>
+#### ng : vector\<T,N\>
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # TriangleStream\<T\>\.RestartStrip
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

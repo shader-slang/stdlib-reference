@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # OutputPatch\<T, N:int\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,6 +20,6 @@ T <a href="/stdlib-reference/types/OutputPatch/index" class="code_type">OutputPa
 
 ## Parameters
 
-* `TIndex`
-* `index`
+#### TIndex
+#### index : TIndex
 

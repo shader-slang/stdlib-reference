@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # CallShader
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `Payload`
-* `shaderIndex`
-* `payload`
+#### Payload
+#### shaderIndex : uint
+#### payload : Payload
 
 ## Availability and Requirements
 

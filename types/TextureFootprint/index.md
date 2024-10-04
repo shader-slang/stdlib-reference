@@ -8,13 +8,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* ND : int
+#### ND : int
 
 ## Fields
 
-* [\_isSingleLevel](/stdlib-reference/types/TextureFootprint/isSingleLevel) : bool
+#### [\_isSingleLevel](/stdlib-reference/types/TextureFootprint/isSingleLevel) : bool
 
 ## Properties
 
-* isSingleLevel
+#### isSingleLevel
 

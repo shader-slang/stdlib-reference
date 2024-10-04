@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Queries shader table index from HitObject. Valid if the hit object represents a hit or a miss.
 
+
+
+
 ## Signature 
 
 <pre>

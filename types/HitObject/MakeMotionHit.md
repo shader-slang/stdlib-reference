@@ -6,8 +6,11 @@ layout: stdlib-reference
 
 ## Description
 
-See MakeHit but handles Motion 
+See MakeHit but handles Motion
 Currently only supported on VK
+
+
+
 
 ## Signature 
 
@@ -41,18 +44,18 @@ Currently only supported on VK
 
 ## Parameters
 
-* `attr_t`
-* `AccelerationStructure`
-* [`InstanceIndex`](/stdlib-reference/global-decls/InstanceIndex)
-* [`GeometryIndex`](/stdlib-reference/global-decls/GeometryIndex)
-* [`PrimitiveIndex`](/stdlib-reference/global-decls/PrimitiveIndex)
-* [`HitKind`](/stdlib-reference/global-decls/HitKind)
-* `RayContributionToHitGroupIndex`
-* `MultiplierForGeometryContributionToHitGroupIndex`
-* `Ray`
-* `CurrentTime`
-* `attributes`
-* `HitGroupRecordIndex`
+#### attr\_t
+#### AccelerationStructure : RaytracingAccelerationStructure
+#### InstanceIndex : uint
+#### GeometryIndex : uint
+#### PrimitiveIndex : uint
+#### HitKind : uint
+#### RayContributionToHitGroupIndex : uint
+#### MultiplierForGeometryContributionToHitGroupIndex : uint
+#### Ray : RayDesc
+#### CurrentTime : float
+#### attributes : attr\_t
+#### HitGroupRecordIndex : uint
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # smoothstep
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -29,12 +35,18 @@ T <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* [`min`](/stdlib-reference/global-decls/min)
-* [`max`](/stdlib-reference/global-decls/max)
-* `x`
+#### T
+#### N : int
+#### M : int
+#### min : T
+#### max : T
+#### x : T
+#### min : vector\<T,N\>
+#### max : vector\<T,N\>
+#### x : vector\<T,N\>
+#### min : matrix\<T,N,M\>
+#### max : matrix\<T,N,M\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

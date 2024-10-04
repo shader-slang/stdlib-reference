@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Inverse sine (HLSL SM 1.0)
 
+
+
+
 ## Signature 
 
 <pre>
@@ -24,10 +27,12 @@ T <a href="/stdlib-reference/global-decls/asin">asin</a>&lt;T&gt;(T <span class=
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

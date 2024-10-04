@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IDifferentiable\.dmul
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `SLANG_anonymous_2`
-* `SLANG_anonymous_3`
+#### T
+#### SLANG\_anonymous\_2 : T
+#### SLANG\_anonymous\_3 : This\.Differential
 

@@ -4,6 +4,13 @@ layout: stdlib-reference
 
 # matrix\<T, R:int, C:int, L:int\>\.init
 
+## Description
+
+Initialize a vector from a value of the same type
+
+
+
+
 ## Signature 
 
 <pre>
@@ -1221,30 +1228,81 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `val`
-* `value`
-* `v`
-* `m00`
-* `row0`
-* `m01`
-* `m02`
-* `m03`
-* `m10`
-* `row1`
-* `m11`
-* `m12`
-* `m13`
-* `m20`
-* `row2`
-* `m`
-* `m21`
-* `m22`
-* `m23`
-* `m30`
-* `row3`
-* `m31`
-* `m32`
-* `m33`
+#### val : T
+#### value : matrix\<T,R,C\>
+#### v : int
+#### v : float
+#### value : int
+#### value : vector\<T,4\>
+#### m00 : T
+#### row0 : vector\<T,1\>
+#### value : matrix\<T,1,2\>
+#### value : matrix\<T,1,3\>
+#### value : matrix\<T,1,4\>
+#### value : matrix\<T,2,1\>
+#### value : matrix\<T,2,2\>
+#### value : matrix\<T,2,3\>
+#### value : matrix\<T,2,4\>
+#### value : matrix\<T,3,1\>
+#### value : matrix\<T,3,2\>
+#### value : matrix\<T,3,3\>
+#### value : matrix\<T,3,4\>
+#### value : matrix\<T,4,1\>
+#### value : matrix\<T,4,2\>
+#### value : matrix\<T,4,3\>
+#### value : matrix\<T,4,4\>
+#### m01 : T
+#### row0 : vector\<T,2\>
+#### m02 : T
+#### row0 : vector\<T,3\>
+#### m03 : T
+#### row0 : vector\<T,4\>
+#### m10 : T
+#### row1 : vector\<T,1\>
+#### m11 : T
+#### row1 : vector\<T,2\>
+#### m12 : T
+#### row1 : vector\<T,3\>
+#### m13 : T
+#### row1 : vector\<T,4\>
+#### m20 : T
+#### row2 : vector\<T,1\>
+#### m : matrix\<T,2,1\>
+#### m21 : T
+#### row2 : vector\<T,2\>
+#### m : matrix\<T,2,2\>
+#### m22 : T
+#### row2 : vector\<T,3\>
+#### m : matrix\<T,2,3\>
+#### m23 : T
+#### row2 : vector\<T,4\>
+#### m : matrix\<T,2,4\>
+#### m30 : T
+#### row3 : vector\<T,1\>
+#### m : matrix\<T,3,1\>
+#### m31 : T
+#### row3 : vector\<T,2\>
+#### m : matrix\<T,3,2\>
+#### m32 : T
+#### row3 : vector\<T,3\>
+#### m : matrix\<T,3,3\>
+#### m33 : T
+#### row3 : vector\<T,4\>
+#### m : matrix\<T,3,4\>
+#### value : matrix\<int8\_t,R,C\>
+#### value : matrix\<int16\_t,R,C\>
+#### value : matrix\<int,R,C\>
+#### value : matrix\<int64\_t,R,C\>
+#### value : matrix\<intptr\_t,R,C\>
+#### value : matrix\<half,R,C\>
+#### value : matrix\<float,R,C\>
+#### value : matrix\<double,R,C\>
+#### value : matrix\<uint8\_t,R,C\>
+#### value : matrix\<uint16\_t,R,C\>
+#### value : matrix\<uint,R,C\>
+#### value : matrix\<uint64\_t,R,C\>
+#### value : matrix\<uintptr\_t,R,C\>
+#### value : matrix\<bool,R,C\>
 
 ## Availability and Requirements
 

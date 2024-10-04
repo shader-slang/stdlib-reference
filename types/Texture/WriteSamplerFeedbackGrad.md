@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.WriteSamplerFeedbackGrad
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -77,14 +83,17 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `S`
-* `tex`
-* `samp`
-* `location`
-* [`ddx`](/stdlib-reference/global-decls/ddx)
-* [`ddy`](/stdlib-reference/global-decls/ddy)
-* [`clamp`](/stdlib-reference/global-decls/clamp)
-* `texArray`
+#### S
+#### tex : Texture2D\<S\>
+#### samp : SamplerState
+#### location : vector\<float,2\>
+#### ddx : vector\<float,2\>
+#### ddy : vector\<float,2\>
+#### clamp : float
+#### texArray : Texture2DArray\<S\>
+#### location : vector\<float,3\>
+#### ddx : vector\<float,3\>
+#### ddy : vector\<float,3\>
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # asfloat16
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -34,10 +40,18 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `R`
-* `C`
-* `value`
+#### N : int
+#### R : int
+#### C : int
+#### value : half
+#### value : vector\<half,N\>
+#### value : matrix\<half,R,C\>
+#### value : uint16\_t
+#### value : vector\<uint16\_t,N\>
+#### value : matrix\<uint16\_t,R,C\>
+#### value : int16\_t
+#### value : vector\<int16\_t,N\>
+#### value : matrix\<int16\_t,R,C\>
 
 ## Availability and Requirements
 

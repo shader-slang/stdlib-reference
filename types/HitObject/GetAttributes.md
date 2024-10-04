@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Returns the attributes of a hit. Valid if the hit object represents a hit or a miss.
 
+
+
+
 ## Signature 
 
 <pre>

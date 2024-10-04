@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWStructuredBuffer\<T, L\>\.GetDimensions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,8 +22,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `numStructs`
-* `stride`
+#### numStructs : uint
+#### stride : uint
 
 ## Availability and Requirements
 

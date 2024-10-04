@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IgnoreHit
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

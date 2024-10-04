@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.GetDimensions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -491,14 +497,26 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `width`
-* `mipLevel`
-* `numberOfLevels`
-* `elements`
-* `height`
-* `sampleCount`
-* `depth`
-* `dim`
+#### width : float
+#### mipLevel : uint
+#### numberOfLevels : float
+#### width : int
+#### numberOfLevels : int
+#### width : uint
+#### numberOfLevels : uint
+#### elements : float
+#### elements : int
+#### elements : uint
+#### height : float
+#### height : int
+#### height : uint
+#### sampleCount : float
+#### sampleCount : int
+#### sampleCount : uint
+#### depth : float
+#### depth : int
+#### depth : uint
+#### dim : uint
 
 ## Availability and Requirements
 

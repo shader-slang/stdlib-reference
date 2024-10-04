@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # sincos
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -29,14 +35,20 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `L1`
-* `L2`
-* `x`
-* `s`
-* `c`
+#### T
+#### N : int
+#### M : int
+#### L1 : int
+#### L2 : int
+#### x : T
+#### s : T
+#### c : T
+#### x : vector\<T,N\>
+#### s : vector\<T,N\>
+#### c : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### s : matrix\<T,N,M\>
+#### c : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

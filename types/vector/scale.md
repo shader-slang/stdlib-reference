@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # vector\<T,N\>\.scale
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T1`
-* `s`
+#### T1
+#### s : T1
 

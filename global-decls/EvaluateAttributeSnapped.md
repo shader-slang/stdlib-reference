@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # EvaluateAttributeSnapped
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,11 +32,13 @@ T <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped">EvaluateAttr
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
-* `offset`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### offset : vector\<int,2\>
+#### x : vector\<T,N\>
+#### x : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

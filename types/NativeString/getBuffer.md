@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # NativeString\.getBuffer
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

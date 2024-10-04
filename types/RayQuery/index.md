@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-* rayFlagsGeneric : uint = RAY \_FLAG \_NONE
+#### rayFlagsGeneric : uint = RAY\\_FLAG\\_NONE
 
 ## Methods
 

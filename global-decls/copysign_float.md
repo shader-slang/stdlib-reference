@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # copysign\_float
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `x`
-* `y`
+#### N : int
+#### x : vector\<float,N\>
+#### y : vector\<float,N\>
 
 ## Availability and Requirements
 

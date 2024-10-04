@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedAddI64
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,9 +26,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `valueToAdd`
-* `originalValue`
+#### byteAddress : uint
+#### valueToAdd : int64\_t
+#### originalValue : int64\_t
 
 ## Availability and Requirements
 

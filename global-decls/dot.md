@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # dot
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,10 +32,12 @@ T <a href="/stdlib-reference/global-decls/dot">dot</a>&lt;T, N:<span class="code
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
-* `y`
+#### T
+#### N : int
+#### x : T
+#### y : T
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
 
 ## Availability and Requirements
 

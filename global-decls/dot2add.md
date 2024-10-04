@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # dot2add
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `left`
-* `right`
-* `acc`
+#### left : vector\<float,2\>
+#### right : vector\<float,2\>
+#### acc : float
 

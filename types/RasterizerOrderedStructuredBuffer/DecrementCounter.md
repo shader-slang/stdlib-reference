@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedStructuredBuffer\<T, L\>\.DecrementCounter
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

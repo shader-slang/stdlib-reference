@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IArithmetic\.neg
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

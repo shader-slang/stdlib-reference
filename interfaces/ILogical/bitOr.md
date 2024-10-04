@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ILogical\.bitOr
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `other`
+#### other : This
 

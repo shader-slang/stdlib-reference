@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # matrix\<T, R:int, C:int, L:int\>\.getCount
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveActiveMin
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,12 @@ T <a href="/stdlib-reference/global-decls/WaveActiveMin">WaveActiveMin</a>&lt;T&
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `expr`
+#### T
+#### N : int
+#### M : int
+#### expr : T
+#### expr : vector\<T,N\>
+#### expr : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

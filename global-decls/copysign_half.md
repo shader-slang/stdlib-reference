@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # copysign\_half
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `x`
-* `y`
+#### N : int
+#### x : vector\<half,N\>
+#### y : vector\<half,N\>
 
 ## Availability and Requirements
 

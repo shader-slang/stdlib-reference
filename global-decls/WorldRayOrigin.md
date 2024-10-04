@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WorldRayOrigin
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

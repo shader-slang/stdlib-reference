@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # matrix\<T,R,C\>\.dzero
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

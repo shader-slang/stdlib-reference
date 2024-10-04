@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # cudaBlockDim
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

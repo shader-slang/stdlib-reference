@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DispatchMesh
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,11 +23,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `P`
-* `threadGroupCountX`
-* `threadGroupCountY`
-* `threadGroupCountZ`
-* `meshPayload`
+#### P
+#### threadGroupCountX : uint
+#### threadGroupCountY : uint
+#### threadGroupCountZ : uint
+#### meshPayload : P
 
 ## Availability and Requirements
 

@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Returns the geometry index of a hit. Valid if the hit object represents a hit.
 
+
+
+
 ## Signature 
 
 <pre>

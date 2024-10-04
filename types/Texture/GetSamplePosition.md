@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.GetSamplePosition
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `s`
+#### s : int
 
 ## Availability and Requirements
 

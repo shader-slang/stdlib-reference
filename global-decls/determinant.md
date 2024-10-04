@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # determinant
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,9 +20,9 @@ T <a href="/stdlib-reference/global-decls/determinant">determinant</a>&lt;T, N:<
 
 ## Parameters
 
-* `T`
-* `N`
-* `m`
+#### T
+#### N : int
+#### m : matrix\<T,N,N\>
 
 ## Availability and Requirements
 

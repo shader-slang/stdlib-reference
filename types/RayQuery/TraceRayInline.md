@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayQuery\<rayFlagsGeneric:uint\>\.TraceRayInline
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `accelerationStructure`
-* `rayFlags`
-* `instanceInclusionMask`
-* `ray`
+#### accelerationStructure : RaytracingAccelerationStructure
+#### rayFlags : uint
+#### instanceInclusionMask : uint
+#### ray : RayDesc
 
 ## Availability and Requirements
 

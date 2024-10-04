@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Optional\<T\>\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `val`
+#### val : T
 

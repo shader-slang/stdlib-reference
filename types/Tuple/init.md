@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Tuple\<each T\>\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `SLANG_anonymous_4`
+#### SLANG\_anonymous\_4 : T
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedExchangeFloat
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `value`
-* `outOriginalValue`
+#### byteAddress : uint
+#### value : float
+#### outOriginalValue : float
 
 ## Availability and Requirements
 

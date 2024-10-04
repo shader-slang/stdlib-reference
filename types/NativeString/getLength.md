@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # NativeString\.getLength
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

@@ -6,7 +6,10 @@ layout: stdlib-reference
 
 ## Description
 
-Initialize a vector where all elements have the same scalar `value`.
+Initialize a vector where all elements have the same scalar <span class='code'>value</span>.
+
+
+
 
 ## Signature 
 
@@ -1181,16 +1184,47 @@ Initialize a vector where all elements have the same scalar `value`.
 
 ## Parameters
 
-* `L`
-* `value`
-* `v`
-* `x`
-* `y`
-* `z`
-* `xy`
-* `yz`
-* `w`
-* `zw`
-* `xyz`
-* `yzw`
+#### L : int
+#### value : T
+#### value : vector\<T,N\>
+#### v : int
+#### v : float
+#### value : matrix\<T,2,2\>
+#### x : T
+#### y : T
+#### z : T
+#### xy : vector\<T,2\>
+#### yz : vector\<T,2\>
+#### w : T
+#### zw : vector\<T,2\>
+#### xyz : vector\<T,3\>
+#### yzw : vector\<T,3\>
+#### value : vector\<int8\_t,N\>
+#### value : int8\_t
+#### value : vector\<int16\_t,N\>
+#### value : int16\_t
+#### value : vector\<int,N\>
+#### value : int
+#### value : vector\<int64\_t,N\>
+#### value : int64\_t
+#### value : vector\<intptr\_t,N\>
+#### value : intptr\_t
+#### value : vector\<half,N\>
+#### value : half
+#### value : vector\<float,N\>
+#### value : float
+#### value : vector\<double,N\>
+#### value : double
+#### value : vector\<uint8\_t,N\>
+#### value : uint8\_t
+#### value : vector\<uint16\_t,N\>
+#### value : uint16\_t
+#### value : vector\<uint,N\>
+#### value : uint
+#### value : vector\<uint64\_t,N\>
+#### value : uint64\_t
+#### value : vector\<uintptr\_t,N\>
+#### value : uintptr\_t
+#### value : vector\<bool,N\>
+#### value : bool
 

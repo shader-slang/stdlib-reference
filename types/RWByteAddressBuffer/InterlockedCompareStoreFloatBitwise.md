@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedCompareStoreFloatBitwise
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `byteAddress`
-* `compareValue`
-* `value`
+#### byteAddress : uint
+#### compareValue : float
+#### value : float
 
 ## Availability and Requirements
 

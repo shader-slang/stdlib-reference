@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # StructuredBuffer\<T, L\>\.subscript
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ T <a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">Str
 
 ## Parameters
 
-* `TIndex`
-* `index`
+#### TIndex
+#### index : TIndex
 

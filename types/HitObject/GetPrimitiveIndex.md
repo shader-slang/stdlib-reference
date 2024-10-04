@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Returns the primitive index of a hit. Valid if the hit object represents a hit.
 
+
+
+
 ## Signature 
 
 <pre>

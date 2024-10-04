@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # cudaThreadIdx
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

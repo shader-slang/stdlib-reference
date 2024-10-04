@@ -14,10 +14,10 @@ A matrix with `R` rows and `C` columns, with elements of type `T`.
 
 ## Generic Parameters
 
-* [T](/stdlib-reference/types/matrix/T)
-* R : int =4
-* C : int =4
-* L : int =0
+#### T
+#### R : int = 4
+#### C : int = 4
+#### L : int = 0
 
 ## Methods
 

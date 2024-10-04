@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_WaveCountBits
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `value`
+#### value : vector\<uint,4\>
 
 ## Availability and Requirements
 

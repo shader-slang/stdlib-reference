@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ReportHit
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,10 +22,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `A`
-* `tHit`
-* `hitKind`
-* `attributes`
+#### A
+#### tHit : float
+#### hitKind : uint
+#### attributes : A
 
 ## Availability and Requirements
 

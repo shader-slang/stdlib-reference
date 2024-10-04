@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Atomic\<T\>\.compareExchange
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -18,8 +24,8 @@ T <a href="/stdlib-reference/types/Atomic/index" class="code_type">Atomic</a>&lt
 
 ## Parameters
 
-* `compareValue`
-* `newValue`
-* `successOrder`
-* `failOrder`
+#### compareValue : T
+#### newValue : T
+#### successOrder : MemoryOrder = MemoryOrder\\.Relaxed
+#### failOrder : MemoryOrder = MemoryOrder\\.Relaxed
 

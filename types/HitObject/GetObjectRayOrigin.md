@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # HitObject\.GetObjectRayOrigin
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # firstbitlow
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -19,8 +25,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `N`
-* `value`
+#### N : int
+#### value : int
+#### value : vector\<int,N\>
+#### value : uint
+#### value : vector\<uint,N\>
 
 ## Availability and Requirements
 

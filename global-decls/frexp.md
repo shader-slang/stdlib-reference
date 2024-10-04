@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # frexp
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -26,12 +32,16 @@ T <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `L`
-* `x`
-* [`exp`](/stdlib-reference/global-decls/exp)
+#### T
+#### N : int
+#### M : int
+#### L : int
+#### x : T
+#### exp : int
+#### x : vector\<T,N\>
+#### exp : vector\<int,N\>
+#### x : matrix\<T,N,M\>
+#### exp : matrix\<int,N,M\>
 
 ## Availability and Requirements
 

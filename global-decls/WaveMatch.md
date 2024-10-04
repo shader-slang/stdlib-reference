@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveMatch
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,12 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `value`
+#### T
+#### N : int
+#### M : int
+#### value : T
+#### value : vector\<T,N\>
+#### value : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

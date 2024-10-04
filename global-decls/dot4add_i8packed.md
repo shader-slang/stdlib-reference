@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # dot4add\_i8packed
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `left`
-* `right`
-* `acc`
+#### left : uint
+#### right : uint
+#### acc : int
 

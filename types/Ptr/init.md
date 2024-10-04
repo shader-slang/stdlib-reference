@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # Ptr\<T, addrSpace:uint64\_t\>\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -29,10 +35,13 @@ Addr&lt;T&gt;.<a href="/stdlib-reference/types/Ptr/init">init</a>&lt;T&gt;(Nativ
 
 ## Parameters
 
-* `U`
-* `T`
-* `addrSpace`
-* `ptr`
-* `val`
-* `nativeStr`
+#### U
+#### T
+#### addrSpace : uint64\_t
+#### ptr : Addr\<U\>
+#### val : uint64\_t
+#### val : int64\_t
+#### nativeStr : NativeString
+#### ptr : Addr\<T\>
+#### ptr : NativeRef\<T\>
 

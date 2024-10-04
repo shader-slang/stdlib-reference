@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IDifferentiableMutatingFunc\<TR, each TP\>\.operator\(\)
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,5 +22,5 @@ TR <a href="/stdlib-reference/interfaces/IDifferentiableMutatingFunc/index" clas
 
 ## Parameters
 
-* `p`
+#### p : TP
 

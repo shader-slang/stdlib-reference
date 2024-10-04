@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveGetLaneCount
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

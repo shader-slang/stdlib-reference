@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.CalculateLevelOfDetailUnclamped
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,8 +29,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `location`
-* `s`
+#### location : vector\<float,Shape\.dimensions\>
+#### s : SamplerState
 
 ## Availability and Requirements
 

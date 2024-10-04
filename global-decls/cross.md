@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # cross
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -21,9 +27,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `left`
-* `right`
+#### T
+#### left : vector\<T,3\>
+#### right : vector\<T,3\>
 
 ## Availability and Requirements
 

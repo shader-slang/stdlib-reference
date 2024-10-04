@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # divide
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -21,10 +27,12 @@ T <a href="/stdlib-reference/global-decls/divide">divide</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
-* `y`
+#### T
+#### N : int
+#### x : T
+#### y : T
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
 
 ## Availability and Requirements
 

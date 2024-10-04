@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IDefaultInitializable\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

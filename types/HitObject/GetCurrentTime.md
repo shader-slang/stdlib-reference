@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # HitObject\.GetCurrentTime
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

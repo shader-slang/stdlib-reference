@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IMutatingFunc\<TR, each TP\>\.operator\(\)
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,5 +19,5 @@ TR <a href="/stdlib-reference/interfaces/IMutatingFunc/index" class="code_type">
 
 ## Parameters
 
-* `p`
+#### p : TP
 

@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Fields
 
-* [dimensions](/stdlib-reference/types/Shape3D/dimensions) : int =3
-* [flavor](/stdlib-reference/types/Shape3D/flavor) : int =3
-* [planeDimensions](/stdlib-reference/types/Shape3D/planeDimensions) : int =3
+#### [dimensions](/stdlib-reference/types/Shape3D/dimensions) : int =3
+#### [flavor](/stdlib-reference/types/Shape3D/flavor) : int =3
+#### [planeDimensions](/stdlib-reference/types/Shape3D/planeDimensions) : int =3
 

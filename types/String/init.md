@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # String\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,7 +29,12 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `val`
+#### val : int
+#### val : uint
+#### val : int64\_t
+#### val : uint64\_t
+#### val : float
+#### val : double
 
 ## Availability and Requirements
 

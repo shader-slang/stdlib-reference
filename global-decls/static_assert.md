@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # static\_assert
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `condition`
-* `errorMessage`
+#### condition : bool
+#### errorMessage : NativeString
 

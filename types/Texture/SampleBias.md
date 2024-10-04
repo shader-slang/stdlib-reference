@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.SampleBias
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -43,10 +49,10 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-* `location`
-* `bias`
-* `offset`
-* `s`
+#### location : vector\<float,isArray+Shape\.dimensions\>
+#### bias : float
+#### offset : vector\<int,Shape\.planeDimensions\>
+#### s : SamplerState
 
 ## Availability and Requirements
 

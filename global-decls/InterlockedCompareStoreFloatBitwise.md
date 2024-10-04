@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # InterlockedCompareStoreFloatBitwise
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dest`
-* `compare_value`
-* `value`
+#### dest : float
+#### compare\_value : float
+#### value : float
 

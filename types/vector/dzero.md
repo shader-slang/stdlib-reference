@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # vector\<T,N\>\.dzero
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

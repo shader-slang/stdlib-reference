@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # lerp
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -29,12 +35,18 @@ T <a href="/stdlib-reference/global-decls/lerp">lerp</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
-* `y`
-* `s`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### y : T
+#### s : T
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
+#### s : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### y : matrix\<T,N,M\>
+#### s : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

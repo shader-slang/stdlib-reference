@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IFloat\.toFloat
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

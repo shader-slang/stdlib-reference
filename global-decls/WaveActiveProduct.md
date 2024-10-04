@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveActiveProduct
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -20,10 +26,12 @@ T <a href="/stdlib-reference/global-decls/WaveActiveProduct">WaveActiveProduct</
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `expr`
+#### T
+#### N : int
+#### M : int
+#### expr : T
+#### expr : vector\<T,N\>
+#### expr : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

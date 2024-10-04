@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # D3DCOLORtoUBYTE4
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `color`
+#### color : vector\<float,4\>
 
 ## Availability and Requirements
 

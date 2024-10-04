@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IDifferentiableFunc\<TR, each TP\>\.operator\(\)
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,5 +22,5 @@ TR <a href="/stdlib-reference/interfaces/IDifferentiableFunc/index" class="code_
 
 ## Parameters
 
-* `p`
+#### p : TP
 

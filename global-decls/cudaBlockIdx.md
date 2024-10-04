@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # cudaBlockIdx
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

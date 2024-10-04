@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveIsFirstLane
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

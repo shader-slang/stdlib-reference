@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ByteAddressBuffer\.GetDimensions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dim`
+#### dim : uint
 
 ## Availability and Requirements
 

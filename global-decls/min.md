@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # min
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -41,11 +47,15 @@ T <a href="/stdlib-reference/global-decls/min">min</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `M`
-* `x`
-* `y`
+#### T
+#### N : int
+#### M : int
+#### x : T
+#### y : T
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
+#### x : matrix\<T,N,M\>
+#### y : matrix\<T,N,M\>
 
 ## Availability and Requirements
 

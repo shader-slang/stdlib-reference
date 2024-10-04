@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.LoadAligned
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,8 +19,8 @@ T <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">
 
 ## Parameters
 
-* `T`
-* `location`
+#### T
+#### location : int
 
 ## Availability and Requirements
 

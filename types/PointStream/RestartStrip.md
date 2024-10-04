@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # PointStream\<T\>\.RestartStrip
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

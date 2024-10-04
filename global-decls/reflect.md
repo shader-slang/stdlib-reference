@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # reflect
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -21,10 +27,12 @@ T <a href="/stdlib-reference/global-decls/reflect">reflect</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `i`
-* `n`
+#### T
+#### N : int
+#### i : T
+#### n : T
+#### i : vector\<T,N\>
+#### n : vector\<T,N\>
 
 ## Availability and Requirements
 

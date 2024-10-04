@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # length
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,9 +23,10 @@ T <a href="/stdlib-reference/global-decls/length">length</a>&lt;T&gt;(T <span cl
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
+#### T
+#### N : int
+#### x : vector\<T,N\>
+#### x : T
 
 ## Availability and Requirements
 

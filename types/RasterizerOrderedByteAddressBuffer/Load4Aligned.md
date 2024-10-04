@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedByteAddressBuffer\.Load4Aligned
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `location`
+#### location : int
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ObjectRayDirection
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

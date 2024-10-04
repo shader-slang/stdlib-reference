@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DeviceMemoryBarrierWithGroupSync
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

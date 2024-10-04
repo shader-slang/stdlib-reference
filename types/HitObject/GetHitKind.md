@@ -8,6 +8,9 @@ layout: stdlib-reference
 
 Returns the hit kind. Valid if the hit object represents a hit.
 
+
+
+
 ## Signature 
 
 <pre>

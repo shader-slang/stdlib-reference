@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayTCurrent
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

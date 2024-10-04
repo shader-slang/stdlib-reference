@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.GatherCmpBlue
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -315,15 +321,15 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `s`
-* `location`
-* `compareValue`
-* `status`
-* `offset`
-* `offset1`
-* `offset2`
-* `offset3`
-* `offset4`
+#### s : SamplerComparisonState
+#### location : vector\<float,isArray+Shape\.dimensions\>
+#### compareValue : T
+#### status : uint
+#### offset : vector\<int,Shape\.planeDimensions\>
+#### offset1 : vector\<int,Shape\.planeDimensions\>
+#### offset2 : vector\<int,Shape\.planeDimensions\>
+#### offset3 : vector\<int,Shape\.planeDimensions\>
+#### offset4 : vector\<int,Shape\.planeDimensions\>
 
 ## Availability and Requirements
 

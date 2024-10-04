@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # fmedian3
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -23,11 +29,14 @@ T <a href="/stdlib-reference/global-decls/fmedian3">fmedian3</a>&lt;T&gt;(
 
 ## Parameters
 
-* `T`
-* `N`
-* `x`
-* `y`
-* `z`
+#### T
+#### N : int
+#### x : T
+#### y : T
+#### z : T
+#### x : vector\<T,N\>
+#### y : vector\<T,N\>
+#### z : vector\<T,N\>
 
 ## Availability and Requirements
 

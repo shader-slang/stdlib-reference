@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ConsumeStructuredBuffer\<T, L\>\.Consume
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

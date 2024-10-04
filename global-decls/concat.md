@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # concat
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `T`
-* `U`
-* `t`
-* `u`
+#### T
+#### U
+#### t : Tuple\<T\>
+#### u : Tuple\<U\>
 

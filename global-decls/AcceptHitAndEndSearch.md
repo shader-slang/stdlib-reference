@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # AcceptHitAndEndSearch
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

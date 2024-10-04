@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # matrix\<T,R,C\>\.dadd
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `a`
-* `b`
+#### a : matrix\<T,N,M\>
+#### b : matrix\<T,N,M\>
 

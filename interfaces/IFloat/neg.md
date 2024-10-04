@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # IFloat\.neg
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

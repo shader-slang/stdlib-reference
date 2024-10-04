@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ByteAddressBuffer\.Load4Aligned
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `location`
+#### location : int
 
 ## Availability and Requirements
 

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.InterlockedMinU64
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code
 
 ## Parameters
 
-* `byteAddress`
-* `value`
+#### byteAddress : uint
+#### value : uint64\_t
 
 ## Availability and Requirements
 

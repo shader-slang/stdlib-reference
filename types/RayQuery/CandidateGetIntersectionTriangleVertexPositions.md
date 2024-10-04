@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayQuery\<rayFlagsGeneric:uint\>\.CandidateGetIntersectionTriangleVertexPositions
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

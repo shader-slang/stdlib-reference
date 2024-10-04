@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedByteAddressBuffer\.InterlockedExchange
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dest`
-* `value`
-* `original_value`
+#### dest : uint
+#### value : uint
+#### original\_value : uint
 
 ## Availability and Requirements
 

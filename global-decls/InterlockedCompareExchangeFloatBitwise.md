@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # InterlockedCompareExchangeFloatBitwise
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -22,8 +28,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `dest`
-* `compare_value`
-* `value`
-* `original_value`
+#### dest : float
+#### compare\_value : float
+#### value : float
+#### original\_value : float
 

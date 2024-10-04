@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ObjectRayOrigin
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

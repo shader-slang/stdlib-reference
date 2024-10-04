@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayQuery\<rayFlagsGeneric:uint\>\.CommitProceduralPrimitiveHit
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `t`
+#### t : float
 
 ## Availability and Requirements
 

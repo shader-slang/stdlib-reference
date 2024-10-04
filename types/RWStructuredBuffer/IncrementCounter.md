@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWStructuredBuffer\<T, L\>\.IncrementCounter
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

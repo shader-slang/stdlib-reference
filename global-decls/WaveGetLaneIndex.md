@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveGetLaneIndex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

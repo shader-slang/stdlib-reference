@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # HitObject\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WorkgroupSize
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

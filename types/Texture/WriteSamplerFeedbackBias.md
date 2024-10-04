@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.WriteSamplerFeedbackBias
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -73,13 +79,14 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `S`
-* `tex`
-* `samp`
-* `location`
-* `bias`
-* [`clamp`](/stdlib-reference/global-decls/clamp)
-* `texArray`
+#### S
+#### tex : Texture2D\<S\>
+#### samp : SamplerState
+#### location : vector\<float,2\>
+#### bias : float
+#### clamp : float
+#### texArray : Texture2DArray\<S\>
+#### location : vector\<float,3\>
 
 ## Availability and Requirements
 

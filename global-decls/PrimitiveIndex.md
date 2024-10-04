@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # PrimitiveIndex
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

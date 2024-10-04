@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # SetMeshOutputCounts
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `vertexCount`
-* `primitiveCount`
+#### vertexCount : uint
+#### primitiveCount : uint
 
 ## Availability and Requirements
 

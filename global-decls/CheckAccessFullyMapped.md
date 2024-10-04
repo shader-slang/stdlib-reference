@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # CheckAccessFullyMapped
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `status`
+#### status : uint
 
 ## Availability and Requirements
 

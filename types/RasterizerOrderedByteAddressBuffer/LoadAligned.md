@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RasterizerOrderedByteAddressBuffer\.LoadAligned
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -14,8 +20,8 @@ T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" cla
 
 ## Parameters
 
-* `T`
-* `location`
+#### T
+#### location : int
 
 ## Availability and Requirements
 

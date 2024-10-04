@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ByteAddressBuffer\.LoadAligned
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -13,6 +19,6 @@ T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">By
 
 ## Parameters
 
-* `T`
-* `location`
+#### T
+#### location : int
 

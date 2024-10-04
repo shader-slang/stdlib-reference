@@ -6,12 +6,15 @@ layout: stdlib-reference
 
 ## Description
 
- Query the footprint that would be accessed by a texture sampling operation.
+Query the footprint that would be accessed by a texture sampling operation.
 
- This operation queries the footprint that would be accessed
- by a comparable call to:
+This operation queries the footprint that would be accessed
+by a comparable call to:
 
-     t.SampleGradClamp(sampler, coords, dx, dy, lodClamp);
+t.SampleGradClamp(sampler, coords, dx, dy, lodClamp);
+
+
+
 
 ## Signature 
 
@@ -33,10 +36,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `granularity`
-* `sampler`
-* `coords`
-* `dx`
-* `dy`
-* `lodClamp`
+#### granularity : uint
+#### sampler : SamplerState
+#### coords : vector\<float,Shape\.dimensions\>
+#### dx : vector\<float,Shape\.dimensions\>
+#### dy : vector\<float,Shape\.dimensions\>
+#### lodClamp : float
 

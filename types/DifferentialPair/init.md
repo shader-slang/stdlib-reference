@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # DifferentialPair\<T\>\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -16,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `_primal`
-* `_differential`
+#### \_primal : T
+#### \_differential : T\.Differential
 

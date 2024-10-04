@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # WaveMultiPrefixCountBits
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `value`
-* `mask`
+#### value : bool
+#### mask : vector\<uint,4\>
 
 ## Availability and Requirements
 

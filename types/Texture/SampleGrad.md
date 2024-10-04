@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # \_Texture\<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format\>\.SampleGrad
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -74,12 +80,12 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-* `location`
-* `gradX`
-* `gradY`
-* `offset`
-* `lodClamp`
-* `s`
+#### location : vector\<float,isArray+Shape\.dimensions\>
+#### gradX : vector\<float,Shape\.dimensions\>
+#### gradY : vector\<float,Shape\.dimensions\>
+#### offset : vector\<int,Shape\.dimensions\>
+#### lodClamp : float
+#### s : SamplerState
 
 ## Availability and Requirements
 

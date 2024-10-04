@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # asint16
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -32,10 +38,18 @@ int16_t <a href="/stdlib-reference/global-decls/asint16">asint16</a>(<span class
 
 ## Parameters
 
-* `N`
-* `R`
-* `C`
-* `value`
+#### N : int
+#### R : int
+#### C : int
+#### value : int16\_t
+#### value : vector\<int16\_t,N\>
+#### value : matrix\<int16\_t,R,C\>
+#### value : uint16\_t
+#### value : vector\<uint16\_t,N\>
+#### value : matrix\<uint16\_t,R,C\>
+#### value : half
+#### value : vector\<half,N\>
+#### value : matrix\<half,R,C\>
 
 ## Availability and Requirements
 

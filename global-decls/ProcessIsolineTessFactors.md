@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # ProcessIsolineTessFactors
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -17,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `RawDetailFactor`
-* `RawDensityFactor`
-* `RoundedDetailFactor`
-* `RoundedDensityFactor`
+#### RawDetailFactor : float
+#### RawDensityFactor : float
+#### RoundedDetailFactor : float
+#### RoundedDensityFactor : float
 
 ## Availability and Requirements
 

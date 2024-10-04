@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayQuery\<rayFlagsGeneric:uint\>\.init
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

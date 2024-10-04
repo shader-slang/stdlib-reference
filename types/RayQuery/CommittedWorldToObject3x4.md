@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RayQuery\<rayFlagsGeneric:uint\>\.CommittedWorldToObject3x4
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>

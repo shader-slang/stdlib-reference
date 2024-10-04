@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # RWByteAddressBuffer\.Store2Aligned
 
+## Description
+
+
+
+
+
 ## Signature 
 
 <pre>
@@ -15,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-* `address`
-* `value`
+#### address : uint
+#### value : vector\<uint,2\>
 
 ## Availability and Requirements
 
