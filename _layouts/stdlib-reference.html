@@ -314,7 +314,7 @@
       event.stopPropagation();
     }
     var path = window.location.pathname;
-    if (!path.ends(".html"))
+    if (!path.endsWith(".html"))
     {
       if (!path.endsWith("/"))
         path += "/";
