@@ -17,13 +17,13 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <span class='code_param'>address</span>,
     <span class="code_keyword">uint</span> <span class='code_param'>value</span>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store">Store</a>&lt;T&gt;(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store">Store</a>&lt;<span class="code_type">T</span>&gt;(
     <span class="code_keyword">int</span> <span class='code_param'>offset</span>,
-    T <span class='code_param'>value</span>);
+    <span class="code_type">T</span> <span class='code_param'>value</span>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store">Store</a>&lt;T&gt;(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store">Store</a>&lt;<span class="code_type">T</span>&gt;(
     <span class="code_keyword">int</span> <span class='code_param'>offset</span>,
-    T <span class='code_param'>value</span>,
+    <span class="code_type">T</span> <span class='code_param'>value</span>,
     <span class="code_keyword">uint</span> <span class='code_param'>alignment</span>);
 
 </pre>

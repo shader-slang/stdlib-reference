@@ -21,9 +21,9 @@ layout: stdlib-reference
     <span class="code_keyword">int</span> <span class='code_param'>location</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>status</span>);
 
-T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(<span class="code_keyword">int</span> <span class='code_param'>location</span>);
+<span class="code_type">T</span> <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;<span class="code_type">T</span>&gt;(<span class="code_keyword">int</span> <span class='code_param'>location</span>);
 
-T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;<span class="code_type">T</span>&gt;(
     <span class="code_keyword">int</span> <span class='code_param'>location</span>,
     <span class="code_keyword">int</span> <span class='code_param'>alignment</span>);
 

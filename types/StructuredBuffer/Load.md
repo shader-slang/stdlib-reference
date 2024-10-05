@@ -14,12 +14,12 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">StructuredBuffer</a>&lt;T, L&gt;.<a href="/stdlib-reference/types/StructuredBuffer/Load">Load</a>&lt;TIndex&gt;(TIndex <span class='code_param'>location</span>)
+<span class="code_type">T</span> <a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">StructuredBuffer</a>&lt;<span class="code_type">T</span>, L&gt;.<a href="/stdlib-reference/types/StructuredBuffer/Load">Load</a>&lt;TIndex&gt;(TIndex <span class='code_param'>location</span>)
     <span class='code_keyword'>where</span> TIndex : __BuiltinIntegerType
     <span class='code_keyword'>where</span> L : <a href="/stdlib-reference/interfaces/IBufferDataLayout/index" class="code_type">IBufferDataLayout</a>;
 
 /// Requires Capability Set 2:
-T <a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">StructuredBuffer</a>&lt;T, L&gt;.<a href="/stdlib-reference/types/StructuredBuffer/Load">Load</a>&lt;TIndex&gt;(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">StructuredBuffer</a>&lt;<span class="code_type">T</span>, L&gt;.<a href="/stdlib-reference/types/StructuredBuffer/Load">Load</a>&lt;TIndex&gt;(
     TIndex <span class='code_param'>location</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>status</span>)
     <span class='code_keyword'>where</span> TIndex : __BuiltinIntegerType

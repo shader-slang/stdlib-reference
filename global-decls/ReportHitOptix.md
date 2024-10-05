@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/ReportHitOptix">ReportHitOptix</a>&lt;<span class="code_keyword">each</span> T&gt;(
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/ReportHitOptix">ReportHitOptix</a>&lt;<span class="code_keyword">each</span> <span class="code_type">T</span>&gt;(
     <span class="code_keyword">float</span> <span class='code_param'>tHit</span>,
     <span class="code_keyword">uint</span> <span class='code_param'>hitKind</span>,
-    T <span class='code_param'>attribs</span>)
-    <span class='code_keyword'>where</span> T : __BuiltinIntegerType;
+    <span class="code_type">T</span> <span class='code_param'>attribs</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : __BuiltinIntegerType;
 
 </pre>
 

@@ -22,11 +22,11 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>status</span>);
 
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;T&gt;(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;<span class="code_type">T</span>&gt;(
     <span class="code_keyword">int</span> <span class='code_param'>location</span>);
 
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;T&gt;(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;<span class="code_type">T</span>&gt;(
     <span class="code_keyword">int</span> <span class='code_param'>location</span>,
     <span class="code_keyword">int</span> <span class='code_param'>alignment</span>);
 

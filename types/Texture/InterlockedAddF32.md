@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, Shape.dimensions&gt; <span class='code_param'>coord</span>,
     <span class="code_keyword">float</span> <span class='code_param'>value</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>originalValue</span>)
-    <span class='code_keyword'>where</span> T == <span class="code_keyword">float</span>
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> == <span class="code_keyword">float</span>
     <span class='code_keyword'>where</span> Shape : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index" class="code_type">__ITextureShape1D2D3D</a>
     <span class='code_keyword'>where</span> isArray == 0
     <span class='code_keyword'>where</span> isMS == 0
@@ -26,10 +26,10 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isShadow == 0
     <span class='code_keyword'>where</span> isCombined == 0;
 
-<span class="code_keyword">float</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
+<span class="code_keyword">float</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, Shape.dimensions&gt; <span class='code_param'>coord</span>,
     <span class="code_keyword">float</span> <span class='code_param'>value</span>)
-    <span class='code_keyword'>where</span> T == <span class="code_keyword">float</span>
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> == <span class="code_keyword">float</span>
     <span class='code_keyword'>where</span> Shape : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index" class="code_type">__ITextureShape1D2D3D</a>
     <span class='code_keyword'>where</span> isArray == 0
     <span class='code_keyword'>where</span> isMS == 0
@@ -42,7 +42,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### coord  : [vector](/stdlib-reference/types/vector/index)\<uint, Shape \. dimensions\>
+#### coord  : [vector](/stdlib-reference/types/vector/index)\<uint, Shape\.dimensions\>
 #### value  : float
 #### originalValue  : float
 

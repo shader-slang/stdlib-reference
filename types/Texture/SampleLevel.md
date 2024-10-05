@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, isArray+Shape.dimensions&gt; <span class='code_param'>location</span>,
     <span class="code_keyword">float</span> <span class='code_param'>level</span>)
     <span class='code_keyword'>where</span> Shape : <a href="/stdlib-reference/interfaces/ITextureShape/index" class="code_type">__ITextureShape</a>
@@ -22,7 +22,7 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
     <span class='code_keyword'>where</span> isCombined == 1;
 
 /// Requires Capability Set 2:
-T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, isArray+Shape.dimensions&gt; <span class='code_param'>location</span>,
     <span class="code_keyword">float</span> <span class='code_param'>level</span>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, Shape.planeDimensions&gt; <span class='code_param'>offset</span>)
@@ -31,7 +31,7 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
     <span class='code_keyword'>where</span> isCombined == 1;
 
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
     <a href="/stdlib-reference/types/SamplerState/index" class="code_type">SamplerState</a> <span class='code_param'>s</span>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, isArray+Shape.dimensions&gt; <span class='code_param'>location</span>,
     <span class="code_keyword">float</span> <span class='code_param'>level</span>)
@@ -40,7 +40,7 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
     <span class='code_keyword'>where</span> isCombined == 0;
 
 /// Requires Capability Set 2:
-T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/SampleLevel">SampleLevel</a>(
     <a href="/stdlib-reference/types/SamplerState/index" class="code_type">SamplerState</a> <span class='code_param'>s</span>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, isArray+Shape.dimensions&gt; <span class='code_param'>location</span>,
     <span class="code_keyword">float</span> <span class='code_param'>level</span>,
@@ -53,9 +53,9 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape \. dimensions\>
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\>
 #### level  : float
-#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\>
 #### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
 
 ## Availability and Requirements

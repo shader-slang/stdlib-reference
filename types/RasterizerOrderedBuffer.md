@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/RasterizerOrderedBuffer" class="code_type">RasterizerOrderedBuffer</a>&lt;T, format:<span class="code_keyword">int</span>&gt; = 
-    <a href="/stdlib-reference/types/RasterizerOrderedBuffer" class="code_type">RasterizerOrderedBuffer</a>&lt;T&gt;;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/RasterizerOrderedBuffer" class="code_type">RasterizerOrderedBuffer</a>&lt;<span class="code_type">T</span>, format:<span class="code_keyword">int</span>&gt; = 
+    <a href="/stdlib-reference/types/RasterizerOrderedBuffer" class="code_type">RasterizerOrderedBuffer</a>&lt;<span class="code_type">T</span>&gt;;
 </pre>
 

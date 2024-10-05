@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-T <a href="/stdlib-reference/types/OutputIndices/index" class="code_type">OutputIndices</a>&lt;T, MAX_PRIMITIVES:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/OutputIndices/subscript">subscript</a>(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/OutputIndices/index" class="code_type">OutputIndices</a>&lt;<span class="code_type">T</span>, MAX_PRIMITIVES:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/OutputIndices/subscript">subscript</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>index</span>);
 
 </pre>

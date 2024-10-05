@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt;.<a href="/stdlib-reference/types/vector/Differential" class="code_type">Differential</a> = <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt;;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt;.<a href="/stdlib-reference/types/vector/Differential" class="code_type">Differential</a> = <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt;;
 </pre>
 

@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>property</span> <a href="/stdlib-reference/types/DifferentialPair/index" class="code_type">DifferentialPair</a>&lt;T&gt;.<a href="/stdlib-reference/types/DifferentialPair/p">p</a> : T
+<span class='code_keyword'>property</span> <a href="/stdlib-reference/types/DifferentialPair/index" class="code_type">DifferentialPair</a>&lt;<span class="code_type">T</span>&gt;.<a href="/stdlib-reference/types/DifferentialPair/p">p</a> : <span class="code_type">T</span>
 {
     get;
 }

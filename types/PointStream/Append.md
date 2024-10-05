@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/PointStream/index" class="code_type">PointStream</a>&lt;T&gt;.<a href="/stdlib-reference/types/PointStream/Append">Append</a>(T <span class='code_param'>value</span>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/PointStream/index" class="code_type">PointStream</a>&lt;<span class="code_type">T</span>&gt;.<a href="/stdlib-reference/types/PointStream/Append">Append</a>(<span class="code_type">T</span> <span class='code_param'>value</span>);
 
 </pre>
 

@@ -13,17 +13,17 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-T <a href="/stdlib-reference/global-decls/fmedian3">fmedian3</a>&lt;T&gt;(
-    T <span class='code_param'>x</span>,
-    T <span class='code_param'>y</span>,
-    T <span class='code_param'>z</span>)
-    <span class='code_keyword'>where</span> T : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
+<span class="code_type">T</span> <a href="/stdlib-reference/global-decls/fmedian3">fmedian3</a>&lt;<span class="code_type">T</span>&gt;(
+    <span class="code_type">T</span> <span class='code_param'>x</span>,
+    <span class="code_type">T</span> <span class='code_param'>y</span>,
+    <span class="code_type">T</span> <span class='code_param'>z</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <a href="/stdlib-reference/global-decls/fmedian3">fmedian3</a>&lt;T, N:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <span class='code_param'>y</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <span class='code_param'>z</span>)
-    <span class='code_keyword'>where</span> T : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <a href="/stdlib-reference/global-decls/fmedian3">fmedian3</a>&lt;<span class="code_type">T</span>, N:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <span class='code_param'>x</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <span class='code_param'>y</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <span class='code_param'>z</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 

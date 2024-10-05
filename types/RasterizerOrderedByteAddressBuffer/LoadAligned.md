@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/LoadAligned">LoadAligned</a>&lt;T&gt;(
+<span class="code_type">T</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/LoadAligned">LoadAligned</a>&lt;<span class="code_type">T</span>&gt;(
     <span class="code_keyword">int</span> <span class='code_param'>location</span>);
 
 </pre>

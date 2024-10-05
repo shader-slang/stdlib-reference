@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Definition
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/SubpassInputMS" class="code_type">SubpassInputMS</a>&lt;T, isMS:<span class="code_keyword">int</span>&gt; = 
-    __SubpassImpl&lt;T, isMS&gt;;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/SubpassInputMS" class="code_type">SubpassInputMS</a>&lt;<span class="code_type">T</span>, isMS:<span class="code_keyword">int</span>&gt; = 
+    __SubpassImpl&lt;<span class="code_type">T</span>, isMS&gt;;
 </pre>
 

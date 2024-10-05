@@ -14,14 +14,14 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> isArray == 0
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>numberOfLevels</span>)
@@ -30,14 +30,14 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> isArray == 0
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>numberOfLevels</span>)
@@ -46,14 +46,14 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> isArray == 0
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>numberOfLevels</span>)
@@ -62,7 +62,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>elements</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
@@ -70,7 +70,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>elements</span>,
@@ -80,7 +80,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>elements</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
@@ -88,7 +88,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>elements</span>,
@@ -98,7 +98,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>elements</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
@@ -106,7 +106,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>elements</span>,
@@ -116,7 +116,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
@@ -124,7 +124,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
@@ -134,7 +134,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
@@ -142,7 +142,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
@@ -152,7 +152,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
@@ -160,7 +160,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
@@ -170,7 +170,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>sampleCount</span>)
@@ -179,7 +179,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 1;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>sampleCount</span>)
@@ -188,7 +188,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 1;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>sampleCount</span>)
@@ -197,7 +197,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 1;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>elements</span>)
@@ -206,7 +206,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
@@ -217,7 +217,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>elements</span>)
@@ -226,7 +226,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
@@ -237,7 +237,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>elements</span>)
@@ -246,7 +246,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
@@ -257,7 +257,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>elements</span>,
@@ -267,7 +267,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 1;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>elements</span>,
@@ -277,7 +277,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 1;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>elements</span>,
@@ -287,7 +287,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 1;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>depth</span>)
@@ -296,7 +296,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
@@ -307,7 +307,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>depth</span>)
@@ -316,7 +316,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
@@ -327,7 +327,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>depth</span>)
@@ -336,7 +336,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
@@ -347,7 +347,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
@@ -355,7 +355,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
@@ -365,7 +365,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
@@ -373,7 +373,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
@@ -383,7 +383,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
@@ -391,7 +391,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
@@ -401,7 +401,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>elements</span>)
@@ -410,7 +410,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <span class='code_param'>height</span>,
@@ -421,7 +421,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>elements</span>)
@@ -430,7 +430,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <span class='code_param'>height</span>,
@@ -441,7 +441,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>elements</span>)
@@ -450,7 +450,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">uint</span> <span class='code_param'>mipLevel</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>width</span>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>height</span>,
@@ -461,7 +461,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isMS == 0;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>dim</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> isArray == 0
@@ -472,7 +472,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isCombined == 0;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>dim</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> isArray == 0
@@ -483,7 +483,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> isCombined == 0;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <span class='code_param'>dim</span>)
     <span class='code_keyword'>where</span> Shape == <a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> isArray == 0

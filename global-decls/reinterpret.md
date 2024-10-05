@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-T <a href="/stdlib-reference/global-decls/reinterpret">reinterpret</a>&lt;T, U&gt;(U <span class='code_param'>value</span>);
+<span class="code_type">T</span> <a href="/stdlib-reference/global-decls/reinterpret">reinterpret</a>&lt;<span class="code_type">T</span>, U&gt;(U <span class='code_param'>value</span>);
 
 </pre>
 

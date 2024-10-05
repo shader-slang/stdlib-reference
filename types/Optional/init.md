@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/Optional/index" class="code_type">Optional</a>&lt;T&gt;.<a href="/stdlib-reference/types/Optional/init">init</a>(T <span class='code_param'>val</span>);
+<a href="/stdlib-reference/types/Optional/index" class="code_type">Optional</a>&lt;<span class="code_type">T</span>&gt;.<a href="/stdlib-reference/types/Optional/init">init</a>(<span class="code_type">T</span> <span class='code_param'>val</span>);
 
 </pre>
 

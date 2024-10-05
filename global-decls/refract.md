@@ -13,17 +13,17 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;T, N:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <span class='code_param'>i</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt; <span class='code_param'>n</span>,
-    T <span class='code_param'>eta</span>)
-    <span class='code_keyword'>where</span> T : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;<span class="code_type">T</span>, N:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <span class='code_param'>i</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, N&gt; <span class='code_param'>n</span>,
+    <span class="code_type">T</span> <span class='code_param'>eta</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-T <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;T&gt;(
-    T <span class='code_param'>i</span>,
-    T <span class='code_param'>n</span>,
-    T <span class='code_param'>eta</span>)
-    <span class='code_keyword'>where</span> T : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
+<span class="code_type">T</span> <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;<span class="code_type">T</span>&gt;(
+    <span class="code_type">T</span> <span class='code_param'>i</span>,
+    <span class="code_type">T</span> <span class='code_param'>n</span>,
+    <span class="code_type">T</span> <span class='code_param'>eta</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 

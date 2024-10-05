@@ -13,15 +13,15 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;T&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>left</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>right</span>)
-    <span class='code_keyword'>where</span> T : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;<span class="code_type">T</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>left</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>right</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;T&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>left</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>right</span>)
-    <span class='code_keyword'>where</span> T : __BuiltinIntegerType;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;<span class="code_type">T</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>left</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>right</span>)
+    <span class='code_keyword'>where</span> <span class="code_type">T</span> : __BuiltinIntegerType;
 
 </pre>
 

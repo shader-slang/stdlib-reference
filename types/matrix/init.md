@@ -27,7 +27,7 @@ Initialize a vector from a value of the same type
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<span class="code_keyword">int</span> <span class='code_param'>value</span>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/matrix/T" class="code_type">T</a> == int16_t;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>value</span>)
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>value</span>)
     <span class='code_keyword'>where</span> R == 2
     <span class='code_keyword'>where</span> C == 2;
 
@@ -35,7 +35,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 1;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row0</span>)
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row0</span>)
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 1;
 
@@ -105,7 +105,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 2;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row0</span>)
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row0</span>)
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 2;
 
@@ -160,7 +160,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 3;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row0</span>)
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row0</span>)
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 3;
 
@@ -200,7 +200,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 4;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row0</span>)
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row0</span>)
     <span class='code_keyword'>where</span> R == 1
     <span class='code_keyword'>where</span> C == 4;
 
@@ -223,8 +223,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 1;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row1</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row1</span>)
     <span class='code_keyword'>where</span> R == 2
     <span class='code_keyword'>where</span> C == 1;
 
@@ -281,8 +281,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 2;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row1</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row1</span>)
     <span class='code_keyword'>where</span> R == 2
     <span class='code_keyword'>where</span> C == 2;
 
@@ -329,8 +329,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 3;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row1</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row1</span>)
     <span class='code_keyword'>where</span> R == 2
     <span class='code_keyword'>where</span> C == 3;
 
@@ -367,8 +367,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 4;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row1</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row1</span>)
     <span class='code_keyword'>where</span> R == 2
     <span class='code_keyword'>where</span> C == 4;
 
@@ -388,9 +388,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 1;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 1;
 
@@ -424,7 +424,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 2, 1&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 1;
 
@@ -439,9 +439,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 2;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 2;
 
@@ -467,7 +467,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 2, 2&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 2;
 
@@ -485,9 +485,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 3;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 3;
 
@@ -505,7 +505,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 2, 3&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 3;
 
@@ -526,9 +526,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 4;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 4;
 
@@ -538,7 +538,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 2, 4&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row2</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row2</span>)
     <span class='code_keyword'>where</span> R == 3
     <span class='code_keyword'>where</span> C == 4;
 
@@ -551,10 +551,10 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 1;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row2</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row2</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 1;
 
@@ -572,7 +572,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 3, 1&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 1&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 1&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 1;
 
@@ -589,10 +589,10 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 2;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row2</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row2</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 2;
 
@@ -606,7 +606,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 3, 2&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 2&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 2&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 2;
 
@@ -627,10 +627,10 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 3;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row2</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row2</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 3;
 
@@ -640,7 +640,7 @@ Initialize a vector from a value of the same type
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 3, 3&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 3&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 3&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 3;
 
@@ -665,16 +665,16 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> C == 4;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row0</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row1</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row2</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row0</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row1</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row2</span>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 4;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, R, C&gt;.<a href="/stdlib-reference/types/matrix/init">init</a>(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, 3, 4&gt; <span class='code_param'>m</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, 4&gt; <span class='code_param'>row3</span>)
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_type">T</span>, 4&gt; <span class='code_param'>row3</span>)
     <span class='code_keyword'>where</span> R == 4
     <span class='code_keyword'>where</span> C == 4;
 
