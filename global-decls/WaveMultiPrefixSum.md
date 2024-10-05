@@ -33,12 +33,12 @@ T <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum">WaveMultiPrefixSum
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### value : T
-#### mask : vector\<uint,4\>
-#### value : vector\<T,N\>
-#### value : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### value  : T
+#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
+#### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

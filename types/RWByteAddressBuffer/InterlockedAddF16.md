@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress : uint
-#### value : half
-#### originalValue : half
+#### byteAddress  : uint
+#### value  : half
+#### originalValue  : half
 

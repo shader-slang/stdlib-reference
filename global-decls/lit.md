@@ -22,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### n\_dot\_l : float
-#### n\_dot\_h : float
-#### m : float
+#### n\_dot\_l  : float
+#### n\_dot\_h  : float
+#### m  : float
 
 ## Availability and Requirements
 

@@ -34,8 +34,8 @@ t.SampleClamp(sampler, coords, lodClamp);
 
 ## Parameters
 
-#### granularity : uint
-#### sampler : SamplerState
-#### coords : vector\<float,Shape\.dimensions\>
-#### lodClamp : float
+#### granularity  : uint
+#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### lodClamp  : float
 

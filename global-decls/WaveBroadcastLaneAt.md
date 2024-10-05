@@ -33,12 +33,12 @@ T <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLane
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### value : T
-#### lane : int
-#### value : vector\<T,N\>
-#### value : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### value  : T
+#### lane  : int
+#### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

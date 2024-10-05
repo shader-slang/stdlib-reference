@@ -33,12 +33,12 @@ T <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped">EvaluateAttr
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### x : T
-#### offset : vector\<int,2\>
-#### x : vector\<T,N\>
-#### x : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### x  : T
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, 2\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

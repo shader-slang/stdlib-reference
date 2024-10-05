@@ -24,10 +24,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### P
-#### threadGroupCountX : uint
-#### threadGroupCountY : uint
-#### threadGroupCountZ : uint
-#### meshPayload : P
+#### threadGroupCountX  : uint
+#### threadGroupCountY  : uint
+#### threadGroupCountZ  : uint
+#### meshPayload  : P
 
 ## Availability and Requirements
 

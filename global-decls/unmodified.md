@@ -20,5 +20,5 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### SLANG\_anonymous\_6 : T
+#### SLANG\_anonymous\_6  : T
 

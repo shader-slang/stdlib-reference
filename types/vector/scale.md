@@ -22,5 +22,5 @@ layout: stdlib-reference
 ## Parameters
 
 #### T1
-#### s : T1
+#### s  : T1
 

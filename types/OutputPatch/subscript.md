@@ -21,5 +21,5 @@ T <a href="/stdlib-reference/types/OutputPatch/index" class="code_type">OutputPa
 ## Parameters
 
 #### TIndex
-#### index : TIndex
+#### index  : TIndex
 

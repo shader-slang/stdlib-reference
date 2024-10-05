@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### s : int
+#### s  : int
 
 ## Availability and Requirements
 

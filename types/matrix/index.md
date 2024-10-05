@@ -15,9 +15,9 @@ A matrix with `R` rows and `C` columns, with elements of type `T`.
 ## Generic Parameters
 
 #### T
-#### R : int = 4
-#### C : int = 4
-#### L : int = 0
+#### R  : int =4
+#### C  : int =4
+#### L  : int =0
 
 ## Methods
 

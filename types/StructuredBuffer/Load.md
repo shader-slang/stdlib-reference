@@ -30,8 +30,8 @@ T <a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">Str
 ## Parameters
 
 #### TIndex
-#### location : TIndex
-#### status : uint
+#### location  : TIndex
+#### status  : uint
 
 ## Availability and Requirements
 

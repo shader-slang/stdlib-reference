@@ -80,12 +80,12 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-#### location : vector\<float,isArray+Shape\.dimensions\>
-#### gradX : vector\<float,Shape\.dimensions\>
-#### gradY : vector\<float,Shape\.dimensions\>
-#### offset : vector\<int,Shape\.dimensions\>
-#### lodClamp : float
-#### s : SamplerState
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape \. dimensions\>
+#### gradX  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### gradY  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. dimensions\>
+#### lodClamp  : float
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
 
 ## Availability and Requirements
 

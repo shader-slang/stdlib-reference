@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T
-#### N : int
+#### N  : int
 
 ## Methods
 

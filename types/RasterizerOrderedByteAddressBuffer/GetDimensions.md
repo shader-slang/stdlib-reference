@@ -20,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dim : uint
+#### dim  : uint
 
 ## Availability and Requirements
 

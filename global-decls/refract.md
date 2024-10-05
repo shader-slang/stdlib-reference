@@ -30,12 +30,12 @@ T <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### i : vector\<T,N\>
-#### n : vector\<T,N\>
-#### eta : T
-#### i : T
-#### n : T
+#### N  : int
+#### i  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### n  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### eta  : T
+#### i  : T
+#### n  : T
 
 ## Availability and Requirements
 

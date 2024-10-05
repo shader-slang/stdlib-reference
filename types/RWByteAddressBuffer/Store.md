@@ -31,11 +31,11 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### address : uint
-#### value : uint
-#### offset : int
-#### value : T
-#### alignment : uint
+#### address  : uint
+#### value  : uint
+#### offset  : int
+#### value  : T
+#### alignment  : uint
 
 ## Availability and Requirements
 

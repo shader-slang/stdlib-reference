@@ -36,17 +36,17 @@ T <a href="/stdlib-reference/global-decls/fma">fma</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### a : T
-#### b : T
-#### c : T
-#### a : vector\<T,N\>
-#### b : vector\<T,N\>
-#### c : vector\<T,N\>
-#### a : matrix\<T,N,M\>
-#### b : matrix\<T,N,M\>
-#### c : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### a  : T
+#### b  : T
+#### c  : T
+#### a  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### b  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### c  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### a  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### b  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### c  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

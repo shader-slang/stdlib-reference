@@ -21,5 +21,5 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### scale : T
+#### scale  : T
 

@@ -22,5 +22,5 @@ T <a href="/stdlib-reference/types/Ptr/index" class="code_type">Ptr</a>&lt;T, ad
 ## Parameters
 
 #### TInt
-#### index : TInt
+#### index  : TInt
 

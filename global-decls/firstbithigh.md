@@ -25,11 +25,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### N : int
-#### value : int
-#### value : vector\<int,N\>
-#### value : uint
-#### value : vector\<uint,N\>
+#### N  : int
+#### value  : int
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
+#### value  : uint
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, N\>
 
 ## Availability and Requirements
 

@@ -21,7 +21,7 @@ represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 
 ## Parameters
 
-#### RootConstantOffsetInBytes : uint
+#### RootConstantOffsetInBytes  : uint
 
 ## Availability and Requirements
 

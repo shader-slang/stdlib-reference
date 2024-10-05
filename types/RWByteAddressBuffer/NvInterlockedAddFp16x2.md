@@ -21,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress : uint
-#### fp16x2Value : uint
+#### byteAddress  : uint
+#### fp16x2Value  : uint
 
 ## Availability and Requirements
 

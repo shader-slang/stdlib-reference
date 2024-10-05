@@ -42,9 +42,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### coord : vector\<uint,Shape\.dimensions\>
-#### value : float
-#### originalValue : float
+#### coord  : [vector](/stdlib-reference/types/vector/index)\<uint, Shape \. dimensions\>
+#### value  : float
+#### originalValue  : float
 
 ## Availability and Requirements
 

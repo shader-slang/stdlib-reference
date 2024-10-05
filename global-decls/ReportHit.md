@@ -23,9 +23,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### A
-#### tHit : float
-#### hitKind : uint
-#### attributes : A
+#### tHit  : float
+#### hitKind  : uint
+#### attributes  : A
 
 ## Availability and Requirements
 

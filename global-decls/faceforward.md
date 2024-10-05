@@ -24,10 +24,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### N : int
-#### n : vector\<T,N\>
-#### i : vector\<T,N\>
-#### ng : vector\<T,N\>
+#### N  : int
+#### n  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### i  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### ng  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 
 ## Availability and Requirements
 

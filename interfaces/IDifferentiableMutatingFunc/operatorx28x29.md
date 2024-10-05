@@ -22,5 +22,5 @@ TR <a href="/stdlib-reference/interfaces/IDifferentiableMutatingFunc/index" clas
 
 ## Parameters
 
-#### p : TP
+#### p  : TP
 

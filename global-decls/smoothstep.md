@@ -36,17 +36,17 @@ T <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### min : T
-#### max : T
-#### x : T
-#### min : vector\<T,N\>
-#### max : vector\<T,N\>
-#### x : vector\<T,N\>
-#### min : matrix\<T,N,M\>
-#### max : matrix\<T,N,M\>
-#### x : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### min  : T
+#### max  : T
+#### x  : T
+#### min  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### max  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### min  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### max  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

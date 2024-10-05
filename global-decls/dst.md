@@ -23,6 +23,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### x : vector\<T,4\>
-#### y : vector\<T,4\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
 

@@ -119,29 +119,29 @@ T <a href="/stdlib-reference/global-decls/mul">mul</a>&lt;T, N:<span class="code
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### R : int
-#### C : int
-#### x : T
-#### y : T
-#### x : vector\<T,N\>
-#### y : vector\<T,N\>
-#### x : matrix\<T,N,M\>
-#### y : matrix\<T,N,M\>
-#### left : vector\<T,N\>
-#### right : matrix\<T,N,M\>
-#### left : matrix\<T,N,M\>
-#### right : vector\<T,M\>
-#### left : matrix\<T,R,N\>
-#### right : matrix\<T,N,C\>
-#### left : DifferentialPair\<vector\<T,N\>\>
-#### right : DifferentialPair\<matrix\<T,N,M\>\>
-#### left : DifferentialPair\<matrix\<T,N,M\>\>
-#### right : DifferentialPair\<vector\<T,M\>\>
-#### left : DifferentialPair\<matrix\<T,R,N\>\>
-#### right : DifferentialPair\<matrix\<T,N,C\>\>
-#### dOut : matrix\<T,R,C\>
+#### N  : int
+#### M  : int
+#### R  : int
+#### C  : int
+#### x  : T
+#### y  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### left  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### right  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### left  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### right  : [vector](/stdlib-reference/types/vector/index)\<T, M\>
+#### left  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), R, N\>
+#### right  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, C\>
+#### left  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<[vector](/stdlib-reference/types/vector/index)\<T, N \>\>
+#### right  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<[matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M \>\>
+#### left  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<[matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M \>\>
+#### right  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<[vector](/stdlib-reference/types/vector/index)\<T, M \>\>
+#### left  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<[matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), R, N \>\>
+#### right  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<[matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, C \>\>
+#### dOut  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), R, C\>
 
 ## Availability and Requirements
 

@@ -15,7 +15,7 @@ An `N` component vector with elements of type `T`.
 ## Generic Parameters
 
 #### T
-#### N : int = 4
+#### N  : int =4
 
 ## Methods
 

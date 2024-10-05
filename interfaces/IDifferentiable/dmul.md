@@ -23,6 +23,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### SLANG\_anonymous\_2 : T
-#### SLANG\_anonymous\_3 : This\.Differential
+#### SLANG\_anonymous\_2  : T
+#### SLANG\_anonymous\_3  : This \. Differential
 

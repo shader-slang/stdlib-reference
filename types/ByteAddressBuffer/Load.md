@@ -32,9 +32,9 @@ T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">By
 ## Parameters
 
 #### T
-#### location : int
-#### status : uint
-#### alignment : int
+#### location  : int
+#### status  : uint
+#### alignment  : int
 
 ## Availability and Requirements
 

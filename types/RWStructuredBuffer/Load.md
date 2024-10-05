@@ -28,6 +28,6 @@ T <a href="/stdlib-reference/types/RWStructuredBuffer/index" class="code_type">R
 ## Parameters
 
 #### TIndex
-#### location : TIndex
-#### status : uint
+#### location  : TIndex
+#### status  : uint
 

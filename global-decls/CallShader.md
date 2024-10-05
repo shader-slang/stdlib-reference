@@ -22,8 +22,8 @@ layout: stdlib-reference
 ## Parameters
 
 #### Payload
-#### shaderIndex : uint
-#### payload : Payload
+#### shaderIndex  : uint
+#### payload  : Payload
 
 ## Availability and Requirements
 

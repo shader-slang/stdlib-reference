@@ -88,7 +88,7 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-#### location : vector\<uint,isArray+Shape\.dimensions\>
-#### sampleIndex : int
-#### index : uint
+#### location  : [vector](/stdlib-reference/types/vector/index)\<uint, isArray + Shape \. dimensions\>
+#### sampleIndex  : int
+#### index  : uint
 

@@ -23,5 +23,5 @@ T <a href="/stdlib-reference/types/RasterizerOrderedStructuredBuffer/index" clas
 ## Parameters
 
 #### TIndex
-#### index : TIndex
+#### index  : TIndex
 

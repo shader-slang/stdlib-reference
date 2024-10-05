@@ -23,6 +23,6 @@ T <a href="/stdlib-reference/global-decls/createDynamicObject">createDynamicObje
 
 #### T
 #### U
-#### typeId : uint
-#### value : U
+#### typeId  : uint
+#### value  : U
 

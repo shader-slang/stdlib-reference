@@ -20,5 +20,5 @@ Given a string returns an integer hash of that string.
 
 ## Parameters
 
-#### string : String
+#### string  : [String](/stdlib-reference/types/String/index)
 

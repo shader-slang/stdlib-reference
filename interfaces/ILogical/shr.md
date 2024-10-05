@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : int
+#### value  : int
 

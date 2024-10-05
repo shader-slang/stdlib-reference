@@ -21,5 +21,5 @@ T <a href="/stdlib-reference/global-decls/bit_cast">bit_cast</a>&lt;T, U&gt;(U <
 
 #### T
 #### U
-#### value : U
+#### value  : U
 

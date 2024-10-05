@@ -33,15 +33,15 @@ T <a href="/stdlib-reference/global-decls/modf">modf</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### L : int
-#### x : T
-#### ip : T
-#### x : vector\<T,N\>
-#### ip : vector\<T,N\>
-#### x : matrix\<T,N,M\>
-#### ip : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### L  : int
+#### x  : T
+#### ip  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### ip  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### ip  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

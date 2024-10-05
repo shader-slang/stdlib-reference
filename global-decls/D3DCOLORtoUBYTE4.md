@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### color : vector\<float,4\>
+#### color  : [vector](/stdlib-reference/types/vector/index)\<float, 4\>
 
 ## Availability and Requirements
 

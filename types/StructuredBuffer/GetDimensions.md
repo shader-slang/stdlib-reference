@@ -22,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### numStructs : uint
-#### stride : uint
+#### numStructs  : uint
+#### stride  : uint
 

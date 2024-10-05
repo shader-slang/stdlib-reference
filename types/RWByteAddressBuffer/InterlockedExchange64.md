@@ -27,11 +27,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress : uint
-#### value : int64\_t
-#### outOriginalValue : int64\_t
-#### value : uint64\_t
-#### outOriginalValue : uint64\_t
+#### byteAddress  : uint
+#### value  : int64\_t
+#### outOriginalValue  : int64\_t
+#### value  : uint64\_t
+#### outOriginalValue  : uint64\_t
 
 ## Availability and Requirements
 

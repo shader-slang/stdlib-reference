@@ -21,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### N : int
-#### x : vector\<double,N\>
-#### y : vector\<double,N\>
+#### N  : int
+#### x  : [vector](/stdlib-reference/types/vector/index)\<double, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<double, N\>
 
 ## Availability and Requirements
 

@@ -33,12 +33,12 @@ T <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### sourceValue : T
-#### quadLaneID : uint
-#### sourceValue : vector\<T,N\>
-#### sourceValue : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### sourceValue  : T
+#### quadLaneID  : uint
+#### sourceValue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### sourceValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

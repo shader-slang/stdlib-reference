@@ -54,17 +54,17 @@ T <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### x : T
-#### minBound : T
-#### maxBound : T
-#### x : vector\<T,N\>
-#### minBound : vector\<T,N\>
-#### maxBound : vector\<T,N\>
-#### x : matrix\<T,N,M\>
-#### minBound : matrix\<T,N,M\>
-#### maxBound : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### x  : T
+#### minBound  : T
+#### maxBound  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### minBound  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### maxBound  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### minBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### maxBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

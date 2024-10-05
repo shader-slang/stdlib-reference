@@ -27,11 +27,11 @@ T <a href="/stdlib-reference/global-decls/QuadReadAcrossY">QuadReadAcrossY</a>&l
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### localValue : T
-#### localValue : vector\<T,N\>
-#### localValue : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### localValue  : T
+#### localValue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### localValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

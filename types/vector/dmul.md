@@ -24,6 +24,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### U
-#### a : U
-#### b : vector\<T,N\>
+#### a  : U
+#### b  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 

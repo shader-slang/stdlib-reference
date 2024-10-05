@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### left : uint
-#### right : uint
-#### acc : int
+#### left  : uint
+#### right  : uint
+#### acc  : int
 

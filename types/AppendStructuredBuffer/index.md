@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T
-#### L: IBufferDataLayout
+#### L: [IBufferDataLayout](/stdlib-reference/interfaces/IBufferDataLayout/index)
 
 ## Methods
 

@@ -21,7 +21,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### N : int
-#### x : float
-#### x : vector\<float,N\>
+#### N  : int
+#### x  : float
+#### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\>
 

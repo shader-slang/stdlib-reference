@@ -60,17 +60,17 @@ T <a href="/stdlib-reference/global-decls/mad">mad</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### mvalue : T
-#### avalue : T
-#### bvalue : T
-#### mvalue : vector\<T,N\>
-#### avalue : vector\<T,N\>
-#### bvalue : vector\<T,N\>
-#### mvalue : matrix\<T,N,M\>
-#### avalue : matrix\<T,N,M\>
-#### bvalue : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### mvalue  : T
+#### avalue  : T
+#### bvalue  : T
+#### mvalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### avalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### bvalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### mvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### avalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### bvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

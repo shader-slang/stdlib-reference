@@ -22,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress : uint
-#### compareValue : float
-#### value : float
+#### byteAddress  : uint
+#### compareValue  : float
+#### value  : float
 
 ## Availability and Requirements
 

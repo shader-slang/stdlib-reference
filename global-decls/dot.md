@@ -33,11 +33,11 @@ T <a href="/stdlib-reference/global-decls/dot">dot</a>&lt;T, N:<span class="code
 ## Parameters
 
 #### T
-#### N : int
-#### x : T
-#### y : T
-#### x : vector\<T,N\>
-#### y : vector\<T,N\>
+#### N  : int
+#### x  : T
+#### y  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 
 ## Availability and Requirements
 

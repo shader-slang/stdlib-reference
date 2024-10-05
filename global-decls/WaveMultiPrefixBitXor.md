@@ -36,12 +36,12 @@ T <a href="/stdlib-reference/global-decls/WaveMultiPrefixBitXor">WaveMultiPrefix
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### expr : T
-#### mask : vector\<uint,4\>
-#### expr : vector\<T,N\>
-#### expr : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### expr  : T
+#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
+#### expr  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### expr  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

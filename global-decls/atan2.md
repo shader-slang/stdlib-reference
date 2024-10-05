@@ -33,14 +33,14 @@ T <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### y : T
-#### x : T
-#### y : vector\<T,N\>
-#### x : vector\<T,N\>
-#### y : matrix\<T,N,M\>
-#### x : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### y  : T
+#### x  : T
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

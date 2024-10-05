@@ -28,11 +28,11 @@ T <a href="/stdlib-reference/global-decls/copysign">copysign</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### x : vector\<T,N\>
-#### y : vector\<T,N\>
-#### x : T
-#### y : T
+#### N  : int
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : T
+#### y  : T
 
 ## Availability and Requirements
 

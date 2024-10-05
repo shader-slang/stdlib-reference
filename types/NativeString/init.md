@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : String
+#### value  : [String](/stdlib-reference/types/String/index)
 

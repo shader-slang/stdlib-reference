@@ -225,14 +225,14 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-#### location : vector\<int,isArray+Shape\.dimensions+1\>
-#### offset : vector\<int,Shape\.planeDimensions\>
-#### status : uint
-#### location : vector\<int,isArray+Shape\.dimensions\>
-#### sampleIndex : int
-#### locationAndSampleIndex : vector\<int,isArray+Shape\.dimensions+1\>
-#### offset : vector\<int,isArray+Shape\.dimensions\>
-#### location : int
+#### location  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape \. dimensions +1\>
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### status  : uint
+#### location  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape \. dimensions\>
+#### sampleIndex  : int
+#### locationAndSampleIndex  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape \. dimensions +1\>
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape \. dimensions\>
+#### location  : int
 
 ## Availability and Requirements
 

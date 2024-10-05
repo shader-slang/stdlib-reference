@@ -297,14 +297,14 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### s : SamplerState
-#### location : vector\<float,isArray+Shape\.dimensions\>
-#### status : uint
-#### offset : vector\<int,Shape\.planeDimensions\>
-#### offset1 : vector\<int,Shape\.planeDimensions\>
-#### offset2 : vector\<int,Shape\.planeDimensions\>
-#### offset3 : vector\<int,Shape\.planeDimensions\>
-#### offset4 : vector\<int,Shape\.planeDimensions\>
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape \. dimensions\>
+#### status  : uint
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### offset1  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### offset2  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### offset3  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### offset4  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
 
 ## Availability and Requirements
 

@@ -24,8 +24,8 @@ table.
 
 ## Parameters
 
-#### MissShaderIndex : uint
-#### Ray : RayDesc
+#### MissShaderIndex  : uint
+#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
 
 ## Availability and Requirements
 

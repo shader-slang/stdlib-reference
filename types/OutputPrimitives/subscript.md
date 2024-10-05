@@ -20,5 +20,5 @@ T <a href="/stdlib-reference/types/OutputPrimitives/index" class="code_type">Out
 
 ## Parameters
 
-#### index : uint
+#### index  : uint
 

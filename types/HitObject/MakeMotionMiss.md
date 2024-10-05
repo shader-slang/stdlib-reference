@@ -24,9 +24,9 @@ Currently only supported on VK
 
 ## Parameters
 
-#### MissShaderIndex : uint
-#### Ray : RayDesc
-#### CurrentTime : float
+#### MissShaderIndex  : uint
+#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
+#### CurrentTime  : float
 
 ## Availability and Requirements
 

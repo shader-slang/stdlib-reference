@@ -23,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress : uint
-#### compareValue : float
-#### value : float
-#### outOriginalValue : float
+#### byteAddress  : uint
+#### compareValue  : float
+#### value  : float
+#### outOriginalValue  : float
 
 ## Availability and Requirements
 

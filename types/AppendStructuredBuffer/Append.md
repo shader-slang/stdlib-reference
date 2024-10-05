@@ -20,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : T
+#### value  : T
 

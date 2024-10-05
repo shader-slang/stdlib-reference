@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T
-#### addrSpace : uint64\_t = 4294967297ULL
+#### addrSpace  : uint64\_t =4294967297ULL
 
 ## Methods
 

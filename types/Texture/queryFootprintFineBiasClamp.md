@@ -35,9 +35,9 @@ t.SampleBiasClamp(sampler, coords, lodBias, lodClamp);
 
 ## Parameters
 
-#### granularity : uint
-#### sampler : SamplerState
-#### coords : vector\<float,Shape\.dimensions\>
-#### lodBias : float
-#### lodClamp : float
+#### granularity  : uint
+#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### lodBias  : float
+#### lodClamp  : float
 

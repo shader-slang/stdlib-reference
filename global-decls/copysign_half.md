@@ -21,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### N : int
-#### x : vector\<half,N\>
-#### y : vector\<half,N\>
+#### N  : int
+#### x  : [vector](/stdlib-reference/types/vector/index)\<half, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<half, N\>
 
 ## Availability and Requirements
 

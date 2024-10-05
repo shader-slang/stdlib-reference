@@ -20,5 +20,5 @@ T <a href="/stdlib-reference/types/OutputVertices/index" class="code_type">Outpu
 
 ## Parameters
 
-#### index : uint
+#### index  : uint
 

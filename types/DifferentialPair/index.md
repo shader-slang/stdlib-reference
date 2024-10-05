@@ -13,7 +13,7 @@ differential types of an arbitrary type T.
 
 ## Generic Parameters
 
-#### T: IDifferentiable
+#### T: [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index)
 
 ## Properties
 

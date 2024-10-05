@@ -25,9 +25,9 @@ shader is invoked.
 ## Parameters
 
 #### payload\_t
-#### AccelerationStructure : RaytracingAccelerationStructure
-#### HitOrMiss : HitObject
-#### Payload : payload\_t
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
+#### HitOrMiss  : [HitObject](/stdlib-reference/types/HitObject/index)
+#### Payload  : payload\_t
 
 ## Availability and Requirements
 

@@ -20,7 +20,7 @@ T <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">
 ## Parameters
 
 #### T
-#### location : int
+#### location  : int
 
 ## Availability and Requirements
 

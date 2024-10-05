@@ -27,11 +27,11 @@ T <a href="/stdlib-reference/global-decls/WavePrefixSum">WavePrefixSum</a>&lt;T&
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### expr : T
-#### expr : vector\<T,N\>
-#### expr : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### expr  : T
+#### expr  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### expr  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

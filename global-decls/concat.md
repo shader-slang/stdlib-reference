@@ -23,6 +23,6 @@ layout: stdlib-reference
 
 #### T
 #### U
-#### t : Tuple\<T\>
-#### u : Tuple\<U\>
+#### t  : [Tuple](/stdlib-reference/types/Tuple/index)\<T\>
+#### u  : [Tuple](/stdlib-reference/types/Tuple/index)\<U\>
 

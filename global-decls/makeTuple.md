@@ -20,5 +20,5 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### v : T
+#### v  : T
 

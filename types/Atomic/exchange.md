@@ -22,6 +22,6 @@ T <a href="/stdlib-reference/types/Atomic/index" class="code_type">Atomic</a>&lt
 
 ## Parameters
 
-#### newValue : T
-#### order : MemoryOrder = MemoryOrder\\.Relaxed
+#### newValue  : T
+#### order  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) \. Relaxed
 

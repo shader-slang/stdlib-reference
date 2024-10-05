@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: IDifferentiablePtrType
+#### T: [IDifferentiablePtrType](/stdlib-reference/interfaces/IDifferentiablePtrType/index)
 
 ## Properties
 

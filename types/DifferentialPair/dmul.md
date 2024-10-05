@@ -24,6 +24,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### U
-#### a : U
-#### b : DifferentialPair\<T\.Differential\>
+#### a  : U
+#### b  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<T \. [Differential](/stdlib-reference/types/DifferentialPair/Differential)\>
 

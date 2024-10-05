@@ -21,7 +21,7 @@ T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" cla
 ## Parameters
 
 #### T
-#### location : int
+#### location  : int
 
 ## Availability and Requirements
 

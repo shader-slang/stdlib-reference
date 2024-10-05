@@ -30,9 +30,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location : int
-#### alignment : int
-#### status : uint
+#### location  : int
+#### alignment  : int
+#### status  : uint
 
 ## Availability and Requirements
 

@@ -29,8 +29,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location : vector\<float,Shape\.dimensions\>
-#### s : SamplerState
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
 
 ## Availability and Requirements
 

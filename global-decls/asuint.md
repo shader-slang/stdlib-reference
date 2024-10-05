@@ -40,20 +40,20 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### N : int
-#### M : int
-#### value : double
-#### lowbits : uint
-#### highbits : uint
-#### x : float
-#### x : int
-#### x : vector\<float,N\>
-#### x : vector\<int,N\>
-#### x : matrix\<float,N,M\>
-#### x : matrix\<int,N,M\>
-#### x : uint
-#### x : vector\<uint,N\>
-#### x : matrix\<uint,N,M\>
+#### N  : int
+#### M  : int
+#### value  : double
+#### lowbits  : uint
+#### highbits  : uint
+#### x  : float
+#### x  : int
+#### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<float, N, M\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\>
+#### x  : uint
+#### x  : [vector](/stdlib-reference/types/vector/index)\<uint, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<uint, N, M\>
 
 ## Availability and Requirements
 

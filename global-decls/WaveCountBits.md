@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : vector\<uint,4\>
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
 
 ## Availability and Requirements
 

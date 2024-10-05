@@ -21,5 +21,5 @@ T <a href="/stdlib-reference/global-decls/reinterpret">reinterpret</a>&lt;T, U&g
 
 #### T
 #### U
-#### value : U
+#### value  : U
 

@@ -21,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : bool
-#### mask : vector\<uint,4\>
+#### value  : bool
+#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
 
 ## Availability and Requirements
 

@@ -23,5 +23,5 @@ T <a href="/stdlib-reference/types/RWStructuredBuffer/index" class="code_type">R
 ## Parameters
 
 #### TIndex
-#### index : TIndex
+#### index  : TIndex
 

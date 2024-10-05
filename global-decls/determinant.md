@@ -21,8 +21,8 @@ T <a href="/stdlib-reference/global-decls/determinant">determinant</a>&lt;T, N:<
 ## Parameters
 
 #### T
-#### N : int
-#### m : matrix\<T,N,N\>
+#### N  : int
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, N\>
 
 ## Availability and Requirements
 

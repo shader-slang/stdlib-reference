@@ -20,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### other : vector\<T,N\>
+#### other  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 

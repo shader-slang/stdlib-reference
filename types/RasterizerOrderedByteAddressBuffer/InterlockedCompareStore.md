@@ -22,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest : uint
-#### compare\_value : uint
-#### value : uint
+#### dest  : uint
+#### compare\_value  : uint
+#### value  : uint
 
 ## Availability and Requirements
 

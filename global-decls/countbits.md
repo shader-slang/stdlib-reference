@@ -21,9 +21,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### N : int
-#### value : uint
-#### value : vector\<uint,N\>
+#### N  : int
+#### value  : uint
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, N\>
 
 ## Availability and Requirements
 

@@ -45,17 +45,17 @@ T <a href="/stdlib-reference/global-decls/ldexp">ldexp</a>&lt;T, E&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
+#### N  : int
+#### M  : int
 #### E
-#### x : T
-#### exp : T
-#### x : vector\<T,N\>
-#### exp : vector\<T,N\>
-#### x : matrix\<T,N,M\>
-#### exp : matrix\<T,N,M\>
-#### exp : E
-#### exp : vector\<E,N\>
+#### x  : T
+#### exp  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### exp  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### exp  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### exp  : E
+#### exp  : [vector](/stdlib-reference/types/vector/index)\<E, N\>
 
 ## Availability and Requirements
 

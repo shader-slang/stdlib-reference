@@ -21,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### val : int
-#### val : int64\_t
+#### val  : int
+#### val  : int64\_t
 

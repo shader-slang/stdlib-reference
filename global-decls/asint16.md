@@ -38,18 +38,18 @@ int16_t <a href="/stdlib-reference/global-decls/asint16">asint16</a>(<span class
 
 ## Parameters
 
-#### N : int
-#### R : int
-#### C : int
-#### value : int16\_t
-#### value : vector\<int16\_t,N\>
-#### value : matrix\<int16\_t,R,C\>
-#### value : uint16\_t
-#### value : vector\<uint16\_t,N\>
-#### value : matrix\<uint16\_t,R,C\>
-#### value : half
-#### value : vector\<half,N\>
-#### value : matrix\<half,R,C\>
+#### N  : int
+#### R  : int
+#### C  : int
+#### value  : int16\_t
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int16\_t, N\>
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int16\_t, R, C\>
+#### value  : uint16\_t
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint16\_t, N\>
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint16\_t, R, C\>
+#### value  : half
+#### value  : [vector](/stdlib-reference/types/vector/index)\<half, N\>
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<half, R, C\>
 
 ## Availability and Requirements
 

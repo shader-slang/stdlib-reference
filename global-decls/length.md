@@ -24,9 +24,9 @@ T <a href="/stdlib-reference/global-decls/length">length</a>&lt;T&gt;(T <span cl
 ## Parameters
 
 #### T
-#### N : int
-#### x : vector\<T,N\>
-#### x : T
+#### N  : int
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : T
 
 ## Availability and Requirements
 

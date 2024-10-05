@@ -21,8 +21,8 @@ uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code
 
 ## Parameters
 
-#### byteAddress : uint
-#### value : uint64\_t
+#### byteAddress  : uint
+#### value  : uint64\_t
 
 ## Availability and Requirements
 

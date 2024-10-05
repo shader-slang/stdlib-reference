@@ -28,8 +28,8 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### left : vector\<T,3\>
-#### right : vector\<T,3\>
+#### left  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
+#### right  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
 
 ## Availability and Requirements
 

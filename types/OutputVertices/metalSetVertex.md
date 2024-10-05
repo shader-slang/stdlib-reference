@@ -21,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### index : uint
-#### val : T
+#### index  : uint
+#### val  : T
 

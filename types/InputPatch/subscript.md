@@ -21,5 +21,5 @@ T <a href="/stdlib-reference/types/InputPatch/index" class="code_type">InputPatc
 ## Parameters
 
 #### TIndex
-#### index : TIndex
+#### index  : TIndex
 

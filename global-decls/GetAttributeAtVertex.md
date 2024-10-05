@@ -44,12 +44,12 @@ T <a href="/stdlib-reference/global-decls/GetAttributeAtVertex">GetAttributeAtVe
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### attribute : T
-#### vertexIndex : uint
-#### attribute : vector\<T,N\>
-#### attribute : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### attribute  : T
+#### vertexIndex  : uint
+#### attribute  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### attribute  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

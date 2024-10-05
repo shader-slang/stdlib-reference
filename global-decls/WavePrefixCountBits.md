@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : bool
+#### value  : bool
 
 ## Availability and Requirements
 

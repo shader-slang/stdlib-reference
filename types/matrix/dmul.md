@@ -24,6 +24,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### U
-#### a : U
-#### b : matrix\<T,N,M\>
+#### a  : U
+#### b  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 

@@ -49,10 +49,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location : vector\<float,isArray+Shape\.dimensions\>
-#### compareValue : float
-#### offset : vector\<int,Shape\.planeDimensions\>
-#### s : SamplerComparisonState
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape \. dimensions\>
+#### compareValue  : float
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### s  : [SamplerComparisonState](/stdlib-reference/types/SamplerComparisonState/index)
 
 ## Availability and Requirements
 

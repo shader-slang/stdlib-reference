@@ -23,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### RawDetailFactor : float
-#### RawDensityFactor : float
-#### RoundedDetailFactor : float
-#### RoundedDensityFactor : float
+#### RawDetailFactor  : float
+#### RawDensityFactor  : float
+#### RoundedDetailFactor  : float
+#### RoundedDensityFactor  : float
 
 ## Availability and Requirements
 

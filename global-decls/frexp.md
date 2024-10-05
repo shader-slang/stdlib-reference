@@ -33,15 +33,15 @@ T <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### L : int
-#### x : T
-#### exp : int
-#### x : vector\<T,N\>
-#### exp : vector\<int,N\>
-#### x : matrix\<T,N,M\>
-#### exp : matrix\<int,N,M\>
+#### N  : int
+#### M  : int
+#### L  : int
+#### x  : T
+#### exp  : int
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### exp  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### exp  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\>
 
 ## Availability and Requirements
 

@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### Index : int
+#### Index  : int
 
 ## Availability and Requirements
 

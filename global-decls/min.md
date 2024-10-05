@@ -48,14 +48,14 @@ T <a href="/stdlib-reference/global-decls/min">min</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### x : T
-#### y : T
-#### x : vector\<T,N\>
-#### y : vector\<T,N\>
-#### x : matrix\<T,N,M\>
-#### y : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### x  : T
+#### y  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

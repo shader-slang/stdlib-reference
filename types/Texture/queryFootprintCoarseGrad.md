@@ -35,9 +35,9 @@ t.SampleGrad(sampler, coords, dx, dy);
 
 ## Parameters
 
-#### granularity : uint
-#### sampler : SamplerState
-#### coords : vector\<float,Shape\.dimensions\>
-#### dx : vector\<float,Shape\.dimensions\>
-#### dy : vector\<float,Shape\.dimensions\>
+#### granularity  : uint
+#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### dx  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
+#### dy  : [vector](/stdlib-reference/types/vector/index)\<float, Shape \. dimensions\>
 

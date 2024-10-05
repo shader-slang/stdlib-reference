@@ -45,16 +45,16 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 ## Parameters
 
 #### attr\_t
-#### AccelerationStructure : RaytracingAccelerationStructure
-#### InstanceIndex : uint
-#### GeometryIndex : uint
-#### PrimitiveIndex : uint
-#### HitKind : uint
-#### RayContributionToHitGroupIndex : uint
-#### MultiplierForGeometryContributionToHitGroupIndex : uint
-#### Ray : RayDesc
-#### attributes : attr\_t
-#### HitGroupRecordIndex : uint
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
+#### InstanceIndex  : uint
+#### GeometryIndex  : uint
+#### PrimitiveIndex  : uint
+#### HitKind  : uint
+#### RayContributionToHitGroupIndex  : uint
+#### MultiplierForGeometryContributionToHitGroupIndex  : uint
+#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
+#### attributes  : attr\_t
+#### HitGroupRecordIndex  : uint
 
 ## Availability and Requirements
 

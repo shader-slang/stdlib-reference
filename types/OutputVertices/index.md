@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T
-#### MAX\_VERTS : uint
+#### MAX\_VERTS  : uint
 
 ## Methods
 

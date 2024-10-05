@@ -30,13 +30,13 @@ T <a href="/stdlib-reference/global-decls/median3">median3</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### x : T
-#### y : T
-#### z : T
-#### x : vector\<T,N\>
-#### y : vector\<T,N\>
-#### z : vector\<T,N\>
+#### N  : int
+#### x  : T
+#### y  : T
+#### z  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### z  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 
 ## Availability and Requirements
 

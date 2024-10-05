@@ -19,5 +19,5 @@ TR <a href="/stdlib-reference/interfaces/IMutatingFunc/index" class="code_type">
 
 ## Parameters
 
-#### p : TP
+#### p  : TP
 

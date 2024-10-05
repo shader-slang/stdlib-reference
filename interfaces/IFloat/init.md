@@ -21,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value : float
-#### value : This
+#### value  : float
+#### value  : This
 

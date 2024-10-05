@@ -28,11 +28,11 @@ T <a href="/stdlib-reference/global-decls/reflect">reflect</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### i : T
-#### n : T
-#### i : vector\<T,N\>
-#### n : vector\<T,N\>
+#### N  : int
+#### i  : T
+#### n  : T
+#### i  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### n  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 
 ## Availability and Requirements
 

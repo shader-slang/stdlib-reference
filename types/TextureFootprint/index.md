@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### ND : int
+#### ND  : int
 
 ## Fields
 

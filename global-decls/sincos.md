@@ -36,19 +36,19 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### N : int
-#### M : int
-#### L1 : int
-#### L2 : int
-#### x : T
-#### s : T
-#### c : T
-#### x : vector\<T,N\>
-#### s : vector\<T,N\>
-#### c : vector\<T,N\>
-#### x : matrix\<T,N,M\>
-#### s : matrix\<T,N,M\>
-#### c : matrix\<T,N,M\>
+#### N  : int
+#### M  : int
+#### L1  : int
+#### L2  : int
+#### x  : T
+#### s  : T
+#### c  : T
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### s  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### c  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### s  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### c  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 
 ## Availability and Requirements
 

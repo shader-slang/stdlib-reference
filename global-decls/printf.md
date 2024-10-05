@@ -129,18 +129,18 @@ layout: stdlib-reference
 #### T8
 #### T9
 #### T10
-#### format : NativeString
-#### v0 : T0
-#### v1 : T1
-#### v2 : T2
-#### v3 : T3
-#### v4 : T4
-#### v5 : T5
-#### v6 : T6
-#### v7 : T7
-#### v8 : T8
-#### v9 : T9
-#### v10 : T10
+#### format  : [NativeString](/stdlib-reference/types/NativeString/index)
+#### v0  : T0
+#### v1  : T1
+#### v2  : T2
+#### v3  : T3
+#### v4  : T4
+#### v5  : T5
+#### v6  : T6
+#### v7  : T7
+#### v8  : T8
+#### v9  : T9
+#### v10  : T10
 
 ## Availability and Requirements
 

@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### other : This
+#### other  : This
 

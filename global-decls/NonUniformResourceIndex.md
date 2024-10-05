@@ -25,8 +25,8 @@ T <a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformRes
 ## Parameters
 
 #### T
-#### index : T
-#### value : T
+#### index  : T
+#### value  : T
 
 ## Availability and Requirements
 

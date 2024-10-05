@@ -25,10 +25,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### lowbits : uint
-#### highbits : uint
-#### lowbits : vector\<uint,2\>
-#### highbits : vector\<uint,2\>
+#### lowbits  : uint
+#### highbits  : uint
+#### lowbits  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\>
+#### highbits  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\>
 
 ## Availability and Requirements
 

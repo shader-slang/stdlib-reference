@@ -22,6 +22,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### T
-#### offset : int
-#### value : T
+#### offset  : int
+#### value  : T
 

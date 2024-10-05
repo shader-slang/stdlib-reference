@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### v : OutputVertices\<T, MAX\_VERTS\>
-#### index : uint
-#### val : T
+#### v  : [OutputVertices](/stdlib-reference/types/OutputVertices/index)\<T, MAX\_VERTS\>
+#### index  : uint
+#### val  : T
 

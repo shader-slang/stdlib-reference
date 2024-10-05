@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### TR: IDifferentiable
+#### TR: [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index)
 
 ## Methods
 

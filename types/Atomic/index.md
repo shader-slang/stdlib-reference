@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: IAtomicable
+#### T: [IAtomicable](/stdlib-reference/interfaces/IAtomicable/index)
 
 ## Methods
 

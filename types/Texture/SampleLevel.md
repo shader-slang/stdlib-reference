@@ -53,10 +53,10 @@ T <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>
 
 ## Parameters
 
-#### location : vector\<float,isArray+Shape\.dimensions\>
-#### level : float
-#### offset : vector\<int,Shape\.planeDimensions\>
-#### s : SamplerState
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape \. dimensions\>
+#### level  : float
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape \. planeDimensions\>
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
 
 ## Availability and Requirements
 

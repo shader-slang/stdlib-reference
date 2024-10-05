@@ -29,15 +29,15 @@ layout: stdlib-reference
 ## Parameters
 
 #### payload\_t
-#### AccelerationStructure : RaytracingAccelerationStructure
-#### RayFlags : uint
-#### InstanceInclusionMask : uint
-#### RayContributionToHitGroupIndex : uint
-#### MultiplierForGeometryContributionToHitGroupIndex : uint
-#### MissShaderIndex : uint
-#### Ray : RayDesc
-#### CurrentTime : float
-#### Payload : payload\_t
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
+#### RayFlags  : uint
+#### InstanceInclusionMask  : uint
+#### RayContributionToHitGroupIndex  : uint
+#### MultiplierForGeometryContributionToHitGroupIndex  : uint
+#### MissShaderIndex  : uint
+#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
+#### CurrentTime  : float
+#### Payload  : payload\_t
 
 ## Availability and Requirements
 

@@ -20,5 +20,5 @@ T <a href="/stdlib-reference/types/OutputIndices/index" class="code_type">Output
 
 ## Parameters
 
-#### index : uint
+#### index  : uint
 

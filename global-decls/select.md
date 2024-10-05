@@ -28,11 +28,11 @@ T <a href="/stdlib-reference/global-decls/select">select</a>&lt;T&gt;(
 ## Parameters
 
 #### T
-#### N : int
-#### condition : bool
-#### ifTrue : T
-#### ifFalse : T
-#### condition : vector\<bool,N\>
-#### ifTrue : vector\<T,N\>
-#### ifFalse : vector\<T,N\>
+#### N  : int
+#### condition  : bool
+#### ifTrue  : T
+#### ifFalse  : T
+#### condition  : [vector](/stdlib-reference/types/vector/index)\<bool, N\>
+#### ifTrue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### ifFalse  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 

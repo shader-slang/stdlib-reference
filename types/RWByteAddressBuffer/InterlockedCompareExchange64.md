@@ -29,13 +29,13 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress : uint
-#### compareValue : int64\_t
-#### value : int64\_t
-#### outOriginalValue : int64\_t
-#### compareValue : uint64\_t
-#### value : uint64\_t
-#### outOriginalValue : uint64\_t
+#### byteAddress  : uint
+#### compareValue  : int64\_t
+#### value  : int64\_t
+#### outOriginalValue  : int64\_t
+#### compareValue  : uint64\_t
+#### value  : uint64\_t
+#### outOriginalValue  : uint64\_t
 
 ## Availability and Requirements
 

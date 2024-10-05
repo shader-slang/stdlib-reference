@@ -76,12 +76,12 @@ layout: stdlib-reference
 ## Parameters
 
 #### S
-#### tex : Texture2D\<S\>
-#### samp : SamplerState
-#### location : vector\<float,2\>
-#### clamp : float
-#### texArray : Texture2DArray\<S\>
-#### location : vector\<float,3\>
+#### tex  : [Texture2D](/stdlib-reference/types/Texture2D)\<S\>
+#### samp  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, 2\>
+#### clamp  : float
+#### texArray  : [Texture2DArray](/stdlib-reference/types/Texture2DArray)\<S\>
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, 3\>
 
 ## Availability and Requirements
 
