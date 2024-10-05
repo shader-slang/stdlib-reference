@@ -367,7 +367,7 @@
     selectedItem = findItem(currentPageID);
     if (selectedItem == null)
     {
-      selectedItem = findItem(currentPageID.substr(currentPageID.lastIndexOf("/index")));
+      selectedItem = findItem(currentPageID.substr(0, currentPageID.lastIndexOf("/index")));
     }
     if (selectedItem == null)
       selectedItem = tocItemsArray[0];
