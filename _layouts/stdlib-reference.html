@@ -337,12 +337,18 @@
       for (var j = 0; j < items.length; j++)
         tocItemsArray.push(items[j]);
     }
-    if (currentPageID.length == 0)
-      currentPageID = tocItemsArray[0];
+
+    var findItem = function(pageID) {
+      for (var i = 0; i < tocItemsArray.length; i++) {
+        var item = tocItemsArray[i];
+        if (item.getAttribute("data-link") == pageID)
+          return item;
+      }
+      return null;
+    };
+
     for (var i = 0; i < tocItemsArray.length; i++) {
       var item = tocItemsArray[i];
-      if (item.getAttribute("data-link") == currentPageID)
-        selectedItem = item;
       if (item.getElementsByTagName("li").length != 0) {
         collapseItem(item);
       }
@@ -356,6 +362,12 @@
         innerSpan[0].addEventListener("click", tocSpanOnClick);
         innerSpan[0].setAttribute("class", "toc_span");
       }
+    }
+
+    selectedItem = findItem(currentPageID);
+    if (selectedItem == null)
+    {
+      selectedItem = findItem(currentPageID.subString(currentPageID.lastIndexOf("/index")));
     }
     if (selectedItem == null)
       selectedItem = tocItemsArray[0];
