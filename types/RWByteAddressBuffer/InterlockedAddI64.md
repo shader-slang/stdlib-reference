@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64">InterlockedAddI64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    int64_t <span class='code_param'>valueToAdd</span>,
-    out int64_t <span class='code_param'>originalValue</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-valueToAdd" class="code_param">valueToAdd</a>    int64_t ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-originalValue" class="code_param">originalValue</a>    out int64_t );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64">InterlockedAddI64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    int64_t <span class='code_param'>valueToAdd</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-valueToAdd" class="code_param">valueToAdd</a>    int64_t );
 
 </pre>
 

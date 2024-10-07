@@ -15,49 +15,49 @@ layout: stdlib-reference
 <pre>
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    int <span class='code_param'>dest</span>,
-    int <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    int ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    int );
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    int <span class='code_param'>dest</span>,
-    int <span class='code_param'>value</span>,
-    out int <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    int ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    int ,
+original_value    out int );
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    uint );
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>,
-    out uint <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    uint ,
+original_value    out uint );
 
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    uint <span class='code_param'>dest</span>,
-    int <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    int );
 
 /// Requires Capability Set 2:
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    int64_t <span class='code_param'>dest</span>,
-    int64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    int64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    int64_t );
 
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    int64_t <span class='code_param'>dest</span>,
-    int64_t <span class='code_param'>value</span>,
-    out int64_t <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    int64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    int64_t ,
+original_value    out int64_t );
 
 /// Requires Capability Set 2:
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    uint64_t <span class='code_param'>dest</span>,
-    uint64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    uint64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    uint64_t );
 
 void <a href="/stdlib-reference/global-decls/InterlockedAdd">InterlockedAdd</a>(
-    uint64_t <span class='code_param'>dest</span>,
-    uint64_t <span class='code_param'>value</span>,
-    out uint64_t <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-dest" class="code_param">dest</a>    uint64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedAdd#decl-value" class="code_param">value</a>    uint64_t ,
+original_value    out uint64_t );
 
 </pre>
 

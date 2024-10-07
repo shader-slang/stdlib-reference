@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax">InterlockedMax</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>,
-    out uint <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax#decl-value" class="code_param">value</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax#decl-original_value" class="code_param">original_value</a>    out uint );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax">InterlockedMax</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax#decl-value" class="code_param">value</a>    uint );
 
 </pre>
 

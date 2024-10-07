@@ -14,21 +14,21 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fma">fma</a>&lt;<a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> <span class='code_param'>a</span>,
-    <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> <span class='code_param'>b</span>,
-    <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> <span class='code_param'>c</span>)
+a    <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> ,
+b    <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> ,
+c    <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/fma">fma</a>&lt;<a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>a</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>b</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>c</span>)
+a    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+b    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+c    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/fma">fma</a>&lt;<a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>a</span>,
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>b</span>,
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>c</span>)
+a    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
+b    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
+c    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fma#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>

@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 bool <a href="/stdlib-reference/global-decls/ReportHit">ReportHit</a>&lt;<a href="/stdlib-reference/global-decls/ReportHit#typeparam-A" class="code_type">A</a>&gt;(
-    float <span class='code_param'>tHit</span>,
-    uint <span class='code_param'>hitKind</span>,
-    <a href="/stdlib-reference/global-decls/ReportHit#typeparam-A" class="code_type">A</a> <span class='code_param'>attributes</span>);
+tHit    float ,
+hitKind    uint ,
+attributes    <a href="/stdlib-reference/global-decls/ReportHit#typeparam-A" class="code_type">A</a> );
 
 </pre>
 

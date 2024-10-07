@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/InterlockedCompareStoreFloatBitwise">InterlockedCompareStoreFloatBitwise</a>(
-    float <span class='code_param'>dest</span>,
-    float <span class='code_param'>compare_value</span>,
-    float <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedCompareStoreFloatBitwise#decl-dest" class="code_param">dest</a>    float ,
+<a href="/stdlib-reference/global-decls/InterlockedCompareStoreFloatBitwise#decl-compare_value" class="code_param">compare_value</a>    float ,
+<a href="/stdlib-reference/global-decls/InterlockedCompareStoreFloatBitwise#decl-value" class="code_param">value</a>    float );
 
 </pre>
 

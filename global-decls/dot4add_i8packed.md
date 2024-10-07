@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 int <a href="/stdlib-reference/global-decls/dot4add_i8packed">dot4add_i8packed</a>(
-    uint <span class='code_param'>left</span>,
-    uint <span class='code_param'>right</span>,
-    int <span class='code_param'>acc</span>);
+<a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-left" class="code_param">left</a>    uint ,
+<a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-right" class="code_param">right</a>    uint ,
+<a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-acc" class="code_param">acc</a>    int );
 
 </pre>
 

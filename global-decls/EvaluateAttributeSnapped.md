@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped">EvaluateAttributeSnapped</a>&lt;<a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 2&gt; <span class='code_param'>offset</span>)
+x    <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a> ,
+offset    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 2&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped">EvaluateAttributeSnapped</a>&lt;<a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 2&gt; <span class='code_param'>offset</span>)
+x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+offset    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 2&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped">EvaluateAttributeSnapped</a>&lt;<a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 2&gt; <span class='code_param'>offset</span>)
+x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
+offset    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 2&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/EvaluateAttributeSnapped#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 </pre>

@@ -18,16 +18,16 @@ uint <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_typ
 
 /// Requires Capability Set 2:
 uint <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load">Load</a>(
-    int <span class='code_param'>location</span>,
-    out uint <span class='code_param'>status</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/Load#decl-location" class="code_param">location</a>    int ,
+status    out uint );
 
 /// Requires Capability Set 1:
 T <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load">Load</a>&lt;T&gt;(int <a href="/stdlib-reference/types/RWByteAddressBuffer/Load#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 1:
 T <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load">Load</a>&lt;T&gt;(
-    int <span class='code_param'>location</span>,
-    int <span class='code_param'>alignment</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/Load#decl-location" class="code_param">location</a>    int ,
+alignment    int );
 
 </pre>
 

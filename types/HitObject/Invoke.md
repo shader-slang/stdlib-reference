@@ -16,9 +16,9 @@ shader is invoked.
 
 <pre>
 <span class='code_keyword'>static</span> void <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/Invoke">Invoke</a>&lt;<a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <span class='code_param'>AccelerationStructure</span>,
-    <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <span class='code_param'>HitOrMiss</span>,
-    inout <a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a> <span class='code_param'>Payload</span>);
+AccelerationStructure    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> ,
+HitOrMiss    <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> ,
+Payload    inout <a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a> );
 
 </pre>
 

@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum">WaveMultiPrefixSum</a>&lt;<a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a> <span class='code_param'>value</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <span class='code_param'>mask</span>)
+value    <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a> ,
+mask    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum">WaveMultiPrefixSum</a>&lt;<a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>value</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <span class='code_param'>mask</span>)
+value    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+mask    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum">WaveMultiPrefixSum</a>&lt;<a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>value</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <span class='code_param'>mask</span>)
+value    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
+mask    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveMultiPrefixSum#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 </pre>

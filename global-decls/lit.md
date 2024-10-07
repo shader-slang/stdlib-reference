@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/lit">lit</a>(
-    float <span class='code_param'>n_dot_l</span>,
-    float <span class='code_param'>n_dot_h</span>,
-    float <span class='code_param'>m</span>);
+<a href="/stdlib-reference/global-decls/lit#decl-n_dot_l" class="code_param">n_dot_l</a>    float ,
+<a href="/stdlib-reference/global-decls/lit#decl-n_dot_h" class="code_param">n_dot_h</a>    float ,
+<a href="/stdlib-reference/global-decls/lit#decl-m" class="code_param">m</a>    float );
 
 </pre>
 

@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/asuint">asuint</a>(
-    double <span class='code_param'>value</span>,
-    out uint <span class='code_param'>lowbits</span>,
-    out uint <span class='code_param'>highbits</span>);
+<a href="/stdlib-reference/global-decls/asuint#decl-value" class="code_param">value</a>    double ,
+<a href="/stdlib-reference/global-decls/asuint#decl-lowbits" class="code_param">lowbits</a>    out uint ,
+<a href="/stdlib-reference/global-decls/asuint#decl-highbits" class="code_param">highbits</a>    out uint );
 
 uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(float x);
 

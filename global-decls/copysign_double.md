@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_double">copysign_double</a>&lt;<a href="/stdlib-reference/global-decls/copysign_double#decl-N" class="code_var">N</a>:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>y</span>);
+x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+y    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; );
 
 </pre>
 

@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/reflect">reflect</a>&lt;<a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> <span class='code_param'>i</span>,
-    <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> <span class='code_param'>n</span>)
+i    <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> ,
+n    <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reflect">reflect</a>&lt;<a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>i</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>n</span>)
+i    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+n    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/reflect#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>

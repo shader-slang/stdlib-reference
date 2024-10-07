@@ -14,11 +14,11 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg">Process2DQuadTessFactorsAvg</a>(
-    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <span class='code_param'>RawEdgeFactors</span>,
-    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <span class='code_param'>InsideScale</span>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <span class='code_param'>RoundedEdgeTessFactors</span>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <span class='code_param'>RoundedInsideTessFactors</span>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <span class='code_param'>UnroundedInsideTessFactors</span>);
+<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; ,
+<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg#decl-InsideScale" class="code_param">InsideScale</a>    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; ,
+<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; ,
+<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; ,
+<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; );
 
 </pre>
 

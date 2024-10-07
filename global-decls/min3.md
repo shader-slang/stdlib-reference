@@ -14,15 +14,15 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min3">min3</a>&lt;<a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> <span class='code_param'>y</span>,
-    <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> <span class='code_param'>z</span>)
+x    <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> ,
+y    <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> ,
+z    <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min3">min3</a>&lt;<a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>y</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>z</span>)
+x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+y    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+z    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min3#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>

@@ -14,10 +14,10 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    float <span class='code_param'>compareValue</span>,
-    float <span class='code_param'>value</span>,
-    out float <span class='code_param'>outOriginalValue</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-compareValue" class="code_param">compareValue</a>    float ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>    float ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-outOriginalValue" class="code_param">outOriginalValue</a>    out float );
 
 </pre>
 

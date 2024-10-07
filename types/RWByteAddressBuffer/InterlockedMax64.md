@@ -14,22 +14,22 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64">InterlockedMax64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    int64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-value" class="code_param">value</a>    int64_t );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64">InterlockedMax64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    int64_t <span class='code_param'>value</span>,
-    out int64_t <span class='code_param'>outOriginalValue</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-value" class="code_param">value</a>    int64_t ,
+outOriginalValue    out int64_t );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64">InterlockedMax64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    uint64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-value" class="code_param">value</a>    uint64_t );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64">InterlockedMax64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    uint64_t <span class='code_param'>value</span>,
-    out uint64_t <span class='code_param'>outOriginalValue</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMax64#decl-value" class="code_param">value</a>    uint64_t ,
+outOriginalValue    out uint64_t );
 
 </pre>
 

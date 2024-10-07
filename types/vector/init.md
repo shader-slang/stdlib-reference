@@ -28,64 +28,64 @@ Initialize a vector where all elements have the same scalar <span class='code'><
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>y</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+y    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 2;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>y</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>z</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+y    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+z    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 3;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>xy</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>z</span>)
+xy    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; ,
+z    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 3;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>yz</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+yz    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 3;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>y</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>z</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>w</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+y    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+z    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+w    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>xy</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>z</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>w</span>)
+xy    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; ,
+z    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+w    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>yz</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>w</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+yz    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; ,
+w    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>y</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>zw</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+y    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+zw    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>xy</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; <span class='code_param'>zw</span>)
+xy    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; ,
+zw    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 3&gt; <span class='code_param'>xyz</span>,
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>w</span>)
+xyz    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 3&gt; ,
+w    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(
-    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 3&gt; <span class='code_param'>yzw</span>)
+x    <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> ,
+yzw    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 3&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;int8_t, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/types/vector/init#decl-value" class="code_param">value</a>)

@@ -14,14 +14,14 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/TraceRay">TraceRay</a>&lt;<a href="/stdlib-reference/global-decls/TraceRay#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index">RaytracingAccelerationStructure</a> <span class='code_param'>AccelerationStructure</span>,
-    uint <span class='code_param'>RayFlags</span>,
-    uint <span class='code_param'>InstanceInclusionMask</span>,
-    uint <span class='code_param'>RayContributionToHitGroupIndex</span>,
-    uint <span class='code_param'>MultiplierForGeometryContributionToHitGroupIndex</span>,
-    uint <span class='code_param'>MissShaderIndex</span>,
-    <a href="/stdlib-reference/types/RayDesc/index">RayDesc</a> <span class='code_param'>Ray</span>,
-    inout <a href="/stdlib-reference/global-decls/TraceRay#typeparam-payload_t" class="code_type">payload_t</a> <span class='code_param'>Payload</span>);
+AccelerationStructure    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index">RaytracingAccelerationStructure</a> ,
+<a href="/stdlib-reference/global-decls/RayFlags">RayFlags</a>    uint ,
+InstanceInclusionMask    uint ,
+RayContributionToHitGroupIndex    uint ,
+MultiplierForGeometryContributionToHitGroupIndex    uint ,
+MissShaderIndex    uint ,
+Ray    <a href="/stdlib-reference/types/RayDesc/index">RayDesc</a> ,
+Payload    inout <a href="/stdlib-reference/global-decls/TraceRay#typeparam-payload_t" class="code_type">payload_t</a> );
 
 </pre>
 

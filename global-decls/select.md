@@ -14,14 +14,14 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/select">select</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>&gt;(
-    bool <span class='code_param'>condition</span>,
-    <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> <span class='code_param'>ifTrue</span>,
-    <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> <span class='code_param'>ifFalse</span>);
+condition    bool ,
+ifTrue    <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> ,
+ifFalse    <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> );
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/select">select</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;bool, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>condition</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>ifTrue</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>ifFalse</span>);
+condition    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;bool, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+ifTrue    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+ifFalse    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; );
 
 </pre>
 

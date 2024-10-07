@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 float <a href="/stdlib-reference/global-decls/dot2add">dot2add</a>(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <span class='code_param'>left</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <span class='code_param'>right</span>,
-    float <span class='code_param'>acc</span>);
+<a href="/stdlib-reference/global-decls/dot2add#decl-left" class="code_param">left</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; ,
+<a href="/stdlib-reference/global-decls/dot2add#decl-right" class="code_param">right</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; ,
+<a href="/stdlib-reference/global-decls/dot2add#decl-acc" class="code_param">acc</a>    float );
 
 </pre>
 

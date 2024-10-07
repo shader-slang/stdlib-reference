@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedOr64">InterlockedOr64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    uint64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedOr64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedOr64#decl-value" class="code_param">value</a>    uint64_t );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedOr64">InterlockedOr64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    uint64_t <span class='code_param'>value</span>,
-    out uint64_t <span class='code_param'>outOriginalValue</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedOr64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedOr64#decl-value" class="code_param">value</a>    uint64_t ,
+outOriginalValue    out uint64_t );
 
 </pre>
 

@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <span class='code_keyword'>static</span> This.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/index" class="code_type">IDifferentiable</a>.<a href="/stdlib-reference/interfaces/IDifferentiable/dadd">dadd</a>(
-    This.Differential <span class='code_param'>SLANG_anonymous_0</span>,
-    This.Differential <span class='code_param'>SLANG_anonymous_1</span>);
+<a href="/stdlib-reference/interfaces/IDifferentiable/dadd#decl-SLANG_anonymous_0" class="code_param">SLANG_anonymous_0</a>    This.Differential ,
+<a href="/stdlib-reference/interfaces/IDifferentiable/dadd#decl-SLANG_anonymous_1" class="code_param">SLANG_anonymous_1</a>    This.Differential );
 
 </pre>
 

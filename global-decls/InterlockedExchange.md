@@ -14,53 +14,53 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    int <span class='code_param'>dest</span>,
-    int <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    int ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    int );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    int <span class='code_param'>dest</span>,
-    int <span class='code_param'>value</span>,
-    out int <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    int ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    int ,
+original_value    out int );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    uint );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>,
-    out uint <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    uint ,
+original_value    out uint );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    uint <span class='code_param'>dest</span>,
-    int <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    int );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    int64_t <span class='code_param'>dest</span>,
-    int64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    int64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    int64_t );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    int64_t <span class='code_param'>dest</span>,
-    int64_t <span class='code_param'>value</span>,
-    out int64_t <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    int64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    int64_t ,
+original_value    out int64_t );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    uint64_t <span class='code_param'>dest</span>,
-    uint64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    uint64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    uint64_t );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    uint64_t <span class='code_param'>dest</span>,
-    uint64_t <span class='code_param'>value</span>,
-    out uint64_t <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    uint64_t ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    uint64_t ,
+original_value    out uint64_t );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    float <span class='code_param'>dest</span>,
-    float <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    float ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    float );
 
 void <a href="/stdlib-reference/global-decls/InterlockedExchange">InterlockedExchange</a>(
-    float <span class='code_param'>dest</span>,
-    float <span class='code_param'>value</span>,
-    out float <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-dest" class="code_param">dest</a>    float ,
+<a href="/stdlib-reference/global-decls/InterlockedExchange#decl-value" class="code_param">value</a>    float ,
+original_value    out float );
 
 </pre>
 

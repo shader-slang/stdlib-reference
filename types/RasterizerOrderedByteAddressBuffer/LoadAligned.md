@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/LoadAligned#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/LoadAligned">LoadAligned</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/LoadAligned#typeparam-T" class="code_type">T</a>&gt;(
-    int <span class='code_param'>location</span>);
+location    int );
 
 </pre>
 

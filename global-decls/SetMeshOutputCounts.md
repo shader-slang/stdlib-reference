@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/SetMeshOutputCounts">SetMeshOutputCounts</a>(
-    uint <span class='code_param'>vertexCount</span>,
-    uint <span class='code_param'>primitiveCount</span>);
+<a href="/stdlib-reference/global-decls/SetMeshOutputCounts#decl-vertexCount" class="code_param">vertexCount</a>    uint ,
+<a href="/stdlib-reference/global-decls/SetMeshOutputCounts#decl-primitiveCount" class="code_param">primitiveCount</a>    uint );
 
 </pre>
 

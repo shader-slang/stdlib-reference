@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/GetDimensions">GetDimensions</a>(
-    out uint <span class='code_param'>dim</span>);
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/GetDimensions#decl-dim" class="code_param">dim</a>    out uint );
 
 </pre>
 

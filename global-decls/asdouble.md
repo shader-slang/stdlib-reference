@@ -14,12 +14,12 @@ layout: stdlib-reference
 
 <pre>
 double <a href="/stdlib-reference/global-decls/asdouble">asdouble</a>(
-    uint <span class='code_param'>lowbits</span>,
-    uint <span class='code_param'>highbits</span>);
+<a href="/stdlib-reference/global-decls/asdouble#decl-lowbits" class="code_param">lowbits</a>    uint ,
+<a href="/stdlib-reference/global-decls/asdouble#decl-highbits" class="code_param">highbits</a>    uint );
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, 2&gt; <a href="/stdlib-reference/global-decls/asdouble">asdouble</a>(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; <span class='code_param'>lowbits</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; <span class='code_param'>highbits</span>);
+<a href="/stdlib-reference/global-decls/asdouble#decl-lowbits" class="code_param">lowbits</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; ,
+<a href="/stdlib-reference/global-decls/asdouble#decl-highbits" class="code_param">highbits</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; );
 
 </pre>
 

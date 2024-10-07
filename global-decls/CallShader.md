@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/CallShader">CallShader</a>&lt;<a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a>&gt;(
-    uint <span class='code_param'>shaderIndex</span>,
-    inout <a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a> <span class='code_param'>payload</span>);
+shaderIndex    uint ,
+payload    inout <a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a> );
 
 </pre>
 

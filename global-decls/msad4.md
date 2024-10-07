@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/global-decls/msad4">msad4</a>(
-    uint <span class='code_param'>reference</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; <span class='code_param'>source</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <span class='code_param'>accum</span>);
+<a href="/stdlib-reference/global-decls/msad4#decl-reference" class="code_param">reference</a>    uint ,
+<a href="/stdlib-reference/global-decls/msad4#decl-source" class="code_param">source</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; ,
+<a href="/stdlib-reference/global-decls/msad4#decl-accum" class="code_param">accum</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; );
 
 </pre>
 

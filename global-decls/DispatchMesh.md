@@ -14,10 +14,10 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/DispatchMesh">DispatchMesh</a>&lt;<a href="/stdlib-reference/global-decls/DispatchMesh#typeparam-P" class="code_type">P</a>&gt;(
-    uint <span class='code_param'>threadGroupCountX</span>,
-    uint <span class='code_param'>threadGroupCountY</span>,
-    uint <span class='code_param'>threadGroupCountZ</span>,
-    <a href="/stdlib-reference/global-decls/DispatchMesh#typeparam-P" class="code_type">P</a> <span class='code_param'>meshPayload</span>);
+threadGroupCountX    uint ,
+threadGroupCountY    uint ,
+threadGroupCountZ    uint ,
+meshPayload    <a href="/stdlib-reference/global-decls/DispatchMesh#typeparam-P" class="code_type">P</a> );
 
 </pre>
 

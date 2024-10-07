@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMinU64">InterlockedMinU64</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    uint64_t <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMinU64#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMinU64#decl-value" class="code_param">value</a>    uint64_t );
 
 </pre>
 

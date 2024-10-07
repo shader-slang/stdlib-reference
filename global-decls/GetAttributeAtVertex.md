@@ -25,18 +25,18 @@ built-in scalar types.
 
 <pre>
 <a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/GetAttributeAtVertex">GetAttributeAtVertex</a>&lt;<a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a> <span class='code_param'>attribute</span>,
-    uint <span class='code_param'>vertexIndex</span>)
+attribute    <a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a> ,
+vertexIndex    uint )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/GetAttributeAtVertex">GetAttributeAtVertex</a>&lt;<a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>attribute</span>,
-    uint <span class='code_param'>vertexIndex</span>)
+attribute    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
+vertexIndex    uint )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/GetAttributeAtVertex">GetAttributeAtVertex</a>&lt;<a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>attribute</span>,
-    uint <span class='code_param'>vertexIndex</span>)
+attribute    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
+vertexIndex    uint )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/GetAttributeAtVertex#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>

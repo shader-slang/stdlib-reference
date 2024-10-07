@@ -20,7 +20,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/EvaluateAttributeAtCentroid#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/EvaluateAttributeAtCentroid">EvaluateAttributeAtCentroid</a>&lt;<a href="/stdlib-reference/global-decls/EvaluateAttributeAtCentroid#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <span class='code_param'>x</span>)
+x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/EvaluateAttributeAtCentroid#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 </pre>

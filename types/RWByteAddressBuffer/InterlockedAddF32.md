@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32">InterlockedAddF32</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    float <span class='code_param'>valueToAdd</span>,
-    out float <span class='code_param'>originalValue</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32#decl-valueToAdd" class="code_param">valueToAdd</a>    float ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32#decl-originalValue" class="code_param">originalValue</a>    out float );
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32">InterlockedAddF32</a>(
-    uint <span class='code_param'>byteAddress</span>,
-    float <span class='code_param'>valueToAdd</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32#decl-byteAddress" class="code_param">byteAddress</a>    uint ,
+<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddF32#decl-valueToAdd" class="code_param">valueToAdd</a>    float );
 
 </pre>
 

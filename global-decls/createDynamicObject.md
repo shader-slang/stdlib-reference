@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/createDynamicObject#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/createDynamicObject">createDynamicObject</a>&lt;<a href="/stdlib-reference/global-decls/createDynamicObject#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/createDynamicObject#typeparam-U" class="code_type">U</a>&gt;(
-    uint <span class='code_param'>typeId</span>,
-    <a href="/stdlib-reference/global-decls/createDynamicObject#typeparam-U" class="code_type">U</a> <span class='code_param'>value</span>);
+typeId    uint ,
+value    <a href="/stdlib-reference/global-decls/createDynamicObject#typeparam-U" class="code_type">U</a> );
 
 </pre>
 

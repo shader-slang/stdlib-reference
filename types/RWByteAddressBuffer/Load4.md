@@ -18,13 +18,13 @@ layout: stdlib-reference
 
 /// Requires Capability Set 1:
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4">Load4</a>(
-    int <span class='code_param'>location</span>,
-    int <span class='code_param'>alignment</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4#decl-location" class="code_param">location</a>    int ,
+alignment    int );
 
 /// Requires Capability Set 2:
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4">Load4</a>(
-    int <span class='code_param'>location</span>,
-    out uint <span class='code_param'>status</span>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4#decl-location" class="code_param">location</a>    int ,
+status    out uint );
 
 </pre>
 

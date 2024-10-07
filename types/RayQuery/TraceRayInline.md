@@ -14,10 +14,10 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:uint&gt;.<a href="/stdlib-reference/types/RayQuery/TraceRayInline">TraceRayInline</a>(
-    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <span class='code_param'>accelerationStructure</span>,
-    uint <span class='code_param'>rayFlags</span>,
-    uint <span class='code_param'>instanceInclusionMask</span>,
-    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <span class='code_param'>ray</span>);
+<a href="/stdlib-reference/types/RayQuery/TraceRayInline#decl-accelerationStructure" class="code_param">accelerationStructure</a>    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> ,
+<a href="/stdlib-reference/types/RayQuery/TraceRayInline#decl-rayFlags" class="code_param">rayFlags</a>    uint ,
+<a href="/stdlib-reference/types/RayQuery/TraceRayInline#decl-instanceInclusionMask" class="code_param">instanceInclusionMask</a>    uint ,
+<a href="/stdlib-reference/types/RayQuery/TraceRayInline#decl-ray" class="code_param">ray</a>    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> );
 
 </pre>
 

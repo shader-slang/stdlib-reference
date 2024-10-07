@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 bool <a href="/stdlib-reference/global-decls/ReportHitOptix">ReportHitOptix</a>&lt;each <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a>&gt;(
-    float <span class='code_param'>tHit</span>,
-    uint <span class='code_param'>hitKind</span>,
-    <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> <span class='code_param'>attribs</span>)
+tHit    float ,
+hitKind    uint ,
+attribs    <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
 
 </pre>

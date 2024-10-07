@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax">InterlockedMax</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>,
-    out uint <span class='code_param'>original_value</span>);
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax#decl-value" class="code_param">value</a>    uint ,
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax#decl-original_value" class="code_param">original_value</a>    out uint );
 
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax">InterlockedMax</a>(
-    uint <span class='code_param'>dest</span>,
-    uint <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedMax#decl-value" class="code_param">value</a>    uint );
 
 </pre>
 
