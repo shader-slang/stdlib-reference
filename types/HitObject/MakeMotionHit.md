@@ -46,10 +46,6 @@ Currently only supported on VK
 
 #### attr\_t {#typeparam-attr_t}
 
-## Generic Parameters
-
-#### attr\_t {#typeparam-attr_t}
-
 ## Parameters
 
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-AccelerationStructure}

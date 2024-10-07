@@ -22,11 +22,6 @@ layout: stdlib-reference
 #### T {#typeparam-T}
 #### U {#typeparam-U}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-#### U {#typeparam-U}
-
 ## Parameters
 
 #### value  : [U](/stdlib-reference/global-decls/reinterpret#typeparam-U) {#decl-value}

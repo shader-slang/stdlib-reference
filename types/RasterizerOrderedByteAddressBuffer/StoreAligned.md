@@ -23,10 +23,6 @@ layout: stdlib-reference
 
 #### T {#typeparam-T}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-
 ## Parameters
 
 #### offset  : int {#decl-offset}

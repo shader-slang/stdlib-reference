@@ -24,10 +24,6 @@ layout: stdlib-reference
 
 #### A {#typeparam-A}
 
-## Generic Parameters
-
-#### A {#typeparam-A}
-
 ## Parameters
 
 #### tHit  : float {#decl-tHit}

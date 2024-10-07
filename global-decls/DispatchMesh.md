@@ -25,10 +25,6 @@ layout: stdlib-reference
 
 #### P {#typeparam-P}
 
-## Generic Parameters
-
-#### P {#typeparam-P}
-
 ## Parameters
 
 #### threadGroupCountX  : uint {#decl-threadGroupCountX}

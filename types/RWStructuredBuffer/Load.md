@@ -29,10 +29,6 @@ layout: stdlib-reference
 
 #### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
 
-## Generic Parameters
-
-#### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
-
 ## Parameters
 
 #### location  : [TIndex](/stdlib-reference/types/RWStructuredBuffer/Load#typeparam-TIndex) {#decl-location}

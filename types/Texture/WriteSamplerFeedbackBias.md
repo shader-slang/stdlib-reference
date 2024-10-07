@@ -81,10 +81,6 @@ layout: stdlib-reference
 
 #### S {#typeparam-S}
 
-## Generic Parameters
-
-#### S {#typeparam-S}
-
 ## Parameters
 
 #### tex  : [Texture2D](/stdlib-reference/types/Texture2D)\<S\> {#decl-tex}

@@ -24,10 +24,6 @@ layout: stdlib-reference
 
 #### T: \_\_BuiltinRealType {#typeparam-T}
 
-## Generic Parameters
-
-#### T: \_\_BuiltinRealType {#typeparam-T}
-
 ## Parameters
 
 #### SLANG\_anonymous\_2  : [T](/stdlib-reference/interfaces/IDifferentiable/dmul#typeparam-T) {#decl-SLANG_anonymous_2}

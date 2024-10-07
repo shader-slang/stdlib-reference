@@ -31,10 +31,6 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 
 #### payload\_t {#typeparam-payload_t}
 
-## Generic Parameters
-
-#### payload\_t {#typeparam-payload_t}
-
 ## Parameters
 
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-AccelerationStructure}

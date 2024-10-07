@@ -23,10 +23,6 @@ layout: stdlib-reference
 
 #### TInt: \_\_BuiltinIntegerType {#typeparam-TInt}
 
-## Generic Parameters
-
-#### TInt: \_\_BuiltinIntegerType {#typeparam-TInt}
-
 ## Parameters
 
 #### index  : [TInt](/stdlib-reference/types/Ptr/subscript#typeparam-TInt) {#decl-index}

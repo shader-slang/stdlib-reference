@@ -30,10 +30,6 @@ layout: stdlib-reference
 
 #### payload\_t {#typeparam-payload_t}
 
-## Generic Parameters
-
-#### payload\_t {#typeparam-payload_t}
-
 ## Parameters
 
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-AccelerationStructure}

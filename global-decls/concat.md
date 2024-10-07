@@ -24,11 +24,6 @@ layout: stdlib-reference
 #### T {#typeparam-T}
 #### U {#typeparam-U}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-#### U {#typeparam-U}
-
 ## Parameters
 
 #### t  : [Tuple](/stdlib-reference/types/Tuple/index)\<[T](/stdlib-reference/types/Tuple/index#typeparam-T)\> {#decl-t}

@@ -23,10 +23,6 @@ layout: stdlib-reference
 
 #### N  : int {#decl-N}
 
-## Generic Parameters
-
-#### N  : int {#decl-N}
-
 ## Parameters
 
 #### x  : [vector](/stdlib-reference/types/vector/index)\<half, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}

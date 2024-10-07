@@ -30,10 +30,6 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T: \_\_BuiltinType {#typeparam-T}
-
-## Generic Parameters
-
-#### T: \_\_BuiltinType {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 

@@ -22,10 +22,6 @@ layout: stdlib-reference
 
 #### T {#typeparam-T}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-
 ## Parameters
 
 #### location  : int {#decl-location}

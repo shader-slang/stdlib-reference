@@ -25,10 +25,6 @@ layout: stdlib-reference
 
 #### U: \_\_BuiltinRealType {#typeparam-U}
 
-## Generic Parameters
-
-#### U: \_\_BuiltinRealType {#typeparam-U}
-
 ## Parameters
 
 #### a  : [U](/stdlib-reference/types/DifferentialPair/dmul#typeparam-U) {#decl-a}

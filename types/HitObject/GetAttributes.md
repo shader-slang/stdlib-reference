@@ -22,10 +22,6 @@ Returns the attributes of a hit. Valid if the hit object represents a hit or a m
 
 #### attr\_t {#typeparam-attr_t}
 
-## Generic Parameters
-
-#### attr\_t {#typeparam-attr_t}
-
 ## Availability and Requirements
 
 Defined for the following targets:

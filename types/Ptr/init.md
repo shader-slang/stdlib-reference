@@ -36,10 +36,6 @@ Addr&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type"
 ## Generic Parameters
 
 #### U {#typeparam-U}
-
-## Generic Parameters
-
-#### U {#typeparam-U}
 #### T {#typeparam-T}
 #### addrSpace  : uint64\_t {#decl-addrSpace}
 

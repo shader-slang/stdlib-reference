@@ -21,10 +21,6 @@ layout: stdlib-reference
 
 #### T {#typeparam-T}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-
 ## Parameters
 
 #### SLANG\_anonymous\_6  : [T](/stdlib-reference/global-decls/unmodified#typeparam-T) {#decl-SLANG_anonymous_6}

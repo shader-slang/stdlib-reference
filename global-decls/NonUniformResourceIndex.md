@@ -25,10 +25,6 @@ divergent, and ensure scalarization happens correctly for each divergent lane.
 ## Generic Parameters
 
 #### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index) {#typeparam-T}
-
-## Generic Parameters
-
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index) {#typeparam-T}
 #### T {#typeparam-T}
 
 ## Parameters

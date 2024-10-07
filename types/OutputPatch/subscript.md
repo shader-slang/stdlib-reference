@@ -22,10 +22,6 @@ layout: stdlib-reference
 
 #### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
 
-## Generic Parameters
-
-#### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
-
 ## Parameters
 
 #### index  : [TIndex](/stdlib-reference/types/OutputPatch/subscript#typeparam-TIndex) {#decl-index}

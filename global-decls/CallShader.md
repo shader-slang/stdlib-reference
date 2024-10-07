@@ -23,10 +23,6 @@ layout: stdlib-reference
 
 #### Payload {#typeparam-Payload}
 
-## Generic Parameters
-
-#### Payload {#typeparam-Payload}
-
 ## Parameters
 
 #### shaderIndex  : uint {#decl-shaderIndex}

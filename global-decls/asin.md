@@ -28,10 +28,6 @@ Inverse sine (HLSL SM 1.0)
 ## Generic Parameters
 
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
-
-## Generic Parameters
-
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 

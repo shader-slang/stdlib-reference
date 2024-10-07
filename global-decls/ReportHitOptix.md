@@ -25,10 +25,6 @@ layout: stdlib-reference
 
 #### T: \_\_BuiltinIntegerType {#typeparam-T}
 
-## Generic Parameters
-
-#### T: \_\_BuiltinIntegerType {#typeparam-T}
-
 ## Parameters
 
 #### tHit  : float {#decl-tHit}

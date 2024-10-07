@@ -21,10 +21,6 @@ layout: stdlib-reference
 
 #### T {#typeparam-T}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-
 ## Parameters
 
 #### v  : [T](/stdlib-reference/global-decls/makeTuple#typeparam-T) {#decl-v}

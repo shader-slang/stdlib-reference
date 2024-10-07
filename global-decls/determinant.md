@@ -23,11 +23,6 @@ layout: stdlib-reference
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 
-## Generic Parameters
-
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
-#### N  : int {#decl-N}
-
 ## Parameters
 
 #### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [N](/stdlib-reference/types/matrix/index#decl-N)\> {#decl-m}

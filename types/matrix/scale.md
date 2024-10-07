@@ -23,10 +23,6 @@ layout: stdlib-reference
 
 #### T1: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T1}
 
-## Generic Parameters
-
-#### T1: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T1}
-
 ## Parameters
 
 #### s  : [T1](/stdlib-reference/types/matrix/scale#typeparam-T1) {#decl-s}

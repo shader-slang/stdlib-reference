@@ -29,12 +29,6 @@ layout: stdlib-reference
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
-
-## Generic Parameters
-
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### M  : int {#decl-M}
 #### T: \_\_BuiltinIntegerType {#typeparam-T}
 #### T: [\_\_BuiltinLogicalType](/stdlib-reference/interfaces/BuiltinLogicalType/index) {#typeparam-T}
 

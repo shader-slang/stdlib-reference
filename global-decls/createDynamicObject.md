@@ -24,11 +24,6 @@ layout: stdlib-reference
 #### T {#typeparam-T}
 #### U {#typeparam-U}
 
-## Generic Parameters
-
-#### T {#typeparam-T}
-#### U {#typeparam-U}
-
 ## Parameters
 
 #### typeId  : uint {#decl-typeId}

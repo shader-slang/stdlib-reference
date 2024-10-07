@@ -28,10 +28,6 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T {#typeparam-T}
-
-## Generic Parameters
-
-#### T {#typeparam-T}
 #### N  : int {#decl-N}
 
 ## Parameters
