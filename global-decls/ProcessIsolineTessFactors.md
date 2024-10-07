@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors">ProcessIsolineTessFactors</a>(
-    in float <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RawDetailFactor" class="code_param">RawDetailFactor</a>,
-    in float <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RawDensityFactor" class="code_param">RawDensityFactor</a>,
-    out float <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RoundedDetailFactor" class="code_param">RoundedDetailFactor</a>,
-    out float <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RoundedDensityFactor" class="code_param">RoundedDensityFactor</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors">ProcessIsolineTessFactors</a>(
+    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RawDetailFactor" class="code_param">RawDetailFactor</a>,
+    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RawDensityFactor" class="code_param">RawDensityFactor</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RoundedDetailFactor" class="code_param">RoundedDetailFactor</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessIsolineTessFactors#decl-RoundedDensityFactor" class="code_param">RoundedDensityFactor</a>);
 
 </pre>
 

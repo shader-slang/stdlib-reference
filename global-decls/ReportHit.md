@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/global-decls/ReportHit">ReportHit</a>&lt;<a href="/stdlib-reference/global-decls/ReportHit#typeparam-A" class="code_type">A</a>&gt;(
-    float <a href="/stdlib-reference/global-decls/ReportHit#decl-tHit" class="code_param">tHit</a>,
-    uint <a href="/stdlib-reference/global-decls/ReportHit#decl-hitKind" class="code_param">hitKind</a>,
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/ReportHit">ReportHit</a>&lt;<a href="/stdlib-reference/global-decls/ReportHit#typeparam-A" class="code_type">A</a>&gt;(
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ReportHit#decl-tHit" class="code_param">tHit</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReportHit#decl-hitKind" class="code_param">hitKind</a>,
     <a href="/stdlib-reference/global-decls/ReportHit#typeparam-A" class="code_type">A</a> <a href="/stdlib-reference/global-decls/ReportHit#decl-attributes" class="code_param">attributes</a>);
 
 </pre>

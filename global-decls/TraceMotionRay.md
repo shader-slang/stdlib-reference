@@ -13,16 +13,16 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/TraceMotionRay">TraceMotionRay</a>&lt;<a href="/stdlib-reference/global-decls/TraceMotionRay#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/TraceMotionRay">TraceMotionRay</a>&lt;<a href="/stdlib-reference/global-decls/TraceMotionRay#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
     <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    uint <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-RayFlags" class="code_param">RayFlags</a>,
-    uint <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
-    uint <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    uint <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    uint <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-RayFlags" class="code_param">RayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
     <a href="/stdlib-reference/types/RayDesc/index">RayDesc</a> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-Ray" class="code_param">Ray</a>,
-    float <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-CurrentTime" class="code_param">CurrentTime</a>,
-    inout <a href="/stdlib-reference/global-decls/TraceMotionRay#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-Payload" class="code_param">Payload</a>);
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <span class="code_keyword">inout</span> <a href="/stdlib-reference/global-decls/TraceMotionRay#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/global-decls/TraceMotionRay#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 

@@ -20,16 +20,16 @@ Where possible, reordering will also attempt to retain locality in the thread429
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
-    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
-    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
     <a href="/stdlib-reference/types/HitObject/index">HitObject</a> <a href="/stdlib-reference/global-decls/ReorderThread#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
-    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
-    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(<a href="/stdlib-reference/types/HitObject/index">HitObject</a> <a href="/stdlib-reference/global-decls/ReorderThread#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(<a href="/stdlib-reference/types/HitObject/index">HitObject</a> <a href="/stdlib-reference/global-decls/ReorderThread#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
 
 </pre>
 

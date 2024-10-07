@@ -16,9 +16,9 @@ Currently only supported on VK
 
 <pre>
 <span class='code_keyword'>static</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/MakeMotionMiss">MakeMotionMiss</a>(
-    uint <a href="/stdlib-reference/types/HitObject/MakeMotionMiss#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/HitObject/MakeMotionMiss#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
     <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/HitObject/MakeMotionMiss#decl-Ray" class="code_param">Ray</a>,
-    float <a href="/stdlib-reference/types/HitObject/MakeMotionMiss#decl-CurrentTime" class="code_param">CurrentTime</a>);
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/HitObject/MakeMotionMiss#decl-CurrentTime" class="code_param">CurrentTime</a>);
 
 </pre>
 

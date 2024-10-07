@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;float, 3, 4&gt; <a href="/stdlib-reference/global-decls/WorldToObject">WorldToObject</a>();
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<span class="code_keyword">float</span>, 3, 4&gt; <a href="/stdlib-reference/global-decls/WorldToObject">WorldToObject</a>();
 
 </pre>
 

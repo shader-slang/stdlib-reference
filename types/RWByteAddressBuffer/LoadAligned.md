@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned">LoadAligned</a>&lt;<a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned#typeparam-T" class="code_type">T</a>&gt;(int <a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned#decl-location" class="code_param">location</a>);
+<a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned">LoadAligned</a>&lt;<a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/LoadAligned#decl-location" class="code_param">location</a>);
 
 </pre>
 

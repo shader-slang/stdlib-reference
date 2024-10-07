@@ -14,7 +14,7 @@ Returns true if the HitObject encodes a miss, otherwise returns false.
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/IsMiss">IsMiss</a>();
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/IsMiss">IsMiss</a>();
 
 </pre>
 

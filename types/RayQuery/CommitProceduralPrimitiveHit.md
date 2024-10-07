@@ -13,8 +13,8 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:uint&gt;.<a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit">CommitProceduralPrimitiveHit</a>(
-    float <a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit#decl-t" class="code_param">t</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit">CommitProceduralPrimitiveHit</a>(
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit#decl-t" class="code_param">t</a>);
 
 </pre>
 

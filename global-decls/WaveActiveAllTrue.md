@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/global-decls/WaveActiveAllTrue">WaveActiveAllTrue</a>(bool <a href="/stdlib-reference/global-decls/WaveActiveAllTrue#decl-condition" class="code_param">condition</a>);
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/WaveActiveAllTrue">WaveActiveAllTrue</a>(<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/WaveActiveAllTrue#decl-condition" class="code_param">condition</a>);
 
 </pre>
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/global-decls/WaveIsFirstLane">WaveIsFirstLane</a>();
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/WaveIsFirstLane">WaveIsFirstLane</a>();
 
 </pre>
 

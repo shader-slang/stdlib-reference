@@ -13,16 +13,16 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
-    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>,
-    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>,
-    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
-    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>,
-    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>,
-    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>,
-    out float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 

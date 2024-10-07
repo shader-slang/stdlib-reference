@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat">InterlockedExchangeFloat</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat#decl-byteAddress" class="code_param">byteAddress</a>,
-    float <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat#decl-value" class="code_param">value</a>,
-    out float <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat#decl-outOriginalValue" class="code_param">outOriginalValue</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat">InterlockedExchangeFloat</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedExchangeFloat#decl-outOriginalValue" class="code_param">outOriginalValue</a>);
 
 </pre>
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/DeviceMemoryBarrier">DeviceMemoryBarrier</a>();
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/DeviceMemoryBarrier">DeviceMemoryBarrier</a>();
 
 </pre>
 

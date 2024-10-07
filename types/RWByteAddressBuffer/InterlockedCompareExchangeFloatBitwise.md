@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-byteAddress" class="code_param">byteAddress</a>,
-    float <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-compareValue" class="code_param">compareValue</a>,
-    float <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>,
-    out float <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-outOriginalValue" class="code_param">outOriginalValue</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-compareValue" class="code_param">compareValue</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeFloatBitwise#decl-outOriginalValue" class="code_param">outOriginalValue</a>);
 
 </pre>
 

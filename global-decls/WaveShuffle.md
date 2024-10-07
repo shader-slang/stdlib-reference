@@ -16,19 +16,19 @@ layout: stdlib-reference
 /// Requires Capability Set 1:
 <a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/WaveShuffle">WaveShuffle</a>&lt;<a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a>&gt;(
     <a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/WaveShuffle#decl-value" class="code_param">value</a>,
-    int <a href="/stdlib-reference/global-decls/WaveShuffle#decl-lane" class="code_param">lane</a>)
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/WaveShuffle#decl-lane" class="code_param">lane</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveShuffle">WaveShuffle</a>&lt;<a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/WaveShuffle#decl-N" class="code_var">N</a>:int&gt;(
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveShuffle">WaveShuffle</a>&lt;<a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/WaveShuffle#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveShuffle#decl-value" class="code_param">value</a>,
-    int <a href="/stdlib-reference/global-decls/WaveShuffle#decl-lane" class="code_param">lane</a>)
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/WaveShuffle#decl-lane" class="code_param">lane</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 2:
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/WaveShuffle">WaveShuffle</a>&lt;<a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/WaveShuffle#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/WaveShuffle#decl-M" class="code_var">M</a>:int&gt;(
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/WaveShuffle">WaveShuffle</a>&lt;<a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/WaveShuffle#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/WaveShuffle#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/WaveShuffle#decl-value" class="code_param">value</a>,
-    int <a href="/stdlib-reference/global-decls/WaveShuffle#decl-lane" class="code_param">lane</a>)
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/WaveShuffle#decl-lane" class="code_param">lane</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveShuffle#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>

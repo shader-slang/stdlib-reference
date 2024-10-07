@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Signature
 <pre>
-float <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a>.<a href="/stdlib-reference/types/RayDesc/TMax" class="code_var">TMax</a>;
+<span class="code_keyword">float</span> <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a>.<a href="/stdlib-reference/types/RayDesc/TMax" class="code_var">TMax</a>;
 </pre>
 

@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/global-decls/msad4">msad4</a>(
-    uint <a href="/stdlib-reference/global-decls/msad4#decl-reference" class="code_param">reference</a>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/global-decls/msad4#decl-source" class="code_param">source</a>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/global-decls/msad4#decl-accum" class="code_param">accum</a>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/global-decls/msad4">msad4</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/msad4#decl-reference" class="code_param">reference</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/global-decls/msad4#decl-source" class="code_param">source</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/global-decls/msad4#decl-accum" class="code_param">accum</a>);
 
 </pre>
 

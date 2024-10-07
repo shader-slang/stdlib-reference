@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store3Aligned">Store3Aligned</a>(
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store3Aligned#decl-address" class="code_param">address</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 3&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store3Aligned#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store3Aligned">Store3Aligned</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store3Aligned#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store3Aligned#decl-value" class="code_param">value</a>);
 
 </pre>
 

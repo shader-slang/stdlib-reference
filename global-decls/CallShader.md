@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/CallShader">CallShader</a>&lt;<a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a>&gt;(
-    uint <a href="/stdlib-reference/global-decls/CallShader#decl-shaderIndex" class="code_param">shaderIndex</a>,
-    inout <a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a> <a href="/stdlib-reference/global-decls/CallShader#decl-payload" class="code_param">payload</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/CallShader">CallShader</a>&lt;<a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/CallShader#decl-shaderIndex" class="code_param">shaderIndex</a>,
+    <span class="code_keyword">inout</span> <a href="/stdlib-reference/global-decls/CallShader#typeparam-Payload" class="code_type">Payload</a> <a href="/stdlib-reference/global-decls/CallShader#decl-payload" class="code_param">payload</a>);
 
 </pre>
 

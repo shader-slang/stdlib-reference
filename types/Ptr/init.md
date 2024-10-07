@@ -20,15 +20,15 @@ layout: stdlib-reference
 <a href="/stdlib-reference/types/Ptr/index" class="code_type">Ptr</a>&lt;<a href="/stdlib-reference/types/Ptr/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Ptr/index#decl-addrSpace" class="code_var">addrSpace</a>:uint64_t&gt;.<a href="/stdlib-reference/types/Ptr/init">init</a>(int64_t <a href="/stdlib-reference/types/Ptr/init#decl-val" class="code_param">val</a>);
 
 Addr&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/Ptr/init">init</a>(<a href="/stdlib-reference/types/NativeString/index" class="code_type">NativeString</a> <a href="/stdlib-reference/types/Ptr/init#decl-nativeStr" class="code_param">nativeStr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a> == void
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">void</span>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#decl-addrSpace" class="code_var">addrSpace</a> == 4294967297;
 
 Addr&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/Ptr/init">init</a>&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Ptr/init#decl-addrSpace" class="code_var">addrSpace</a>:uint64_t&gt;(Addr&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/types/Ptr/init#decl-ptr" class="code_param">ptr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a> == void
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">void</span>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#decl-addrSpace" class="code_var">addrSpace</a> == 4294967297;
 
 Addr&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/Ptr/init">init</a>&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>&gt;(NativeRef&lt;<a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/types/Ptr/init#decl-ptr" class="code_param">ptr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a> == void
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">void</span>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Ptr/init#decl-addrSpace" class="code_var">addrSpace</a> == 4294967297;
 
 </pre>

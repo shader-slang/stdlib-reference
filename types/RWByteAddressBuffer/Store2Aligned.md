@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store2Aligned">Store2Aligned</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/Store2Aligned#decl-address" class="code_param">address</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/Store2Aligned#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store2Aligned">Store2Aligned</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/Store2Aligned#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/Store2Aligned#decl-value" class="code_param">value</a>);
 
 </pre>
 

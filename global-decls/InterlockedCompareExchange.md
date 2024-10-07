@@ -13,39 +13,39 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
     int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
     int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
     int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
     int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
     int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
     int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
-    out int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
+    <span class="code_keyword">out</span> int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
-    out uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
+    <span class="code_keyword">out</span> uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
-    int <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
-    int <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
-    int <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
-    out int <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
-    uint <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
-    uint <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
-    out uint <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 

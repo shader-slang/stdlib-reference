@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64">InterlockedAddI64</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-byteAddress" class="code_param">byteAddress</a>,
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64">InterlockedAddI64</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-byteAddress" class="code_param">byteAddress</a>,
     int64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-valueToAdd" class="code_param">valueToAdd</a>,
-    out int64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-originalValue" class="code_param">originalValue</a>);
+    <span class="code_keyword">out</span> int64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-originalValue" class="code_param">originalValue</a>);
 
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64">InterlockedAddI64</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-byteAddress" class="code_param">byteAddress</a>,
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64">InterlockedAddI64</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-byteAddress" class="code_param">byteAddress</a>,
     int64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedAddI64#decl-valueToAdd" class="code_param">valueToAdd</a>);
 
 </pre>

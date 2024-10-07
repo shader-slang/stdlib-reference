@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/distance">distance</a>&lt;<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/distance#decl-N" class="code_var">N</a>:int&gt;(
+<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/distance">distance</a>&lt;<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/distance#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/distance#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/distance#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;

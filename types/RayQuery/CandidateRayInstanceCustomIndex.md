@@ -14,7 +14,7 @@ missing hlsl equivlent; only implemented for glsl & spirv
 ## Signature 
 
 <pre>
-int <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:uint&gt;.<a href="/stdlib-reference/types/RayQuery/CandidateRayInstanceCustomIndex">CandidateRayInstanceCustomIndex</a>();
+<span class="code_keyword">int</span> <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/RayQuery/CandidateRayInstanceCustomIndex">CandidateRayInstanceCustomIndex</a>();
 
 </pre>
 

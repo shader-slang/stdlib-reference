@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore">InterlockedCompareStore</a>(
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore">InterlockedCompareStore</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedCompareStore#decl-value" class="code_param">value</a>);
 
 </pre>
 

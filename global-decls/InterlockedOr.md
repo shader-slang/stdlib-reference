@@ -13,45 +13,45 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
-    int <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
-    int <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
-    int <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
-    int <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>,
-    out int <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
-    uint <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
-    uint <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>,
-    out uint <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
-    uint <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
-    int <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
     int64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
     int64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
     int64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
     int64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>,
-    out int64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
+    <span class="code_keyword">out</span> int64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/InterlockedOr">InterlockedOr</a>(
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-dest" class="code_param">dest</a>,
     uint64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-value" class="code_param">value</a>,
-    out uint64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
+    <span class="code_keyword">out</span> uint64_t <a href="/stdlib-reference/global-decls/InterlockedOr#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 

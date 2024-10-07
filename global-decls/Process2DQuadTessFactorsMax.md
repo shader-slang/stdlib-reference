@@ -13,12 +13,12 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax">Process2DQuadTessFactorsMax</a>(
-    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
-    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-InsideScale" class="code_param">InsideScale</a>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax">Process2DQuadTessFactorsMax</a>(
+    <span class="code_keyword">in</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
+    <span class="code_keyword">in</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-InsideScale" class="code_param">InsideScale</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMax#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
 
 </pre>
 

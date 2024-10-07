@@ -15,10 +15,10 @@ shader is invoked.
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> void <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/Invoke">Invoke</a>&lt;<a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+<span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/Invoke">Invoke</a>&lt;<a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
     <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/HitObject/Invoke#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
     <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/Invoke#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
-    inout <a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/types/HitObject/Invoke#decl-Payload" class="code_param">Payload</a>);
+    <span class="code_keyword">inout</span> <a href="/stdlib-reference/types/HitObject/Invoke#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/types/HitObject/Invoke#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 

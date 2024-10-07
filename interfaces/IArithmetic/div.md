@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-This <a href="/stdlib-reference/interfaces/IArithmetic/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/IArithmetic/div">div</a>(This <a href="/stdlib-reference/interfaces/IArithmetic/div#decl-other" class="code_param">other</a>);
+<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/IArithmetic/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/IArithmetic/div">div</a>(<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/IArithmetic/div#decl-other" class="code_param">other</a>);
 
 </pre>
 

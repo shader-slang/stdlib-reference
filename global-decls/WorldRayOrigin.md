@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 3&gt; <a href="/stdlib-reference/global-decls/WorldRayOrigin">WorldRayOrigin</a>();
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/WorldRayOrigin">WorldRayOrigin</a>();
 
 </pre>
 

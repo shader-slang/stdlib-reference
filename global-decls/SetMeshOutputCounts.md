@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/SetMeshOutputCounts">SetMeshOutputCounts</a>(
-    uint <a href="/stdlib-reference/global-decls/SetMeshOutputCounts#decl-vertexCount" class="code_param">vertexCount</a>,
-    uint <a href="/stdlib-reference/global-decls/SetMeshOutputCounts#decl-primitiveCount" class="code_param">primitiveCount</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/SetMeshOutputCounts">SetMeshOutputCounts</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/SetMeshOutputCounts#decl-vertexCount" class="code_param">vertexCount</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/SetMeshOutputCounts#decl-primitiveCount" class="code_param">primitiveCount</a>);
 
 </pre>
 

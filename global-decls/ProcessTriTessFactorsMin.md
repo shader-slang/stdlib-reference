@@ -13,12 +13,12 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin">ProcessTriTessFactorsMin</a>(
-    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 3&gt; <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
-    in float <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-InsideScale" class="code_param">InsideScale</a>,
-    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 3&gt; <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
-    out float <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
-    out float <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin">ProcessTriTessFactorsMin</a>(
+    <span class="code_keyword">in</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
+    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-InsideScale" class="code_param">InsideScale</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ProcessTriTessFactorsMin#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
 
 </pre>
 

@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64">InterlockedXor64</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-byteAddress" class="code_param">byteAddress</a>,
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64">InterlockedXor64</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-byteAddress" class="code_param">byteAddress</a>,
     uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64">InterlockedXor64</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-byteAddress" class="code_param">byteAddress</a>,
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64">InterlockedXor64</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-byteAddress" class="code_param">byteAddress</a>,
     uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-value" class="code_param">value</a>,
-    out uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-outOriginalValue" class="code_param">outOriginalValue</a>);
+    <span class="code_keyword">out</span> uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedXor64#decl-outOriginalValue" class="code_param">outOriginalValue</a>);
 
 </pre>
 

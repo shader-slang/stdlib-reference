@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin">InterlockedMin</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-value" class="code_param">value</a>,
-    out uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin">InterlockedMin</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin">InterlockedMin</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin">InterlockedMin</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMin#decl-value" class="code_param">value</a>);
 
 </pre>
 

@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> This.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/index" class="code_type">IDifferentiable</a>.<a href="/stdlib-reference/interfaces/IDifferentiable/dadd">dadd</a>(
-    This.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/dadd#decl-SLANG_anonymous_0" class="code_param">SLANG_anonymous_0</a>,
-    This.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/dadd#decl-SLANG_anonymous_1" class="code_param">SLANG_anonymous_1</a>);
+<span class='code_keyword'>static</span> <span class="code_keyword">This</span>.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/index" class="code_type">IDifferentiable</a>.<a href="/stdlib-reference/interfaces/IDifferentiable/dadd">dadd</a>(
+    <span class="code_keyword">This</span>.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/dadd#decl-SLANG_anonymous_0" class="code_param">SLANG_anonymous_0</a>,
+    <span class="code_keyword">This</span>.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/dadd#decl-SLANG_anonymous_1" class="code_param">SLANG_anonymous_1</a>);
 
 </pre>
 

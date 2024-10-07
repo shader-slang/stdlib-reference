@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/TriangleStream/index" class="code_type">TriangleStream</a>&lt;<a href="/stdlib-reference/types/TriangleStream/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/TriangleStream/RestartStrip">RestartStrip</a>();
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/TriangleStream/index" class="code_type">TriangleStream</a>&lt;<a href="/stdlib-reference/types/TriangleStream/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/TriangleStream/RestartStrip">RestartStrip</a>();
 
 </pre>
 

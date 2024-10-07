@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-float <a href="/stdlib-reference/global-decls/RayTMin">RayTMin</a>();
+<span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/RayTMin">RayTMin</a>();
 
 </pre>
 

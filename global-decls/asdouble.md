@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-double <a href="/stdlib-reference/global-decls/asdouble">asdouble</a>(
-    uint <a href="/stdlib-reference/global-decls/asdouble#decl-lowbits" class="code_param">lowbits</a>,
-    uint <a href="/stdlib-reference/global-decls/asdouble#decl-highbits" class="code_param">highbits</a>);
+<span class="code_keyword">double</span> <a href="/stdlib-reference/global-decls/asdouble">asdouble</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/asdouble#decl-lowbits" class="code_param">lowbits</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/asdouble#decl-highbits" class="code_param">highbits</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, 2&gt; <a href="/stdlib-reference/global-decls/asdouble">asdouble</a>(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/global-decls/asdouble#decl-lowbits" class="code_param">lowbits</a>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/global-decls/asdouble#decl-highbits" class="code_param">highbits</a>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">double</span>, 2&gt; <a href="/stdlib-reference/global-decls/asdouble">asdouble</a>(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/global-decls/asdouble#decl-lowbits" class="code_param">lowbits</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/global-decls/asdouble#decl-highbits" class="code_param">highbits</a>);
 
 </pre>
 

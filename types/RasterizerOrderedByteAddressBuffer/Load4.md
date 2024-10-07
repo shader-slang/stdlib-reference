@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4">Load4</a>(
-    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-location" class="code_param">location</a>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4">Load4</a>(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4">Load4</a>(
-    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-location" class="code_param">location</a>,
-    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-alignment" class="code_param">alignment</a>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4">Load4</a>(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-location" class="code_param">location</a>,
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-alignment" class="code_param">alignment</a>);
 
 /// Requires Capability Set 2:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4">Load4</a>(
-    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-location" class="code_param">location</a>,
-    out uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-status" class="code_param">status</a>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4">Load4</a>(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-location" class="code_param">location</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load4#decl-status" class="code_param">status</a>);
 
 </pre>
 

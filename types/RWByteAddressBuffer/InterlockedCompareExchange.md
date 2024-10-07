@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange">InterlockedCompareExchange</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
-    out uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchange#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 

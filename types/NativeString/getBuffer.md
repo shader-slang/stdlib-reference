@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/Ptr/index" class="code_type">Ptr</a>&lt;void&gt; <a href="/stdlib-reference/types/NativeString/index" class="code_type">NativeString</a>.<a href="/stdlib-reference/types/NativeString/getBuffer">getBuffer</a>();
+<a href="/stdlib-reference/types/Ptr/index" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="/stdlib-reference/types/NativeString/index" class="code_type">NativeString</a>.<a href="/stdlib-reference/types/NativeString/getBuffer">getBuffer</a>();
 
 </pre>
 

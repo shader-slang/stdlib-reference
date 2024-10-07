@@ -17,7 +17,7 @@ table.
 
 <pre>
 <span class='code_keyword'>static</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/MakeMiss">MakeMiss</a>(
-    uint <a href="/stdlib-reference/types/HitObject/MakeMiss#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/HitObject/MakeMiss#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
     <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/HitObject/MakeMiss#decl-Ray" class="code_param">Ray</a>);
 
 </pre>

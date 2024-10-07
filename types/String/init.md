@@ -13,17 +13,17 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(int <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
+<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
 
-<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(uint <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
+<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
 
 <a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(int64_t <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
 
 <a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(uint64_t <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
 
-<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(float <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
+<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(<span class="code_keyword">float</span> <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
 
-<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(double <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
+<a href="/stdlib-reference/types/String/index" class="code_type">String</a>.<a href="/stdlib-reference/types/String/init">init</a>(<span class="code_keyword">double</span> <a href="/stdlib-reference/types/String/init#decl-val" class="code_param">val</a>);
 
 </pre>
 

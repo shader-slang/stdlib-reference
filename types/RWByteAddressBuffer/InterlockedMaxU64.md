@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMaxU64">InterlockedMaxU64</a>(
-    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMaxU64#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMaxU64#decl-byteAddress" class="code_param">byteAddress</a>,
     uint64_t <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedMaxU64#decl-value" class="code_param">value</a>);
 
 </pre>

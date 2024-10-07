@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Buffer" class="code_type">Buffer</a>&lt;T, format:int&gt; = <a href="/stdlib-reference/types/Buffer" class="code_type">Buffer</a>&lt;T&gt;;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Buffer" class="code_type">Buffer</a>&lt;T, format:<span class="code_keyword">int</span>&gt; = <a href="/stdlib-reference/types/Buffer" class="code_type">Buffer</a>&lt;T&gt;;
 </pre>
 
 ## Generic Parameters

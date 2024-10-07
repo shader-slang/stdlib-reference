@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd">InterlockedAnd</a>(
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-value" class="code_param">value</a>,
-    out uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd">InterlockedAnd</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-original_value" class="code_param">original_value</a>);
 
-void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd">InterlockedAnd</a>(
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-dest" class="code_param">dest</a>,
-    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd">InterlockedAnd</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedAnd#decl-value" class="code_param">value</a>);
 
 </pre>
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-uint <a href="/stdlib-reference/global-decls/GeometryIndex">GeometryIndex</a>();
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/GeometryIndex">GeometryIndex</a>();
 
 </pre>
 

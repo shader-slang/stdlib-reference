@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/lit">lit</a>(
-    float <a href="/stdlib-reference/global-decls/lit#decl-n_dot_l" class="code_param">n_dot_l</a>,
-    float <a href="/stdlib-reference/global-decls/lit#decl-n_dot_h" class="code_param">n_dot_h</a>,
-    float <a href="/stdlib-reference/global-decls/lit#decl-m" class="code_param">m</a>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="/stdlib-reference/global-decls/lit">lit</a>(
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/lit#decl-n_dot_l" class="code_param">n_dot_l</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/lit#decl-n_dot_h" class="code_param">n_dot_h</a>,
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/lit#decl-m" class="code_param">m</a>);
 
 </pre>
 

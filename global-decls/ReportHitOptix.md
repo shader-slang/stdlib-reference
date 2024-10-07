@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/global-decls/ReportHitOptix">ReportHitOptix</a>&lt;each <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a>&gt;(
-    float <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-tHit" class="code_param">tHit</a>,
-    uint <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-hitKind" class="code_param">hitKind</a>,
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/ReportHitOptix">ReportHitOptix</a>&lt;<span class="code_keyword">each</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-tHit" class="code_param">tHit</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-hitKind" class="code_param">hitKind</a>,
     <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-attribs" class="code_param">attribs</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
 

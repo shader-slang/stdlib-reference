@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-float <a href="/stdlib-reference/global-decls/RayCurrentTime">RayCurrentTime</a>();
+<span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/RayCurrentTime">RayCurrentTime</a>();
 
 </pre>
 
