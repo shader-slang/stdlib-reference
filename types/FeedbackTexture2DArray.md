@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/FeedbackTexture2DArray" class="code_type">FeedbackTexture2DArray</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
-    <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>, 1, 0, sampleCount, 3, 0, 0, format&gt;;
+    <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;T, <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>, 1, 0, sampleCount, 3, 0, 0, format&gt;;
 </pre>
 
 ## Generic Parameters
