@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/Tuple/index" class="code_type">Tuple</a>&lt;each <a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/Tuple/init">init</a>(<a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a> <span class='code_param'>SLANG_anonymous_4</span>);
+<a href="/stdlib-reference/types/Tuple/index" class="code_type">Tuple</a>&lt;each <a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/Tuple/init">init</a>(<a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/Tuple/init#decl-SLANG_anonymous_4" class="code_param">SLANG_anonymous_4</a>);
 
 </pre>
 

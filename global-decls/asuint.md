@@ -18,23 +18,23 @@ void <a href="/stdlib-reference/global-decls/asuint">asuint</a>(
     out uint <span class='code_param'>lowbits</span>,
     out uint <span class='code_param'>highbits</span>);
 
-uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(float <span class='code_param'>x</span>);
+uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(float x);
 
-uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(int <span class='code_param'>x</span>);
+uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(int x);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; x);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; x);
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;float, N, M&gt; <span class='code_param'>x</span>);
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;float, N, M&gt; x);
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;int, N, M&gt; <span class='code_param'>x</span>);
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;int, N, M&gt; x);
 
-uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(uint <span class='code_param'>x</span>);
+uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(uint x);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; x);
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <span class='code_param'>x</span>);
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; <a href="/stdlib-reference/global-decls/asuint">asuint</a>&lt;N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;uint, N, M&gt; x);
 
 </pre>
 
@@ -50,12 +50,12 @@ uint <a href="/stdlib-reference/global-decls/asuint">asuint</a>(uint <span class
 #### highbits  : uint {#decl-highbits}
 #### x  : float {#decl-x}
 #### x  : int {#decl-x}
-#### x  : [vector](/stdlib-reference/types/vector/index)\<float, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-x}
-#### x  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<float, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<float, N, M\> {#decl-x}
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\> {#decl-x}
 #### x  : uint {#decl-x}
-#### x  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<uint, N, M\> {#decl-x}
 
 ## Availability and Requirements

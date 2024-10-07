@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/printf">printf</a>(<a href="/stdlib-reference/types/NativeString/index">NativeString</a> <span class='code_param'>format</span>);
+void <a href="/stdlib-reference/global-decls/printf">printf</a>(<a href="/stdlib-reference/types/NativeString/index">NativeString</a> <a href="/stdlib-reference/global-decls/printf#decl-format" class="code_param">format</a>);
 
 void <a href="/stdlib-reference/global-decls/printf">printf</a>&lt;T0&gt;(
     <a href="/stdlib-reference/types/NativeString/index">NativeString</a> <span class='code_param'>format</span>,

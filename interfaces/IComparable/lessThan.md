@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/interfaces/IComparable/index" class="code_type">IComparable</a>.<a href="/stdlib-reference/interfaces/IComparable/lessThan">lessThan</a>(This <span class='code_param'>other</span>);
+bool <a href="/stdlib-reference/interfaces/IComparable/index" class="code_type">IComparable</a>.<a href="/stdlib-reference/interfaces/IComparable/lessThan">lessThan</a>(This <a href="/stdlib-reference/interfaces/IComparable/lessThan#decl-other" class="code_param">other</a>);
 
 </pre>
 

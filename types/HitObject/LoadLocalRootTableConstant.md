@@ -15,7 +15,7 @@ represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 ## Signature 
 
 <pre>
-uint <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/LoadLocalRootTableConstant">LoadLocalRootTableConstant</a>(uint <span class='code_param'>RootConstantOffsetInBytes</span>);
+uint <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/LoadLocalRootTableConstant">LoadLocalRootTableConstant</a>(uint <a href="/stdlib-reference/types/HitObject/LoadLocalRootTableConstant#decl-RootConstantOffsetInBytes" class="code_param">RootConstantOffsetInBytes</a>);
 
 </pre>
 

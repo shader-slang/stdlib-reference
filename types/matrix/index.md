@@ -10,7 +10,7 @@ layout: stdlib-reference
 
 ## Description
 
-A matrix with <span class='code'><a href="/stdlib-reference/types/matrix/index#typeparam-R" class="code_var">R</a></span> rows and <span class='code'><a href="/stdlib-reference/types/matrix/index#typeparam-C" class="code_var">C</a></span> columns, with elements of type <span class='code'><a href="/stdlib-reference/types/matrix/T" class="code_type">T</a></span>.
+A matrix with <span class='code'><a href="/stdlib-reference/types/matrix/index#decl-R" class="code_var">R</a></span> rows and <span class='code'><a href="/stdlib-reference/types/matrix/index#decl-C" class="code_var">C</a></span> columns, with elements of type <span class='code'><a href="/stdlib-reference/types/matrix/T" class="code_type">T</a></span>.
 
 
 ## Generic Parameters

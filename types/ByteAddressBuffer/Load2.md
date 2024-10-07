@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load2">Load2</a>(int <span class='code_param'>location</span>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load2">Load2</a>(int <a href="/stdlib-reference/types/ByteAddressBuffer/Load2#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 1:
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load2">Load2</a>(

@@ -14,9 +14,9 @@ Initialize from the same type.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/interfaces/IArithmetic/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/IArithmetic/init">init</a>(int <span class='code_param'>val</span>);
+<a href="/stdlib-reference/interfaces/IArithmetic/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/IArithmetic/init">init</a>(int <a href="/stdlib-reference/interfaces/IArithmetic/init#decl-val" class="code_param">val</a>);
 
-<a href="/stdlib-reference/interfaces/IArithmetic/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/IArithmetic/init">init</a>(This <span class='code_param'>value</span>);
+<a href="/stdlib-reference/interfaces/IArithmetic/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/IArithmetic/init">init</a>(This value);
 
 </pre>
 

@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/RWTexture2DArray" class="code_type">RWTexture2DArray</a>&lt;<a href="/stdlib-reference/types/RWTexture2DArray#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/RWTexture2DArray#typeparam-sampleCount" class="code_var">sampleCount</a>:int, <a href="/stdlib-reference/types/RWTexture2DArray#typeparam-format" class="code_var">format</a>:int&gt; = 
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/RWTexture2DArray" class="code_type">RWTexture2DArray</a>&lt;<a href="/stdlib-reference/types/RWTexture2DArray#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/RWTexture2DArray#decl-sampleCount" class="code_var">sampleCount</a>:int, <a href="/stdlib-reference/types/RWTexture2DArray#decl-format" class="code_var">format</a>:int&gt; = 
     <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>, 1, 0, sampleCount, 1, 0, 0, format&gt;;
 </pre>
 

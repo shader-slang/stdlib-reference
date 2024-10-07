@@ -44,7 +44,7 @@ Indicates whether the texture is a shadow texture (for combined texture-sampler 
 Indicates whether the texture is a combined texture-sampler.
 
 #### format  : int {#decl-format}
-The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="/stdlib-reference/types/Texture/index#typeparam-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
+The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
 
 
 ## Methods
@@ -97,9 +97,9 @@ The storage format of the texture. Users should specify the format using an <spa
 HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a></span> type. Users
 are advised to use the HLSL-specific texture types instead of <span class='code'><a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a></span> directly.
 
-For read-write textures, Slang will automatically infer <span class='code'><a href="/stdlib-reference/types/Texture/index#typeparam-format" class="code_var">format</a></span> from <span class='code'><a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a></span>.
+For read-write textures, Slang will automatically infer <span class='code'><a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a></span> from <span class='code'><a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a></span>.
 To explicitly specify texel storage formats for read-write textures,
-use the <span class='code'>[<a href="/stdlib-reference/types/Texture/index#typeparam-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
+use the <span class='code'>[<a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
 Allowed <span class='code'>formatString</span> values are:
 
 |id | Format string        | Meaning           |

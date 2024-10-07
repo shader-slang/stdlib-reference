@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-This <a href="/stdlib-reference/interfaces/ILogical/index" class="code_type">ILogical</a>.<a href="/stdlib-reference/interfaces/ILogical/and">and</a>(This <span class='code_param'>other</span>);
+This <a href="/stdlib-reference/interfaces/ILogical/index" class="code_type">ILogical</a>.<a href="/stdlib-reference/interfaces/ILogical/and">and</a>(This <a href="/stdlib-reference/interfaces/ILogical/and#decl-other" class="code_param">other</a>);
 
 </pre>
 

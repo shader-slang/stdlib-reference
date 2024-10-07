@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/interfaces/IInteger/index" class="code_type">IInteger</a>.<a href="/stdlib-reference/interfaces/IInteger/init">init</a>(int <span class='code_param'>val</span>);
+<a href="/stdlib-reference/interfaces/IInteger/index" class="code_type">IInteger</a>.<a href="/stdlib-reference/interfaces/IInteger/init">init</a>(int <a href="/stdlib-reference/interfaces/IInteger/init#decl-val" class="code_param">val</a>);
 
-<a href="/stdlib-reference/interfaces/IInteger/index" class="code_type">IInteger</a>.<a href="/stdlib-reference/interfaces/IInteger/init">init</a>(int64_t <span class='code_param'>val</span>);
+<a href="/stdlib-reference/interfaces/IInteger/index" class="code_type">IInteger</a>.<a href="/stdlib-reference/interfaces/IInteger/init">init</a>(int64_t <a href="/stdlib-reference/interfaces/IInteger/init#decl-val" class="code_param">val</a>);
 
 </pre>
 

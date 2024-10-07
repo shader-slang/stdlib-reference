@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/GetDimensions">GetDimensions</a>(out uint <span class='code_param'>dim</span>);
+void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/GetDimensions">GetDimensions</a>(out uint <a href="/stdlib-reference/types/RWByteAddressBuffer/GetDimensions#decl-dim" class="code_param">dim</a>);
 
 </pre>
 

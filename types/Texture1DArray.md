@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture1DArray" class="code_type">Texture1DArray</a>&lt;<a href="/stdlib-reference/types/Texture1DArray#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture1DArray#typeparam-sampleCount" class="code_var">sampleCount</a>:int, <a href="/stdlib-reference/types/Texture1DArray#typeparam-format" class="code_var">format</a>:int&gt; = 
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture1DArray" class="code_type">Texture1DArray</a>&lt;<a href="/stdlib-reference/types/Texture1DArray#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture1DArray#decl-sampleCount" class="code_var">sampleCount</a>:int, <a href="/stdlib-reference/types/Texture1DArray#decl-format" class="code_var">format</a>:int&gt; = 
     <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>, 1, 0, sampleCount, 0, 0, 0, format&gt;;
 </pre>
 

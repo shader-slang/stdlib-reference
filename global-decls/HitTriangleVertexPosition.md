@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 3&gt; <a href="/stdlib-reference/global-decls/HitTriangleVertexPosition">HitTriangleVertexPosition</a>(uint <span class='code_param'>index</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 3&gt; <a href="/stdlib-reference/global-decls/HitTriangleVertexPosition">HitTriangleVertexPosition</a>(uint <a href="/stdlib-reference/global-decls/HitTriangleVertexPosition#decl-index" class="code_param">index</a>);
 
 </pre>
 

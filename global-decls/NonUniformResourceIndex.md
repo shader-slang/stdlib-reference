@@ -15,10 +15,10 @@ divergent, and ensure scalarization happens correctly for each divergent lane.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformResourceIndex</a>&lt;<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> <span class='code_param'>index</span>)
+<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformResourceIndex</a>&lt;<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> index)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
-<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformResourceIndex</a>&lt;<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/NonUniformResourceIndex">NonUniformResourceIndex</a>&lt;<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/NonUniformResourceIndex#typeparam-T" class="code_type">T</a> value);
 
 </pre>
 

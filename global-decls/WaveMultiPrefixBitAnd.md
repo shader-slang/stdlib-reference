@@ -20,8 +20,8 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd">WaveMultiPrefixBitAnd</a>&lt;<a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd#typeparam-T" class="code_type">T</a>, N:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>expr</span>,
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd">WaveMultiPrefixBitAnd</a>&lt;<a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd#typeparam-T" class="code_type">T</a>, N:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>expr</span>,
     <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <span class='code_param'>mask</span>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveMultiPrefixBitAnd#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinArithmeticType/index">__BuiltinArithmeticType</a>;
 
@@ -47,7 +47,7 @@ layout: stdlib-reference
 
 #### expr  : [T](/stdlib-reference/global-decls/WaveMultiPrefixBitAnd#typeparam-T) {#decl-expr}
 #### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-mask}
-#### expr  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-expr}
+#### expr  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-expr}
 #### expr  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-expr}
 
 ## Availability and Requirements

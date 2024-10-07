@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 4&gt; <a href="/stdlib-reference/global-decls/D3DCOLORtoUBYTE4">D3DCOLORtoUBYTE4</a>(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <span class='code_param'>color</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, 4&gt; <a href="/stdlib-reference/global-decls/D3DCOLORtoUBYTE4">D3DCOLORtoUBYTE4</a>(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/D3DCOLORtoUBYTE4#decl-color" class="code_param">color</a>);
 
 </pre>
 

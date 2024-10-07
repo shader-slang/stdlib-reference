@@ -13,30 +13,30 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
+void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, Shape.dimensions&gt; <span class='code_param'>coord</span>,
     float <span class='code_param'>value</span>,
     out float <span class='code_param'>originalValue</span>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a> == float
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index">__ITextureShape1D2D3D</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isArray" class="code_var">isArray</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isMS" class="code_var">isMS</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-sampleCount" class="code_var">sampleCount</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-access" class="code_var">access</a> == 1
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isShadow" class="code_var">isShadow</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isCombined" class="code_var">isCombined</a> == 0;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a> == 1
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
-float <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
+float <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/InterlockedAddF32">InterlockedAddF32</a>(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, Shape.dimensions&gt; <span class='code_param'>coord</span>,
     float <span class='code_param'>value</span>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a> == float
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index">__ITextureShape1D2D3D</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isArray" class="code_var">isArray</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isMS" class="code_var">isMS</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-sampleCount" class="code_var">sampleCount</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-access" class="code_var">access</a> == 1
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isShadow" class="code_var">isShadow</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-isCombined" class="code_var">isCombined</a> == 0;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a> == 1
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
 </pre>
 

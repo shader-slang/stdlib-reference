@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/NativeString/index" class="code_type">NativeString</a>.<a href="/stdlib-reference/types/NativeString/init">init</a>(<a href="/stdlib-reference/types/String/index" class="code_type">String</a> <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/NativeString/index" class="code_type">NativeString</a>.<a href="/stdlib-reference/types/NativeString/init">init</a>(<a href="/stdlib-reference/types/String/index" class="code_type">String</a> <a href="/stdlib-reference/types/NativeString/init#decl-value" class="code_param">value</a>);
 
 </pre>
 

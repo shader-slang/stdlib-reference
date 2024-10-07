@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/global-decls/WaveActiveBallot">WaveActiveBallot</a>(bool <span class='code_param'>condition</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/global-decls/WaveActiveBallot">WaveActiveBallot</a>(bool <a href="/stdlib-reference/global-decls/WaveActiveBallot#decl-condition" class="code_param">condition</a>);
 
 </pre>
 

@@ -14,14 +14,14 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-uint <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>(int <span class='code_param'>location</span>);
+uint <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>(int <a href="/stdlib-reference/types/ByteAddressBuffer/Load#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 2:
 uint <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>(
     int <span class='code_param'>location</span>,
     out uint <span class='code_param'>status</span>);
 
-T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(int <span class='code_param'>location</span>);
+T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(int <a href="/stdlib-reference/types/ByteAddressBuffer/Load#decl-location" class="code_param">location</a>);
 
 T <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load">Load</a>&lt;T&gt;(
     int <span class='code_param'>location</span>,

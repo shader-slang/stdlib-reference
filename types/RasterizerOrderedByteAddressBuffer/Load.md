@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>(int <span class='code_param'>location</span>);
+uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>(int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 2:
 uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>(

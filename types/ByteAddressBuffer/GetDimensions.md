@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/GetDimensions">GetDimensions</a>(out uint <span class='code_param'>dim</span>);
+void <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/GetDimensions">GetDimensions</a>(out uint <a href="/stdlib-reference/types/ByteAddressBuffer/GetDimensions#decl-dim" class="code_param">dim</a>);
 
 </pre>
 

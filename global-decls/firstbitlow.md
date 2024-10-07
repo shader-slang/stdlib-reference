@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-int <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(int <span class='code_param'>value</span>);
+int <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(int <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
 
-uint <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(uint <span class='code_param'>value</span>);
+uint <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(uint <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>value</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -30,9 +30,9 @@ uint <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(uint <
 ## Parameters
 
 #### value  : int {#decl-value}
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
 #### value  : uint {#decl-value}
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
 
 ## Availability and Requirements
 

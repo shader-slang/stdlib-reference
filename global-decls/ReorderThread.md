@@ -29,7 +29,7 @@ void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
     uint <span class='code_param'>CoherenceHint</span>,
     uint <span class='code_param'>NumCoherenceHintBitsFromLSB</span>);
 
-void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(<a href="/stdlib-reference/types/HitObject/index">HitObject</a> <span class='code_param'>HitOrMiss</span>);
+void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(<a href="/stdlib-reference/types/HitObject/index">HitObject</a> HitOrMiss);
 
 </pre>
 

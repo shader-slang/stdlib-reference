@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4Aligned">Load4Aligned</a>(int <span class='code_param'>location</span>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4Aligned">Load4Aligned</a>(int <a href="/stdlib-reference/types/RWByteAddressBuffer/Load4Aligned#decl-location" class="code_param">location</a>);
 
 </pre>
 

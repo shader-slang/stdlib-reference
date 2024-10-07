@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load4Aligned">Load4Aligned</a>(int <span class='code_param'>location</span>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/ByteAddressBuffer/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/ByteAddressBuffer/Load4Aligned">Load4Aligned</a>(int <a href="/stdlib-reference/types/ByteAddressBuffer/Load4Aligned#decl-location" class="code_param">location</a>);
 
 </pre>
 

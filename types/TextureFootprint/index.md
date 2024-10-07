@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct TextureFootprint\<ND:int\>
 
-*Conforms to:* \_\_TextureFootprintData\<[ND](/stdlib-reference/types/TextureFootprint/index#typeparam-ND)\>
+*Conforms to:* \_\_TextureFootprintData\<[ND](/stdlib-reference/types/TextureFootprint/index#decl-ND)\>
 
 ## Generic Parameters
 

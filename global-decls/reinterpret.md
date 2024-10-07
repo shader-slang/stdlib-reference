@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/reinterpret">reinterpret</a>&lt;<a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a>&gt;(<a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a> <span class='code_param'>value</span>);
+<a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/reinterpret">reinterpret</a>&lt;<a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a>&gt;(<a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a> value);
 
 </pre>
 

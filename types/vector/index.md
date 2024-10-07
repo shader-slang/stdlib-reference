@@ -10,7 +10,7 @@ layout: stdlib-reference
 
 ## Description
 
-An <span class='code'><a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a></span> component vector with elements of type <span class='code'><a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a></span>.
+An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a></span> component vector with elements of type <span class='code'><a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a></span>.
 
 
 ## Generic Parameters

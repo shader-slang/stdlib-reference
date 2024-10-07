@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4">Load4</a>(int <span class='code_param'>location</span>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4">Load4</a>(int <a href="/stdlib-reference/types/RWByteAddressBuffer/Load4#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 1:
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Load4">Load4</a>(

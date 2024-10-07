@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_double">copysign_double</a>&lt;<a href="/stdlib-reference/global-decls/copysign_double#typeparam-N" class="code_var">N</a>:int&gt;(
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>,
-    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>y</span>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_double">copysign_double</a>&lt;<a href="/stdlib-reference/global-decls/copysign_double#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;double, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <span class='code_param'>y</span>);
 
 </pre>
 
@@ -29,8 +29,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<double, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-x}
-#### y  : [vector](/stdlib-reference/types/vector/index)\<double, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-y}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<double, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+#### y  : [vector](/stdlib-reference/types/vector/index)\<double, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
 
 ## Availability and Requirements
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-bool <a href="/stdlib-reference/global-decls/CheckAccessFullyMapped">CheckAccessFullyMapped</a>(out uint <span class='code_param'>status</span>);
+bool <a href="/stdlib-reference/global-decls/CheckAccessFullyMapped">CheckAccessFullyMapped</a>(out uint <a href="/stdlib-reference/global-decls/CheckAccessFullyMapped#decl-status" class="code_param">status</a>);
 
 </pre>
 

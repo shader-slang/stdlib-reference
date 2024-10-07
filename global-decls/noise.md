@@ -13,9 +13,9 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-float <a href="/stdlib-reference/global-decls/noise">noise</a>(float <span class='code_param'>x</span>);
+float <a href="/stdlib-reference/global-decls/noise">noise</a>(float <a href="/stdlib-reference/global-decls/noise#decl-x" class="code_param">x</a>);
 
-float <a href="/stdlib-reference/global-decls/noise">noise</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>);
+float <a href="/stdlib-reference/global-decls/noise">noise</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/noise#decl-x" class="code_param">x</a>);
 
 </pre>
 
@@ -26,5 +26,5 @@ float <a href="/stdlib-reference/global-decls/noise">noise</a>&lt;N:int&gt;(<a h
 ## Parameters
 
 #### x  : float {#decl-x}
-#### x  : [vector](/stdlib-reference/types/vector/index)\<float, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<float, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 
