@@ -7,6 +7,14 @@ layout: stdlib-reference
 > #### Internal Feature
 > The feature described in this page is marked as an internal implementation detail, and is not intended for use by end-users.
 > Users are advised to avoid using this declaration directly, as it may be removed or changed in future releases.
+## "Description
+
+A parameterized type that represents all flavors of texture types supported by the Slang language.
+Please note that this type is not intended to be used directly in user code, and not all combinations
+of the generic arguments are valid.
+Instead, use the specific texture types such as <span class='code'><a href="/stdlib-reference/types/Texture1D" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2DArray" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="/stdlib-reference/types/Sampler2D" class="code_type">Sampler2D</a></span> etc.
+This documentation is provided for reference purposes only.
+
 ## Generic Parameters
 
 #### T
@@ -116,7 +124,6 @@ Allowed <span class='code'>format</span> values are:
 |39 |<span class='code'>r8ui</span>              | 1 channel 8-bit unsigned integer texture |
 |40 |<span class='code'>r64ui</span>             | 1 channel 64-bit unsigned integer texture |
 |41 |<span class='code'>r64i</span>              | 1 channel 64-bit signed integer texture |
-
 
 ## "See also
 
