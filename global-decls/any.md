@@ -14,15 +14,15 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a> x)
+bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/any#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 1:
-bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a>, N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; x)
+bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/any#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/any#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 2:
-bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; x)
+bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/any#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/any#decl-M" class="code_var">M</a>:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/any#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/any#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
@@ -41,7 +41,7 @@ bool <a href="/stdlib-reference/global-decls/any">any</a>&lt;<a href="/stdlib-re
 
 #### x  : [T](/stdlib-reference/global-decls/any#typeparam-T) {#decl-x}
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-x}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 
 ## Availability and Requirements
 

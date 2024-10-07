@@ -17,28 +17,28 @@ Currently only supported on VK
 <pre>
 /// Requires Capability Set 1:
 <span class='code_keyword'>static</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/MakeMotionHit">MakeMotionHit</a>&lt;<a href="/stdlib-reference/types/HitObject/MakeMotionHit#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-AccelerationStructure    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> ,
-<a href="/stdlib-reference/global-decls/InstanceIndex">InstanceIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/GeometryIndex">GeometryIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/PrimitiveIndex">PrimitiveIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/HitKind">HitKind</a>    uint ,
-RayContributionToHitGroupIndex    uint ,
-MultiplierForGeometryContributionToHitGroupIndex    uint ,
-Ray    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> ,
-CurrentTime    float ,
-attributes    <a href="/stdlib-reference/types/HitObject/MakeMotionHit#typeparam-attr_t" class="code_type">attr_t</a> );
+    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-HitKind" class="code_param">HitKind</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-Ray" class="code_param">Ray</a>,
+    float <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <a href="/stdlib-reference/types/HitObject/MakeMotionHit#typeparam-attr_t" class="code_type">attr_t</a> <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-attributes" class="code_param">attributes</a>);
 
 /// Requires Capability Set 2:
 <span class='code_keyword'>static</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/MakeMotionHit">MakeMotionHit</a>&lt;<a href="/stdlib-reference/types/HitObject/MakeMotionHit#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-HitGroupRecordIndex    uint ,
-AccelerationStructure    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> ,
-<a href="/stdlib-reference/global-decls/InstanceIndex">InstanceIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/GeometryIndex">GeometryIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/PrimitiveIndex">PrimitiveIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/HitKind">HitKind</a>    uint ,
-Ray    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> ,
-CurrentTime    float ,
-attributes    <a href="/stdlib-reference/types/HitObject/MakeMotionHit#typeparam-attr_t" class="code_type">attr_t</a> );
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-HitGroupRecordIndex" class="code_param">HitGroupRecordIndex</a>,
+    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-HitKind" class="code_param">HitKind</a>,
+    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-Ray" class="code_param">Ray</a>,
+    float <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <a href="/stdlib-reference/types/HitObject/MakeMotionHit#typeparam-attr_t" class="code_type">attr_t</a> <a href="/stdlib-reference/types/HitObject/MakeMotionHit#decl-attributes" class="code_param">attributes</a>);
 
 </pre>
 

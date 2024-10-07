@@ -20,25 +20,25 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 
 <pre>
 <span class='code_keyword'>static</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/MakeHit">MakeHit</a>&lt;<a href="/stdlib-reference/types/HitObject/MakeHit#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-AccelerationStructure    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> ,
-<a href="/stdlib-reference/global-decls/InstanceIndex">InstanceIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/GeometryIndex">GeometryIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/PrimitiveIndex">PrimitiveIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/HitKind">HitKind</a>    uint ,
-RayContributionToHitGroupIndex    uint ,
-MultiplierForGeometryContributionToHitGroupIndex    uint ,
-Ray    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> ,
-attributes    <a href="/stdlib-reference/types/HitObject/MakeHit#typeparam-attr_t" class="code_type">attr_t</a> );
+    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/HitObject/MakeHit#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-HitKind" class="code_param">HitKind</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/HitObject/MakeHit#decl-Ray" class="code_param">Ray</a>,
+    <a href="/stdlib-reference/types/HitObject/MakeHit#typeparam-attr_t" class="code_type">attr_t</a> <a href="/stdlib-reference/types/HitObject/MakeHit#decl-attributes" class="code_param">attributes</a>);
 
 <span class='code_keyword'>static</span> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/HitObject/MakeHit">MakeHit</a>&lt;<a href="/stdlib-reference/types/HitObject/MakeHit#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-HitGroupRecordIndex    uint ,
-AccelerationStructure    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> ,
-<a href="/stdlib-reference/global-decls/InstanceIndex">InstanceIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/GeometryIndex">GeometryIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/PrimitiveIndex">PrimitiveIndex</a>    uint ,
-<a href="/stdlib-reference/global-decls/HitKind">HitKind</a>    uint ,
-Ray    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> ,
-attributes    <a href="/stdlib-reference/types/HitObject/MakeHit#typeparam-attr_t" class="code_type">attr_t</a> );
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-HitGroupRecordIndex" class="code_param">HitGroupRecordIndex</a>,
+    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/HitObject/MakeHit#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
+    uint <a href="/stdlib-reference/types/HitObject/MakeHit#decl-HitKind" class="code_param">HitKind</a>,
+    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/HitObject/MakeHit#decl-Ray" class="code_param">Ray</a>,
+    <a href="/stdlib-reference/types/HitObject/MakeHit#typeparam-attr_t" class="code_type">attr_t</a> <a href="/stdlib-reference/types/HitObject/MakeHit#decl-attributes" class="code_param">attributes</a>);
 
 </pre>
 

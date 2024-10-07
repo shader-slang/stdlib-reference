@@ -14,24 +14,24 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/InterlockedCompareStore">InterlockedCompareStore</a>(
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>    int64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>    int64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>    int64_t );
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedCompareStore">InterlockedCompareStore</a>(
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>    uint64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>    uint64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>    uint64_t );
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedCompareStore">InterlockedCompareStore</a>(
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>    int ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>    int ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>    int );
+    int <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
+    int <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
+    int <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedCompareStore">InterlockedCompareStore</a>(
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>    uint ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>    uint );
+    uint <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
+    uint <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
+    uint <a href="/stdlib-reference/global-decls/InterlockedCompareStore#decl-value" class="code_param">value</a>);
 
 </pre>
 

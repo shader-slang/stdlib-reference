@@ -14,15 +14,15 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3">max3</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>&gt;(
-x    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> ,
-y    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> ,
-z    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> )
+    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3#decl-y" class="code_param">y</a>,
+    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3#decl-z" class="code_param">z</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3">max3</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, N:int&gt;(
-x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-y    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-z    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3">max3</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/max3#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3#decl-y" class="code_param">y</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3#decl-z" class="code_param">z</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>

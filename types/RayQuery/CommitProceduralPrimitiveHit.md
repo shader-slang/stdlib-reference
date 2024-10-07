@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:uint&gt;.<a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit">CommitProceduralPrimitiveHit</a>(
-<a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit#decl-t" class="code_param">t</a>    float );
+    float <a href="/stdlib-reference/types/RayQuery/CommitProceduralPrimitiveHit#decl-t" class="code_param">t</a>);
 
 </pre>
 

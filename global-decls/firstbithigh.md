@@ -15,11 +15,11 @@ layout: stdlib-reference
 <pre>
 int <a href="/stdlib-reference/global-decls/firstbithigh">firstbithigh</a>(int <a href="/stdlib-reference/global-decls/firstbithigh#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh">firstbithigh</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh#decl-value" class="code_param">value</a>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh">firstbithigh</a>&lt;<a href="/stdlib-reference/global-decls/firstbithigh#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh#decl-value" class="code_param">value</a>);
 
 uint <a href="/stdlib-reference/global-decls/firstbithigh">firstbithigh</a>(uint <a href="/stdlib-reference/global-decls/firstbithigh#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh">firstbithigh</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh#decl-value" class="code_param">value</a>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh">firstbithigh</a>&lt;<a href="/stdlib-reference/global-decls/firstbithigh#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbithigh#decl-value" class="code_param">value</a>);
 
 </pre>
 

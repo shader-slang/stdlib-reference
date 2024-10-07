@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <span class='code_keyword'>static</span> This.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/index" class="code_type">IDifferentiable</a>.<a href="/stdlib-reference/interfaces/IDifferentiable/dmul">dmul</a>&lt;<a href="/stdlib-reference/interfaces/IDifferentiable/dmul#typeparam-T" class="code_type">T</a>&gt;(
-SLANG_anonymous_2    <a href="/stdlib-reference/interfaces/IDifferentiable/dmul#typeparam-T" class="code_type">T</a> ,
-SLANG_anonymous_3    This.Differential )
+    <a href="/stdlib-reference/interfaces/IDifferentiable/dmul#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/interfaces/IDifferentiable/dmul#decl-SLANG_anonymous_2" class="code_param">SLANG_anonymous_2</a>,
+    This.Differential <a href="/stdlib-reference/interfaces/IDifferentiable/dmul#decl-SLANG_anonymous_3" class="code_param">SLANG_anonymous_3</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/interfaces/IDifferentiable/dmul#typeparam-T" class="code_type">T</a> : __BuiltinRealType;
 
 </pre>

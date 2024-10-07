@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/Tuple/index">Tuple</a>&lt;<a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a>, U&gt; <a href="/stdlib-reference/global-decls/concat">concat</a>&lt;each <a href="/stdlib-reference/global-decls/concat#typeparam-T" class="code_type">T</a>, each <a href="/stdlib-reference/global-decls/concat#typeparam-U" class="code_type">U</a>&gt;(
-t    <a href="/stdlib-reference/types/Tuple/index">Tuple</a>&lt;<a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a>&gt; ,
-u    <a href="/stdlib-reference/types/Tuple/index">Tuple</a>&lt;U&gt; );
+    <a href="/stdlib-reference/types/Tuple/index">Tuple</a>&lt;<a href="/stdlib-reference/types/Tuple/index#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/concat#decl-t" class="code_param">t</a>,
+    <a href="/stdlib-reference/types/Tuple/index">Tuple</a>&lt;U&gt; <a href="/stdlib-reference/global-decls/concat#decl-u" class="code_param">u</a>);
 
 </pre>
 

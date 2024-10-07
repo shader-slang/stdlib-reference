@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store3">Store3</a>(
-<a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-value" class="code_param">value</a>    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 3&gt; );
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 3&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store3">Store3</a>(
-<a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-value" class="code_param">value</a>    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 3&gt; ,
-alignment    uint );
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 3&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-value" class="code_param">value</a>,
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/Store3#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 

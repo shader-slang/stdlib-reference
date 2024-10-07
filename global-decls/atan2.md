@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;<a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a>&gt;(
-y    <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> ,
-x    <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> )
+    <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/atan2#decl-y" class="code_param">y</a>,
+    <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/atan2#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;<a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a>, N:int&gt;(
-y    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;<a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/atan2#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/atan2#decl-y" class="code_param">y</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/atan2#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;<a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-y    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
-x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; )
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/atan2">atan2</a>&lt;<a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/atan2#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/atan2#decl-M" class="code_var">M</a>:int&gt;(
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/atan2#decl-y" class="code_param">y</a>,
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/atan2#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/atan2#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>
@@ -46,8 +46,8 @@ x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdl
 #### x  : [T](/stdlib-reference/global-decls/atan2#typeparam-T) {#decl-x}
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
-#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-y}
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-x}
+#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 
 ## Availability and Requirements
 

@@ -14,17 +14,17 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store">Store</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-value" class="code_param">value</a>    uint );
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-address" class="code_param">address</a>,
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store">Store</a>&lt;T&gt;(
-offset    int ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-value" class="code_param">value</a>    T );
+void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store">Store</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#typeparam-T" class="code_type">T</a>&gt;(
+    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-offset" class="code_param">offset</a>,
+    <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-value" class="code_param">value</a>);
 
-void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store">Store</a>&lt;T&gt;(
-offset    int ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-value" class="code_param">value</a>    T ,
-alignment    uint );
+void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store">Store</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#typeparam-T" class="code_type">T</a>&gt;(
+    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-offset" class="code_param">offset</a>,
+    <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-value" class="code_param">value</a>,
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 
@@ -37,7 +37,7 @@ alignment    uint );
 #### address  : uint {#decl-address}
 #### value  : uint {#decl-value}
 #### offset  : int {#decl-offset}
-#### value  : T {#decl-value}
+#### value  : [T](/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store#typeparam-T) {#decl-value}
 #### alignment  : uint {#decl-alignment}
 
 ## Availability and Requirements

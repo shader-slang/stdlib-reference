@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a>&gt;(
-sourceValue    <a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a> ,
-quadLaneID    uint )
+    <a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-sourceValue" class="code_param">sourceValue</a>,
+    uint <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-quadLaneID" class="code_param">quadLaneID</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a>, N:int&gt;(
-sourceValue    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-quadLaneID    uint )
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-sourceValue" class="code_param">sourceValue</a>,
+    uint <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-quadLaneID" class="code_param">quadLaneID</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-sourceValue    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
-quadLaneID    uint )
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/QuadReadLaneAt">QuadReadLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-M" class="code_var">M</a>:int&gt;(
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-sourceValue" class="code_param">sourceValue</a>,
+    uint <a href="/stdlib-reference/global-decls/QuadReadLaneAt#decl-quadLaneID" class="code_param">quadLaneID</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
@@ -45,7 +45,7 @@ quadLaneID    uint )
 #### sourceValue  : [T](/stdlib-reference/global-decls/QuadReadLaneAt#typeparam-T) {#decl-sourceValue}
 #### quadLaneID  : uint {#decl-quadLaneID}
 #### sourceValue  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-sourceValue}
-#### sourceValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-sourceValue}
+#### sourceValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-sourceValue}
 
 ## Availability and Requirements
 

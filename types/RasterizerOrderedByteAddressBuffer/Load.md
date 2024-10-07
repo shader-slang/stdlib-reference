@@ -18,17 +18,17 @@ uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" 
 
 /// Requires Capability Set 2:
 uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>    int ,
-status    out uint );
+    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>,
+    out uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-status" class="code_param">status</a>);
 
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;T&gt;(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>    int );
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a>&gt;(
+    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 1:
-T <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;T&gt;(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>    int ,
-alignment    int );
+<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a>&gt;(
+    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>,
+    int <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 

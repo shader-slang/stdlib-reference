@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;<a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a>&gt;(
-x    <a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a> ,
-<a href="/stdlib-reference/global-decls/exp">exp</a>    out int )
+    <a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/frexp#decl-x" class="code_param">x</a>,
+    out int <a href="/stdlib-reference/global-decls/frexp#decl-exp" class="code_param">exp</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;<a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a>, N:int&gt;(
-x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-<a href="/stdlib-reference/global-decls/exp">exp</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;<a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/frexp#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/frexp#decl-x" class="code_param">x</a>,
+    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;int, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/frexp#decl-exp" class="code_param">exp</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;<a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a>, N:int, M:int, L:int&gt;(
-x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
-<a href="/stdlib-reference/global-decls/exp">exp</a>    out <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;int, N, M&gt; )
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/frexp">frexp</a>&lt;<a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/frexp#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/frexp#decl-M" class="code_var">M</a>:int, <a href="/stdlib-reference/global-decls/frexp#decl-L" class="code_var">L</a>:int&gt;(
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/frexp#decl-x" class="code_param">x</a>,
+    out <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;int, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/frexp#decl-exp" class="code_param">exp</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/frexp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>
@@ -47,8 +47,8 @@ x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdl
 #### exp  : int {#decl-exp}
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 #### exp  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-exp}
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-x}
-#### exp  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\> {#decl-exp}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+#### exp  : [matrix](/stdlib-reference/types/matrix/index)\<int, [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-exp}
 
 ## Availability and Requirements
 

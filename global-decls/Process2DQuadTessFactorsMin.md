@@ -14,11 +14,11 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin">Process2DQuadTessFactorsMin</a>(
-<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; ,
-<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-InsideScale" class="code_param">InsideScale</a>    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; ,
-<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; ,
-<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; ,
-<a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; );
+    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
+    in <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-InsideScale" class="code_param">InsideScale</a>,
+    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 4&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
+    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
+    out <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/global-decls/Process2DQuadTessFactorsMin#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
 
 </pre>
 

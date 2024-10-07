@@ -14,15 +14,15 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
-<a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>    float ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>    float ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>    float );
+    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>,
+    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>,
+    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise">InterlockedCompareExchangeFloatBitwise</a>(
-<a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>    float ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>    float ,
-<a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>    float ,
-original_value    out float );
+    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-dest" class="code_param">dest</a>,
+    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-compare_value" class="code_param">compare_value</a>,
+    float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-value" class="code_param">value</a>,
+    out float <a href="/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 

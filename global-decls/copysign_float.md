@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_float">copysign_float</a>&lt;<a href="/stdlib-reference/global-decls/copysign_float#decl-N" class="code_var">N</a>:int&gt;(
-x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-y    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; );
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_float#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;float, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_float#decl-y" class="code_param">y</a>);
 
 </pre>
 

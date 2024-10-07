@@ -15,7 +15,7 @@ layout: stdlib-reference
 <pre>
 uint <a href="/stdlib-reference/global-decls/countbits">countbits</a>(uint <a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/countbits">countbits</a>&lt;N:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a>);
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/countbits">countbits</a>&lt;<a href="/stdlib-reference/global-decls/countbits#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a>);
 
 </pre>
 

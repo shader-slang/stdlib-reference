@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/determinant">determinant</a>&lt;<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, N&gt; m)
+<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/determinant">determinant</a>&lt;<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/determinant#decl-m" class="code_param">m</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>
@@ -30,7 +30,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, N\> {#decl-m}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [N](/stdlib-reference/types/matrix/index#decl-N)\> {#decl-m}
 
 ## Availability and Requirements
 

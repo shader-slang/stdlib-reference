@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2">Store2</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-value" class="code_param">value</a>    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; );
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2">Store2</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-value" class="code_param">value</a>    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; ,
-alignment    uint );
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 2&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-value" class="code_param">value</a>,
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store2#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-void <a href="/stdlib-reference/global-decls/unmodified">unmodified</a>&lt;<a href="/stdlib-reference/global-decls/unmodified#typeparam-T" class="code_type">T</a>&gt;(out <a href="/stdlib-reference/global-decls/unmodified#typeparam-T" class="code_type">T</a> SLANG_anonymous_6);
+void <a href="/stdlib-reference/global-decls/unmodified">unmodified</a>&lt;<a href="/stdlib-reference/global-decls/unmodified#typeparam-T" class="code_type">T</a>&gt;(out <a href="/stdlib-reference/global-decls/unmodified#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/unmodified#decl-SLANG_anonymous_6" class="code_param">SLANG_anonymous_6</a>);
 
 </pre>
 

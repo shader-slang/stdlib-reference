@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/Store4Aligned">Store4Aligned</a>(
-<a href="/stdlib-reference/types/RWByteAddressBuffer/Store4Aligned#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RWByteAddressBuffer/Store4Aligned#decl-value" class="code_param">value</a>    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; );
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/Store4Aligned#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RWByteAddressBuffer/Store4Aligned#decl-value" class="code_param">value</a>);
 
 </pre>
 

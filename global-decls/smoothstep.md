@@ -14,21 +14,21 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;<a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a>&gt;(
-<a href="/stdlib-reference/global-decls/min">min</a>    <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> ,
-<a href="/stdlib-reference/global-decls/max">max</a>    <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> ,
-x    <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> )
+    <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/smoothstep#decl-min" class="code_param">min</a>,
+    <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/smoothstep#decl-max" class="code_param">max</a>,
+    <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/smoothstep#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;<a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a>, N:int&gt;(
-<a href="/stdlib-reference/global-decls/min">min</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-<a href="/stdlib-reference/global-decls/max">max</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-x    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; )
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;<a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/smoothstep#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep#decl-min" class="code_param">min</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep#decl-max" class="code_param">max</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;<a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-<a href="/stdlib-reference/global-decls/min">min</a>    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
-<a href="/stdlib-reference/global-decls/max">max</a>    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
-x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; )
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep">smoothstep</a>&lt;<a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/smoothstep#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/smoothstep#decl-M" class="code_var">M</a>:int&gt;(
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep#decl-min" class="code_param">min</a>,
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep#decl-max" class="code_param">max</a>,
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/smoothstep#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/smoothstep#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>
@@ -51,9 +51,9 @@ x    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdl
 #### min  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-min}
 #### max  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-max}
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
-#### min  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-min}
-#### max  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-max}
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-x}
+#### min  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-min}
+#### max  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-max}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 
 ## Availability and Requirements
 

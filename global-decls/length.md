@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length">length</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/length#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; x)
+<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length">length</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/length#decl-N" class="code_var">N</a>:int&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length">length</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> x)
+<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length">length</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>

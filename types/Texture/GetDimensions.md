@@ -15,480 +15,480 @@ layout: stdlib-reference
 <pre>
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-numberOfLevels    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-numberOfLevels    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-numberOfLevels    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-elements    out float )
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
-
-/// Requires Capability Set 1:
-void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-elements    out float ,
-numberOfLevels    out float )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-elements    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-elements    out int ,
-numberOfLevels    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-elements    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-elements    out uint ,
-numberOfLevels    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
+
+/// Requires Capability Set 1:
+void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-numberOfLevels    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-numberOfLevels    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-numberOfLevels    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-<a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>    out float )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-<a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-<a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-elements    out float )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-elements    out float ,
-numberOfLevels    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-elements    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-elements    out int ,
-numberOfLevels    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-elements    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-elements    out uint ,
-numberOfLevels    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-elements    out float ,
-<a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>    out float )
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
-
-/// Requires Capability Set 1:
-void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-elements    out int ,
-<a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>    out int )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-elements    out uint ,
-<a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>    out uint )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-depth    out float )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 1;
+
+/// Requires Capability Set 1:
+void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-depth" class="code_param">depth</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-depth    out float ,
-numberOfLevels    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-depth" class="code_param">depth</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-depth    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-depth" class="code_param">depth</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-depth    out int ,
-numberOfLevels    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-depth" class="code_param">depth</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-depth    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-depth" class="code_param">depth</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-depth    out uint ,
-numberOfLevels    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-depth" class="code_param">depth</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-numberOfLevels    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-numberOfLevels    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-numberOfLevels    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-elements    out float )
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out float ,
-height    out float ,
-elements    out float ,
-numberOfLevels    out float )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out float <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-elements    out int )
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out int ,
-height    out int ,
-elements    out int ,
-numberOfLevels    out int )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out int <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-elements    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-mipLevel    uint ,
-<a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>    out uint ,
-height    out uint ,
-elements    out uint ,
-numberOfLevels    out uint )
+    uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-mipLevel" class="code_param">mipLevel</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-width" class="code_param">width</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-height" class="code_param">height</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-elements" class="code_param">elements</a>,
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 2:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-dim    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-dim" class="code_param">dim</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
 /// Requires Capability Set 2:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-dim    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-dim" class="code_param">dim</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
 /// Requires Capability Set 2:
 void <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/Texture/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/Texture/GetDimensions">GetDimensions</a>(
-dim    out uint )
+    out uint <a href="/stdlib-reference/types/Texture/GetDimensions#decl-dim" class="code_param">dim</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/GetDimensions#decl-sampleCount" class="code_param">sampleCount</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-access" class="code_var">access</a> == 2
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a> == 0;

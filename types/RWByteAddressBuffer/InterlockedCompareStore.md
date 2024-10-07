@@ -14,9 +14,9 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore">InterlockedCompareStore</a>(
-<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>    uint ,
-<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore#decl-value" class="code_param">value</a>    uint );
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore#decl-dest" class="code_param">dest</a>,
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore#decl-compare_value" class="code_param">compare_value</a>,
+    uint <a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareStore#decl-value" class="code_param">value</a>);
 
 </pre>
 

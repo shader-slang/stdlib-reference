@@ -14,18 +14,18 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a>&gt;(
-value    <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a> ,
-lane    int )
+    <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-value" class="code_param">value</a>,
+    int <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-lane" class="code_param">lane</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a>, N:int&gt;(
-value    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-lane    int )
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-value" class="code_param">value</a>,
+    int <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-lane" class="code_param">lane</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a>, N:int, M:int&gt;(
-value    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, N, M&gt; ,
-lane    int )
+<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt">WaveBroadcastLaneAt</a>&lt;<a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-N" class="code_var">N</a>:int, <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-M" class="code_var">M</a>:int&gt;(
+    <a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/types/matrix/T" class="code_type">T</a>, <a href="/stdlib-reference/types/matrix/index#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/types/matrix/index#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-value" class="code_param">value</a>,
+    int <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#decl-lane" class="code_param">lane</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
@@ -45,7 +45,7 @@ lane    int )
 #### value  : [T](/stdlib-reference/global-decls/WaveBroadcastLaneAt#typeparam-T) {#decl-value}
 #### lane  : int {#decl-lane}
 #### value  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-value}
 
 ## Availability and Requirements
 

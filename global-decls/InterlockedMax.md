@@ -14,44 +14,44 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    int ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    int );
+    int <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    int <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    int ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    int ,
-original_value    out int );
+    int <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    int <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>,
+    out int <a href="/stdlib-reference/global-decls/InterlockedMax#decl-original_value" class="code_param">original_value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    uint );
+    uint <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    uint <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    uint ,
-original_value    out uint );
+    uint <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    uint <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>,
+    out uint <a href="/stdlib-reference/global-decls/InterlockedMax#decl-original_value" class="code_param">original_value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    int );
+    uint <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    int <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    int64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    int64_t );
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    int64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    int64_t ,
-original_value    out int64_t );
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    int64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>,
+    out int64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-original_value" class="code_param">original_value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    uint64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    uint64_t );
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>);
 
 void <a href="/stdlib-reference/global-decls/InterlockedMax">InterlockedMax</a>(
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>    uint64_t ,
-<a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>    uint64_t ,
-original_value    out uint64_t );
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-dest" class="code_param">dest</a>,
+    uint64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-value" class="code_param">value</a>,
+    out uint64_t <a href="/stdlib-reference/global-decls/InterlockedMax#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 

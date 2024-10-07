@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/StoreAligned">StoreAligned</a>&lt;<a href="/stdlib-reference/types/RWByteAddressBuffer/StoreAligned#typeparam-T" class="code_type">T</a>&gt;(
-offset    int ,
-value    <a href="/stdlib-reference/types/RWByteAddressBuffer/StoreAligned#typeparam-T" class="code_type">T</a> );
+    int <a href="/stdlib-reference/types/RWByteAddressBuffer/StoreAligned#decl-offset" class="code_param">offset</a>,
+    <a href="/stdlib-reference/types/RWByteAddressBuffer/StoreAligned#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RWByteAddressBuffer/StoreAligned#decl-value" class="code_param">value</a>);
 
 </pre>
 

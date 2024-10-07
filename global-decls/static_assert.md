@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/global-decls/static_assert">static_assert</a>(
-<a href="/stdlib-reference/global-decls/static_assert#decl-condition" class="code_param">condition</a>    bool ,
-<a href="/stdlib-reference/global-decls/static_assert#decl-errorMessage" class="code_param">errorMessage</a>    <a href="/stdlib-reference/types/NativeString/index">NativeString</a> );
+    bool <a href="/stdlib-reference/global-decls/static_assert#decl-condition" class="code_param">condition</a>,
+    <a href="/stdlib-reference/types/NativeString/index">NativeString</a> <a href="/stdlib-reference/global-decls/static_assert#decl-errorMessage" class="code_param">errorMessage</a>);
 
 </pre>
 

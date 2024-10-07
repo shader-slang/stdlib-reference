@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor">InterlockedXor</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-value" class="code_param">value</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-original_value" class="code_param">original_value</a>    out uint );
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-dest" class="code_param">dest</a>,
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-value" class="code_param">value</a>,
+    out uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-original_value" class="code_param">original_value</a>);
 
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor">InterlockedXor</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-dest" class="code_param">dest</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-value" class="code_param">value</a>    uint );
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-dest" class="code_param">dest</a>,
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/InterlockedXor#decl-value" class="code_param">value</a>);
 
 </pre>
 

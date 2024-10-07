@@ -21,15 +21,15 @@ Where possible, reordering will also attempt to retain locality in the thread429
 
 <pre>
 void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
-<a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>    uint ,
-<a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>    uint );
+    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
 void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(
-HitOrMiss    <a href="/stdlib-reference/types/HitObject/index">HitObject</a> ,
-<a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>    uint ,
-<a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>    uint );
+    <a href="/stdlib-reference/types/HitObject/index">HitObject</a> <a href="/stdlib-reference/global-decls/ReorderThread#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
+    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    uint <a href="/stdlib-reference/global-decls/ReorderThread#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(<a href="/stdlib-reference/types/HitObject/index">HitObject</a> HitOrMiss);
+void <a href="/stdlib-reference/global-decls/ReorderThread">ReorderThread</a>(<a href="/stdlib-reference/types/HitObject/index">HitObject</a> <a href="/stdlib-reference/global-decls/ReorderThread#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
 
 </pre>
 

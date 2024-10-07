@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 uint <a href="/stdlib-reference/global-decls/WaveMultiPrefixCountBits">WaveMultiPrefixCountBits</a>(
-<a href="/stdlib-reference/global-decls/WaveMultiPrefixCountBits#decl-value" class="code_param">value</a>    bool ,
-<a href="/stdlib-reference/global-decls/WaveMultiPrefixCountBits#decl-mask" class="code_param">mask</a>    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; );
+    bool <a href="/stdlib-reference/global-decls/WaveMultiPrefixCountBits#decl-value" class="code_param">value</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/global-decls/WaveMultiPrefixCountBits#decl-mask" class="code_param">mask</a>);
 
 </pre>
 

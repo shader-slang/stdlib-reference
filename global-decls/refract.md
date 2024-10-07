@@ -14,15 +14,15 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/refract#decl-N" class="code_var">N</a>:int&gt;(
-i    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-n    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; ,
-eta    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> )
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/refract#decl-i" class="code_param">i</a>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/refract#decl-n" class="code_param">n</a>,
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-eta" class="code_param">eta</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>&gt;(
-i    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> ,
-n    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> ,
-eta    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> )
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-i" class="code_param">i</a>,
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-n" class="code_param">n</a>,
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-eta" class="code_param">eta</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
 
 </pre>

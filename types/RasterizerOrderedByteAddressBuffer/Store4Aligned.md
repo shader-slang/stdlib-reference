@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 void <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store4Aligned">Store4Aligned</a>(
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store4Aligned#decl-address" class="code_param">address</a>    uint ,
-<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store4Aligned#decl-value" class="code_param">value</a>    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; );
+    uint <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store4Aligned#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;uint, 4&gt; <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Store4Aligned#decl-value" class="code_param">value</a>);
 
 </pre>
 
