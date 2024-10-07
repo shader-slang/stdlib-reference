@@ -1,0 +1,58 @@
+---
+layout: stdlib-reference
+---
+
+# copysign\_half
+
+## Description
+
+
+
+
+
+## Signature 
+
+<pre>
+<a href="/stdlib-reference/types/vector/index">vector</a>&lt;half, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/copysign_half">copysign_half</a>&lt;<a href="/stdlib-reference/global-decls/copysign_half#typeparam-N" class="code_var">N</a>:int&gt;(
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;half, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>x</span>,
+    <a href="/stdlib-reference/types/vector/index">vector</a>&lt;half, <a href="/stdlib-reference/types/vector/index#typeparam-N" class="code_var">N</a>&gt; <span class='code_param'>y</span>);
+
+</pre>
+
+## Generic Parameters
+
+#### N  : int {#decl-N}
+
+## Generic Parameters
+
+#### N  : int {#decl-N}
+
+## Parameters
+
+#### x  : [vector](/stdlib-reference/types/vector/index)\<half, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-x}
+#### y  : [vector](/stdlib-reference/types/vector/index)\<half, [N](/stdlib-reference/types/vector/index#typeparam-N)\> {#decl-y}
+
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### metal
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+
+

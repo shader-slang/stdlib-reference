@@ -1,0 +1,50 @@
+---
+layout: stdlib-reference
+---
+
+# RWByteAddressBuffer\.InterlockedCompareExchangeU64
+
+## Description
+
+
+
+
+
+## Signature 
+
+<pre>
+void <a href="/stdlib-reference/types/RWByteAddressBuffer/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/RWByteAddressBuffer/InterlockedCompareExchangeU64">InterlockedCompareExchangeU64</a>(
+    uint <span class='code_param'>byteAddress</span>,
+    uint64_t <span class='code_param'>compareValue</span>,
+    uint64_t <span class='code_param'>value</span>,
+    out uint64_t <span class='code_param'>outOriginalValue</span>);
+
+</pre>
+
+## Parameters
+
+#### byteAddress  : uint {#decl-byteAddress}
+#### compareValue  : uint64\_t {#decl-compareValue}
+#### value  : uint64\_t {#decl-value}
+#### outOriginalValue  : uint64\_t {#decl-outOriginalValue}
+
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+Requires capability: `hlsl_nvapi`.
+#### glsl
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvInt64Atomics`.
+
+

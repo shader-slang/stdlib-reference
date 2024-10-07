@@ -1,0 +1,35 @@
+---
+layout: stdlib-reference
+---
+
+# RayQuery\<rayFlagsGeneric:uint\>\.CommittedTriangleBarycentrics
+
+## Description
+
+
+
+
+
+## Signature 
+
+<pre>
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;float, 2&gt; <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#typeparam-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:uint&gt;.<a href="/stdlib-reference/types/RayQuery/CommittedTriangleBarycentrics">CommittedTriangleBarycentrics</a>();
+
+</pre>
+
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvRayQueryKHR`.
+
+

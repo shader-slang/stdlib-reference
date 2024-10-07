@@ -1,0 +1,32 @@
+---
+layout: stdlib-reference
+---
+
+# RayQuery\<rayFlagsGeneric:uint\>\.CandidateRayFrontFace
+
+## Description
+
+
+
+
+
+## Signature 
+
+<pre>
+bool <a href="/stdlib-reference/types/RayQuery/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/RayQuery/index#typeparam-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:uint&gt;.<a href="/stdlib-reference/types/RayQuery/CandidateRayFrontFace">CandidateRayFrontFace</a>();
+
+</pre>
+
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### glsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvRayQueryKHR`.
+
+
