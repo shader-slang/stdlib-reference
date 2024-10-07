@@ -43,7 +43,7 @@ Indicates whether the texture is a shadow texture (for combined texture-sampler 
 Indicates whether the texture is a combined texture-sampler.
 
 #### format  : int
-The storage format of the texture. Users should specify the format using an <span class='code'>[format(&quot;...&quot;)]</span> attribute instead.
+The storage format of the texture. Users should specify the format using an <span class='code'>[format(...)]</span> attribute instead.
 
 
 ## Methods
@@ -98,52 +98,52 @@ are advised to use the HLSL-specific texture types instead of <span class='code'
 
 For read-write textures, Slang will automatically infer <span class='code'>format</span> from <span class='code'><span class="code_type">T</span></span>.
 To explicitly specify texel storage formats for read-write textures,
-use the <span class='code'>[format(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
+use the <span class='code'>[format(formatString)]</span> attribute on the texture parameter declaration.
 Allowed <span class='code'>formatString</span> values are:
 
 |id | Format string        | Meaning           |
 |:--|:---------------------|:------------------|
-|1  |<span class='code'>&quot;rgba32f&quot;</span>           | 4 channel 32-bit floating point texture |
-|2  |<span class='code'>&quot;rgba16f&quot;</span>           | 4 channel 16-bit floating point texture |
-|3  |<span class='code'>&quot;rg32f&quot;</span>             | 2 channel 32-bit floating point texture |
-|4  |<span class='code'>&quot;rg16f&quot;</span>             | 2 channel 16-bit floating point texture |
-|5  |<span class='code'>&quot;r11f_g11f_b10f&quot;</span>    | 3 channel 11/11/10-bit floating point texture |
-|6  |<span class='code'>&quot;r32f&quot;</span>              | 1 channel 32-bit floating point texture |
-|7  |<span class='code'>&quot;r16f&quot;</span>              | 1 channel 16-bit floating point texture |
-|8  |<span class='code'>&quot;rgba16&quot;</span>            | 4 channel 16-bit normalized unsigned integer texture |
-|9  |<span class='code'>&quot;rgb10_a2&quot;</span>          | 4 channel 10/10/10/2-bit signed integer texture |
-|10 |<span class='code'>&quot;rgba8&quot;</span>             | 4 channel 8-bit normalized unsigned integer texture |
-|11 |<span class='code'>&quot;rg16&quot;</span>              | 2 channel 16-bit normalized unsigned integer texture |
-|12 |<span class='code'>&quot;rg8&quot;</span>               | 2 channel 8-bit normalized unsigned integer texture |
-|13 |<span class='code'>&quot;r16&quot;</span>               | 1 channel 16-bit normalized unsigned integer texture |
-|14 |<span class='code'>&quot;r8&quot;</span>                | 1 channel 8-bit normalized unsigned integer texture |
-|15 |<span class='code'>&quot;rgba16_snorm&quot;</span>      | 4 channel 16-bit normalized signed integer texture |
-|16 |<span class='code'>&quot;rgba8_snorm&quot;</span>       | 4 channel 8-bit normalized signed integer texture |
-|17 |<span class='code'>&quot;rg16_snorm&quot;</span>        | 2 channel 16-bit normalized signed integer texture |
-|18 |<span class='code'>&quot;rg8_snorm&quot;</span>         | 2 channel 8-bit normalized signed integer texture |
-|19 |<span class='code'>&quot;r16_snorm&quot;</span>         | 1 channel 16-bit normalized signed integer texture |
-|20 |<span class='code'>&quot;r8_snorm&quot;</span>          | 1 channel 8-bit normalized signed integer texture |
-|21 |<span class='code'>&quot;rgba32i&quot;</span>           | 4 channel 32-bit signed integer texture |
-|22 |<span class='code'>&quot;rgba16i&quot;</span>           | 4 channel 16-bit signed integer texture |
-|23 |<span class='code'>&quot;rgba8i&quot;</span>            | 4 channel 8-bit signed integer texture |
-|24 |<span class='code'>&quot;rg32i&quot;</span>             | 2 channel 32-bit signed integer texture |
-|25 |<span class='code'>&quot;rg16i&quot;</span>             | 2 channel 16-bit signed integer texture |
-|26 |<span class='code'>&quot;rg8i&quot;</span>              | 2 channel 8-bit signed integer texture |
-|27 |<span class='code'>&quot;r32i&quot;</span>              | 1 channel 32-bit signed integer texture |
-|28 |<span class='code'>&quot;r16i&quot;</span>              | 1 channel 16-bit signed integer texture |
-|29 |<span class='code'>&quot;r8i&quot;</span>               | 1 channel 8-bit signed integer texture |
-|30 |<span class='code'>&quot;rgba32ui&quot;</span>          | 4 channel 32-bit unsigned integer texture |
-|31 |<span class='code'>&quot;rgba16ui&quot;</span>          | 4 channel 16-bit unsigned integer texture |
-|32 |<span class='code'>&quot;rgb10_a2ui&quot;</span>        | 4 channel 10/10/10/2-bit unsigned integer texture |
-|33 |<span class='code'>&quot;rgba8ui&quot;</span>           | 4 channel 8-bit unsigned integer texture |
-|34 |<span class='code'>&quot;rg32ui&quot;</span>            | 2 channel 32-bit unsigned integer texture |
-|35 |<span class='code'>&quot;rg16ui&quot;</span>            | 2 channel 16-bit unsigned integer texture |
-|36 |<span class='code'>&quot;rg8ui&quot;</span>             | 2 channel 8-bit unsigned integer texture |
-|37 |<span class='code'>&quot;r32ui&quot;</span>             | 1 channel 32-bit unsigned integer texture |
-|38 |<span class='code'>&quot;r16ui&quot;</span>             | 1 channel 16-bit unsigned integer texture |
-|39 |<span class='code'>&quot;r8ui&quot;</span>              | 1 channel 8-bit unsigned integer texture |
-|40 |<span class='code'>&quot;r64ui&quot;</span>             | 1 channel 64-bit unsigned integer texture |
-|41 |<span class='code'>&quot;r64i&quot;</span>              | 1 channel 64-bit signed integer texture |
+|1  |<span class='code'>rgba32f</span>           | 4 channel 32-bit floating point texture |
+|2  |<span class='code'>rgba16f</span>           | 4 channel 16-bit floating point texture |
+|3  |<span class='code'>rg32f</span>             | 2 channel 32-bit floating point texture |
+|4  |<span class='code'>rg16f</span>             | 2 channel 16-bit floating point texture |
+|5  |<span class='code'>r11f_g11f_b10f</span>    | 3 channel 11/11/10-bit floating point texture |
+|6  |<span class='code'>r32f</span>              | 1 channel 32-bit floating point texture |
+|7  |<span class='code'>r16f</span>              | 1 channel 16-bit floating point texture |
+|8  |<span class='code'>rgba16</span>            | 4 channel 16-bit normalized unsigned integer texture |
+|9  |<span class='code'>rgb10_a2</span>          | 4 channel 10/10/10/2-bit signed integer texture |
+|10 |<span class='code'>rgba8</span>             | 4 channel 8-bit normalized unsigned integer texture |
+|11 |<span class='code'>rg16</span>              | 2 channel 16-bit normalized unsigned integer texture |
+|12 |<span class='code'>rg8</span>               | 2 channel 8-bit normalized unsigned integer texture |
+|13 |<span class='code'>r16</span>               | 1 channel 16-bit normalized unsigned integer texture |
+|14 |<span class='code'>r8</span>                | 1 channel 8-bit normalized unsigned integer texture |
+|15 |<span class='code'>rgba16_snorm</span>      | 4 channel 16-bit normalized signed integer texture |
+|16 |<span class='code'>rgba8_snorm</span>       | 4 channel 8-bit normalized signed integer texture |
+|17 |<span class='code'>rg16_snorm</span>        | 2 channel 16-bit normalized signed integer texture |
+|18 |<span class='code'>rg8_snorm</span>         | 2 channel 8-bit normalized signed integer texture |
+|19 |<span class='code'>r16_snorm</span>         | 1 channel 16-bit normalized signed integer texture |
+|20 |<span class='code'>r8_snorm</span>          | 1 channel 8-bit normalized signed integer texture |
+|21 |<span class='code'>rgba32i</span>           | 4 channel 32-bit signed integer texture |
+|22 |<span class='code'>rgba16i</span>           | 4 channel 16-bit signed integer texture |
+|23 |<span class='code'>rgba8i</span>            | 4 channel 8-bit signed integer texture |
+|24 |<span class='code'>rg32i</span>             | 2 channel 32-bit signed integer texture |
+|25 |<span class='code'>rg16i</span>             | 2 channel 16-bit signed integer texture |
+|26 |<span class='code'>rg8i</span>              | 2 channel 8-bit signed integer texture |
+|27 |<span class='code'>r32i</span>              | 1 channel 32-bit signed integer texture |
+|28 |<span class='code'>r16i</span>              | 1 channel 16-bit signed integer texture |
+|29 |<span class='code'>r8i</span>               | 1 channel 8-bit signed integer texture |
+|30 |<span class='code'>rgba32ui</span>          | 4 channel 32-bit unsigned integer texture |
+|31 |<span class='code'>rgba16ui</span>          | 4 channel 16-bit unsigned integer texture |
+|32 |<span class='code'>rgb10_a2ui</span>        | 4 channel 10/10/10/2-bit unsigned integer texture |
+|33 |<span class='code'>rgba8ui</span>           | 4 channel 8-bit unsigned integer texture |
+|34 |<span class='code'>rg32ui</span>            | 2 channel 32-bit unsigned integer texture |
+|35 |<span class='code'>rg16ui</span>            | 2 channel 16-bit unsigned integer texture |
+|36 |<span class='code'>rg8ui</span>             | 2 channel 8-bit unsigned integer texture |
+|37 |<span class='code'>r32ui</span>             | 1 channel 32-bit unsigned integer texture |
+|38 |<span class='code'>r16ui</span>             | 1 channel 16-bit unsigned integer texture |
+|39 |<span class='code'>r8ui</span>              | 1 channel 8-bit unsigned integer texture |
+|40 |<span class='code'>r64ui</span>             | 1 channel 64-bit unsigned integer texture |
+|41 |<span class='code'>r64i</span>              | 1 channel 64-bit signed integer texture |
 
 ## See also
 
