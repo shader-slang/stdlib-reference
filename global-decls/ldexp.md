@@ -32,13 +32,13 @@ layout: stdlib-reference
     <a href="/stdlib-reference/global-decls/ldexp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/ldexp#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a> <a href="/stdlib-reference/global-decls/ldexp#decl-exp" class="code_param">exp</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ldexp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/ldexp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/ldexp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/ldexp">ldexp</a>&lt;<a href="/stdlib-reference/global-decls/ldexp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a>, <a href="/stdlib-reference/global-decls/ldexp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/ldexp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/ldexp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/ldexp#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a>, <a href="/stdlib-reference/global-decls/ldexp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/ldexp#decl-exp" class="code_param">exp</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ldexp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ldexp#typeparam-E" class="code_type">E</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -47,7 +47,7 @@ layout: stdlib-reference
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
-#### E: \_\_BuiltinIntegerType {#typeparam-E}
+#### E: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-E}
 
 ## Parameters
 

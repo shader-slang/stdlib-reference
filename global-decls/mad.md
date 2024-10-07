@@ -39,21 +39,21 @@ layout: stdlib-reference
     <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/mad#decl-mvalue" class="code_param">mvalue</a>,
     <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/mad#decl-avalue" class="code_param">avalue</a>,
     <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/mad#decl-bvalue" class="code_param">bvalue</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 2:
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/mad">mad</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/mad#decl-mvalue" class="code_param">mvalue</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/mad#decl-avalue" class="code_param">avalue</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/mad#decl-bvalue" class="code_param">bvalue</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 2:
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/mad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/mad">mad</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/mad#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/mad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/mad#decl-mvalue" class="code_param">mvalue</a>,
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/mad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/mad#decl-avalue" class="code_param">avalue</a>,
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/mad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/mad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/mad#decl-bvalue" class="code_param">bvalue</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/mad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -62,7 +62,7 @@ layout: stdlib-reference
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
-#### T: \_\_BuiltinIntegerType {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-T}
 
 ## Parameters
 

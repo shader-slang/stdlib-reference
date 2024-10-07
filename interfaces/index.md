@@ -24,6 +24,7 @@ Slang's Standard Library defines the following interfaces:
 - [IRangedValue](/stdlib-reference/interfaces/IRangedValue/index)
 - [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
 - [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+- [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index)
 - [\_\_BuiltinLogicalType](/stdlib-reference/interfaces/BuiltinLogicalType/index)
 - [\_\_ITextureShape](/stdlib-reference/interfaces/ITextureShape/index)
 - [\_\_ITextureShape1D2D3D](/stdlib-reference/interfaces/ITextureShape1D2D3D/index)

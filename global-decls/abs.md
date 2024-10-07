@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/abs">abs</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/abs#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/abs#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/abs">abs</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/abs#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/abs#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/abs#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/abs#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/abs#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/abs">abs</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/abs#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/abs#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/abs#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/abs#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/abs#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/abs">abs</a>&lt;<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/abs#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/abs#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
@@ -35,7 +35,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}

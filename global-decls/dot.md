@@ -26,7 +26,7 @@ layout: stdlib-reference
 <a href="/stdlib-reference/global-decls/dot#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/dot">dot</a>&lt;<a href="/stdlib-reference/global-decls/dot#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/dot#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/dot#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/dot#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/dot#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/dot#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/dot#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/dot#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/dot#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/dot#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -34,7 +34,7 @@ layout: stdlib-reference
 
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
-#### T: \_\_BuiltinIntegerType {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-T}
 
 ## Parameters
 

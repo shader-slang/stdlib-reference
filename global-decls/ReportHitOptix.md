@@ -17,13 +17,13 @@ layout: stdlib-reference
     <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-tHit" class="code_param">tHit</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-hitKind" class="code_param">hitKind</a>,
     <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/ReportHitOptix#decl-attribs" class="code_param">attribs</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/ReportHitOptix#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-T}
 
 ## Parameters
 

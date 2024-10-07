@@ -16,17 +16,17 @@ layout: stdlib-reference
 <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>&gt;(
     <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : __BuiltinIntegerType;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>&gt;(
     <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
@@ -47,7 +47,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 #### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
