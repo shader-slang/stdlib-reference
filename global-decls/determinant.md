@@ -13,8 +13,8 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/determinant">determinant</a>&lt;<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index">matrix</a>&lt;<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/determinant#decl-m" class="code_param">m</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/determinant">determinant</a>&lt;<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/determinant#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/determinant#decl-m" class="code_param">m</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/determinant#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 

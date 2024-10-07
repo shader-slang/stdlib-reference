@@ -18,7 +18,7 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/Atomic/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/Atomic/compareExchange#decl-newValue" class="code_param">newValue</a>,
     <a href="/stdlib-reference/types/MemoryOrder/index" class="code_type">MemoryOrder</a> <a href="/stdlib-reference/types/Atomic/compareExchange#decl-successOrder" class="code_param">successOrder</a>,
     <a href="/stdlib-reference/types/MemoryOrder/index" class="code_type">MemoryOrder</a> <a href="/stdlib-reference/types/Atomic/compareExchange#decl-failOrder" class="code_param">failOrder</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Atomic/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/IAtomicable/index">IAtomicable</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Atomic/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/IAtomicable/index" class="code_type">IAtomicable</a>;
 
 </pre>
 

@@ -18,7 +18,7 @@ layout: stdlib-reference
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/Texture/InterlockedAddF32#decl-value" class="code_param">value</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/types/Texture/InterlockedAddF32#decl-originalValue" class="code_param">originalValue</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index">__ITextureShape1D2D3D</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index" class="code_type">__ITextureShape1D2D3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
@@ -30,7 +30,7 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a>.dimensions&gt; <a href="/stdlib-reference/types/Texture/InterlockedAddF32#decl-coord" class="code_param">coord</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/Texture/InterlockedAddF32#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index">__ITextureShape1D2D3D</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/ITextureShape1D2D3D/index" class="code_type">__ITextureShape1D2D3D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/Texture/index#decl-sampleCount" class="code_var">sampleCount</a> == 0

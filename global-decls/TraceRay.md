@@ -14,13 +14,13 @@ layout: stdlib-reference
 
 <pre>
 <span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/TraceRay">TraceRay</a>&lt;<a href="/stdlib-reference/global-decls/TraceRay#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/global-decls/TraceRay#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <a href="/stdlib-reference/types/RaytracingAccelerationStructure/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/global-decls/TraceRay#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceRay#decl-RayFlags" class="code_param">RayFlags</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceRay#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceRay#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceRay#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/TraceRay#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="/stdlib-reference/types/RayDesc/index">RayDesc</a> <a href="/stdlib-reference/global-decls/TraceRay#decl-Ray" class="code_param">Ray</a>,
+    <a href="/stdlib-reference/types/RayDesc/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/global-decls/TraceRay#decl-Ray" class="code_param">Ray</a>,
     <span class="code_keyword">inout</span> <a href="/stdlib-reference/global-decls/TraceRay#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/global-decls/TraceRay#decl-Payload" class="code_param">Payload</a>);
 
 </pre>

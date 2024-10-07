@@ -17,7 +17,7 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/DifferentialPair/dmul#typeparam-U" class="code_type">U</a> <a href="/stdlib-reference/types/DifferentialPair/dmul#decl-a" class="code_param">a</a>,
     <a href="/stdlib-reference/types/DifferentialPair/index" class="code_type">DifferentialPair</a>&lt;<a href="/stdlib-reference/types/DifferentialPair/index#typeparam-T" class="code_type">T</a>.<a href="/stdlib-reference/types/DifferentialPair/Differential" class="code_type">Differential</a>&gt; <a href="/stdlib-reference/types/DifferentialPair/dmul#decl-b" class="code_param">b</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/DifferentialPair/dmul#typeparam-U" class="code_type">U</a> : __BuiltinRealType
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/DifferentialPair/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/IDifferentiable/index">IDifferentiable</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/DifferentialPair/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/IDifferentiable/index" class="code_type">IDifferentiable</a>;
 
 </pre>
 

@@ -146,6 +146,10 @@ Allowed <span class='code'>formatString</span> values are:
 |40 |<span class='code'>&quot;r64ui&quot;</span>             | 1 channel 64-bit unsigned integer texture |
 |41 |<span class='code'>&quot;r64i&quot;</span>              | 1 channel 64-bit signed integer texture |
 
+When targeting Vulkan, a combined-texture-sampler type (<span class='code'><a href="/stdlib-reference/types/Texture/index#decl-isCombined" class="code_var">isCombined</a>==1</span>) translates to a <span class='code'>OpTypeSampledImage</span> type in SPIR-V.
+For other targets, the combined-texture-sampler type is translated to a pair of a <span class='code'>Texture</span> and <span class='code'><a href="/stdlib-reference/types/SamplerState/index" class="code_type">SamplerState</a></span>.
+<span class='code'><a href="/stdlib-reference/types/Texture/index#decl-isShadow" class="code_var">isShadow</a></span> is only applicable to combined-texture-sampler types and must be <span class='code'>0</span> for non-combined texture types.
+
 ## See also
 
 <span class='code'><a href="/stdlib-reference/types/Texture1D" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2D" class="code_type">Texture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture3D" class="code_type">Texture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/TextureCube" class="code_type">TextureCube</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture1DArray" class="code_type">Texture1DArray</a></span>,

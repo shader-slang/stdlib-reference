@@ -15,7 +15,7 @@ layout: stdlib-reference
 <pre>
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reversebits">reversebits</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reversebits">reversebits</a>&lt;<a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reversebits">reversebits</a>&lt;<a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a>);
 
 </pre>
 
