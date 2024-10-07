@@ -15,7 +15,7 @@ An <span class='code'>N</span> component vector with elements of type <span clas
 
 ## Generic Parameters
 
-#### T
+#### T  = float
 #### N  : int =4
 
 ## Methods

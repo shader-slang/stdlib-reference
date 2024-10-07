@@ -41,11 +41,18 @@ built-in scalar types.
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: \_\_BuiltinType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinType
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### attribute  : T
 #### vertexIndex  : uint
 #### attribute  : [vector](/stdlib-reference/types/vector/index)\<T, N\>

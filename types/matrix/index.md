@@ -15,7 +15,7 @@ A matrix with <span class='code'>R</span> rows and <span class='code'>C</span> c
 
 ## Generic Parameters
 
-#### T
+#### T  = float
 #### R  : int =4
 #### C  : int =4
 #### L  : int =0

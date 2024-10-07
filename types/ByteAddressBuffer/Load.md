@@ -29,9 +29,12 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T
+
+## Parameters
+
 #### location  : int
 #### status  : uint
 #### alignment  : int

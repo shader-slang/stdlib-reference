@@ -33,11 +33,14 @@ uint16_t <a href="/stdlib-reference/global-decls/asuint16">asuint16</a>(<span cl
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### N  : int
 #### R  : int
 #### C  : int
+
+## Parameters
+
 #### value  : uint16\_t
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint16\_t, N\>
 #### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint16\_t, R, C\>

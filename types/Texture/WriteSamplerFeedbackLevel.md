@@ -45,9 +45,16 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### S
+
+## Generic Parameters
+
+#### S
+
+## Parameters
+
 #### tex  : [Texture2D](/stdlib-reference/types/Texture2D)\<S\>
 #### samp  : [SamplerState](/stdlib-reference/types/SamplerState/index)
 #### location  : [vector](/stdlib-reference/types/vector/index)\<float, 2\>

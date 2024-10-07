@@ -33,11 +33,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
+## Generic Parameters
+
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### min  : T
 #### max  : T
 #### x  : T

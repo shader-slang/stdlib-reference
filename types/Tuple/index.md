@@ -6,6 +6,10 @@ layout: stdlib-reference
 
 *Conditionally conforms to:* [IComparable](/stdlib-reference/interfaces/IComparable/index)
 
+## Generic Parameters
+
+#### T
+
 ## Methods
 
 * [init](/stdlib-reference/types/Tuple/init)

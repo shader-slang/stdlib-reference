@@ -21,9 +21,16 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### U: \_\_BuiltinRealType
+
+## Generic Parameters
+
+#### U: \_\_BuiltinRealType
+
 ## Parameters
 
-#### U
 #### a  : U
 #### b  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<T\.[Differential](/stdlib-reference/types/DifferentialPair/Differential)\>
 

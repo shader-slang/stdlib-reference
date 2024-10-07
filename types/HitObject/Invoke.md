@@ -22,9 +22,16 @@ shader is invoked.
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### payload\_t
+
+## Generic Parameters
+
+#### payload\_t
+
+## Parameters
+
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
 #### HitOrMiss  : [HitObject](/stdlib-reference/types/HitObject/index)
 #### Payload  : payload\_t

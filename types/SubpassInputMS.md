@@ -11,3 +11,8 @@ layout: stdlib-reference
     __SubpassImpl&lt;<span class="code_type">T</span>, isMS&gt;;
 </pre>
 
+## Generic Parameters
+
+#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\>
+#### isMS  : int =1
+

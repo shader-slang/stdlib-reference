@@ -11,3 +11,9 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, <a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a>, 0, 0, sampleCount, 0, 0, 1, format&gt;;
 </pre>
 
+## Generic Parameters
+
+#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\>
+#### sampleCount  : int =0
+#### format  : int =0
+

@@ -30,11 +30,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: \_\_BuiltinType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinType
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### value  : T
 #### lane  : int
 #### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>

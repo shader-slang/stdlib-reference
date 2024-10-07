@@ -17,8 +17,15 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T
+
+## Generic Parameters
+
+#### T
+
+## Parameters
+
 #### SLANG\_anonymous\_5  : T
 

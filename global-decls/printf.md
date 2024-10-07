@@ -116,7 +116,7 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T0
 #### T1
@@ -129,6 +129,9 @@ layout: stdlib-reference
 #### T8
 #### T9
 #### T10
+
+## Parameters
+
 #### format  : [NativeString](/stdlib-reference/types/NativeString/index)
 #### v0  : T0
 #### v1  : T1

@@ -116,13 +116,23 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
+
+## Generic Parameters
+
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
 #### N  : int
 #### M  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+#### T: \_\_BuiltinIntegerType
+#### T: [\_\_BuiltinLogicalType](/stdlib-reference/interfaces/BuiltinLogicalType/index)
 #### R  : int
 #### C  : int
+
+## Parameters
+
 #### x  : T
 #### y  : T
 #### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>

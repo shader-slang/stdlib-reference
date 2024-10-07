@@ -25,10 +25,17 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
+
+#### T
+
+## Generic Parameters
 
 #### T
 #### N  : int
+
+## Parameters
+
 #### condition  : bool
 #### ifTrue  : T
 #### ifFalse  : T

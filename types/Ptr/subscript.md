@@ -19,8 +19,15 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### TInt: \_\_BuiltinIntegerType
+
+## Generic Parameters
+
+#### TInt: \_\_BuiltinIntegerType
+
 ## Parameters
 
-#### TInt
 #### index  : TInt
 

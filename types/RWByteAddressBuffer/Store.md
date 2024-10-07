@@ -28,9 +28,12 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T
+
+## Parameters
+
 #### address  : uint
 #### value  : uint
 #### offset  : int

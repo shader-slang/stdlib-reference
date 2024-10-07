@@ -38,11 +38,14 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### N  : int
 #### R  : int
 #### C  : int
+
+## Parameters
+
 #### value  : half
 #### value  : [vector](/stdlib-reference/types/vector/index)\<half, N\>
 #### value  : [matrix](/stdlib-reference/types/matrix/index)\<half, R, C\>

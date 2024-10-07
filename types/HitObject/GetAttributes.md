@@ -18,6 +18,14 @@ attr_t <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitOb
 
 </pre>
 
+## Generic Parameters
+
+#### attr\_t
+
+## Generic Parameters
+
+#### attr\_t
+
 ## Availability and Requirements
 
 Defined for the following targets:

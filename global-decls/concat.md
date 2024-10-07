@@ -19,10 +19,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T
 #### U
+
+## Generic Parameters
+
+#### T
+#### U
+
+## Parameters
+
 #### t  : [Tuple](/stdlib-reference/types/Tuple/index)\<T\>
 #### u  : [Tuple](/stdlib-reference/types/Tuple/index)\<U\>
 

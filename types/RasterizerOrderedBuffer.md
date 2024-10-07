@@ -11,3 +11,8 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/RasterizerOrderedBuffer" class="code_type">RasterizerOrderedBuffer</a>&lt;<span class="code_type">T</span>&gt;;
 </pre>
 
+## Generic Parameters
+
+#### T
+#### format  : int =0
+

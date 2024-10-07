@@ -33,11 +33,18 @@ Addr&lt;<span class="code_type">T</span>&gt;.<a href="/stdlib-reference/types/Pt
 
 </pre>
 
-## Parameters
+## Generic Parameters
+
+#### U
+
+## Generic Parameters
 
 #### U
 #### T
 #### addrSpace  : uint64\_t
+
+## Parameters
+
 #### ptr  : Addr\<U\>
 #### val  : uint64\_t
 #### val  : int64\_t

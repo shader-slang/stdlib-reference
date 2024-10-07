@@ -33,11 +33,19 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: \_\_BuiltinIntegerType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinIntegerType
 #### N  : int
 #### M  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
+## Parameters
+
 #### x  : T
 #### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>

@@ -20,9 +20,16 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### A
+
+## Generic Parameters
+
+#### A
+
+## Parameters
+
 #### tHit  : float
 #### hitKind  : uint
 #### attributes  : A

@@ -19,9 +19,12 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### N  : int
+
+## Parameters
+
 #### x  : float
 #### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\>
 

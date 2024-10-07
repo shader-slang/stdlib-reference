@@ -57,11 +57,19 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
+## Generic Parameters
+
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
 #### N  : int
 #### M  : int
+#### T: \_\_BuiltinIntegerType
+
+## Parameters
+
 #### mvalue  : T
 #### avalue  : T
 #### bvalue  : T

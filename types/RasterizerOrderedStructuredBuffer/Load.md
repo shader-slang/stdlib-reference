@@ -26,9 +26,16 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### TIndex: \_\_BuiltinIntegerType
+
+## Generic Parameters
+
+#### TIndex: \_\_BuiltinIntegerType
+
 ## Parameters
 
-#### TIndex
 #### location  : TIndex
 #### status  : uint
 

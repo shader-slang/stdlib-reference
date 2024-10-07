@@ -24,11 +24,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: \_\_BuiltinSignedArithmeticType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinSignedArithmeticType
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### x  : T
 #### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>

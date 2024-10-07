@@ -27,11 +27,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: \_\_BuiltinType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinType
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### value  : T
 #### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 #### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>

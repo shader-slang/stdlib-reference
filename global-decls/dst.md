@@ -20,9 +20,16 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
+## Generic Parameters
+
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
 ## Parameters
 
-#### T
 #### x  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
 #### y  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
 

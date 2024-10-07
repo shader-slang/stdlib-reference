@@ -21,9 +21,16 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### T: \_\_BuiltinIntegerType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinIntegerType
+
 ## Parameters
 
-#### T
 #### tHit  : float
 #### hitKind  : uint
 #### attribs  : T

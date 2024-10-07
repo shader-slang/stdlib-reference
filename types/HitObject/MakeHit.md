@@ -42,9 +42,16 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### attr\_t
+
+## Generic Parameters
+
+#### attr\_t
+
+## Parameters
+
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
 #### InstanceIndex  : uint
 #### GeometryIndex  : uint

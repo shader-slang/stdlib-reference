@@ -23,9 +23,12 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### N  : int
+
+## Parameters
+
 #### value  : int
 #### value  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
 #### value  : uint

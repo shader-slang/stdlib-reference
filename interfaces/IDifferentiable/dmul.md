@@ -20,9 +20,16 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### T: \_\_BuiltinRealType
+
+## Generic Parameters
+
+#### T: \_\_BuiltinRealType
+
 ## Parameters
 
-#### T
 #### SLANG\_anonymous\_2  : T
 #### SLANG\_anonymous\_3  : This\.Differential
 

@@ -30,11 +30,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
-#### T
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
+
+## Generic Parameters
+
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### x  : T
 #### offset  : [vector](/stdlib-reference/types/vector/index)\<int, 2\>
 #### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>

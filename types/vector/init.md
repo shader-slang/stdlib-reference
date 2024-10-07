@@ -1182,9 +1182,12 @@ Initialize a vector where all elements have the same scalar <span class='code'>v
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### L  : int
+
+## Parameters
+
 #### value  : T
 #### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
 #### v  : int

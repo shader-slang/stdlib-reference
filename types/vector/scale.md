@@ -19,8 +19,15 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### T1: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
+## Generic Parameters
+
+#### T1: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+
 ## Parameters
 
-#### T1
 #### s  : T1
 

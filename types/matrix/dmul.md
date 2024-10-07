@@ -21,9 +21,16 @@ layout: stdlib-reference
 
 </pre>
 
+## Generic Parameters
+
+#### U: \_\_BuiltinRealType
+
+## Generic Parameters
+
+#### U: \_\_BuiltinRealType
+
 ## Parameters
 
-#### U
 #### a  : U
 #### b  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
 

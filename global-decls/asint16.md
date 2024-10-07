@@ -36,11 +36,14 @@ int16_t <a href="/stdlib-reference/global-decls/asint16">asint16</a>(<span class
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### N  : int
 #### R  : int
 #### C  : int
+
+## Parameters
+
 #### value  : int16\_t
 #### value  : [vector](/stdlib-reference/types/vector/index)\<int16\_t, N\>
 #### value  : [matrix](/stdlib-reference/types/matrix/index)\<int16\_t, R, C\>

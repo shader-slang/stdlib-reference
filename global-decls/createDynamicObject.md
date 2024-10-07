@@ -19,10 +19,18 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T
 #### U
+
+## Generic Parameters
+
+#### T
+#### U
+
+## Parameters
+
 #### typeId  : uint
 #### value  : U
 

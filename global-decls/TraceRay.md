@@ -25,9 +25,16 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### payload\_t
+
+## Generic Parameters
+
+#### payload\_t
+
+## Parameters
+
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
 #### RayFlags  : uint
 #### InstanceInclusionMask  : uint

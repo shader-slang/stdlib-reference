@@ -38,10 +38,13 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### N  : int
 #### M  : int
+
+## Parameters
+
 #### value  : double
 #### lowbits  : uint
 #### highbits  : uint

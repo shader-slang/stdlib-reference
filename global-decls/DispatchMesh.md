@@ -21,9 +21,16 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### P
+
+## Generic Parameters
+
+#### P
+
+## Parameters
+
 #### threadGroupCountX  : uint
 #### threadGroupCountY  : uint
 #### threadGroupCountZ  : uint

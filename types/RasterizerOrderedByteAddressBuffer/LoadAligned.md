@@ -18,9 +18,16 @@ layout: stdlib-reference
 
 </pre>
 
-## Parameters
+## Generic Parameters
 
 #### T
+
+## Generic Parameters
+
+#### T
+
+## Parameters
+
 #### location  : int
 
 ## Availability and Requirements
