@@ -12,6 +12,7 @@ layout: stdlib-reference
 __BuiltinArithmeticType
 __BuiltinLogicalType
 __BuiltinFloatingPointType
+__BuiltinIntegerType
 __ITextureShape
 __ITextureShape1D2D3D
 __Shape1D
