@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Inherits from:* \_\_BuiltinType, [IArithmetic](/stdlib-reference/interfaces/IArithmetic/index)
 
-## "Description
+## Description
 
 A type that can be used for arithmetic operations
 

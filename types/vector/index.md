@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 *Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/IFloat/index)
 
-## "Description
+## Description
 
 An <span class='code'>N</span> component vector with elements of type <span class='code'><span class="code_type">T</span></span>.
 

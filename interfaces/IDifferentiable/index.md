@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IDifferentiable
 
-## "Description
+## Description
 
 Interface to denote types as differentiable.
 Allows for user-specified differential types as

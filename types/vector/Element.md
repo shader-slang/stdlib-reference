@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # typealias vector\<T, N:int\>\.Element
 
-## "Description
+## Description
 
 The element type of the vector
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Inherits from:* \_\_BuiltinRealType, [IFloat](/stdlib-reference/interfaces/IFloat/index)
 
-## "Description
+## Description
 
 A type that uses a floating-point representation
 

@@ -8,7 +8,7 @@ layout: stdlib-reference
 > The feature described in this page is marked as an internal implementation detail, and is not intended for use by end-users.
 > Users are advised to avoid using this declaration directly, as it may be removed or changed in future releases.
 
-## "Description
+## Description
 
 A parameterized type that represents all flavors of texture types supported by the Slang language.
 Please note that this type is not intended to be used directly in user code, and not all combinations
@@ -19,7 +19,11 @@ This documentation is provided for reference purposes only.
 ## Generic Parameters
 
 #### T
+The element type of the texture. Must be a scalar or vector type.
+
 #### Shape: [\_\_ITextureShape](/stdlib-reference/interfaces/ITextureShape/index)
+The shape of the texture. Must be one of <span class='code'><a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a></span>, <span class='code'><a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a></span>.
+
 #### isArray  : int
 #### isMS  : int
 #### sampleCount  : int
@@ -72,7 +76,7 @@ This documentation is provided for reference purposes only.
 * [queryFootprintFineGradClamp](/stdlib-reference/types/Texture/queryFootprintFineGradClamp)
 * [InterlockedAddF32](/stdlib-reference/types/Texture/InterlockedAddF32)
 
-## "Remarks
+## Remarks
 
 
 HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a></span> type. Users
@@ -82,6 +86,7 @@ For read-write textures, Slang will automatically infer <span class='code'>forma
 To explicitly specify texel storage formats for read-write textures,
 use the <span class='code'>[format(...)]</span> attribute on the texture parameter declaration.
 Allowed <span class='code'>format</span> values are:
+
 |id | Format string        | Meaning           |
 |:--|:---------------------|:------------------|
 |1  |<span class='code'>rgba32f</span>           | 4 channel 32-bit floating point texture |
@@ -126,7 +131,7 @@ Allowed <span class='code'>format</span> values are:
 |40 |<span class='code'>r64ui</span>             | 1 channel 64-bit unsigned integer texture |
 |41 |<span class='code'>r64i</span>              | 1 channel 64-bit signed integer texture |
 
-## "See also
+## See also
 
 <span class='code'><a href="/stdlib-reference/types/Texture1D" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2D" class="code_type">Texture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture3D" class="code_type">Texture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/TextureCube" class="code_type">TextureCube</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture1DArray" class="code_type">Texture1DArray</a></span>,
 <span class='code'><a href="/stdlib-reference/types/Texture2DArray" class="code_type">Texture2DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/TextureCubeArray" class="code_type">TextureCubeArray</a></span>, <span class='code'><a href="/stdlib-reference/types/Sampler1D" class="code_type">Sampler1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Sampler2D" class="code_type">Sampler2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Sampler3D" class="code_type">Sampler3D</a></span>, <span class='code'><a href="/stdlib-reference/types/SamplerCube" class="code_type">SamplerCube</a></span>, <span class='code'><a href="/stdlib-reference/types/Sampler1DArray" class="code_type">Sampler1DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/Sampler2DArray" class="code_type">Sampler2DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/SamplerCubeArray" class="code_type">SamplerCubeArray</a></span>,

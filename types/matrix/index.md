@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 *Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/IFloat/index)
 
-## "Description
+## Description
 
 A matrix with <span class='code'>R</span> rows and <span class='code'>C</span> columns, with elements of type <span class='code'><a href="/stdlib-reference/types/matrix/T" class="code_type">T</a></span>.
 
