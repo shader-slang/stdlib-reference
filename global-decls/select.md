@@ -27,19 +27,19 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Generic Parameters
 
-#### T
-#### N  : int
+#### T {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Parameters
 
-#### condition  : bool
-#### ifTrue  : T
-#### ifFalse  : T
-#### condition  : [vector](/stdlib-reference/types/vector/index)\<bool, N\>
-#### ifTrue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### ifFalse  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### condition  : bool {#decl-condition}
+#### ifTrue  : T {#decl-ifTrue}
+#### ifFalse  : T {#decl-ifFalse}
+#### condition  : [vector](/stdlib-reference/types/vector/index)\<bool, N\> {#decl-condition}
+#### ifTrue  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-ifTrue}
+#### ifFalse  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-ifFalse}
 

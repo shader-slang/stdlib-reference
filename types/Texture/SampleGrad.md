@@ -80,12 +80,12 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\>
-#### gradX  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\>
-#### gradY  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\>
-#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.dimensions\>
-#### lodClamp  : float
-#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\> {#decl-location}
+#### gradX  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\> {#decl-gradX}
+#### gradY  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\> {#decl-gradY}
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.dimensions\> {#decl-offset}
+#### lodClamp  : float {#decl-lodClamp}
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index) {#decl-s}
 
 ## Availability and Requirements
 

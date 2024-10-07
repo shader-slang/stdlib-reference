@@ -24,17 +24,17 @@ shader is invoked.
 
 ## Generic Parameters
 
-#### payload\_t
+#### payload\_t {#typeparam-payload_t}
 
 ## Generic Parameters
 
-#### payload\_t
+#### payload\_t {#typeparam-payload_t}
 
 ## Parameters
 
-#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
-#### HitOrMiss  : [HitObject](/stdlib-reference/types/HitObject/index)
-#### Payload  : payload\_t
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-AccelerationStructure}
+#### HitOrMiss  : [HitObject](/stdlib-reference/types/HitObject/index) {#decl-HitOrMiss}
+#### Payload  : payload\_t {#decl-Payload}
 
 ## Availability and Requirements
 

@@ -75,20 +75,20 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### S
+#### S {#typeparam-S}
 
 ## Generic Parameters
 
-#### S
+#### S {#typeparam-S}
 
 ## Parameters
 
-#### tex  : [Texture2D](/stdlib-reference/types/Texture2D)\<S\>
-#### samp  : [SamplerState](/stdlib-reference/types/SamplerState/index)
-#### location  : [vector](/stdlib-reference/types/vector/index)\<float, 2\>
-#### clamp  : float
-#### texArray  : [Texture2DArray](/stdlib-reference/types/Texture2DArray)\<S\>
-#### location  : [vector](/stdlib-reference/types/vector/index)\<float, 3\>
+#### tex  : [Texture2D](/stdlib-reference/types/Texture2D)\<S\> {#decl-tex}
+#### samp  : [SamplerState](/stdlib-reference/types/SamplerState/index) {#decl-samp}
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, 2\> {#decl-location}
+#### clamp  : float {#decl-clamp}
+#### texArray  : [Texture2DArray](/stdlib-reference/types/Texture2DArray)\<S\> {#decl-texArray}
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, 3\> {#decl-location}
 
 ## Availability and Requirements
 

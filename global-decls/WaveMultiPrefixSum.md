@@ -32,20 +32,20 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index) {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index)
-#### N  : int
-#### M  : int
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/BuiltinArithmeticType/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-#### value  : T
-#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
-#### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### value  : T {#decl-value}
+#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-mask}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-value}
 
 ## Availability and Requirements
 

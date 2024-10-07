@@ -21,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### SLANG\_anonymous\_0  : This\.Differential
-#### SLANG\_anonymous\_1  : This\.Differential
+#### SLANG\_anonymous\_0  : This\.Differential {#decl-SLANG_anonymous_0}
+#### SLANG\_anonymous\_1  : This\.Differential {#decl-SLANG_anonymous_1}
 

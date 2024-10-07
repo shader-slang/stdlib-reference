@@ -51,22 +51,22 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest  : int64\_t
-#### compare\_value  : int64\_t
-#### value  : int64\_t
-#### original\_value  : int64\_t
-#### dest  : uint64\_t
-#### compare\_value  : uint64\_t
-#### value  : uint64\_t
-#### original\_value  : uint64\_t
-#### dest  : int
-#### compare\_value  : int
-#### value  : int
-#### original\_value  : int
-#### dest  : uint
-#### compare\_value  : uint
-#### value  : uint
-#### original\_value  : uint
+#### dest  : int64\_t {#decl-dest}
+#### compare\_value  : int64\_t {#decl-compare_value}
+#### value  : int64\_t {#decl-value}
+#### original\_value  : int64\_t {#decl-original_value}
+#### dest  : uint64\_t {#decl-dest}
+#### compare\_value  : uint64\_t {#decl-compare_value}
+#### value  : uint64\_t {#decl-value}
+#### original\_value  : uint64\_t {#decl-original_value}
+#### dest  : int {#decl-dest}
+#### compare\_value  : int {#decl-compare_value}
+#### value  : int {#decl-value}
+#### original\_value  : int {#decl-original_value}
+#### dest  : uint {#decl-dest}
+#### compare\_value  : uint {#decl-compare_value}
+#### value  : uint {#decl-value}
+#### original\_value  : uint {#decl-original_value}
 
 ## Availability and Requirements
 

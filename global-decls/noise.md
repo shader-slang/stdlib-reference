@@ -21,10 +21,10 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### N  : int
+#### N  : int {#decl-N}
 
 ## Parameters
 
-#### x  : float
-#### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\>
+#### x  : float {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\> {#decl-x}
 

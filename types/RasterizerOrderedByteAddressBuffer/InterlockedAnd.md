@@ -26,9 +26,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest  : uint
-#### value  : uint
-#### original\_value  : uint
+#### dest  : uint {#decl-dest}
+#### value  : uint {#decl-value}
+#### original\_value  : uint {#decl-original_value}
 
 ## Availability and Requirements
 

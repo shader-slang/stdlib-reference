@@ -23,14 +23,14 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### U: \_\_BuiltinRealType
+#### U: \_\_BuiltinRealType {#typeparam-U}
 
 ## Generic Parameters
 
-#### U: \_\_BuiltinRealType
+#### U: \_\_BuiltinRealType {#typeparam-U}
 
 ## Parameters
 
-#### a  : U
-#### b  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<T\.[Differential](/stdlib-reference/types/DifferentialPair/Differential)\>
+#### a  : U {#decl-a}
+#### b  : [DifferentialPair](/stdlib-reference/types/DifferentialPair/index)\<T\.[Differential](/stdlib-reference/types/DifferentialPair/Differential)\> {#decl-b}
 

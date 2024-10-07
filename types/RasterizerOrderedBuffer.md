@@ -13,6 +13,6 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
-#### format  : int =0
+#### T {#typeparam-T}
+#### format  : int = 0 {#decl-format}
 

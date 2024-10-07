@@ -20,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location  : int
+#### location  : int {#decl-location}
 
 ## Availability and Requirements
 

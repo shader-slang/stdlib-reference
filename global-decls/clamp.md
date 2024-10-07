@@ -53,26 +53,26 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType
+#### T: \_\_BuiltinIntegerType {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType
-#### N  : int
-#### M  : int
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+#### T: \_\_BuiltinIntegerType {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 
 ## Parameters
 
-#### x  : T
-#### minBound  : T
-#### maxBound  : T
-#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### minBound  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### maxBound  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
-#### minBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
-#### maxBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### x  : T {#decl-x}
+#### minBound  : T {#decl-minBound}
+#### maxBound  : T {#decl-maxBound}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-x}
+#### minBound  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-minBound}
+#### maxBound  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-maxBound}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-x}
+#### minBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-minBound}
+#### maxBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-maxBound}
 
 ## Availability and Requirements
 

@@ -32,23 +32,23 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
-#### N  : int
-#### M  : int
-#### L  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
+#### L  : int {#decl-L}
 
 ## Parameters
 
-#### x  : T
-#### exp  : int
-#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### exp  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
-#### exp  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\>
+#### x  : T {#decl-x}
+#### exp  : int {#decl-exp}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-x}
+#### exp  : [vector](/stdlib-reference/types/vector/index)\<int, N\> {#decl-exp}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-x}
+#### exp  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\> {#decl-exp}
 
 ## Availability and Requirements
 

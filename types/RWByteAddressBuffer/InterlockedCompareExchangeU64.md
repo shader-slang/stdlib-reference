@@ -23,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress  : uint
-#### compareValue  : uint64\_t
-#### value  : uint64\_t
-#### outOriginalValue  : uint64\_t
+#### byteAddress  : uint {#decl-byteAddress}
+#### compareValue  : uint64\_t {#decl-compareValue}
+#### value  : uint64\_t {#decl-value}
+#### outOriginalValue  : uint64\_t {#decl-outOriginalValue}
 
 ## Availability and Requirements
 

@@ -22,5 +22,5 @@ TR <a href="/stdlib-reference/interfaces/IDifferentiableFunc/index" class="code_
 
 ## Parameters
 
-#### p  : TP
+#### p  : TP {#decl-p}
 

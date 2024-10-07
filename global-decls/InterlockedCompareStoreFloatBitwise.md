@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest  : float
-#### compare\_value  : float
-#### value  : float
+#### dest  : float {#decl-dest}
+#### compare\_value  : float {#decl-compare_value}
+#### value  : float {#decl-value}
 

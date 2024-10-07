@@ -24,8 +24,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### compareValue  : T
-#### newValue  : T
-#### successOrder  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)\.Relaxed
-#### failOrder  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)\.Relaxed
+#### compareValue  : T {#decl-compareValue}
+#### newValue  : T {#decl-newValue}
+#### successOrder  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)\.Relaxed {#decl-successOrder}
+#### failOrder  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)\.Relaxed {#decl-failOrder}
 

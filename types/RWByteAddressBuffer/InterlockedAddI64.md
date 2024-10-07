@@ -26,9 +26,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress  : uint
-#### valueToAdd  : int64\_t
-#### originalValue  : int64\_t
+#### byteAddress  : uint {#decl-byteAddress}
+#### valueToAdd  : int64\_t {#decl-valueToAdd}
+#### originalValue  : int64\_t {#decl-originalValue}
 
 ## Availability and Requirements
 

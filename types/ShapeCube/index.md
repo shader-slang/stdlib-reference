@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Fields
 
-#### [dimensions](/stdlib-reference/types/ShapeCube/dimensions) : int =3
-#### [flavor](/stdlib-reference/types/ShapeCube/flavor) : int =4
-#### [planeDimensions](/stdlib-reference/types/ShapeCube/planeDimensions) : int =2
+#### [dimensions](/stdlib-reference/types/ShapeCube/dimensions) : int = 3 {#decl-dimensions}
+#### [flavor](/stdlib-reference/types/ShapeCube/flavor) : int = 4 {#decl-flavor}
+#### [planeDimensions](/stdlib-reference/types/ShapeCube/planeDimensions) : int = 2 {#decl-planeDimensions}
 

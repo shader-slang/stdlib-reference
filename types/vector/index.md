@@ -15,8 +15,8 @@ An <span class='code'>N</span> component vector with elements of type <span clas
 
 ## Generic Parameters
 
-#### T  = float
-#### N  : int =4
+#### T  = float {#typeparam-T}
+#### N  : int = 4 {#decl-N}
 
 ## Methods
 

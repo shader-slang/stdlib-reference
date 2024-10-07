@@ -21,16 +21,16 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### Payload
+#### Payload {#typeparam-Payload}
 
 ## Generic Parameters
 
-#### Payload
+#### Payload {#typeparam-Payload}
 
 ## Parameters
 
-#### shaderIndex  : uint
-#### payload  : Payload
+#### shaderIndex  : uint {#decl-shaderIndex}
+#### payload  : Payload {#decl-payload}
 
 ## Availability and Requirements
 

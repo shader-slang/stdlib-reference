@@ -22,9 +22,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### reference  : uint
-#### source  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\>
-#### accum  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
+#### reference  : uint {#decl-reference}
+#### source  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-source}
+#### accum  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-accum}
 
 ## Availability and Requirements
 

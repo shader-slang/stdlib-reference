@@ -43,20 +43,20 @@ built-in scalar types.
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinType
+#### T: \_\_BuiltinType {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinType
-#### N  : int
-#### M  : int
+#### T: \_\_BuiltinType {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-#### attribute  : T
-#### vertexIndex  : uint
-#### attribute  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### attribute  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### attribute  : T {#decl-attribute}
+#### vertexIndex  : uint {#decl-vertexIndex}
+#### attribute  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-attribute}
+#### attribute  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-attribute}
 
 ## Availability and Requirements
 

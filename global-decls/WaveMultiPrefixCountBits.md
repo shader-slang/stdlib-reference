@@ -21,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value  : bool
-#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
+#### value  : bool {#decl-value}
+#### mask  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-mask}
 
 ## Availability and Requirements
 

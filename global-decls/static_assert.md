@@ -21,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### condition  : bool
-#### errorMessage  : [NativeString](/stdlib-reference/types/NativeString/index)
+#### condition  : bool {#decl-condition}
+#### errorMessage  : [NativeString](/stdlib-reference/types/NativeString/index) {#decl-errorMessage}
 

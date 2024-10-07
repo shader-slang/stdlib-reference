@@ -22,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value  : T
-#### order  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)\.Relaxed
+#### value  : T {#decl-value}
+#### order  : [MemoryOrder](/stdlib-reference/types/MemoryOrder/index) = [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)\.Relaxed {#decl-order}
 

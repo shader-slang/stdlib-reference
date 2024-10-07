@@ -13,6 +13,6 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\>
-#### isMS  : int =1
+#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\> {#typeparam-T}
+#### isMS  : int = 1 {#decl-isMS}
 

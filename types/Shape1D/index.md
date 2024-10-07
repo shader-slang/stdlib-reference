@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Fields
 
-#### [dimensions](/stdlib-reference/types/Shape1D/dimensions) : int =1
-#### [flavor](/stdlib-reference/types/Shape1D/flavor) : int =1
-#### [planeDimensions](/stdlib-reference/types/Shape1D/planeDimensions) : int =1
+#### [dimensions](/stdlib-reference/types/Shape1D/dimensions) : int = 1 {#decl-dimensions}
+#### [flavor](/stdlib-reference/types/Shape1D/flavor) : int = 1 {#decl-flavor}
+#### [planeDimensions](/stdlib-reference/types/Shape1D/planeDimensions) : int = 1 {#decl-planeDimensions}
 

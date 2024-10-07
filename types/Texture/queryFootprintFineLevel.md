@@ -34,8 +34,8 @@ t.SampleLevel(sampler, coords, lod);
 
 ## Parameters
 
-#### granularity  : uint
-#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index)
-#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\>
-#### lod  : float
+#### granularity  : uint {#decl-granularity}
+#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index) {#decl-sampler}
+#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\> {#decl-coords}
+#### lod  : float {#decl-lod}
 

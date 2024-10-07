@@ -30,15 +30,15 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Parameters
 
-#### address  : uint
-#### value  : uint
-#### offset  : int
-#### value  : T
-#### alignment  : uint
+#### address  : uint {#decl-address}
+#### value  : uint {#decl-value}
+#### offset  : int {#decl-offset}
+#### value  : T {#decl-value}
+#### alignment  : uint {#decl-alignment}
 
 ## Availability and Requirements
 

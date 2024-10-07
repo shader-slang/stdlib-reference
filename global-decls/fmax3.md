@@ -29,21 +29,21 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
-#### N  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Parameters
 
-#### x  : T
-#### y  : T
-#### z  : T
-#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### z  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### x  : T {#decl-x}
+#### y  : T {#decl-y}
+#### z  : T {#decl-z}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-x}
+#### y  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-y}
+#### z  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-z}
 
 ## Availability and Requirements
 

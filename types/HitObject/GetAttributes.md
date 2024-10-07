@@ -20,11 +20,11 @@ attr_t <a href="/stdlib-reference/types/HitObject/index" class="code_type">HitOb
 
 ## Generic Parameters
 
-#### attr\_t
+#### attr\_t {#typeparam-attr_t}
 
 ## Generic Parameters
 
-#### attr\_t
+#### attr\_t {#typeparam-attr_t}
 
 ## Availability and Requirements
 

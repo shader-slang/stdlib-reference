@@ -59,26 +59,26 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
-#### N  : int
-#### M  : int
-#### T: \_\_BuiltinIntegerType
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
+#### T: \_\_BuiltinIntegerType {#typeparam-T}
 
 ## Parameters
 
-#### mvalue  : T
-#### avalue  : T
-#### bvalue  : T
-#### mvalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### avalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### bvalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### mvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
-#### avalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
-#### bvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### mvalue  : T {#decl-mvalue}
+#### avalue  : T {#decl-avalue}
+#### bvalue  : T {#decl-bvalue}
+#### mvalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-mvalue}
+#### avalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-avalue}
+#### bvalue  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-bvalue}
+#### mvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-mvalue}
+#### avalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-avalue}
+#### bvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-bvalue}
 
 ## Availability and Requirements
 

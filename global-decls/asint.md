@@ -41,20 +41,20 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### N  : int
-#### M  : int
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-#### x  : float
-#### x  : uint
-#### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\>
-#### x  : [vector](/stdlib-reference/types/vector/index)\<uint, N\>
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<float, N, M\>
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<uint, N, M\>
-#### x  : int
-#### x  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\>
+#### x  : float {#decl-x}
+#### x  : uint {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<float, N\> {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<uint, N\> {#decl-x}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<float, N, M\> {#decl-x}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<uint, N, M\> {#decl-x}
+#### x  : int {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<int, N\> {#decl-x}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<int, N, M\> {#decl-x}
 
 ## Availability and Requirements
 

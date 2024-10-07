@@ -24,11 +24,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### RawEdgeFactors  : [vector](/stdlib-reference/types/vector/index)\<float, 3\>
-#### InsideScale  : float
-#### RoundedEdgeTessFactors  : [vector](/stdlib-reference/types/vector/index)\<float, 3\>
-#### RoundedInsideTessFactors  : float
-#### UnroundedInsideTessFactors  : float
+#### RawEdgeFactors  : [vector](/stdlib-reference/types/vector/index)\<float, 3\> {#decl-RawEdgeFactors}
+#### InsideScale  : float {#decl-InsideScale}
+#### RoundedEdgeTessFactors  : [vector](/stdlib-reference/types/vector/index)\<float, 3\> {#decl-RoundedEdgeTessFactors}
+#### RoundedInsideTessFactors  : float {#decl-RoundedInsideTessFactors}
+#### UnroundedInsideTessFactors  : float {#decl-UnroundedInsideTessFactors}
 
 ## Availability and Requirements
 

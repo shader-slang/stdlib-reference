@@ -8,8 +8,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### TR: [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index)
-#### TP: [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index)
+#### TR: [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index) {#typeparam-TR}
+#### TP: [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index) {#typeparam-TP}
 
 ## Methods
 

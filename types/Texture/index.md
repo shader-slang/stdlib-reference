@@ -16,33 +16,34 @@ of the generic arguments are valid.
 Instead, use the specific texture types such as <span class='code'><a href="/stdlib-reference/types/Texture1D" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Texture2DArray" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="/stdlib-reference/types/Sampler2D" class="code_type">Sampler2D</a></span> etc.
 This documentation is provided for reference purposes only.
 
+
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 The element type of the texture. Must be a scalar or vector type.
 
-#### Shape: [\_\_ITextureShape](/stdlib-reference/interfaces/ITextureShape/index)
+#### Shape: [\_\_ITextureShape](/stdlib-reference/interfaces/ITextureShape/index) {#typeparam-Shape}
 The shape of the texture. Must be one of <span class='code'><a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a></span>, <span class='code'><a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a></span>.
 
-#### isArray  : int
+#### isArray  : int {#decl-isArray}
 Indicates whether the texture is an array texture.
 
-#### isMS  : int
+#### isMS  : int {#decl-isMS}
 Indicates whether the texture is a multisampled texture.
 
-#### sampleCount  : int
+#### sampleCount  : int {#decl-sampleCount}
 The number of samples of a multisampled texture.
 
-#### access  : int
+#### access  : int {#decl-access}
 The access mode of the texture. 0 for read-only, 1 for read-write, 2 for rasterizer-ordered, 3 for feedback.
 
-#### isShadow  : int
+#### isShadow  : int {#decl-isShadow}
 Indicates whether the texture is a shadow texture (for combined texture-sampler only).
 
-#### isCombined  : int
+#### isCombined  : int {#decl-isCombined}
 Indicates whether the texture is a combined texture-sampler.
 
-#### format  : int
+#### format  : int {#decl-format}
 The storage format of the texture. Users should specify the format using an <span class='code'>[format(&quot;...&quot;)]</span> attribute instead.
 
 

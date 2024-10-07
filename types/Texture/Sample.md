@@ -88,21 +88,21 @@ Samples the texture at the given location.
 
 ## Parameters
 
-#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\>
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\> {#decl-location}
 The location to sample the texture at.
 
-#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\>
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\> {#decl-offset}
 Texel offset to apply.
 
-#### clamp  : float
+#### clamp  : float {#decl-clamp}
 The max level of detail to use.
 
-#### status  : uint
+#### status  : uint {#decl-status}
 \[out\] The result status of the operation.
 This parameter is currently only used when targeting HLSL.
 For other targets, the result status is always 0.
 
-#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index) {#decl-s}
 The <span class='code'><a href="/stdlib-reference/types/SamplerState/index" class="code_type">SamplerState</a></span> to use for the sampling operation. This parameter is omitted when <span class='code'>this</span> is a combined texture sampler type (<span class='code'>isCombined==0</span>).
 
 

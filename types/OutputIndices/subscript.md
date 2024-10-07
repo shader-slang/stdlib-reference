@@ -20,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### index  : uint
+#### index  : uint {#decl-index}
 

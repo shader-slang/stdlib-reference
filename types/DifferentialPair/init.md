@@ -22,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### \_primal  : T
-#### \_differential  : T\.[Differential](/stdlib-reference/types/DifferentialPair/Differential)
+#### \_primal  : T {#decl-_primal}
+#### \_differential  : T\.[Differential](/stdlib-reference/types/DifferentialPair/Differential) {#decl-_differential}
 

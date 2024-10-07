@@ -20,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### other  : [Tuple](/stdlib-reference/types/Tuple/index)\<T\>
+#### other  : [Tuple](/stdlib-reference/types/Tuple/index)\<T\> {#decl-other}
 

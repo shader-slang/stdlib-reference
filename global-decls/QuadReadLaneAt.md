@@ -32,20 +32,20 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinType
+#### T: \_\_BuiltinType {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinType
-#### N  : int
-#### M  : int
+#### T: \_\_BuiltinType {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-#### sourceValue  : T
-#### quadLaneID  : uint
-#### sourceValue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### sourceValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### sourceValue  : T {#decl-sourceValue}
+#### quadLaneID  : uint {#decl-quadLaneID}
+#### sourceValue  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-sourceValue}
+#### sourceValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-sourceValue}
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Properties
 
-#### [length](/stdlib-reference/types/String/length)
+#### [length](/stdlib-reference/types/String/length) {#decl-length}
 
 ## Methods
 

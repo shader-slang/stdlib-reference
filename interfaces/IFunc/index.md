@@ -8,8 +8,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### TR
-#### TP
+#### TR {#typeparam-TR}
+#### TP {#typeparam-TP}
 
 ## Methods
 

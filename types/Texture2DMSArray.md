@@ -13,7 +13,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\>
-#### sampleCount  : int =0
-#### format  : int =0
+#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\> {#typeparam-T}
+#### sampleCount  : int = 0 {#decl-sampleCount}
+#### format  : int = 0 {#decl-format}
 

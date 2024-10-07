@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
-#### MAX\_VERTS  : uint
+#### T {#typeparam-T}
+#### MAX\_VERTS  : uint {#decl-MAX_VERTS}
 
 ## Methods
 

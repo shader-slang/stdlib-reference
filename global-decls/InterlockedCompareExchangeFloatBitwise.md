@@ -28,8 +28,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest  : float
-#### compare\_value  : float
-#### value  : float
-#### original\_value  : float
+#### dest  : float {#decl-dest}
+#### compare\_value  : float {#decl-compare_value}
+#### value  : float {#decl-value}
+#### original\_value  : float {#decl-original_value}
 

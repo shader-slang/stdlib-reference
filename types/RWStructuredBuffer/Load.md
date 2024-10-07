@@ -27,14 +27,14 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### TIndex: \_\_BuiltinIntegerType
+#### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
 
 ## Generic Parameters
 
-#### TIndex: \_\_BuiltinIntegerType
+#### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
 
 ## Parameters
 
-#### location  : TIndex
-#### status  : uint
+#### location  : TIndex {#decl-location}
+#### status  : uint {#decl-status}
 

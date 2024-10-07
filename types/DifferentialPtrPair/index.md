@@ -8,13 +8,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [IDifferentiablePtrType](/stdlib-reference/interfaces/IDifferentiablePtrType/index)
+#### T: [IDifferentiablePtrType](/stdlib-reference/interfaces/IDifferentiablePtrType/index) {#typeparam-T}
 
 ## Properties
 
-#### [d](/stdlib-reference/types/DifferentialPtrPair/d)
-#### [p](/stdlib-reference/types/DifferentialPtrPair/p)
-#### [v](/stdlib-reference/types/DifferentialPtrPair/v)
+#### [d](/stdlib-reference/types/DifferentialPtrPair/d) {#decl-d}
+#### [p](/stdlib-reference/types/DifferentialPtrPair/p) {#decl-p}
+#### [v](/stdlib-reference/types/DifferentialPtrPair/v) {#decl-v}
 
 ## Methods
 

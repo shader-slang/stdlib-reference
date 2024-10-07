@@ -31,9 +31,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location  : int
-#### alignment  : int
-#### status  : uint
+#### location  : int {#decl-location}
+#### alignment  : int {#decl-alignment}
+#### status  : uint {#decl-status}
 
 ## Availability and Requirements
 

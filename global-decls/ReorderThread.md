@@ -35,9 +35,9 @@ Where possible, reordering will also attempt to retain locality in the thread429
 
 ## Parameters
 
-#### CoherenceHint  : uint
-#### NumCoherenceHintBitsFromLSB  : uint
-#### HitOrMiss  : [HitObject](/stdlib-reference/types/HitObject/index)
+#### CoherenceHint  : uint {#decl-CoherenceHint}
+#### NumCoherenceHintBitsFromLSB  : uint {#decl-NumCoherenceHintBitsFromLSB}
+#### HitOrMiss  : [HitObject](/stdlib-reference/types/HitObject/index) {#decl-HitOrMiss}
 
 ## Availability and Requirements
 

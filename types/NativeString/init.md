@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### value  : [String](/stdlib-reference/types/String/index)
+#### value  : [String](/stdlib-reference/types/String/index) {#decl-value}
 

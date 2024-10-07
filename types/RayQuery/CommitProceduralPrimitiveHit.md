@@ -20,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### t  : float
+#### t  : float {#decl-t}
 
 ## Availability and Requirements
 

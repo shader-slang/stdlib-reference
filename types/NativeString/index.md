@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Properties
 
-#### [length](/stdlib-reference/types/NativeString/length)
+#### [length](/stdlib-reference/types/NativeString/length) {#decl-length}
 
 ## Methods
 

@@ -15,10 +15,10 @@ A matrix with <span class='code'>R</span> rows and <span class='code'>C</span> c
 
 ## Generic Parameters
 
-#### T  = float
-#### R  : int =4
-#### C  : int =4
-#### L  : int =0
+#### T  = float {#typeparam-T}
+#### R  : int = 4 {#decl-R}
+#### C  : int = 4 {#decl-C}
+#### L  : int = 0 {#decl-L}
 
 ## Methods
 

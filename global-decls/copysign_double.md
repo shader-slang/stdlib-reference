@@ -21,16 +21,16 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### N  : int
+#### N  : int {#decl-N}
 
 ## Generic Parameters
 
-#### N  : int
+#### N  : int {#decl-N}
 
 ## Parameters
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<double, N\>
-#### y  : [vector](/stdlib-reference/types/vector/index)\<double, N\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<double, N\> {#decl-x}
+#### y  : [vector](/stdlib-reference/types/vector/index)\<double, N\> {#decl-y}
 
 ## Availability and Requirements
 

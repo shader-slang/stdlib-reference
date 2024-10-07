@@ -22,17 +22,17 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### A
+#### A {#typeparam-A}
 
 ## Generic Parameters
 
-#### A
+#### A {#typeparam-A}
 
 ## Parameters
 
-#### tHit  : float
-#### hitKind  : uint
-#### attributes  : A
+#### tHit  : float {#decl-tHit}
+#### hitKind  : uint {#decl-hitKind}
+#### attributes  : A {#decl-attributes}
 
 ## Availability and Requirements
 

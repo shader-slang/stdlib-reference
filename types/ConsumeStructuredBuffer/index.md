@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
-#### L: [IBufferDataLayout](/stdlib-reference/interfaces/IBufferDataLayout/index) = [DefaultDataLayout](/stdlib-reference/types/DefaultDataLayout/index)
+#### T {#typeparam-T}
+#### L: [IBufferDataLayout](/stdlib-reference/interfaces/IBufferDataLayout/index) = [DefaultDataLayout](/stdlib-reference/types/DefaultDataLayout/index) {#typeparam-L}
 
 ## Methods
 

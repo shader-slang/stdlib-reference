@@ -44,25 +44,25 @@ Currently only supported on VK
 
 ## Generic Parameters
 
-#### attr\_t
+#### attr\_t {#typeparam-attr_t}
 
 ## Generic Parameters
 
-#### attr\_t
+#### attr\_t {#typeparam-attr_t}
 
 ## Parameters
 
-#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
-#### InstanceIndex  : uint
-#### GeometryIndex  : uint
-#### PrimitiveIndex  : uint
-#### HitKind  : uint
-#### RayContributionToHitGroupIndex  : uint
-#### MultiplierForGeometryContributionToHitGroupIndex  : uint
-#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
-#### CurrentTime  : float
-#### attributes  : attr\_t
-#### HitGroupRecordIndex  : uint
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-AccelerationStructure}
+#### InstanceIndex  : uint {#decl-InstanceIndex}
+#### GeometryIndex  : uint {#decl-GeometryIndex}
+#### PrimitiveIndex  : uint {#decl-PrimitiveIndex}
+#### HitKind  : uint {#decl-HitKind}
+#### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
+#### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
+#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index) {#decl-Ray}
+#### CurrentTime  : float {#decl-CurrentTime}
+#### attributes  : attr\_t {#decl-attributes}
+#### HitGroupRecordIndex  : uint {#decl-HitGroupRecordIndex}
 
 ## Availability and Requirements
 

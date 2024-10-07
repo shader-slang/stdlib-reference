@@ -22,14 +22,14 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinRealType
+#### T: \_\_BuiltinRealType {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinRealType
+#### T: \_\_BuiltinRealType {#typeparam-T}
 
 ## Parameters
 
-#### SLANG\_anonymous\_2  : T
-#### SLANG\_anonymous\_3  : This\.Differential
+#### SLANG\_anonymous\_2  : T {#decl-SLANG_anonymous_2}
+#### SLANG\_anonymous\_3  : This\.Differential {#decl-SLANG_anonymous_3}
 

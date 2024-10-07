@@ -88,7 +88,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location  : [vector](/stdlib-reference/types/vector/index)\<uint, isArray + Shape\.dimensions\>
-#### sampleIndex  : int
-#### index  : uint
+#### location  : [vector](/stdlib-reference/types/vector/index)\<uint, isArray + Shape\.dimensions\> {#decl-location}
+#### sampleIndex  : int {#decl-sampleIndex}
+#### index  : uint {#decl-index}
 

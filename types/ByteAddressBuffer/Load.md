@@ -31,13 +31,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Parameters
 
-#### location  : int
-#### status  : uint
-#### alignment  : int
+#### location  : int {#decl-location}
+#### status  : uint {#decl-status}
+#### alignment  : int {#decl-alignment}
 
 ## Availability and Requirements
 

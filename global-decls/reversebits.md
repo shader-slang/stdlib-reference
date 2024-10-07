@@ -21,12 +21,12 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### N  : int
+#### N  : int {#decl-N}
 
 ## Parameters
 
-#### value  : uint
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, N\>
+#### value  : uint {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, N\> {#decl-value}
 
 ## Availability and Requirements
 

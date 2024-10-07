@@ -66,21 +66,21 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest  : int
-#### value  : int
-#### original\_value  : int
-#### dest  : uint
-#### value  : uint
-#### original\_value  : uint
-#### dest  : int64\_t
-#### value  : int64\_t
-#### original\_value  : int64\_t
-#### dest  : uint64\_t
-#### value  : uint64\_t
-#### original\_value  : uint64\_t
-#### dest  : float
-#### value  : float
-#### original\_value  : float
+#### dest  : int {#decl-dest}
+#### value  : int {#decl-value}
+#### original\_value  : int {#decl-original_value}
+#### dest  : uint {#decl-dest}
+#### value  : uint {#decl-value}
+#### original\_value  : uint {#decl-original_value}
+#### dest  : int64\_t {#decl-dest}
+#### value  : int64\_t {#decl-value}
+#### original\_value  : int64\_t {#decl-original_value}
+#### dest  : uint64\_t {#decl-dest}
+#### value  : uint64\_t {#decl-value}
+#### original\_value  : uint64\_t {#decl-original_value}
+#### dest  : float {#decl-dest}
+#### value  : float {#decl-value}
+#### original\_value  : float {#decl-original_value}
 
 ## Availability and Requirements
 

@@ -8,8 +8,8 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
-#### N  : int
+#### T {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Methods
 

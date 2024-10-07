@@ -29,12 +29,12 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### val  : int
-#### val  : uint
-#### val  : int64\_t
-#### val  : uint64\_t
-#### val  : float
-#### val  : double
+#### val  : int {#decl-val}
+#### val  : uint {#decl-val}
+#### val  : int64\_t {#decl-val}
+#### val  : uint64\_t {#decl-val}
+#### val  : float {#decl-val}
+#### val  : double {#decl-val}
 
 ## Availability and Requirements
 

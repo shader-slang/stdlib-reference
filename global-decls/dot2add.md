@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### left  : [vector](/stdlib-reference/types/vector/index)\<float, 2\>
-#### right  : [vector](/stdlib-reference/types/vector/index)\<float, 2\>
-#### acc  : float
+#### left  : [vector](/stdlib-reference/types/vector/index)\<float, 2\> {#decl-left}
+#### right  : [vector](/stdlib-reference/types/vector/index)\<float, 2\> {#decl-right}
+#### acc  : float {#decl-acc}
 

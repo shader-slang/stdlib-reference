@@ -497,26 +497,26 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### width  : float
-#### mipLevel  : uint
-#### numberOfLevels  : float
-#### width  : int
-#### numberOfLevels  : int
-#### width  : uint
-#### numberOfLevels  : uint
-#### elements  : float
-#### elements  : int
-#### elements  : uint
-#### height  : float
-#### height  : int
-#### height  : uint
-#### sampleCount  : float
-#### sampleCount  : int
-#### sampleCount  : uint
-#### depth  : float
-#### depth  : int
-#### depth  : uint
-#### dim  : uint
+#### width  : float {#decl-width}
+#### mipLevel  : uint {#decl-mipLevel}
+#### numberOfLevels  : float {#decl-numberOfLevels}
+#### width  : int {#decl-width}
+#### numberOfLevels  : int {#decl-numberOfLevels}
+#### width  : uint {#decl-width}
+#### numberOfLevels  : uint {#decl-numberOfLevels}
+#### elements  : float {#decl-elements}
+#### elements  : int {#decl-elements}
+#### elements  : uint {#decl-elements}
+#### height  : float {#decl-height}
+#### height  : int {#decl-height}
+#### height  : uint {#decl-height}
+#### sampleCount  : float {#decl-sampleCount}
+#### sampleCount  : int {#decl-sampleCount}
+#### sampleCount  : uint {#decl-sampleCount}
+#### depth  : float {#decl-depth}
+#### depth  : int {#decl-depth}
+#### depth  : uint {#decl-depth}
+#### dim  : uint {#decl-dim}
 
 ## Availability and Requirements
 

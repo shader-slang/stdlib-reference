@@ -23,18 +23,18 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### P
+#### P {#typeparam-P}
 
 ## Generic Parameters
 
-#### P
+#### P {#typeparam-P}
 
 ## Parameters
 
-#### threadGroupCountX  : uint
-#### threadGroupCountY  : uint
-#### threadGroupCountZ  : uint
-#### meshPayload  : P
+#### threadGroupCountX  : uint {#decl-threadGroupCountX}
+#### threadGroupCountY  : uint {#decl-threadGroupCountY}
+#### threadGroupCountZ  : uint {#decl-threadGroupCountZ}
+#### meshPayload  : P {#decl-meshPayload}
 
 ## Availability and Requirements
 

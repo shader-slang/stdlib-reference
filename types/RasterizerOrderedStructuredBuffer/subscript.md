@@ -22,13 +22,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### TIndex: \_\_BuiltinIntegerType
+#### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
 
 ## Generic Parameters
 
-#### TIndex: \_\_BuiltinIntegerType
+#### TIndex: \_\_BuiltinIntegerType {#typeparam-TIndex}
 
 ## Parameters
 
-#### index  : TIndex
+#### index  : TIndex {#decl-index}
 

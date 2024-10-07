@@ -19,5 +19,5 @@ TR <a href="/stdlib-reference/interfaces/IFunc/index" class="code_type">IFunc</a
 
 ## Parameters
 
-#### p  : TP
+#### p  : TP {#decl-p}
 

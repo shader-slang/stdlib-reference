@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### val  : int
+#### val  : int {#decl-val}
 

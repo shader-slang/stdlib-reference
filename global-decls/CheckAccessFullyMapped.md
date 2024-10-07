@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### status  : uint
+#### status  : uint {#decl-status}
 
 ## Availability and Requirements
 

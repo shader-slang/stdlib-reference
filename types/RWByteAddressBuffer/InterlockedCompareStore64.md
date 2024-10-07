@@ -27,11 +27,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### byteAddress  : uint
-#### compareValue  : int64\_t
-#### value  : int64\_t
-#### compareValue  : uint64\_t
-#### value  : uint64\_t
+#### byteAddress  : uint {#decl-byteAddress}
+#### compareValue  : int64\_t {#decl-compareValue}
+#### value  : int64\_t {#decl-value}
+#### compareValue  : uint64\_t {#decl-compareValue}
+#### value  : uint64\_t {#decl-value}
 
 ## Availability and Requirements
 

@@ -21,16 +21,16 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
-#### U
+#### T {#typeparam-T}
+#### U {#typeparam-U}
 
 ## Generic Parameters
 
-#### T
-#### U
+#### T {#typeparam-T}
+#### U {#typeparam-U}
 
 ## Parameters
 
-#### typeId  : uint
-#### value  : U
+#### typeId  : uint {#decl-typeId}
+#### value  : U {#decl-value}
 

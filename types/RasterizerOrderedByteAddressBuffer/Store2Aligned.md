@@ -21,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### address  : uint
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\>
+#### address  : uint {#decl-address}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-value}
 
 ## Availability and Requirements
 

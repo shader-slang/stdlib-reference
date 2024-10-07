@@ -225,14 +225,14 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions +1\>
-#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\>
-#### status  : uint
-#### location  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions\>
-#### sampleIndex  : int
-#### locationAndSampleIndex  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions +1\>
-#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions\>
-#### location  : int
+#### location  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions + 1\> {#decl-location}
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\> {#decl-offset}
+#### status  : uint {#decl-status}
+#### location  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions\> {#decl-location}
+#### sampleIndex  : int {#decl-sampleIndex}
+#### locationAndSampleIndex  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions + 1\> {#decl-locationAndSampleIndex}
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, isArray + Shape\.dimensions\> {#decl-offset}
+#### location  : int {#decl-location}
 
 ## Availability and Requirements
 

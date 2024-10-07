@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Fields
 
-#### [maxValue](/stdlib-reference/interfaces/IRangedValue/maxValue) : This
-#### [minValue](/stdlib-reference/interfaces/IRangedValue/minValue) : This
+#### [maxValue](/stdlib-reference/interfaces/IRangedValue/maxValue) : This {#decl-maxValue}
+#### [minValue](/stdlib-reference/interfaces/IRangedValue/minValue) : This {#decl-minValue}
 

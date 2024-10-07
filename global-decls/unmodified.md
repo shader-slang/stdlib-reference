@@ -19,13 +19,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Parameters
 
-#### SLANG\_anonymous\_6  : T
+#### SLANG\_anonymous\_6  : T {#decl-SLANG_anonymous_6}
 

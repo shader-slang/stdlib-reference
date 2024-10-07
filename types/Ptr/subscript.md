@@ -21,13 +21,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### TInt: \_\_BuiltinIntegerType
+#### TInt: \_\_BuiltinIntegerType {#typeparam-TInt}
 
 ## Generic Parameters
 
-#### TInt: \_\_BuiltinIntegerType
+#### TInt: \_\_BuiltinIntegerType {#typeparam-TInt}
 
 ## Parameters
 
-#### index  : TInt
+#### index  : TInt {#decl-index}
 

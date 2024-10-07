@@ -33,7 +33,7 @@ t.Sample(sampler, coords);
 
 ## Parameters
 
-#### granularity  : uint
-#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index)
-#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\>
+#### granularity  : uint {#decl-granularity}
+#### sampler  : [SamplerState](/stdlib-reference/types/SamplerState/index) {#decl-sampler}
+#### coords  : [vector](/stdlib-reference/types/vector/index)\<float, Shape\.dimensions\> {#decl-coords}
 

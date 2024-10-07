@@ -40,21 +40,21 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### N  : int
-#### R  : int
-#### C  : int
+#### N  : int {#decl-N}
+#### R  : int {#decl-R}
+#### C  : int {#decl-C}
 
 ## Parameters
 
-#### value  : half
-#### value  : [vector](/stdlib-reference/types/vector/index)\<half, N\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<half, R, C\>
-#### value  : uint16\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint16\_t, N\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint16\_t, R, C\>
-#### value  : int16\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int16\_t, N\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int16\_t, R, C\>
+#### value  : half {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<half, N\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<half, R, C\> {#decl-value}
+#### value  : uint16\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint16\_t, N\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint16\_t, R, C\> {#decl-value}
+#### value  : int16\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int16\_t, N\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int16\_t, R, C\> {#decl-value}
 
 ## Availability and Requirements
 

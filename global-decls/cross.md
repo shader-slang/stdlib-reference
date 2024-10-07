@@ -27,17 +27,17 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
-#### T: \_\_BuiltinIntegerType
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
+#### T: \_\_BuiltinIntegerType {#typeparam-T}
 
 ## Parameters
 
-#### left  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### right  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
+#### left  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-left}
+#### right  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-right}
 
 ## Availability and Requirements
 

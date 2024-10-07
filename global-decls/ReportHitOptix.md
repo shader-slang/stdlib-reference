@@ -23,17 +23,17 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType
+#### T: \_\_BuiltinIntegerType {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinIntegerType
+#### T: \_\_BuiltinIntegerType {#typeparam-T}
 
 ## Parameters
 
-#### tHit  : float
-#### hitKind  : uint
-#### attribs  : T
+#### tHit  : float {#decl-tHit}
+#### hitKind  : uint {#decl-hitKind}
+#### attribs  : T {#decl-attribs}
 
 ## Availability and Requirements
 

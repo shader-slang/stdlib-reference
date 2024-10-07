@@ -22,6 +22,6 @@ Initialize from the same type.
 
 ## Parameters
 
-#### val  : int
-#### value  : This
+#### val  : int {#decl-val}
+#### value  : This {#decl-value}
 

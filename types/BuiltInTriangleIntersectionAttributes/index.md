@@ -6,5 +6,5 @@ layout: stdlib-reference
 
 ## Fields
 
-#### [barycentrics](/stdlib-reference/types/BuiltInTriangleIntersectionAttributes/barycentrics) : [vector](/stdlib-reference/types/vector/index)\<float, 2\>
+#### [barycentrics](/stdlib-reference/types/BuiltInTriangleIntersectionAttributes/barycentrics) : [vector](/stdlib-reference/types/vector/index)\<float, 2\> {#decl-barycentrics}
 

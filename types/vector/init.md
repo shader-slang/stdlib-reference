@@ -1184,50 +1184,50 @@ Initialize a vector where all elements have the same scalar <span class='code'>v
 
 ## Generic Parameters
 
-#### L  : int
+#### L  : int {#decl-L}
 
 ## Parameters
 
-#### value  : T
-#### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### v  : int
-#### v  : float
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\>
-#### x  : T
-#### y  : T
-#### z  : T
-#### xy  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### yz  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### w  : T
-#### zw  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### xyz  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### yzw  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int8\_t, N\>
-#### value  : int8\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int16\_t, N\>
-#### value  : int16\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int, N\>
-#### value  : int
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int64\_t, N\>
-#### value  : int64\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<intptr\_t, N\>
-#### value  : intptr\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<half, N\>
-#### value  : half
-#### value  : [vector](/stdlib-reference/types/vector/index)\<float, N\>
-#### value  : float
-#### value  : [vector](/stdlib-reference/types/vector/index)\<double, N\>
-#### value  : double
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint8\_t, N\>
-#### value  : uint8\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint16\_t, N\>
-#### value  : uint16\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, N\>
-#### value  : uint
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint64\_t, N\>
-#### value  : uint64\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uintptr\_t, N\>
-#### value  : uintptr\_t
-#### value  : [vector](/stdlib-reference/types/vector/index)\<bool, N\>
-#### value  : bool
+#### value  : T {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-value}
+#### v  : int {#decl-v}
+#### v  : float {#decl-v}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\> {#decl-value}
+#### x  : T {#decl-x}
+#### y  : T {#decl-y}
+#### z  : T {#decl-z}
+#### xy  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-xy}
+#### yz  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-yz}
+#### w  : T {#decl-w}
+#### zw  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-zw}
+#### xyz  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-xyz}
+#### yzw  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-yzw}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int8\_t, N\> {#decl-value}
+#### value  : int8\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int16\_t, N\> {#decl-value}
+#### value  : int16\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int, N\> {#decl-value}
+#### value  : int {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<int64\_t, N\> {#decl-value}
+#### value  : int64\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<intptr\_t, N\> {#decl-value}
+#### value  : intptr\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<half, N\> {#decl-value}
+#### value  : half {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<float, N\> {#decl-value}
+#### value  : float {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<double, N\> {#decl-value}
+#### value  : double {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint8\_t, N\> {#decl-value}
+#### value  : uint8\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint16\_t, N\> {#decl-value}
+#### value  : uint16\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, N\> {#decl-value}
+#### value  : uint {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint64\_t, N\> {#decl-value}
+#### value  : uint64\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uintptr\_t, N\> {#decl-value}
+#### value  : uintptr\_t {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<bool, N\> {#decl-value}
+#### value  : bool {#decl-value}
 

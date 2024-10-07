@@ -21,8 +21,8 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### vertexCount  : uint
-#### primitiveCount  : uint
+#### vertexCount  : uint {#decl-vertexCount}
+#### primitiveCount  : uint {#decl-primitiveCount}
 
 ## Availability and Requirements
 

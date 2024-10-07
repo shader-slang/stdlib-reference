@@ -19,13 +19,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Parameters
 
-#### v  : T
+#### v  : T {#decl-v}
 

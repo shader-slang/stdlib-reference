@@ -21,14 +21,14 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Generic Parameters
 
-#### T
+#### T {#typeparam-T}
 
 ## Parameters
 
-#### offset  : int
-#### value  : T
+#### offset  : int {#decl-offset}
+#### value  : T {#decl-value}
 

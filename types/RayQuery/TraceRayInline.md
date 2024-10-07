@@ -23,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### accelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
-#### rayFlags  : uint
-#### instanceInclusionMask  : uint
-#### ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
+#### accelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-accelerationStructure}
+#### rayFlags  : uint {#decl-rayFlags}
+#### instanceInclusionMask  : uint {#decl-instanceInclusionMask}
+#### ray  : [RayDesc](/stdlib-reference/types/RayDesc/index) {#decl-ray}
 
 ## Availability and Requirements
 

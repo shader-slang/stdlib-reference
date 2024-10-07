@@ -21,16 +21,16 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T
-#### U
+#### T {#typeparam-T}
+#### U {#typeparam-U}
 
 ## Generic Parameters
 
-#### T
-#### U
+#### T {#typeparam-T}
+#### U {#typeparam-U}
 
 ## Parameters
 
-#### t  : [Tuple](/stdlib-reference/types/Tuple/index)\<T\>
-#### u  : [Tuple](/stdlib-reference/types/Tuple/index)\<U\>
+#### t  : [Tuple](/stdlib-reference/types/Tuple/index)\<T\> {#decl-t}
+#### u  : [Tuple](/stdlib-reference/types/Tuple/index)\<U\> {#decl-u}
 

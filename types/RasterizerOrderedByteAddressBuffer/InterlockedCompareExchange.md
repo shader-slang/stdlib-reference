@@ -23,10 +23,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### dest  : uint
-#### compare\_value  : uint
-#### value  : uint
-#### original\_value  : uint
+#### dest  : uint {#decl-dest}
+#### compare\_value  : uint {#decl-compare_value}
+#### value  : uint {#decl-value}
+#### original\_value  : uint {#decl-original_value}
 
 ## Availability and Requirements
 

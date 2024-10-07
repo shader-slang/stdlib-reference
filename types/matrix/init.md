@@ -1228,81 +1228,81 @@ Initialize a vector from a value of the same type
 
 ## Parameters
 
-#### val  : [T](/stdlib-reference/types/matrix/T)
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), R, C\>
-#### v  : int
-#### v  : float
-#### value  : int
-#### value  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
-#### m00  : [T](/stdlib-reference/types/matrix/T)
-#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 1\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 1, 2\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 1, 3\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 1, 4\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 1\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 3\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 4\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 1\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 2\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 3\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 4\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 1\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 2\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 3\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 4\>
-#### m01  : [T](/stdlib-reference/types/matrix/T)
-#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### m02  : [T](/stdlib-reference/types/matrix/T)
-#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### m03  : [T](/stdlib-reference/types/matrix/T)
-#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
-#### m10  : [T](/stdlib-reference/types/matrix/T)
-#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 1\>
-#### m11  : [T](/stdlib-reference/types/matrix/T)
-#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### m12  : [T](/stdlib-reference/types/matrix/T)
-#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### m13  : [T](/stdlib-reference/types/matrix/T)
-#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
-#### m20  : [T](/stdlib-reference/types/matrix/T)
-#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 1\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 1\>
-#### m21  : [T](/stdlib-reference/types/matrix/T)
-#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\>
-#### m22  : [T](/stdlib-reference/types/matrix/T)
-#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 3\>
-#### m23  : [T](/stdlib-reference/types/matrix/T)
-#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 4\>
-#### m30  : [T](/stdlib-reference/types/matrix/T)
-#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 1\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 1\>
-#### m31  : [T](/stdlib-reference/types/matrix/T)
-#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 2\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 2\>
-#### m32  : [T](/stdlib-reference/types/matrix/T)
-#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 3\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 3\>
-#### m33  : [T](/stdlib-reference/types/matrix/T)
-#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 4\>
-#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 4\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int8\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int16\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int64\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<intptr\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<half, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<float, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<double, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint8\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint16\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint64\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uintptr\_t, R, C\>
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<bool, R, C\>
+#### val  : [T](/stdlib-reference/types/matrix/T) {#decl-val}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), R, C\> {#decl-value}
+#### v  : int {#decl-v}
+#### v  : float {#decl-v}
+#### value  : int {#decl-value}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<T, 4\> {#decl-value}
+#### m00  : [T](/stdlib-reference/types/matrix/T) {#decl-m00}
+#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 1\> {#decl-row0}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 1, 2\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 1, 3\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 1, 4\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 1\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 3\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 4\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 1\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 2\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 3\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 4\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 1\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 2\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 3\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 4, 4\> {#decl-value}
+#### m01  : [T](/stdlib-reference/types/matrix/T) {#decl-m01}
+#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-row0}
+#### m02  : [T](/stdlib-reference/types/matrix/T) {#decl-m02}
+#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-row0}
+#### m03  : [T](/stdlib-reference/types/matrix/T) {#decl-m03}
+#### row0  : [vector](/stdlib-reference/types/vector/index)\<T, 4\> {#decl-row0}
+#### m10  : [T](/stdlib-reference/types/matrix/T) {#decl-m10}
+#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 1\> {#decl-row1}
+#### m11  : [T](/stdlib-reference/types/matrix/T) {#decl-m11}
+#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-row1}
+#### m12  : [T](/stdlib-reference/types/matrix/T) {#decl-m12}
+#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-row1}
+#### m13  : [T](/stdlib-reference/types/matrix/T) {#decl-m13}
+#### row1  : [vector](/stdlib-reference/types/vector/index)\<T, 4\> {#decl-row1}
+#### m20  : [T](/stdlib-reference/types/matrix/T) {#decl-m20}
+#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 1\> {#decl-row2}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 1\> {#decl-m}
+#### m21  : [T](/stdlib-reference/types/matrix/T) {#decl-m21}
+#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-row2}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\> {#decl-m}
+#### m22  : [T](/stdlib-reference/types/matrix/T) {#decl-m22}
+#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-row2}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 3\> {#decl-m}
+#### m23  : [T](/stdlib-reference/types/matrix/T) {#decl-m23}
+#### row2  : [vector](/stdlib-reference/types/vector/index)\<T, 4\> {#decl-row2}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 4\> {#decl-m}
+#### m30  : [T](/stdlib-reference/types/matrix/T) {#decl-m30}
+#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 1\> {#decl-row3}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 1\> {#decl-m}
+#### m31  : [T](/stdlib-reference/types/matrix/T) {#decl-m31}
+#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 2\> {#decl-row3}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 2\> {#decl-m}
+#### m32  : [T](/stdlib-reference/types/matrix/T) {#decl-m32}
+#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 3\> {#decl-row3}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 3\> {#decl-m}
+#### m33  : [T](/stdlib-reference/types/matrix/T) {#decl-m33}
+#### row3  : [vector](/stdlib-reference/types/vector/index)\<T, 4\> {#decl-row3}
+#### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 3, 4\> {#decl-m}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int8\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int16\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<int64\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<intptr\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<half, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<float, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<double, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint8\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint16\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uint64\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<uintptr\_t, R, C\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<bool, R, C\> {#decl-value}
 
 ## Availability and Requirements
 

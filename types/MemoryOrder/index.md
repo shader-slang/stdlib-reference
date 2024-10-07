@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Values 
 
-#### _Relaxed_
-#### _Acquire_
-#### _Release_
-#### _AcquireRelease_
-#### _SeqCst_
+#### _Relaxed = 0_ {#decl-Relaxed}
+#### _Acquire = 1_ {#decl-Acquire}
+#### _Release = 2_ {#decl-Release}
+#### _AcquireRelease = 3_ {#decl-AcquireRelease}
+#### _SeqCst = 4_ {#decl-SeqCst}

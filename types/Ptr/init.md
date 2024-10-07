@@ -35,20 +35,20 @@ Addr&lt;<span class="code_type">T</span>&gt;.<a href="/stdlib-reference/types/Pt
 
 ## Generic Parameters
 
-#### U
+#### U {#typeparam-U}
 
 ## Generic Parameters
 
-#### U
-#### T
-#### addrSpace  : uint64\_t
+#### U {#typeparam-U}
+#### T {#typeparam-T}
+#### addrSpace  : uint64\_t {#decl-addrSpace}
 
 ## Parameters
 
-#### ptr  : Addr\<U\>
-#### val  : uint64\_t
-#### val  : int64\_t
-#### nativeStr  : [NativeString](/stdlib-reference/types/NativeString/index)
-#### ptr  : Addr\<T\>
-#### ptr  : NativeRef\<T\>
+#### ptr  : Addr\<U\> {#decl-ptr}
+#### val  : uint64\_t {#decl-val}
+#### val  : int64\_t {#decl-val}
+#### nativeStr  : [NativeString](/stdlib-reference/types/NativeString/index) {#decl-nativeStr}
+#### ptr  : Addr\<T\> {#decl-ptr}
+#### ptr  : NativeRef\<T\> {#decl-ptr}
 

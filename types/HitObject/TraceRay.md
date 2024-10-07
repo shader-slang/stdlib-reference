@@ -29,22 +29,22 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 
 ## Generic Parameters
 
-#### payload\_t
+#### payload\_t {#typeparam-payload_t}
 
 ## Generic Parameters
 
-#### payload\_t
+#### payload\_t {#typeparam-payload_t}
 
 ## Parameters
 
-#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
-#### RayFlags  : uint
-#### InstanceInclusionMask  : uint
-#### RayContributionToHitGroupIndex  : uint
-#### MultiplierForGeometryContributionToHitGroupIndex  : uint
-#### MissShaderIndex  : uint
-#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index)
-#### Payload  : payload\_t
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index) {#decl-AccelerationStructure}
+#### RayFlags  : uint {#decl-RayFlags}
+#### InstanceInclusionMask  : uint {#decl-InstanceInclusionMask}
+#### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
+#### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
+#### MissShaderIndex  : uint {#decl-MissShaderIndex}
+#### Ray  : [RayDesc](/stdlib-reference/types/RayDesc/index) {#decl-Ray}
+#### Payload  : payload\_t {#decl-Payload}
 
 ## Availability and Requirements
 

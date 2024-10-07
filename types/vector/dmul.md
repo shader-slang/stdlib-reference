@@ -23,14 +23,14 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### U: \_\_BuiltinRealType
+#### U: \_\_BuiltinRealType {#typeparam-U}
 
 ## Generic Parameters
 
-#### U: \_\_BuiltinRealType
+#### U: \_\_BuiltinRealType {#typeparam-U}
 
 ## Parameters
 
-#### a  : U
-#### b  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
+#### a  : U {#decl-a}
+#### b  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-b}
 

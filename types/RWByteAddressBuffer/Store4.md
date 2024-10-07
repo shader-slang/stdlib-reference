@@ -26,9 +26,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### address  : uint
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\>
-#### alignment  : uint
+#### address  : uint {#decl-address}
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-value}
+#### alignment  : uint {#decl-alignment}
 
 ## Availability and Requirements
 

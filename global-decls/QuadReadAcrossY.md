@@ -26,19 +26,19 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinType
+#### T: \_\_BuiltinType {#typeparam-T}
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinType
-#### N  : int
-#### M  : int
+#### T: \_\_BuiltinType {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-#### localValue  : T
-#### localValue  : [vector](/stdlib-reference/types/vector/index)\<T, N\>
-#### localValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\>
+#### localValue  : T {#decl-localValue}
+#### localValue  : [vector](/stdlib-reference/types/vector/index)\<T, N\> {#decl-localValue}
+#### localValue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), N, M\> {#decl-localValue}
 
 ## Availability and Requirements
 

@@ -53,10 +53,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\>
-#### level  : float
-#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\>
-#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index)
+#### location  : [vector](/stdlib-reference/types/vector/index)\<float, isArray + Shape\.dimensions\> {#decl-location}
+#### level  : float {#decl-level}
+#### offset  : [vector](/stdlib-reference/types/vector/index)\<int, Shape\.planeDimensions\> {#decl-offset}
+#### s  : [SamplerState](/stdlib-reference/types/SamplerState/index) {#decl-s}
 
 ## Availability and Requirements
 
