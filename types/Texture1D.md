@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # typealias Texture1D\<T, sampleCount:int, format:int\>
 
-## Definition
+## Signature
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture1D" class="code_type">Texture1D</a>&lt;<span class="code_type">T</span>, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 

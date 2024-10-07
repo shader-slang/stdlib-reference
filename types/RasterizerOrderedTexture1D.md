@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # typealias RasterizerOrderedTexture1D\<T, sampleCount:int, format:int\>
 
-## Definition
+## Signature
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/RasterizerOrderedTexture1D" class="code_type">RasterizerOrderedTexture1D</a>&lt;<span class="code_type">T</span>, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 

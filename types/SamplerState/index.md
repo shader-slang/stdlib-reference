@@ -4,7 +4,8 @@ layout: stdlib-reference
 
 # struct SamplerState
 
-## Description
+## "Description
 
 Sampling state for filtered texture fetches.
+
 

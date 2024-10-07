@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # typealias RasterizerOrderedBuffer\<T, format:int\>
 
-## Definition
+## Signature
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/RasterizerOrderedBuffer" class="code_type">RasterizerOrderedBuffer</a>&lt;<span class="code_type">T</span>, format:<span class="code_keyword">int</span>&gt; = 

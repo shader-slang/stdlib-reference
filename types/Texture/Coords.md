@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # typealias \_Texture\<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format\>\.Coords
 
-## Definition
+## Signature
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture/index" class="code_type">_Texture</a>&lt;<span class="code_type">T</span>, Shape, 0, 0, sampleCount, 0, isShadow, 0, format&gt;.<a href="/stdlib-reference/types/Texture/Coords" class="code_type">Coords</a> = 

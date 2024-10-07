@@ -4,11 +4,12 @@ layout: stdlib-reference
 
 # struct HitObject
 
-## Description
+## "Description
 
 Immutable data type representing a ray hit or a miss. Can be used to invoke hit or miss shading,
 or as a key in ReorderThread. Created by one of several methods described below. HitObject
 and its related functions are available in raytracing shader types only.
+
 
 ## Methods
 

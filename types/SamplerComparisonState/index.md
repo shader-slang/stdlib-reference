@@ -4,7 +4,8 @@ layout: stdlib-reference
 
 # struct SamplerComparisonState
 
-## Description
+## "Description
 
 Sampling state for filtered texture fetches that include a comparison operation before filtering.
+
 

@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # typealias Texture2DArray\<T, sampleCount:int, format:int\>
 
-## Definition
+## Signature
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/Texture2DArray" class="code_type">Texture2DArray</a>&lt;<span class="code_type">T</span>, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 

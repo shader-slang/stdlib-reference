@@ -6,10 +6,11 @@ layout: stdlib-reference
 
 *Conforms to:* [IDifferentiable](/stdlib-reference/interfaces/IDifferentiable/index)
 
-## Description
+## "Description
 
 Pair type that serves to wrap the primal and
 differential types of an arbitrary type T.
+
 
 ## Generic Parameters
 

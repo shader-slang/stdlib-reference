@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 *Inherits from:* \_\_BuiltinType, [ILogical](/stdlib-reference/interfaces/ILogical/index)
 
-## Description
+## "Description
 
 A type that can be used for logical/bitwise operations
+
 
