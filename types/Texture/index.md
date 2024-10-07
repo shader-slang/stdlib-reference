@@ -25,12 +25,26 @@ The element type of the texture. Must be a scalar or vector type.
 The shape of the texture. Must be one of <span class='code'><a href="/stdlib-reference/types/Shape1D/index" class="code_type">__Shape1D</a></span>, <span class='code'><a href="/stdlib-reference/types/Shape2D/index" class="code_type">__Shape2D</a></span>, <span class='code'><a href="/stdlib-reference/types/Shape3D/index" class="code_type">__Shape3D</a></span>, <span class='code'><a href="/stdlib-reference/types/ShapeCube/index" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="/stdlib-reference/types/ShapeBuffer/index" class="code_type">__ShapeBuffer</a></span>.
 
 #### isArray  : int
+Indicates whether the texture is an array texture.
+
 #### isMS  : int
+Indicates whether the texture is a multisampled texture.
+
 #### sampleCount  : int
+The number of samples of a multisampled texture.
+
 #### access  : int
+The access mode of the texture. 0 for read-only, 1 for read-write, 2 for rasterizer-ordered, 3 for feedback.
+
 #### isShadow  : int
+Indicates whether the texture is a shadow texture (for combined texture-sampler only).
+
 #### isCombined  : int
+Indicates whether the texture is a combined texture-sampler.
+
 #### format  : int
+The storage format of the texture. Users should specify the format using an <span class='code'>[format(...)]</span> attribute instead.
+
 
 ## Methods
 
@@ -84,8 +98,8 @@ are advised to use the HLSL-specific texture types instead of <span class='code'
 
 For read-write textures, Slang will automatically infer <span class='code'>format</span> from <span class='code'><span class="code_type">T</span></span>.
 To explicitly specify texel storage formats for read-write textures,
-use the <span class='code'>[format(...)]</span> attribute on the texture parameter declaration.
-Allowed <span class='code'>format</span> values are:
+use the <span class='code'>[format(formatString)]</span> attribute on the texture parameter declaration.
+Allowed <span class='code'>formatString</span> values are:
 
 |id | Format string        | Meaning           |
 |:--|:---------------------|:------------------|
