@@ -6,6 +6,10 @@ layout: stdlib-reference
 
 *Conforms to:* \_\_TextureFootprintData\<[ND](/stdlib-reference/types/TextureFootprint/index#decl-ND)\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### ND  : int {#decl-ND}

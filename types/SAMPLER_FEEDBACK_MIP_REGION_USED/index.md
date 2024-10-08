@@ -6,3 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* \_\_BuiltinSamplerFeedbackType
 
+## Description
+
+
+

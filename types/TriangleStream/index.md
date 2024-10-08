@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct TriangleStream\<T\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### T {#typeparam-T}

@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Round-to-nearest.
 
 
 

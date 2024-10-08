@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias TextureCubeArray\<T, sampleCount:int, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

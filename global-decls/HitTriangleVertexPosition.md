@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Get the vertex positions of the currently hit triangle in any-hit or closest-hit shader.
+https://github.com/KhronosGroup/GLSL/blob/master/extensions/ext/GLSL_EXT_ray_tracing_position_fetch.txt
 
 
 

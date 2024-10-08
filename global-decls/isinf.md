@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Test if a floating-point value infinite.
 
 
 

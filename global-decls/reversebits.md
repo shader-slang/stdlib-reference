@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Reverse order of bits.
 
 
 

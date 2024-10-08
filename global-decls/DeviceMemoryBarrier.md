@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Barrier for device memory.
 
 
 

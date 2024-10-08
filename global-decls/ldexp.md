@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Construct float from mantissa and exponent.
 
 
 

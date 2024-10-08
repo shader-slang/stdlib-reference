@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias RasterizerOrderedTexture2DArray\<T, sampleCount:int, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

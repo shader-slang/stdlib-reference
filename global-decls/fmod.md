@@ -6,6 +6,10 @@ layout: stdlib-reference
 
 ## Description
 
+Floating point remainder of x/y.
+The floating-point remainder is calculated such that x = i * y + f,
+where i is an integer, f has the same sign as x, and the absolute value
+of f is less than the absolute value of y.
 
 
 

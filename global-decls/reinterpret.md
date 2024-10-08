@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Reinterpret type <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a></span> as type <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a></span>. <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a></span>
+can be any scalar, vector, matrix, struct or array types.
 
 
 

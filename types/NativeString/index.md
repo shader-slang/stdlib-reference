@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct NativeString
 
+## Description
+
+
+
 ## Properties
 
 #### [length](/stdlib-reference/types/NativeString/length) {#decl-length}

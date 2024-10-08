@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes base-10 exponent
 
 
 

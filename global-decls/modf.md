@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Split into integer and fractional parts (both with same sign).
 
 
 

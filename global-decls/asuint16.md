@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Reinterpret bits as a uint16_t (HLSL SM 6.2).
 
 
 

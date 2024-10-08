@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Treats <span class='code'><a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-left" class="code_param">left</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-right" class="code_param">right</a></span> as 4-component vectors of <span class='code'>Int8</span> and computes <span class='code'><a href="/stdlib-reference/global-decls/dot">dot</a>(left, right)+acc</span>
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct ByteAddressBuffer
 
+## Description
+
+
+
 ## Methods
 
 * [GetDimensions](/stdlib-reference/types/ByteAddressBuffer/GetDimensions)

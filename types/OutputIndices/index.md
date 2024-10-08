@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct OutputIndices\<T, MAX\_PRIMITIVES:uint\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### T {#typeparam-T}

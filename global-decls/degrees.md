@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Convert radians to degrees.
 
 
 

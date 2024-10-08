@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Group memory barrier. Ensures that all memory accesses in the group are visible to all threads in the group.
 
 
 

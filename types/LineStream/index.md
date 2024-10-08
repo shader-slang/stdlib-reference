@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct LineStream\<T\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### T {#typeparam-T}

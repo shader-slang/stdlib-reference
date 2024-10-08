@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes <span class='code'><a href="/stdlib-reference/global-decls/max">max</a>(0, <a href="/stdlib-reference/global-decls/max#decl-x" class="code_param">x</a>-<a href="/stdlib-reference/global-decls/max#decl-y" class="code_param">y</a>)</span>.
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias TextureFootprint2D
 
+## Description
+
+
+
 ## Signature
 
 <pre>

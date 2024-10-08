@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Floor (HLSL SM 1.0).
 
 
 

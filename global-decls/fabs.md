@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Absolute value (HLSL SM 1.0)
 
 
 

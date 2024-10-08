@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Use an otherwise unused value
+This can be used to silence the warning about returning before initializing an out paramter.
 
 
 
@@ -24,4 +26,7 @@ layout: stdlib-reference
 ## Parameters
 
 #### SLANG\_anonymous\_5  : [T](/stdlib-reference/global-decls/unused#typeparam-T) {#decl-SLANG_anonymous_5}
+Use an otherwise unused value
+This can be used to silence the warning about returning before initializing an out paramter.
+
 

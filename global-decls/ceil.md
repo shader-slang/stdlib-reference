@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Ceiling (HLSL SM 1.0).
 
 
 

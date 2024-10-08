@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute the sine of an angle in degrees.
 
 
 

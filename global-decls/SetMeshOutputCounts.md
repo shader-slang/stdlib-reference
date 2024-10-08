@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Set the number of output vertices and primitives for a mesh shader invocation.
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias size\_t
 
+## Description
+
+
+
 ## Signature
 
 <pre>

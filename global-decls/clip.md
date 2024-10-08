@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Clip (discard) fragment conditionally
 
 
 

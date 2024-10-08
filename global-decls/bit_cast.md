@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Bit cast between types. <span class='code'><a href="/stdlib-reference/global-decls/bit_cast#typeparam-T" class="code_type">T</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/bit_cast#typeparam-U" class="code_type">U</a></span> must have the same size.
+They can be any scalar, vector, matrix, struct or array types.
 
 
 

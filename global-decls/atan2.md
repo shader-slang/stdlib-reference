@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Inverse tangent (HLSL SM 1.0).
 
 
 

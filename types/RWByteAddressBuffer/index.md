@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct RWByteAddressBuffer
 
+## Description
+
+
+
 ## Methods
 
 * [GetDimensions](/stdlib-reference/types/RWByteAddressBuffer/GetDimensions)

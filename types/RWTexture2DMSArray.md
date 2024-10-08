@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias RWTexture2DMSArray\<T, sampleCount:int, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

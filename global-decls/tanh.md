@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute the hyperbolic tangent of <span class='code'><a href="/stdlib-reference/global-decls/tanh#decl-x" class="code_param">x</a></span>.
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias float16\_t
 
+## Description
+
+
+
 ## Signature
 
 <pre>

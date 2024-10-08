@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct RayDesc
 
+## Description
+
+
+
 ## Fields
 
 #### [Direction](/stdlib-reference/types/RayDesc/Direction) : [vector](/stdlib-reference/types/vector/index)\<float, 3\> {#decl-Direction}

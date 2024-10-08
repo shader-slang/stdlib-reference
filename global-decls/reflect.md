@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Reflect incident vector across plane with given normal.
 
 
 

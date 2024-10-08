@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute the cosine of an angle in degrees.
 
 
 

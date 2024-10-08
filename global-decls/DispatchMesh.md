@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Specify the number of downstream mesh shader thread groups to invoke from an amplification shader,
+and provide the values for per-mesh payload parameters.
 
 
 
@@ -31,6 +32,10 @@ layout: stdlib-reference
 #### threadGroupCountY  : uint {#decl-threadGroupCountY}
 #### threadGroupCountZ  : uint {#decl-threadGroupCountZ}
 #### meshPayload  : [P](/stdlib-reference/global-decls/DispatchMesh#typeparam-P) {#decl-meshPayload}
+
+## Return value
+This function doesn't return.
+
 
 ## Availability and Requirements
 

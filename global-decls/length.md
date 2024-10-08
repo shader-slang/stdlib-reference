@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute the length of a vector.
 
 
 

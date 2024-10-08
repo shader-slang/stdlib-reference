@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct RasterizerOrderedByteAddressBuffer
 
+## Description
+
+
+
 ## Methods
 
 * [GetDimensions](/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/GetDimensions)

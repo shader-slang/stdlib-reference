@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Reinterpret bits as a float (HLSL SM 4.0)
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias string
 
+## Description
+
+
+
 ## Signature
 
 <pre>

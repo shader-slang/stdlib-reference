@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Extract the fractional part of a floating-point number.
 
 
 

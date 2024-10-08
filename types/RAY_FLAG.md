@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias RAY\_FLAG
 
+## Description
+
+
+
 ## Signature
 
 <pre>

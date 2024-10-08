@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Clamp value to [0,1] range.
 
 
 

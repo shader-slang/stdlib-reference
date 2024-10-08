@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Truncate to integer.
 
 
 

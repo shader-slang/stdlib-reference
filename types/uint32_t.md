@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias uint32\_t
 
+## Description
+
+
+
 ## Signature
 
 <pre>

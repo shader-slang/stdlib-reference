@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute the tangent of <span class='code'><a href="/stdlib-reference/global-decls/tanpi#decl-x" class="code_param">x</a></span> in degrees.
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct PointStream\<T\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### T {#typeparam-T}

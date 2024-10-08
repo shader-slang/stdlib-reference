@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Thread-group sync and barrier for writes to all memory spaces (HLSL SM 5.0)
 
 
 

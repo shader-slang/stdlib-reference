@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Fused multiply-add.
 
 
 

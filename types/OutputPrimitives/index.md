@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### T {#typeparam-T}

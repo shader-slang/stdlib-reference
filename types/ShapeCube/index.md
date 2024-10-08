@@ -6,6 +6,10 @@ layout: stdlib-reference
 
 *Conforms to:* [\_\_ITextureShape](/stdlib-reference/interfaces/ITextureShape/index)
 
+## Description
+
+
+
 ## Fields
 
 #### [dimensions](/stdlib-reference/types/ShapeCube/dimensions) : int = 3 {#decl-dimensions}

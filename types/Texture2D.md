@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias Texture2D\<T, sampleCount:int, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

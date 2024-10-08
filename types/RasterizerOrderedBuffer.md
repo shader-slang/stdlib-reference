@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias RasterizerOrderedBuffer\<T, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

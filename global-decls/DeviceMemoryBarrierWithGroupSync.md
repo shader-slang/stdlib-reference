@@ -8,6 +8,7 @@ layout: stdlib-reference
 
 
 
+Barrier for device memory with group synchronization.
 
 
 ## Signature 

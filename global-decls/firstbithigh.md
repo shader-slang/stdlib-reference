@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Find first set bit starting at high bit and working down.
 
 
 

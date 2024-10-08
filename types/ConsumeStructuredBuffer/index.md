@@ -40,6 +40,5 @@ When generating code for other targets, this parameter is ignored and has no eff
 ## See also
 
 <span class='code'><a href="/stdlib-reference/types/StructuredBuffer/index" class="code_type">StructuredBuffer</a></span>, <span class='code'><a href="/stdlib-reference/types/AppendStructuredBuffer/index" class="code_type">AppendStructuredBuffer</a></span>, <span class='code'><a href="/stdlib-reference/types/RWStructuredBuffer/index" class="code_type">RWStructuredBuffer</a></span>, <span class='code'><a href="/stdlib-reference/types/RasterizerOrderedStructuredBuffer/index" class="code_type">RasterizerOrderedStructuredBuffer</a></span>.
-*
 
 

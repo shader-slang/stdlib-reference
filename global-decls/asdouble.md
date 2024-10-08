@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Reinterpret bits as a double (HLSL SM 5.0)
 
 
 

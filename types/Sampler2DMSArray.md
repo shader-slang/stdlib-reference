@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias Sampler2DMSArray\<T, sampleCount:int, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias RWBuffer\<T, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

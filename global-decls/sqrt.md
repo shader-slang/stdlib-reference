@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute the square root of <span class='code'><a href="/stdlib-reference/global-decls/sqrt#decl-x" class="code_param">x</a></span>.
 
 
 

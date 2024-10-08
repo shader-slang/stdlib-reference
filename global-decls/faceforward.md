@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Flip surface normal to face forward, if needed.
 
 
 

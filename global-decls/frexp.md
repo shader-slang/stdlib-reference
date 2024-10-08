@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Split float into mantissa and exponent.
 
 
 

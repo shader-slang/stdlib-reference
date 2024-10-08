@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Helper for computing distance terms for lighting (obsolete)
 
 
 

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct OutputVertices\<T, MAX\_VERTS:uint\>
 
+## Description
+
+
+
 ## Generic Parameters
 
 #### T {#typeparam-T}

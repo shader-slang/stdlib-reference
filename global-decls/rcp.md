@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Compute approximate reciprocal of <span class='code'><a href="/stdlib-reference/global-decls/rcp#decl-x" class="code_param">x</a></span>.
 
 
 

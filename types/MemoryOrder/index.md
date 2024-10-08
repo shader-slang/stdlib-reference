@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # enum MemoryOrder
 
+## Description
+
+
+
 ## Values 
 
 #### _Relaxed = 0_ {#decl-Relaxed}

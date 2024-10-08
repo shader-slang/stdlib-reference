@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias Buffer\<T, format:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>

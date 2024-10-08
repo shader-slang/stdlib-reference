@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Computes <span class='code'><a href="/stdlib-reference/global-decls/dot">dot</a>(left, right)+acc</span>.
+May not produce infinities or NaNs for intermediate results that overflow the range of <span class='code'><span class="code_keyword">half</span></span>
 
 
 

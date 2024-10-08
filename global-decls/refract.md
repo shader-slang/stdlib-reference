@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Refract incident vector given surface normal and index of refraction.
 
 
 

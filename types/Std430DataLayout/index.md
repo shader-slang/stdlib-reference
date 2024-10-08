@@ -6,3 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IBufferDataLayout](/stdlib-reference/interfaces/IBufferDataLayout/index)
 
+## Description
+
+
+

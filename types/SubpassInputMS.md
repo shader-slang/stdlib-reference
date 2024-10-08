@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # typealias SubpassInputMS\<T, isMS:int\>
 
+## Description
+
+
+
 ## Signature
 
 <pre>
