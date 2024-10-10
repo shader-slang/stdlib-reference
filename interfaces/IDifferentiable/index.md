@@ -16,8 +16,13 @@ since the auto-diff pass relies on the order to grab the struct keys.
 
 # Associated types
 
-* _Differential_ 
-  ``
+#### _Differential
+
+
+
+Constraints:
+
+  - This\.Differential : IDifferentiable
 
 
 ## Methods

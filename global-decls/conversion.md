@@ -5,27 +5,27 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [asdouble](global-decls/asdouble.md)
+#### [asdouble](/stdlib-reference/global-decls/asdouble)
 
-#### [asfloat](global-decls/asfloat.md)
+#### [asfloat](/stdlib-reference/global-decls/asfloat)
 
-#### [asfloat16](global-decls/asfloat16.md)
+#### [asfloat16](/stdlib-reference/global-decls/asfloat16)
 
-#### [asint](global-decls/asint.md)
+#### [asint](/stdlib-reference/global-decls/asint)
 
-#### [asint16](global-decls/asint16.md)
+#### [asint16](/stdlib-reference/global-decls/asint16)
 
-#### [asuint](global-decls/asuint.md)
+#### [asuint](/stdlib-reference/global-decls/asuint)
 
-#### [asuint16](global-decls/asuint16.md)
+#### [asuint16](/stdlib-reference/global-decls/asuint16)
 
-#### [bit\_cast\<T, U\>](global-decls/bit_cast.md)
+#### [bit\_cast\<T, U\>](/stdlib-reference/global-decls/bit_cast)
 
-#### [f16tof32](global-decls/f16tof32.md)
+#### [f16tof32](/stdlib-reference/global-decls/f16tof32)
 
-#### [f32tof16](global-decls/f32tof16.md)
+#### [f32tof16](/stdlib-reference/global-decls/f32tof16)
 
-#### [f32tof16\_](global-decls/f32tof16_.md)
+#### [f32tof16\_](/stdlib-reference/global-decls/f32tof16_)
 
-#### [reinterpret\<T, U\>](global-decls/reinterpret.md)
+#### [reinterpret\<T, U\>](/stdlib-reference/global-decls/reinterpret)
 

@@ -5,7 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [SamplerComparisonState](types/SamplerComparisonState/index.md)
+#### [SamplerComparisonState](/stdlib-reference/types/SamplerComparisonState/index)
 
-#### [SamplerState](types/SamplerState/index.md)
+#### [SamplerState](/stdlib-reference/types/SamplerState/index)
 

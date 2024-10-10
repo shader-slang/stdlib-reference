@@ -5,97 +5,97 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AcceptHitAndEndSearch](global-decls/AcceptHitAndEndSearch.md)
+#### [AcceptHitAndEndSearch](/stdlib-reference/global-decls/AcceptHitAndEndSearch)
 
-#### [CANDIDATE\_NON\_OPAQUE\_TRIANGLE](global-decls/CANDIDATE_NON_OPAQUE_TRIANGLE.md)
+#### [CANDIDATE\_NON\_OPAQUE\_TRIANGLE](/stdlib-reference/global-decls/CANDIDATE_NON_OPAQUE_TRIANGLE)
 
-#### [CANDIDATE\_PROCEDURAL\_PRIMITIVE](global-decls/CANDIDATE_PROCEDURAL_PRIMITIVE.md)
+#### [CANDIDATE\_PROCEDURAL\_PRIMITIVE](/stdlib-reference/global-decls/CANDIDATE_PROCEDURAL_PRIMITIVE)
 
-#### [COMMITTED\_NOTHING](global-decls/COMMITTED_NOTHING.md)
+#### [COMMITTED\_NOTHING](/stdlib-reference/global-decls/COMMITTED_NOTHING)
 
-#### [COMMITTED\_PROCEDURAL\_PRIMITIVE\_HIT](global-decls/COMMITTED_PROCEDURAL_PRIMITIVE_HIT.md)
+#### [COMMITTED\_PROCEDURAL\_PRIMITIVE\_HIT](/stdlib-reference/global-decls/COMMITTED_PROCEDURAL_PRIMITIVE_HIT)
 
-#### [COMMITTED\_TRIANGLE\_HIT](global-decls/COMMITTED_TRIANGLE_HIT.md)
+#### [COMMITTED\_TRIANGLE\_HIT](/stdlib-reference/global-decls/COMMITTED_TRIANGLE_HIT)
 
-#### [CallShader\<Payload\>](global-decls/CallShader.md)
+#### [CallShader\<Payload\>](/stdlib-reference/global-decls/CallShader)
 
-#### [DispatchRaysDimensions](global-decls/DispatchRaysDimensions.md)
+#### [DispatchRaysDimensions](/stdlib-reference/global-decls/DispatchRaysDimensions)
 
-#### [DispatchRaysIndex](global-decls/DispatchRaysIndex.md)
+#### [DispatchRaysIndex](/stdlib-reference/global-decls/DispatchRaysIndex)
 
-#### [GeometryIndex](global-decls/GeometryIndex.md)
+#### [GeometryIndex](/stdlib-reference/global-decls/GeometryIndex)
 
-#### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](global-decls/HIT_KIND_TRIANGLE_BACK_FACE.md)
+#### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](/stdlib-reference/global-decls/HIT_KIND_TRIANGLE_BACK_FACE)
 
-#### [HIT\_KIND\_TRIANGLE\_FRONT\_FACE](global-decls/HIT_KIND_TRIANGLE_FRONT_FACE.md)
+#### [HIT\_KIND\_TRIANGLE\_FRONT\_FACE](/stdlib-reference/global-decls/HIT_KIND_TRIANGLE_FRONT_FACE)
 
-#### [HitKind](global-decls/HitKind.md)
+#### [HitKind](/stdlib-reference/global-decls/HitKind)
 
-#### [HitTriangleVertexPosition](global-decls/HitTriangleVertexPosition.md)
+#### [HitTriangleVertexPosition](/stdlib-reference/global-decls/HitTriangleVertexPosition)
 
-#### [IgnoreHit](global-decls/IgnoreHit.md)
+#### [IgnoreHit](/stdlib-reference/global-decls/IgnoreHit)
 
-#### [InstanceID](global-decls/InstanceID.md)
+#### [InstanceID](/stdlib-reference/global-decls/InstanceID)
 
-#### [InstanceIndex](global-decls/InstanceIndex.md)
+#### [InstanceIndex](/stdlib-reference/global-decls/InstanceIndex)
 
-#### [ObjectRayDirection](global-decls/ObjectRayDirection.md)
+#### [ObjectRayDirection](/stdlib-reference/global-decls/ObjectRayDirection)
 
-#### [ObjectRayOrigin](global-decls/ObjectRayOrigin.md)
+#### [ObjectRayOrigin](/stdlib-reference/global-decls/ObjectRayOrigin)
 
-#### [ObjectToWorld](global-decls/ObjectToWorld.md)
+#### [ObjectToWorld](/stdlib-reference/global-decls/ObjectToWorld)
 
-#### [ObjectToWorld3x4](global-decls/ObjectToWorld3x4.md)
+#### [ObjectToWorld3x4](/stdlib-reference/global-decls/ObjectToWorld3x4)
 
-#### [ObjectToWorld4x3](global-decls/ObjectToWorld4x3.md)
+#### [ObjectToWorld4x3](/stdlib-reference/global-decls/ObjectToWorld4x3)
 
-#### [PrimitiveIndex](global-decls/PrimitiveIndex.md)
+#### [PrimitiveIndex](/stdlib-reference/global-decls/PrimitiveIndex)
 
-#### [RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH](global-decls/RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH.md)
+#### [RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH](/stdlib-reference/global-decls/RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH)
 
-#### [RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES](global-decls/RAY_FLAG_CULL_BACK_FACING_TRIANGLES.md)
+#### [RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES](/stdlib-reference/global-decls/RAY_FLAG_CULL_BACK_FACING_TRIANGLES)
 
-#### [RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES](global-decls/RAY_FLAG_CULL_FRONT_FACING_TRIANGLES.md)
+#### [RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES](/stdlib-reference/global-decls/RAY_FLAG_CULL_FRONT_FACING_TRIANGLES)
 
-#### [RAY\_FLAG\_CULL\_NON\_OPAQUE](global-decls/RAY_FLAG_CULL_NON_OPAQUE.md)
+#### [RAY\_FLAG\_CULL\_NON\_OPAQUE](/stdlib-reference/global-decls/RAY_FLAG_CULL_NON_OPAQUE)
 
-#### [RAY\_FLAG\_CULL\_OPAQUE](global-decls/RAY_FLAG_CULL_OPAQUE.md)
+#### [RAY\_FLAG\_CULL\_OPAQUE](/stdlib-reference/global-decls/RAY_FLAG_CULL_OPAQUE)
 
-#### [RAY\_FLAG\_FORCE\_NON\_OPAQUE](global-decls/RAY_FLAG_FORCE_NON_OPAQUE.md)
+#### [RAY\_FLAG\_FORCE\_NON\_OPAQUE](/stdlib-reference/global-decls/RAY_FLAG_FORCE_NON_OPAQUE)
 
-#### [RAY\_FLAG\_FORCE\_OPAQUE](global-decls/RAY_FLAG_FORCE_OPAQUE.md)
+#### [RAY\_FLAG\_FORCE\_OPAQUE](/stdlib-reference/global-decls/RAY_FLAG_FORCE_OPAQUE)
 
-#### [RAY\_FLAG\_NONE](global-decls/RAY_FLAG_NONE.md)
+#### [RAY\_FLAG\_NONE](/stdlib-reference/global-decls/RAY_FLAG_NONE)
 
-#### [RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER](global-decls/RAY_FLAG_SKIP_CLOSEST_HIT_SHADER.md)
+#### [RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER](/stdlib-reference/global-decls/RAY_FLAG_SKIP_CLOSEST_HIT_SHADER)
 
-#### [RAY\_FLAG\_SKIP\_PROCEDURAL\_PRIMITIVES](global-decls/RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES.md)
+#### [RAY\_FLAG\_SKIP\_PROCEDURAL\_PRIMITIVES](/stdlib-reference/global-decls/RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES)
 
-#### [RAY\_FLAG\_SKIP\_TRIANGLES](global-decls/RAY_FLAG_SKIP_TRIANGLES.md)
+#### [RAY\_FLAG\_SKIP\_TRIANGLES](/stdlib-reference/global-decls/RAY_FLAG_SKIP_TRIANGLES)
 
-#### [RayCurrentTime](global-decls/RayCurrentTime.md)
+#### [RayCurrentTime](/stdlib-reference/global-decls/RayCurrentTime)
 
-#### [RayFlags](global-decls/RayFlags.md)
+#### [RayFlags](/stdlib-reference/global-decls/RayFlags)
 
-#### [RayTCurrent](global-decls/RayTCurrent.md)
+#### [RayTCurrent](/stdlib-reference/global-decls/RayTCurrent)
 
-#### [RayTMin](global-decls/RayTMin.md)
+#### [RayTMin](/stdlib-reference/global-decls/RayTMin)
 
-#### [ReportHit\<A\>](global-decls/ReportHit.md)
+#### [ReportHit\<A\>](/stdlib-reference/global-decls/ReportHit)
 
-#### [ReportHitOptix\<each T\>](global-decls/ReportHitOptix.md)
+#### [ReportHitOptix\<each T\>](/stdlib-reference/global-decls/ReportHitOptix)
 
-#### [TraceMotionRay\<payload\_t\>](global-decls/TraceMotionRay.md)
+#### [TraceMotionRay\<payload\_t\>](/stdlib-reference/global-decls/TraceMotionRay)
 
-#### [TraceRay\<payload\_t\>](global-decls/TraceRay.md)
+#### [TraceRay\<payload\_t\>](/stdlib-reference/global-decls/TraceRay)
 
-#### [WorldRayDirection](global-decls/WorldRayDirection.md)
+#### [WorldRayDirection](/stdlib-reference/global-decls/WorldRayDirection)
 
-#### [WorldRayOrigin](global-decls/WorldRayOrigin.md)
+#### [WorldRayOrigin](/stdlib-reference/global-decls/WorldRayOrigin)
 
-#### [WorldToObject](global-decls/WorldToObject.md)
+#### [WorldToObject](/stdlib-reference/global-decls/WorldToObject)
 
-#### [WorldToObject3x4](global-decls/WorldToObject3x4.md)
+#### [WorldToObject3x4](/stdlib-reference/global-decls/WorldToObject3x4)
 
-#### [WorldToObject4x3](global-decls/WorldToObject4x3.md)
+#### [WorldToObject4x3](/stdlib-reference/global-decls/WorldToObject4x3)
 

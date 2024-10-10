@@ -5,19 +5,19 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AppendStructuredBuffer\<T, L\>](types/AppendStructuredBuffer/index.md)
+#### [AppendStructuredBuffer\<T, L\>](/stdlib-reference/types/AppendStructuredBuffer/index)
 
-#### [ByteAddressBuffer](types/ByteAddressBuffer/index.md)
+#### [ByteAddressBuffer](/stdlib-reference/types/ByteAddressBuffer/index)
 
-#### [ConsumeStructuredBuffer\<T, L\>](types/ConsumeStructuredBuffer/index.md)
+#### [ConsumeStructuredBuffer\<T, L\>](/stdlib-reference/types/ConsumeStructuredBuffer/index)
 
-#### [RWByteAddressBuffer](types/RWByteAddressBuffer/index.md)
+#### [RWByteAddressBuffer](/stdlib-reference/types/RWByteAddressBuffer/index)
 
-#### [RWStructuredBuffer\<T, L\>](types/RWStructuredBuffer/index.md)
+#### [RWStructuredBuffer\<T, L\>](/stdlib-reference/types/RWStructuredBuffer/index)
 
-#### [RasterizerOrderedByteAddressBuffer](types/RasterizerOrderedByteAddressBuffer/index.md)
+#### [RasterizerOrderedByteAddressBuffer](/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index)
 
-#### [RasterizerOrderedStructuredBuffer\<T, L\>](types/RasterizerOrderedStructuredBuffer/index.md)
+#### [RasterizerOrderedStructuredBuffer\<T, L\>](/stdlib-reference/types/RasterizerOrderedStructuredBuffer/index)
 
-#### [StructuredBuffer\<T, L\>](types/StructuredBuffer/index.md)
+#### [StructuredBuffer\<T, L\>](/stdlib-reference/types/StructuredBuffer/index)
 
