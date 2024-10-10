@@ -32,8 +32,6 @@ body {
     background:none;
 }
 
-
-
 .highlight .cm {
   color: #148b04;
 }
@@ -200,4 +198,244 @@ pre code {
 .highlight
 {
     background: #F8F8F8;
+}
+
+#centeringDiv {
+  margin: auto;
+  max-width: 1500px;
+}
+#navDiv
+{
+  display: block;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F0;
+}
+#navDiv nav
+{
+  float:left;
+}
+#navDiv::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#navDiv nav li::after
+{
+  content: "/";
+  padding-left: 10px;
+  padding-right: 0px;
+  color: #808080;
+}
+#navDiv nav li
+{
+  display:inline;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+#tocColumn {
+  width: 350px;
+  height: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  display: block;
+}
+#tocSearchPanel{
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:25px;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:0px;
+}
+#tocSearchResult{
+  position: absolute;
+  top: 45px;
+  width: 280px;
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  filter: drop-shadow(2px 2px 4px #30303080);
+  background-color: #F0F0F0;
+  left: 20px;
+  display: none;
+  z-index: 1000;
+  padding: 10px;
+  padding-left: 20px;
+}
+#txtSearch{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#tocScrollContainer {
+  position:absolute;
+  top: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: auto;
+}
+
+#tocInner {
+  padding: 10px;
+}
+
+#rightColumn {
+  padding-left: 390px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.toc_root_list {
+  list-style-type: none;
+  list-style-position: outside;
+  background-color: initial;
+  padding-left: 0px;
+}
+.toc_list {
+    padding-left: 16px;
+    background-color: initial;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+.toc_item {
+    cursor: pointer;
+    user-select: none;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+.toc_item_expanded::before {
+    content: "\25be";
+    cursor: pointer;
+}
+.toc_item_collapsed::before {
+    content: "\25b8";
+    cursor: pointer;
+}
+.toc_item_leaf {
+    padding-left: 14px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.toc_span:hover
+{
+  color: #d5000d;
+}
+.tocIcon
+{
+  vertical-align: -2.5px;
+}
+.goto_highlight
+{
+    background-color: #ffee71;
+    transition: background-color 0.5s ease-out;
+}
+.goto_highlight_fade_out
+{
+  background-color: transparent;
+  transition: 2s ease-out;
+}
+.editButton
+{
+  float: right;
+  margin-right: 10px;
+  color:#808080;
+}
+.editIcon
+{
+  fill: currentColor;
+  vertical-align: text-top;
+}
+.code
+{
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  background-color: #F0F0F0;
+}
+.code_type
+{
+  color:#267F99
+}
+.code_keyword
+{
+  color:#0000FF
+}
+.code_var
+{
+  color:#001080
+}
+.code_param
+{
+  color:#808080
+}
+h2 {
+  margin-top: 1em;
+}
+#btnToggleTOC {
+  display: none;
+  width: fit-content;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 1px;
+  background-color: #E8E8E8;
+}
+#btnToggleTOC:hover {
+  background-color: #F0F0E8;
+}
+#btnToggleTOC:active {
+  background-color: #D4D4D4;
+}
+@media screen and (max-width: 900px) {
+  #tocColumn {
+    width: 300px;
+    display: block;
+    box-sizing: border-box;
+  }
+  #rightColumn {
+    padding-left: 320px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #tocColumn {
+    width: 100%;
+    position: static;
+    display: none;
+    border-right-style: none;
+    box-sizing: content-box;
+  }
+  #tocSearchPanel{
+    position: static;
+  }
+  #tocSearchResult{
+    position:static;
+    margin-left:20px;
+  }
+  #tocScrollContainer {
+    position: static;
+  }
+  #tocInner {
+    padding: 10px;
+  }
+  #rightColumn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #centeringDiv {
+     padding-left: 0px;
+  }
+  #btnToggleTOC {
+    display: block;
+  }
 }
