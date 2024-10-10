@@ -5,7 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [DispatchMesh\<P\>](global-decls/DispatchMesh.md)
+#### [DispatchMesh\<P\>](/stdlib-reference/global-decls/DispatchMesh)
 
-#### [SetMeshOutputCounts](global-decls/SetMeshOutputCounts.md)
+#### [SetMeshOutputCounts](/stdlib-reference/global-decls/SetMeshOutputCounts)
 

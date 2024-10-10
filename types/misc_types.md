@@ -5,27 +5,27 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [DefaultDataLayout](types/DefaultDataLayout/index.md)
+#### [DefaultDataLayout](/stdlib-reference/types/DefaultDataLayout/index)
 
-#### [MemoryOrder](types/MemoryOrder/index.md)
+#### [MemoryOrder](/stdlib-reference/types/MemoryOrder/index)
 
-#### [NativeString](types/NativeString/index.md)
+#### [NativeString](/stdlib-reference/types/NativeString/index)
 
-#### [ScalarDataLayout](types/ScalarDataLayout/index.md)
+#### [ScalarDataLayout](/stdlib-reference/types/ScalarDataLayout/index)
 
-#### [Std140DataLayout](types/Std140DataLayout/index.md)
+#### [Std140DataLayout](/stdlib-reference/types/Std140DataLayout/index)
 
-#### [Std430DataLayout](types/Std430DataLayout/index.md)
+#### [Std430DataLayout](/stdlib-reference/types/Std430DataLayout/index)
 
-#### [\_\_Shape1D](types/Shape1D/index.md)
+#### [\_\_Shape1D](/stdlib-reference/types/Shape1D/index)
 
-#### [\_\_Shape2D](types/Shape2D/index.md)
+#### [\_\_Shape2D](/stdlib-reference/types/Shape2D/index)
 
-#### [\_\_Shape3D](types/Shape3D/index.md)
+#### [\_\_Shape3D](/stdlib-reference/types/Shape3D/index)
 
-#### [\_\_ShapeBuffer](types/ShapeBuffer/index.md)
+#### [\_\_ShapeBuffer](/stdlib-reference/types/ShapeBuffer/index)
 
-#### [\_\_ShapeCube](types/ShapeCube/index.md)
+#### [\_\_ShapeCube](/stdlib-reference/types/ShapeCube/index)
 
-#### [string](types/string.md)
+#### [string](/stdlib-reference/types/string)
 

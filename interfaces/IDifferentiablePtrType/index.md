@@ -6,7 +6,12 @@ layout: stdlib-reference
 
 # Associated types
 
-* _Differential_ 
-  ``
+#### _Differential
+
+
+
+Constraints:
+
+  - This\.Differential : IDifferentiablePtrType
 
 

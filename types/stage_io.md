@@ -5,29 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InputPatch\<T, N:int\>](types/InputPatch/index.md)
+#### [InputPatch\<T, N:int\>](/stdlib-reference/types/InputPatch/index)
 
-#### [LineStream\<T\>](types/LineStream/index.md)
+#### [LineStream\<T\>](/stdlib-reference/types/LineStream/index)
 
-#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](types/OutputIndices/index.md)
+#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/OutputIndices/index)
 
-#### [OutputPatch\<T, N:int\>](types/OutputPatch/index.md)
+#### [OutputPatch\<T, N:int\>](/stdlib-reference/types/OutputPatch/index)
 
-#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](types/OutputPrimitives/index.md)
+#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/OutputPrimitives/index)
 
-#### [OutputVertices\<T, MAX\_VERTS:uint\>](types/OutputVertices/index.md)
+#### [OutputVertices\<T, MAX\_VERTS:uint\>](/stdlib-reference/types/OutputVertices/index)
 
-#### [PointStream\<T\>](types/PointStream/index.md)
+#### [PointStream\<T\>](/stdlib-reference/types/PointStream/index)
 
-#### [SubpassInput\<T, isMS:int\>](types/SubpassInput.md)
+#### [SubpassInput\<T, isMS:int\>](/stdlib-reference/types/SubpassInput)
 
-#### [SubpassInputMS\<T, isMS:int\>](types/SubpassInputMS.md)
+#### [SubpassInputMS\<T, isMS:int\>](/stdlib-reference/types/SubpassInputMS)
 
-#### [TextureFootprint\<ND:int\>](types/TextureFootprint/index.md)
+#### [TextureFootprint\<ND:int\>](/stdlib-reference/types/TextureFootprint/index)
 
-#### [TextureFootprint2D](types/TextureFootprint2D.md)
+#### [TextureFootprint2D](/stdlib-reference/types/TextureFootprint2D)
 
-#### [TextureFootprint3D](types/TextureFootprint3D.md)
+#### [TextureFootprint3D](/stdlib-reference/types/TextureFootprint3D)
 
-#### [TriangleStream\<T\>](types/TriangleStream/index.md)
+#### [TriangleStream\<T\>](/stdlib-reference/types/TriangleStream/index)
 
