@@ -5,23 +5,23 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [Process2DQuadTessFactorsAvg](/stdlib-reference/global-decls/Process2DQuadTessFactorsAvg)
+#### [Process2DQuadTessFactorsAvg](global-decls/Process2DQuadTessFactorsAvg.md)
 
-#### [Process2DQuadTessFactorsMax](/stdlib-reference/global-decls/Process2DQuadTessFactorsMax)
+#### [Process2DQuadTessFactorsMax](global-decls/Process2DQuadTessFactorsMax.md)
 
-#### [Process2DQuadTessFactorsMin](/stdlib-reference/global-decls/Process2DQuadTessFactorsMin)
+#### [Process2DQuadTessFactorsMin](global-decls/Process2DQuadTessFactorsMin.md)
 
-#### [ProcessIsolineTessFactors](/stdlib-reference/global-decls/ProcessIsolineTessFactors)
+#### [ProcessIsolineTessFactors](global-decls/ProcessIsolineTessFactors.md)
 
-#### [ProcessQuadTessFactorsAvg](/stdlib-reference/global-decls/ProcessQuadTessFactorsAvg)
+#### [ProcessQuadTessFactorsAvg](global-decls/ProcessQuadTessFactorsAvg.md)
 
-#### [ProcessQuadTessFactorsMax](/stdlib-reference/global-decls/ProcessQuadTessFactorsMax)
+#### [ProcessQuadTessFactorsMax](global-decls/ProcessQuadTessFactorsMax.md)
 
-#### [ProcessQuadTessFactorsMin](/stdlib-reference/global-decls/ProcessQuadTessFactorsMin)
+#### [ProcessQuadTessFactorsMin](global-decls/ProcessQuadTessFactorsMin.md)
 
-#### [ProcessTriTessFactorsAvg](/stdlib-reference/global-decls/ProcessTriTessFactorsAvg)
+#### [ProcessTriTessFactorsAvg](global-decls/ProcessTriTessFactorsAvg.md)
 
-#### [ProcessTriTessFactorsMax](/stdlib-reference/global-decls/ProcessTriTessFactorsMax)
+#### [ProcessTriTessFactorsMax](global-decls/ProcessTriTessFactorsMax.md)
 
-#### [ProcessTriTessFactorsMin](/stdlib-reference/global-decls/ProcessTriTessFactorsMin)
+#### [ProcessTriTessFactorsMin](global-decls/ProcessTriTessFactorsMin.md)
 

@@ -5,19 +5,19 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [BuiltInTriangleIntersectionAttributes](/stdlib-reference/types/BuiltInTriangleIntersectionAttributes/index)
+#### [BuiltInTriangleIntersectionAttributes](types/BuiltInTriangleIntersectionAttributes/index.md)
 
-#### [CANDIDATE\_TYPE](/stdlib-reference/types/CANDIDATE_TYPE)
+#### [CANDIDATE\_TYPE](types/CANDIDATE_TYPE.md)
 
-#### [COMMITTED\_STATUS](/stdlib-reference/types/COMMITTED_STATUS)
+#### [COMMITTED\_STATUS](types/COMMITTED_STATUS.md)
 
-#### [HitObject](/stdlib-reference/types/HitObject/index)
+#### [HitObject](types/HitObject/index.md)
 
-#### [RAY\_FLAG](/stdlib-reference/types/RAY_FLAG)
+#### [RAY\_FLAG](types/RAY_FLAG.md)
 
-#### [RayDesc](/stdlib-reference/types/RayDesc/index)
+#### [RayDesc](types/RayDesc/index.md)
 
-#### [RayQuery\<rayFlagsGeneric:uint\>](/stdlib-reference/types/RayQuery/index)
+#### [RayQuery\<rayFlagsGeneric:uint\>](types/RayQuery/index.md)
 
-#### [RaytracingAccelerationStructure](/stdlib-reference/types/RaytracingAccelerationStructure/index)
+#### [RaytracingAccelerationStructure](types/RaytracingAccelerationStructure/index.md)
 

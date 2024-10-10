@@ -5,19 +5,19 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [float16\_t](/stdlib-reference/types/float16_t)
+#### [float16\_t](types/float16_t.md)
 
-#### [float32\_t](/stdlib-reference/types/float32_t)
+#### [float32\_t](types/float32_t.md)
 
-#### [float64\_t](/stdlib-reference/types/float64_t)
+#### [float64\_t](types/float64_t.md)
 
-#### [int32\_t](/stdlib-reference/types/int32_t)
+#### [int32\_t](types/int32_t.md)
 
-#### [size\_t](/stdlib-reference/types/size_t)
+#### [size\_t](types/size_t.md)
 
-#### [ssize\_t](/stdlib-reference/types/ssize_t)
+#### [ssize\_t](types/ssize_t.md)
 
-#### [uint32\_t](/stdlib-reference/types/uint32_t)
+#### [uint32\_t](types/uint32_t.md)
 
-#### [usize\_t](/stdlib-reference/types/usize_t)
+#### [usize\_t](types/usize_t.md)
 
