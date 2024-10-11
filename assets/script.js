@@ -166,7 +166,7 @@ if (selectedItem != null)
     var visible = selectedItem.getBoundingClientRect().y >= 0 && 
     selectedItem.getBoundingClientRect().bottom <= tocScrollContainer.getBoundingClientRect().height;
     if (!visible)
-    selectedItem.scrollIntoView(true);
+    selectedItem.scrollIntoView({ block: 'nearest' });
 }
 var subItems = selectedItem.getElementsByTagName("li");
 var subSectionTitles = [];

@@ -241,41 +241,73 @@ pre code {
   height: 100%;
   position: fixed;
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 #tocSearchPanel{
-  position:absolute;
-  top:0px;
-  left:0px;
-  right:0px;
+  flex: none;
   height:25px;
-  padding-top:20px;
-  padding-left:20px;
-  padding-right:20px;
-  padding-bottom:0px;
+  padding-top:10px;
+  padding-bottom: 0px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-bottom:5px;
+  display: flex;
+}
+#tocSearchPanelInner{
+  flex:1 1 0;
+  padding:5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center; 
+}
+.search_panel_unfocused
+{
+  outline: solid 2px #E0E0E0;
+}
+.search_panel_unfocused:hover
+{
+  outline: solid 2px #C0C0C0;
+}
+.search_panel_focused
+{
+  outline: solid 2px rgb(228, 109, 85);
 }
 #tocSearchResult{
   position: absolute;
-  top: 45px;
-  width: 280px;
+  left:10px;
+  top:0px;
+  width: 280px; 
   max-height: 350px;
   overflow-y: auto;
   border: 1px solid #ccc;
   filter: drop-shadow(2px 2px 4px #30303080);
   background-color: #F0F0F0;
-  left: 20px;
   display: none;
   z-index: 1000;
-  padding: 10px;
-  padding-left: 20px;
 }
 #txtSearch{
-  position: relative;
-  width: 100%;
+  order: 1;
+  flex: 1 1 0;
   height: 100%;
+  border: none;
+  outline:none;
+}
+input:focus{
+  border: none;
+  outline:none;
+}
+.searchIcon{
+  order: 0;
+  right: 0px;
+  top: 5px;
+  fill: #808080;;
+  color: #808080;
+  flex: none;
 }
 #tocScrollContainer {
-  position:absolute;
+  flex: 1 0 0;
   top: 50px;
   bottom: 0px;
   left: 0px;
@@ -325,6 +357,15 @@ pre code {
     cursor: pointer;
     list-style-type: none;
 }
+.search_result_item {
+  cursor: pointer;
+  user-select: none;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .toc_span:hover
 {
   color: #d5000d;
@@ -375,6 +416,10 @@ pre code {
 {
   color:#808080
 }
+.highlighted_search_selection
+{
+  background-color: #FFE0E0;
+}
 h2 {
   margin-top: 1em;
 }
@@ -410,20 +455,14 @@ h2 {
 @media screen and (max-width: 700px) {
   #tocColumn {
     width: 100%;
-    position: static;
+    position: relative;
     display: none;
     border-right-style: none;
     box-sizing: content-box;
   }
-  #tocSearchPanel{
-    position: static;
-  }
-  #tocSearchResult{
-    position:static;
-    margin-left:20px;
-  }
   #tocScrollContainer {
-    position: static;
+    position: relative;
+    top: 0px;
   }
   #tocInner {
     padding: 10px;
