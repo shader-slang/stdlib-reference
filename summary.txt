@@ -1,0 +1,685 @@
+documented pages: 113
+undocumented pages: 682(85.8%)
+
+IArithmetic
+IArithmetic.add
+IArithmetic.div
+IArithmetic.mod
+IArithmetic.mul
+IArithmetic.neg
+IArithmetic.sub
+IArithmeticAtomicable
+IAtomicable
+IBitAtomicable
+IBufferDataLayout
+IComparable
+IComparable.equals
+IComparable.lessThan
+IComparable.lessThanOrEquals
+IDefaultInitializable
+IDefaultInitializable.init
+IDifferentiable.dadd
+IDifferentiable.dmul<T>
+IDifferentiable.dzero
+IDifferentiableFunc<TR, each TP>
+IDifferentiableFunc<TR, each TP>.operator()
+IDifferentiableMutatingFunc<TR, each TP>
+IDifferentiableMutatingFunc<TR, each TP>.operator()
+IDifferentiablePtrType
+IFloat
+IFloat.add
+IFloat.div
+IFloat.init
+IFloat.mod
+IFloat.mul
+IFloat.neg
+IFloat.scale<T>
+IFloat.sub
+IFloat.toFloat
+IFunc<TR, each TP>
+IFunc<TR, each TP>.operator()
+IInteger
+IInteger.init
+IInteger.toInt
+IInteger.toInt64
+IInteger.toUInt
+IInteger.toUInt64
+ILogical
+ILogical.and
+ILogical.bitAnd
+ILogical.bitNot
+ILogical.bitOr
+ILogical.bitXor
+ILogical.init
+ILogical.not
+ILogical.or
+ILogical.shl
+ILogical.shr
+IMutatingFunc<TR, each TP>
+IMutatingFunc<TR, each TP>.operator()
+IRangedValue
+IRangedValue.maxValue
+IRangedValue.minValue
+__BuiltinArithmeticType
+__BuiltinFloatingPointType
+__BuiltinIntegerType
+__BuiltinLogicalType
+__ITextureShape
+__ITextureShape.dimensions
+__ITextureShape.flavor
+__ITextureShape.planeDimensions
+__ITextureShape1D2D3D
+AppendStructuredBuffer<T, L>.Append
+AppendStructuredBuffer<T, L>.GetDimensions
+Array<T, N:int>
+Array<T, N:int>.getCount
+Atomic<T>.add
+Atomic<T>.and
+Atomic<T>.compareExchange
+Atomic<T>.decrement
+Atomic<T>.exchange
+Atomic<T>.increment
+Atomic<T>.load
+Atomic<T>.max
+Atomic<T>.min
+Atomic<T>.or
+Atomic<T>.store
+Atomic<T>.sub
+Atomic<T>.xor
+Buffer<T, format:int>
+BuiltInTriangleIntersectionAttributes
+BuiltInTriangleIntersectionAttributes.barycentrics
+ByteAddressBuffer
+ByteAddressBuffer.GetDimensions
+ByteAddressBuffer.Load
+ByteAddressBuffer.Load2
+ByteAddressBuffer.Load2Aligned
+ByteAddressBuffer.Load3
+ByteAddressBuffer.Load3Aligned
+ByteAddressBuffer.Load4
+ByteAddressBuffer.Load4Aligned
+ByteAddressBuffer.LoadAligned<T>
+ConstantBuffer<T>
+ConsumeStructuredBuffer<T, L>.Consume
+ConsumeStructuredBuffer<T, L>.GetDimensions
+DefaultDataLayout
+DifferentialPair<T>.Differential
+DifferentialPair<T>.DifferentialElementType
+DifferentialPair<T>.d
+DifferentialPair<T>.dadd
+DifferentialPair<T>.dmul<U>
+DifferentialPair<T>.dzero
+DifferentialPair<T>.getDifferential
+DifferentialPair<T>.getPrimal
+DifferentialPair<T>.init
+DifferentialPair<T>.p
+DifferentialPair<T>.v
+DifferentialPtrPair<T>
+DifferentialPtrPair<T>.Differential
+DifferentialPtrPair<T>.DifferentialElementType
+DifferentialPtrPair<T>.d
+DifferentialPtrPair<T>.init
+DifferentialPtrPair<T>.p
+DifferentialPtrPair<T>.v
+FeedbackTexture2D<T, sampleCount:int, format:int>
+FeedbackTexture2DArray<T, sampleCount:int, format:int>
+HitObject.GetCurrentTime
+HitObject.GetObjectRayDirection
+HitObject.GetObjectRayOrigin
+HitObject.GetObjectToWorld
+HitObject.GetShaderRecordBufferHandle
+HitObject.GetWorldToObject
+HitObject.MakeMotionHit<attr_t>
+HitObject.MakeMotionMiss
+HitObject.init
+InputPatch<T, N:int>
+InputPatch<T, N:int>.subscript<TIndex>
+LineStream<T>
+LineStream<T>.Append
+LineStream<T>.RestartStrip
+MemoryOrder
+NativeString
+NativeString.getBuffer
+NativeString.getLength
+NativeString.init
+NativeString.length
+Optional<T>
+Optional<T>.hasValue
+Optional<T>.init
+Optional<T>.value
+OutputIndices<T, MAX_PRIMITIVES:uint>
+OutputIndices<T, MAX_PRIMITIVES:uint>.subscript
+OutputPatch<T, N:int>
+OutputPatch<T, N:int>.subscript<TIndex>
+OutputPrimitives<T, MAX_PRIMITIVES:uint>
+OutputPrimitives<T, MAX_PRIMITIVES:uint>.subscript
+OutputVertices<T, MAX_VERTS:uint>
+OutputVertices<T, MAX_VERTS:uint>._metalSetVertex
+OutputVertices<T, MAX_VERTS:uint>._setVertex
+OutputVertices<T, MAX_VERTS:uint>.subscript
+ParameterBlock<T>
+PointStream<T>
+PointStream<T>.Append
+PointStream<T>.RestartStrip
+Ptr<T, addrSpace:uint64_t>
+Ptr<T, addrSpace:uint64_t>.init<U>
+Ptr<T, addrSpace:uint64_t>.subscript<TInt>
+RAY_FLAG
+RWBuffer<T, format:int>
+RWByteAddressBuffer
+RWByteAddressBuffer.GetDimensions
+RWByteAddressBuffer.InterlockedAdd
+RWByteAddressBuffer.InterlockedAdd64
+RWByteAddressBuffer.InterlockedAddF16
+RWByteAddressBuffer.InterlockedAddF32
+RWByteAddressBuffer.InterlockedAddI64
+RWByteAddressBuffer.InterlockedAnd
+RWByteAddressBuffer.InterlockedAnd64
+RWByteAddressBuffer.InterlockedAndU64
+RWByteAddressBuffer.InterlockedCompareExchange
+RWByteAddressBuffer.InterlockedCompareExchange64
+RWByteAddressBuffer.InterlockedCompareExchangeFloatBitwise
+RWByteAddressBuffer.InterlockedCompareExchangeU64
+RWByteAddressBuffer.InterlockedCompareStore
+RWByteAddressBuffer.InterlockedCompareStore64
+RWByteAddressBuffer.InterlockedCompareStoreFloatBitwise
+RWByteAddressBuffer.InterlockedExchange
+RWByteAddressBuffer.InterlockedExchange64
+RWByteAddressBuffer.InterlockedExchangeFloat
+RWByteAddressBuffer.InterlockedExchangeU64
+RWByteAddressBuffer.InterlockedMax
+RWByteAddressBuffer.InterlockedMax64
+RWByteAddressBuffer.InterlockedMaxU64
+RWByteAddressBuffer.InterlockedMin
+RWByteAddressBuffer.InterlockedMin64
+RWByteAddressBuffer.InterlockedMinU64
+RWByteAddressBuffer.InterlockedOr
+RWByteAddressBuffer.InterlockedOr64
+RWByteAddressBuffer.InterlockedOrU64
+RWByteAddressBuffer.InterlockedXor
+RWByteAddressBuffer.InterlockedXor64
+RWByteAddressBuffer.InterlockedXorU64
+RWByteAddressBuffer.Load
+RWByteAddressBuffer.Load2
+RWByteAddressBuffer.Load2Aligned
+RWByteAddressBuffer.Load3
+RWByteAddressBuffer.Load3Aligned
+RWByteAddressBuffer.Load4
+RWByteAddressBuffer.Load4Aligned
+RWByteAddressBuffer.LoadAligned<T>
+RWByteAddressBuffer.Store
+RWByteAddressBuffer.Store2
+RWByteAddressBuffer.Store2Aligned
+RWByteAddressBuffer.Store3
+RWByteAddressBuffer.Store3Aligned
+RWByteAddressBuffer.Store4
+RWByteAddressBuffer.Store4Aligned
+RWByteAddressBuffer.StoreAligned<T>
+RWByteAddressBuffer._NvInterlockedAddFp16x2
+RWSampler1D<T, sampleCount:int, format:int>
+RWSampler1DArray<T, sampleCount:int, format:int>
+RWSampler2D<T, sampleCount:int, format:int>
+RWSampler2DArray<T, sampleCount:int, format:int>
+RWSampler2DMS<T, sampleCount:int, format:int>
+RWSampler2DMSArray<T, sampleCount:int, format:int>
+RWSampler3D<T, sampleCount:int, format:int>
+RWStructuredBuffer<T, L>.DecrementCounter
+RWStructuredBuffer<T, L>.GetDimensions
+RWStructuredBuffer<T, L>.IncrementCounter
+RWStructuredBuffer<T, L>.Load<TIndex>
+RWStructuredBuffer<T, L>.subscript<TIndex>
+RWTexture1D<T, sampleCount:int, format:int>
+RWTexture1DArray<T, sampleCount:int, format:int>
+RWTexture2D<T, sampleCount:int, format:int>
+RWTexture2DArray<T, sampleCount:int, format:int>
+RWTexture2DMS<T, sampleCount:int, format:int>
+RWTexture2DMSArray<T, sampleCount:int, format:int>
+RWTexture3D<T, sampleCount:int, format:int>
+RasterizerOrderedBuffer<T, format:int>
+RasterizerOrderedByteAddressBuffer
+RasterizerOrderedByteAddressBuffer.GetDimensions
+RasterizerOrderedByteAddressBuffer.InterlockedAdd
+RasterizerOrderedByteAddressBuffer.InterlockedAnd
+RasterizerOrderedByteAddressBuffer.InterlockedCompareExchange
+RasterizerOrderedByteAddressBuffer.InterlockedCompareStore
+RasterizerOrderedByteAddressBuffer.InterlockedExchange
+RasterizerOrderedByteAddressBuffer.InterlockedMax
+RasterizerOrderedByteAddressBuffer.InterlockedMin
+RasterizerOrderedByteAddressBuffer.InterlockedOr
+RasterizerOrderedByteAddressBuffer.InterlockedXor
+RasterizerOrderedByteAddressBuffer.Load
+RasterizerOrderedByteAddressBuffer.Load2
+RasterizerOrderedByteAddressBuffer.Load2Aligned
+RasterizerOrderedByteAddressBuffer.Load3
+RasterizerOrderedByteAddressBuffer.Load3Aligned
+RasterizerOrderedByteAddressBuffer.Load4
+RasterizerOrderedByteAddressBuffer.Load4Aligned
+RasterizerOrderedByteAddressBuffer.LoadAligned<T>
+RasterizerOrderedByteAddressBuffer.Store
+RasterizerOrderedByteAddressBuffer.Store2
+RasterizerOrderedByteAddressBuffer.Store2Aligned
+RasterizerOrderedByteAddressBuffer.Store3
+RasterizerOrderedByteAddressBuffer.Store3Aligned
+RasterizerOrderedByteAddressBuffer.Store4
+RasterizerOrderedByteAddressBuffer.Store4Aligned
+RasterizerOrderedByteAddressBuffer.StoreAligned<T>
+RasterizerOrderedSampler1D<T, sampleCount:int, format:int>
+RasterizerOrderedSampler1DArray<T, sampleCount:int, format:int>
+RasterizerOrderedSampler2D<T, sampleCount:int, format:int>
+RasterizerOrderedSampler2DArray<T, sampleCount:int, format:int>
+RasterizerOrderedSampler3D<T, sampleCount:int, format:int>
+RasterizerOrderedStructuredBuffer<T, L>.DecrementCounter
+RasterizerOrderedStructuredBuffer<T, L>.GetDimensions
+RasterizerOrderedStructuredBuffer<T, L>.IncrementCounter
+RasterizerOrderedStructuredBuffer<T, L>.Load<TIndex>
+RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
+RasterizerOrderedTexture1D<T, sampleCount:int, format:int>
+RasterizerOrderedTexture1DArray<T, sampleCount:int, format:int>
+RasterizerOrderedTexture2D<T, sampleCount:int, format:int>
+RasterizerOrderedTexture2DArray<T, sampleCount:int, format:int>
+RasterizerOrderedTexture3D<T, sampleCount:int, format:int>
+RayDesc
+RayDesc.Direction
+RayDesc.Origin
+RayDesc.TMax
+RayDesc.TMin
+RayQuery<rayFlagsGeneric:uint>
+RayQuery<rayFlagsGeneric:uint>.Abort
+RayQuery<rayFlagsGeneric:uint>.CandidateGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateGetIntersectionTriangleVertexPositions
+RayQuery<rayFlagsGeneric:uint>.CandidateInstanceContributionToHitGroupIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateInstanceID
+RayQuery<rayFlagsGeneric:uint>.CandidateInstanceIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateObjectRayDirection
+RayQuery<rayFlagsGeneric:uint>.CandidateObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CandidateObjectToWorld3x4
+RayQuery<rayFlagsGeneric:uint>.CandidateObjectToWorld4x3
+RayQuery<rayFlagsGeneric:uint>.CandidatePrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateProceduralPrimitiveNonOpaque
+RayQuery<rayFlagsGeneric:uint>.CandidateRayBarycentrics
+RayQuery<rayFlagsGeneric:uint>.CandidateRayFrontFace
+RayQuery<rayFlagsGeneric:uint>.CandidateRayGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateRayInstanceCustomIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateRayInstanceId
+RayQuery<rayFlagsGeneric:uint>.CandidateRayInstanceShaderBindingTableRecordOffset
+RayQuery<rayFlagsGeneric:uint>.CandidateRayObjectRayDirection
+RayQuery<rayFlagsGeneric:uint>.CandidateRayObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CandidateRayObjectToWorld
+RayQuery<rayFlagsGeneric:uint>.CandidateRayPrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateRayWorldToObject
+RayQuery<rayFlagsGeneric:uint>.CandidateTriangleBarycentrics
+RayQuery<rayFlagsGeneric:uint>.CandidateTriangleFrontFace
+RayQuery<rayFlagsGeneric:uint>.CandidateTriangleRayT
+RayQuery<rayFlagsGeneric:uint>.CandidateType
+RayQuery<rayFlagsGeneric:uint>.CandidateWorldToObject3x4
+RayQuery<rayFlagsGeneric:uint>.CandidateWorldToObject4x3
+RayQuery<rayFlagsGeneric:uint>.CommitNonOpaqueTriangleHit
+RayQuery<rayFlagsGeneric:uint>.CommitProceduralPrimitiveHit
+RayQuery<rayFlagsGeneric:uint>.CommittedGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedGetIntersectionTriangleVertexPositions
+RayQuery<rayFlagsGeneric:uint>.CommittedInstanceContributionToHitGroupIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedInstanceID
+RayQuery<rayFlagsGeneric:uint>.CommittedInstanceIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedObjectRayDirection
+RayQuery<rayFlagsGeneric:uint>.CommittedObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CommittedObjectToWorld3x4
+RayQuery<rayFlagsGeneric:uint>.CommittedObjectToWorld4x3
+RayQuery<rayFlagsGeneric:uint>.CommittedPrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayBarycentrics
+RayQuery<rayFlagsGeneric:uint>.CommittedRayFrontFace
+RayQuery<rayFlagsGeneric:uint>.CommittedRayGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayInstanceCustomIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayInstanceId
+RayQuery<rayFlagsGeneric:uint>.CommittedRayInstanceShaderBindingTableRecordOffset
+RayQuery<rayFlagsGeneric:uint>.CommittedRayObjectRayDirection
+RayQuery<rayFlagsGeneric:uint>.CommittedRayObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CommittedRayObjectToWorld
+RayQuery<rayFlagsGeneric:uint>.CommittedRayPrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayT
+RayQuery<rayFlagsGeneric:uint>.CommittedRayWorldToObject
+RayQuery<rayFlagsGeneric:uint>.CommittedStatus
+RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
+RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
+RayQuery<rayFlagsGeneric:uint>.CommittedWorldToObject3x4
+RayQuery<rayFlagsGeneric:uint>.CommittedWorldToObject4x3
+RayQuery<rayFlagsGeneric:uint>.Proceed
+RayQuery<rayFlagsGeneric:uint>.RayFlags
+RayQuery<rayFlagsGeneric:uint>.RayTMin
+RayQuery<rayFlagsGeneric:uint>.TraceRayInline
+RayQuery<rayFlagsGeneric:uint>.WorldRayDirection
+RayQuery<rayFlagsGeneric:uint>.WorldRayOrigin
+RayQuery<rayFlagsGeneric:uint>.init
+RaytracingAccelerationStructure
+SAMPLER_FEEDBACK_MIN_MIP
+SAMPLER_FEEDBACK_MIP_REGION_USED
+Sampler1D<T, sampleCount:int, format:int>
+Sampler1DArray<T, sampleCount:int, format:int>
+Sampler2D<T, sampleCount:int, format:int>
+Sampler2DArray<T, sampleCount:int, format:int>
+Sampler2DMS<T, sampleCount:int, format:int>
+Sampler2DMSArray<T, sampleCount:int, format:int>
+Sampler3D<T, sampleCount:int, format:int>
+SamplerCube<T, sampleCount:int, format:int>
+SamplerCubeArray<T, sampleCount:int, format:int>
+ScalarDataLayout
+Std140DataLayout
+Std430DataLayout
+String
+String.getLength
+String.init
+String.length
+StructuredBuffer<T, L>.GetDimensions
+StructuredBuffer<T, L>.Load<TIndex>
+StructuredBuffer<T, L>.subscript<TIndex>
+SubpassInput<T, isMS:int>
+SubpassInputMS<T, isMS:int>
+Texture1D<T, sampleCount:int, format:int>
+Texture1DArray<T, sampleCount:int, format:int>
+Texture2D<T, sampleCount:int, format:int>
+Texture2DArray<T, sampleCount:int, format:int>
+Texture2DMS<T, sampleCount:int, format:int>
+Texture2DMSArray<T, sampleCount:int, format:int>
+Texture3D<T, sampleCount:int, format:int>
+TextureBuffer<T>
+TextureCube<T, sampleCount:int, format:int>
+TextureCubeArray<T, sampleCount:int, format:int>
+TextureFootprint<ND:int>
+TextureFootprint<ND:int>._isSingleLevel
+TextureFootprint2D
+TextureFootprint3D
+TriangleStream<T>
+TriangleStream<T>.Append
+TriangleStream<T>.RestartStrip
+Tuple<each T>
+Tuple<T>.equals
+Tuple<each T>.init
+Tuple<T>.lessThan
+Tuple<T>.lessThanOrEquals
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Footprint
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.FootprintGranularity
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.Gather
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherAlpha
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherBlue
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmp
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpAlpha
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpBlue
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpGreen
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpRed
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherGreen
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherRed
+_Texture<T, __Shape1D, 0, 0, sampleCount, access, isShadow, isCombined, format>.GetDimensions
+_Texture<T, Shape, isArray, 1, sampleCount, access, isShadow, isCombined, format>.GetSamplePosition
+_Texture<float, Shape, 0, 0, 0, 1, 0, 0, format>.InterlockedAddF32
+_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.Load
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleBias
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmp
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevelZero
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleGrad
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleLevel
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.TextureCoord
+FeedbackTexture2D<T>.WriteSamplerFeedback<S>
+FeedbackTexture2D<T>.WriteSamplerFeedbackBias<S>
+FeedbackTexture2D<T>.WriteSamplerFeedbackGrad<S>
+FeedbackTexture2D<T>.WriteSamplerFeedbackLevel<S>
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarse
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBias
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBiasClamp
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseClamp
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseGrad
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseGradClamp
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseLevel
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFine
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineBias
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineBiasClamp
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineClamp
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGrad
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGradClamp
+_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineLevel
+_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.subscript
+__Shape1D
+__Shape1D.dimensions
+__Shape1D.flavor
+__Shape1D.planeDimensions
+__Shape2D
+__Shape2D.dimensions
+__Shape2D.flavor
+__Shape2D.planeDimensions
+__Shape3D
+__Shape3D.dimensions
+__Shape3D.flavor
+__Shape3D.planeDimensions
+__ShapeBuffer
+__ShapeBuffer.dimensions
+__ShapeBuffer.flavor
+__ShapeBuffer.planeDimensions
+__ShapeCube
+__ShapeCube.dimensions
+__ShapeCube.flavor
+__ShapeCube.planeDimensions
+float16_t
+float32_t
+float64_t
+int32_t
+matrix<T,N,M>.Differential
+matrix<int16_t,R,C>.T
+matrix<T,N,M>.add
+matrix<T,N,M>.dadd
+matrix<T,N,M>.div
+matrix<T,N,M>.dmul<U>
+matrix<T,N,M>.dzero
+matrix<T,N,M>.equals
+matrix<T, R:int, C:int, L:int>.getCount
+matrix<T, R:int, C:int, L:int>.init
+matrix<T,N,M>.lessThan
+matrix<T,N,M>.lessThanOrEquals
+matrix<T,N,M>.mod
+matrix<T,N,M>.mul
+matrix<T,N,M>.neg
+matrix<T,N,M>.scale<T1>
+matrix<T,N,M>.sub
+matrix<T,N,M>.toFloat
+size_t
+ssize_t
+string
+uint32_t
+usize_t
+vector<T,N>.Differential
+vector<T, N:int>.Element
+vector<T,N>.add
+vector<T,N>.dadd
+vector<T,N>.div
+vector<T,N>.dmul<U>
+vector<T,N>.dzero
+vector<T,N>.equals
+vector<T, N:int>.getCount
+vector<T,N>.lessThan
+vector<T,N>.lessThanOrEquals
+vector<T,N>.mod
+vector<T,N>.mul
+vector<T,N>.neg
+vector<T,N>.scale<T1>
+vector<T,N>.sub
+vector<T,N>.toFloat
+AcceptHitAndEndSearch
+AllMemoryBarrier
+AllMemoryBarrierWithGroupSync
+COMMITTED_TRIANGLE_HIT
+CallShader<Payload>
+CheckAccessFullyMapped
+D3DCOLORtoUBYTE4
+DispatchRaysDimensions
+DispatchRaysIndex
+EvaluateAttributeAtCentroid<T>
+EvaluateAttributeAtSample<T>
+EvaluateAttributeSnapped<T>
+GeometryIndex
+GetRenderTargetSampleCount
+GetRenderTargetSamplePosition
+HIT_KIND_TRIANGLE_BACK_FACE
+HIT_KIND_TRIANGLE_FRONT_FACE
+HitKind
+HitTriangleVertexPosition
+IgnoreHit
+InstanceID
+InstanceIndex
+InterlockedAdd
+InterlockedAnd
+InterlockedCompareExchange
+InterlockedCompareExchangeFloatBitwise
+InterlockedCompareStore
+InterlockedCompareStoreFloatBitwise
+InterlockedExchange
+InterlockedMax
+InterlockedMin
+InterlockedOr
+InterlockedXor
+IsHelperLane
+ObjectRayDirection
+ObjectRayOrigin
+ObjectToWorld
+ObjectToWorld3x4
+ObjectToWorld4x3
+PrimitiveIndex
+Process2DQuadTessFactorsAvg
+Process2DQuadTessFactorsMax
+Process2DQuadTessFactorsMin
+ProcessIsolineTessFactors
+ProcessQuadTessFactorsAvg
+ProcessQuadTessFactorsMax
+ProcessQuadTessFactorsMin
+ProcessTriTessFactorsAvg
+ProcessTriTessFactorsMax
+ProcessTriTessFactorsMin
+QuadReadAcrossDiagonal<T>
+QuadReadAcrossX<T>
+QuadReadAcrossY<T>
+QuadReadLaneAt<T>
+RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH
+RAY_FLAG_CULL_BACK_FACING_TRIANGLES
+RAY_FLAG_CULL_FRONT_FACING_TRIANGLES
+RAY_FLAG_CULL_NON_OPAQUE
+RAY_FLAG_CULL_OPAQUE
+RAY_FLAG_FORCE_NON_OPAQUE
+RAY_FLAG_FORCE_OPAQUE
+RAY_FLAG_NONE
+RAY_FLAG_SKIP_CLOSEST_HIT_SHADER
+RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES
+RAY_FLAG_SKIP_TRIANGLES
+RayCurrentTime
+RayFlags
+RayTCurrent
+RayTMin
+ReportHit<A>
+ReportHitOptix<each T>
+TraceMotionRay<payload_t>
+TraceRay<payload_t>
+WaveActiveAllEqual<T>
+WaveActiveAllTrue
+WaveActiveAnyTrue
+WaveActiveBallot
+WaveActiveBitAnd<T>
+WaveActiveBitOr<T>
+WaveActiveBitXor<T>
+WaveActiveCountBits
+WaveActiveMax<T>
+WaveActiveMin<T>
+WaveActiveProduct<T>
+WaveActiveSum<T>
+WaveBroadcastLaneAt<T>
+WaveGetActiveMulti
+WaveGetConvergedMulti
+WaveGetLaneCount
+WaveGetLaneIndex
+WaveIsFirstLane
+WaveMatch<T>
+WaveMultiPrefixBitAnd<T>
+WaveMultiPrefixBitOr<T>
+WaveMultiPrefixBitXor<T>
+WaveMultiPrefixCountBits
+WaveMultiPrefixProduct<T>
+WaveMultiPrefixSum<T>
+WavePrefixCountBits
+WavePrefixProduct<T>
+WavePrefixSum<T>
+WaveReadLaneAt<T>
+WaveReadLaneFirst<T>
+WaveShuffle<T>
+WorkgroupSize
+WorldRayDirection
+WorldRayOrigin
+WorldToObject
+WorldToObject3x4
+WorldToObject4x3
+_WaveCountBits
+abort
+abs<T>
+acos<T>
+acosh<T>
+all<T>
+any<T>
+asdouble
+asfloat
+asin<T>
+asint
+asuint
+atanh<T>
+clip<T>
+concat<each T, each U>
+copysign<T, N:int>
+copysign_double<N:int>
+copysign_float<N:int>
+copysign_half<N:int>
+cos<T>
+createDynamicObject<T, U>
+cross<T>
+cudaBlockDim
+cudaBlockIdx
+cudaThreadIdx
+ddx<T>
+ddx_coarse<T>
+ddx_fine<T>
+ddy<T>
+ddy_coarse<T>
+ddy_fine<T>
+debugBreak
+distance<T, N:int>
+divide<T>
+dot<T>
+dot2add
+dot4add_i8packed
+dot4add_u8packed
+dst<T>
+exp10<T>
+exp2<T>
+f16tof32
+fabs<T>
+fmax<T>
+fmax3<T>
+fmedian3<T>
+fmin<T>
+fmin3<T>
+getRealtimeClock
+getRealtimeClockLow
+lit
+makeTuple<each T>
+max<T>
+max3<T>
+median3<T>
+min<T>
+min3<T>
+msad4
+mul<T>
+nextafter<T>
+noise
+normalize<T, N:int>
+pow<T>
+powr<T>
+printf
+select<T>
+sin<T>
+sincos<T>
+static_assert
+unmodified<T>
