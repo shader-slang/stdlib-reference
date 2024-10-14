@@ -21,11 +21,11 @@ layout: stdlib-reference
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-status" class="code_param">status</a>);
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a>&gt;(
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>);
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load">Load</a>&lt;<a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#typeparam-T" class="code_type">T</a>&gt;(
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-location" class="code_param">location</a>,
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/RasterizerOrderedByteAddressBuffer/Load#decl-alignment" class="code_param">alignment</a>);
@@ -61,6 +61,9 @@ Available in all stages.
 Available in all stages.
 
 #### metal
+Available in all stages.
+
+#### wgsl
 Available in all stages.
 
 #### spirv
