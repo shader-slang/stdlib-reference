@@ -1,5 +1,5 @@
-documented pages: 113
-undocumented pages: 682(85.8%)
+documented pages: 115
+undocumented pages: 763(86.9%)
 
 IArithmetic
 IArithmetic.add
@@ -362,6 +362,7 @@ Sampler3D<T, sampleCount:int, format:int>
 SamplerCube<T, sampleCount:int, format:int>
 SamplerCubeArray<T, sampleCount:int, format:int>
 ScalarDataLayout
+SideEffectBehavior
 Std140DataLayout
 Std430DataLayout
 String
@@ -385,6 +386,7 @@ TextureCube<T, sampleCount:int, format:int>
 TextureCubeArray<T, sampleCount:int, format:int>
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
+TextureFootprint<ND:int>.isSingleLevel
 TextureFootprint2D
 TextureFootprint3D
 TriangleStream<T>
@@ -395,6 +397,7 @@ Tuple<T>.equals
 Tuple<each T>.init
 Tuple<T>.lessThan
 Tuple<T>.lessThanOrEquals
+_AttributeTargets
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords
@@ -503,6 +506,84 @@ vector<T,N>.neg
 vector<T,N>.scale<T1>
 vector<T,N>.sub
 vector<T,N>.toFloat
+AutoPyBindCUDA
+COM
+CUDADeviceExport
+CUDAHost
+CUDAKernel
+CudaDeviceExport
+CudaHost
+CudaKernel
+DerivativeGroupLinear
+DerivativeGroupQuad
+Differentiable
+DllExport
+DllImport
+Flags
+ForceInline
+ForceUnroll
+KnownBuiltin
+MaxIters
+NonUniformReturn
+NumThreads
+OverloadRank
+PreferCheckpoint
+PreferRecompute
+PyExport
+RequirePrelude
+Shader
+SpecializationConstant
+Specialize
+TorchEntryPoint
+TreatAsDifferentiable
+UnscopedEnum
+WaveSize
+allow
+allow_uav_condition
+anyValueSize
+branch
+builtin
+call
+constref
+deprecated
+disable_array_flattening
+domain
+earlydepthstencil
+fastopt
+flatten
+forcecase
+format
+gl_binding
+instance
+loop
+maxtessfactor
+maxvertexcount
+mutating
+noRefInline
+noinline
+nonmutating
+numthreads
+open
+outputcontrolpoints
+outputtopology
+partitioning
+patchconstantfunc
+payload
+push_constant
+require
+sealed
+shader
+shader_record
+spv_target_env_1_3
+unroll
+vk_binding
+vk_constant_id
+vk_image_format
+vk_location
+vk_push_constant
+vk_shader_record
+vk_specialization_constant
+vk_spirv_instruction
 AcceptHitAndEndSearch
 AllMemoryBarrier
 AllMemoryBarrierWithGroupSync
