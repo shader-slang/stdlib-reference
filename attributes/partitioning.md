@@ -17,4 +17,6 @@ Used on an hull shader entrypoint to specify the patch type used by the hull sha
 ## Parameters
 
 #### mode {#decl-mode}
+The patch type used by the hull shader. Valid values are "tri", "quad" and "isoline".
+
 

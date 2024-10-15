@@ -17,4 +17,6 @@ Used on an hull shader entrypoint to declare the output primitive type of the te
 ## Parameters
 
 #### topology {#decl-topology}
+The output primitive type, must be one of "point", "line", "triangle_cw", and "triangle_ccw".
+
 

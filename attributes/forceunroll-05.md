@@ -4,6 +4,11 @@ layout: stdlib-reference
 
 # attribute [ForceUnroll]
 
+## Description
+
+Instructs the Slang compiler to unroll the loop until the specified number of iterations before
+emiting targett code.
+
 ## Signature
 
 <pre>
@@ -13,4 +18,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### count  : int = 0 {#decl-count}
+The maximun number of iterations to unroll the loop.
+
 

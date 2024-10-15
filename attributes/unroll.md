@@ -4,6 +4,13 @@ layout: stdlib-reference
 
 # attribute [unroll]
 
+## Description
+
+A hint to the downstream compiler to unroll the loop until the specified number of iterations reached.
+This attribute does not affect Slang compiler's behavior.
+To unroll a loop in the Slang compiler before emitting target code, use the <span class='code'>[<a href="/stdlib-reference/attributes/forceunroll-05">ForceUnroll</a>]</span> attribute.
+
+
 ## Signature
 
 <pre>

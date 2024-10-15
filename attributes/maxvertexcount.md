@@ -8,7 +8,6 @@ layout: stdlib-reference
 
 Used on a geometry shader entry point to specify the maximum number of vertices that the geometry shader can output.
 
-
 ## Signature
 
 <pre>
@@ -18,4 +17,6 @@ Used on a geometry shader entry point to specify the maximum number of vertices 
 ## Parameters
 
 #### count  : int {#decl-count}
+The maximum number of vertices that the geometry shader can output.
+
 

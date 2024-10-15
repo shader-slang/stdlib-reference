@@ -17,6 +17,8 @@ Used on an hull shader entrypoint to declare the number of control points the hu
 ## Parameters
 
 #### count  : int {#decl-count}
+The number of control points the hull shader will produce per thread.
+
 
 ## Remarks
 

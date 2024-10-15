@@ -21,7 +21,7 @@ as an <span class='code'><span class="code_keyword">in</span></span> parameter, 
 Member functions of a type are non-mutating by default, so this attribute is not necessary in most cases.
 However, the <span class='code'><span class="code_keyword">set</span></span> accessor of a property or subscript is mutating by default, and you can use <span class='code'>[<a href="/stdlib-reference/attributes/nonmutating">nonmutating</a>]</span> to mark it as non-mutating.
 For example:
-```
+```csharp
 struct S
 {
 int* ptr_x;

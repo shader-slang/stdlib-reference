@@ -1,5 +1,5 @@
-documented pages: 179
-undocumented pages: 699(79.6%)
+documented pages: 186
+undocumented pages: 692(78.8%)
 
 IArithmetic
 IArithmetic.add
@@ -505,21 +505,14 @@ vector<T,N>.scale<T1>
 vector<T,N>.sub
 vector<T,N>.toFloat
 Differentiable
-ForceUnroll
 KnownBuiltin
 MaxIters
 TreatAsDifferentiable
 allow
-allow_uav_condition
-call
 disable_array_flattening
-fastopt
-forcecase
-instance
 noRefInline
 payload
 spv_target_env_1_3
-unroll
 AcceptHitAndEndSearch
 AllMemoryBarrier
 AllMemoryBarrierWithGroupSync
