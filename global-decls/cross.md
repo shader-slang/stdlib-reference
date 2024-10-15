@@ -17,19 +17,19 @@ Cross product
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-left" class="code_param">left</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-right" class="code_param">right</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-left" class="code_param">left</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-right" class="code_param">right</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinIntegerType/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/BuiltinIntegerType/index) {#typeparam-T}
 
 ## Parameters
 

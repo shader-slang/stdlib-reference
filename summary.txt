@@ -1,5 +1,5 @@
-documented pages: 186
-undocumented pages: 692(78.8%)
+documented pages: 113
+undocumented pages: 682(85.8%)
 
 IArithmetic
 IArithmetic.add
@@ -385,7 +385,6 @@ TextureCube<T, sampleCount:int, format:int>
 TextureCubeArray<T, sampleCount:int, format:int>
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
-TextureFootprint<ND:int>.isSingleLevel
 TextureFootprint2D
 TextureFootprint3D
 TriangleStream<T>
@@ -504,15 +503,6 @@ vector<T,N>.neg
 vector<T,N>.scale<T1>
 vector<T,N>.sub
 vector<T,N>.toFloat
-Differentiable
-KnownBuiltin
-MaxIters
-TreatAsDifferentiable
-allow
-disable_array_flattening
-noRefInline
-payload
-spv_target_env_1_3
 AcceptHitAndEndSearch
 AllMemoryBarrier
 AllMemoryBarrierWithGroupSync

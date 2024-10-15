@@ -5,29 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InputPatch\<T, N:int\>](/stdlib-reference/types/inputpatch-05/index)
+#### [InputPatch\<T, N:int\>](/stdlib-reference/types/InputPatch/index)
 
-#### [LineStream\<T\>](/stdlib-reference/types/linestream-04/index)
+#### [LineStream\<T\>](/stdlib-reference/types/LineStream/index)
 
-#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/outputindices-06/index)
+#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/OutputIndices/index)
 
-#### [OutputPatch\<T, N:int\>](/stdlib-reference/types/outputpatch-06/index)
+#### [OutputPatch\<T, N:int\>](/stdlib-reference/types/OutputPatch/index)
 
-#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/outputprimitives-06/index)
+#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/OutputPrimitives/index)
 
-#### [OutputVertices\<T, MAX\_VERTS:uint\>](/stdlib-reference/types/outputvertices-06/index)
+#### [OutputVertices\<T, MAX\_VERTS:uint\>](/stdlib-reference/types/OutputVertices/index)
 
-#### [PointStream\<T\>](/stdlib-reference/types/pointstream-05/index)
+#### [PointStream\<T\>](/stdlib-reference/types/PointStream/index)
 
-#### [SubpassInput\<T, isMS:int\>](/stdlib-reference/types/subpassinput-07)
+#### [SubpassInput\<T, isMS:int\>](/stdlib-reference/types/SubpassInput)
 
-#### [SubpassInputMS\<T, isMS:int\>](/stdlib-reference/types/subpassinputms-07cd)
+#### [SubpassInputMS\<T, isMS:int\>](/stdlib-reference/types/SubpassInputMS)
 
-#### [TextureFootprint\<ND:int\>](/stdlib-reference/types/texturefootprint-07/index)
+#### [TextureFootprint\<ND:int\>](/stdlib-reference/types/TextureFootprint/index)
 
-#### [TextureFootprint2D](/stdlib-reference/types/texturefootprint2d-07h)
+#### [TextureFootprint2D](/stdlib-reference/types/TextureFootprint2D)
 
-#### [TextureFootprint3D](/stdlib-reference/types/texturefootprint3d-07h)
+#### [TextureFootprint3D](/stdlib-reference/types/TextureFootprint3D)
 
-#### [TriangleStream\<T\>](/stdlib-reference/types/trianglestream-08/index)
+#### [TriangleStream\<T\>](/stdlib-reference/types/TriangleStream/index)
 

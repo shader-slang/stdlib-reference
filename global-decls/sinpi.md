@@ -15,16 +15,16 @@ Compute the sine of an angle in degrees.
 
 <pre>
 <a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/sinpi">sinpi</a>&lt;<a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/sinpi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sinpi#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/sinpi">sinpi</a>&lt;<a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sinpi#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sinpi#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/sinpi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sinpi#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
 #### N  : int {#decl-N}
 
 ## Parameters
