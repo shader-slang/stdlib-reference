@@ -5,15 +5,15 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AllMemoryBarrier](/stdlib-reference/global-decls/allmemorybarrier-039)
+#### [AllMemoryBarrier](/stdlib-reference/global-decls/AllMemoryBarrier)
 
-#### [AllMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/allmemorybarrierwithgroupsync-039gkp)
+#### [AllMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/AllMemoryBarrierWithGroupSync)
 
-#### [DeviceMemoryBarrier](/stdlib-reference/global-decls/devicememorybarrier-06c)
+#### [DeviceMemoryBarrier](/stdlib-reference/global-decls/DeviceMemoryBarrier)
 
-#### [DeviceMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/devicememorybarrierwithgroupsync-06cjns)
+#### [DeviceMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/DeviceMemoryBarrierWithGroupSync)
 
-#### [GroupMemoryBarrier](/stdlib-reference/global-decls/groupmemorybarrier-05b)
+#### [GroupMemoryBarrier](/stdlib-reference/global-decls/GroupMemoryBarrier)
 
-#### [GroupMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/groupmemorybarrierwithgroupsync-05bimr)
+#### [GroupMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/GroupMemoryBarrierWithGroupSync)
 

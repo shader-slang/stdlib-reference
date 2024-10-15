@@ -1,5 +1,5 @@
-documented pages: 202
-undocumented pages: 689(77.3%)
+documented pages: 113
+undocumented pages: 682(85.8%)
 
 IArithmetic
 IArithmetic.add
@@ -8,6 +8,9 @@ IArithmetic.mod
 IArithmetic.mul
 IArithmetic.neg
 IArithmetic.sub
+IArithmeticAtomicable
+IAtomicable
+IBitAtomicable
 IBufferDataLayout
 IComparable
 IComparable.equals
@@ -23,6 +26,7 @@ IDifferentiableFunc<TR, each TP>.operator()
 IDifferentiableMutatingFunc<TR, each TP>
 IDifferentiableMutatingFunc<TR, each TP>.operator()
 IDifferentiablePtrType
+IFloat
 IFloat.add
 IFloat.div
 IFloat.init
@@ -34,6 +38,7 @@ IFloat.sub
 IFloat.toFloat
 IFunc<TR, each TP>
 IFunc<TR, each TP>.operator()
+IInteger
 IInteger.init
 IInteger.toInt
 IInteger.toInt64
@@ -55,9 +60,15 @@ IMutatingFunc<TR, each TP>.operator()
 IRangedValue
 IRangedValue.maxValue
 IRangedValue.minValue
+__BuiltinArithmeticType
+__BuiltinFloatingPointType
+__BuiltinIntegerType
+__BuiltinLogicalType
+__ITextureShape
 __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions
+__ITextureShape1D2D3D
 AppendStructuredBuffer<T, L>.Append
 AppendStructuredBuffer<T, L>.GetDimensions
 Array<T, N:int>
@@ -374,7 +385,6 @@ TextureCube<T, sampleCount:int, format:int>
 TextureCubeArray<T, sampleCount:int, format:int>
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
-TextureFootprint<ND:int>.isSingleLevel
 TextureFootprint2D
 TextureFootprint3D
 TriangleStream<T>
@@ -429,18 +439,23 @@ _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFine
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGradClamp
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineLevel
 _Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.subscript
+__Shape1D
 __Shape1D.dimensions
 __Shape1D.flavor
 __Shape1D.planeDimensions
+__Shape2D
 __Shape2D.dimensions
 __Shape2D.flavor
 __Shape2D.planeDimensions
+__Shape3D
 __Shape3D.dimensions
 __Shape3D.flavor
 __Shape3D.planeDimensions
+__ShapeBuffer
 __ShapeBuffer.dimensions
 __ShapeBuffer.flavor
 __ShapeBuffer.planeDimensions
+__ShapeCube
 __ShapeCube.dimensions
 __ShapeCube.flavor
 __ShapeCube.planeDimensions
@@ -474,11 +489,6 @@ usize_t
 vector<T,N>.Differential
 vector<T, N:int>.Element
 vector<T,N>.add
-vector<T,N>.and
-vector<T,N>.bitAnd
-vector<T,N>.bitNot
-vector<T,N>.bitOr
-vector<T,N>.bitXor
 vector<T,N>.dadd
 vector<T,N>.div
 vector<T,N>.dmul<U>
@@ -490,26 +500,9 @@ vector<T,N>.lessThanOrEquals
 vector<T,N>.mod
 vector<T,N>.mul
 vector<T,N>.neg
-vector<T,N>.not
-vector<T,N>.or
 vector<T,N>.scale<T1>
-vector<T,N>.shl
-vector<T,N>.shr
 vector<T,N>.sub
 vector<T,N>.toFloat
-vector<T,N>.toInt
-vector<T,N>.toInt64
-vector<T,N>.toUInt
-vector<T,N>.toUInt64
-Differentiable
-KnownBuiltin
-MaxIters
-TreatAsDifferentiable
-allow
-disable_array_flattening
-noRefInline
-payload
-spv_target_env_1_3
 AcceptHitAndEndSearch
 AllMemoryBarrier
 AllMemoryBarrierWithGroupSync

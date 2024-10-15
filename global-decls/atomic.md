@@ -5,25 +5,25 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InterlockedAdd](/stdlib-reference/global-decls/interlockedadd-0b)
+#### [InterlockedAdd](/stdlib-reference/global-decls/InterlockedAdd)
 
-#### [InterlockedAnd](/stdlib-reference/global-decls/interlockedand-0b)
+#### [InterlockedAnd](/stdlib-reference/global-decls/InterlockedAnd)
 
-#### [InterlockedCompareExchange](/stdlib-reference/global-decls/interlockedcompareexchange-0bi)
+#### [InterlockedCompareExchange](/stdlib-reference/global-decls/InterlockedCompareExchange)
 
-#### [InterlockedCompareExchangeFloatBitwise](/stdlib-reference/global-decls/interlockedcompareexchangefloatbitwise-0biqv)
+#### [InterlockedCompareExchangeFloatBitwise](/stdlib-reference/global-decls/InterlockedCompareExchangeFloatBitwise)
 
-#### [InterlockedCompareStore](/stdlib-reference/global-decls/interlockedcomparestore-0bi)
+#### [InterlockedCompareStore](/stdlib-reference/global-decls/InterlockedCompareStore)
 
-#### [InterlockedCompareStoreFloatBitwise](/stdlib-reference/global-decls/interlockedcomparestorefloatbitwise-0bins)
+#### [InterlockedCompareStoreFloatBitwise](/stdlib-reference/global-decls/InterlockedCompareStoreFloatBitwise)
 
-#### [InterlockedExchange](/stdlib-reference/global-decls/interlockedexchange-0b)
+#### [InterlockedExchange](/stdlib-reference/global-decls/InterlockedExchange)
 
-#### [InterlockedMax](/stdlib-reference/global-decls/interlockedmax-0b)
+#### [InterlockedMax](/stdlib-reference/global-decls/InterlockedMax)
 
-#### [InterlockedMin](/stdlib-reference/global-decls/interlockedmin-0b)
+#### [InterlockedMin](/stdlib-reference/global-decls/InterlockedMin)
 
-#### [InterlockedOr](/stdlib-reference/global-decls/interlockedor-0b)
+#### [InterlockedOr](/stdlib-reference/global-decls/InterlockedOr)
 
-#### [InterlockedXor](/stdlib-reference/global-decls/interlockedxor-0b)
+#### [InterlockedXor](/stdlib-reference/global-decls/InterlockedXor)
 

@@ -5,75 +5,75 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [QuadReadAcrossDiagonal\<T\>](/stdlib-reference/global-decls/quadreadacrossdiagonal-048e)
+#### [QuadReadAcrossDiagonal\<T\>](/stdlib-reference/global-decls/QuadReadAcrossDiagonal)
 
-#### [QuadReadAcrossX\<T\>](/stdlib-reference/global-decls/quadreadacrossx-048e)
+#### [QuadReadAcrossX\<T\>](/stdlib-reference/global-decls/QuadReadAcrossX)
 
-#### [QuadReadAcrossY\<T\>](/stdlib-reference/global-decls/quadreadacrossy-048e)
+#### [QuadReadAcrossY\<T\>](/stdlib-reference/global-decls/QuadReadAcrossY)
 
-#### [QuadReadLaneAt\<T\>](/stdlib-reference/global-decls/quadreadlaneat-048c)
+#### [QuadReadLaneAt\<T\>](/stdlib-reference/global-decls/QuadReadLaneAt)
 
-#### [WaveActiveAllEqual\<T\>](/stdlib-reference/global-decls/waveactiveallequal-04ad)
+#### [WaveActiveAllEqual\<T\>](/stdlib-reference/global-decls/WaveActiveAllEqual)
 
-#### [WaveActiveAllTrue](/stdlib-reference/global-decls/waveactivealltrue-04ad)
+#### [WaveActiveAllTrue](/stdlib-reference/global-decls/WaveActiveAllTrue)
 
-#### [WaveActiveAnyTrue](/stdlib-reference/global-decls/waveactiveanytrue-04ad)
+#### [WaveActiveAnyTrue](/stdlib-reference/global-decls/WaveActiveAnyTrue)
 
-#### [WaveActiveBallot](/stdlib-reference/global-decls/waveactiveballot-04a)
+#### [WaveActiveBallot](/stdlib-reference/global-decls/WaveActiveBallot)
 
-#### [WaveActiveBitAnd\<T\>](/stdlib-reference/global-decls/waveactivebitand-04ad)
+#### [WaveActiveBitAnd\<T\>](/stdlib-reference/global-decls/WaveActiveBitAnd)
 
-#### [WaveActiveBitOr\<T\>](/stdlib-reference/global-decls/waveactivebitor-04ad)
+#### [WaveActiveBitOr\<T\>](/stdlib-reference/global-decls/WaveActiveBitOr)
 
-#### [WaveActiveBitXor\<T\>](/stdlib-reference/global-decls/waveactivebitxor-04ad)
+#### [WaveActiveBitXor\<T\>](/stdlib-reference/global-decls/WaveActiveBitXor)
 
-#### [WaveActiveCountBits](/stdlib-reference/global-decls/waveactivecountbits-04af)
+#### [WaveActiveCountBits](/stdlib-reference/global-decls/WaveActiveCountBits)
 
-#### [WaveActiveMax\<T\>](/stdlib-reference/global-decls/waveactivemax-04a)
+#### [WaveActiveMax\<T\>](/stdlib-reference/global-decls/WaveActiveMax)
 
-#### [WaveActiveMin\<T\>](/stdlib-reference/global-decls/waveactivemin-04a)
+#### [WaveActiveMin\<T\>](/stdlib-reference/global-decls/WaveActiveMin)
 
-#### [WaveActiveProduct\<T\>](/stdlib-reference/global-decls/waveactiveproduct-04a)
+#### [WaveActiveProduct\<T\>](/stdlib-reference/global-decls/WaveActiveProduct)
 
-#### [WaveActiveSum\<T\>](/stdlib-reference/global-decls/waveactivesum-04a)
+#### [WaveActiveSum\<T\>](/stdlib-reference/global-decls/WaveActiveSum)
 
-#### [WaveBroadcastLaneAt\<T\>](/stdlib-reference/global-decls/wavebroadcastlaneat-04dh)
+#### [WaveBroadcastLaneAt\<T\>](/stdlib-reference/global-decls/WaveBroadcastLaneAt)
 
-#### [WaveGetActiveMulti](/stdlib-reference/global-decls/wavegetactivemulti-047d)
+#### [WaveGetActiveMulti](/stdlib-reference/global-decls/WaveGetActiveMulti)
 
-#### [WaveGetConvergedMulti](/stdlib-reference/global-decls/wavegetconvergedmulti-047g)
+#### [WaveGetConvergedMulti](/stdlib-reference/global-decls/WaveGetConvergedMulti)
 
-#### [WaveGetLaneCount](/stdlib-reference/global-decls/wavegetlanecount-047b)
+#### [WaveGetLaneCount](/stdlib-reference/global-decls/WaveGetLaneCount)
 
-#### [WaveGetLaneIndex](/stdlib-reference/global-decls/wavegetlaneindex-047b)
+#### [WaveGetLaneIndex](/stdlib-reference/global-decls/WaveGetLaneIndex)
 
-#### [WaveIsFirstLane](/stdlib-reference/global-decls/waveisfirstlane-046b)
+#### [WaveIsFirstLane](/stdlib-reference/global-decls/WaveIsFirstLane)
 
-#### [WaveMatch\<T\>](/stdlib-reference/global-decls/wavematch-04)
+#### [WaveMatch\<T\>](/stdlib-reference/global-decls/WaveMatch)
 
-#### [WaveMultiPrefixBitAnd\<T\>](/stdlib-reference/global-decls/wavemultiprefixbitand-049fi)
+#### [WaveMultiPrefixBitAnd\<T\>](/stdlib-reference/global-decls/WaveMultiPrefixBitAnd)
 
-#### [WaveMultiPrefixBitOr\<T\>](/stdlib-reference/global-decls/wavemultiprefixbitor-049fi)
+#### [WaveMultiPrefixBitOr\<T\>](/stdlib-reference/global-decls/WaveMultiPrefixBitOr)
 
-#### [WaveMultiPrefixBitXor\<T\>](/stdlib-reference/global-decls/wavemultiprefixbitxor-049fi)
+#### [WaveMultiPrefixBitXor\<T\>](/stdlib-reference/global-decls/WaveMultiPrefixBitXor)
 
-#### [WaveMultiPrefixCountBits](/stdlib-reference/global-decls/wavemultiprefixcountbits-049fk)
+#### [WaveMultiPrefixCountBits](/stdlib-reference/global-decls/WaveMultiPrefixCountBits)
 
-#### [WaveMultiPrefixProduct\<T\>](/stdlib-reference/global-decls/wavemultiprefixproduct-049f)
+#### [WaveMultiPrefixProduct\<T\>](/stdlib-reference/global-decls/WaveMultiPrefixProduct)
 
-#### [WaveMultiPrefixSum\<T\>](/stdlib-reference/global-decls/wavemultiprefixsum-049f)
+#### [WaveMultiPrefixSum\<T\>](/stdlib-reference/global-decls/WaveMultiPrefixSum)
 
-#### [WavePrefixCountBits](/stdlib-reference/global-decls/waveprefixcountbits-04af)
+#### [WavePrefixCountBits](/stdlib-reference/global-decls/WavePrefixCountBits)
 
-#### [WavePrefixProduct\<T\>](/stdlib-reference/global-decls/waveprefixproduct-04a)
+#### [WavePrefixProduct\<T\>](/stdlib-reference/global-decls/WavePrefixProduct)
 
-#### [WavePrefixSum\<T\>](/stdlib-reference/global-decls/waveprefixsum-04a)
+#### [WavePrefixSum\<T\>](/stdlib-reference/global-decls/WavePrefixSum)
 
-#### [WaveReadLaneAt\<T\>](/stdlib-reference/global-decls/wavereadlaneat-048c)
+#### [WaveReadLaneAt\<T\>](/stdlib-reference/global-decls/WaveReadLaneAt)
 
-#### [WaveReadLaneFirst\<T\>](/stdlib-reference/global-decls/wavereadlanefirst-048c)
+#### [WaveReadLaneFirst\<T\>](/stdlib-reference/global-decls/WaveReadLaneFirst)
 
-#### [WaveShuffle\<T\>](/stdlib-reference/global-decls/waveshuffle-04)
+#### [WaveShuffle\<T\>](/stdlib-reference/global-decls/WaveShuffle)
 
-#### [\_WaveCountBits](/stdlib-reference/global-decls/0wavecountbits-015a)
+#### [\_WaveCountBits](/stdlib-reference/global-decls/WaveCountBits)
 

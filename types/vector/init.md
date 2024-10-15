@@ -19,16 +19,10 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/types/vector/init#decl-value" class="code_param">value</a>);
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/vector/init#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
-
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(int64_t <a href="/stdlib-reference/types/vector/init#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
-
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/vector/init#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">float</span> <a href="/stdlib-reference/types/vector/init#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>&lt;<a href="/stdlib-reference/types/vector/init#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/types/vector/index#typeparam-T" class="code_type">T</a>, 2, 2&gt; <a href="/stdlib-reference/types/vector/init#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 4;
@@ -1197,9 +1191,8 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 #### value  : [T](/stdlib-reference/types/vector/index#typeparam-T) {#decl-value}
 #### value  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
 #### v  : int {#decl-v}
-#### v  : int64\_t {#decl-v}
 #### v  : float {#decl-v}
-#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), 2, 2\> {#decl-value}
+#### value  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/T), 2, 2\> {#decl-value}
 #### x  : [T](/stdlib-reference/types/vector/index#typeparam-T) {#decl-x}
 #### y  : [T](/stdlib-reference/types/vector/index#typeparam-T) {#decl-y}
 #### z  : [T](/stdlib-reference/types/vector/index#typeparam-T) {#decl-z}

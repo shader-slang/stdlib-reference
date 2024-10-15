@@ -5,105 +5,105 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [Buffer\<T, format:int\>](/stdlib-reference/types/buffer-0)
+#### [Buffer\<T, format:int\>](/stdlib-reference/types/Buffer)
 
-#### [FeedbackTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/feedbacktexture2d-08g)
+#### [FeedbackTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/FeedbackTexture2D)
 
-#### [FeedbackTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/feedbacktexture2darray-08gh)
+#### [FeedbackTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/FeedbackTexture2DArray)
 
-#### [RWBuffer\<T, format:int\>](/stdlib-reference/types/rwbuffer-012)
+#### [RWBuffer\<T, format:int\>](/stdlib-reference/types/RWBuffer)
 
-#### [RWSampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler1d-012a)
+#### [RWSampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler1D)
 
-#### [RWSampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler1darray-012ab)
+#### [RWSampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler1DArray)
 
-#### [RWSampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler2d-012a)
+#### [RWSampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler2D)
 
-#### [RWSampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler2darray-012ab)
+#### [RWSampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler2DArray)
 
-#### [RWSampler2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler2dms-012abc)
+#### [RWSampler2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler2DMS)
 
-#### [RWSampler2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler2dmsarray-012abcd)
+#### [RWSampler2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler2DMSArray)
 
-#### [RWSampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwsampler3d-012a)
+#### [RWSampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWSampler3D)
 
-#### [RWTexture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture1d-012a)
+#### [RWTexture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture1D)
 
-#### [RWTexture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture1darray-012ab)
+#### [RWTexture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture1DArray)
 
-#### [RWTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture2d-012a)
+#### [RWTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture2D)
 
-#### [RWTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture2darray-012ab)
+#### [RWTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture2DArray)
 
-#### [RWTexture2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture2dms-012abc)
+#### [RWTexture2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture2DMS)
 
-#### [RWTexture2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture2dmsarray-012abcd)
+#### [RWTexture2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture2DMSArray)
 
-#### [RWTexture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rwtexture3d-012a)
+#### [RWTexture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RWTexture3D)
 
-#### [RasterizerOrderedBuffer\<T, format:int\>](/stdlib-reference/types/rasterizerorderedbuffer-0ah)
+#### [RasterizerOrderedBuffer\<T, format:int\>](/stdlib-reference/types/RasterizerOrderedBuffer)
 
-#### [RasterizerOrderedSampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedsampler1d-0ahp)
+#### [RasterizerOrderedSampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedSampler1D)
 
-#### [RasterizerOrderedSampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedsampler1darray-0ahpq)
+#### [RasterizerOrderedSampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedSampler1DArray)
 
-#### [RasterizerOrderedSampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedsampler2d-0ahp)
+#### [RasterizerOrderedSampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedSampler2D)
 
-#### [RasterizerOrderedSampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedsampler2darray-0ahpq)
+#### [RasterizerOrderedSampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedSampler2DArray)
 
-#### [RasterizerOrderedSampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedsampler3d-0ahp)
+#### [RasterizerOrderedSampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedSampler3D)
 
-#### [RasterizerOrderedTexture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedtexture1d-0ahp)
+#### [RasterizerOrderedTexture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedTexture1D)
 
-#### [RasterizerOrderedTexture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedtexture1darray-0ahpq)
+#### [RasterizerOrderedTexture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedTexture1DArray)
 
-#### [RasterizerOrderedTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedtexture2d-0ahp)
+#### [RasterizerOrderedTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedTexture2D)
 
-#### [RasterizerOrderedTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedtexture2darray-0ahpq)
+#### [RasterizerOrderedTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedTexture2DArray)
 
-#### [RasterizerOrderedTexture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/rasterizerorderedtexture3d-0ahp)
+#### [RasterizerOrderedTexture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/RasterizerOrderedTexture3D)
 
-#### [SAMPLER\_FEEDBACK\_MIN\_MIP](/stdlib-reference/types/sampler_feedback_min_mip-012345689abcdefhijlmn/index)
+#### [SAMPLER\_FEEDBACK\_MIN\_MIP](/stdlib-reference/types/SAMPLER_FEEDBACK_MIN_MIP/index)
 
-#### [SAMPLER\_FEEDBACK\_MIP\_REGION\_USED](/stdlib-reference/types/sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/index)
+#### [SAMPLER\_FEEDBACK\_MIP\_REGION\_USED](/stdlib-reference/types/SAMPLER_FEEDBACK_MIP_REGION_USED/index)
 
-#### [Sampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler1d-08)
+#### [Sampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler1D)
 
-#### [Sampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler1darray-089)
+#### [Sampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler1DArray)
 
-#### [Sampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2d-08)
+#### [Sampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler2D)
 
-#### [Sampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2darray-089)
+#### [Sampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler2DArray)
 
-#### [Sampler2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2dms-089a)
+#### [Sampler2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler2DMS)
 
-#### [Sampler2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2dmsarray-089ab)
+#### [Sampler2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler2DMSArray)
 
-#### [Sampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler3d-08)
+#### [Sampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Sampler3D)
 
-#### [SamplerCube\<T, sampleCount:int, format:int\>](/stdlib-reference/types/samplercube-07)
+#### [SamplerCube\<T, sampleCount:int, format:int\>](/stdlib-reference/types/SamplerCube)
 
-#### [SamplerCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/samplercubearray-07b)
+#### [SamplerCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/SamplerCubeArray)
 
-#### [Texture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture1d-08)
+#### [Texture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture1D)
 
-#### [Texture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture1darray-089)
+#### [Texture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture1DArray)
 
-#### [Texture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture2d-08)
+#### [Texture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture2D)
 
-#### [Texture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture2darray-089)
+#### [Texture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture2DArray)
 
-#### [Texture2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture2dms-089a)
+#### [Texture2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture2DMS)
 
-#### [Texture2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture2dmsarray-089ab)
+#### [Texture2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture2DMSArray)
 
-#### [Texture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture3d-08)
+#### [Texture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/Texture3D)
 
-#### [TextureBuffer\<T\>](/stdlib-reference/types/texturebuffer-07/index)
+#### [TextureBuffer\<T\>](/stdlib-reference/types/TextureBuffer/index)
 
-#### [TextureCube\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texturecube-07)
+#### [TextureCube\<T, sampleCount:int, format:int\>](/stdlib-reference/types/TextureCube)
 
-#### [TextureCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texturecubearray-07b)
+#### [TextureCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/TextureCubeArray)
 
-#### [\_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>](/stdlib-reference/types/0texture-01/index)
+#### [\_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>](/stdlib-reference/types/Texture/index)
 

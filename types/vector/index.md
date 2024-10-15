@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* IRWArray\<[T](/stdlib-reference/types/vector/index#typeparam-T)\>
 
-*Conditionally conforms to:* [IInteger](/stdlib-reference/interfaces/iinteger-01/index), [IFloat](/stdlib-reference/interfaces/ifloat-01/index)
+*Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/IFloat/index)
 
 ## Description
 
@@ -20,22 +20,9 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 
 ## Methods
 
-* [getCount](/stdlib-reference/types/vector/getcount-3)
-* [shl](/stdlib-reference/types/vector/shl)
-* [shr](/stdlib-reference/types/vector/shr)
-* [bitAnd](/stdlib-reference/types/vector/bitand-3)
-* [bitOr](/stdlib-reference/types/vector/bitor-3)
-* [bitXor](/stdlib-reference/types/vector/bitxor-3)
-* [bitNot](/stdlib-reference/types/vector/bitnot-3)
-* [and](/stdlib-reference/types/vector/and)
-* [or](/stdlib-reference/types/vector/or)
-* [not](/stdlib-reference/types/vector/not)
-* [toInt](/stdlib-reference/types/vector/toint-2)
-* [toInt64](/stdlib-reference/types/vector/toint64-2)
-* [toUInt](/stdlib-reference/types/vector/touint-23)
-* [toUInt64](/stdlib-reference/types/vector/touint64-23)
-* [lessThan](/stdlib-reference/types/vector/lessthan-4)
-* [lessThanOrEquals](/stdlib-reference/types/vector/lessthanorequals-48a)
+* [getCount](/stdlib-reference/types/vector/getCount)
+* [lessThan](/stdlib-reference/types/vector/lessThan)
+* [lessThanOrEquals](/stdlib-reference/types/vector/lessThanOrEquals)
 * [equals](/stdlib-reference/types/vector/equals)
 * [add](/stdlib-reference/types/vector/add)
 * [sub](/stdlib-reference/types/vector/sub)
@@ -44,7 +31,7 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 * [mod](/stdlib-reference/types/vector/mod)
 * [neg](/stdlib-reference/types/vector/neg)
 * [scale](/stdlib-reference/types/vector/scale)
-* [toFloat](/stdlib-reference/types/vector/tofloat-2)
+* [toFloat](/stdlib-reference/types/vector/toFloat)
 * [dzero](/stdlib-reference/types/vector/dzero)
 * [dadd](/stdlib-reference/types/vector/dadd)
 * [dmul](/stdlib-reference/types/vector/dmul)
@@ -52,11 +39,7 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 
 ## Conditional Conformances
 
-### Conformance to IInteger
-`vector<T, N:int>` additionally conforms to `IInteger` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index)
 ### Conformance to IFloat
 `vector<T, N:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)
+  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index)
