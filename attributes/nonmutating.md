@@ -24,14 +24,14 @@ For example:
 ```csharp
 struct S
 {
-int* ptr_x;
-property x : int
-{
-get { return *ptr_x; }
+   int* ptr_x;
+   property x : int
+   {
+     get { return *ptr_x; }
 
-[nonmutating]
-set { *ptr_x = value; }
-}
+     [nonmutating]
+     set { *ptr_x = value; }
+   }
 }
 uniform S s; // `s` is not mutable.
 void test() { s.x = 1; } // OK, because the `set` accessor is non-mutating.

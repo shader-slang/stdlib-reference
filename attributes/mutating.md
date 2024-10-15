@@ -23,11 +23,11 @@ By default, Slang treats all member functions as non-mutating. For example, cons
 ```csharp
 struct S
 {
-int x;
-void foo()
-{
-x = 1; // error: `x` is not an l-value.
-}
+   int x;
+   void foo()
+   {
+      x = 1; // error: `x` is not an l-value.
+   }
 }
 
 ```
@@ -36,12 +36,12 @@ allow <span class='code'>foo</span> to modify <span class='code'>x</span>, you c
 ```csharp
 struct S
 {
-int x;
-[mutating]
-void foo()
-{
-x = 1; // ok
-}
+   int x;
+   [mutating]
+   void foo()
+   {
+      x = 1; // ok
+   }
 }
 
 ## See also

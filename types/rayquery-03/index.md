@@ -22,10 +22,10 @@ The main place where this arises as a consideration is when
 passing a <span class='code'><a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a></span> down into a function that will perform
 mutating operations on it (e.g., <span class='code'><a href="/stdlib-reference/global-decls/traceray-05">TraceRay</a></span> or <span class='code'><a href="/stdlib-reference/types/rayquery-03/proceed-0">Proceed</a></span>):
 ```
-void myFunc( inout RayQuery<FLAGS> q )
-{
-q.Proceed();
-}
+     void myFunc( inout RayQuery<FLAGS> q )
+     {
+         q.Proceed();
+     }
 ```
 In Slang, a parameter like <span class='code'>q</span> above should be declared <span class='code'><span class="code_keyword">inout</span></span>.
 HLSL does not care about whether <span class='code'>q</span> is declared <span class='code'><span class="code_keyword">inout</span></span> or not.
