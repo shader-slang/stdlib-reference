@@ -40,4 +40,8 @@ In the above example, the property <span class='code'>x</span> reads and writes 
 modifying any field of <span class='code'>S</span>, and does not need to take <span class='code'>this</span> as an <span class='code'><span class="code_keyword">inout</span></span> parameter. Using <span class='code'>[<a href="/stdlib-reference/attributes/nonmutating">nonmutating</a>]</span> here on the set accessor will allow
 it to be called with a non-mutating value of <span class='code'>S</span>.
 
+## See also
+
+<span class='code'>[<a href="/stdlib-reference/attributes/mutating">mutating</a>]</span>.
+
 
