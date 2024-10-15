@@ -16,21 +16,21 @@ Texture filter width.
 <pre>
 /// Requires Capability Set 1:
 <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fwidth">fwidth</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fwidth#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/fwidth">fwidth</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/fwidth#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 3:
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/fwidth">fwidth</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/fwidth#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/fwidth#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/fwidth#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 

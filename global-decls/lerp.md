@@ -17,25 +17,25 @@ Computes linear interpolation.
     <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/lerp#decl-y" class="code_param">y</a>,
     <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/lerp#decl-s" class="code_param">s</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/lerp">lerp</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/lerp#decl-y" class="code_param">y</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/lerp#decl-s" class="code_param">s</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/lerp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/lerp">lerp</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/lerp#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/lerp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>,
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/lerp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/lerp#decl-y" class="code_param">y</a>,
     <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/lerp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/lerp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/lerp#decl-s" class="code_param">s</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/lerp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 

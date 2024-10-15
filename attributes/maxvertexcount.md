@@ -4,6 +4,11 @@ layout: stdlib-reference
 
 # attribute [maxvertexcount]
 
+## Description
+
+Used on a geometry shader entry point to specify the maximum number of vertices that the geometry shader can output.
+
+
 ## Signature
 
 <pre>

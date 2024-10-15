@@ -44,4 +44,4 @@ A matrix with <span class='code'><a href="/stdlib-reference/types/matrix/index#d
 ### Conformance to IFloat
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/matrix/t-0) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index)
+  * [T](/stdlib-reference/types/matrix/t-0) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)

@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [vk::constant\_id]
 
+## Description
+
+Mark a global variable as a Vulkan specialization constant.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### location  : int {#decl-location}
+The index of the specialization constant.
+
 

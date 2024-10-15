@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [vk::binding]
 
+## Description
+
+Declare the Vulkan binding location of a global shader variable.
+
 ## Signature
 
 <pre>
@@ -13,5 +17,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### binding  : int {#decl-binding}
+The binding location.
+
 #### set  : int = 0 {#decl-set}
+The descriptor set index of the binding.
+
 

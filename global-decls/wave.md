@@ -75,5 +75,5 @@ This category contains the following declarations:
 
 #### [WaveShuffle\<T\>](/stdlib-reference/global-decls/waveshuffle-04)
 
-#### [\_WaveCountBits](/stdlib-reference/global-decls/wavecountbits-015a)
+#### [\_WaveCountBits](/stdlib-reference/global-decls/0wavecountbits-015a)
 

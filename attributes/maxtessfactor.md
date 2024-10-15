@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [maxtessfactor]
 
+## Description
+
+Used on an hull shader entrypoint to declare the upperbound of the tessellation factor that the hull shader can return.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### factor  : float {#decl-factor}
+The maximum tessellation factor the hull shader can return.
+
 

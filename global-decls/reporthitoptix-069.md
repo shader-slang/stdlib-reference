@@ -17,13 +17,13 @@ layout: stdlib-reference
     <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-tHit" class="code_param">tHit</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-hitKind" class="code_param">hitKind</a>,
     <a href="/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-attribs" class="code_param">attribs</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinintegertype-0129g/index" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/builtinintegertype-0129g/index) {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
 
 ## Parameters
 

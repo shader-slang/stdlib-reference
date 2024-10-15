@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [outputcontrolpoints]
 
+## Description
+
+Used on an hull shader entrypoint to declare the number of control points the hull shader will produce per thread.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### count  : int {#decl-count}
+
+## Remarks
+
+The attribute indicates be the number of times the hull shader function will be executed.
+
 

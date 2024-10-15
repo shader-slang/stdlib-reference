@@ -4,6 +4,11 @@ layout: stdlib-reference
 
 # enum SideEffectBehavior
 
+## Description
+
+Controls the behavior of the compiler when a differentiable function is detected to have side-effects.
+
+
 ## Values 
 
 #### _Warn = 0_ {#decl-Warn}

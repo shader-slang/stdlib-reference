@@ -16,7 +16,7 @@ layout: stdlib-reference
 
 ## Fields
 
-#### [\_isSingleLevel](/stdlib-reference/types/texturefootprint-07/issinglelevel-039) : bool {#decl-_isSingleLevel}
+#### [\_isSingleLevel](/stdlib-reference/types/texturefootprint-07/0issinglelevel-039) : bool {#decl-_isSingleLevel}
 
 ## Properties
 

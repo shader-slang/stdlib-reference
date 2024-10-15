@@ -14,19 +14,19 @@ layout: stdlib-reference
 
 <pre>
 <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad">WaveActiveBitXor</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinintegertype-0129g/index" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad">WaveActiveBitXor</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinintegertype-0129g/index" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad">WaveActiveBitXor</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinintegertype-0129g/index" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitxor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/builtinintegertype-0129g/index) {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
 

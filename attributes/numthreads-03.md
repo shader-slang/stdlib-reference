@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [NumThreads]
 
+## Description
+
+Specifies the size of the thread group a compute shader.
+
 ## Signature
 
 <pre>
@@ -13,6 +17,12 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : int {#decl-x}
+The number of threads in the x dimension of a thread group.
+
 #### y  : int = 1 {#decl-y}
+The number of threads in the y dimension of a thread group.
+
 #### z  : int = 1 {#decl-z}
+The number of threads in the z dimension of a thread group.
+
 

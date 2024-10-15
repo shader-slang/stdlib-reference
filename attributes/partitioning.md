@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [partitioning]
 
+## Description
+
+Used on an hull shader entrypoint to specify the patch type used by the hull shader.
+
 ## Signature
 
 <pre>

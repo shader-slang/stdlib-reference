@@ -16,7 +16,7 @@ divergent, and ensure scalarization happens correctly for each divergent lane.
 
 <pre>
 <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai">NonUniformResourceIndex</a>&lt;<a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#decl-index" class="code_param">index</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinarithmetictype-0129j/index" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
 
 <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai">NonUniformResourceIndex</a>&lt;<a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/nonuniformresourceindex-03ai#decl-value" class="code_param">value</a>);
 
@@ -24,7 +24,7 @@ divergent, and ensure scalarization happens correctly for each divergent lane.
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/builtinarithmetictype-0129j/index) {#typeparam-T}
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
 #### T {#typeparam-T}
 
 ## Parameters

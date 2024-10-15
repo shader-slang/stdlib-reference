@@ -19,7 +19,7 @@ layout: stdlib-reference
 * [Load4](/stdlib-reference/types/rwbyteaddressbuffer-0126d/load4-0)
 * [Load](/stdlib-reference/types/rwbyteaddressbuffer-0126d/load-0)
 * [LoadAligned](/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04)
-* [\_NvInterlockedAddFp16x2](/stdlib-reference/types/rwbyteaddressbuffer-0126d/nvinterlockedaddfp16x2-013eh)
+* [\_NvInterlockedAddFp16x2](/stdlib-reference/types/rwbyteaddressbuffer-0126d/0nvinterlockedaddfp16x2-013eh)
 * [InterlockedAddF16](/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be)
 * [InterlockedAddF32](/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be)
 * [InterlockedAddI64](/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddi64-0be)

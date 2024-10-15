@@ -15,7 +15,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* [\_metalSetVertex](/stdlib-reference/types/outputvertices-06/metalsetvertex-069)
-* [\_setVertex](/stdlib-reference/types/outputvertices-06/setvertex-04)
+* [\_metalSetVertex](/stdlib-reference/types/outputvertices-06/0metalsetvertex-069)
+* [\_setVertex](/stdlib-reference/types/outputvertices-06/0setvertex-04)
 * [subscript](/stdlib-reference/types/outputvertices-06/subscript)
 

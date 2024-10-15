@@ -128,7 +128,7 @@ Slang's Standard Library defines the following global declarations:
 - [WorldToObject](/stdlib-reference/global-decls/worldtoobject-057)
 - [WorldToObject3x4](/stdlib-reference/global-decls/worldtoobject3x4-057)
 - [WorldToObject4x3](/stdlib-reference/global-decls/worldtoobject4x3-057)
-- [\_WaveCountBits](/stdlib-reference/global-decls/wavecountbits-015a)
+- [\_WaveCountBits](/stdlib-reference/global-decls/0wavecountbits-015a)
 - [abort](/stdlib-reference/global-decls/abort)
 - [abs](/stdlib-reference/global-decls/abs)
 - [acos](/stdlib-reference/global-decls/acos)

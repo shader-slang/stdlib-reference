@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [require]
 
+## Description
+
+Mark declaration to require a specific target capability.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### capability {#decl-capability}
+The required capability.
+
 

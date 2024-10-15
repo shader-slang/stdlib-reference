@@ -15,23 +15,23 @@ Matrix transpose.
 
 <pre>
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/transpose">transpose</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/transpose#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/transpose">transpose</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/transpose#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinintegertype-0129g/index" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/transpose">transpose</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/transpose#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/transpose#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/transpose#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinlogicaltype-0129g/index" class="code_type">__BuiltinLogicalType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/transpose#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinlogicaltype-029g/index" class="code_type">__BuiltinLogicalType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
 #### N  : int {#decl-N}
 #### M  : int {#decl-M}
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/builtinintegertype-0129g/index) {#typeparam-T}
-#### T: [\_\_BuiltinLogicalType](/stdlib-reference/interfaces/builtinlogicaltype-0129g/index) {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
+#### T: [\_\_BuiltinLogicalType](/stdlib-reference/interfaces/0_builtinlogicaltype-029g/index) {#typeparam-T}
 
 ## Parameters
 

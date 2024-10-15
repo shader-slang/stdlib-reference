@@ -42,4 +42,4 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 ### Conformance to IFloat
 `vector<T, N:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index)
+  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)

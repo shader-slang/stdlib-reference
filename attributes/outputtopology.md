@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [outputtopology]
 
+## Description
+
+Used on an hull shader entrypoint to declare the output primitive type of the tessellator.
+
 ## Signature
 
 <pre>

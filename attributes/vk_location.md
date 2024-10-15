@@ -4,6 +4,11 @@ layout: stdlib-reference
 
 # attribute [vk::location]
 
+## Description
+
+Declare the Vulkan location of a global variable.
+
+
 ## Signature
 
 <pre>

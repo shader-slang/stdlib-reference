@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [deprecated]
 
+## Description
+
+Mark a declaration as deprecated.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### message  : [String](/stdlib-reference/types/string-0/index) {#decl-message}
+The diagnostic message to show when the declaration is used.
+
 

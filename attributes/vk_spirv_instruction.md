@@ -4,6 +4,15 @@ layout: stdlib-reference
 
 # attribute [vk::spirv\_instruction]
 
+> #### Deprecated Feature
+> The feature described in this page is marked as deprecated, and may be removed in a future release.
+> Users are advised to avoid using this feature, and to migrate to a newer alternative.
+
+## Description
+
+Use <span class='code'>spirv_asm</span> instead for inline SPIR-V assembly.
+
+
 ## Signature
 
 <pre>

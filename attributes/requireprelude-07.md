@@ -4,6 +4,13 @@ layout: stdlib-reference
 
 # attribute [RequirePrelude]
 
+## Description
+
+Mark a type to require a target specific prelude.
+The prelude will be included in the generated code for the specified target if the resulting code uses
+the marked type.
+
+
 ## Signature
 
 <pre>

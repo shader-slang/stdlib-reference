@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [Shader]
 
+## Description
+
+Marks a function as a shader entry point.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### stage {#decl-stage}
+The stage of the shader. Must be one of "vertex", "fragment", "compute", "geometry", "hull", "domain", "raygeneration",
+
 

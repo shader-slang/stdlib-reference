@@ -4,6 +4,12 @@ layout: stdlib-reference
 
 # attribute [PreferRecompute]
 
+## Description
+
+Mark a differentiable function to prefer recomputation over checkpointing when a value computed in the primal pass is needed
+during backward derivative propagation.
+
+
 ## Signature
 
 <pre>

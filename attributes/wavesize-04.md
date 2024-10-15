@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [WaveSize]
 
+## Description
+
+Indicate a compute shader entry point is only compatible with the specified wave size.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### numLanes  : int {#decl-numLanes}
+The wave size this shader entrypoint is compatible with. Must be one of 4, 8, 16, 32, 64, 128.
+
 

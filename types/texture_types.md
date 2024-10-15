@@ -105,5 +105,5 @@ This category contains the following declarations:
 
 #### [TextureCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texturecubearray-07b)
 
-#### [\_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>](/stdlib-reference/types/texture-01/index)
+#### [\_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>](/stdlib-reference/types/0texture-01/index)
 

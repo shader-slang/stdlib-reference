@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # attribute [patchconstantfunc]
 
+## Description
+
+Used on a hull shader entrypoint to specify the associated function that computes the patch constant data.
+
 ## Signature
 
 <pre>
@@ -13,4 +17,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### name {#decl-name}
+The name of the function (in string literal) that computes the patch constant data.
+
 

@@ -15,16 +15,16 @@ Computes base-10 exponent
 
 <pre>
 <a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/exp10">exp10</a>&lt;<a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/exp10#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp10#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/exp10">exp10</a>&lt;<a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp10#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp10#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/exp10#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp10#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/builtinfloatingpointtype-0129hm/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
 #### N  : int {#decl-N}
 
 ## Parameters
