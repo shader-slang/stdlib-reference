@@ -11,6 +11,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/string" class="code_type">string</a> = <a href="/stdlib-reference/types/String/index" class="code_type">String</a>;
+<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/string" class="code_type">string</a> = <a href="/stdlib-reference/types/string-0/index" class="code_type">String</a>;
 </pre>
 

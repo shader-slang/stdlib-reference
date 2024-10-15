@@ -43,6 +43,7 @@ struct S
       x = 1; // ok
    }
 }
+```
 
 ## See also
 

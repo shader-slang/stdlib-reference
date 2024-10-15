@@ -18,13 +18,13 @@ Flip surface normal to face forward, if needed.
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/faceforward#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/faceforward#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/faceforward#decl-n" class="code_param">n</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/faceforward#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/faceforward#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/faceforward#decl-i" class="code_param">i</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/faceforward#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/faceforward#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/faceforward#decl-ng" class="code_param">ng</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/faceforward#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/BuiltinFloatingPointType/index" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/faceforward#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/BuiltinFloatingPointType/index) {#typeparam-T}
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
 #### N  : int {#decl-N}
 
 ## Parameters
