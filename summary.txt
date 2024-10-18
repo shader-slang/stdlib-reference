@@ -1,5 +1,5 @@
-documented pages: 248
-undocumented pages: 645(72.2%)
+documented pages: 249
+undocumented pages: 644(72.1%)
 
 IArithmetic
 IArithmetic.add
@@ -640,7 +640,6 @@ noise
 normalize<T, N:int>
 pow<T>
 powr<T>
-printf
 select<T>
 sin<T>
 sincos<T>
