@@ -8,6 +8,7 @@ layout: stdlib-reference
 
 
 
+Maps to the <span class='code'>NvInterlockedAddFp16x2</span> NVAPI function.
 
 
 ## Signature 
@@ -31,6 +32,11 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
-Requires capability: `hlsl_nvapi`.
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
 
 

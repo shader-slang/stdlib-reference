@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Perform a 64-bit integer atomic compare-and-exchange operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangeu64-0biq#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
@@ -24,9 +24,21 @@ layout: stdlib-reference
 ## Parameters
 
 #### byteAddress  : uint {#decl-byteAddress}
+The address at which to perform the atomic compare-and-exchange operation.
+
 #### compareValue  : uint64\_t {#decl-compareValue}
+The value to compare to the value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangeu64-0biq#decl-byteAddress" class="code_param">byteAddress</a></span>.
+
 #### value  : uint64\_t {#decl-value}
+The value to store at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangeu64-0biq#decl-byteAddress" class="code_param">byteAddress</a></span> if the comparison is successful.
+
 #### outOriginalValue  : uint64\_t {#decl-outOriginalValue}
+
+## Remarks
+For SPIR-V, this function maps to <span class='code'>OpAtomicCompareExchange</span>. For HLSL, this function
+translates to <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchange64-0bi">InterlockedCompareExchange64</a></span> and requires shader model 6.6.
+For CUDA, this function maps to <span class='code'>atomicCAS</span>.
+
 
 ## Availability and Requirements
 
@@ -35,7 +47,6 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
-Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in all stages.
 

@@ -1,5 +1,5 @@
-documented pages: 202
-undocumented pages: 689(77.3%)
+documented pages: 248
+undocumented pages: 645(72.2%)
 
 IArithmetic
 IArithmetic.add
@@ -157,36 +157,13 @@ RAY_FLAG
 RWBuffer<T, format:int>
 RWByteAddressBuffer
 RWByteAddressBuffer.GetDimensions
-RWByteAddressBuffer.InterlockedAdd
-RWByteAddressBuffer.InterlockedAdd64
-RWByteAddressBuffer.InterlockedAddF16
-RWByteAddressBuffer.InterlockedAddF32
-RWByteAddressBuffer.InterlockedAddI64
-RWByteAddressBuffer.InterlockedAnd
-RWByteAddressBuffer.InterlockedAnd64
+RWByteAddressBuffer.InterlockedAddU64
 RWByteAddressBuffer.InterlockedAndU64
-RWByteAddressBuffer.InterlockedCompareExchange
-RWByteAddressBuffer.InterlockedCompareExchange64
 RWByteAddressBuffer.InterlockedCompareExchangeFloatBitwise
-RWByteAddressBuffer.InterlockedCompareExchangeU64
-RWByteAddressBuffer.InterlockedCompareStore
-RWByteAddressBuffer.InterlockedCompareStore64
-RWByteAddressBuffer.InterlockedCompareStoreFloatBitwise
-RWByteAddressBuffer.InterlockedExchange
-RWByteAddressBuffer.InterlockedExchange64
-RWByteAddressBuffer.InterlockedExchangeFloat
 RWByteAddressBuffer.InterlockedExchangeU64
-RWByteAddressBuffer.InterlockedMax
-RWByteAddressBuffer.InterlockedMax64
 RWByteAddressBuffer.InterlockedMaxU64
-RWByteAddressBuffer.InterlockedMin
-RWByteAddressBuffer.InterlockedMin64
 RWByteAddressBuffer.InterlockedMinU64
-RWByteAddressBuffer.InterlockedOr
-RWByteAddressBuffer.InterlockedOr64
 RWByteAddressBuffer.InterlockedOrU64
-RWByteAddressBuffer.InterlockedXor
-RWByteAddressBuffer.InterlockedXor64
 RWByteAddressBuffer.InterlockedXorU64
 RWByteAddressBuffer.Load
 RWByteAddressBuffer.Load2
@@ -204,7 +181,6 @@ RWByteAddressBuffer.Store3Aligned
 RWByteAddressBuffer.Store4
 RWByteAddressBuffer.Store4Aligned
 RWByteAddressBuffer.StoreAligned<T>
-RWByteAddressBuffer._NvInterlockedAddFp16x2
 RWSampler1D<T, sampleCount:int, format:int>
 RWSampler1DArray<T, sampleCount:int, format:int>
 RWSampler2D<T, sampleCount:int, format:int>
@@ -227,15 +203,6 @@ RWTexture3D<T, sampleCount:int, format:int>
 RasterizerOrderedBuffer<T, format:int>
 RasterizerOrderedByteAddressBuffer
 RasterizerOrderedByteAddressBuffer.GetDimensions
-RasterizerOrderedByteAddressBuffer.InterlockedAdd
-RasterizerOrderedByteAddressBuffer.InterlockedAnd
-RasterizerOrderedByteAddressBuffer.InterlockedCompareExchange
-RasterizerOrderedByteAddressBuffer.InterlockedCompareStore
-RasterizerOrderedByteAddressBuffer.InterlockedExchange
-RasterizerOrderedByteAddressBuffer.InterlockedMax
-RasterizerOrderedByteAddressBuffer.InterlockedMin
-RasterizerOrderedByteAddressBuffer.InterlockedOr
-RasterizerOrderedByteAddressBuffer.InterlockedXor
 RasterizerOrderedByteAddressBuffer.Load
 RasterizerOrderedByteAddressBuffer.Load2
 RasterizerOrderedByteAddressBuffer.Load2Aligned
@@ -532,17 +499,6 @@ HitTriangleVertexPosition
 IgnoreHit
 InstanceID
 InstanceIndex
-InterlockedAdd
-InterlockedAnd
-InterlockedCompareExchange
-InterlockedCompareExchangeFloatBitwise
-InterlockedCompareStore
-InterlockedCompareStoreFloatBitwise
-InterlockedExchange
-InterlockedMax
-InterlockedMin
-InterlockedOr
-InterlockedXor
 IsHelperLane
 ObjectRayDirection
 ObjectRayOrigin

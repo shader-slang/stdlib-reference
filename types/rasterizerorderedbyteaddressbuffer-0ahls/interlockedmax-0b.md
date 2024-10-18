@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Perform an atomic max operation at the specified byte
+location of the byte address buffer.
 
 
 
@@ -27,8 +28,14 @@ layout: stdlib-reference
 ## Parameters
 
 #### dest  : uint {#decl-dest}
+The byte address at which to perform the atomic max operation.
+
 #### value  : uint {#decl-value}
+The operand of the atomic operation.
+
 #### original\_value  : uint {#decl-original_value}
+The original value at <span class='code'><a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedmax-0b#decl-dest" class="code_param">dest</a></span> before the max operation.
+
 
 ## Availability and Requirements
 

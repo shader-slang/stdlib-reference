@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Perform a 64-bit integer atomic add operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddi64-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
@@ -27,8 +27,20 @@ layout: stdlib-reference
 ## Parameters
 
 #### byteAddress  : uint {#decl-byteAddress}
+The address at which to perform the atomic add operation.
+
 #### valueToAdd  : int64\_t {#decl-valueToAdd}
+The value to add to the value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddi64-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+
 #### originalValue  : int64\_t {#decl-originalValue}
+The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddi64-0be#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+
+
+## Remarks
+For SPIR-V, this function maps to <span class='code'>OpAtomicAdd</span>. For HLSL, this function
+translates to <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedadd64-0b">InterlockedAdd64</a></span> and requires shader model 6.6.
+For CUDA, this function maps to <span class='code'>atomicAdd</span>.
+
 
 ## Availability and Requirements
 
@@ -37,7 +49,6 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
-Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in all stages.
 

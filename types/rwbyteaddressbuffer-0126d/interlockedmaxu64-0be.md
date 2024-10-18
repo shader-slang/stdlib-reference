@@ -31,7 +31,6 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
-Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in all stages.
 
