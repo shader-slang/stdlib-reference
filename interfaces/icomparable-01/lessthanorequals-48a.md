@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Returns true if <span class='code'>this</span> is less than or equal to <span class='code'><a href="/stdlib-reference/interfaces/icomparable-01/lessthanorequals-48a#decl-other" class="code_param">other</a></span>.
 
 
 

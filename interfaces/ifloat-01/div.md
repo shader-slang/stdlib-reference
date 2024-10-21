@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes the arithmetic division from values of the conforming type.
 
 
 

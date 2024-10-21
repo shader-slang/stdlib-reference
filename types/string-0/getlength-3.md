@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Returns the length of the string.
 
 
 

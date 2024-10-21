@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Multiplies a value of the conforming type by a floating point scale factor..
 
 
 

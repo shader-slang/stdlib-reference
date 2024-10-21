@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Converts a value of the conforming type into a <span class='code'><span class="code_keyword">float</span></span>.
 
 
 

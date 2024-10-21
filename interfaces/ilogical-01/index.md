@@ -6,6 +6,11 @@ layout: stdlib-reference
 
 *Inherits from:* [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
 
+## Description
+
+Represents types that provide logical operations.
+
+
 ## Methods
 
 * [shl](/stdlib-reference/interfaces/ilogical-01/shl)

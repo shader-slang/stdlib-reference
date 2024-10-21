@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes the arithmetic subtraction from values of the conforming type.
 
 
 

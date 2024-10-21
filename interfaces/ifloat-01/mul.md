@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes the arithmetic multiplication from values of the conforming type.
 
 
 

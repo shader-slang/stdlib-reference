@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct matrix\<T, R:int, C:int, L:int\>
 
-*Conforms to:* IRWArray\<[vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), C \>\>
+*Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), C \>\>
 
 *Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/ifloat-01/index)
 

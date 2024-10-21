@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Description
 
-Represent a type that can be used for floating point arithmetic operations.
+Represents a type that can be used for floating point arithmetic operations.
 
 Implemented by builtin scalar types: <span class='code'><span class="code_keyword">float</span></span>, <span class='code'><span class="code_keyword">half</span></span>, <span class='code'><span class="code_keyword">double</span></span>.
 

@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes the arithmetic negation of the conforming type.
 
 
 

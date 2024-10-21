@@ -4,6 +4,11 @@ layout: stdlib-reference
 
 # property String\.length
 
+## Description
+
+Returns the length of the string.
+
+
 ## Signature
 
 <pre>

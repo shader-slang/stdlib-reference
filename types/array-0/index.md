@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct Array\<T, N:int\>
 
-*Conforms to:* IRWArray\<[T](/stdlib-reference/types/array-0/index#typeparam-T)\>
+*Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
 ## Generic Parameters
 

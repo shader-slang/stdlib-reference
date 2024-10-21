@@ -11,6 +11,8 @@ layout: stdlib-reference
 Represents builtin floating point scalar types.
 To define generic functions that work with both scalar and vector types, use <span class='code'><a href="/stdlib-reference/interfaces/ifloat-01/index" class="code_type">IFloat</a></span> instead.
 
+Implemented by <span class='code'><span class="code_keyword">float</span></span>, <span class='code'><span class="code_keyword">half</span></span> and <span class='code'><span class="code_keyword">double</span></span> types.
+
 
 ## Methods
 

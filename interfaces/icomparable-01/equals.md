@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Returns true if two values of the conforming type are equal.
 
 
 

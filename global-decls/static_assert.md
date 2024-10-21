@@ -8,7 +8,8 @@ layout: stdlib-reference
 
 
 
-
+@experimetal
+Perform a compile-time condition check and emit a compile-time error if the condition is false.
 
 ## Signature 
 
@@ -22,5 +23,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### condition  : bool {#decl-condition}
+The compile-time condition to check.
+
 #### errorMessage  : [NativeString](/stdlib-reference/types/nativestring-06/index) {#decl-errorMessage}
+The error message to emit if the condition is false.
+
 

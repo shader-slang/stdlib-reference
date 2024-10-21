@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Computes the arithmetic remainder from values of the conforming type.
 
 
 

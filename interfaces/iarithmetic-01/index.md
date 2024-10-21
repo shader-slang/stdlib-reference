@@ -6,6 +6,11 @@ layout: stdlib-reference
 
 *Inherits from:* [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
 
+## Description
+
+Represents types that provide arithmetic operations.
+
+
 ## Methods
 
 * [add](/stdlib-reference/interfaces/iarithmetic-01/add)

@@ -8,6 +8,6 @@ layout: stdlib-reference
 
 ## Description
 
-Represent builtin types that can represent integers.
+Represents builtin types that can represent integers.
 
 

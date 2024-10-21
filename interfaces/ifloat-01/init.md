@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Initializes a value of the conforming type form a <span class='code'><span class="code_keyword">float</span></span>.
 
 
 

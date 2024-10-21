@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct vector\<T, N:int\>
 
-*Conforms to:* IRWArray\<[T](/stdlib-reference/types/vector/index#typeparam-T)\>
+*Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
 *Conditionally conforms to:* [IInteger](/stdlib-reference/interfaces/iinteger-01/index), [IFloat](/stdlib-reference/interfaces/ifloat-01/index)
 

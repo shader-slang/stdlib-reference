@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Represent the applicable target for an attribute.
+Represents the applicable target for an attribute.
 
 
 ## Values 

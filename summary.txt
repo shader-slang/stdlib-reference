@@ -1,19 +1,14 @@
-documented pages: 249
-undocumented pages: 644(72.1%)
+documented pages: 274
+undocumented pages: 624(69.5%)
 
-IArithmetic
 IArithmetic.add
 IArithmetic.div
 IArithmetic.mod
 IArithmetic.mul
 IArithmetic.neg
 IArithmetic.sub
+IArray<T>.subscript
 IBufferDataLayout
-IComparable
-IComparable.equals
-IComparable.lessThan
-IComparable.lessThanOrEquals
-IDefaultInitializable
 IDefaultInitializable.init
 IDifferentiable.dadd
 IDifferentiable.dmul<T>
@@ -23,15 +18,6 @@ IDifferentiableFunc<TR, each TP>.operator()
 IDifferentiableMutatingFunc<TR, each TP>
 IDifferentiableMutatingFunc<TR, each TP>.operator()
 IDifferentiablePtrType
-IFloat.add
-IFloat.div
-IFloat.init
-IFloat.mod
-IFloat.mul
-IFloat.neg
-IFloat.scale<T>
-IFloat.sub
-IFloat.toFloat
 IFunc<TR, each TP>
 IFunc<TR, each TP>.operator()
 IInteger.init
@@ -39,7 +25,6 @@ IInteger.toInt
 IInteger.toInt64
 IInteger.toUInt
 IInteger.toUInt64
-ILogical
 ILogical.and
 ILogical.bitAnd
 ILogical.bitNot
@@ -52,7 +37,7 @@ ILogical.shl
 ILogical.shr
 IMutatingFunc<TR, each TP>
 IMutatingFunc<TR, each TP>.operator()
-IRangedValue
+IRWArray<T>.subscript
 IRangedValue.maxValue
 IRangedValue.minValue
 __ITextureShape.dimensions
@@ -150,7 +135,6 @@ ParameterBlock<T>
 PointStream<T>
 PointStream<T>.Append
 PointStream<T>.RestartStrip
-Ptr<T, addrSpace:uint64_t>
 Ptr<T, addrSpace:uint64_t>.init<U>
 Ptr<T, addrSpace:uint64_t>.subscript<TInt>
 RAY_FLAG
@@ -320,10 +304,7 @@ SamplerCubeArray<T, sampleCount:int, format:int>
 ScalarDataLayout
 Std140DataLayout
 Std430DataLayout
-String
-String.getLength
 String.init
-String.length
 StructuredBuffer<T, L>.GetDimensions
 StructuredBuffer<T, L>.Load<TIndex>
 StructuredBuffer<T, L>.subscript<TIndex>
@@ -643,5 +624,4 @@ powr<T>
 select<T>
 sin<T>
 sincos<T>
-static_assert
 unmodified<T>
