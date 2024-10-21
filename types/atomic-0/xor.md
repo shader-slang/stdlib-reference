@@ -6,6 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
+Atomically performs a bitwise XOR operation between the stored value
+and the given value, storing the result and returning the original
+stored value.
 
 
 

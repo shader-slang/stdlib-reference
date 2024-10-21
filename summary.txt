@@ -1,5 +1,5 @@
-documented pages: 274
-undocumented pages: 624(69.5%)
+documented pages: 286
+undocumented pages: 612(68.2%)
 
 IArithmetic.add
 IArithmetic.div
@@ -47,19 +47,10 @@ AppendStructuredBuffer<T, L>.Append
 AppendStructuredBuffer<T, L>.GetDimensions
 Array<T, N:int>
 Array<T, N:int>.getCount
-Atomic<T>.add
-Atomic<T>.and
 Atomic<T>.compareExchange
-Atomic<T>.decrement
 Atomic<T>.exchange
-Atomic<T>.increment
 Atomic<T>.load
-Atomic<T>.max
-Atomic<T>.min
-Atomic<T>.or
 Atomic<T>.store
-Atomic<T>.sub
-Atomic<T>.xor
 Buffer<T, format:int>
 BuiltInTriangleIntersectionAttributes
 BuiltInTriangleIntersectionAttributes.barycentrics
@@ -117,10 +108,8 @@ NativeString.getBuffer
 NativeString.getLength
 NativeString.init
 NativeString.length
-Optional<T>
 Optional<T>.hasValue
 Optional<T>.init
-Optional<T>.value
 OutputIndices<T, MAX_PRIMITIVES:uint>
 OutputIndices<T, MAX_PRIMITIVES:uint>.subscript
 OutputPatch<T, N:int>
@@ -328,7 +317,6 @@ TextureFootprint3D
 TriangleStream<T>
 TriangleStream<T>.Append
 TriangleStream<T>.RestartStrip
-Tuple<each T>
 Tuple<T>.equals
 Tuple<each T>.init
 Tuple<T>.lessThan

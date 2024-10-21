@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Construct a tuple from several values in order
 
 
 

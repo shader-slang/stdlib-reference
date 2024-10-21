@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Atomically replace the stored <span class='code'><a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a></span> value with a new <span class='code'><a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a></span> value and return
+replaced value
 
 
 

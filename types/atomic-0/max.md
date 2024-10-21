@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Atomically computes the maximum of the stored value and the given
+value, storing the result and returning the original stored value.
 
 
 

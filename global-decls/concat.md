@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Return a tuple containing the values of both input tuples in order
 
 
 

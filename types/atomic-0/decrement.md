@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Atomically decrements the stored value and returns the original stored
+value.
 
 
 

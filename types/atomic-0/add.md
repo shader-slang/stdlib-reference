@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Atomically adds the given value to the stored value and returns the
+original stored value.
 
 
 

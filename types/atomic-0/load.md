@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Atomically load the stored <span class='code'><a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a></span> value
 
 
 
