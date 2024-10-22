@@ -1,5 +1,5 @@
-documented pages: 286
-undocumented pages: 612(68.2%)
+documented pages: 292
+undocumented pages: 606(67.5%)
 
 IArithmetic.add
 IArithmetic.div
@@ -570,12 +570,6 @@ cross<T>
 cudaBlockDim
 cudaBlockIdx
 cudaThreadIdx
-ddx<T>
-ddx_coarse<T>
-ddx_fine<T>
-ddy<T>
-ddy_coarse<T>
-ddy_fine<T>
 debugBreak
 distance<T, N:int>
 divide<T>

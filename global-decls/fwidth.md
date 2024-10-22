@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Texture filter width.
-
+Calculates the sum abs(ddx(<span class='code'><a href="/stdlib-reference/global-decls/fwidth#decl-p" class="code_param">p</a></span>)) + abs(ddy(<span class='code'><a href="/stdlib-reference/global-decls/fwidth#decl-p" class="code_param">p</a></span>)).
 
 
 
@@ -15,7 +15,7 @@ Texture filter width.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fwidth">fwidth</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fwidth#decl-x" class="code_param">x</a>)
+<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fwidth">fwidth</a>&lt;<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/fwidth#decl-p" class="code_param">p</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/fwidth#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
@@ -36,9 +36,18 @@ Texture filter width.
 
 ## Parameters
 
-#### x  : [T](/stdlib-reference/global-decls/fwidth#typeparam-T) {#decl-x}
+#### p  : [T](/stdlib-reference/global-decls/fwidth#typeparam-T) {#decl-p}
+The value to sum x and y partial derivative magnitudes for.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+
+## Return value
+The sum of abs(ddx(<span class='code'><a href="/stdlib-reference/global-decls/fwidth#decl-p" class="code_param">p</a></span>)) and abs(ddy(<span class='code'><a href="/stdlib-reference/global-decls/fwidth#decl-p" class="code_param">p</a></span>)).
+
+## Remarks
+For SPIR-V, this function maps to <span class='code'>OpFwidth</span>.
+
 
 ## Availability and Requirements
 
