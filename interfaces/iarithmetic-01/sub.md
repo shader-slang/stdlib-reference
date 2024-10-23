@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Subtracts one value of the conforming type from another.
 
 
 
@@ -20,4 +20,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### other  : This {#decl-other}
+The value to subtract from <span class='code'>this</span>.
+
+
+## Return value
+The difference of <span class='code'>this</span> and <span class='code'><a href="/stdlib-reference/interfaces/iarithmetic-01/sub#decl-other" class="code_param">other</a></span>.
+
 

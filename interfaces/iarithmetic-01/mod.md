@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Computes the remainder of division of one value of the conforming type by another.
 
 
 
@@ -20,4 +20,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### other  : This {#decl-other}
+The divisor used to divide <span class='code'>this</span>.
+
+
+## Return value
+The remainder of <span class='code'>this</span> divided by <span class='code'><a href="/stdlib-reference/interfaces/iarithmetic-01/mod#decl-other" class="code_param">other</a></span>.
+
 

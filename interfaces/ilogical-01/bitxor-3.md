@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Performs a bitwise XOR operation on this value with another value of the same type.
 
 
 

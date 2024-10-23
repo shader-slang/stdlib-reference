@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Performs a logical NOT operation on this value, returning the logical negation.
 
 
 

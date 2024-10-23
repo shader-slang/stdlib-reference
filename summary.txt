@@ -1,45 +1,15 @@
-documented pages: 292
-undocumented pages: 606(67.5%)
+documented pages: 322
+undocumented pages: 576(64.1%)
 
-IArithmetic.add
-IArithmetic.div
-IArithmetic.mod
-IArithmetic.mul
-IArithmetic.neg
-IArithmetic.sub
 IArray<T>.subscript
-IBufferDataLayout
 IDefaultInitializable.init
-IDifferentiable.dadd
-IDifferentiable.dmul<T>
-IDifferentiable.dzero
-IDifferentiableFunc<TR, each TP>
 IDifferentiableFunc<TR, each TP>.operator()
-IDifferentiableMutatingFunc<TR, each TP>
 IDifferentiableMutatingFunc<TR, each TP>.operator()
-IDifferentiablePtrType
-IFunc<TR, each TP>
 IFunc<TR, each TP>.operator()
 IInteger.init
-IInteger.toInt
-IInteger.toInt64
-IInteger.toUInt
-IInteger.toUInt64
-ILogical.and
-ILogical.bitAnd
-ILogical.bitNot
-ILogical.bitOr
-ILogical.bitXor
 ILogical.init
-ILogical.not
-ILogical.or
-ILogical.shl
-ILogical.shr
-IMutatingFunc<TR, each TP>
 IMutatingFunc<TR, each TP>.operator()
 IRWArray<T>.subscript
-IRangedValue.maxValue
-IRangedValue.minValue
 __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions

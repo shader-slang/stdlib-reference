@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Adds two differential values and returns the result.
 
 
 
@@ -23,4 +24,6 @@ layout: stdlib-reference
 
 #### SLANG\_anonymous\_0  : This\.Differential {#decl-SLANG_anonymous_0}
 #### SLANG\_anonymous\_1  : This\.Differential {#decl-SLANG_anonymous_1}
+Adds two differential values and returns the result.
+
 

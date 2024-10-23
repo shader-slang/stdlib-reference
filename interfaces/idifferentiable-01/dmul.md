@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Multiplies a scalar value of a built-in real type with a differential value and returns the result.
 
 
 
@@ -28,4 +29,6 @@ layout: stdlib-reference
 
 #### SLANG\_anonymous\_2  : [T](/stdlib-reference/interfaces/idifferentiable-01/dmul#typeparam-T) {#decl-SLANG_anonymous_2}
 #### SLANG\_anonymous\_3  : This\.Differential {#decl-SLANG_anonymous_3}
+Multiplies a scalar value of a built-in real type with a differential value and returns the result.
+
 

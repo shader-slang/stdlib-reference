@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Performs a bitwise NOT operation on this value, flipping all bits.
 
 
 

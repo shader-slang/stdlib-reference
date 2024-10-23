@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Shifts the bits of this value to the right by the specified number of positions.
 
 
 

@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Returns a zero-initialized value of the differential type.
 
 
 
