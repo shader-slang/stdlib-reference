@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Population count.
-
+Counts the number of set bits in the binary representation of a value.
 
 
 
@@ -27,7 +27,18 @@ Population count.
 ## Parameters
 
 #### value  : uint {#decl-value}
+The value to count bits in.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
+The value to count bits in.
+
+
+## Return value
+The number of bits in the binary representation of <span class='code'><a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a></span> that are set to one.
+
+## Remarks
+For SPIR-V, this function maps to <span class='code'>OpBitCount</span>.
+
 
 ## Availability and Requirements
 

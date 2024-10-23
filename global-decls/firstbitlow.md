@@ -10,7 +10,6 @@ Find first set bit starting at low bit and working up.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -31,9 +30,25 @@ Find first set bit starting at low bit and working up.
 ## Parameters
 
 #### value  : int {#decl-value}
+The value to find set bits in.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
+The value to find set bits in.
+
 #### value  : uint {#decl-value}
+The value to find set bits in.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
+The value to find set bits in.
+
+
+## Return value
+The bit index number of the least significant set bit,
+or all ones (-1 when interpretted as signed) if <span class='code'><a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a></span> is 0.
+
+## Remarks
+For SPIR-V, this function maps to GLSL extended instruction <span class='code'>FindILsb</span>.
+
 
 ## Availability and Requirements
 

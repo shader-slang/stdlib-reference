@@ -10,7 +10,6 @@ Reverse order of bits.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -27,7 +26,18 @@ Reverse order of bits.
 ## Parameters
 
 #### value  : uint {#decl-value}
+The value to reverse bits of.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
+The value to reverse bits of.
+
+
+## Return value
+The bits of <span class='code'><a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a></span>, reversed such that bit n of the result is equal to bit (width - 1 - n) of <span class='code'><a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a></span>.
+
+## Remarks
+For SPIR-V, this function maps to <span class='code'>OpBitReverse</span>.
+
 
 ## Availability and Requirements
 
