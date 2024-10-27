@@ -1,5 +1,5 @@
 documented pages: 322
-undocumented pages: 576(64.1%)
+undocumented pages: 577(64.2%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -100,6 +100,7 @@ RAY_FLAG
 RWBuffer<T, format:int>
 RWByteAddressBuffer
 RWByteAddressBuffer.GetDimensions
+RWByteAddressBuffer.InterlockedAddF64
 RWByteAddressBuffer.InterlockedAddU64
 RWByteAddressBuffer.InterlockedAndU64
 RWByteAddressBuffer.InterlockedCompareExchangeFloatBitwise
