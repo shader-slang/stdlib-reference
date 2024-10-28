@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Load two 32-bit unsigned integers from the buffer at the specified location with alignment
+of stride of <span class='code'>uint2</span>, which is 8.
 
 
 
@@ -20,6 +21,13 @@ layout: stdlib-reference
 ## Parameters
 
 #### location  : int {#decl-location}
+The input address in bytes, which must be a multiple of alignment of 8. Invalid
+value of location will cause undefined behavior.
+
+
+## Return value
+<span class='code'>uint2</span> Two 32-bit unsigned integers loaded from the buffer.
+
 
 ## Availability and Requirements
 

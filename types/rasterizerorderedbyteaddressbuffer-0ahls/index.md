@@ -6,7 +6,10 @@ layout: stdlib-reference
 
 ## Description
 
-
+Represents an opaque handle to a read-write buffer allocated in global memory that is indexed in bytes.
+This type can be used when working with raw buffers. Raw buffer can be viewed as a bag of bits to
+which you want raw access, that is, a buffer that you can conveniently access through chunks of one to
+four 32-bit typeless address values.
 
 ## Methods
 
@@ -36,4 +39,10 @@ layout: stdlib-reference
 * [Store4Aligned](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store4aligned-06)
 * [Store](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0)
 * [StoreAligned](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/storealigned-05)
+
+## Remarks
+
+
+This type is supported natively when targeting HLSL.
+
 

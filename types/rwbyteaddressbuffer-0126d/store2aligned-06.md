@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Set two values to the buffer at the specified location, the address will be aligned
+to the alignment of  <span class='code'>uint2</span>, which is 8.
 
 
 
@@ -22,7 +23,11 @@ layout: stdlib-reference
 ## Parameters
 
 #### address  : uint {#decl-address}
+The input address in bytes, which must be a multiple of 8.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-value}
+Two input values.
+
 
 ## Availability and Requirements
 

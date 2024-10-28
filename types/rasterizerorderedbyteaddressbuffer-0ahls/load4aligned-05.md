@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Load four 32-bit unsigned integers from the buffer at the specified location with alignment
+of <span class='code'>uint4</span>, which is 16.
 
 
 
@@ -21,6 +22,12 @@ layout: stdlib-reference
 ## Parameters
 
 #### location  : int {#decl-location}
+The input address in bytes which must be a multiple of alignment of 16.
+
+
+## Return value
+<span class='code'>uint4</span> Four 32-bit unsigned integer value loaded from the buffer.
+
 
 ## Availability and Requirements
 

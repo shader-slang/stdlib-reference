@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Load a 32-bit unsigned integer or value with type of <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/load-0#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location.
 
 
 
@@ -34,12 +34,34 @@ layout: stdlib-reference
 ## Generic Parameters
 
 #### T {#typeparam-T}
+The type of the value to load from the buffer.
+
 
 ## Parameters
 
 #### location  : int {#decl-location}
+The input address in bytes, which must be a multiple of 4.
+
 #### status  : uint {#decl-status}
+\[out\] The status of the operation.
+
 #### alignment  : int {#decl-alignment}
+Specifies the alignment of the location, which must be a multiple of 4.
+
+
+## Return value
+The value loaded from the buffer.
+
+
+## Remarks
+
+You can't access the output parameter <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/load-0#decl-status" class="code_param">status</a></span> directly; instead,
+pass the status to the <span class='code'><a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg">CheckAccessFullyMapped</a></span> intrinsic function.
+<span class='code'><a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg">CheckAccessFullyMapped</a></span> returns TRUE if all values from the corresponding Sample,
+Gather, or Load operation accessed mapped tiles in a tiled resource.
+If any values were taken from an unmapped tile, <span class='code'><a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg">CheckAccessFullyMapped</a></span> returns FALSE.
+When targeting non-HLSL, the status is always 0.
+
 
 ## Availability and Requirements
 

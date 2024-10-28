@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Perform a 64-bit unsigned integer atomic min operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedminu64-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
@@ -22,7 +22,11 @@ uint64_t <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class
 ## Parameters
 
 #### byteAddress  : uint {#decl-byteAddress}
+The address at which to perform the atomic min operation.
+
 #### value  : uint64\_t {#decl-value}
+The operand for the min operation.
+
 
 ## Availability and Requirements
 

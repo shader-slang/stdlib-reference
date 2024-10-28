@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Appends a new element to the buffer.
 
 
 
@@ -21,4 +21,6 @@ layout: stdlib-reference
 ## Parameters
 
 #### value  : [T](/stdlib-reference/types/appendstructuredbuffer-06g/index#typeparam-T) {#decl-value}
+The element to be appended to the buffer.
+
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Gets the dimensions of the resource.
 
 
 
@@ -23,5 +23,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### numStructs  : uint {#decl-numStructs}
+\[out\] The number of structures in the buffer.
+
 #### stride  : uint {#decl-stride}
+\[out\] The stride, in bytes, of each element
+
 

@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Load three 32-bit unsigned integers from the buffer at the specified location with alignment
+of <span class='code'>uint3</span>, which is 12.
 
 
 
@@ -20,6 +21,12 @@ layout: stdlib-reference
 ## Parameters
 
 #### location  : int {#decl-location}
+The input address in bytes which must be a multiple of alignment of 12.
+
+
+## Return value
+<span class='code'>uint3</span> Three 32-bit unsigned integer value loaded from the buffer.
+
 
 ## Availability and Requirements
 

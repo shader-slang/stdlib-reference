@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Get the number of bytes in the buffer.
 
 
 
@@ -21,6 +21,8 @@ layout: stdlib-reference
 ## Parameters
 
 #### dim  : uint {#decl-dim}
+\[out\] The number of bytes in the buffer.
+
 
 ## Availability and Requirements
 

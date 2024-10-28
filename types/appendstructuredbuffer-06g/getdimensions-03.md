@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Get information about the number of elements and stride of the buffer.
 
 
 
@@ -23,5 +23,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### numStructs  : uint {#decl-numStructs}
+The number of elements in the buffer.
+
 #### stride  : uint {#decl-stride}
+The stride of the buffer.
+
 

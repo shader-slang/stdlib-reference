@@ -41,6 +41,8 @@ The operand for the exchange operation.
 The operand for the exchange operation.
 
 #### outOriginalValue  : [T](/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T) {#decl-outOriginalValue}
+The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-byteAddress" class="code_param">byteAddress</a></span> before the exchange operation.
+
 
 ## Availability and Requirements
 

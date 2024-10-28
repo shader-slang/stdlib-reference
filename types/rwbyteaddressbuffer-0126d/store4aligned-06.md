@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Set four values to the buffer at the specified location, the address will be aligned
+to the alignment of <span class='code'>uint4</span>, which is 16.
 
 
 
@@ -22,7 +23,11 @@ layout: stdlib-reference
 ## Parameters
 
 #### address  : uint {#decl-address}
+The input address in bytes, which must be a multiple of 16.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-value}
+Four input values.
+
 
 ## Availability and Requirements
 

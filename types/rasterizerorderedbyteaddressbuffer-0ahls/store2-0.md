@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Set two values to the buffer at the specified location.
 
 
 
@@ -27,8 +27,14 @@ layout: stdlib-reference
 ## Parameters
 
 #### address  : uint {#decl-address}
+The input address in bytes, which must be a multiple of 4.
+
 #### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-value}
+Two input values.
+
 #### alignment  : uint {#decl-alignment}
+Specifies the alignment of the location, which must be a multiple of 4.
+
 
 ## Availability and Requirements
 

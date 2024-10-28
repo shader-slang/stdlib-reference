@@ -26,6 +26,8 @@ Perform a 16-bit floating point atomic add operation at <span class='code'><a hr
 The address at which to perform the atomic add operation.
 
 #### value  : half {#decl-value}
+The value to add to the value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16emulated-0beh#decl-byteAddress" class="code_param">byteAddress</a></span>.
+
 #### originalValue  : half {#decl-originalValue}
 The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16emulated-0beh#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 

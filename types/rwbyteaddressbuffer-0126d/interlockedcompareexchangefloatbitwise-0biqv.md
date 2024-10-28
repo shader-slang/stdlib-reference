@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Perform a floating-point atomic bitwise compare-and-exchange operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangefloatbitwise-0biqv#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
@@ -24,9 +24,23 @@ layout: stdlib-reference
 ## Parameters
 
 #### byteAddress  : uint {#decl-byteAddress}
+The address at which to perform the atomic exchange operation.
+
 #### compareValue  : float {#decl-compareValue}
+The value to compare to the value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangefloatbitwise-0biqv#decl-byteAddress" class="code_param">byteAddress</a></span>.
+
 #### value  : float {#decl-value}
+The value to store at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangefloatbitwise-0biqv#decl-byteAddress" class="code_param">byteAddress</a></span>.
+
 #### outOriginalValue  : float {#decl-outOriginalValue}
+\[out\] The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangefloatbitwise-0biqv#decl-byteAddress" class="code_param">byteAddress</a></span> before the exchange operation.
+
+
+## Remarks
+For SPIR-V, this function maps to <span class='code'>OpAtomicCompareExchange</span>. For HLSL, this function
+translates to <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangefloatbitwise-0biqv">InterlockedCompareExchangeFloatBitwise</a></span> and requires shader model 6.6.
+For CUDA, this function maps to <span class='code'>atomicCAS</span>.
+
 
 ## Availability and Requirements
 

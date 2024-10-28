@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Increment the object's hidden counter.
 
 
 
@@ -17,4 +17,12 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L" class="code_type">L</a> : <a href="/stdlib-reference/interfaces/ibufferdatalayout-017b/index" class="code_type">IBufferDataLayout</a>;
 
 </pre>
+
+## Return value
+The pre-incremented counter value.
+
+## Remarks
+
+This function is not implemented when targeting non-HLSL.
+
 

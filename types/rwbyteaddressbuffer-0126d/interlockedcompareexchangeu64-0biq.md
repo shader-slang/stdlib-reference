@@ -33,6 +33,8 @@ The value to compare to the value at <span class='code'><a href="/stdlib-referen
 The value to store at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangeu64-0biq#decl-byteAddress" class="code_param">byteAddress</a></span> if the comparison is successful.
 
 #### outOriginalValue  : uint64\_t {#decl-outOriginalValue}
+The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedcompareexchangeu64-0biq#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpAtomicCompareExchange</span>. For HLSL, this function

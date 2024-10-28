@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Get the dimensions of the buffer.
 
 
 
@@ -23,5 +23,9 @@ layout: stdlib-reference
 ## Parameters
 
 #### numStructs  : uint {#decl-numStructs}
+The number of structures in the buffer.
+
 #### stride  : uint {#decl-stride}
+The stride, in bytes, of each structure element.
+
 

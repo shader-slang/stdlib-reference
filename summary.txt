@@ -1,5 +1,5 @@
-documented pages: 322
-undocumented pages: 577(64.2%)
+documented pages: 390
+undocumented pages: 509(56.6%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -13,8 +13,6 @@ IRWArray<T>.subscript
 __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions
-AppendStructuredBuffer<T, L>.Append
-AppendStructuredBuffer<T, L>.GetDimensions
 Array<T, N:int>
 Array<T, N:int>.getCount
 Atomic<T>.compareExchange
@@ -24,19 +22,7 @@ Atomic<T>.store
 Buffer<T, format:int>
 BuiltInTriangleIntersectionAttributes
 BuiltInTriangleIntersectionAttributes.barycentrics
-ByteAddressBuffer
-ByteAddressBuffer.GetDimensions
-ByteAddressBuffer.Load
-ByteAddressBuffer.Load2
-ByteAddressBuffer.Load2Aligned
-ByteAddressBuffer.Load3
-ByteAddressBuffer.Load3Aligned
-ByteAddressBuffer.Load4
-ByteAddressBuffer.Load4Aligned
-ByteAddressBuffer.LoadAligned<T>
 ConstantBuffer<T>
-ConsumeStructuredBuffer<T, L>.Consume
-ConsumeStructuredBuffer<T, L>.GetDimensions
 DefaultDataLayout
 DifferentialPair<T>.Differential
 DifferentialPair<T>.DifferentialElementType
@@ -98,33 +84,7 @@ Ptr<T, addrSpace:uint64_t>.init<U>
 Ptr<T, addrSpace:uint64_t>.subscript<TInt>
 RAY_FLAG
 RWBuffer<T, format:int>
-RWByteAddressBuffer
-RWByteAddressBuffer.GetDimensions
 RWByteAddressBuffer.InterlockedAddF64
-RWByteAddressBuffer.InterlockedAddU64
-RWByteAddressBuffer.InterlockedAndU64
-RWByteAddressBuffer.InterlockedCompareExchangeFloatBitwise
-RWByteAddressBuffer.InterlockedExchangeU64
-RWByteAddressBuffer.InterlockedMaxU64
-RWByteAddressBuffer.InterlockedMinU64
-RWByteAddressBuffer.InterlockedOrU64
-RWByteAddressBuffer.InterlockedXorU64
-RWByteAddressBuffer.Load
-RWByteAddressBuffer.Load2
-RWByteAddressBuffer.Load2Aligned
-RWByteAddressBuffer.Load3
-RWByteAddressBuffer.Load3Aligned
-RWByteAddressBuffer.Load4
-RWByteAddressBuffer.Load4Aligned
-RWByteAddressBuffer.LoadAligned<T>
-RWByteAddressBuffer.Store
-RWByteAddressBuffer.Store2
-RWByteAddressBuffer.Store2Aligned
-RWByteAddressBuffer.Store3
-RWByteAddressBuffer.Store3Aligned
-RWByteAddressBuffer.Store4
-RWByteAddressBuffer.Store4Aligned
-RWByteAddressBuffer.StoreAligned<T>
 RWSampler1D<T, sampleCount:int, format:int>
 RWSampler1DArray<T, sampleCount:int, format:int>
 RWSampler2D<T, sampleCount:int, format:int>
@@ -132,10 +92,6 @@ RWSampler2DArray<T, sampleCount:int, format:int>
 RWSampler2DMS<T, sampleCount:int, format:int>
 RWSampler2DMSArray<T, sampleCount:int, format:int>
 RWSampler3D<T, sampleCount:int, format:int>
-RWStructuredBuffer<T, L>.DecrementCounter
-RWStructuredBuffer<T, L>.GetDimensions
-RWStructuredBuffer<T, L>.IncrementCounter
-RWStructuredBuffer<T, L>.Load<TIndex>
 RWStructuredBuffer<T, L>.subscript<TIndex>
 RWTexture1D<T, sampleCount:int, format:int>
 RWTexture1DArray<T, sampleCount:int, format:int>
@@ -145,33 +101,11 @@ RWTexture2DMS<T, sampleCount:int, format:int>
 RWTexture2DMSArray<T, sampleCount:int, format:int>
 RWTexture3D<T, sampleCount:int, format:int>
 RasterizerOrderedBuffer<T, format:int>
-RasterizerOrderedByteAddressBuffer
-RasterizerOrderedByteAddressBuffer.GetDimensions
-RasterizerOrderedByteAddressBuffer.Load
-RasterizerOrderedByteAddressBuffer.Load2
-RasterizerOrderedByteAddressBuffer.Load2Aligned
-RasterizerOrderedByteAddressBuffer.Load3
-RasterizerOrderedByteAddressBuffer.Load3Aligned
-RasterizerOrderedByteAddressBuffer.Load4
-RasterizerOrderedByteAddressBuffer.Load4Aligned
-RasterizerOrderedByteAddressBuffer.LoadAligned<T>
-RasterizerOrderedByteAddressBuffer.Store
-RasterizerOrderedByteAddressBuffer.Store2
-RasterizerOrderedByteAddressBuffer.Store2Aligned
-RasterizerOrderedByteAddressBuffer.Store3
-RasterizerOrderedByteAddressBuffer.Store3Aligned
-RasterizerOrderedByteAddressBuffer.Store4
-RasterizerOrderedByteAddressBuffer.Store4Aligned
-RasterizerOrderedByteAddressBuffer.StoreAligned<T>
 RasterizerOrderedSampler1D<T, sampleCount:int, format:int>
 RasterizerOrderedSampler1DArray<T, sampleCount:int, format:int>
 RasterizerOrderedSampler2D<T, sampleCount:int, format:int>
 RasterizerOrderedSampler2DArray<T, sampleCount:int, format:int>
 RasterizerOrderedSampler3D<T, sampleCount:int, format:int>
-RasterizerOrderedStructuredBuffer<T, L>.DecrementCounter
-RasterizerOrderedStructuredBuffer<T, L>.GetDimensions
-RasterizerOrderedStructuredBuffer<T, L>.IncrementCounter
-RasterizerOrderedStructuredBuffer<T, L>.Load<TIndex>
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
 RasterizerOrderedTexture1D<T, sampleCount:int, format:int>
 RasterizerOrderedTexture1DArray<T, sampleCount:int, format:int>
@@ -265,8 +199,6 @@ ScalarDataLayout
 Std140DataLayout
 Std430DataLayout
 String.init
-StructuredBuffer<T, L>.GetDimensions
-StructuredBuffer<T, L>.Load<TIndex>
 StructuredBuffer<T, L>.subscript<TIndex>
 SubpassInput<T, isMS:int>
 SubpassInputMS<T, isMS:int>
