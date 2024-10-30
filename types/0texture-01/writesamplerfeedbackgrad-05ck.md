@@ -25,7 +25,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 3
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 4
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a> == 0;
@@ -41,7 +41,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 3
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 4
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a> == 0;
@@ -58,7 +58,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 3
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 4
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a> == 0;
@@ -74,7 +74,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a> == 0
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 3
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a> == 4
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a> == 0;

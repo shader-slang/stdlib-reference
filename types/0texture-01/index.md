@@ -68,6 +68,7 @@ The storage format of the texture. Users should specify the format using an <spa
 * [GatherCmpGreen](/stdlib-reference/types/0texture-01/gathercmpgreen-069)
 * [GatherCmpBlue](/stdlib-reference/types/0texture-01/gathercmpblue-069)
 * [GatherCmpAlpha](/stdlib-reference/types/0texture-01/gathercmpalpha-069)
+* [Store](/stdlib-reference/types/0texture-01/store-0)
 * [GetDimensions](/stdlib-reference/types/0texture-01/getdimensions-03)
 * [Load](/stdlib-reference/types/0texture-01/load-0)
 * [subscript](/stdlib-reference/types/0texture-01/subscript)

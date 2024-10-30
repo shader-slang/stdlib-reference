@@ -542,7 +542,6 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
-Requires capabilities: `spvImageQuery`, `spvSparseResidency`.
 
 ### Capability Set 2
 
@@ -560,6 +559,6 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
-Requires capabilities: `spvImageQuery`, `spvSparseResidency`.
+Requires capability: `spvImageQuery`.
 
 

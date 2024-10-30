@@ -105,5 +105,25 @@ This category contains the following declarations:
 
 #### [TextureCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texturecubearray-07b)
 
+#### [WSampler1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wsampler1d-019)
+
+#### [WSampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wsampler1darray-019a)
+
+#### [WSampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wsampler2d-019)
+
+#### [WSampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wsampler2darray-019a)
+
+#### [WSampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wsampler3d-019)
+
+#### [WTexture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wtexture1d-019)
+
+#### [WTexture1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wtexture1darray-019a)
+
+#### [WTexture2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wtexture2d-019)
+
+#### [WTexture2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wtexture2darray-019a)
+
+#### [WTexture3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/wtexture3d-019)
+
 #### [\_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>](/stdlib-reference/types/0texture-01/index)
 

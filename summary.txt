@@ -1,5 +1,5 @@
-documented pages: 390
-undocumented pages: 509(56.6%)
+documented pages: 444
+undocumented pages: 466(51.2%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -42,8 +42,6 @@ DifferentialPtrPair<T>.d
 DifferentialPtrPair<T>.init
 DifferentialPtrPair<T>.p
 DifferentialPtrPair<T>.v
-FeedbackTexture2D<T, sampleCount:int, format:int>
-FeedbackTexture2DArray<T, sampleCount:int, format:int>
 HitObject.GetCurrentTime
 HitObject.GetObjectRayDirection
 HitObject.GetObjectRayOrigin
@@ -85,33 +83,9 @@ Ptr<T, addrSpace:uint64_t>.subscript<TInt>
 RAY_FLAG
 RWBuffer<T, format:int>
 RWByteAddressBuffer.InterlockedAddF64
-RWSampler1D<T, sampleCount:int, format:int>
-RWSampler1DArray<T, sampleCount:int, format:int>
-RWSampler2D<T, sampleCount:int, format:int>
-RWSampler2DArray<T, sampleCount:int, format:int>
-RWSampler2DMS<T, sampleCount:int, format:int>
-RWSampler2DMSArray<T, sampleCount:int, format:int>
-RWSampler3D<T, sampleCount:int, format:int>
 RWStructuredBuffer<T, L>.subscript<TIndex>
-RWTexture1D<T, sampleCount:int, format:int>
-RWTexture1DArray<T, sampleCount:int, format:int>
-RWTexture2D<T, sampleCount:int, format:int>
-RWTexture2DArray<T, sampleCount:int, format:int>
-RWTexture2DMS<T, sampleCount:int, format:int>
-RWTexture2DMSArray<T, sampleCount:int, format:int>
-RWTexture3D<T, sampleCount:int, format:int>
 RasterizerOrderedBuffer<T, format:int>
-RasterizerOrderedSampler1D<T, sampleCount:int, format:int>
-RasterizerOrderedSampler1DArray<T, sampleCount:int, format:int>
-RasterizerOrderedSampler2D<T, sampleCount:int, format:int>
-RasterizerOrderedSampler2DArray<T, sampleCount:int, format:int>
-RasterizerOrderedSampler3D<T, sampleCount:int, format:int>
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
-RasterizerOrderedTexture1D<T, sampleCount:int, format:int>
-RasterizerOrderedTexture1DArray<T, sampleCount:int, format:int>
-RasterizerOrderedTexture2D<T, sampleCount:int, format:int>
-RasterizerOrderedTexture2DArray<T, sampleCount:int, format:int>
-RasterizerOrderedTexture3D<T, sampleCount:int, format:int>
 RayDesc
 RayDesc.Direction
 RayDesc.Origin
@@ -186,15 +160,6 @@ RayQuery<rayFlagsGeneric:uint>.init
 RaytracingAccelerationStructure
 SAMPLER_FEEDBACK_MIN_MIP
 SAMPLER_FEEDBACK_MIP_REGION_USED
-Sampler1D<T, sampleCount:int, format:int>
-Sampler1DArray<T, sampleCount:int, format:int>
-Sampler2D<T, sampleCount:int, format:int>
-Sampler2DArray<T, sampleCount:int, format:int>
-Sampler2DMS<T, sampleCount:int, format:int>
-Sampler2DMSArray<T, sampleCount:int, format:int>
-Sampler3D<T, sampleCount:int, format:int>
-SamplerCube<T, sampleCount:int, format:int>
-SamplerCubeArray<T, sampleCount:int, format:int>
 ScalarDataLayout
 Std140DataLayout
 Std430DataLayout
@@ -202,16 +167,7 @@ String.init
 StructuredBuffer<T, L>.subscript<TIndex>
 SubpassInput<T, isMS:int>
 SubpassInputMS<T, isMS:int>
-Texture1D<T, sampleCount:int, format:int>
-Texture1DArray<T, sampleCount:int, format:int>
-Texture2D<T, sampleCount:int, format:int>
-Texture2DArray<T, sampleCount:int, format:int>
-Texture2DMS<T, sampleCount:int, format:int>
-Texture2DMSArray<T, sampleCount:int, format:int>
-Texture3D<T, sampleCount:int, format:int>
 TextureBuffer<T>
-TextureCube<T, sampleCount:int, format:int>
-TextureCubeArray<T, sampleCount:int, format:int>
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
 TextureFootprint<ND:int>.isSingleLevel
@@ -248,6 +204,7 @@ _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmp
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevelZero
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleGrad
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleLevel
+_Texture<T, Shape, isArray, 0, sampleCount, 1, isShadow, 0, format>.Store
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.TextureCoord
 FeedbackTexture2D<T>.WriteSamplerFeedback<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackBias<S>

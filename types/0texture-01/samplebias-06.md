@@ -76,6 +76,5 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
-Requires capabilities: `spvImageQuery`, `spvSparseResidency`.
 
 
