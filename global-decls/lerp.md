@@ -55,27 +55,3 @@ Computes linear interpolation.
 Returns <span class='code'><a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>+(<a href="/stdlib-reference/global-decls/lerp#decl-y" class="code_param">y</a>-<a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>)*<a href="/stdlib-reference/global-decls/lerp#decl-s" class="code_param">s</a></span>.
 
 
-## Availability and Requirements
-
-Defined for the following targets:
-
-#### hlsl
-Available in all stages.
-
-#### glsl
-Available in all stages.
-
-#### cpp
-Available in all stages.
-
-#### cuda
-Available in all stages.
-
-#### metal
-Available in all stages.
-
-#### spirv
-Available in all stages.
-
-
-
