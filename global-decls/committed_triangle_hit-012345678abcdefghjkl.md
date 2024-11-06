@@ -9,7 +9,7 @@ layout: stdlib-reference
 Closest hit is a triangle.
 This could be an opaque triangle hit found by the fixed-function
 traversal and intersection implementation, or a non-opaque
-triangle hit committed by user code with <span class='code'><a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>.<a href="/stdlib-reference/types/rayquery-03/commitnonopaquetrianglehit-069fn">CommitNonOpaqueTriangleHit</a></span>
+triangle hit committed by user code with <span class='code'><a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>.<a href="/stdlib-reference/types/rayquery-03/commitnonopaquetrianglehit-069fn">CommitNonOpaqueTriangleHit</a></span>.
 
 
 ## Signature

@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Initialize a new ray query in its default state.
 
 
 

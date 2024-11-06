@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Executes a callable shader with the specified payload.
 
 ## Signature 
 
@@ -26,7 +26,15 @@ layout: stdlib-reference
 ## Parameters
 
 #### shaderIndex  : uint {#decl-shaderIndex}
+Index of the callable shader to execute
+
 #### payload  : [Payload](/stdlib-reference/global-decls/callshader-04#typeparam-Payload) {#decl-payload}
+Data structure to pass to and receive from the callable shader
+
+
+## Remarks
+Used to implement dynamic shader calls during ray tracing
+
 
 ## Availability and Requirements
 

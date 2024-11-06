@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Terminate ray traversal immediately.
 
 
 
@@ -16,6 +16,10 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/abort-0">Abort</a>();
 
 </pre>
+
+## Remarks
+Causes subsequent Proceed() calls to return false
+
 
 ## Availability and Requirements
 

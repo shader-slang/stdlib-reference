@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Accepts the current intersection and terminates further traversal.
 
 ## Signature 
 
@@ -16,6 +16,10 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/accepthitandendsearch-069cf">AcceptHitAndEndSearch</a>();
 
 </pre>
+
+## Remarks
+Used in any-hit shaders to immediately accept an intersection
+
 
 ## Availability and Requirements
 

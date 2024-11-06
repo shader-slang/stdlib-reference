@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Predefined hit kind value for back-facing triangle intersections.
 
 
 ## Signature

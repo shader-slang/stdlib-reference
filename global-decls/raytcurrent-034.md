@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Returns the current intersection distance or maximum ray distance.
 
 ## Signature 
 
@@ -16,6 +16,13 @@ layout: stdlib-reference
 <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/raytcurrent-034">RayTCurrent</a>();
 
 </pre>
+
+## Return value
+Current t-value for hit shaders or maximum distance for intersection shaders
+
+## Remarks
+Interpretation depends on shader stage (hit vs. intersection)
+
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Gets the object-to-world transform as a 3x4 matrix.
 
 
 
@@ -16,6 +16,13 @@ layout: stdlib-reference
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 3, 4&gt; <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidateobjecttoworld3x4-09fh">CandidateObjectToWorld3x4</a>();
 
 </pre>
+
+## Return value
+3x4 matrix transforming from object to world space
+
+## Remarks
+Available for both candidate and committed hits
+
 
 ## Availability and Requirements
 

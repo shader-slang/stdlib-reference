@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Commit the current non-opaque triangle hit as the closest hit.
 
 
 

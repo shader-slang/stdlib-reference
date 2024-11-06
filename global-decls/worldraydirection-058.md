@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Returns the direction of the current ray in world space.
 
 ## Signature 
 
@@ -16,6 +16,13 @@ layout: stdlib-reference
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/worldraydirection-058">WorldRayDirection</a>();
 
 </pre>
+
+## Return value
+Normalized world-space direction vector of the ray
+
+## Remarks
+Available in any-hit, closest-hit, intersection, and miss shaders
+
 
 ## Availability and Requirements
 

@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Traces a ray with motion blur support through the acceleration structure.
 
 ## Signature 
 
@@ -33,14 +33,36 @@ layout: stdlib-reference
 ## Parameters
 
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index) {#decl-AccelerationStructure}
+The acceleration structure to traverse
+
 #### RayFlags  : uint {#decl-RayFlags}
+Flags controlling ray behavior
+
 #### InstanceInclusionMask  : uint {#decl-InstanceInclusionMask}
+Mask for filtering instance visibility
+
 #### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
+Offset for hit group indexing
+
 #### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
+Multiplier for geometry-based hit group indexing
+
 #### MissShaderIndex  : uint {#decl-MissShaderIndex}
+Index of the miss shader to execute if no hit is found
+
 #### Ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-Ray}
+Description of the ray to trace
+
 #### CurrentTime  : float {#decl-CurrentTime}
+Time value for motion blur interpolation
+
 #### Payload  : [payload\_t](/stdlib-reference/global-decls/tracemotionray-05b#typeparam-payload_t) {#decl-Payload}
+Structure for passing data between shaders
+
+
+## Remarks
+Extended version of TraceRay with motion blur support
+
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Gets the distance to the candidate triangle hit.
 
 
 
@@ -16,6 +16,10 @@ layout: stdlib-reference
 <span class="code_keyword">float</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidatetrianglerayt-09hk">CandidateTriangleRayT</a>();
 
 </pre>
+
+## Return value
+t-value along the ray where intersection occurred
+
 
 ## Availability and Requirements
 

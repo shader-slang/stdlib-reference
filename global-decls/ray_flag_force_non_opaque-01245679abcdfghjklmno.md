@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Forces all geometries to be treated as non-opaque, enabling any-hit shader execution.
 
 
 ## Signature
