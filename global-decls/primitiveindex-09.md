@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the index of the current primitive within its geometry.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the index of the current primitive within its geometry.
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/primitiveindex-09">PrimitiveIndex</a>();
 
 </pre>
-
-## Return value
-Zero-based index of the intersected primitive
-
-## Remarks
-Available in any-hit, closest-hit, and intersection shaders
-
 
 ## Availability and Requirements
 

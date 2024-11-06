@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the type of intersection that was found.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the type of intersection that was found.
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/hitkind-03">HitKind</a>();
 
 </pre>
-
-## Return value
-Hit kind value (HIT_KIND_TRIANGLE_FRONT_FACE, HIT_KIND_TRIANGLE_BACK_FACE, or custom value)
-
-## Remarks
-Available in any-hit and closest-hit shaders
-
 
 ## Availability and Requirements
 

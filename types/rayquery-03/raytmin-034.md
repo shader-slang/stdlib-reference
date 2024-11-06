@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Gets the minimum valid distance along the ray.
+
 
 
 
@@ -16,13 +16,6 @@ Gets the minimum valid distance along the ray.
 <span class="code_keyword">float</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/raytmin-034">RayTMin</a>();
 
 </pre>
-
-## Return value
-Minimum t-value for considering intersections
-
-## Remarks
-Used to prevent self-intersections
-
 
 ## Availability and Requirements
 

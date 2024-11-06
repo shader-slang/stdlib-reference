@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the flags used when tracing the current ray.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the flags used when tracing the current ray.
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/rayflags-03">RayFlags</a>();
 
 </pre>
-
-## Return value
-Combination of RAY_FLAG values used for this ray
-
-## Remarks
-Allows shaders to modify behavior based on ray trace flags
-
 
 ## Availability and Requirements
 

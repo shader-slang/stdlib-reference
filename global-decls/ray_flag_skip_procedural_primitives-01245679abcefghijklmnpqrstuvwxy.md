@@ -6,7 +6,6 @@ layout: stdlib-reference
 
 ## Description
 
-Skips all procedural primitive intersections.
 
 
 ## Signature

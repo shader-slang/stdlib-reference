@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Checks if the candidate hit is on the front face of a triangle.
+
 
 
 
@@ -16,13 +16,6 @@ Checks if the candidate hit is on the front face of a triangle.
 <span class="code_keyword">bool</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidaterayfrontface-09ch">CandidateRayFrontFace</a>();
 
 </pre>
-
-## Return value
-true if hit is on triangle front face
-
-## Remarks
-GLSL/SPIRV only
-
 
 ## Availability and Requirements
 

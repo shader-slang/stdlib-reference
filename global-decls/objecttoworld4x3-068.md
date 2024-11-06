@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the object-to-world transformation matrix (4x3).
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the object-to-world transformation matrix (4x3).
 <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 4, 3&gt; <a href="/stdlib-reference/global-decls/objecttoworld4x3-068">ObjectToWorld4x3</a>();
 
 </pre>
-
-## Return value
-4x3 matrix transforming from object to world space
-
-## Remarks
-Transposed version of ObjectToWorld3x4
-
 
 ## Availability and Requirements
 

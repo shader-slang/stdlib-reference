@@ -11,6 +11,7 @@ https://github.com/KhronosGroup/GLSL/blob/master/extensions/ext/GLSL_EXT_ray_tra
 
 
 
+
 ## Signature 
 
 <pre>
@@ -21,14 +22,6 @@ https://github.com/KhronosGroup/GLSL/blob/master/extensions/ext/GLSL_EXT_ray_tra
 ## Parameters
 
 #### index  : uint {#decl-index}
-Index of the vertex (0-2)
-
-
-## Return value
-World-space position of the specified vertex
-
-## Remarks
-Requires ray tracing position fetch extension
 
 ## Availability and Requirements
 
@@ -41,9 +34,5 @@ Available in stages: `closesthit`, `anyhit`.
 Available in stages: `closesthit`, `anyhit`.
 
 Requires capability: `spvRayTracingPositionFetchKHR`.
-
-
-## See Also
-GL_EXT_ray_tracing_position_fetch
 
 

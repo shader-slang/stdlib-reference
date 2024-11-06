@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-Gets the custom index of the instance containing the candidate hit.
+missing hlsl equivlent; only implemented for glsl & spirv
+
 
 
 
@@ -16,13 +17,6 @@ Gets the custom index of the instance containing the candidate hit.
 <span class="code_keyword">int</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidaterayinstancecustomindex-09ckq">CandidateRayInstanceCustomIndex</a>();
 
 </pre>
-
-## Return value
-User-provided instance identifier
-
-## Remarks
-GLSL/SPIRV only
-
 
 ## Availability and Requirements
 

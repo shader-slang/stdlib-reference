@@ -1,5 +1,5 @@
-documented pages: 542
-undocumented pages: 368(40.4%)
+documented pages: 444
+undocumented pages: 466(51.2%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -20,6 +20,8 @@ Atomic<T>.exchange
 Atomic<T>.load
 Atomic<T>.store
 Buffer<T, format:int>
+BuiltInTriangleIntersectionAttributes
+BuiltInTriangleIntersectionAttributes.barycentrics
 ConstantBuffer<T>
 DefaultDataLayout
 DifferentialPair<T>.Differential
@@ -78,30 +80,84 @@ PointStream<T>.Append
 PointStream<T>.RestartStrip
 Ptr<T, addrSpace:uint64_t>.init<U>
 Ptr<T, addrSpace:uint64_t>.subscript<TInt>
+RAY_FLAG
 RWBuffer<T, format:int>
 RWByteAddressBuffer.InterlockedAddF64
 RWStructuredBuffer<T, L>.subscript<TIndex>
 RasterizerOrderedBuffer<T, format:int>
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
+RayDesc
+RayDesc.Direction
+RayDesc.Origin
+RayDesc.TMax
+RayDesc.TMin
+RayQuery<rayFlagsGeneric:uint>
+RayQuery<rayFlagsGeneric:uint>.Abort
 RayQuery<rayFlagsGeneric:uint>.CandidateGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateGetIntersectionTriangleVertexPositions
 RayQuery<rayFlagsGeneric:uint>.CandidateInstanceContributionToHitGroupIndex
 RayQuery<rayFlagsGeneric:uint>.CandidateInstanceID
 RayQuery<rayFlagsGeneric:uint>.CandidateInstanceIndex
 RayQuery<rayFlagsGeneric:uint>.CandidateObjectRayDirection
 RayQuery<rayFlagsGeneric:uint>.CandidateObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CandidateObjectToWorld3x4
+RayQuery<rayFlagsGeneric:uint>.CandidateObjectToWorld4x3
 RayQuery<rayFlagsGeneric:uint>.CandidatePrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateProceduralPrimitiveNonOpaque
+RayQuery<rayFlagsGeneric:uint>.CandidateRayBarycentrics
+RayQuery<rayFlagsGeneric:uint>.CandidateRayFrontFace
+RayQuery<rayFlagsGeneric:uint>.CandidateRayGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateRayInstanceCustomIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateRayInstanceId
+RayQuery<rayFlagsGeneric:uint>.CandidateRayInstanceShaderBindingTableRecordOffset
+RayQuery<rayFlagsGeneric:uint>.CandidateRayObjectRayDirection
+RayQuery<rayFlagsGeneric:uint>.CandidateRayObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CandidateRayObjectToWorld
+RayQuery<rayFlagsGeneric:uint>.CandidateRayPrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CandidateRayWorldToObject
 RayQuery<rayFlagsGeneric:uint>.CandidateTriangleBarycentrics
 RayQuery<rayFlagsGeneric:uint>.CandidateTriangleFrontFace
+RayQuery<rayFlagsGeneric:uint>.CandidateTriangleRayT
+RayQuery<rayFlagsGeneric:uint>.CandidateType
+RayQuery<rayFlagsGeneric:uint>.CandidateWorldToObject3x4
+RayQuery<rayFlagsGeneric:uint>.CandidateWorldToObject4x3
+RayQuery<rayFlagsGeneric:uint>.CommitNonOpaqueTriangleHit
+RayQuery<rayFlagsGeneric:uint>.CommitProceduralPrimitiveHit
 RayQuery<rayFlagsGeneric:uint>.CommittedGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedGetIntersectionTriangleVertexPositions
 RayQuery<rayFlagsGeneric:uint>.CommittedInstanceContributionToHitGroupIndex
 RayQuery<rayFlagsGeneric:uint>.CommittedInstanceID
 RayQuery<rayFlagsGeneric:uint>.CommittedInstanceIndex
 RayQuery<rayFlagsGeneric:uint>.CommittedObjectRayDirection
 RayQuery<rayFlagsGeneric:uint>.CommittedObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CommittedObjectToWorld3x4
+RayQuery<rayFlagsGeneric:uint>.CommittedObjectToWorld4x3
 RayQuery<rayFlagsGeneric:uint>.CommittedPrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayBarycentrics
+RayQuery<rayFlagsGeneric:uint>.CommittedRayFrontFace
+RayQuery<rayFlagsGeneric:uint>.CommittedRayGeometryIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayInstanceCustomIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayInstanceId
+RayQuery<rayFlagsGeneric:uint>.CommittedRayInstanceShaderBindingTableRecordOffset
+RayQuery<rayFlagsGeneric:uint>.CommittedRayObjectRayDirection
+RayQuery<rayFlagsGeneric:uint>.CommittedRayObjectRayOrigin
+RayQuery<rayFlagsGeneric:uint>.CommittedRayObjectToWorld
+RayQuery<rayFlagsGeneric:uint>.CommittedRayPrimitiveIndex
+RayQuery<rayFlagsGeneric:uint>.CommittedRayT
+RayQuery<rayFlagsGeneric:uint>.CommittedRayWorldToObject
+RayQuery<rayFlagsGeneric:uint>.CommittedStatus
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
+RayQuery<rayFlagsGeneric:uint>.CommittedWorldToObject3x4
+RayQuery<rayFlagsGeneric:uint>.CommittedWorldToObject4x3
+RayQuery<rayFlagsGeneric:uint>.Proceed
 RayQuery<rayFlagsGeneric:uint>.RayFlags
+RayQuery<rayFlagsGeneric:uint>.RayTMin
+RayQuery<rayFlagsGeneric:uint>.TraceRayInline
+RayQuery<rayFlagsGeneric:uint>.WorldRayDirection
+RayQuery<rayFlagsGeneric:uint>.WorldRayOrigin
+RayQuery<rayFlagsGeneric:uint>.init
+RaytracingAccelerationStructure
 SAMPLER_FEEDBACK_MIN_MIP
 SAMPLER_FEEDBACK_MIP_REGION_USED
 ScalarDataLayout
@@ -250,17 +306,35 @@ disable_array_flattening
 noRefInline
 payload
 spv_target_env_1_3
+AcceptHitAndEndSearch
 AllMemoryBarrier
 AllMemoryBarrierWithGroupSync
+COMMITTED_TRIANGLE_HIT
+CallShader<Payload>
 CheckAccessFullyMapped
 D3DCOLORtoUBYTE4
+DispatchRaysDimensions
+DispatchRaysIndex
 EvaluateAttributeAtCentroid<T>
 EvaluateAttributeAtSample<T>
 EvaluateAttributeSnapped<T>
+GeometryIndex
 GetRenderTargetSampleCount
 GetRenderTargetSamplePosition
+HIT_KIND_TRIANGLE_BACK_FACE
+HIT_KIND_TRIANGLE_FRONT_FACE
+HitKind
 HitTriangleVertexPosition
+IgnoreHit
+InstanceID
+InstanceIndex
 IsHelperLane
+ObjectRayDirection
+ObjectRayOrigin
+ObjectToWorld
+ObjectToWorld3x4
+ObjectToWorld4x3
+PrimitiveIndex
 Process2DQuadTessFactorsAvg
 Process2DQuadTessFactorsMax
 Process2DQuadTessFactorsMin
@@ -275,6 +349,25 @@ QuadReadAcrossDiagonal<T>
 QuadReadAcrossX<T>
 QuadReadAcrossY<T>
 QuadReadLaneAt<T>
+RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH
+RAY_FLAG_CULL_BACK_FACING_TRIANGLES
+RAY_FLAG_CULL_FRONT_FACING_TRIANGLES
+RAY_FLAG_CULL_NON_OPAQUE
+RAY_FLAG_CULL_OPAQUE
+RAY_FLAG_FORCE_NON_OPAQUE
+RAY_FLAG_FORCE_OPAQUE
+RAY_FLAG_NONE
+RAY_FLAG_SKIP_CLOSEST_HIT_SHADER
+RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES
+RAY_FLAG_SKIP_TRIANGLES
+RayCurrentTime
+RayFlags
+RayTCurrent
+RayTMin
+ReportHit<A>
+ReportHitOptix<each T>
+TraceMotionRay<payload_t>
+TraceRay<payload_t>
 WaveActiveAllEqual<T>
 WaveActiveAllTrue
 WaveActiveAnyTrue
@@ -307,6 +400,11 @@ WaveReadLaneAt<T>
 WaveReadLaneFirst<T>
 WaveShuffle<T>
 WorkgroupSize
+WorldRayDirection
+WorldRayOrigin
+WorldToObject
+WorldToObject3x4
+WorldToObject4x3
 _WaveCountBits
 abort
 abs<T>

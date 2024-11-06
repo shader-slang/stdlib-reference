@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Reports a hit optimized for OptiX.
+
 
 ## Signature 
 
@@ -28,21 +28,8 @@ Reports a hit optimized for OptiX.
 ## Parameters
 
 #### tHit  : float {#decl-tHit}
-Distance along the ray where the intersection occurred
-
 #### hitKind  : uint {#decl-hitKind}
-User-defined value identifying the type of hit
-
 #### attribs  : [T](/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T) {#decl-attribs}
-Attribute values for the intersection
-
-
-## Return value
-true if the hit was accepted, false if rejected
-
-## Remarks
-OptiX-specific version of ReportHit with optimized attribute handling
-
 
 ## Availability and Requirements
 

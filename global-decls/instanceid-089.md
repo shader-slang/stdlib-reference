@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the user-provided ID of the current instance.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the user-provided ID of the current instance.
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/instanceid-089">InstanceID</a>();
 
 </pre>
-
-## Return value
-Custom instance identifier set during acceleration structure build
-
-## Remarks
-Used for instance-specific shader behavior
-
 
 ## Availability and Requirements
 

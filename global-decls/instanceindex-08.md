@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the index of the current instance in the acceleration structure.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the index of the current instance in the acceleration structure.
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/instanceindex-08">InstanceIndex</a>();
 
 </pre>
-
-## Return value
-Zero-based index of the current instance
-
-## Remarks
-Available in any-hit, closest-hit, and intersection shaders
-
 
 ## Availability and Requirements
 

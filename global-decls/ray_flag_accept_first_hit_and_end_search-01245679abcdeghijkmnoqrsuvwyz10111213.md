@@ -6,7 +6,6 @@ layout: stdlib-reference
 
 ## Description
 
-Accepts the first intersection found and skips searching for closer hits.
 
 
 ## Signature

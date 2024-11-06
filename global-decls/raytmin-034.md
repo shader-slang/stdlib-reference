@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the minimum valid intersection distance for the current ray.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the minimum valid intersection distance for the current ray.
 <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/raytmin-034">RayTMin</a>();
 
 </pre>
-
-## Return value
-Minimum distance along the ray where intersections are considered
-
-## Remarks
-Used to prevent self-intersections and near-plane clipping
-
 
 ## Availability and Requirements
 

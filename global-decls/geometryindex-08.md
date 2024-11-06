@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the index of the geometry that was hit in an intersection, any-hit, or closest-hit shader.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the index of the geometry that was hit in an intersection, any-hit, or c
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/geometryindex-08">GeometryIndex</a>();
 
 </pre>
-
-## Return value
-Zero-based index of the geometry in the current instance
-
-## Remarks
-Available in intersection, any-hit, and closest-hit shaders
-
 
 ## Availability and Requirements
 

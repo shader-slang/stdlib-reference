@@ -8,7 +8,6 @@ layout: stdlib-reference
 
 
 
-Alias for WorldToObject3x4.
 
 
 ## Signature 

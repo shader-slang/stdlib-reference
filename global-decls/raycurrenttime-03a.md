@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-Returns the current time value for motion blur.
+
 
 ## Signature 
 
@@ -16,13 +16,6 @@ Returns the current time value for motion blur.
 <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/raycurrenttime-03a">RayCurrentTime</a>();
 
 </pre>
-
-## Return value
-Time value between 0 and 1 for motion blur interpolation
-
-## Remarks
-Available when motion blur extension is enabled
-
 
 ## Availability and Requirements
 

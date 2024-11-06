@@ -6,7 +6,6 @@ layout: stdlib-reference
 
 ## Description
 
-No special ray flags.
 
 
 ## Signature
