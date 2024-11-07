@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Returns the dimensions of the ray dispatch.
 
 ## Signature 
 
@@ -16,6 +16,13 @@ layout: stdlib-reference
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="/stdlib-reference/global-decls/dispatchraysdimensions-08c">DispatchRaysDimensions</a>();
 
 </pre>
+
+## Return value
+3D dimensions of the ray dispatch grid
+
+## Remarks
+Available in all ray tracing shader stages
+
 
 ## Availability and Requirements
 

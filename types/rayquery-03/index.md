@@ -31,7 +31,7 @@ In Slang, a parameter like <span class='code'>q</span> above should be declared 
 HLSL does not care about whether <span class='code'>q</span> is declared <span class='code'><span class="code_keyword">inout</span></span> or not.
 
 cannot use a cap for struct with unequal target support
-since it will propegate rules to children
+since it will propegate rules to children.
 
 
 ## Generic Parameters

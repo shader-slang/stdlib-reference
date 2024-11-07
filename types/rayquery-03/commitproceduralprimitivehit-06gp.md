@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Commit a procedural primitive hit at the specified distance.
 
 
 
@@ -21,6 +21,8 @@ layout: stdlib-reference
 ## Parameters
 
 #### t  : float {#decl-t}
+Distance along the ray where the hit occurred
+
 
 ## Availability and Requirements
 

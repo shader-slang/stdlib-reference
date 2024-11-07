@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Reports a hit from an intersection shader.
 
 ## Signature 
 
@@ -27,8 +27,21 @@ layout: stdlib-reference
 ## Parameters
 
 #### tHit  : float {#decl-tHit}
+Distance along the ray where the intersection occurred
+
 #### hitKind  : uint {#decl-hitKind}
+User-defined value identifying the type of hit
+
 #### attributes  : [A](/stdlib-reference/global-decls/reporthit-06#typeparam-A) {#decl-attributes}
+Custom attributes for the intersection
+
+
+## Return value
+true if the hit was accepted, false if rejected
+
+## Remarks
+Used in custom intersection shaders to report primitive intersections
+
 
 ## Availability and Requirements
 

@@ -6,5 +6,6 @@ layout: stdlib-reference
 
 ## Description
 
+Opaque type representing a ray-tracing acceleration structure.
 
 

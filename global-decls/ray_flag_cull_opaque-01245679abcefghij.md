@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Skips intersections with opaque geometry.
 
 
 ## Signature

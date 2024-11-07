@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Traces a ray through the acceleration structure.
 
 ## Signature 
 
@@ -32,13 +32,33 @@ layout: stdlib-reference
 ## Parameters
 
 #### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index) {#decl-AccelerationStructure}
+The acceleration structure to traverse
+
 #### RayFlags  : uint {#decl-RayFlags}
+Flags controlling ray behavior
+
 #### InstanceInclusionMask  : uint {#decl-InstanceInclusionMask}
+Mask for filtering instance visibility
+
 #### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
+Offset for hit group indexing
+
 #### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
+Multiplier for geometry-based hit group indexing
+
 #### MissShaderIndex  : uint {#decl-MissShaderIndex}
+Index of the miss shader to execute if no hit is found
+
 #### Ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-Ray}
+Description of the ray to trace
+
 #### Payload  : [payload\_t](/stdlib-reference/global-decls/traceray-05#typeparam-payload_t) {#decl-Payload}
+Structure for passing data between shaders
+
+
+## Remarks
+Core ray tracing function for initiating traversal
+
 
 ## Availability and Requirements
 

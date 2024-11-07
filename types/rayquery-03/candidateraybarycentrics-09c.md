@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Gets the barycentric coordinates of the candidate hit point.
 
 
 
@@ -16,6 +16,13 @@ layout: stdlib-reference
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidateraybarycentrics-09c">CandidateRayBarycentrics</a>();
 
 </pre>
+
+## Return value
+UV barycentric coordinates on the triangle
+
+## Remarks
+GLSL/SPIRV only
+
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-No hit committed.
+Indicates no hit has been committed yet.
 
 
 ## Signature

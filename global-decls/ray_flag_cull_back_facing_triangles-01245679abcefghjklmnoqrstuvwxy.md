@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Culls triangles facing away from the ray origin.
 
 
 ## Signature

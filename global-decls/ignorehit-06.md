@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-
+Ignores the current intersection and continues traversal.
 
 ## Signature 
 
@@ -16,6 +16,10 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ignorehit-06">IgnoreHit</a>();
 
 </pre>
+
+## Remarks
+Used in any-hit shaders to reject potential intersections
+
 
 ## Availability and Requirements
 

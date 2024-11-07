@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Status of whether a (closest) hit has been committed in a <span class='code'><a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a></span>.
+Status indicating whether and what type of hit has been committed in a RayQuery.
 
 
 ## Signature

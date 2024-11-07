@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Skips all triangle intersections.
 
 
 ## Signature

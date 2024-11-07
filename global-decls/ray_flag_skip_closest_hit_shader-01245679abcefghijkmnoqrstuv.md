@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Skips execution of closest hit shaders, useful for shadow rays.
 
 
 ## Signature
