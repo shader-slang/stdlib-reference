@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the current ray dispatch coordinates.
+
+
 
 ## Signature 
 

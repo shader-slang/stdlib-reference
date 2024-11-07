@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Alias for ObjectToWorld3x4.
+
+
 
 
 ## Signature 

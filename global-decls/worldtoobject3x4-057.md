@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the world-to-object transformation matrix (3x4).
+
+
 
 ## Signature 
 

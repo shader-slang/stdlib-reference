@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the dimensions of the ray dispatch.
+
+
 
 ## Signature 
 

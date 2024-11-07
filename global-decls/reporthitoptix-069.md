@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Reports a hit optimized for OptiX.
+
+
 
 ## Signature 
 

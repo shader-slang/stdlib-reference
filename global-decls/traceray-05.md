@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Traces a ray through the acceleration structure.
+
+
 
 ## Signature 
 

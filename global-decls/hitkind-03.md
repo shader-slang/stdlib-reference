@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the type of intersection that was found.
+
+
 
 ## Signature 
 

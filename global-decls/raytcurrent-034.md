@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the current intersection distance or maximum ray distance.
+
+
 
 ## Signature 
 

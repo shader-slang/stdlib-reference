@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the direction of the current ray in world space.
+
+
 
 ## Signature 
 

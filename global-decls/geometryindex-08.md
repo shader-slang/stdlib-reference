@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the index of the geometry that was hit in an intersection, any-hit, or closest-hit shader.
+
+
 
 ## Signature 
 

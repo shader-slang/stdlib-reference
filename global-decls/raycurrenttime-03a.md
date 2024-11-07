@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the current time value for motion blur.
+
+
 
 ## Signature 
 

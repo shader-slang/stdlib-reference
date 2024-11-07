@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the flags used when tracing the current ray.
+
+
 
 ## Signature 
 

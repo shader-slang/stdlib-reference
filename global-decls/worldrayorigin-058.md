@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the origin of the current ray in world space.
+
+
 
 ## Signature 
 

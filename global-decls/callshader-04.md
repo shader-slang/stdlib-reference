@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Executes a callable shader with the specified payload.
+
+
 
 ## Signature 
 

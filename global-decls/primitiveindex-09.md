@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the index of the current primitive within its geometry.
+
+
 
 ## Signature 
 

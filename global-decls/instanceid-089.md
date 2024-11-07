@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the user-provided ID of the current instance.
+
+
 
 ## Signature 
 

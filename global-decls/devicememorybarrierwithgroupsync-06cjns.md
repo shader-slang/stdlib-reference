@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Barrier for device memory with group synchronization.
+
+
 
 
 ## Signature 

@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the ray origin in object space of the current instance.
+
+
 
 ## Signature 
 

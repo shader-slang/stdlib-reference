@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Accepts the current intersection and terminates further traversal.
+
+
 
 ## Signature 
 

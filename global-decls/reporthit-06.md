@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Reports a hit from an intersection shader.
+
+
 
 ## Signature 
 

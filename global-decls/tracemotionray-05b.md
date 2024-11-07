@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Traces a ray with motion blur support through the acceleration structure.
+
+
 
 ## Signature 
 

@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-
-
 Returns the minimum valid intersection distance for the current ray.
+
+
 
 ## Signature 
 
