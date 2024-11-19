@@ -31,6 +31,17 @@
 <ul class="toc_list">
 <li data-link="/stdlib-reference/interfaces/idefaultinitializable-018/init"><span>init</span>
 </li></ul>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/index"><span>IDiffTensorWrapper</span>
+<ul class="toc_list">
+<li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/loadonce_backward-4"><span>loadOnce_backward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/loadonce_forward-4"><span>loadOnce_forward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/load_backward"><span>load_backward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/load_forward"><span>load_forward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/storeonce_backward-5"><span>storeOnce_backward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/storeonce_forward-5"><span>storeOnce_forward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/store_backward"><span>store_backward</span>
+</li><li data-link="/stdlib-reference/interfaces/idifftensorwrapper-015b/store_forward"><span>store_forward</span>
+</li></ul>
 </li><li data-link="/stdlib-reference/interfaces/idifferentiable-01/index"><span>IDifferentiable</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/interfaces/idifferentiable-01/dadd"><span>dadd</span>
@@ -652,7 +663,11 @@
 </li>
 <li data-link="/stdlib-reference/types/array-0/index"><span>Array</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/array-0/getcount-3"><span>getCount</span>
+<li data-link="/stdlib-reference/types/array-0/differential-0"><span>Differential</span>
+</li><li data-link="/stdlib-reference/types/array-0/dadd"><span>dadd</span>
+</li><li data-link="/stdlib-reference/types/array-0/dmul"><span>dmul</span>
+</li><li data-link="/stdlib-reference/types/array-0/dzero"><span>dzero</span>
+</li><li data-link="/stdlib-reference/types/array-0/getcount-3"><span>getCount</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/atomic-0/index"><span>Atomic</span>
 <ul class="toc_list">
@@ -670,7 +685,33 @@
 </li><li data-link="/stdlib-reference/types/atomic-0/sub"><span>sub</span>
 </li><li data-link="/stdlib-reference/types/atomic-0/xor"><span>xor</span>
 </li></ul>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/index"><span>AtomicAdd</span>
+<ul class="toc_list">
+<li data-link="/stdlib-reference/types/atomicadd-06/diff"><span>diff</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/loadonce_backward-4"><span>loadOnce_backward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/loadonce_forward-4"><span>loadOnce_forward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/load_backward"><span>load_backward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/load_forward"><span>load_forward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/storeonce_backward-5"><span>storeOnce_backward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/storeonce_forward-5"><span>storeOnce_forward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/store_backward"><span>store_backward</span>
+</li><li data-link="/stdlib-reference/types/atomicadd-06/store_forward"><span>store_forward</span>
+</li></ul>
 </li><li data-link="/stdlib-reference/types/constantbuffer-08/index"><span>ConstantBuffer</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/index"><span>DiffTensorView</span>
+<ul class="toc_list">
+<li data-link="/stdlib-reference/types/difftensorview-04a/diff"><span>diff</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/dims"><span>dims</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/init"><span>init</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/load"><span>load</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/loadonce-4"><span>loadOnce</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/primal"><span>primal</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/size"><span>size</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/store"><span>store</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/storeonce-5"><span>storeOnce</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/stride"><span>stride</span>
+</li><li data-link="/stdlib-reference/types/difftensorview-04a/subscript"><span>subscript</span>
+</li></ul>
 </li><li data-link="/stdlib-reference/types/differentialpair-0c/index"><span>DifferentialPair</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/differentialpair-0c/differential-0"><span>Differential</span>
@@ -694,6 +735,14 @@
 </li><li data-link="/stdlib-reference/types/differentialptrpair-0cf/p"><span>p</span>
 </li><li data-link="/stdlib-reference/types/differentialptrpair-0cf/v"><span>v</span>
 </li></ul>
+</li><li data-link="/stdlib-reference/types/nulldifferential-04/index"><span>NullDifferential</span>
+<ul class="toc_list">
+<li data-link="/stdlib-reference/types/nulldifferential-04/differential-0"><span>Differential</span>
+</li><li data-link="/stdlib-reference/types/nulldifferential-04/dadd"><span>dadd</span>
+</li><li data-link="/stdlib-reference/types/nulldifferential-04/dmul"><span>dmul</span>
+</li><li data-link="/stdlib-reference/types/nulldifferential-04/dummy"><span>dummy</span>
+</li><li data-link="/stdlib-reference/types/nulldifferential-04/dzero"><span>dzero</span>
+</li></ul>
 </li><li data-link="/stdlib-reference/types/optional-0/index"><span>Optional</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/optional-0/hasvalue-3"><span>hasValue</span>
@@ -712,9 +761,46 @@
 </li><li data-link="/stdlib-reference/types/string-0/init"><span>init</span>
 </li><li data-link="/stdlib-reference/types/string-0/length"><span>length</span>
 </li></ul>
+</li><li data-link="/stdlib-reference/types/tensorview-06/index"><span>TensorView</span>
+<ul class="toc_list">
+<li data-link="/stdlib-reference/types/tensorview-06/interlockedadd-0b"><span>InterlockedAdd</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedand-0b"><span>InterlockedAnd</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedcompareexchange-0bi"><span>InterlockedCompareExchange</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedexchange-0b"><span>InterlockedExchange</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedmax-0b"><span>InterlockedMax</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedmin-0b"><span>InterlockedMin</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedor-0b"><span>InterlockedOr</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/interlockedxor-0b"><span>InterlockedXor</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/data_ptr"><span>data_ptr</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/data_ptr_at"><span>data_ptr_at</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/dims"><span>dims</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/init"><span>init</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/load"><span>load</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/size"><span>size</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/store"><span>store</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/stride"><span>stride</span>
+</li><li data-link="/stdlib-reference/types/tensorview-06/subscript"><span>subscript</span>
+</li></ul>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/index"><span>TorchTensor</span>
+<ul class="toc_list">
+<li data-link="/stdlib-reference/types/torchtensor-05/alloc"><span>alloc</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/data_ptr"><span>data_ptr</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/dims"><span>dims</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/emptylike-5"><span>emptyLike</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/fillvalue-4"><span>fillValue</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/fillzero-4"><span>fillZero</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/getview-3"><span>getView</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/size"><span>size</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/stride"><span>stride</span>
+</li><li data-link="/stdlib-reference/types/torchtensor-05/zeroslike-5"><span>zerosLike</span>
+</li></ul>
 </li><li data-link="/stdlib-reference/types/tuple-0/index"><span>Tuple</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/tuple-0/equals"><span>equals</span>
+<li data-link="/stdlib-reference/types/tuple-0/differential-0"><span>Differential</span>
+</li><li data-link="/stdlib-reference/types/tuple-0/dadd"><span>dadd</span>
+</li><li data-link="/stdlib-reference/types/tuple-0/dmul"><span>dmul</span>
+</li><li data-link="/stdlib-reference/types/tuple-0/dzero"><span>dzero</span>
+</li><li data-link="/stdlib-reference/types/tuple-0/equals"><span>equals</span>
 </li><li data-link="/stdlib-reference/types/tuple-0/init"><span>init</span>
 </li><li data-link="/stdlib-reference/types/tuple-0/lessthan-4"><span>lessThan</span>
 </li><li data-link="/stdlib-reference/types/tuple-0/lessthanorequals-48a"><span>lessThanOrEquals</span>
@@ -724,6 +810,8 @@
 </li><li data-link="/stdlib-reference/attributes/index"><span>Attributes</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/attributes/autopybindcuda-046abcd"><span>AutoPyBindCUDA</span>
+</li><li data-link="/stdlib-reference/attributes/backwardderivative-08"><span>BackwardDerivative</span>
+</li><li data-link="/stdlib-reference/attributes/backwardderivativeof-08i"><span>BackwardDerivativeOf</span>
 </li><li data-link="/stdlib-reference/attributes/backwarddifferentiable-08"><span>BackwardDifferentiable</span>
 </li><li data-link="/stdlib-reference/attributes/com-012"><span>COM</span>
 </li><li data-link="/stdlib-reference/attributes/cudadeviceexport-01234a"><span>CUDADeviceExport</span>
@@ -734,20 +822,26 @@
 </li><li data-link="/stdlib-reference/attributes/cudakernel-04"><span>CudaKernel</span>
 </li><li data-link="/stdlib-reference/attributes/derivativegrouplinear-0af"><span>DerivativeGroupLinear</span>
 </li><li data-link="/stdlib-reference/attributes/derivativegroupquad-0af"><span>DerivativeGroupQuad</span>
+</li><li data-link="/stdlib-reference/attributes/derivativemember-0a"><span>DerivativeMember</span>
 </li><li data-link="/stdlib-reference/attributes/differentiable-0"><span>Differentiable</span>
 </li><li data-link="/stdlib-reference/attributes/dllexport-03"><span>DllExport</span>
 </li><li data-link="/stdlib-reference/attributes/dllimport-03"><span>DllImport</span>
 </li><li data-link="/stdlib-reference/attributes/flags-0"><span>Flags</span>
 </li><li data-link="/stdlib-reference/attributes/forceinline-05"><span>ForceInline</span>
 </li><li data-link="/stdlib-reference/attributes/forceunroll-05"><span>ForceUnroll</span>
+</li><li data-link="/stdlib-reference/attributes/forwardderivative-07"><span>ForwardDerivative</span>
+</li><li data-link="/stdlib-reference/attributes/forwardderivativeof-07h"><span>ForwardDerivativeOf</span>
 </li><li data-link="/stdlib-reference/attributes/forwarddifferentiable-07"><span>ForwardDifferentiable</span>
 </li><li data-link="/stdlib-reference/attributes/knownbuiltin-05"><span>KnownBuiltin</span>
 </li><li data-link="/stdlib-reference/attributes/maxiters-03"><span>MaxIters</span>
+</li><li data-link="/stdlib-reference/attributes/nodiffthis-026"><span>NoDiffThis</span>
 </li><li data-link="/stdlib-reference/attributes/nonuniformreturn-03a"><span>NonUniformReturn</span>
 </li><li data-link="/stdlib-reference/attributes/numthreads-03"><span>NumThreads</span>
 </li><li data-link="/stdlib-reference/attributes/overloadrank-08"><span>OverloadRank</span>
 </li><li data-link="/stdlib-reference/attributes/prefercheckpoint-06"><span>PreferCheckpoint</span>
 </li><li data-link="/stdlib-reference/attributes/preferrecompute-06"><span>PreferRecompute</span>
+</li><li data-link="/stdlib-reference/attributes/primalsubstitute-06"><span>PrimalSubstitute</span>
+</li><li data-link="/stdlib-reference/attributes/primalsubstituteof-06g"><span>PrimalSubstituteOf</span>
 </li><li data-link="/stdlib-reference/attributes/pyexport-02"><span>PyExport</span>
 </li><li data-link="/stdlib-reference/attributes/requireprelude-07"><span>RequirePrelude</span>
 </li><li data-link="/stdlib-reference/attributes/shader-0"><span>Shader</span>
@@ -1090,17 +1184,26 @@
 </li><li data-link="/stdlib-reference/global-decls/cudablockidx-49"><span>cudaBlockIdx</span>
 </li><li data-link="/stdlib-reference/global-decls/cudathreadidx-4a"><span>cudaThreadIdx</span>
 </li><li data-link="/stdlib-reference/global-decls/debugbreak-5"><span>debugBreak</span>
+</li><li data-link="/stdlib-reference/global-decls/detach"><span>detach</span>
+</li><li data-link="/stdlib-reference/global-decls/diffpair-4"><span>diffPair</span>
 </li><li data-link="/stdlib-reference/global-decls/fmin3"><span>fmin3</span>
 </li><li data-link="/stdlib-reference/global-decls/getrealtimeclock-3b"><span>getRealtimeClock</span>
 </li><li data-link="/stdlib-reference/global-decls/getrealtimeclocklow-3bg"><span>getRealtimeClockLow</span>
 </li><li data-link="/stdlib-reference/global-decls/getstringhash-39"><span>getStringHash</span>
+</li><li data-link="/stdlib-reference/global-decls/isdifferentialnull-2e"><span>isDifferentialNull</span>
+</li><li data-link="/stdlib-reference/global-decls/makearrayfromelement-49d"><span>makeArrayFromElement</span>
 </li><li data-link="/stdlib-reference/global-decls/maketuple-4"><span>makeTuple</span>
 </li><li data-link="/stdlib-reference/global-decls/nextafter"><span>nextafter</span>
 </li><li data-link="/stdlib-reference/global-decls/printf"><span>printf</span>
 </li><li data-link="/stdlib-reference/global-decls/select"><span>select</span>
 </li><li data-link="/stdlib-reference/global-decls/static_assert"><span>static_assert</span>
+</li><li data-link="/stdlib-reference/global-decls/synctorchcudastream-49d"><span>syncTorchCudaStream</span>
 </li><li data-link="/stdlib-reference/global-decls/unmodified"><span>unmodified</span>
 </li><li data-link="/stdlib-reference/global-decls/unused"><span>unused</span>
+</li><li data-link="/stdlib-reference/global-decls/updatediff-6"><span>updateDiff</span>
+</li><li data-link="/stdlib-reference/global-decls/updatepair-6"><span>updatePair</span>
+</li><li data-link="/stdlib-reference/global-decls/updateprimal-6"><span>updatePrimal</span>
+</li><li data-link="/stdlib-reference/global-decls/workgroupuniformload-9g"><span>workgroupUniformLoad</span>
 </li></ul>
 </li></ul>
 </li></ul>

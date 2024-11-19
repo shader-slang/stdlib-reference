@@ -1,8 +1,17 @@
-documented pages: 581
-undocumented pages: 329(36.2%)
+documented pages: 586
+undocumented pages: 415(41.5%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
+IDiffTensorWrapper
+IDiffTensorWrapper.loadOnce_backward<T>
+IDiffTensorWrapper.loadOnce_forward<T>
+IDiffTensorWrapper.load_backward<T>
+IDiffTensorWrapper.load_forward<T>
+IDiffTensorWrapper.storeOnce_backward<T>
+IDiffTensorWrapper.storeOnce_forward<T>
+IDiffTensorWrapper.store_backward<T>
+IDiffTensorWrapper.store_forward<T>
 IDifferentiableFunc<TR, each TP>.operator()
 IDifferentiableMutatingFunc<TR, each TP>.operator()
 IFunc<TR, each TP>.operator()
@@ -14,14 +23,40 @@ __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions
 Array<T, N:int>
+T[N].Differential
+T[N].dadd
+T[N].dmul<U>
+T[N].dzero
 Array<T, N:int>.getCount
 Atomic<T>.compareExchange
 Atomic<T>.exchange
 Atomic<T>.load
 Atomic<T>.store
+AtomicAdd
+AtomicAdd.diff
+AtomicAdd.loadOnce_backward<T>
+AtomicAdd.loadOnce_forward<T>
+AtomicAdd.load_backward<T>
+AtomicAdd.load_forward<T>
+AtomicAdd.storeOnce_backward<T>
+AtomicAdd.storeOnce_forward<T>
+AtomicAdd.store_backward<T>
+AtomicAdd.store_forward<T>
 Buffer<T, format:int>
 ConstantBuffer<T>
 DefaultDataLayout
+DiffTensorView<T, A>
+DiffTensorView<T, A>.diff
+DiffTensorView<T, A>.dims
+DiffTensorView<T, A>.init
+DiffTensorView<T, A>.load
+DiffTensorView<T, A>.loadOnce
+DiffTensorView<T, A>.primal
+DiffTensorView<T, A>.size
+DiffTensorView<T, A>.store
+DiffTensorView<T, A>.storeOnce
+DiffTensorView<T, A>.stride
+DiffTensorView<T, A>.subscript
 DifferentialPair<T>.Differential
 DifferentialPair<T>.DifferentialElementType
 DifferentialPair<T>.d
@@ -60,6 +95,12 @@ NativeString.getBuffer
 NativeString.getLength
 NativeString.init
 NativeString.length
+NullDifferential
+NullDifferential.Differential
+NullDifferential.dadd
+NullDifferential.dmul<T>
+NullDifferential.dummy
+NullDifferential.dzero
 Optional<T>.hasValue
 Optional<T>.init
 OutputIndices<T, MAX_PRIMITIVES:uint>
@@ -111,15 +152,46 @@ String.init
 StructuredBuffer<T, L>.subscript<TIndex>
 SubpassInput<T, isMS:int>
 SubpassInputMS<T, isMS:int>
+TensorView<T>.InterlockedAdd
+TensorView<int>.InterlockedAnd<T>
+TensorView<int>.InterlockedCompareExchange
+TensorView<int>.InterlockedExchange
+TensorView<int>.InterlockedMax<T>
+TensorView<int>.InterlockedMin
+TensorView<int>.InterlockedOr<T>
+TensorView<int>.InterlockedXor<T>
+TensorView<T>.data_ptr
+TensorView<T>.data_ptr_at
+TensorView<T>.dims
+TensorView<T>.init
+TensorView<T>.load
+TensorView<T>.size
+TensorView<T>.store
+TensorView<T>.stride
+TensorView<T>.subscript
 TextureBuffer<T>
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
 TextureFootprint<ND:int>.isSingleLevel
 TextureFootprint2D
 TextureFootprint3D
+TorchTensor<T>.alloc
+TorchTensor<T>.data_ptr
+TorchTensor<T>.dims
+TorchTensor<T>.emptyLike
+TorchTensor<T>.fillValue
+TorchTensor<T>.fillZero
+TorchTensor<T>.getView
+TorchTensor<T>.size
+TorchTensor<T>.stride
+TorchTensor<T>.zerosLike
 TriangleStream<T>
 TriangleStream<T>.Append
 TriangleStream<T>.RestartStrip
+Tuple<T>.Differential
+Tuple<T>.dadd
+Tuple<T>.dmul<U>
+Tuple<T>.dzero
 Tuple<T>.equals
 Tuple<each T>.init
 Tuple<T>.lessThan
@@ -241,9 +313,17 @@ vector<T,N>.toInt
 vector<T,N>.toInt64
 vector<T,N>.toUInt
 vector<T,N>.toUInt64
+BackwardDerivative
+BackwardDerivativeOf
+DerivativeMember
 Differentiable
+ForwardDerivative
+ForwardDerivativeOf
 KnownBuiltin
 MaxIters
+NoDiffThis
+PrimalSubstitute
+PrimalSubstituteOf
 TreatAsDifferentiable
 allow
 disable_array_flattening
@@ -322,6 +402,8 @@ dot4add_u8packed
 f16tof32
 getRealtimeClock
 getRealtimeClockLow
+isDifferentialNull
+makeArrayFromElement<T, N:int>
 makeTuple<each T>
 max<T>
 min<T>
@@ -329,4 +411,8 @@ mul<T>
 nextafter<T>
 select<T>
 sin<T>
+syncTorchCudaStream
 unmodified<T>
+updateDiff<T>
+updatePair<T>
+updatePrimal<T>

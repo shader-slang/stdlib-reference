@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct Tuple\<each T\>
 
-*Conditionally conforms to:* [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
+*Conditionally conforms to:* [IComparable](/stdlib-reference/interfaces/icomparable-01/index), [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
 
 ## Description
 
@@ -32,6 +32,9 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 * [lessThan](/stdlib-reference/types/tuple-0/lessthan-4)
 * [lessThanOrEquals](/stdlib-reference/types/tuple-0/lessthanorequals-48a)
 * [equals](/stdlib-reference/types/tuple-0/equals)
+* [dzero](/stdlib-reference/types/tuple-0/dzero)
+* [dadd](/stdlib-reference/types/tuple-0/dadd)
+* [dmul](/stdlib-reference/types/tuple-0/dmul)
 
 ## Conditional Conformances
 
@@ -39,3 +42,7 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 `Tuple<each T>` additionally conforms to `IComparable` when the following conditions are met:
 
   * [T](/stdlib-reference/types/tuple-0/index#typeparam-T) : [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
+### Conformance to IDifferentiable
+`Tuple<each T>` additionally conforms to `IDifferentiable` when the following conditions are met:
+
+  * [T](/stdlib-reference/types/tuple-0/index#typeparam-T) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)

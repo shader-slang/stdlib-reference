@@ -13,6 +13,7 @@ Slang's Standard Library defines the following interfaces:
 - [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 - [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
 - [IDefaultInitializable](/stdlib-reference/interfaces/idefaultinitializable-018/index)
+- [IDiffTensorWrapper](/stdlib-reference/interfaces/idifftensorwrapper-015b/index)
 - [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
 - [IDifferentiableFunc](/stdlib-reference/interfaces/idifferentiablefunc-01f/index)
 - [IDifferentiableMutatingFunc](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index)
