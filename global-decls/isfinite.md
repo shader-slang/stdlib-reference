@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Test if a floating-point value finite.
-
+Test if a floating-point value is finite.
 
 
 
@@ -34,8 +33,18 @@ Test if a floating-point value finite.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/isfinite#typeparam-T) {#decl-x}
+The input value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The input value.
+
+
+## Return value
+<span class='code'>true</span> if <span class='code'><a href="/stdlib-reference/global-decls/isfinite#decl-x" class="code_param">x</a></span> is finite, <span class='code'>false</span> otherwise.
+
 
 ## Availability and Requirements
 

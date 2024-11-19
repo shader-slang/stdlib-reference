@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Maximum.
 
 
 
@@ -55,11 +55,27 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/max#typeparam-T) {#decl-x}
+The first value.
+
 #### y  : [T](/stdlib-reference/global-decls/max#typeparam-T) {#decl-y}
+The second value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The first value.
+
 #### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+The second value.
+
+
+## Return value
+The maximum of <span class='code'><a href="/stdlib-reference/global-decls/max#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/max#decl-y" class="code_param">y</a></span>.
+
 
 ## Availability and Requirements
 

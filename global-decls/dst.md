@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-Helper for computing distance terms for lighting (obsolete)
+Helper for computing distance terms for lighting (obsolete).
+Use the subtraction operator '-' instead.
 
 
 

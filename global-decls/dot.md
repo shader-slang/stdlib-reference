@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Vector dot product
-
+Vector dot product. Returns the dot product of two vectors.
 
 
 
@@ -40,9 +39,24 @@ Vector dot product
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/dot#typeparam-T) {#decl-x}
+The first vector.
+
 #### y  : [T](/stdlib-reference/global-decls/dot#typeparam-T) {#decl-y}
+The second vector.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first vector.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second vector.
+
+
+## Return value
+The dot product of <span class='code'><a href="/stdlib-reference/global-decls/dot#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/dot#decl-y" class="code_param">y</a></span>.
+
+## Remarks
+When <span class='code'><a href="/stdlib-reference/global-decls/dot#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/dot#decl-y" class="code_param">y</a></span> are scalars, this function is equivalent to <span class='code'><a href="/stdlib-reference/global-decls/dot#decl-x" class="code_param">x</a>*<a href="/stdlib-reference/global-decls/dot#decl-y" class="code_param">y</a></span>.
+
 
 ## Availability and Requirements
 

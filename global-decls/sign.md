@@ -10,7 +10,6 @@ Extract sign of value.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,8 +33,18 @@ Extract sign of value.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/sign#typeparam-T) {#decl-x}
+The value to extract the sign of.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to extract the sign of.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to extract the sign of.
+
+
+## Return value
+-1 if <span class='code'><a href="/stdlib-reference/global-decls/sign#decl-x" class="code_param">x</a></span> is negative, 0 if <span class='code'><a href="/stdlib-reference/global-decls/sign#decl-x" class="code_param">x</a></span> is zero, and 1 if <span class='code'><a href="/stdlib-reference/global-decls/sign#decl-x" class="code_param">x</a></span> is positive.
+
 
 ## Availability and Requirements
 

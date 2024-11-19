@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Compute the tangent of <span class='code'><a href="/stdlib-reference/global-decls/tanpi#decl-x" class="code_param">x</a></span> in degrees.
-
+Compute the tangent of <span class='code'><a href="/stdlib-reference/global-decls/tanpi#decl-x" class="code_param">x</a>*pi</span>.
 
 
 
@@ -30,7 +29,15 @@ Compute the tangent of <span class='code'><a href="/stdlib-reference/global-decl
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/tanpi#typeparam-T) {#decl-x}
+The value to compute the tangent of.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to compute the tangent of.
+
+
+## Return value
+The tangent of <span class='code'><a href="/stdlib-reference/global-decls/tanpi#decl-x" class="code_param">x</a>*pi</span>.
+
 
 ## Availability and Requirements
 

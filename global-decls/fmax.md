@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Floating-point maximum considering NaN.
 
 
 
@@ -33,9 +33,25 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/fmax#typeparam-T) {#decl-x}
+The first value to compare.
+
 #### y  : [T](/stdlib-reference/global-decls/fmax#typeparam-T) {#decl-y}
+The second value to compare.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value to compare.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value to compare.
+
+
+## Return value
+The larger of the two values, element-wise if vector typed, considering NaN.
+
+## Remarks
+For metal, if either value is NaN, the other value is returned. If both values are NaN, NaN is returned.
+For other targets, if <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> is NaN, <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> is returned, otherwise the larger of <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> is returned.
+
 
 ## Availability and Requirements
 

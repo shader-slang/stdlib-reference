@@ -10,7 +10,6 @@ Smooth step (Hermite interpolation).
 
 
 
-
 ## Signature 
 
 <pre>
@@ -43,14 +42,36 @@ Smooth step (Hermite interpolation).
 ## Parameters
 
 #### min  : [T](/stdlib-reference/global-decls/smoothstep#typeparam-T) {#decl-min}
+The lower edge of the interpolation range.
+
 #### max  : [T](/stdlib-reference/global-decls/smoothstep#typeparam-T) {#decl-max}
+The upper edge of the interpolation range.
+
 #### x  : [T](/stdlib-reference/global-decls/smoothstep#typeparam-T) {#decl-x}
+The value to interpolate.
+
 #### min  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-min}
+The lower edge of the interpolation range.
+
 #### max  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-max}
+The upper edge of the interpolation range.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to interpolate.
+
 #### min  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-min}
+The lower edge of the interpolation range.
+
 #### max  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-max}
+The upper edge of the interpolation range.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to interpolate.
+
+
+## Return value
+0 if <span class='code'><a href="/stdlib-reference/global-decls/smoothstep#decl-x" class="code_param">x</a></span> is less than <span class='code'><a href="/stdlib-reference/global-decls/smoothstep#decl-min" class="code_param">min</a></span>, 1 if <span class='code'><a href="/stdlib-reference/global-decls/smoothstep#decl-x" class="code_param">x</a></span> is greater than <span class='code'><a href="/stdlib-reference/global-decls/smoothstep#decl-max" class="code_param">max</a></span>, and a smooth interpolation between 0 and 1 otherwise.
+
 
 ## Availability and Requirements
 

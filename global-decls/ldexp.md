@@ -10,7 +10,6 @@ Construct float from mantissa and exponent.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -53,13 +52,33 @@ Construct float from mantissa and exponent.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/ldexp#typeparam-T) {#decl-x}
+The significand.
+
 #### exp  : [T](/stdlib-reference/global-decls/ldexp#typeparam-T) {#decl-exp}
+The exponent.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The significand.
+
 #### exp  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-exp}
+The exponent.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The significand.
+
 #### exp  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-exp}
+The exponent.
+
 #### exp  : [E](/stdlib-reference/global-decls/ldexp#typeparam-E) {#decl-exp}
+The exponent.
+
 #### exp  : [vector](/stdlib-reference/types/vector/index)\<E, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-exp}
+The exponent.
+
+
+## Return value
+The floating-point number constructed from <span class='code'><a href="/stdlib-reference/global-decls/ldexp#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/ldexp#decl-exp" class="code_param">exp</a></span>.
+
 
 ## Availability and Requirements
 

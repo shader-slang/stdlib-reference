@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Floating-point minimum of 3 inputs, considering NaN.
 
 
 
@@ -35,11 +35,27 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/fmin3#typeparam-T) {#decl-x}
+The first value to compare.
+
 #### y  : [T](/stdlib-reference/global-decls/fmin3#typeparam-T) {#decl-y}
+The second value to compare.
+
 #### z  : [T](/stdlib-reference/global-decls/fmin3#typeparam-T) {#decl-z}
+The third value to compare.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value to compare.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value to compare.
+
 #### z  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-z}
+The third value to compare.
+
+
+## Return value
+The smallest of the three values, element-wise if vector typed, considering NaN.  If all three values are NaN, NaN is returned. If any value is NaN, the smallest non-NaN value is returned./// @category math
+
 
 ## Availability and Requirements
 

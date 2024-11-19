@@ -10,7 +10,6 @@ Clamp value to [0,1] range.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,8 +33,18 @@ Clamp value to [0,1] range.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/saturate#typeparam-T) {#decl-x}
+The value to clamp.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to clamp.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to clamp.
+
+
+## Return value
+The clamped value.
+
 
 ## Availability and Requirements
 

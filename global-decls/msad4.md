@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Masked sum of absolute differences of byte alignments.
+This function computes the absolute differences of the byte alignments of the reference and source values, and adds them to the accumulated differences.
 
 
 
@@ -23,8 +24,21 @@ layout: stdlib-reference
 ## Parameters
 
 #### reference  : uint {#decl-reference}
+The reference 4 bytes packed in a uint.
+
 #### source  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-source}
+The source 2 uints packed in a uint2.
+
 #### accum  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-accum}
+The accumulated differences.
+
+
+## Return value
+The updated accumulated differences.
+
+## Remarks
+In HLSL, this is implemented with the msad4 intrinsic.
+
 
 ## Availability and Requirements
 

@@ -10,7 +10,6 @@ Matrix transpose.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -36,6 +35,12 @@ Matrix transpose.
 ## Parameters
 
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The matrix to transpose.
+
+
+## Return value
+The transposed matrix.
+
 
 ## Availability and Requirements
 

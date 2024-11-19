@@ -10,7 +10,6 @@ Compute the length of a vector.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -30,7 +29,15 @@ Compute the length of a vector.
 ## Parameters
 
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input vector.
+
 #### x  : [T](/stdlib-reference/global-decls/length#typeparam-T) {#decl-x}
+The input vector.
+
+
+## Return value
+The length of <span class='code'><a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a></span>.
+
 
 ## Availability and Requirements
 

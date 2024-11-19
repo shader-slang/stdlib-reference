@@ -10,7 +10,6 @@ Round-to-nearest.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,8 +33,21 @@ Round-to-nearest.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/round#typeparam-T) {#decl-x}
+The value to round.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to round.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to round.
+
+
+## Return value
+The value rounded to the nearest integer.
+
+## Remarks
+Rounding behavior of .5 is determined by target intrinsic.
+
 
 ## Availability and Requirements
 

@@ -10,7 +10,6 @@ Step function.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -40,11 +39,27 @@ Step function.
 ## Parameters
 
 #### y  : [T](/stdlib-reference/global-decls/step#typeparam-T) {#decl-y}
+The threshold value.
+
 #### x  : [T](/stdlib-reference/global-decls/step#typeparam-T) {#decl-x}
+The value to compare against the threshold.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The threshold value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to compare against the threshold.
+
 #### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+The threshold value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to compare against the threshold.
+
+
+## Return value
+0 if <span class='code'><a href="/stdlib-reference/global-decls/step#decl-x" class="code_param">x</a></span> is less than <span class='code'><a href="/stdlib-reference/global-decls/step#decl-y" class="code_param">y</a></span>, and 1 otherwise.
+
 
 ## Availability and Requirements
 

@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Compute the cosine of an angle in degrees.
-
+Compute the cosine of pi times the input.
 
 
 
@@ -30,7 +29,18 @@ Compute the cosine of an angle in degrees.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/cospi#typeparam-T) {#decl-x}
+The input value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
+
+## Return value
+The cosine of pi times the input.
+
+## Remarks
+This function is equivalent to <span class='code'><a href="/stdlib-reference/global-decls/cos">cos</a>(PI*<a href="/stdlib-reference/global-decls/cos#decl-x" class="code_param">x</a>)</span>. On Metal, this function is implemented using the <span class='code'><a href="/stdlib-reference/global-decls/cospi">cospi</a></span> intrinsic.
+
 
 ## Availability and Requirements
 

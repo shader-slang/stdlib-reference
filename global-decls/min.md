@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Minimum.
 
 
 
@@ -55,11 +55,31 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/min#typeparam-T) {#decl-x}
+The first value to compare.
+
 #### y  : [T](/stdlib-reference/global-decls/min#typeparam-T) {#decl-y}
+The second value to compare.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value to compare.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value to compare.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The first value to compare.
+
 #### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+The second value to compare.
+
+
+## Return value
+The smaller of the two values, element-wise if vector typed.
+
+## Remarks
+For HLSL, GLSL, and metal targets, this is implemented with the min() intrinsic.
+For SPIR-V, it is implemented with the UMin or SMin instruction, depending on the signedness of the type.
+
 
 ## Availability and Requirements
 

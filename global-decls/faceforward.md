@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Flip surface normal to face forward, if needed.
-
+Flip vector to face forward, if needed.
 
 
 
@@ -30,8 +29,18 @@ Flip surface normal to face forward, if needed.
 ## Parameters
 
 #### n  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-n}
+The vector to orient.
+
 #### i  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-i}
+The incident vector.
+
 #### ng  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-ng}
+The geometric normal vector.
+
+
+## Return value
+<span class='code'><a href="/stdlib-reference/global-decls/faceforward#decl-n" class="code_param">n</a></span> if the dot product of <span class='code'><a href="/stdlib-reference/global-decls/faceforward#decl-ng" class="code_param">ng</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/faceforward#decl-i" class="code_param">i</a></span> is less than 0, otherwise <span class='code'>-<a href="/stdlib-reference/global-decls/faceforward#decl-n" class="code_param">n</a></span>.
+
 
 ## Availability and Requirements
 

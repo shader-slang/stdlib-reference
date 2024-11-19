@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Reinterpret bits of double as a uint (HLSL SM 5.0)
+Reinterpret bits of double as a uint.
 
 
 

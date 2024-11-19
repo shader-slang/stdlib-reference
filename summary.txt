@@ -1,5 +1,5 @@
-documented pages: 542
-undocumented pages: 368(40.4%)
+documented pages: 581
+undocumented pages: 329(36.2%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -250,8 +250,6 @@ disable_array_flattening
 noRefInline
 payload
 spv_target_env_1_3
-AllMemoryBarrier
-AllMemoryBarrierWithGroupSync
 CheckAccessFullyMapped
 D3DCOLORtoUBYTE4
 EvaluateAttributeAtCentroid<T>
@@ -309,63 +307,26 @@ WaveShuffle<T>
 WorkgroupSize
 _WaveCountBits
 abort
-abs<T>
-acos<T>
-acosh<T>
 all<T>
 any<T>
-asdouble
-asfloat
-asin<T>
-asint
-asuint
-atanh<T>
 clip<T>
 concat<each T, each U>
-copysign<T, N:int>
-copysign_double<N:int>
-copysign_float<N:int>
-copysign_half<N:int>
-cos<T>
 createDynamicObject<T, U>
-cross<T>
 cudaBlockDim
 cudaBlockIdx
 cudaThreadIdx
 debugBreak
-distance<T, N:int>
-divide<T>
-dot<T>
 dot2add
 dot4add_i8packed
 dot4add_u8packed
-dst<T>
-exp10<T>
-exp2<T>
 f16tof32
-fabs<T>
-fmax<T>
-fmax3<T>
-fmedian3<T>
-fmin<T>
-fmin3<T>
 getRealtimeClock
 getRealtimeClockLow
-lit
 makeTuple<each T>
 max<T>
-max3<T>
-median3<T>
 min<T>
-min3<T>
-msad4
 mul<T>
 nextafter<T>
-noise
-normalize<T, N:int>
-pow<T>
-powr<T>
 select<T>
 sin<T>
-sincos<T>
 unmodified<T>

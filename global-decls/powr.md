@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Raise positive base value to a power.
 
 
 
@@ -33,9 +33,21 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/powr#typeparam-T) {#decl-x}
+The base value, must be >= 0.
+
 #### y  : [T](/stdlib-reference/global-decls/powr#typeparam-T) {#decl-y}
+The exponent value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The base value, must be >= 0.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The exponent value.
+
+
+## Return value
+The value of <span class='code'><a href="/stdlib-reference/global-decls/powr#decl-x" class="code_param">x</a></span> raised to the power of <span class='code'><a href="/stdlib-reference/global-decls/powr#decl-y" class="code_param">y</a></span>.
+
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Barrier for writes to all memory spaces (HLSL SM 5.0)
+Barrier for writes to all memory spaces.
 
 
 

@@ -10,7 +10,6 @@ Convert degrees to radians.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,8 +33,18 @@ Convert degrees to radians.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/radians#typeparam-T) {#decl-x}
+The angle in degrees.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The angle in degrees.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The angle in degrees.
+
+
+## Return value
+The angle in radians.
+
 
 ## Availability and Requirements
 

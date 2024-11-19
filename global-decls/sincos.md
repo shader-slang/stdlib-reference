@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Sine and cosine.
+Calculate both the sine and cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
 
 
@@ -44,14 +45,36 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/sincos#typeparam-T) {#decl-x}
+The angle in radians.
+
 #### s  : [T](/stdlib-reference/global-decls/sincos#typeparam-T) {#decl-s}
+\[out\] The sine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
+
 #### c  : [T](/stdlib-reference/global-decls/sincos#typeparam-T) {#decl-c}
+\[out\] The cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The angle in radians.
+
 #### s  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-s}
+\[out\] The sine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
+
 #### c  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-c}
+\[out\] The cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The angle in radians.
+
 #### s  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-s}
+\[out\] The sine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
+
 #### c  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-c}
+\[out\] The cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
+
+
+## Return value
+void
+
 
 ## Availability and Requirements
 

@@ -42,14 +42,32 @@ Computes linear interpolation.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/lerp#typeparam-T) {#decl-x}
+The starting value.
+
 #### y  : [T](/stdlib-reference/global-decls/lerp#typeparam-T) {#decl-y}
+The ending value.
+
 #### s  : [T](/stdlib-reference/global-decls/lerp#typeparam-T) {#decl-s}
+The interpolation factor.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The starting value.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The ending value.
+
 #### s  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-s}
+The interpolation factor.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The starting value.
+
 #### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+The ending value.
+
 #### s  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-s}
+The interpolation factor.
+
 
 ## Return value
 Returns <span class='code'><a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>+(<a href="/stdlib-reference/global-decls/lerp#decl-y" class="code_param">y</a>-<a href="/stdlib-reference/global-decls/lerp#decl-x" class="code_param">x</a>)*<a href="/stdlib-reference/global-decls/lerp#decl-s" class="code_param">s</a></span>.

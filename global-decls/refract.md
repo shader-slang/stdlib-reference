@@ -10,7 +10,6 @@ Refract incident vector given surface normal and index of refraction.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -36,10 +35,20 @@ Refract incident vector given surface normal and index of refraction.
 ## Parameters
 
 #### i  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-i}
+The incident vector.
+
 #### n  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-n}
+The normal vector.
+
 #### eta  : [T](/stdlib-reference/global-decls/refract#typeparam-T) {#decl-eta}
+The relative refractive index.
+
 #### i  : [T](/stdlib-reference/global-decls/refract#typeparam-T) {#decl-i}
+The incident vector.
+
 #### n  : [T](/stdlib-reference/global-decls/refract#typeparam-T) {#decl-n}
+The normal vector.
+
 
 ## Availability and Requirements
 

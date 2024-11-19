@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Compute the sine of an angle in degrees.
-
+Compute the sine of <span class='code'><a href="/stdlib-reference/global-decls/sinpi#decl-x" class="code_param">x</a>*pi</span>.
 
 
 
@@ -30,7 +29,15 @@ Compute the sine of an angle in degrees.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/sinpi#typeparam-T) {#decl-x}
+The value to compute the sine of.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to compute the sine of.
+
+
+## Return value
+The sine of <span class='code'><a href="/stdlib-reference/global-decls/sinpi#decl-x" class="code_param">x</a>*pi</span>.
+
 
 ## Availability and Requirements
 

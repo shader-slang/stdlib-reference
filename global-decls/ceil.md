@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Ceiling (HLSL SM 1.0).
-
+Ceiling. Returns the smallest integer that is greater than or equal to the specified value.
 
 
 
@@ -34,8 +33,18 @@ Ceiling (HLSL SM 1.0).
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/ceil#typeparam-T) {#decl-x}
+The value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value.
+
+
+## Return value
+The smallest integer that is greater than or equal to the specified value.
+
 
 ## Availability and Requirements
 

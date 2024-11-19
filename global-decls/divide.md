@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Divide values.
 
 
 
@@ -33,9 +33,21 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/divide#typeparam-T) {#decl-x}
+The dividend.
+
 #### y  : [T](/stdlib-reference/global-decls/divide#typeparam-T) {#decl-y}
+The divisor.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The dividend.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The divisor.
+
+
+## Return value
+The result of dividing <span class='code'><a href="/stdlib-reference/global-decls/divide#decl-x" class="code_param">x</a></span> by <span class='code'><a href="/stdlib-reference/global-decls/divide#decl-y" class="code_param">y</a></span>, element-wise for vector types.
+
 
 ## Availability and Requirements
 

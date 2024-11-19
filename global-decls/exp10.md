@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Computes base-10 exponent
-
+Computes base-10 exponent.
 
 
 
@@ -30,7 +29,15 @@ Computes base-10 exponent
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/exp10#typeparam-T) {#decl-x}
+The input value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
+
+## Return value
+The base-10 exponent of <span class='code'><a href="/stdlib-reference/global-decls/exp10#decl-x" class="code_param">x</a></span>.
+
 
 ## Availability and Requirements
 

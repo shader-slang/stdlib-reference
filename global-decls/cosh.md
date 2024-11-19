@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Hyperbolic cosine.
-
+Hyperbolic cosine. Returns the hyperbolic cosine of the specified value.
 
 
 
@@ -34,8 +33,18 @@ Hyperbolic cosine.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/cosh#typeparam-T) {#decl-x}
+The specified value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The specified value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The specified value.
+
+
+## Return value
+The hyperbolic cosine of the specified value.
+
 
 ## Availability and Requirements
 

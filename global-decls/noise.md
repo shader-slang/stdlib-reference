@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Generate a random number (unsupported).
 
 
 
@@ -26,5 +27,12 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : float {#decl-x}
+The seed value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<float, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The seed value.
+
+
+## Remarks
+This function is not supported in that it always returns 0.
 

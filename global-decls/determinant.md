@@ -10,7 +10,6 @@ Compute matrix determinant.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -27,6 +26,12 @@ Compute matrix determinant.
 ## Parameters
 
 #### m  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [N](/stdlib-reference/types/matrix/index#decl-N)\> {#decl-m}
+The matrix.
+
+
+## Return value
+The determinant of the matrix.
+
 
 ## Availability and Requirements
 

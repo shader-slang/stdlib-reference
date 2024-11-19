@@ -10,7 +10,6 @@ Split float into mantissa and exponent.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -41,11 +40,27 @@ Split float into mantissa and exponent.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/frexp#typeparam-T) {#decl-x}
+The input value.
+
 #### exp  : int {#decl-exp}
+\[out\] The output exponent.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
 #### exp  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-exp}
+\[out\] The output exponent.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The input value.
+
 #### exp  : [matrix](/stdlib-reference/types/matrix/index)\<int, [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-exp}
+\[out\] The output exponent.
+
+
+## Return value
+The mantissa of <span class='code'><a href="/stdlib-reference/global-decls/frexp#decl-x" class="code_param">x</a></span>.
+
 
 ## Availability and Requirements
 

@@ -10,7 +10,6 @@ Computes <span class='code'><a href="/stdlib-reference/global-decls/max">max</a>
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,9 +33,21 @@ Computes <span class='code'><a href="/stdlib-reference/global-decls/max">max</a>
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/fdim#typeparam-T) {#decl-x}
+The first value.
+
 #### y  : [T](/stdlib-reference/global-decls/fdim#typeparam-T) {#decl-y}
+The second value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value.
+
+
+## Return value
+The result of <span class='code'><a href="/stdlib-reference/global-decls/max">max</a>(0, <a href="/stdlib-reference/global-decls/max#decl-x" class="code_param">x</a>-<a href="/stdlib-reference/global-decls/max#decl-y" class="code_param">y</a>)</span>.
+
 
 ## Availability and Requirements
 

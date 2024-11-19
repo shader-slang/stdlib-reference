@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Absolute value (HLSL SM 1.0)
-
+Float-point absolute value.
 
 
 
@@ -30,7 +29,19 @@ Absolute value (HLSL SM 1.0)
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/fabs#typeparam-T) {#decl-x}
+The input value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
+
+## Return value
+The absolute value of <span class='code'><a href="/stdlib-reference/global-decls/fabs#decl-x" class="code_param">x</a></span>.
+
+## Remarks
+For metal targets, this function is equivalent to the <span class='code'><a href="/stdlib-reference/global-decls/fabs">fabs</a></span> metal intrinsic.
+For other targets, this function is equivalent to the <span class='code'><a href="/stdlib-reference/global-decls/abs">abs</a></span> slang function.
+
 
 ## Availability and Requirements
 

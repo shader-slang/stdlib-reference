@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Copy-sign. Returns a value whose magnitude is from one operand and whose sign is from another operand.
 
 
 
@@ -33,9 +33,21 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to use as the magnitude.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The value to use as the sign.
+
 #### x  : [T](/stdlib-reference/global-decls/copysign#typeparam-T) {#decl-x}
+The value to use as the magnitude.
+
 #### y  : [T](/stdlib-reference/global-decls/copysign#typeparam-T) {#decl-y}
+The value to use as the sign.
+
+
+## Return value
+A value whose magnitude is from x and whose sign is from y.
+
 
 ## Availability and Requirements
 

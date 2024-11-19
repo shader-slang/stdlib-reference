@@ -10,7 +10,6 @@ Compute the square root of <span class='code'><a href="/stdlib-reference/global-
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,8 +33,18 @@ Compute the square root of <span class='code'><a href="/stdlib-reference/global-
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/sqrt#typeparam-T) {#decl-x}
+The value to compute the square root of.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to compute the square root of.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to compute the square root of.
+
+
+## Return value
+The square root of <span class='code'><a href="/stdlib-reference/global-decls/sqrt#decl-x" class="code_param">x</a></span>.
+
 
 ## Availability and Requirements
 

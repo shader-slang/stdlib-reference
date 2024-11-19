@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Legacy lighting function (obsolete).
 
 
 
@@ -23,8 +24,20 @@ layout: stdlib-reference
 ## Parameters
 
 #### n\_dot\_l  : float {#decl-n_dot_l}
+The dot product of the normal and light vectors.
+
 #### n\_dot\_h  : float {#decl-n_dot_h}
+The dot product of the normal and half-angle vectors.
+
 #### m  : float {#decl-m}
+The material shininess factor.
+
+
+## Return value
+The lighting coefficients, (ambient, diffuse, specular, 1.0).
+
+## Remarks
+In HLSL, this function is implemented as an intrinsic. It is emulated for other targets.
 
 ## Availability and Requirements
 

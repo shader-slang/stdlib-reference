@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Inverse hyperbolic sine.
-
+Arc hyperbolic sine. Returns the arc hyperbolic sine of the specified value.
 
 
 
@@ -30,7 +29,15 @@ Inverse hyperbolic sine.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/asinh#typeparam-T) {#decl-x}
+The hyperbolic sine value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The hyperbolic sine value.
+
+
+## Return value
+The arc hyperbolic sine of the specified value.
+
 
 ## Availability and Requirements
 

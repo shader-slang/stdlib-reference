@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Normalize a vector.
 
 
 
@@ -29,7 +29,15 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The vector to normalize.
+
 #### x  : [T](/stdlib-reference/global-decls/normalize#typeparam-T) {#decl-x}
+The vector to normalize.
+
+
+## Return value
+The normalized vector, <span class='code'><a href="/stdlib-reference/global-decls/normalize#decl-x" class="code_param">x</a></span>/<span class='code'><a href="/stdlib-reference/global-decls/length">length</a>(<a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a>)</span>.
+
 
 ## Availability and Requirements
 

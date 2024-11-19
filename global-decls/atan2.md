@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Inverse tangent (HLSL SM 1.0).
-
+Arc tangent of y/x. Returns the angle whose tangent is the quotient of two specified numbers.
 
 
 
@@ -40,11 +39,27 @@ Inverse tangent (HLSL SM 1.0).
 ## Parameters
 
 #### y  : [T](/stdlib-reference/global-decls/atan2#typeparam-T) {#decl-y}
+The numerator.
+
 #### x  : [T](/stdlib-reference/global-decls/atan2#typeparam-T) {#decl-x}
+The denominator.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The numerator.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The denominator.
+
 #### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+The numerator.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The denominator.
+
+
+## Return value
+The angle in radians, in the range of [-pi, pi].
+
 
 ## Availability and Requirements
 

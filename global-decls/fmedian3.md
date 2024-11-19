@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Floating-point median considering NaN.
 
 
 
@@ -35,11 +35,30 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/fmedian3#typeparam-T) {#decl-x}
+The first value to compare.
+
 #### y  : [T](/stdlib-reference/global-decls/fmedian3#typeparam-T) {#decl-y}
+The second value to compare.
+
 #### z  : [T](/stdlib-reference/global-decls/fmedian3#typeparam-T) {#decl-z}
+The third value to compare.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value to compare.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value to compare.
+
 #### z  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-z}
+The third value to compare.
+
+
+## Return value
+The median of the three values, element-wise if vector typed, considering NaN. If no value is NaN, the median is returned. If any value is NaN, one of the non-NaN values is returned.
+
+## Remarks
+For metal, this is implemented with the fmedian3 intrinsic.
+
 
 ## Availability and Requirements
 

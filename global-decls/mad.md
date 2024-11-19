@@ -10,7 +10,6 @@ Computes multiply-add.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -68,14 +67,36 @@ Computes multiply-add.
 ## Parameters
 
 #### mvalue  : [T](/stdlib-reference/global-decls/mad#typeparam-T) {#decl-mvalue}
+The multiplier.
+
 #### avalue  : [T](/stdlib-reference/global-decls/mad#typeparam-T) {#decl-avalue}
+The multiplicand.
+
 #### bvalue  : [T](/stdlib-reference/global-decls/mad#typeparam-T) {#decl-bvalue}
+The addend.
+
 #### mvalue  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-mvalue}
+The multiplier.
+
 #### avalue  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-avalue}
+The multiplicand.
+
 #### bvalue  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-bvalue}
+The addend.
+
 #### mvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-mvalue}
+The multiplier.
+
 #### avalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-avalue}
+The multiplicand.
+
 #### bvalue  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-bvalue}
+The addend.
+
+
+## Return value
+The result of <span class='code'><a href="/stdlib-reference/global-decls/mad#decl-mvalue" class="code_param">mvalue</a>*<a href="/stdlib-reference/global-decls/mad#decl-avalue" class="code_param">avalue</a>+<a href="/stdlib-reference/global-decls/mad#decl-bvalue" class="code_param">bvalue</a></span>.
+
 
 ## Availability and Requirements
 

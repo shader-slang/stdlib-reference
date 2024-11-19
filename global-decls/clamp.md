@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Clamp (HLSL SM 1.0).
-
+Clamp. Returns the specified value clamped to the specified minimum and maximum bounds.
 
 
 
@@ -62,14 +61,36 @@ Clamp (HLSL SM 1.0).
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/clamp#typeparam-T) {#decl-x}
+The value to clamp.
+
 #### minBound  : [T](/stdlib-reference/global-decls/clamp#typeparam-T) {#decl-minBound}
+The minimum bound.
+
 #### maxBound  : [T](/stdlib-reference/global-decls/clamp#typeparam-T) {#decl-maxBound}
+The maximum bound.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to clamp.
+
 #### minBound  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-minBound}
+The minimum bound.
+
 #### maxBound  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-maxBound}
+The maximum bound.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The value to clamp.
+
 #### minBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-minBound}
+The minimum bound.
+
 #### maxBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-maxBound}
+The maximum bound.
+
+
+## Return value
+The clamped value.
+
 
 ## Availability and Requirements
 

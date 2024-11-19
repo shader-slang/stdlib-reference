@@ -10,7 +10,6 @@ Reflect incident vector across plane with given normal.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,9 +33,21 @@ Reflect incident vector across plane with given normal.
 ## Parameters
 
 #### i  : [T](/stdlib-reference/global-decls/reflect#typeparam-T) {#decl-i}
+The incident vector.
+
 #### n  : [T](/stdlib-reference/global-decls/reflect#typeparam-T) {#decl-n}
+The normal vector.
+
 #### i  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-i}
+The incident vector.
+
 #### n  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-n}
+The normal vector.
+
+
+## Return value
+The reflected vector.
+
 
 ## Availability and Requirements
 

@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Inverse tangent (HLSL SM 1.0).
-
+Arc tangent. Returns the angle whose tangent is the specified number.
 
 
 
@@ -34,8 +33,18 @@ Inverse tangent (HLSL SM 1.0).
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/atan#typeparam-T) {#decl-x}
+The tangent value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The tangent value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The tangent value.
+
+
+## Return value
+The angle in radians, in the range of [-pi/2, pi/2].
+
 
 ## Availability and Requirements
 

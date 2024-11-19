@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Floor (HLSL SM 1.0).
-
+Floor. Returns the largest integer value not greater than <span class='code'><a href="/stdlib-reference/global-decls/floor#decl-x" class="code_param">x</a></span>.
 
 
 
@@ -34,8 +33,18 @@ Floor (HLSL SM 1.0).
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/floor#typeparam-T) {#decl-x}
+The input value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The input value.
+
+
+## Return value
+The largest integer value not greater than <span class='code'><a href="/stdlib-reference/global-decls/floor#decl-x" class="code_param">x</a></span>.
+
 
 ## Availability and Requirements
 

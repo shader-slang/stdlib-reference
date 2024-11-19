@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Median of 3 values.
 
 
 
@@ -35,11 +35,30 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/median3#typeparam-T) {#decl-x}
+The first value to compare.
+
 #### y  : [T](/stdlib-reference/global-decls/median3#typeparam-T) {#decl-y}
+The second value to compare.
+
 #### z  : [T](/stdlib-reference/global-decls/median3#typeparam-T) {#decl-z}
+The third value to compare.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The first value to compare.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The second value to compare.
+
 #### z  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-z}
+The third value to compare.
+
+
+## Return value
+The median of the three values, element-wise if vector typed.
+
+## Remarks
+For metal, this is implemented with the median3 intrinsic which has special handling for NaN.
+
 
 ## Availability and Requirements
 

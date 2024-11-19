@@ -10,7 +10,6 @@ Fused multiply-add.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -43,14 +42,36 @@ Fused multiply-add.
 ## Parameters
 
 #### a  : [T](/stdlib-reference/global-decls/fma#typeparam-T) {#decl-a}
+The first value to multiply.
+
 #### b  : [T](/stdlib-reference/global-decls/fma#typeparam-T) {#decl-b}
+The second value to multiply.
+
 #### c  : [T](/stdlib-reference/global-decls/fma#typeparam-T) {#decl-c}
+The value to add to the product of <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-a" class="code_param">a</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-b" class="code_param">b</a></span>.
+
 #### a  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-a}
+The first value to multiply.
+
 #### b  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-b}
+The second value to multiply.
+
 #### c  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-c}
+The value to add to the product of <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-a" class="code_param">a</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-b" class="code_param">b</a></span>.
+
 #### a  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-a}
+The first value to multiply.
+
 #### b  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-b}
+The second value to multiply.
+
 #### c  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-c}
+The value to add to the product of <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-a" class="code_param">a</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-b" class="code_param">b</a></span>.
+
+
+## Return value
+The result of <span class='code'><a href="/stdlib-reference/global-decls/fma#decl-a" class="code_param">a</a>*<a href="/stdlib-reference/global-decls/fma#decl-b" class="code_param">b</a>+<a href="/stdlib-reference/global-decls/fma#decl-c" class="code_param">c</a></span>.
+
 
 ## Availability and Requirements
 

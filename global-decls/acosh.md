@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Inverse hyperbolic cosine
-
+Arc hyperbolic cosine. Returns the arc hyperbolic cosine of the specified value.
 
 
 
@@ -30,7 +29,15 @@ Inverse hyperbolic cosine
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/acosh#typeparam-T) {#decl-x}
+The value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value.
+
+
+## Return value
+The arc hyperbolic cosine of the specified value.
+
 
 ## Availability and Requirements
 

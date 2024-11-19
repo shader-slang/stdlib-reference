@@ -13,7 +13,6 @@ of f is less than the absolute value of y.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -43,11 +42,27 @@ of f is less than the absolute value of y.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/fmod#typeparam-T) {#decl-x}
+The dividend.
+
 #### y  : [T](/stdlib-reference/global-decls/fmod#typeparam-T) {#decl-y}
+The divisor.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The dividend.
+
 #### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+The divisor.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The dividend.
+
 #### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+The divisor.
+
+
+## Return value
+The floating-point remainder of x/y.
+
 
 ## Availability and Requirements
 

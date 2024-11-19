@@ -10,7 +10,6 @@ Extract the fractional part of a floating-point number.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -34,8 +33,18 @@ Extract the fractional part of a floating-point number.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/frac#typeparam-T) {#decl-x}
+The input value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The input value.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The input value.
+
+
+## Return value
+The fractional part of <span class='code'><a href="/stdlib-reference/global-decls/frac#decl-x" class="code_param">x</a></span>.
+
 
 ## Availability and Requirements
 

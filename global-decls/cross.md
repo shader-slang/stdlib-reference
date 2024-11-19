@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Cross product
-
+Cross product. Returns the cross product of two 3D vectors.
 
 
 
@@ -34,7 +33,15 @@ Cross product
 ## Parameters
 
 #### left  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), 3\> {#decl-left}
+The first vector.
+
 #### right  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), 3\> {#decl-right}
+The second vector.
+
+
+## Return value
+The cross product of <span class='code'><a href="/stdlib-reference/global-decls/cross#decl-left" class="code_param">left</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/cross#decl-right" class="code_param">right</a></span>.
+
 
 ## Availability and Requirements
 

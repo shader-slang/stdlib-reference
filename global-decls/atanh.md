@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Hyperbolic inverse tangent
-
+Hyperbolic arc tangent. Returns the hyperbolic arc tangent of the specified value.
 
 
 
@@ -30,7 +29,15 @@ Hyperbolic inverse tangent
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/atanh#typeparam-T) {#decl-x}
+The value.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value.
+
+
+## Return value
+The hyperbolic arc tangent of the specified value.
+
 
 ## Availability and Requirements
 

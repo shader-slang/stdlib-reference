@@ -10,7 +10,6 @@ Round even.
 
 
 
-
 ## Signature 
 
 <pre>
@@ -30,7 +29,15 @@ Round even.
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/rint#typeparam-T) {#decl-x}
+The value to round.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The value to round.
+
+
+## Return value
+The value rounded to the nearest integer, with ties rounded to the nearest even integer.
+
 
 ## Availability and Requirements
 
