@@ -83,6 +83,8 @@ This category contains the following declarations:
 
 #### [fmin\<T\>](/stdlib-reference/global-decls/fmin)
 
+#### [fmin3\<T\>](/stdlib-reference/global-decls/fmin3)
+
 #### [fmod\<T\>](/stdlib-reference/global-decls/fmod)
 
 #### [frac\<T\>](/stdlib-reference/global-decls/frac)

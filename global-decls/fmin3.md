@@ -54,7 +54,7 @@ The third value to compare.
 
 
 ## Return value
-The smallest of the three values, element-wise if vector typed, considering NaN.  If all three values are NaN, NaN is returned. If any value is NaN, the smallest non-NaN value is returned./// @category math
+The smallest of the three values, element-wise if vector typed, considering NaN.  If all three values are NaN, NaN is returned. If any value is NaN, the smallest non-NaN value is returned.
 
 
 ## Availability and Requirements
