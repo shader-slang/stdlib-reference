@@ -43,7 +43,7 @@ AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
 Buffer<T, format:int>
-ConstantBuffer<T>
+ConstantBuffer<T, L>
 DefaultDataLayout
 DiffTensorView<T, A>
 DiffTensorView<T, A>.diff
