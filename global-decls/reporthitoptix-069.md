@@ -16,8 +16,8 @@ Reports a hit optimized for OptiX.
 <span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069">ReportHitOptix</a>&lt;<span class="code_keyword">each</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T" class="code_type">T</a>&gt;(
     <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-tHit" class="code_param">tHit</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-hitKind" class="code_param">hitKind</a>,
-    <a href="/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-attribs" class="code_param">attribs</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+    <a href="/stdlib-reference/global-decls/reporthitoptix-069">ReportHitOptix</a> <a href="/stdlib-reference/global-decls/reporthitoptix-069#decl-attribs" class="code_param">attribs</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/reporthitoptix-069">ReportHitOptix</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -33,7 +33,7 @@ Distance along the ray where the intersection occurred
 #### hitKind  : uint {#decl-hitKind}
 User-defined value identifying the type of hit
 
-#### attribs  : [T](/stdlib-reference/global-decls/reporthitoptix-069#typeparam-T) {#decl-attribs}
+#### attribs  : [ReportHitOptix](/stdlib-reference/global-decls/reporthitoptix-069) {#decl-attribs}
 Attribute values for the intersection
 
 

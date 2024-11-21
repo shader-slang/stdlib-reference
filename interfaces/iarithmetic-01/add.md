@@ -13,13 +13,13 @@ Adds two values of the conforming type.
 ## Signature 
 
 <pre>
-<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/iarithmetic-01/add">add</a>(<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/add#decl-other" class="code_param">other</a>);
+<a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/iarithmetic-01/add">add</a>(<a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/add#decl-other" class="code_param">other</a>);
 
 </pre>
 
 ## Parameters
 
-#### other  : This {#decl-other}
+#### other  : [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index)\.This {#decl-other}
 The value to add to <span class='code'>this</span>.
 
 

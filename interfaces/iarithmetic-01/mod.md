@@ -13,13 +13,13 @@ Computes the remainder of division of one value of the conforming type by anothe
 ## Signature 
 
 <pre>
-<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/iarithmetic-01/mod">mod</a>(<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/mod#decl-other" class="code_param">other</a>);
+<a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<a href="/stdlib-reference/interfaces/iarithmetic-01/mod">mod</a>(<a href="/stdlib-reference/interfaces/iarithmetic-01/index" class="code_type">IArithmetic</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/iarithmetic-01/mod#decl-other" class="code_param">other</a>);
 
 </pre>
 
 ## Parameters
 
-#### other  : This {#decl-other}
+#### other  : [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index)\.This {#decl-other}
 The divisor used to divide <span class='code'>this</span>.
 
 

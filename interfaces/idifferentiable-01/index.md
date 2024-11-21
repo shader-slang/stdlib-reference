@@ -22,7 +22,7 @@ since the auto-diff pass relies on the order to grab the struct keys.
 
 Constraints:
 
-  - This\.Differential : IDifferentiable
+  - IDifferentiable\.This\.Differential : IDifferentiable
 
 
 ## Methods

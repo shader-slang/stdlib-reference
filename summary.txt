@@ -188,14 +188,14 @@ TorchTensor<T>.zerosLike
 TriangleStream<T>
 TriangleStream<T>.Append
 TriangleStream<T>.RestartStrip
-Tuple<T>.Differential
-Tuple<T>.dadd
-Tuple<T>.dmul<U>
-Tuple<T>.dzero
-Tuple<T>.equals
+Tuple<>.Differential
+Tuple<>.dadd
+Tuple<>.dmul<U>
+Tuple<>.dzero
+Tuple<>.equals
 Tuple<each T>.init
-Tuple<T>.lessThan
-Tuple<T>.lessThanOrEquals
+Tuple<>.lessThan
+Tuple<>.lessThanOrEquals
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords

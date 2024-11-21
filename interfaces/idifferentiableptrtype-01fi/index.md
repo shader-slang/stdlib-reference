@@ -19,6 +19,6 @@ in the context of automatic differentiation.
 
 Constraints:
 
-  - This\.Differential : IDifferentiablePtrType
+  - IDifferentiablePtrType\.This\.Differential : IDifferentiablePtrType
 
 
