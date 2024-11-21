@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Slang Stdlib Reference
+Upstream-Contact:  The Khronos Group, Inc.
+Source: https://github.com/shader-slang/stdlib-reference
+
+Files: *
+Copyright: 2024 The Khronos Group, Inc.
+License: Apache-2.0 WITH LLVM-exception
+
+Files: _includes/anchor_headings.html
+Copyright: 2018 Vladimir "allejo" Jimenez
+License: MIT
+
+Files: CODE_OF_CONDUCT.md README.md
+Copyright: 2024 The Khronos Group, Inc.
+License: CC-BY-4.0
