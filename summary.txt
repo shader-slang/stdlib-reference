@@ -14,6 +14,7 @@ IDiffTensorWrapper.store_backward<T>
 IDiffTensorWrapper.store_forward<T>
 IDifferentiableFunc<TR, each TP>.operator()
 IDifferentiableMutatingFunc<TR, each TP>.operator()
+IDifferentiablePtrType
 IFunc<TR, each TP>.operator()
 IInteger.init
 ILogical.init
@@ -68,7 +69,6 @@ DifferentialPair<T>.getPrimal
 DifferentialPair<T>.init
 DifferentialPair<T>.p
 DifferentialPair<T>.v
-DifferentialPtrPair<T>
 DifferentialPtrPair<T>.Differential
 DifferentialPtrPair<T>.DifferentialElementType
 DifferentialPtrPair<T>.d

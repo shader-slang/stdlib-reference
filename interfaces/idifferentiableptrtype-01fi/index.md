@@ -4,11 +4,15 @@ layout: stdlib-reference
 
 # interface IDifferentiablePtrType
 
+> #### Experimental Feature
+> The feature described in this page is marked as experimental, and may be subject to change in future releases.
+> Users are advised that any code that depend on this feature may not be compilable by future versions of the compiler.
+
 ## Description
 
-Represents a type that supports differentiation operations for pointer types.
-This interface is used to define operations that are specific to pointer types
-in the context of automatic differentiation.
+
+Represents a type that supports differentiation operations for pointers, buffers and
+any other types
 
 
 # Associated types
@@ -20,5 +24,10 @@ in the context of automatic differentiation.
 Constraints:
 
   - IDifferentiablePtrType\.This\.Differential : IDifferentiablePtrType
+
+
+## Remarks
+
+Support for this interface is still experimental and subject to change.
 
 

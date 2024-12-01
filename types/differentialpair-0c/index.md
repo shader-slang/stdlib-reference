@@ -9,7 +9,8 @@ layout: stdlib-reference
 ## Description
 
 Pair type that serves to wrap the primal and
-differential types of an arbitrary type T.
+differential types of a differentiable value type
+T that conforms to <span class='code'><a href="/stdlib-reference/interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a></span>.
 
 
 ## Generic Parameters
