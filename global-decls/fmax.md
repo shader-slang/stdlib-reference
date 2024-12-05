@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Floating-point maximum considering NaN.
+Floating-point maximum.
 
 
 
@@ -46,11 +46,10 @@ The second value to compare.
 
 
 ## Return value
-The larger of the two values, element-wise if vector typed, considering NaN.
+The larger of the two values, element-wise if vector typed.
 
 ## Remarks
-For metal, if either value is NaN, the other value is returned. If both values are NaN, NaN is returned.
-For other targets, if <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> is NaN, <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> is returned, otherwise the larger of <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> is returned.
+Result is <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> if <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> < <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span>, either <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> or <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> if both <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-y" class="code_param">y</a></span> are zeros, otherwise <span class='code'><a href="/stdlib-reference/global-decls/fmax#decl-x" class="code_param">x</a></span>. Which operand is the result is undefined if one of the operands is a NaN.
 
 
 ## Availability and Requirements
