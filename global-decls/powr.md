@@ -48,9 +48,6 @@ The exponent value.
 ## Return value
 The value of <span class='code'><a href="/stdlib-reference/global-decls/powr#decl-x" class="code_param">x</a></span> raised to the power of <span class='code'><a href="/stdlib-reference/global-decls/powr#decl-y" class="code_param">y</a></span>.
 
-## Remarks
-Return value is undefined for non-positive values of <span class='code'><a href="/stdlib-reference/global-decls/powr#decl-x" class="code_param">x</a></span>.
-
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Floating-point median.
+Floating-point median considering NaN.
 
 
 
@@ -54,11 +54,10 @@ The third value to compare.
 
 
 ## Return value
-The median of the three values, element-wise if vector typed.
+The median of the three values, element-wise if vector typed, considering NaN. If no value is NaN, the median is returned. If any value is NaN, one of the non-NaN values is returned.
 
 ## Remarks
 For metal, this is implemented with the fmedian3 intrinsic.
-If any value is NaN, it is unspecified which operand is returned.
 
 
 ## Availability and Requirements

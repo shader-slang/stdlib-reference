@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Floating-point minimum.
+Floating-point minimum considering NaN.
 
 
 
@@ -46,10 +46,11 @@ The second value to compare.
 
 
 ## Return value
-The smaller of the two values, element-wise if vector typed.
+The smaller of the two values, element-wise if vector typed, considering NaN.
 
 ## Remarks
-Result is <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-x" class="code_param">x</a></span> if <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-x" class="code_param">x</a></span> < <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-y" class="code_param">y</a></span>, either <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-x" class="code_param">x</a></span> or <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-y" class="code_param">y</a></span> if both <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-y" class="code_param">y</a></span> are zeros, otherwise <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-y" class="code_param">y</a></span>. Which operand is the result is undefined if one of the operands is a NaN.
+For metal, if either value is NaN, the other value is returned. If both values are NaN, NaN is returned.
+For other targets, if <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-x" class="code_param">x</a></span> is NaN, <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-y" class="code_param">y</a></span> is returned, otherwise the smaller of <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/fmin#decl-y" class="code_param">y</a></span> is returned.
 
 
 ## Availability and Requirements

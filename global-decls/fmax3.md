@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Floating-point maximum of 3 inputs.
+Floating-point maximum of 3 inputs, considering NaN.
 
 
 
@@ -54,10 +54,7 @@ The third value to compare.
 
 
 ## Return value
-The largest of the three values, element-wise if vector typed.
-
-## Remarks
-If any operand in the 3-way comparison is NaN, it is undefined which operand is returned.
+The largest of the three values, element-wise if vector typed, considering NaN.  If all three values are NaN, NaN is returned. If any value is NaN, the largest is returned.
 
 
 ## Availability and Requirements
