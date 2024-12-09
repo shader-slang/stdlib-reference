@@ -71,19 +71,35 @@ This category contains the following declarations:
 
 #### [Sampler1DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler1darray-089)
 
+#### [Sampler1DArrayShadow\<format:int\>](/stdlib-reference/types/sampler1darrayshadow-089e)
+
+#### [Sampler1DShadow\<format:int\>](/stdlib-reference/types/sampler1dshadow-089)
+
 #### [Sampler2D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2d-08)
 
 #### [Sampler2DArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2darray-089)
+
+#### [Sampler2DArrayShadow\<format:int\>](/stdlib-reference/types/sampler2darrayshadow-089e)
 
 #### [Sampler2DMS\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2dms-089a)
 
 #### [Sampler2DMSArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler2dmsarray-089ab)
 
+#### [Sampler2DShadow\<format:int\>](/stdlib-reference/types/sampler2dshadow-089)
+
 #### [Sampler3D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/sampler3d-08)
+
+#### [Sampler3DArrayShadow\<format:int\>](/stdlib-reference/types/sampler3darrayshadow-089e)
+
+#### [Sampler3DShadow\<format:int\>](/stdlib-reference/types/sampler3dshadow-089)
 
 #### [SamplerCube\<T, sampleCount:int, format:int\>](/stdlib-reference/types/samplercube-07)
 
 #### [SamplerCubeArray\<T, sampleCount:int, format:int\>](/stdlib-reference/types/samplercubearray-07b)
+
+#### [SamplerCubeArrayShadow\<format:int\>](/stdlib-reference/types/samplercubearrayshadow-07bg)
+
+#### [SamplerCubeShadow\<format:int\>](/stdlib-reference/types/samplercubeshadow-07b)
 
 #### [Texture1D\<T, sampleCount:int, format:int\>](/stdlib-reference/types/texture1d-08)
 
