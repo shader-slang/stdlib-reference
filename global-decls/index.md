@@ -148,6 +148,8 @@ Slang's Standard Library defines the following global declarations:
 - [atan2](/stdlib-reference/global-decls/atan2)
 - [atanh](/stdlib-reference/global-decls/atanh)
 - [bit\_cast](/stdlib-reference/global-decls/bit_cast)
+- [bitfieldExtract](/stdlib-reference/global-decls/bitfieldextract-8)
+- [bitfieldInsert](/stdlib-reference/global-decls/bitfieldinsert-8)
 - [ceil](/stdlib-reference/global-decls/ceil)
 - [clamp](/stdlib-reference/global-decls/clamp)
 - [clip](/stdlib-reference/global-decls/clip)

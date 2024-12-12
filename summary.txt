@@ -1,4 +1,4 @@
-documented pages: 596
+documented pages: 598
 undocumented pages: 415(41.0%)
 
 IArray<T>.subscript
