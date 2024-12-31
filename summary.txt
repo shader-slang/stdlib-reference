@@ -1,5 +1,5 @@
 documented pages: 606
-undocumented pages: 415(40.6%)
+undocumented pages: 416(40.7%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -143,6 +143,7 @@ RayQuery<rayFlagsGeneric:uint>.CommittedPrimitiveIndex
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
 RayQuery<rayFlagsGeneric:uint>.RayFlags
+RaytracingAccelerationStructure.init
 SAMPLER_FEEDBACK_MIN_MIP
 SAMPLER_FEEDBACK_MIP_REGION_USED
 ScalarDataLayout
