@@ -214,5 +214,5 @@ Available in all stages.
 
 
 ## See Also
-<span class='code'><a href="/stdlib-reference/types/0texture-01/samplebias-06">SampleBias</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplelevel-06">SampleLevel</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplegrad-06">SampleGrad</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplecmp-06">SampleCmp</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplecmplevelzero-069e">SampleCmpLevelZero</a></span>.
+<span class='code'><a href="/stdlib-reference/types/0texture-01/samplebias-06">SampleBias</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplelevel-06">SampleLevel</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplegrad-06">SampleGrad</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplecmp-06">SampleCmp</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplecmplevelzero-069e">SampleCmpLevelZero</a></span>, <span class='code'><a href="/stdlib-reference/types/0texture-01/samplecmplevel-069">SampleCmpLevel</a></span>.
 

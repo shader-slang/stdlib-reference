@@ -55,6 +55,7 @@ The storage format of the texture. Users should specify the format using an <spa
 * [SampleBias](/stdlib-reference/types/0texture-01/samplebias-06)
 * [SampleCmp](/stdlib-reference/types/0texture-01/samplecmp-06)
 * [SampleCmpLevelZero](/stdlib-reference/types/0texture-01/samplecmplevelzero-069e)
+* [SampleCmpLevel](/stdlib-reference/types/0texture-01/samplecmplevel-069)
 * [SampleGrad](/stdlib-reference/types/0texture-01/samplegrad-06)
 * [SampleLevel](/stdlib-reference/types/0texture-01/samplelevel-06)
 * [GetSamplePosition](/stdlib-reference/types/0texture-01/getsampleposition-039)
