@@ -1,5 +1,5 @@
-documented pages: 609
-undocumented pages: 414(40.5%)
+documented pages: 611
+undocumented pages: 415(40.4%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -95,6 +95,7 @@ NativeString.getBuffer
 NativeString.getLength
 NativeString.init
 NativeString.length
+NodePayloadPtr<T>
 NullDifferential
 NullDifferential.Differential
 NullDifferential.dadd
