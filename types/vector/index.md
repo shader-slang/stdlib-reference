@@ -48,7 +48,7 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 * [dzero](/stdlib-reference/types/vector/dzero)
 * [dadd](/stdlib-reference/types/vector/dadd)
 * [dmul](/stdlib-reference/types/vector/dmul)
-* [init](/stdlib-reference/types/vector/init)
+* operator$init
 
 ## Conditional Conformances
 

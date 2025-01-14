@@ -23,6 +23,7 @@ Slang's Standard Library defines the following interfaces:
 - [IInteger](/stdlib-reference/interfaces/iinteger-01/index)
 - [ILogical](/stdlib-reference/interfaces/ilogical-01/index)
 - [IMutatingFunc](/stdlib-reference/interfaces/imutatingfunc-019/index)
+- [IOpaqueDescriptor](/stdlib-reference/interfaces/iopaquedescriptor-017/index)
 - [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)
 - [IRangedValue](/stdlib-reference/interfaces/irangedvalue-017/index)
 - [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index)

@@ -17,6 +17,8 @@ Slang's Standard Library defines the following types:
 - [ConstantBuffer](/stdlib-reference/types/constantbuffer-08/index)
 - [ConsumeStructuredBuffer](/stdlib-reference/types/consumestructuredbuffer-07h/index)
 - [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)
+- [DescriptorHandle](/stdlib-reference/types/descriptorhandle-0a/index)
+- [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)
 - [DiffTensorView](/stdlib-reference/types/difftensorview-04a/index)
 - [DifferentialPair](/stdlib-reference/types/differentialpair-0c/index)
 - [DifferentialPtrPair](/stdlib-reference/types/differentialptrpair-0cf/index)

@@ -4,6 +4,8 @@ layout: stdlib-reference
 
 # struct RWStructuredBuffer\<T, L\>
 
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+
 ## Description
 
 Represents an opaque handle to a mutable structured buffer allocated in global memory.
@@ -18,6 +20,10 @@ The element type of the buffer.
 The memory layout of the buffer.
 
 
+## Fields
+
+#### [kind](/stdlib-reference/types/rwstructuredbuffer-012c/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
+
 ## Methods
 
 * [DecrementCounter](/stdlib-reference/types/rwstructuredbuffer-012c/decrementcounter-09)
@@ -25,7 +31,14 @@ The memory layout of the buffer.
 * [IncrementCounter](/stdlib-reference/types/rwstructuredbuffer-012c/incrementcounter-09)
 * [Load](/stdlib-reference/types/rwstructuredbuffer-012c/load-0)
 * operator\[\]
+* [init](/stdlib-reference/types/rwstructuredbuffer-012c/init)
 
+## Conditional Conformances
+
+### Conformance to \_\_IDynamicResourceCastable\<0\>
+`RWStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
+
+  * [L](/stdlib-reference/types/rwstructuredbuffer-012c/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks
 
 

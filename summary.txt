@@ -1,5 +1,5 @@
-documented pages: 611
-undocumented pages: 415(40.4%)
+documented pages: 617
+undocumented pages: 462(42.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -23,6 +23,9 @@ IRWArray<T>.subscript
 __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions
+AppendStructuredBuffer<T, L>.Handle
+AppendStructuredBuffer<T, L>.init
+AppendStructuredBuffer<T, L>.kind
 Array<T, N:int>
 T[N].Differential
 T[N].dadd
@@ -44,8 +47,21 @@ AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
 Buffer<T, format:int>
+ByteAddressBuffer.Handle
+ByteAddressBuffer.init
+ByteAddressBuffer.kind
 ConstantBuffer<T, L>
+ConstantBuffer<T, L>.Handle
+ConstantBuffer<T, L>.init
+ConstantBuffer<T, L>.kind
+ConsumeStructuredBuffer<T, L>.Handle
+ConsumeStructuredBuffer<T, L>.init
+ConsumeStructuredBuffer<T, L>.kind
 DefaultDataLayout
+DescriptorHandle<T>.equals
+DescriptorHandle<T>.init
+DescriptorHandle<T>.lessThan
+DescriptorHandle<T>.lessThanOrEquals
 DiffTensorView<T, A>
 DiffTensorView<T, A>.diff
 DiffTensorView<T, A>.dims
@@ -121,9 +137,21 @@ PointStream<T>.RestartStrip
 Ptr<T, addrSpace:uint64_t>.init<U>
 Ptr<T, addrSpace:uint64_t>.subscript<TInt>
 RWBuffer<T, format:int>
+RWByteAddressBuffer.Handle
 RWByteAddressBuffer.InterlockedAddF64
+RWByteAddressBuffer.init
+RWByteAddressBuffer.kind
+RWStructuredBuffer<T, L>.Handle
+RWStructuredBuffer<T, L>.init
+RWStructuredBuffer<T, L>.kind
 RWStructuredBuffer<T, L>.subscript<TIndex>
 RasterizerOrderedBuffer<T, format:int>
+RasterizerOrderedByteAddressBuffer.Handle
+RasterizerOrderedByteAddressBuffer.init
+RasterizerOrderedByteAddressBuffer.kind
+RasterizerOrderedStructuredBuffer<T, L>.Handle
+RasterizerOrderedStructuredBuffer<T, L>.init
+RasterizerOrderedStructuredBuffer<T, L>.kind
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
 RayQuery<rayFlagsGeneric:uint>.CandidateGeometryIndex
 RayQuery<rayFlagsGeneric:uint>.CandidateInstanceContributionToHitGroupIndex
@@ -144,13 +172,24 @@ RayQuery<rayFlagsGeneric:uint>.CommittedPrimitiveIndex
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
 RayQuery<rayFlagsGeneric:uint>.RayFlags
+RaytracingAccelerationStructure.Handle
 RaytracingAccelerationStructure.init
+RaytracingAccelerationStructure.kind
 SAMPLER_FEEDBACK_MIN_MIP
 SAMPLER_FEEDBACK_MIP_REGION_USED
+SamplerComparisonState.Handle
+SamplerComparisonState.init
+SamplerComparisonState.kind
+SamplerState.Handle
+SamplerState.init
+SamplerState.kind
 ScalarDataLayout
 Std140DataLayout
 Std430DataLayout
 String.init
+StructuredBuffer<T, L>.Handle
+StructuredBuffer<T, L>.init
+StructuredBuffer<T, L>.kind
 StructuredBuffer<T, L>.subscript<TIndex>
 SubpassInput<T, isMS:int>
 SubpassInputMS<T, isMS:int>
@@ -172,6 +211,9 @@ TensorView<T>.store
 TensorView<T>.stride
 TensorView<T>.subscript
 TextureBuffer<T>
+TextureBuffer<T>.Handle
+TextureBuffer<T>.init
+TextureBuffer<T>.kind
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
 TextureFootprint<ND:int>.isSingleLevel
@@ -215,6 +257,7 @@ _Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.Ga
 _Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherRed
 _Texture<T, __Shape1D, 0, 0, sampleCount, access, isShadow, isCombined, format>.GetDimensions
 _Texture<T, Shape, isArray, 1, sampleCount, access, isShadow, isCombined, format>.GetSamplePosition
+_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.Handle
 _Texture<float, Shape, 0, 0, 0, 1, 0, 0, format>.InterlockedAddF32
 _Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.Load
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleBias
@@ -229,6 +272,8 @@ FeedbackTexture2D<T>.WriteSamplerFeedback<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackBias<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackGrad<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackLevel<S>
+_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.init
+_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.kind
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarse
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBias
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBiasClamp
@@ -409,6 +454,8 @@ max<T>
 min<T>
 mul<T>
 nextafter<T>
+nonuniform<T>
+operator*<T>
 select<T>
 sin<T>
 syncTorchCudaStream
