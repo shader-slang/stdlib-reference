@@ -21,7 +21,7 @@ This documentation is provided for reference purposes only.
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
+#### T: [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index) {#typeparam-T}
 The element type of the texture. Must be a scalar or vector type.
 
 #### Shape: [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index) {#typeparam-Shape}
@@ -105,6 +105,7 @@ The storage format of the texture. Users should specify the format using an <spa
 ### Conformance to \_\_IDynamicResourceCastable\<0\>
 `_Texture<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
 
+  * [T](/stdlib-reference/types/0texture-01/index#typeparam-T) : [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
   * [Shape](/stdlib-reference/types/0texture-01/index#typeparam-Shape) : [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index)
 ## Remarks
 

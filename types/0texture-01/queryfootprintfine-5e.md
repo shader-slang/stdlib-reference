@@ -23,6 +23,7 @@ t.Sample(sampler, coords);
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/0texture-01/queryfootprintfine-5e#decl-granularity" class="code_param">granularity</a>,
     <a href="/stdlib-reference/types/samplerstate-07/index" class="code_type">SamplerState</a> <a href="/stdlib-reference/types/0texture-01/queryfootprintfine-5e#decl-sampler" class="code_param">sampler</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a>.dimensions&gt; <a href="/stdlib-reference/types/0texture-01/queryfootprintfine-5e#decl-coords" class="code_param">coords</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a> : <a href="/stdlib-reference/interfaces/0_itextureshape-023a/index" class="code_type">__ITextureShape</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0

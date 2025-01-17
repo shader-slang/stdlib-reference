@@ -19,7 +19,8 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-location" class="code_param">location</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-bias" class="code_param">bias</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-clamp" class="code_param">clamp</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : __BuiltinSamplerFeedbackType
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#typeparam-S" class="code_type">S</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/0_shape2d-028/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0
@@ -34,7 +35,8 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/samplerstate-07/index" class="code_type">SamplerState</a> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-samp" class="code_param">samp</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-location" class="code_param">location</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-bias" class="code_param">bias</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : __BuiltinSamplerFeedbackType
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#typeparam-S" class="code_type">S</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/0_shape2d-028/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a> == 0
@@ -50,6 +52,7 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-location" class="code_param">location</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-bias" class="code_param">bias</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-clamp" class="code_param">clamp</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#typeparam-S" class="code_type">S</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : __BuiltinSamplerFeedbackType
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/0_shape2d-028/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 1
@@ -65,6 +68,7 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/samplerstate-07/index" class="code_type">SamplerState</a> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-samp" class="code_param">samp</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-location" class="code_param">location</a>,
     <span class="code_keyword">float</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#decl-bias" class="code_param">bias</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck#typeparam-S" class="code_type">S</a> : <a href="/stdlib-reference/interfaces/itexelelement-016/index" class="code_type">ITexelElement</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> : __BuiltinSamplerFeedbackType
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a> == <a href="/stdlib-reference/types/0_shape2d-028/index" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a> == 1
@@ -79,7 +83,7 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### S {#typeparam-S}
+#### S: [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index) {#typeparam-S}
 
 ## Parameters
 

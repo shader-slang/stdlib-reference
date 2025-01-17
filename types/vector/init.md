@@ -1550,6 +1550,42 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(int8_t4_packed <a href="/stdlib-reference/types/vector/init#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == uint8_t4_packed;
 
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">half</span> <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">half</span>;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">float</span> <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">int</span>;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(int8_t <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == int8_t;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(int16_t <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == int16_t;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(uint8_t <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == uint8_t;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(uint16_t <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == uint16_t;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(<span class="code_keyword">double</span> <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">double</span>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 2;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(uint64_t <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == uint64_t
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 2;
+
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>(int64_t <a href="/stdlib-reference/types/vector/init#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == int64_t
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a> == 2;
+
 <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/vector/index#decl-N" class="code_var">N</a>&gt;.<a href="/stdlib-reference/types/vector/init">init</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/types/descriptorhandle-0a/index" class="code_type">DescriptorHandle</a>&lt;<a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/types/vector/init#decl-bindless" class="code_param">bindless</a>)
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/iopaquedescriptor-017/index" class="code_type">IOpaqueDescriptor</a>
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/vector/init#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>
@@ -1614,6 +1650,17 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 #### value  : uint8\_t4\_packed {#decl-value}
 #### value  : [vector](/stdlib-reference/types/vector/index)\<bool, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
 #### value  : bool {#decl-value}
+#### x  : half {#decl-x}
+#### x  : float {#decl-x}
+#### x  : int {#decl-x}
+#### x  : uint {#decl-x}
+#### x  : int8\_t {#decl-x}
+#### x  : int16\_t {#decl-x}
+#### x  : uint8\_t {#decl-x}
+#### x  : uint16\_t {#decl-x}
+#### x  : double {#decl-x}
+#### x  : uint64\_t {#decl-x}
+#### x  : int64\_t {#decl-x}
 #### bindless  : [DescriptorHandle](/stdlib-reference/types/descriptorhandle-0a/index)\<[T](/stdlib-reference/types/descriptorhandle-0a/index#typeparam-T)\> {#decl-bindless}
 
 ## Availability and Requirements
