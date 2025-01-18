@@ -1,5 +1,5 @@
-documented pages: 618
-undocumented pages: 471(43.3%)
+documented pages: 623
+undocumented pages: 471(43.1%)
 
 IArray<T>.subscript
 IDefaultInitializable.init

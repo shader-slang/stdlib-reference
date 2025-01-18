@@ -66,6 +66,8 @@ Slang's Standard Library defines the following global declarations:
 - [ProcessTriTessFactorsAvg](/stdlib-reference/global-decls/processtritessfactorsavg-07ael)
 - [ProcessTriTessFactorsMax](/stdlib-reference/global-decls/processtritessfactorsmax-07ael)
 - [ProcessTriTessFactorsMin](/stdlib-reference/global-decls/processtritessfactorsmin-07ael)
+- [QuadAll](/stdlib-reference/global-decls/quadall-04)
+- [QuadAny](/stdlib-reference/global-decls/quadany-04)
 - [QuadReadAcrossDiagonal](/stdlib-reference/global-decls/quadreadacrossdiagonal-048e)
 - [QuadReadAcrossX](/stdlib-reference/global-decls/quadreadacrossx-048e)
 - [QuadReadAcrossY](/stdlib-reference/global-decls/quadreadacrossy-048e)
