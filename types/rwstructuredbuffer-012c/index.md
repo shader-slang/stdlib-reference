@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RWStructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 ## Description
 
@@ -35,8 +35,8 @@ The memory layout of the buffer.
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`RWStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`RWStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
   * [L](/stdlib-reference/types/rwstructuredbuffer-012c/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks

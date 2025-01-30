@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct TextureBuffer\<T\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 ## Description
 
@@ -24,5 +24,5 @@ layout: stdlib-reference
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`TextureBuffer<T>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>`.
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`TextureBuffer<T>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.

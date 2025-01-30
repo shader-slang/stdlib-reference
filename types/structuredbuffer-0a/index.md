@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct StructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 ## Description
 
@@ -33,8 +33,8 @@ The memory layout of the buffer.
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`StructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`StructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
   * [L](/stdlib-reference/types/structuredbuffer-0a/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks

@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RasterizerOrderedByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 ## Description
 
@@ -49,8 +49,8 @@ four 32-bit typeless address values.
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`RasterizerOrderedByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<0\>`.
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`RasterizerOrderedByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
 ## Remarks
 
 
