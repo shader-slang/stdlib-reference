@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RWByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](/stdlib-reference/interfaces/iphysicalbuffer-019/index), [IRWPhysicalBuffer](/stdlib-reference/interfaces/irwphysicalbuffer-0123b/index)
 
 ## Description
 
@@ -72,11 +72,18 @@ four 32-bit typeless address values.
 * [Store](/stdlib-reference/types/rwbyteaddressbuffer-0126d/store-0)
 * [StoreAligned](/stdlib-reference/types/rwbyteaddressbuffer-0126d/storealigned-05)
 * [init](/stdlib-reference/types/rwbyteaddressbuffer-0126d/init)
+* [GetBufferPointer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/getbufferpointer-039)
+* [LoadByteOffset](/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadbyteoffset-048)
+* [StoreByteOffset](/stdlib-reference/types/rwbyteaddressbuffer-0126d/storebyteoffset-059)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `RWByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+### Conformance to IPhysicalBuffer
+`RWByteAddressBuffer` additionally conforms to `IPhysicalBuffer`.
+### Conformance to IRWPhysicalBuffer
+`RWByteAddressBuffer` additionally conforms to `IRWPhysicalBuffer`.
 ## Remarks
 
 

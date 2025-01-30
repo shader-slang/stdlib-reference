@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RasterizerOrderedStructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
 ## Description
 
@@ -32,11 +32,16 @@ The memory layout of the buffer.
 * [Load](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/load-0)
 * operator\[\]
 * [init](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/init)
+* [getCount](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/getcount-3)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `RasterizerOrderedStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
+
+  * [L](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
+### Conformance to IRWArray\<T\>
+`RasterizerOrderedStructuredBuffer<T, L>` additionally conforms to `IRWArray\<T\>` when the following conditions are met:
 
   * [L](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks

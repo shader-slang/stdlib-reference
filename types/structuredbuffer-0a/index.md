@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct StructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IArray](/stdlib-reference/interfaces/iarray-01/index)\<[T](/stdlib-reference/interfaces/iarray-01/index#typeparam-T)\>
 
 ## Description
 
@@ -30,11 +30,16 @@ The memory layout of the buffer.
 * [Load](/stdlib-reference/types/structuredbuffer-0a/load-0)
 * operator\[\]
 * [init](/stdlib-reference/types/structuredbuffer-0a/init)
+* [getCount](/stdlib-reference/types/structuredbuffer-0a/getcount-3)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `StructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
+
+  * [L](/stdlib-reference/types/structuredbuffer-0a/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
+### Conformance to IArray\<T\>
+`StructuredBuffer<T, L>` additionally conforms to `IArray\<T\>` when the following conditions are met:
 
   * [L](/stdlib-reference/types/structuredbuffer-0a/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks
