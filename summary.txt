@@ -1,5 +1,5 @@
-documented pages: 623
-undocumented pages: 520(45.5%)
+documented pages: 622
+undocumented pages: 521(45.6%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -120,6 +120,7 @@ DifferentialPair<T>.getPrimal
 DifferentialPair<T>.init
 DifferentialPair<T>.p
 DifferentialPair<T>.v
+DifferentialPtrPair<T>
 DifferentialPtrPair<T>.Differential
 DifferentialPtrPair<T>.DifferentialElementType
 DifferentialPtrPair<T>.d
@@ -409,12 +410,12 @@ vector<T,N>.toInt
 vector<T,N>.toInt64
 vector<T,N>.toUInt
 vector<T,N>.toUInt64
-BackwardDerivative
 BackwardDerivativeOf
+BackwardDifferentiable
 DerivativeMember
 Differentiable
-ForwardDerivative
 ForwardDerivativeOf
+ForwardDifferentiable
 KnownBuiltin
 MaxIters
 NoDiffThis
