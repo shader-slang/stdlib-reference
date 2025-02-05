@@ -12,6 +12,7 @@ layout: stdlib-reference
 
 ## Methods
 
+* init
 * [dzero](/stdlib-reference/types/nulldifferential-04/dzero)
 * [dadd](/stdlib-reference/types/nulldifferential-04/dadd)
 * [dmul](/stdlib-reference/types/nulldifferential-04/dmul)
