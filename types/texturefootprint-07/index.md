@@ -22,7 +22,3 @@ layout: stdlib-reference
 
 #### [isSingleLevel](/stdlib-reference/types/texturefootprint-07/issinglelevel-28) {#decl-isSingleLevel}
 
-## Methods
-
-* init
-

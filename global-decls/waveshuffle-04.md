@@ -61,9 +61,6 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
-#### wgsl
-Available in all stages.
-
 #### spirv
 Available in all stages.
 

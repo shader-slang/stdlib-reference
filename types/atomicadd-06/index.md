@@ -12,7 +12,6 @@ layout: stdlib-reference
 
 ## Methods
 
-* init
 * [load\_forward](/stdlib-reference/types/atomicadd-06/load_forward)
 * [load\_backward](/stdlib-reference/types/atomicadd-06/load_backward)
 * [store\_forward](/stdlib-reference/types/atomicadd-06/store_forward)

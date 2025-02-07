@@ -1,5 +1,5 @@
-documented pages: 622
-undocumented pages: 521(45.6%)
+documented pages: 596
+undocumented pages: 415(41.0%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -19,20 +19,10 @@ IFunc<TR, each TP>.operator()
 IInteger.init
 ILogical.init
 IMutatingFunc<TR, each TP>.operator()
-IPhysicalBuffer
-IPhysicalBuffer.GetBufferPointer
-IPhysicalBuffer.LoadByteOffset<T>
 IRWArray<T>.subscript
-IRWPhysicalBuffer
-IRWPhysicalBuffer.StoreByteOffset<T>
-ITexelElement.elementCount
-ITexelElement.init
 __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions
-AppendStructuredBuffer<T, L>.Handle
-AppendStructuredBuffer<T, L>.init
-AppendStructuredBuffer<T, L>.kind
 Array<T, N:int>
 T[N].Differential
 T[N].dadd
@@ -54,49 +44,8 @@ AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
 Buffer<T, format:int>
-ByteAddressBuffer.GetBufferPointer
-ByteAddressBuffer.Handle
-ByteAddressBuffer.LoadByteOffset<T>
-ByteAddressBuffer.init
-ByteAddressBuffer.kind
 ConstantBuffer<T, L>
-ConstantBuffer<T, L>.Handle
-ConstantBuffer<T, L>.init
-ConstantBuffer<T, L>.kind
-ConsumeStructuredBuffer<T, L>.Handle
-ConsumeStructuredBuffer<T, L>.init
-ConsumeStructuredBuffer<T, L>.kind
-CoopVec<T, N:int>
-CoopVec<T, N:int>.add
-CoopVec<T, N:int>.copyFrom<U>
-CoopVec<T, N:int>.div
-CoopVec<T, N:int>.equals
-CoopVec<T, N:int>.fill
-CoopVec<T, N:int>.getCount
-CoopVec<T, N:int>.init
-CoopVec<T, N:int>.lessThan
-CoopVec<T, N:int>.lessThanOrEquals
-CoopVec<T, N:int>.load
-CoopVec<T, N:int>.loadAny<U, M:int>
-CoopVec<T, N:int>.matMulAccum<U, K:int>
-CoopVec<T, N:int>.matMulAccumPacked<U, PackedK:int>
-CoopVec<T, N:int>.matMulAddAccum<U, K:int>
-CoopVec<T, N:int>.matMulAddAccumPacked<U, PackedK:int>
-CoopVec<T, N:int>.mod
-CoopVec<T, N:int>.mul
-CoopVec<T, N:int>.neg
-CoopVec<T, N:int>.replicate
-CoopVec<T, N:int>.store
-CoopVec<T, N:int>.storeAny<U, M:int>
-CoopVec<T, N:int>.sub
-CoopVec<T, N:int>.subscript
-CoopVecComponentType
-CoopVecMatrixLayout
 DefaultDataLayout
-DescriptorHandle<T>.equals
-DescriptorHandle<T>.init
-DescriptorHandle<T>.lessThan
-DescriptorHandle<T>.lessThanOrEquals
 DiffTensorView<T, A>
 DiffTensorView<T, A>.diff
 DiffTensorView<T, A>.dims
@@ -120,7 +69,6 @@ DifferentialPair<T>.getPrimal
 DifferentialPair<T>.init
 DifferentialPair<T>.p
 DifferentialPair<T>.v
-DifferentialPtrPair<T>
 DifferentialPtrPair<T>.Differential
 DifferentialPtrPair<T>.DifferentialElementType
 DifferentialPtrPair<T>.d
@@ -147,7 +95,6 @@ NativeString.getBuffer
 NativeString.getLength
 NativeString.init
 NativeString.length
-NodePayloadPtr<T>
 NullDifferential
 NullDifferential.Differential
 NullDifferential.dadd
@@ -173,26 +120,9 @@ PointStream<T>.RestartStrip
 Ptr<T, addrSpace:uint64_t>.init<U>
 Ptr<T, addrSpace:uint64_t>.subscript<TInt>
 RWBuffer<T, format:int>
-RWByteAddressBuffer.GetBufferPointer
-RWByteAddressBuffer.Handle
 RWByteAddressBuffer.InterlockedAddF64
-RWByteAddressBuffer.LoadByteOffset<T>
-RWByteAddressBuffer.StoreByteOffset<T>
-RWByteAddressBuffer.init
-RWByteAddressBuffer.kind
-RWStructuredBuffer<T, L>.Handle
-RWStructuredBuffer<T, L>.getCount
-RWStructuredBuffer<T, L>.init
-RWStructuredBuffer<T, L>.kind
 RWStructuredBuffer<T, L>.subscript<TIndex>
 RasterizerOrderedBuffer<T, format:int>
-RasterizerOrderedByteAddressBuffer.Handle
-RasterizerOrderedByteAddressBuffer.init
-RasterizerOrderedByteAddressBuffer.kind
-RasterizerOrderedStructuredBuffer<T, L>.Handle
-RasterizerOrderedStructuredBuffer<T, L>.getCount
-RasterizerOrderedStructuredBuffer<T, L>.init
-RasterizerOrderedStructuredBuffer<T, L>.kind
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
 RayQuery<rayFlagsGeneric:uint>.CandidateGeometryIndex
 RayQuery<rayFlagsGeneric:uint>.CandidateInstanceContributionToHitGroupIndex
@@ -213,31 +143,12 @@ RayQuery<rayFlagsGeneric:uint>.CommittedPrimitiveIndex
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
 RayQuery<rayFlagsGeneric:uint>.RayFlags
-RaytracingAccelerationStructure.Handle
-RaytracingAccelerationStructure.init
-RaytracingAccelerationStructure.kind
 SAMPLER_FEEDBACK_MIN_MIP
-SAMPLER_FEEDBACK_MIN_MIP.Element
-SAMPLER_FEEDBACK_MIN_MIP.elementCount
-SAMPLER_FEEDBACK_MIN_MIP.init
 SAMPLER_FEEDBACK_MIP_REGION_USED
-SAMPLER_FEEDBACK_MIP_REGION_USED.Element
-SAMPLER_FEEDBACK_MIP_REGION_USED.elementCount
-SAMPLER_FEEDBACK_MIP_REGION_USED.init
-SamplerComparisonState.Handle
-SamplerComparisonState.init
-SamplerComparisonState.kind
-SamplerState.Handle
-SamplerState.init
-SamplerState.kind
 ScalarDataLayout
 Std140DataLayout
 Std430DataLayout
 String.init
-StructuredBuffer<T, L>.Handle
-StructuredBuffer<T, L>.getCount
-StructuredBuffer<T, L>.init
-StructuredBuffer<T, L>.kind
 StructuredBuffer<T, L>.subscript<TIndex>
 SubpassInput<T, isMS:int>
 SubpassInputMS<T, isMS:int>
@@ -259,9 +170,6 @@ TensorView<T>.store
 TensorView<T>.stride
 TensorView<T>.subscript
 TextureBuffer<T>
-TextureBuffer<T>.Handle
-TextureBuffer<T>.init
-TextureBuffer<T>.kind
 TextureFootprint<ND:int>
 TextureFootprint<ND:int>._isSingleLevel
 TextureFootprint<ND:int>.isSingleLevel
@@ -280,37 +188,35 @@ TorchTensor<T>.zerosLike
 TriangleStream<T>
 TriangleStream<T>.Append
 TriangleStream<T>.RestartStrip
-Tuple<T>.Differential
-Tuple<T>.dadd
-Tuple<T>.dmul<U>
-Tuple<T>.dzero
-Tuple<T>.equals
+Tuple<>.Differential
+Tuple<>.dadd
+Tuple<>.dmul<U>
+Tuple<>.dzero
+Tuple<>.equals
 Tuple<each T>.init
-Tuple<T>.lessThan
-Tuple<T>.lessThanOrEquals
+Tuple<>.lessThan
+Tuple<>.lessThanOrEquals
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Footprint
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.FootprintGranularity
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.Gather
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherAlpha
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherBlue
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmp
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpAlpha
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpBlue
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpGreen
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpRed
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherGreen
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherRed
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.Gather
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherAlpha
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherBlue
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmp
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpAlpha
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpBlue
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpGreen
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpRed
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherGreen
+_Texture<vector<T,N>, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherRed
 _Texture<T, __Shape1D, 0, 0, sampleCount, access, isShadow, isCombined, format>.GetDimensions
 _Texture<T, Shape, isArray, 1, sampleCount, access, isShadow, isCombined, format>.GetSamplePosition
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.Handle
 _Texture<float, Shape, 0, 0, 0, 1, 0, 0, format>.InterlockedAddF32
 _Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.Load
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleBias
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmp
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevel
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevelZero
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleGrad
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleLevel
@@ -320,8 +226,6 @@ FeedbackTexture2D<T>.WriteSamplerFeedback<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackBias<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackGrad<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackLevel<S>
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.init
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.kind
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarse
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBias
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBiasClamp
@@ -391,7 +295,6 @@ vector<T,N>.dadd
 vector<T,N>.div
 vector<T,N>.dmul<U>
 vector<T,N>.dzero
-vector<half,N>.elementCount
 vector<T,N>.equals
 vector<T, N:int>.getCount
 vector<T,N>.lessThan
@@ -410,12 +313,12 @@ vector<T,N>.toInt
 vector<T,N>.toInt64
 vector<T,N>.toUInt
 vector<T,N>.toUInt64
+BackwardDerivative
 BackwardDerivativeOf
-BackwardDifferentiable
 DerivativeMember
 Differentiable
+ForwardDerivative
 ForwardDerivativeOf
-ForwardDifferentiable
 KnownBuiltin
 MaxIters
 NoDiffThis
@@ -429,6 +332,9 @@ payload
 spv_target_env_1_3
 CheckAccessFullyMapped
 D3DCOLORtoUBYTE4
+EvaluateAttributeAtCentroid<T>
+EvaluateAttributeAtSample<T>
+EvaluateAttributeSnapped<T>
 GetRenderTargetSampleCount
 GetRenderTargetSamplePosition
 HitTriangleVertexPosition
@@ -484,17 +390,7 @@ abort
 all<T>
 any<T>
 clip<T>
-clock2x32ARB
-clockARB
 concat<each T, each U>
-coopVecLoad<N:int, T>
-coopVecLoadGroupshared<N:int, T, M:int>
-coopVecMatMul<T, M:int, K:int, U>
-coopVecMatMulAdd<T, M:int, K:int, U>
-coopVecMatMulAddPacked<T, M:int, PackedK:int, U>
-coopVecMatMulPacked<T, M:int, PackedK:int, U>
-coopVecOuterProductAccumulate<T, M:int, N:int>
-coopVecReduceSumAccumulate<T, N:int>
 createDynamicObject<T, U>
 cudaBlockDim
 cudaBlockIdx
@@ -513,8 +409,6 @@ max<T>
 min<T>
 mul<T>
 nextafter<T>
-nonuniform<T>
-operator*<T>
 select<T>
 sin<T>
 syncTorchCudaStream

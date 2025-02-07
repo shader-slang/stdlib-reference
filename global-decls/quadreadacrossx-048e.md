@@ -46,9 +46,6 @@ Available in all stages.
 #### glsl
 Available in all stages.
 
-#### wgsl
-Available in all stages.
-
 #### spirv
 Available in all stages.
 

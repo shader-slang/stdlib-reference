@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), C \>\>
 
-*Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/ifloat-01/index), [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+*Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/ifloat-01/index)
 
 ## Description
 
@@ -45,7 +45,3 @@ A matrix with <span class='code'><a href="/stdlib-reference/types/matrix/index#d
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IFloat` when the following conditions are met:
 
   * [T](/stdlib-reference/types/matrix/t-0) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)
-### Conformance to IDifferentiable
-`matrix<T, R:int, C:int, L:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/matrix/t-0) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)

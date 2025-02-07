@@ -23,16 +23,6 @@ layout: stdlib-reference
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/select#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/select#decl-ifTrue" class="code_param">ifTrue</a>,
     <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/select#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/select#decl-ifFalse" class="code_param">ifFalse</a>);
 
-<a href="/stdlib-reference/types/optional-0/index" class="code_type">Optional</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/select">select</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/select#decl-condition" class="code_param">condition</a>,
-    __none_t <a href="/stdlib-reference/global-decls/select#decl-ifTrue" class="code_param">ifTrue</a>,
-    <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/select#decl-ifFalse" class="code_param">ifFalse</a>);
-
-<a href="/stdlib-reference/types/optional-0/index" class="code_type">Optional</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/select">select</a>&lt;<a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/select#decl-condition" class="code_param">condition</a>,
-    <a href="/stdlib-reference/global-decls/select#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/select#decl-ifTrue" class="code_param">ifTrue</a>,
-    __none_t <a href="/stdlib-reference/global-decls/select#decl-ifFalse" class="code_param">ifFalse</a>);
-
 </pre>
 
 ## Generic Parameters
@@ -48,6 +38,4 @@ layout: stdlib-reference
 #### condition  : [vector](/stdlib-reference/types/vector/index)\<bool, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-condition}
 #### ifTrue  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-ifTrue}
 #### ifFalse  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-ifFalse}
-#### ifTrue  : \_\_none\_t {#decl-ifTrue}
-#### ifFalse  : \_\_none\_t {#decl-ifFalse}
 

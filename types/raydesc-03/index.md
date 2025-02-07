@@ -24,7 +24,3 @@ Maximum distance along the ray to consider intersections.
 Minimum distance along the ray to consider intersections.
 
 
-## Methods
-
-* init
-

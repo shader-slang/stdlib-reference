@@ -15,7 +15,7 @@ Print a message to the debug output.
 <pre>
 <span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/printf">printf</a>&lt;<span class="code_keyword">each</span> <a href="/stdlib-reference/global-decls/printf#typeparam-T" class="code_type">T</a>&gt;(
     <a href="/stdlib-reference/types/nativestring-06/index" class="code_type">NativeString</a> <a href="/stdlib-reference/global-decls/printf#decl-format" class="code_param">format</a>,
-    <a href="/stdlib-reference/global-decls/printf#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/printf#decl-args" class="code_param">args</a>);
+    <a href="/stdlib-reference/global-decls/printf">printf</a> <a href="/stdlib-reference/global-decls/printf#decl-args" class="code_param">args</a>);
 
 </pre>
 
@@ -30,7 +30,7 @@ The variadic type pack parameter for the arguments to be printed.
 #### format  : [NativeString](/stdlib-reference/types/nativestring-06/index) {#decl-format}
 The format string.
 
-#### args  : [T](/stdlib-reference/global-decls/printf#typeparam-T) {#decl-args}
+#### args  : [printf](/stdlib-reference/global-decls/printf) {#decl-args}
 (optional) The arguments to be printed.
 
 

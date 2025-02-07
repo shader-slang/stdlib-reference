@@ -6,11 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Marks a function as being differentiable for backward-mode auto-diff.
-Note that in the current implementation, this implies that the method
-is also forward differentiable.
-
-This attribute is equivalent to using <span class='code'>[<a href="/stdlib-reference/attributes/differentiable-0">Differentiable</a>]</span>
+Marks a function for backward-mode differentiation.
 
 
 ## Signature

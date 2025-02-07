@@ -17,7 +17,7 @@ Represents a handle to a read-write 1D combined texture-sampler.
 
 ## Generic Parameters
 
-#### T: [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index) = [vector](/stdlib-reference/types/vector/index)\<float, 4\> {#typeparam-T}
+#### T  = [vector](/stdlib-reference/types/vector/index)\<float, 4\> {#typeparam-T}
 The texel type of the texture.
 
 #### sampleCount  : int = 0 {#decl-sampleCount}

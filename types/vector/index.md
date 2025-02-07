@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
-*Conditionally conforms to:* [IInteger](/stdlib-reference/interfaces/iinteger-01/index), [IFloat](/stdlib-reference/interfaces/ifloat-01/index), [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index), [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
+*Conditionally conforms to:* [IInteger](/stdlib-reference/interfaces/iinteger-01/index), [IFloat](/stdlib-reference/interfaces/ifloat-01/index)
 
 ## Description
 
@@ -17,10 +17,6 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 
 #### T  = float {#typeparam-T}
 #### N  : int = 4 {#decl-N}
-
-## Fields
-
-#### [elementCount](/stdlib-reference/types/vector/elementcount-7) : int = 2 {#decl-elementCount}
 
 ## Methods
 
@@ -52,7 +48,7 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 * [dzero](/stdlib-reference/types/vector/dzero)
 * [dadd](/stdlib-reference/types/vector/dadd)
 * [dmul](/stdlib-reference/types/vector/dmul)
-* operator$init
+* [init](/stdlib-reference/types/vector/init)
 
 ## Conditional Conformances
 
@@ -64,54 +60,3 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 `vector<T, N:int>` additionally conforms to `IFloat` when the following conditions are met:
 
   * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)
-### Conformance to IDifferentiable
-`vector<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == half
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == float
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == int
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == uint
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == int8\_t
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == int16\_t
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == uint8\_t
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == uint16\_t
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == double
-  * [N](/stdlib-reference/types/vector/index#decl-N) == 2
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == uint64\_t
-  * [N](/stdlib-reference/types/vector/index#decl-N) == 2
-### Conformance to ITexelElement
-`vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
-
-  * [T](/stdlib-reference/types/vector/index#typeparam-T) == int64\_t
-  * [N](/stdlib-reference/types/vector/index#decl-N) == 2

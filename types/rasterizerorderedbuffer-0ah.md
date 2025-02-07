@@ -17,6 +17,6 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index) {#typeparam-T}
+#### T {#typeparam-T}
 #### format  : int = 0 {#decl-format}
 

@@ -4,8 +4,6 @@ layout: stdlib-reference
 
 # struct RasterizerOrderedStructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
-
 ## Description
 
 Represents an opaque handle to a mutable structured buffer allocated in global memory.
@@ -20,10 +18,6 @@ The element type of the buffer.
 The memory layout of the buffer.
 
 
-## Fields
-
-#### [kind](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
-
 ## Methods
 
 * [DecrementCounter](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/decrementcounter-09)
@@ -31,19 +25,7 @@ The memory layout of the buffer.
 * [IncrementCounter](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/incrementcounter-09)
 * [Load](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/load-0)
 * operator\[\]
-* [init](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/init)
-* [getCount](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/getcount-3)
 
-## Conditional Conformances
-
-### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`RasterizerOrderedStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
-
-  * [L](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
-### Conformance to IRWArray\<T\>
-`RasterizerOrderedStructuredBuffer<T, L>` additionally conforms to `IRWArray\<T\>` when the following conditions are met:
-
-  * [L](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks
 
 

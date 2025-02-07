@@ -8,26 +8,9 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'><a href="/stdlib-reference/types/differentialpair-0c/index" class="code_type">DifferentialPair</a>&lt;<a href="/stdlib-reference/types/differentialpair-0c/index#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and derivative value of a term.
-It is defined as follows:
-```csharp
-struct DifferentialPair<T : IDifferentiable> : IDifferentiable
-{
-    typealias Differential = DifferentialPair<T.Differential>;
-    property T p {get;}
-    property T.Differential d {get;}
-    static Differential dzero();
-    static Differential dadd(Differential a, Differential b);
-}
-```
-
-Differential pairs can be created via constructor or through the <span class='code'><a href="/stdlib-reference/global-decls/diffpair-4">diffPair</a>()</span> operation
-```csharp
-DifferentialPair<float> dpa = DifferentialPair<float>(1.0f, 2.0f);
-DifferentialPair<float> dpa = diffPair(1.0f, 2.0f);
-```
-Note that derivative pairs are used to pass derivatives into and out of auto-diff functions.
-See documentation on <span class='code'>fwd_diff</span> and <span class='code'>bwd_diff</span> operators for more information.
+Pair type that serves to wrap the primal and
+differential types of a differentiable value type
+T that conforms to <span class='code'><a href="/stdlib-reference/interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a></span>.
 
 
 ## Generic Parameters

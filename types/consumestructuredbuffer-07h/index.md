@@ -4,8 +4,6 @@ layout: stdlib-reference
 
 # struct ConsumeStructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-
 ## Description
 
 Represents an opaque handle to a consume structured buffer allocated in global memory.
@@ -22,22 +20,11 @@ The element type of the buffer.
 The memory layout of the buffer.
 
 
-## Fields
-
-#### [kind](/stdlib-reference/types/consumestructuredbuffer-07h/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
-
 ## Methods
 
 * [Consume](/stdlib-reference/types/consumestructuredbuffer-07h/consume-0)
 * [GetDimensions](/stdlib-reference/types/consumestructuredbuffer-07h/getdimensions-03)
-* [init](/stdlib-reference/types/consumestructuredbuffer-07h/init)
 
-## Conditional Conformances
-
-### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`ConsumeStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
-
-  * [L](/stdlib-reference/types/consumestructuredbuffer-07h/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks
 
 

@@ -6,18 +6,9 @@ layout: stdlib-reference
 
 ## Description
 
-Marks a function as being differentiable in forward-mode.
-
-See the user guide [section on forward-mode differentiation](https://shader-slang.org/slang/user-guide/autodiff.html#invoking-auto-diff-in-slang) for more
-
-If used on a function that has a definition (i.e. a function body),Slang will use
-automatic-differentiation to generate a forward-mode derivative of this function,
-unless an implementation is provided by the user via <span class='code'>[<a href="/stdlib-reference/attributes/forwardderivative-07">ForwardDerivative</a>(fn)]</span>
-
-If used on an interface requirement, the signature of the requirement is modified to
-include forward-differentiability. Any satisfying method must also be forward-differentiable,
-or provide an appropriate derivative implementation.
-See the user guide [section on auto-diff for interfaces](https://shader-slang.org/slang/user-guide/autodiff.html##using-auto-diff-with-interface-requirements-and-interface-types) for more
+Marks a function for forward-mode differentiation.
+i.e. the compiler will automatically generate a new function
+that computes the jacobian-vector product of the original.
 
 
 ## Signature
