@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct SamplerComparisonState
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<1\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>
 
 ## Description
 
@@ -21,5 +21,5 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<1\>
-`SamplerComparisonState` additionally conforms to `\_\_IDynamicResourceCastable\<1\>`.
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>
+`SamplerComparisonState` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>`.

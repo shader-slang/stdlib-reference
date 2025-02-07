@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
-*Conditionally conforms to:* [IInteger](/stdlib-reference/interfaces/iinteger-01/index), [IFloat](/stdlib-reference/interfaces/ifloat-01/index), [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
+*Conditionally conforms to:* [IInteger](/stdlib-reference/interfaces/iinteger-01/index), [IFloat](/stdlib-reference/interfaces/ifloat-01/index), [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index), [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
 
 ## Description
 
@@ -64,6 +64,10 @@ An <span class='code'><a href="/stdlib-reference/types/vector/index#decl-N" clas
 `vector<T, N:int>` additionally conforms to `IFloat` when the following conditions are met:
 
   * [T](/stdlib-reference/types/vector/index#typeparam-T) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)
+### Conformance to IDifferentiable
+`vector<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
+
+  * [T](/stdlib-reference/types/vector/index#typeparam-T) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 

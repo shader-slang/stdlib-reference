@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RWStructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
 ## Description
 
@@ -32,11 +32,16 @@ The memory layout of the buffer.
 * [Load](/stdlib-reference/types/rwstructuredbuffer-012c/load-0)
 * operator\[\]
 * [init](/stdlib-reference/types/rwstructuredbuffer-012c/init)
+* [getCount](/stdlib-reference/types/rwstructuredbuffer-012c/getcount-3)
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`RWStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`RWStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
+
+  * [L](/stdlib-reference/types/rwstructuredbuffer-012c/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
+### Conformance to IRWArray\<T\>
+`RWStructuredBuffer<T, L>` additionally conforms to `IRWArray\<T\>` when the following conditions are met:
 
   * [L](/stdlib-reference/types/rwstructuredbuffer-012c/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks

@@ -15,3 +15,7 @@ Built-in structure containing intersection attributes for triangle primitives.
 Barycentric coordinates of the intersection point on the triangle.
 
 
+## Methods
+
+* init
+

@@ -15,7 +15,7 @@ layout: stdlib-reference
 <pre>
 <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(uint64_t <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-address" class="code_param">address</a>);
 
-<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(__DynamicResource&lt;0&gt; <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-res" class="code_param">res</a>);
+<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-res" class="code_param">res</a>);
 
 <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(<a href="/stdlib-reference/types/descriptorhandle-0a/index" class="code_type">DescriptorHandle</a>&lt;<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-bindless" class="code_param">bindless</a>);
 
@@ -24,7 +24,7 @@ layout: stdlib-reference
 ## Parameters
 
 #### address  : uint64\_t {#decl-address}
-#### res  : \_\_DynamicResource\<0\> {#decl-res}
+#### res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\> {#decl-res}
 #### bindless  : [DescriptorHandle](/stdlib-reference/types/descriptorhandle-0a/index)\<[RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index)\> {#decl-bindless}
 
 ## Availability and Requirements

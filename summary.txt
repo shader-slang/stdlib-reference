@@ -1,5 +1,5 @@
-documented pages: 623
-undocumented pages: 471(43.1%)
+documented pages: 622
+undocumented pages: 521(45.6%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -19,7 +19,12 @@ IFunc<TR, each TP>.operator()
 IInteger.init
 ILogical.init
 IMutatingFunc<TR, each TP>.operator()
+IPhysicalBuffer
+IPhysicalBuffer.GetBufferPointer
+IPhysicalBuffer.LoadByteOffset<T>
 IRWArray<T>.subscript
+IRWPhysicalBuffer
+IRWPhysicalBuffer.StoreByteOffset<T>
 ITexelElement.elementCount
 ITexelElement.init
 __ITextureShape.dimensions
@@ -49,7 +54,9 @@ AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
 Buffer<T, format:int>
+ByteAddressBuffer.GetBufferPointer
 ByteAddressBuffer.Handle
+ByteAddressBuffer.LoadByteOffset<T>
 ByteAddressBuffer.init
 ByteAddressBuffer.kind
 ConstantBuffer<T, L>
@@ -59,6 +66,32 @@ ConstantBuffer<T, L>.kind
 ConsumeStructuredBuffer<T, L>.Handle
 ConsumeStructuredBuffer<T, L>.init
 ConsumeStructuredBuffer<T, L>.kind
+CoopVec<T, N:int>
+CoopVec<T, N:int>.add
+CoopVec<T, N:int>.copyFrom<U>
+CoopVec<T, N:int>.div
+CoopVec<T, N:int>.equals
+CoopVec<T, N:int>.fill
+CoopVec<T, N:int>.getCount
+CoopVec<T, N:int>.init
+CoopVec<T, N:int>.lessThan
+CoopVec<T, N:int>.lessThanOrEquals
+CoopVec<T, N:int>.load
+CoopVec<T, N:int>.loadAny<U, M:int>
+CoopVec<T, N:int>.matMulAccum<U, K:int>
+CoopVec<T, N:int>.matMulAccumPacked<U, PackedK:int>
+CoopVec<T, N:int>.matMulAddAccum<U, K:int>
+CoopVec<T, N:int>.matMulAddAccumPacked<U, PackedK:int>
+CoopVec<T, N:int>.mod
+CoopVec<T, N:int>.mul
+CoopVec<T, N:int>.neg
+CoopVec<T, N:int>.replicate
+CoopVec<T, N:int>.store
+CoopVec<T, N:int>.storeAny<U, M:int>
+CoopVec<T, N:int>.sub
+CoopVec<T, N:int>.subscript
+CoopVecComponentType
+CoopVecMatrixLayout
 DefaultDataLayout
 DescriptorHandle<T>.equals
 DescriptorHandle<T>.init
@@ -87,6 +120,7 @@ DifferentialPair<T>.getPrimal
 DifferentialPair<T>.init
 DifferentialPair<T>.p
 DifferentialPair<T>.v
+DifferentialPtrPair<T>
 DifferentialPtrPair<T>.Differential
 DifferentialPtrPair<T>.DifferentialElementType
 DifferentialPtrPair<T>.d
@@ -139,11 +173,15 @@ PointStream<T>.RestartStrip
 Ptr<T, addrSpace:uint64_t>.init<U>
 Ptr<T, addrSpace:uint64_t>.subscript<TInt>
 RWBuffer<T, format:int>
+RWByteAddressBuffer.GetBufferPointer
 RWByteAddressBuffer.Handle
 RWByteAddressBuffer.InterlockedAddF64
+RWByteAddressBuffer.LoadByteOffset<T>
+RWByteAddressBuffer.StoreByteOffset<T>
 RWByteAddressBuffer.init
 RWByteAddressBuffer.kind
 RWStructuredBuffer<T, L>.Handle
+RWStructuredBuffer<T, L>.getCount
 RWStructuredBuffer<T, L>.init
 RWStructuredBuffer<T, L>.kind
 RWStructuredBuffer<T, L>.subscript<TIndex>
@@ -152,6 +190,7 @@ RasterizerOrderedByteAddressBuffer.Handle
 RasterizerOrderedByteAddressBuffer.init
 RasterizerOrderedByteAddressBuffer.kind
 RasterizerOrderedStructuredBuffer<T, L>.Handle
+RasterizerOrderedStructuredBuffer<T, L>.getCount
 RasterizerOrderedStructuredBuffer<T, L>.init
 RasterizerOrderedStructuredBuffer<T, L>.kind
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
@@ -196,6 +235,7 @@ Std140DataLayout
 Std430DataLayout
 String.init
 StructuredBuffer<T, L>.Handle
+StructuredBuffer<T, L>.getCount
 StructuredBuffer<T, L>.init
 StructuredBuffer<T, L>.kind
 StructuredBuffer<T, L>.subscript<TIndex>
@@ -370,12 +410,12 @@ vector<T,N>.toInt
 vector<T,N>.toInt64
 vector<T,N>.toUInt
 vector<T,N>.toUInt64
-BackwardDerivative
 BackwardDerivativeOf
+BackwardDifferentiable
 DerivativeMember
 Differentiable
-ForwardDerivative
 ForwardDerivativeOf
+ForwardDifferentiable
 KnownBuiltin
 MaxIters
 NoDiffThis
@@ -444,7 +484,17 @@ abort
 all<T>
 any<T>
 clip<T>
+clock2x32ARB
+clockARB
 concat<each T, each U>
+coopVecLoad<N:int, T>
+coopVecLoadGroupshared<N:int, T, M:int>
+coopVecMatMul<T, M:int, K:int, U>
+coopVecMatMulAdd<T, M:int, K:int, U>
+coopVecMatMulAddPacked<T, M:int, PackedK:int, U>
+coopVecMatMulPacked<T, M:int, PackedK:int, U>
+coopVecOuterProductAccumulate<T, M:int, N:int>
+coopVecReduceSumAccumulate<T, N:int>
 createDynamicObject<T, U>
 cudaBlockDim
 cudaBlockIdx

@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct ByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](/stdlib-reference/interfaces/iphysicalbuffer-019/index)
 
 ## Description
 
@@ -29,11 +29,15 @@ four 32-bit typeless address values.
 * [Load](/stdlib-reference/types/byteaddressbuffer-04b/load-0)
 * [LoadAligned](/stdlib-reference/types/byteaddressbuffer-04b/loadaligned-04)
 * [init](/stdlib-reference/types/byteaddressbuffer-04b/init)
+* [GetBufferPointer](/stdlib-reference/types/byteaddressbuffer-04b/getbufferpointer-039)
+* [LoadByteOffset](/stdlib-reference/types/byteaddressbuffer-04b/loadbyteoffset-048)
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`ByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<0\>`.
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`ByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+### Conformance to IPhysicalBuffer
+`ByteAddressBuffer` additionally conforms to `IPhysicalBuffer`.
 ## Remarks
 
 

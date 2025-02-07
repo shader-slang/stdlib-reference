@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RaytracingAccelerationStructure
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 ## Description
 
@@ -21,5 +21,5 @@ Opaque type representing a ray-tracing acceleration structure.
 
 ## Conditional Conformances
 
-### Conformance to \_\_IDynamicResourceCastable\<0\>
-`RaytracingAccelerationStructure` additionally conforms to `\_\_IDynamicResourceCastable\<0\>`.
+### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+`RaytracingAccelerationStructure` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
