@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Treats <span class='code'><a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-left" class="code_param">left</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-right" class="code_param">right</a></span> as 4-component vectors of <span class='code'>UInt8</span> and computes <span class='code'><a href="/stdlib-reference/global-decls/dot">dot</a>(left, right)+acc</span>
+Treats <span class='code'><a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>UInt8</span> and computes <span class='code'><a href="/stdlib-reference/global-decls/dot">dot</a>(<a href="/stdlib-reference/global-decls/dot#decl-x" class="code_param">x</a>, <a href="/stdlib-reference/global-decls/dot#decl-y" class="code_param">y</a>)+acc</span>
 
 
 
@@ -15,15 +15,43 @@ Treats <span class='code'><a href="/stdlib-reference/global-decls/dot4add_u8pack
 
 <pre>
 <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_u8packed">dot4add_u8packed</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-left" class="code_param">left</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-right" class="code_param">right</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-y" class="code_param">y</a>,
     <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_u8packed#decl-acc" class="code_param">acc</a>);
 
 </pre>
 
 ## Parameters
 
-#### left  : uint {#decl-left}
-#### right  : uint {#decl-right}
+#### x  : uint {#decl-x}
+#### y  : uint {#decl-y}
 #### acc  : uint {#decl-acc}
+
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### metal
+Available in all stages.
+
+#### wgsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentBarycentricKHR`, `spvFragmentFullyCoveredEXT`, `spvGroupNonUniformBallot`, `spvGroupNonUniformShuffle`, `spvGroupNonUniformArithmetic`, `spvGroupNonUniformQuad`, `spvGroupNonUniformVote`, `spvRayTracingPositionFetchKHR`, `spvShaderNonUniformEXT`.
+
 

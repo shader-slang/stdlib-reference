@@ -4,6 +4,8 @@ layout: stdlib-reference
 
 # struct \_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>
 
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+
 > #### Internal Feature
 > The feature described in this page is marked as an internal implementation detail, and is not intended for use by end-users.
 > Users are advised to avoid using this declaration directly, as it may be removed or changed in future releases.
@@ -19,7 +21,7 @@ This documentation is provided for reference purposes only.
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
+#### T: [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index) {#typeparam-T}
 The element type of the texture. Must be a scalar or vector type.
 
 #### Shape: [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index) {#typeparam-Shape}
@@ -47,6 +49,10 @@ Indicates whether the texture is a combined texture-sampler.
 The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
 
 
+## Fields
+
+#### [kind](/stdlib-reference/types/0texture-01/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) =\.\.\. {#decl-kind}
+
 ## Methods
 
 * [CalculateLevelOfDetail](/stdlib-reference/types/0texture-01/calculatelevelofdetail-09eg)
@@ -55,6 +61,7 @@ The storage format of the texture. Users should specify the format using an <spa
 * [SampleBias](/stdlib-reference/types/0texture-01/samplebias-06)
 * [SampleCmp](/stdlib-reference/types/0texture-01/samplecmp-06)
 * [SampleCmpLevelZero](/stdlib-reference/types/0texture-01/samplecmplevelzero-069e)
+* [SampleCmpLevel](/stdlib-reference/types/0texture-01/samplecmplevel-069)
 * [SampleGrad](/stdlib-reference/types/0texture-01/samplegrad-06)
 * [SampleLevel](/stdlib-reference/types/0texture-01/samplelevel-06)
 * [GetSamplePosition](/stdlib-reference/types/0texture-01/getsampleposition-039)
@@ -91,7 +98,15 @@ The storage format of the texture. Users should specify the format using an <spa
 * [queryFootprintFineGrad](/stdlib-reference/types/0texture-01/queryfootprintfinegrad-5ei)
 * [queryFootprintFineGradClamp](/stdlib-reference/types/0texture-01/queryfootprintfinegradclamp-5eim)
 * [InterlockedAddF32](/stdlib-reference/types/0texture-01/interlockedaddf32-0be)
+* [init](/stdlib-reference/types/0texture-01/init)
 
+## Conditional Conformances
+
+### Conformance to \_\_IDynamicResourceCastable\<0\>
+`_Texture<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
+
+  * [T](/stdlib-reference/types/0texture-01/index#typeparam-T) : [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
+  * [Shape](/stdlib-reference/types/0texture-01/index#typeparam-Shape) : [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index)
 ## Remarks
 
 

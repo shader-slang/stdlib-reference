@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IDifferentiableFunc\<TR, each TP\>
 
-*Inherits from:* [IFunc](/stdlib-reference/interfaces/ifunc-01/index)\<[TR](/stdlib-reference/interfaces/ifunc-01/index#typeparam-TR), [IDifferentiableFunc](/stdlib-reference/interfaces/idifferentiablefunc-01f/index)\>, [IDifferentiableMutatingFunc](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index)\<[TR](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index#typeparam-TR), [IDifferentiableFunc](/stdlib-reference/interfaces/idifferentiablefunc-01f/index)\>
+*Inherits from:* [IFunc](/stdlib-reference/interfaces/ifunc-01/index)\<[TR](/stdlib-reference/interfaces/ifunc-01/index#typeparam-TR), [TP](/stdlib-reference/interfaces/ifunc-01/index#typeparam-TP)\>, [IDifferentiableMutatingFunc](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index)\<[TR](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index#typeparam-TR), [TP](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index#typeparam-TP)\>
 
 ## Description
 

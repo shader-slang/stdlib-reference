@@ -4,6 +4,8 @@ layout: stdlib-reference
 
 # struct StructuredBuffer\<T, L\>
 
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+
 ## Description
 
 Represents an opaque handle to a read-only structured buffer allocated in global memory.
@@ -18,12 +20,23 @@ The element type of the buffer.
 The memory layout of the buffer.
 
 
+## Fields
+
+#### [kind](/stdlib-reference/types/structuredbuffer-0a/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
+
 ## Methods
 
 * [GetDimensions](/stdlib-reference/types/structuredbuffer-0a/getdimensions-03)
 * [Load](/stdlib-reference/types/structuredbuffer-0a/load-0)
 * operator\[\]
+* [init](/stdlib-reference/types/structuredbuffer-0a/init)
 
+## Conditional Conformances
+
+### Conformance to \_\_IDynamicResourceCastable\<0\>
+`StructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<0\>` when the following conditions are met:
+
+  * [L](/stdlib-reference/types/structuredbuffer-0a/index#typeparam-L) : [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 ## Remarks
 
 

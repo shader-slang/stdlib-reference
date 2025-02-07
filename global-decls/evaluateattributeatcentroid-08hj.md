@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Interpolates vertex attribute at centroid position.
 
 
 
@@ -34,12 +34,28 @@ layout: stdlib-reference
 ## Parameters
 
 #### x  : [T](/stdlib-reference/global-decls/evaluateattributeatcentroid-08hj#typeparam-T) {#decl-x}
+The vertex attribute to interpolate.
+
 #### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+The vertex attribute to interpolate.
+
 #### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+The vertex attribute to interpolate.
+
+
+## Return value
+The interpolated attribute value.
+
+## Remarks
+<span class='code'><a href="/stdlib-reference/global-decls/evaluateattributeatcentroid-08hj#decl-x" class="code_param">x</a></span> must be a direct reference to a fragment shader varying input.
+
 
 ## Availability and Requirements
 
 Defined for the following targets:
+
+#### hlsl
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `raygen`, `intersection`, `anyhit`, `closesthit`.
 
 #### glsl
 Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `raygen`, `intersection`, `anyhit`, `closesthit`.

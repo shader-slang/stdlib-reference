@@ -4,12 +4,18 @@ layout: stdlib-reference
 
 # struct RasterizerOrderedByteAddressBuffer
 
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<0\>
+
 ## Description
 
 Represents an opaque handle to a read-write buffer allocated in global memory that is indexed in bytes.
 This type can be used when working with raw buffers. Raw buffer can be viewed as a bag of bits to
 which you want raw access, that is, a buffer that you can conveniently access through chunks of one to
 four 32-bit typeless address values.
+
+## Fields
+
+#### [kind](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
 
 ## Methods
 
@@ -39,7 +45,12 @@ four 32-bit typeless address values.
 * [Store4Aligned](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store4aligned-06)
 * [Store](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0)
 * [StoreAligned](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/storealigned-05)
+* [init](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/init)
 
+## Conditional Conformances
+
+### Conformance to \_\_IDynamicResourceCastable\<0\>
+`RasterizerOrderedByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<0\>`.
 ## Remarks
 
 
