@@ -1,5 +1,5 @@
 documented pages: 622
-undocumented pages: 521(45.6%)
+undocumented pages: 525(45.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -30,6 +30,10 @@ ITexelElement.init
 __ITextureShape.dimensions
 __ITextureShape.flavor
 __ITextureShape.planeDimensions
+<T>
+T.Element
+T.elementCount
+T.init
 AppendStructuredBuffer<T, L>.Handle
 AppendStructuredBuffer<T, L>.init
 AppendStructuredBuffer<T, L>.kind

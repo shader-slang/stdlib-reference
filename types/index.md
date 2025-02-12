@@ -5,6 +5,7 @@ layout: stdlib-reference
 
 Slang's Standard Library defines the following types:
 
+- [](/stdlib-reference/types/t-0/index)
 - [AppendStructuredBuffer](/stdlib-reference/types/appendstructuredbuffer-06g/index)
 - [Array](/stdlib-reference/types/array-0/index)
 - [Atomic](/stdlib-reference/types/atomic-0/index)
