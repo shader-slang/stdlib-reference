@@ -56,4 +56,3 @@ For member functions, or functions nested inside namespaces, <span class='code'>
 name.
 
 
-
