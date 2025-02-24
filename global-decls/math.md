@@ -131,8 +131,6 @@ This category contains the following declarations:
 
 #### [mul\<T\>](/stdlib-reference/global-decls/mul)
 
-#### [noise](/stdlib-reference/global-decls/noise)
-
 #### [normalize\<T, N:int\>](/stdlib-reference/global-decls/normalize)
 
 #### [pow\<T\>](/stdlib-reference/global-decls/pow)

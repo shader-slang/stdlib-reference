@@ -249,7 +249,6 @@ Slang's Standard Library defines the following global declarations:
 - [msad4](/stdlib-reference/global-decls/msad4)
 - [mul](/stdlib-reference/global-decls/mul)
 - [nextafter](/stdlib-reference/global-decls/nextafter)
-- [noise](/stdlib-reference/global-decls/noise)
 - [nonuniform](/stdlib-reference/global-decls/nonuniform)
 - [normalize](/stdlib-reference/global-decls/normalize)
 - [operator\*](/stdlib-reference/global-decls/operatorx2A)
