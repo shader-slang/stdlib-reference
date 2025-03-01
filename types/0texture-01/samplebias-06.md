@@ -121,5 +121,9 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
+#### spirv
+Available in all stages.
+
+Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentFullyCoveredEXT`.
 
 

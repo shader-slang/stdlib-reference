@@ -119,5 +119,8 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
+#### spirv
+Available in all stages.
+
 
 
