@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg">CheckAccessFullyMapped</a>(<span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg#decl-status" class="code_param">status</a>);
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg">CheckAccessFullyMapped</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/checkaccessfullymapped-05bg#decl-status" class="code_param">status</a>);
 
 </pre>
 
@@ -28,5 +28,9 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
+#### spirv
+Available in all stages.
+
+Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentFullyCoveredEXT`.
 
 

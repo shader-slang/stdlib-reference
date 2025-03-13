@@ -15,9 +15,9 @@ clamping each value to the range [0, 255] to ensure it fits within 8 bits.
 ## Signature 
 
 <pre>
-uint8_t4_packed <a href="/stdlib-reference/global-decls/pack_clamp_u8">pack_clamp_u8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="/stdlib-reference/global-decls/pack_clamp_u8#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/pack_clamp_u8">pack_clamp_u8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="/stdlib-reference/global-decls/pack_clamp_u8#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-uint8_t4_packed <a href="/stdlib-reference/global-decls/pack_clamp_u8">pack_clamp_u8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="/stdlib-reference/global-decls/pack_clamp_u8#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/pack_clamp_u8">pack_clamp_u8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="/stdlib-reference/global-decls/pack_clamp_u8#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 
