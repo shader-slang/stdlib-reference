@@ -14,9 +14,9 @@ Pack a vector of 4 signed 32 bit integers into a packed value of 4 8-bit integer
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/pack_s8">pack_s8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="/stdlib-reference/global-decls/pack_s8#decl-unpackedValue" class="code_param">unpackedValue</a>);
+int8_t4_packed <a href="/stdlib-reference/global-decls/pack_s8">pack_s8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="/stdlib-reference/global-decls/pack_s8#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/pack_s8">pack_s8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="/stdlib-reference/global-decls/pack_s8#decl-unpackedValue" class="code_param">unpackedValue</a>);
+int8_t4_packed <a href="/stdlib-reference/global-decls/pack_s8">pack_s8</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="/stdlib-reference/global-decls/pack_s8#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 

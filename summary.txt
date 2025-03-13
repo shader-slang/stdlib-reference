@@ -1,5 +1,5 @@
-documented pages: 629
-undocumented pages: 527(45.6%)
+documented pages: 621
+undocumented pages: 525(45.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -360,7 +360,6 @@ float16_t
 float32_t
 float64_t
 int32_t
-int8_t4_packed
 matrix<T,N,M>.Differential
 matrix<int16_t,R,C>.T
 matrix<T,N,M>.add
@@ -383,7 +382,6 @@ size_t
 ssize_t
 string
 uint32_t
-uint8_t4_packed
 usize_t
 vector<T,N>.Differential
 vector<T, N:int>.Element

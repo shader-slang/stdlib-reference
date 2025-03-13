@@ -14,13 +14,13 @@ Unpack 4 signed 8-bit values into a vector of 32 bit integers.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="/stdlib-reference/global-decls/unpack_s8s32">unpack_s8s32</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/unpack_s8s32#decl-packed" class="code_param">packed</a>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="/stdlib-reference/global-decls/unpack_s8s32">unpack_s8s32</a>(int8_t4_packed <a href="/stdlib-reference/global-decls/unpack_s8s32#decl-packed" class="code_param">packed</a>);
 
 </pre>
 
 ## Parameters
 
-#### packed  : uint {#decl-packed}
+#### packed  : int8\_t4\_packed {#decl-packed}
 
 ## Availability and Requirements
 
