@@ -74,6 +74,6 @@ Available in `fragment` stage only.
 #### spirv
 Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `raygen`, `intersection`, `anyhit`, `closesthit`.
 
-Requires capabilities: `SPV_NV_compute_shader_derivatives`, `spvMeshShadingEXT`.
+Requires capabilities: `SPV_KHR_compute_shader_derivatives`, `spvMeshShadingEXT`.
 
 
