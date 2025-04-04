@@ -180,7 +180,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
-/// Requires Capability Set 3:
+/// Requires Capability Set 4:
 <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/0texture-01/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/0texture-01/load-0">Load</a>(
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/0texture-01/load-0#decl-location" class="code_param">location</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/0texture-01/load-0#decl-status" class="code_param">status</a>)
@@ -205,7 +205,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
-/// Requires Capability Set 3:
+/// Requires Capability Set 4:
 <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/0texture-01/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/0texture-01/load-0">Load</a>(
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/0texture-01/load-0#decl-location" class="code_param">location</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/0texture-01/load-0#decl-status" class="code_param">status</a>)
@@ -230,7 +230,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a> == 0
     <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a> == 0;
 
-/// Requires Capability Set 3:
+/// Requires Capability Set 4:
 <a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/0texture-01/index" class="code_type">_Texture</a>&lt;<a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/0texture-01/index#typeparam-Shape" class="code_type">Shape</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isArray" class="code_var">isArray</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isMS" class="code_var">isMS</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-sampleCount" class="code_var">sampleCount</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-access" class="code_var">access</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a>, <a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a>&gt;.<a href="/stdlib-reference/types/0texture-01/load-0">Load</a>(
     <span class="code_keyword">int</span> <a href="/stdlib-reference/types/0texture-01/load-0#decl-location" class="code_param">location</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/0texture-01/load-0#decl-status" class="code_param">status</a>)
@@ -299,6 +299,17 @@ Available in all stages.
 
 
 ### Capability Set 3
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+
+### Capability Set 4
 
 Defined for the following targets:
 
