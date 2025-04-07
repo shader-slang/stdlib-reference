@@ -1,5 +1,5 @@
 documented pages: 644
-undocumented pages: 527(45.0%)
+undocumented pages: 528(45.1%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -432,6 +432,7 @@ allow
 disable_array_flattening
 noRefInline
 payload
+raypayload
 spv_target_env_1_3
 CheckAccessFullyMapped
 D3DCOLORtoUBYTE4

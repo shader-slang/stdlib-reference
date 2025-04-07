@@ -82,6 +82,7 @@ Slang's Standard Library defines the following attributes:
 - [patchconstantfunc](/stdlib-reference/attributes/patchconstantfunc)
 - [payload](/stdlib-reference/attributes/payload)
 - [push\_constant](/stdlib-reference/attributes/push_constant)
+- [raypayload](/stdlib-reference/attributes/raypayload)
 - [require](/stdlib-reference/attributes/require)
 - [sealed](/stdlib-reference/attributes/sealed)
 - [shader](/stdlib-reference/attributes/shader)
