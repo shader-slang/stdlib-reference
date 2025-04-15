@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Pack a vector of 4 signed 32 bit integers into a packed value of 4 8-bit integers, dropping unused bits.
+Pack a vector of 4 signed 32/16 bit integers into a packed value of 4 8-bit integers, dropping unused bits.
 
 
 

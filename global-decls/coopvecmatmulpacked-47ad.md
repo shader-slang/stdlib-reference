@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Multiply a cooperative vector with a matrix and return the result.
 
 
 
@@ -82,17 +82,50 @@ layout: stdlib-reference
 ## Parameters
 
 #### input  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<U, PackedK\> {#decl-input}
+The input cooperative vector to multiply with the matrix.
+
 #### inputInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-inputInterpretation}
+Specifies how to interpret the values in the input vector (e.g. as packed values).
+
 #### k  : int {#decl-k}
+The number of columns in the matrix.
+
 #### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### matrixOffset  : int {#decl-matrixOffset}
+Byte offset into the matrix buffer.
+
 #### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+Specifies how to interpret the values in the matrix.
+
 #### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+Specifies the memory layout of the matrix (row-major or column-major).
+
 #### transpose  : bool {#decl-transpose}
+Whether to transpose the matrix before multiplication.
+
 #### matrixStride  : uint {#decl-matrixStride}
+The stride between matrix rows/columns in bytes.
+
 #### matrix  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### matrix  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### matrix  : [StructuredBuffer](/stdlib-reference/types/structuredbuffer-0a/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-matrix}
+The matrix buffer to multiply with.
+
+
+## Return value
+A new cooperative vector containing the result of the matrix multiplication.
+
+## Remarks
+Unlike coopVecMatMul, this function supports packed input interpretations where multiple values
+can be packed into each element of the input vector. The k parameter specifies the actual number of
+values to use from the packed input.
+
 
 ## Availability and Requirements
 

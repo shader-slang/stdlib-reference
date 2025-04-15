@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Convert a 4-component vector of normalized unsigned single-precision floating-point
+Convert a 4-component vector of normalized unsigned single/half-precision floating-point
 values to four 8-bit integer values, then pack these 8-bit values into a
 32-bit unsigned integer.
 

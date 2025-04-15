@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # enum CoopVecComponentType
 
+## Description
+
+Specifies how to interpret the values in a cooperative vector or matrix.
+
 ## Values 
 
 #### _FloatE4M3 = _ {#decl-FloatE4M3}
@@ -21,3 +25,9 @@ layout: stdlib-reference
 #### _UnsignedInt32 = _ {#decl-UnsignedInt32}
 #### _UnsignedInt64 = _ {#decl-UnsignedInt64}
 #### _UnsignedInt8Packed = _ {#decl-UnsignedInt8Packed}
+## Remarks
+
+This enum defines the various data types that can be used for elements in cooperative vectors and matrices,
+including packed formats where multiple values can be stored in a single element.
+
+

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Accumulate the sum of a cooperative vector into a buffer at the specified offset.
 
 
 
@@ -47,10 +47,20 @@ layout: stdlib-reference
 ## Parameters
 
 #### v  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-v}
+The cooperative vector to sum.
+
 #### buffer  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-buffer}
+The buffer to accumulate the sum into.
+
 #### offset  : int {#decl-offset}
+Byte offset into the buffer.
+
 #### buffer  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-buffer}
+The buffer to accumulate the sum into.
+
 #### buffer  : [U](/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-U) \[ [IgnoredBufferSize](/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-IgnoredBufferSize) \] {#decl-buffer}
+The buffer to accumulate the sum into.
+
 
 ## Availability and Requirements
 

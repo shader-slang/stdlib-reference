@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Copy values from another CoopVec instance into this one. The source CoopVec can have a different element type,
+in which case appropriate type conversion will be performed.
 
 
 
@@ -26,6 +27,8 @@ layout: stdlib-reference
 ## Parameters
 
 #### other  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<U, [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-other}
+The source CoopVec to copy from.
+
 
 ## Availability and Requirements
 

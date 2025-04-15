@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Accumulate the result from a matrix multiplication between an input Cooperative vector and a matrix.
 
 
 
@@ -47,12 +47,30 @@ layout: stdlib-reference
 ## Parameters
 
 #### input  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<U, K\> {#decl-input}
+The input Cooperative vector to multiply with the matrix.
+
 #### inputInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-inputInterpretation}
+Specifies how to interpret the values in the input vector (e.g. as 8-bit integers, 16-bit floats, etc).
+
 #### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+The matrix to multiply with the input vector.
+
 #### matrixOffset  : int {#decl-matrixOffset}
+Byte offset into the matrix buffer.
+
 #### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+Specifies how to interpret the values in the matrix (e.g. as 8-bit integers, 16-bit floats, etc).
+
 #### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+Specifies the memory layout of the matrix (row-major or column-major).
+
 #### transpose  : bool {#decl-transpose}
+Whether to transpose the matrix before multiplication.
+
 #### matrixStride  : uint {#decl-matrixStride}
+The stride in bytes between rows/columns of the matrix.
+
 #### matrix  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-matrix}
+The matrix to multiply with the input vector.
+
 

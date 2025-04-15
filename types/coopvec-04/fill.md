@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Fill all elements of this CoopVec with the specified value.
 
 
 
@@ -21,6 +21,8 @@ layout: stdlib-reference
 ## Parameters
 
 #### t  : [T](/stdlib-reference/types/coopvec-04/index#typeparam-T) {#decl-t}
+The value to fill all elements with.
+
 
 ## Availability and Requirements
 

@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-spirv only storing to a groupshared array of any type
-
+Store the value to a groupshared array of any type. This method is only available when targeting SPIR-V.
 
 
 
@@ -35,8 +34,14 @@ spirv only storing to a groupshared array of any type
 ## Parameters
 
 #### data  : [U](/stdlib-reference/types/coopvec-04/storeany-5#typeparam-U) \[ [M](/stdlib-reference/types/coopvec-04/storeany-5#decl-M) \] {#decl-data}
+The destination array where the data will be stored. The array element type can be different from the CoopVec element type.
+
 #### byteOffset16ByteAligned  : int = 0 {#decl-byteOffset16ByteAligned}
+The byte offset from the start of <span class='code'><a href="/stdlib-reference/types/coopvec-04/storeany-5#decl-data" class="code_param">data</a></span>. Must be a multiple of 16 bytes.
+
 #### data  : [vector](/stdlib-reference/types/vector/index)\<U, L\> \[ M \] {#decl-data}
+The destination array where the data will be stored. The array element type can be different from the CoopVec element type.
+
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Load values from a byte-addressable buffer into a cooperative vector.
 
 
 
@@ -43,10 +43,24 @@ layout: stdlib-reference
 ## Parameters
 
 #### buffer  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-buffer}
+The source buffer to load data from.
+
 #### byteOffset16ByteAligned  : int = 0 {#decl-byteOffset16ByteAligned}
+The byte offset from the start of the buffer. Must be 16-byte aligned.
+
 #### buffer  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-buffer}
+The source buffer to load data from.
+
 #### buffer  : [StructuredBuffer](/stdlib-reference/types/structuredbuffer-0a/index)\<[T](/stdlib-reference/types/structuredbuffer-0a/index#typeparam-T), [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-buffer}
+The source buffer to load data from.
+
 #### buffer  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<[T](/stdlib-reference/types/rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-buffer}
+The source buffer to load data from.
+
+
+## Return value
+A new cooperative vector containing the loaded values.
+
 
 ## Availability and Requirements
 

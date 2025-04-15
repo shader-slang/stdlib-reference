@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Multiply a cooperative vector with a matrix and add a bias vector.
 
 
 
@@ -90,22 +90,60 @@ layout: stdlib-reference
 ## Parameters
 
 #### input  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<U, K\> {#decl-input}
+The input cooperative vector to multiply with the matrix.
+
 #### inputInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-inputInterpretation}
+Specifies how to interpret the values in the input vector.
+
 #### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### matrixOffset  : int {#decl-matrixOffset}
+Byte offset into the matrix buffer.
+
 #### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+Specifies how to interpret the values in the matrix.
+
 #### bias  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-bias}
+The bias buffer to add after multiplication.
+
 #### biasOffset  : int {#decl-biasOffset}
+Byte offset into the bias buffer.
+
 #### biasInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-biasInterpretation}
+Specifies how to interpret the values in the bias vector.
+
 #### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+Specifies the memory layout of the matrix (row-major or column-major).
+
 #### transpose  : bool {#decl-transpose}
+Whether to transpose the matrix before multiplication.
+
 #### matrixStride  : uint {#decl-matrixStride}
+The stride between matrix rows/columns in bytes.
+
 #### matrix  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### bias  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-bias}
+The bias buffer to add after multiplication.
+
 #### matrix  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### bias  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-bias}
+The bias buffer to add after multiplication.
+
 #### matrix  : [StructuredBuffer](/stdlib-reference/types/structuredbuffer-0a/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-matrix}
+The matrix buffer to multiply with.
+
 #### bias  : [StructuredBuffer](/stdlib-reference/types/structuredbuffer-0a/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-bias}
+The bias buffer to add after multiplication.
+
+
+## Return value
+A new cooperative vector containing the result of the matrix multiplication plus bias.
+
 
 ## Availability and Requirements
 

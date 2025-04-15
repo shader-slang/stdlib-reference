@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-spirv only loading from a groupshared array of any type
-
+Load values from a groupshared array into a CoopVec, allowing type conversion between source and destination elements.
+This operation is only available when targeting SPIR-V.
 
 
 
@@ -37,8 +37,18 @@ spirv only loading from a groupshared array of any type
 ## Parameters
 
 #### data  : [U](/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U) \[ [M](/stdlib-reference/types/coopvec-04/loadany-4#decl-M) \] {#decl-data}
+The source groupshared array to load from. The element type U can be different from the CoopVec element type T.
+
 #### byteOffset16ByteAligned  : int = 0 {#decl-byteOffset16ByteAligned}
+The byte offset from the start of the array. Must be 16-byte aligned.
+
 #### data  : [vector](/stdlib-reference/types/vector/index)\<U, L\> \[ M \] {#decl-data}
+The source groupshared array to load from. The element type U can be different from the CoopVec element type T.
+
+
+## Return value
+A new CoopVec containing the loaded and type-converted values.
+
 
 ## Availability and Requirements
 

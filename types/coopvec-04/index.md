@@ -6,10 +6,20 @@ layout: stdlib-reference
 
 *Conforms to:* [IArray](/stdlib-reference/interfaces/iarray-01/index)\<[T](/stdlib-reference/interfaces/iarray-01/index#typeparam-T)\>, [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index)
 
+## Description
+
+Represents a Cooperative Vector type that is for matrix-vector multiplication that
+can take an advantage of the hardware acceleration. It can be used for evaluations
+of neural network in graphics and compute pipeline.
+
 ## Generic Parameters
 
 #### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
+The element type of the CoopVec.
+
 #### N  : int {#decl-N}
+The vector size.
+
 
 ## Methods
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Accumulate the outer product of two cooperative vectors into a matrix.
 
 
 
@@ -61,14 +61,32 @@ layout: stdlib-reference
 ## Parameters
 
 #### a  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), M\> {#decl-a}
+The first cooperative vector.
+
 #### b  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-b}
+The second cooperative vector.
+
 #### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+The matrix buffer to accumulate the result into.
+
 #### matrixOffset  : int {#decl-matrixOffset}
+Byte offset into the matrix buffer.
+
 #### matrixStride  : uint {#decl-matrixStride}
+The stride between matrix rows/columns in bytes.
+
 #### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+Specifies the memory layout of the matrix (row-major or column-major).
+
 #### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+Specifies how to interpret the values in the matrix.
+
 #### matrix  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-matrix}
+The matrix buffer to accumulate the result into.
+
 #### matrix  : [U](/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-U) \[ [IgnoredBufferSize](/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-IgnoredBufferSize) \] {#decl-matrix}
+The matrix buffer to accumulate the result into.
+
 
 ## Availability and Requirements
 

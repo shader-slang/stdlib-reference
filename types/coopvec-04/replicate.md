@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Creates a new cooperative vector with all elements initialized to the specified scalar value.
 
 
 
@@ -21,4 +21,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### t  : [T](/stdlib-reference/types/coopvec-04/index#typeparam-T) {#decl-t}
+The scalar value to replicate across all elements.
+
+
+## Return value
+A new cooperative vector where each element equals the input value.
+
 

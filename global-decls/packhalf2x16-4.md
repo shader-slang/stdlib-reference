@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Convert a 2-component vector of IEEE-754 binary16 single-precision floating-point
+Convert a 2-component vector of IEEE-754 binary16 single/half-precision floating-point
 values to two 16-bit integer values, then pack these 16-bit values into a
 32-bit unsigned integer.
 

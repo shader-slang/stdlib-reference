@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Compares two cooperative vectors lexicographically.
 
 
 
@@ -21,4 +21,15 @@ layout: stdlib-reference
 ## Parameters
 
 #### other  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-other}
+The cooperative vector to compare against.
+
+
+## Return value
+True if this vector is lexicographically less than the other vector.
+
+## Remarks
+This function exists only to conform to IComparable. For cooperative vectors,
+lexicographical comparison has limited practical use since the vectors are meant for
+parallel computation rather than ordering.
+
 

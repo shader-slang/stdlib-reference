@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Pack a vector of 4 unsigned 32 bit integers into a packed value of 4 8-bit integers,
+Pack a vector of 4 unsigned 32/16 bit integers into a packed value of 4 8-bit integers,
 clamping each value to the range [0, 255] to ensure it fits within 8 bits.
 
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Performs component-wise remainder operation between two cooperative vectors.
 
 
 
@@ -21,4 +21,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### other  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-other}
+The cooperative vector to compute the remainder with.
+
+
+## Return value
+A new cooperative vector containing the remainder of the division between corresponding components.
+
 

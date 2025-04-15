@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Performs component-wise multiplication with another cooperative vector.
 
 
 
@@ -21,4 +21,10 @@ layout: stdlib-reference
 ## Parameters
 
 #### other  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-other}
+The cooperative vector to multiply with this vector.
+
+
+## Return value
+A new cooperative vector containing the product of the two vectors.
+
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Store all elements of this CoopVec into a buffer at a specified offset.
 
 
 
@@ -37,8 +37,14 @@ layout: stdlib-reference
 ## Parameters
 
 #### buffer  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-buffer}
+The destination buffer to store the values into.
+
 #### byteOffset16ByteAligned  : int = 0 {#decl-byteOffset16ByteAligned}
+The byte offset from the start of the buffer where the data will be stored. Must be 16-byte aligned.
+
 #### buffer  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<[T](/stdlib-reference/types/rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-buffer}
+The destination buffer to store the values into.
+
 #### data  : [T](/stdlib-reference/types/coopvec-04/index#typeparam-T) \[ M \] {#decl-data}
 
 ## Availability and Requirements

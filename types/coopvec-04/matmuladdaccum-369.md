@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Performs matrix multiplication and accumulation with bias: this += input * matrix + bias
 
 
 
@@ -53,16 +53,42 @@ layout: stdlib-reference
 ## Parameters
 
 #### input  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<U, K\> {#decl-input}
+The input vector to multiply with the matrix
+
 #### inputInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-inputInterpretation}
+How to interpret the input vector elements (must not be packed)
+
 #### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+The matrix buffer to multiply with
+
 #### matrixOffset  : int {#decl-matrixOffset}
+Byte offset into the matrix buffer
+
 #### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+How to interpret the matrix elements
+
 #### bias  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-bias}
+The bias buffer to add
+
 #### biasOffset  : int {#decl-biasOffset}
+Byte offset into the bias buffer
+
 #### biasInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-biasInterpretation}
+How to interpret the bias elements
+
 #### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+Memory layout of the matrix (row or column major)
+
 #### transpose  : bool {#decl-transpose}
+Whether to transpose the matrix before multiplication
+
 #### matrixStride  : uint {#decl-matrixStride}
+Stride between matrix rows/columns in bytes
+
 #### matrix  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-matrix}
+The matrix buffer to multiply with
+
 #### bias  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-bias}
+The bias buffer to add
+
 
