@@ -158,6 +158,8 @@ Slang's Standard Library defines the following global declarations:
 - [clock2x32ARB](/stdlib-reference/global-decls/clock2x32arb-9ab)
 - [clockARB](/stdlib-reference/global-decls/clockarb-567)
 - [concat](/stdlib-reference/global-decls/concat)
+- [coopMatLoad](/stdlib-reference/global-decls/coopmatload-47)
+- [coopMatMulAdd](/stdlib-reference/global-decls/coopmatmuladd-47a)
 - [coopVecLoad](/stdlib-reference/global-decls/coopvecload-47)
 - [coopVecLoadGroupshared](/stdlib-reference/global-decls/coopvecloadgroupshared-47b)
 - [coopVecMatMul](/stdlib-reference/global-decls/coopvecmatmul-47a)
