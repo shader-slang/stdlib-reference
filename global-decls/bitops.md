@@ -5,7 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [countbits](/stdlib-reference/global-decls/countbits)
+#### [countbits\<T\>](/stdlib-reference/global-decls/countbits)
 
 #### [firstbithigh](/stdlib-reference/global-decls/firstbithigh)
 
