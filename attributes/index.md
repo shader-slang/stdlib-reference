@@ -93,6 +93,7 @@ Slang's Standard Library defines the following attributes:
 - [vk\_constant\_id](/stdlib-reference/attributes/vk_constant_id)
 - [vk\_image\_format](/stdlib-reference/attributes/vk_image_format)
 - [vk\_location](/stdlib-reference/attributes/vk_location)
+- [vk\_offset](/stdlib-reference/attributes/vk_offset)
 - [vk\_push\_constant](/stdlib-reference/attributes/vk_push_constant)
 - [vk\_shader\_record](/stdlib-reference/attributes/vk_shader_record)
 - [vk\_specialization\_constant](/stdlib-reference/attributes/vk_specialization_constant)
