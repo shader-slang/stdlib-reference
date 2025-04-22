@@ -1,5 +1,5 @@
 documented pages: 674
-undocumented pages: 527(43.9%)
+undocumented pages: 529(44.0%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -471,6 +471,7 @@ WaveActiveMin<T>
 WaveActiveProduct<T>
 WaveActiveSum<T>
 WaveBroadcastLaneAt<T>
+WaveClusteredRotate<T>
 WaveGetActiveMulti
 WaveGetConvergedMulti
 WaveGetLaneCount
@@ -488,6 +489,7 @@ WavePrefixProduct<T>
 WavePrefixSum<T>
 WaveReadLaneAt<T>
 WaveReadLaneFirst<T>
+WaveRotate<T>
 WaveShuffle<T>
 WorkgroupSize
 _WaveCountBits
