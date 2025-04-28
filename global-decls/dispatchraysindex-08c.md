@@ -29,16 +29,16 @@ Available in all ray tracing shader stages
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 #### glsl
-Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 #### cuda
-Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 #### spirv
-Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 Requires capability: `spvRayTracingKHR`.
 

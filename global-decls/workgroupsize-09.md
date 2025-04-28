@@ -45,5 +45,8 @@ Available in `compute` stage only.
 #### wgsl
 Available in `compute` stage only.
 
+#### slangvm
+Available in `compute` stage only.
+
 
 
