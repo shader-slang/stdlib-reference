@@ -18,6 +18,7 @@ This reference groups the standard library declarations as:
 
 This documentation is still a work-in-progress.
 
+<!-- RTD-TOC-START
 ```{toctree}
 :titlesonly:
 :hidden:
@@ -27,3 +28,4 @@ Types <types/index>
 Attributes <attributes/index>
 Global Declarations <global-decls/index>
 ```
+RTD-TOC-END -->
