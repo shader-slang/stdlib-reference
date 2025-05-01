@@ -26,6 +26,7 @@ Slang's Standard Library defines the following types:
 - [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index)
 - [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index)
 - [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)
+- [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index)
 - [DescriptorHandle](/stdlib-reference/types/descriptorhandle-0a/index)
 - [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)
 - [DiffTensorView](/stdlib-reference/types/difftensorview-04a/index)

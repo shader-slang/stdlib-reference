@@ -15,6 +15,7 @@ four 32-bit typeless address values.
 
 ## Fields
 
+#### [descriptorAccess](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/descriptoraccess-a) : [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index) = [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index)\.[ReadWrite](/stdlib-reference/types/descriptoraccess-0a/index#decl-ReadWrite) {#decl-descriptorAccess}
 #### [kind](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
 
 ## Methods

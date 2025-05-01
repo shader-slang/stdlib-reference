@@ -16,6 +16,7 @@ layout: stdlib-reference
 
 ## Fields
 
+#### [descriptorAccess](/stdlib-reference/types/texturebuffer-07/descriptoraccess-a) : [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index) = [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index)\.[Read](/stdlib-reference/types/descriptoraccess-0a/index#decl-Read) {#decl-descriptorAccess}
 #### [kind](/stdlib-reference/types/texturebuffer-07/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
 
 ## Methods

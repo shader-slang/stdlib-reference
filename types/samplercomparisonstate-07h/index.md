@@ -13,6 +13,7 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
+#### [descriptorAccess](/stdlib-reference/types/samplercomparisonstate-07h/descriptoraccess-a) : [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index) = [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index)\.[Unknown](/stdlib-reference/types/descriptoraccess-0a/index#decl-Unknown) {#decl-descriptorAccess}
 #### [kind](/stdlib-reference/types/samplercomparisonstate-07h/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Sampler](/stdlib-reference/types/descriptorkind-0a/index#decl-Sampler) {#decl-kind}
 
 ## Methods
