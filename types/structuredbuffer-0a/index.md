@@ -22,6 +22,7 @@ The memory layout of the buffer.
 
 ## Fields
 
+#### [descriptorAccess](/stdlib-reference/types/structuredbuffer-0a/descriptoraccess-a) : [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index) = [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index)\.[Read](/stdlib-reference/types/descriptoraccess-0a/index#decl-Read) {#decl-descriptorAccess}
 #### [kind](/stdlib-reference/types/structuredbuffer-0a/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
 
 ## Methods

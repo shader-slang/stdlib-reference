@@ -51,6 +51,7 @@ The storage format of the texture. Users should specify the format using an <spa
 
 ## Fields
 
+#### [descriptorAccess](/stdlib-reference/types/0texture-01/descriptoraccess-a) : [DescriptorAccess](/stdlib-reference/types/descriptoraccess-0a/index) = access {#decl-descriptorAccess}
 #### [kind](/stdlib-reference/types/0texture-01/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) =\.\.\. {#decl-kind}
 
 ## Methods
