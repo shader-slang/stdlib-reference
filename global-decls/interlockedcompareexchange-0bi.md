@@ -6,46 +6,46 @@ layout: stdlib-reference
 
 ## Description
 
-Perform an atomic compare and exchange operation on <span class='code'><a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-dest" class="code_param">dest</a></span>.
+Perform an atomic compare and exchange operation on <span class='code'><a href="interlockedcompareexchange-0bi.html#decl-dest" class="code_param">dest</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi">InterlockedCompareExchange</a>&lt;<a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-dest" class="code_param">dest</a>,
-    <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-compare_value" class="code_param">compare_value</a>,
-    <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-original_value" class="code_param">original_value</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/iatomicable-01/index" class="code_type">IAtomicable</a>;
+<span class="code_keyword">void</span> <a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-dest" class="code_param">dest</a>,
+    <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-compare_value" class="code_param">compare_value</a>,
+    <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-original_value" class="code_param">original_value</a>)
+    <span class='code_keyword'>where</span> <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iatomicable-01/index.html" class="code_type">IAtomicable</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [IAtomicable](/stdlib-reference/interfaces/iatomicable-01/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [IAtomicable](../interfaces/iatomicable-01/index)
 The type of the value to perform the atomic operation on.
 
 
 ## Parameters
 
-#### dest  : [T](/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T) {#decl-dest}
+####  <a id="decl-dest"></a>dest  : [T](interlockedcompareexchange-0bi#typeparam-T)
 The value to perform the atomic operation on.
 
-#### compare\_value  : [T](/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T) {#decl-compare_value}
-The value to compare <span class='code'><a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-dest" class="code_param">dest</a></span> with.
+####  <a id="decl-compare_value"></a>compare\_value  : [T](interlockedcompareexchange-0bi#typeparam-T)
+The value to compare <span class='code'><a href="interlockedcompareexchange-0bi.html#decl-dest" class="code_param">dest</a></span> with.
 
-#### value  : [T](/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T) {#decl-value}
-The value to store into <span class='code'><a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-dest" class="code_param">dest</a></span> if the compare result is equal.
+####  <a id="decl-value"></a>value  : [T](interlockedcompareexchange-0bi#typeparam-T)
+The value to store into <span class='code'><a href="interlockedcompareexchange-0bi.html#decl-dest" class="code_param">dest</a></span> if the compare result is equal.
 
-#### original\_value  : [T](/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T) {#decl-original_value}
-The value of <span class='code'><a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#decl-dest" class="code_param">dest</a></span> before the operation.
+####  <a id="decl-original_value"></a>original\_value  : [T](interlockedcompareexchange-0bi#typeparam-T)
+The value of <span class='code'><a href="interlockedcompareexchange-0bi.html#decl-dest" class="code_param">dest</a></span> before the operation.
 
 
 ## Remarks
-When targeting HLSL, a call to this function with <span class='code'><a href="/stdlib-reference/global-decls/interlockedcompareexchange-0bi#typeparam-T" class="code_type">T</a></span> being <span class='code'><span class="code_keyword">float</span></span> will translate to a call to
-<span class='code'><a href="/stdlib-reference/global-decls/interlockedcompareexchangefloatbitwise-0biqv">InterlockedCompareExchangeFloatBitwise</a></span>, which means the comparison is done as a bitwise comparison.
+When targeting HLSL, a call to this function with <span class='code'><a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a></span> being <span class='code'><span class="code_keyword">float</span></span> will translate to a call to
+<span class='code'><a href="interlockedcompareexchangefloatbitwise-0biqv.html">InterlockedCompareExchangeFloatBitwise</a></span>, which means the comparison is done as a bitwise comparison.
 
 On SPIR-V (Vulkan), this function maps to <span class='code'>OpAtomicCompareExchange</span>.
 

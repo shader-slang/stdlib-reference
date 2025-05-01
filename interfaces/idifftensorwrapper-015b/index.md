@@ -6,12 +6,28 @@ layout: stdlib-reference
 
 ## Methods
 
-* [load\_forward](/stdlib-reference/interfaces/idifftensorwrapper-015b/load_forward)
-* [load\_backward](/stdlib-reference/interfaces/idifftensorwrapper-015b/load_backward)
-* [store\_forward](/stdlib-reference/interfaces/idifftensorwrapper-015b/store_forward)
-* [store\_backward](/stdlib-reference/interfaces/idifftensorwrapper-015b/store_backward)
-* [loadOnce\_forward](/stdlib-reference/interfaces/idifftensorwrapper-015b/loadonce_forward-4)
-* [loadOnce\_backward](/stdlib-reference/interfaces/idifftensorwrapper-015b/loadonce_backward-4)
-* [storeOnce\_forward](/stdlib-reference/interfaces/idifftensorwrapper-015b/storeonce_forward-5)
-* [storeOnce\_backward](/stdlib-reference/interfaces/idifftensorwrapper-015b/storeonce_backward-5)
+* [load\_forward](load_forward)
+* [load\_backward](load_backward)
+* [store\_forward](store_forward)
+* [store\_backward](store_backward)
+* [loadOnce\_forward](loadonce_forward-4)
+* [loadOnce\_backward](loadonce_backward-4)
+* [storeOnce\_forward](storeonce_forward-5)
+* [storeOnce\_backward](storeonce_backward-5)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+loadOnce_backward <loadonce_backward-4>
+loadOnce_forward <loadonce_forward-4>
+load_backward <load_backward>
+load_forward <load_forward>
+storeOnce_backward <storeonce_backward-5>
+storeOnce_forward <storeonce_forward-5>
+store_backward <store_backward>
+store_forward <store_forward>
+```
+RTD-TOC-END -->

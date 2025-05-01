@@ -14,7 +14,7 @@ Barrier for writes to all memory spaces.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/allmemorybarrier-039">AllMemoryBarrier</a>();
+<span class="code_keyword">void</span> <a href="allmemorybarrier-039.html">AllMemoryBarrier</a>();
 
 </pre>
 

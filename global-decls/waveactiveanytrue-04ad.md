@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/waveactiveanytrue-04ad">WaveActiveAnyTrue</a>(<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/waveactiveanytrue-04ad#decl-condition" class="code_param">condition</a>);
+<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.html">WaveActiveAnyTrue</a>(<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.html#decl-condition" class="code_param">condition</a>);
 
 </pre>
 
 ## Parameters
 
-#### condition  : bool {#decl-condition}
+####  <a id="decl-condition"></a>condition  : bool
 
 ## Availability and Requirements
 

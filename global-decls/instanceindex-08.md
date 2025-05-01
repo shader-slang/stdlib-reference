@@ -13,7 +13,7 @@ Returns the index of the current instance in the acceleration structure.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/instanceindex-08">InstanceIndex</a>();
+<span class="code_keyword">uint</span> <a href="instanceindex-08.html">InstanceIndex</a>();
 
 </pre>
 

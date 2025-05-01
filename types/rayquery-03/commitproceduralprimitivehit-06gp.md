@@ -13,14 +13,14 @@ Commit a procedural primitive hit at the specified distance.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/commitproceduralprimitivehit-06gp">CommitProceduralPrimitiveHit</a>(
-    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/rayquery-03/commitproceduralprimitivehit-06gp#decl-t" class="code_param">t</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="commitproceduralprimitivehit-06gp.html">CommitProceduralPrimitiveHit</a>(
+    <span class="code_keyword">float</span> <a href="commitproceduralprimitivehit-06gp.html#decl-t" class="code_param">t</a>);
 
 </pre>
 
 ## Parameters
 
-#### t  : float {#decl-t}
+####  <a id="decl-t"></a>t  : float
 Distance along the ray where the hit occurred
 
 

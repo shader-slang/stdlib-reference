@@ -13,7 +13,7 @@ Returns the type of intersection that was found.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/hitkind-03">HitKind</a>();
+<span class="code_keyword">uint</span> <a href="hitkind-03.html">HitKind</a>();
 
 </pre>
 

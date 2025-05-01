@@ -12,7 +12,7 @@ See the user guide [section on forward-mode differentiation](https://shader-slan
 
 If used on a function that has a definition (i.e. a function body),Slang will use
 automatic-differentiation to generate a forward-mode derivative of this function,
-unless an implementation is provided by the user via <span class='code'>[<a href="/stdlib-reference/attributes/forwardderivative-07">ForwardDerivative</a>(fn)]</span>
+unless an implementation is provided by the user via <span class='code'>[<a href="forwardderivative-07.html">ForwardDerivative</a>(fn)]</span>
 
 If used on an interface requirement, the signature of the requirement is modified to
 include forward-differentiability. Any satisfying method must also be forward-differentiable,
@@ -23,6 +23,6 @@ See the user guide [section on auto-diff for interfaces](https://shader-slang.or
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/forwarddifferentiable-07">ForwardDifferentiable</a>]
+[<a href="forwarddifferentiable-07.html">ForwardDifferentiable</a>]
 </pre>
 

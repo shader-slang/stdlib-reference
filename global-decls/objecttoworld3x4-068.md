@@ -13,7 +13,7 @@ Returns the object-to-world transformation matrix (3x4).
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 3, 4&gt; <a href="/stdlib-reference/global-decls/objecttoworld3x4-068">ObjectToWorld3x4</a>();
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 3, 4&gt; <a href="objecttoworld3x4-068.html">ObjectToWorld3x4</a>();
 
 </pre>
 

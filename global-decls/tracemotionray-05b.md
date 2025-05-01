@@ -13,50 +13,50 @@ Traces a ray with motion blur support through the acceleration structure.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b">TraceMotionRay</a>&lt;<a href="/stdlib-reference/global-decls/tracemotionray-05b#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-RayFlags" class="code_param">RayFlags</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="/stdlib-reference/types/raydesc-03/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-Ray" class="code_param">Ray</a>,
-    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-CurrentTime" class="code_param">CurrentTime</a>,
-    <span class="code_keyword">inout</span> <a href="/stdlib-reference/global-decls/tracemotionray-05b#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/global-decls/tracemotionray-05b#decl-Payload" class="code_param">Payload</a>);
+<span class="code_keyword">void</span> <a href="tracemotionray-05b.html">TraceMotionRay</a>&lt;<a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+    <a href="../types/raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayFlags" class="code_param">RayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="../types/raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracemotionray-05b.html#decl-Ray" class="code_param">Ray</a>,
+    <span class="code_keyword">float</span> <a href="tracemotionray-05b.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <span class="code_keyword">inout</span> <a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="tracemotionray-05b.html#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### payload\_t {#typeparam-payload_t}
+####  <a id="typeparam-payload_t"></a>payload\_t
 
 ## Parameters
 
-#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index) {#decl-AccelerationStructure}
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index)
 The acceleration structure to traverse
 
-#### RayFlags  : uint {#decl-RayFlags}
+####  <a id="decl-RayFlags"></a>RayFlags  : uint
 Flags controlling ray behavior
 
-#### InstanceInclusionMask  : uint {#decl-InstanceInclusionMask}
+####  <a id="decl-InstanceInclusionMask"></a>InstanceInclusionMask  : uint
 Mask for filtering instance visibility
 
-#### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
+####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
 Offset for hit group indexing
 
-#### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
+####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
 Multiplier for geometry-based hit group indexing
 
-#### MissShaderIndex  : uint {#decl-MissShaderIndex}
+####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
 Index of the miss shader to execute if no hit is found
 
-#### Ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-Ray}
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../types/raydesc-03/index)
 Description of the ray to trace
 
-#### CurrentTime  : float {#decl-CurrentTime}
+####  <a id="decl-CurrentTime"></a>CurrentTime  : float
 Time value for motion blur interpolation
 
-#### Payload  : [payload\_t](/stdlib-reference/global-decls/tracemotionray-05b#typeparam-payload_t) {#decl-Payload}
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b#typeparam-payload_t)
 Structure for passing data between shaders
 
 

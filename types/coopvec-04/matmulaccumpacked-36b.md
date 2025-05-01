@@ -13,69 +13,69 @@ Multiply the given input Cooperative vector with the given matrix and accumulate
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b">matMulAccumPacked</a>&lt;<a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-PackedK" class="code_var">PackedK</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-input" class="code_param">input</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-k" class="code_param">k</a>,
-    <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrix" class="code_param">matrix</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrixOffset" class="code_param">matrixOffset</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
-    <a href="/stdlib-reference/types/coopvecmatrixlayout-047d/index" class="code_type">CoopVecMatrixLayout</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-memoryLayout" class="code_param">memoryLayout</a>,
-    <span class="code_keyword">bool</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-transpose" class="code_param">transpose</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrixStride" class="code_param">matrixStride</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#typeparam-U" class="code_type">U</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="matmulaccumpacked-36b.html">matMulAccumPacked</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="matmulaccumpacked-36b.html#decl-input" class="code_param">input</a>,
+    <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccumpacked-36b.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
+    <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-k" class="code_param">k</a>,
+    <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="matmulaccumpacked-36b.html#decl-matrix" class="code_param">matrix</a>,
+    <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
+    <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccumpacked-36b.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
+    <a href="../coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="matmulaccumpacked-36b.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
+    <span class="code_keyword">bool</span> <a href="matmulaccumpacked-36b.html#decl-transpose" class="code_param">transpose</a>,
+    <span class="code_keyword">uint</span> <a href="matmulaccumpacked-36b.html#decl-matrixStride" class="code_param">matrixStride</a>)
+    <span class='code_keyword'>where</span> <a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b">matMulAccumPacked</a>&lt;<a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-PackedK" class="code_var">PackedK</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-input" class="code_param">input</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-k" class="code_param">k</a>,
-    <a href="/stdlib-reference/types/byteaddressbuffer-04b/index" class="code_type">ByteAddressBuffer</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrix" class="code_param">matrix</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrixOffset" class="code_param">matrixOffset</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
-    <a href="/stdlib-reference/types/coopvecmatrixlayout-047d/index" class="code_type">CoopVecMatrixLayout</a> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-memoryLayout" class="code_param">memoryLayout</a>,
-    <span class="code_keyword">bool</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-transpose" class="code_param">transpose</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#decl-matrixStride" class="code_param">matrixStride</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b#typeparam-U" class="code_type">U</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="matmulaccumpacked-36b.html">matMulAccumPacked</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="matmulaccumpacked-36b.html#decl-input" class="code_param">input</a>,
+    <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccumpacked-36b.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
+    <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-k" class="code_param">k</a>,
+    <a href="../byteaddressbuffer-04b/index.html" class="code_type">ByteAddressBuffer</a> <a href="matmulaccumpacked-36b.html#decl-matrix" class="code_param">matrix</a>,
+    <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
+    <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccumpacked-36b.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
+    <a href="../coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="matmulaccumpacked-36b.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
+    <span class="code_keyword">bool</span> <a href="matmulaccumpacked-36b.html#decl-transpose" class="code_param">transpose</a>,
+    <span class="code_keyword">uint</span> <a href="matmulaccumpacked-36b.html#decl-matrixStride" class="code_param">matrixStride</a>)
+    <span class='code_keyword'>where</span> <a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### U: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-U}
-#### PackedK  : int {#decl-PackedK}
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="decl-PackedK"></a>PackedK  : int
 
 ## Parameters
 
-#### input  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<U, PackedK\> {#decl-input}
+####  <a id="decl-input"></a>input  : [CoopVec](index)\<U, PackedK\>
 The input Cooperative vector to multiply with the matrix.
 
-#### inputInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-inputInterpretation}
+####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
 Specifies how to interpret the values in the input vector (e.g. as packed values).
 
-#### k  : int {#decl-k}
+####  <a id="decl-k"></a>k  : int
 The number of columns in the matrix.
 
-#### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
 The matrix buffer to multiply with.
 
-#### matrixOffset  : int {#decl-matrixOffset}
+####  <a id="decl-matrixOffset"></a>matrixOffset  : int
 Byte offset into the matrix buffer.
 
-#### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
 Specifies how to interpret the values in the matrix.
 
-#### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../coopvecmatrixlayout-047d/index)
 Specifies the memory layout of the matrix (row-major or column-major).
 
-#### transpose  : bool {#decl-transpose}
+####  <a id="decl-transpose"></a>transpose  : bool
 Whether to transpose the matrix before multiplication.
 
-#### matrixStride  : uint {#decl-matrixStride}
+####  <a id="decl-matrixStride"></a>matrixStride  : uint
 The stride between matrix rows/columns in bytes.
 
-#### matrix  : [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index) {#decl-matrix}
+####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../byteaddressbuffer-04b/index)
 The matrix buffer to multiply with.
 
 

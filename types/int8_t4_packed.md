@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/int8_t4_packed" class="code_type">int8_t4_packed</a> = <span class="code_keyword">uint</span>;
+<span class='code_keyword'>typealias</span> <a href="int8_t4_packed.html" class="code_type">int8_t4_packed</a> = <span class="code_keyword">uint</span>;
 </pre>
 

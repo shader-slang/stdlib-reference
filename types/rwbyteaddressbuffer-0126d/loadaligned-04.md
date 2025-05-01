@@ -6,33 +6,33 @@ layout: stdlib-reference
 
 ## Description
 
-Load an element with type <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location with alignment of <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a></span>.
+Load an element with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location with alignment of <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04">LoadAligned</a>&lt;<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#decl-location" class="code_param">location</a>);
+<a href="loadaligned-04.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="loadaligned-04.html">LoadAligned</a>&lt;<a href="loadaligned-04.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="loadaligned-04.html#decl-location" class="code_param">location</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
+####  <a id="typeparam-T"></a>T
 
 ## Parameters
 
-#### location  : int {#decl-location}
-The input address in bytes which must be a multiple of size of <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a></span>.
+####  <a id="decl-location"></a>location  : int
+The input address in bytes which must be a multiple of size of <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
 
 
 ## Return value
-T value with type <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a></span> loaded from the buffer.
+T value with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> loaded from the buffer.
 
 ## Remarks
 
-Currently, this function only supports when <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/loadaligned-04#typeparam-T" class="code_type">T</a></span> is scalar, vector, or matrix type.
+Currently, this function only supports when <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> is scalar, vector, or matrix type.
 
 
 ## Availability and Requirements

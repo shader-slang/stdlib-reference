@@ -6,9 +6,9 @@ layout: stdlib-reference
 
 ## Values 
 
-#### _Unknown = 1_ {#decl-Unknown}
-#### _Read = 0_ {#decl-Read}
-#### _Write = 2_ {#decl-Write}
-#### _ReadWrite = 1_ {#decl-ReadWrite}
-#### _RasterizerOrdered = 3_ {#decl-RasterizerOrdered}
-#### _Feedback = 4_ {#decl-Feedback}
+####  <a id="decl-Unknown"></a>_Unknown = 1_
+####  <a id="decl-Read"></a>_Read = 0_
+####  <a id="decl-Write"></a>_Write = 2_
+####  <a id="decl-ReadWrite"></a>_ReadWrite = 1_
+####  <a id="decl-RasterizerOrdered"></a>_RasterizerOrdered = 3_
+####  <a id="decl-Feedback"></a>_Feedback = 4_

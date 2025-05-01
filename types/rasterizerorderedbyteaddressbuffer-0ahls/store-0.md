@@ -13,39 +13,39 @@ Set one value to the buffer at the specified location.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0">Store</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-address" class="code_param">address</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store-0.html">Store</a>(
+    <span class="code_keyword">uint</span> <a href="store-0.html#decl-address" class="code_param">address</a>,
+    <span class="code_keyword">uint</span> <a href="store-0.html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0">Store</a>&lt;<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-address" class="code_param">address</a>,
-    <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store-0.html">Store</a>&lt;<a href="store-0.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="store-0.html#decl-address" class="code_param">address</a>,
+    <a href="store-0.html#typeparam-T" class="code_type">T</a> <a href="store-0.html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0">Store</a>&lt;<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-address" class="code_param">address</a>,
-    <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#decl-alignment" class="code_param">alignment</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store-0.html">Store</a>&lt;<a href="store-0.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="store-0.html#decl-address" class="code_param">address</a>,
+    <a href="store-0.html#typeparam-T" class="code_type">T</a> <a href="store-0.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="store-0.html#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
+####  <a id="typeparam-T"></a>T
 The type of the value to load from the buffer.
 
 
 ## Parameters
 
-#### address  : uint {#decl-address}
+####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of 4.
 
-#### value  : uint {#decl-value}
+####  <a id="decl-value"></a>value  : uint
 The input value.
 
-#### value  : [T](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/store-0#typeparam-T) {#decl-value}
+####  <a id="decl-value"></a>value  : [T](store-0#typeparam-T)
 The input value.
 
-#### alignment  : uint {#decl-alignment}
+####  <a id="decl-alignment"></a>alignment  : uint
 Specifies the alignment of the location, which must be a multiple of 4.
 
 

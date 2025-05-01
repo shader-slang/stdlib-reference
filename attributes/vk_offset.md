@@ -15,10 +15,10 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[vk::offset(<a href="/stdlib-reference/attributes/vk_offset#decl-index" class="code_param">index</a> : <span class="code_keyword">int</span>)]
+[vk::offset(<a href="vk_offset.html#decl-index" class="code_param">index</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
-#### index  : int {#decl-index}
+####  <a id="decl-index"></a>index  : int
 

@@ -6,30 +6,30 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 16-bit floating point atomic add operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 16-bit floating point atomic add operation at <span class='code'><a href="interlockedaddf16-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be">InterlockedAddF16</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">half</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">half</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be#decl-originalValue" class="code_param">originalValue</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf16-0be.html">InterlockedAddF16</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddf16-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">half</span> <a href="interlockedaddf16-0be.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">half</span> <a href="interlockedaddf16-0be.html#decl-originalValue" class="code_param">originalValue</a>);
 
 </pre>
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic add operation.
 
-#### value  : half {#decl-value}
-The value to add to the value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+####  <a id="decl-value"></a>value  : half
+The value to add to the value at <span class='code'><a href="interlockedaddf16-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
-#### originalValue  : half {#decl-originalValue}
-The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+####  <a id="decl-originalValue"></a>originalValue  : half
+The original value at <span class='code'><a href="interlockedaddf16-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 
 
 ## Remarks

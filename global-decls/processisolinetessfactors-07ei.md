@@ -13,20 +13,20 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/processisolinetessfactors-07ei">ProcessIsolineTessFactors</a>(
-    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/processisolinetessfactors-07ei#decl-RawDetailFactor" class="code_param">RawDetailFactor</a>,
-    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/processisolinetessfactors-07ei#decl-RawDensityFactor" class="code_param">RawDensityFactor</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/processisolinetessfactors-07ei#decl-RoundedDetailFactor" class="code_param">RoundedDetailFactor</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/processisolinetessfactors-07ei#decl-RoundedDensityFactor" class="code_param">RoundedDensityFactor</a>);
+<span class="code_keyword">void</span> <a href="processisolinetessfactors-07ei.html">ProcessIsolineTessFactors</a>(
+    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RawDetailFactor" class="code_param">RawDetailFactor</a>,
+    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RawDensityFactor" class="code_param">RawDensityFactor</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RoundedDetailFactor" class="code_param">RoundedDetailFactor</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RoundedDensityFactor" class="code_param">RoundedDensityFactor</a>);
 
 </pre>
 
 ## Parameters
 
-#### RawDetailFactor  : float {#decl-RawDetailFactor}
-#### RawDensityFactor  : float {#decl-RawDensityFactor}
-#### RoundedDetailFactor  : float {#decl-RoundedDetailFactor}
-#### RoundedDensityFactor  : float {#decl-RoundedDensityFactor}
+####  <a id="decl-RawDetailFactor"></a>RawDetailFactor  : float
+####  <a id="decl-RawDensityFactor"></a>RawDensityFactor  : float
+####  <a id="decl-RoundedDetailFactor"></a>RoundedDetailFactor  : float
+####  <a id="decl-RoundedDensityFactor"></a>RoundedDensityFactor  : float
 
 ## Availability and Requirements
 

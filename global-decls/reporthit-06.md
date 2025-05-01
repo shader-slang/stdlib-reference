@@ -13,26 +13,26 @@ Reports a hit from an intersection shader.
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/reporthit-06">ReportHit</a>&lt;<a href="/stdlib-reference/global-decls/reporthit-06#typeparam-A" class="code_type">A</a>&gt;(
-    <span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/reporthit-06#decl-tHit" class="code_param">tHit</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reporthit-06#decl-hitKind" class="code_param">hitKind</a>,
-    <a href="/stdlib-reference/global-decls/reporthit-06#typeparam-A" class="code_type">A</a> <a href="/stdlib-reference/global-decls/reporthit-06#decl-attributes" class="code_param">attributes</a>);
+<span class="code_keyword">bool</span> <a href="reporthit-06.html">ReportHit</a>&lt;<a href="reporthit-06.html#typeparam-A" class="code_type">A</a>&gt;(
+    <span class="code_keyword">float</span> <a href="reporthit-06.html#decl-tHit" class="code_param">tHit</a>,
+    <span class="code_keyword">uint</span> <a href="reporthit-06.html#decl-hitKind" class="code_param">hitKind</a>,
+    <a href="reporthit-06.html#typeparam-A" class="code_type">A</a> <a href="reporthit-06.html#decl-attributes" class="code_param">attributes</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### A {#typeparam-A}
+####  <a id="typeparam-A"></a>A
 
 ## Parameters
 
-#### tHit  : float {#decl-tHit}
+####  <a id="decl-tHit"></a>tHit  : float
 Distance along the ray where the intersection occurred
 
-#### hitKind  : uint {#decl-hitKind}
+####  <a id="decl-hitKind"></a>hitKind  : uint
 User-defined value identifying the type of hit
 
-#### attributes  : [A](/stdlib-reference/global-decls/reporthit-06#typeparam-A) {#decl-attributes}
+####  <a id="decl-attributes"></a>attributes  : [A](reporthit-06#typeparam-A)
 Custom attributes for the intersection
 
 

@@ -13,30 +13,30 @@ Compute the length of a vector.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length">length</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/length#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/length#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>&gt; <a href="length.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="length.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length">length</a>&lt;<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/length#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>&gt;(<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="length.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
-#### N  : int {#decl-N}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The input vector.
 
-#### x  : [T](/stdlib-reference/global-decls/length#typeparam-T) {#decl-x}
+####  <a id="decl-x"></a>x  : [T](length#typeparam-T)
 The input vector.
 
 
 ## Return value
-The length of <span class='code'><a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a></span>.
+The length of <span class='code'><a href="length.html#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

@@ -15,6 +15,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/spv_target_env_1_3">spv_target_env_1_3</a>]
+[<a href="spv_target_env_1_3.html">spv_target_env_1_3</a>]
 </pre>
 

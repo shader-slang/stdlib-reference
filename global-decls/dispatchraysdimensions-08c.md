@@ -13,7 +13,7 @@ Returns the dimensions of the ray dispatch.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="/stdlib-reference/global-decls/dispatchraysdimensions-08c">DispatchRaysDimensions</a>();
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="dispatchraysdimensions-08c.html">DispatchRaysDimensions</a>();
 
 </pre>
 

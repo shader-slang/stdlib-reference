@@ -14,22 +14,22 @@ This function computes the absolute differences of the byte alignments of the re
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/global-decls/msad4">msad4</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/msad4#decl-reference" class="code_param">reference</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/global-decls/msad4#decl-source" class="code_param">source</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/global-decls/msad4#decl-accum" class="code_param">accum</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.html">msad4</a>(
+    <span class="code_keyword">uint</span> <a href="msad4.html#decl-reference" class="code_param">reference</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="msad4.html#decl-source" class="code_param">source</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.html#decl-accum" class="code_param">accum</a>);
 
 </pre>
 
 ## Parameters
 
-#### reference  : uint {#decl-reference}
+####  <a id="decl-reference"></a>reference  : uint
 The reference 4 bytes packed in a uint.
 
-#### source  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-source}
+####  <a id="decl-source"></a>source  : [vector](../types/vector/index)\<uint, 2\>
 The source 2 uints packed in a uint2.
 
-#### accum  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-accum}
+####  <a id="decl-accum"></a>accum  : [vector](../types/vector/index)\<uint, 4\>
 The accumulated differences.
 
 

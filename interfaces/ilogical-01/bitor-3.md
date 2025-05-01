@@ -14,11 +14,11 @@ Performs a bitwise OR operation on this value with another value of the same typ
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/interfaces/ilogical-01/index" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/ilogical-01/index" class="code_type">ILogical</a>.<a href="/stdlib-reference/interfaces/ilogical-01/bitor-3">bitOr</a>(<a href="/stdlib-reference/interfaces/ilogical-01/index" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/ilogical-01/bitor-3#decl-other" class="code_param">other</a>);
+<a href="index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="index.html" class="code_type">ILogical</a>.<a href="bitor-3.html">bitOr</a>(<a href="index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="bitor-3.html#decl-other" class="code_param">other</a>);
 
 </pre>
 
 ## Parameters
 
-#### other  : [ILogical](/stdlib-reference/interfaces/ilogical-01/index)\.This {#decl-other}
+####  <a id="decl-other"></a>other  : [ILogical](index)\.This
 

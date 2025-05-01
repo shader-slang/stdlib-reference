@@ -20,24 +20,24 @@ Where possible, reordering will also attempt to retain locality in the thread429
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/reorderthread-07">ReorderThread</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reorderthread-07#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reorderthread-07#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
+<span class="code_keyword">void</span> <a href="reorderthread-07.html">ReorderThread</a>(
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/reorderthread-07">ReorderThread</a>(
-    <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a> <a href="/stdlib-reference/global-decls/reorderthread-07#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reorderthread-07#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reorderthread-07#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
+<span class="code_keyword">void</span> <a href="reorderthread-07.html">ReorderThread</a>(
+    <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a> <a href="reorderthread-07.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/reorderthread-07">ReorderThread</a>(<a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a> <a href="/stdlib-reference/global-decls/reorderthread-07#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
+<span class="code_keyword">void</span> <a href="reorderthread-07.html">ReorderThread</a>(<a href="../types/hitobject-03/index.html" class="code_type">HitObject</a> <a href="reorderthread-07.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
 
 </pre>
 
 ## Parameters
 
-#### CoherenceHint  : uint {#decl-CoherenceHint}
-#### NumCoherenceHintBitsFromLSB  : uint {#decl-NumCoherenceHintBitsFromLSB}
-#### HitOrMiss  : [HitObject](/stdlib-reference/types/hitobject-03/index) {#decl-HitOrMiss}
+####  <a id="decl-CoherenceHint"></a>CoherenceHint  : uint
+####  <a id="decl-NumCoherenceHintBitsFromLSB"></a>NumCoherenceHintBitsFromLSB  : uint
+####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../types/hitobject-03/index)
 
 ## Availability and Requirements
 

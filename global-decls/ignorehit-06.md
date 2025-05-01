@@ -13,7 +13,7 @@ Ignores the current intersection and continues traversal.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/ignorehit-06">IgnoreHit</a>();
+<span class="code_keyword">void</span> <a href="ignorehit-06.html">IgnoreHit</a>();
 
 </pre>
 

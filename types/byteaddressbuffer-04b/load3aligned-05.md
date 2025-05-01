@@ -14,13 +14,13 @@ of stride of <span class='code'>uint3</span>, which is 12.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="/stdlib-reference/types/byteaddressbuffer-04b/index" class="code_type">ByteAddressBuffer</a>.<a href="/stdlib-reference/types/byteaddressbuffer-04b/load3aligned-05">Load3Aligned</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/types/byteaddressbuffer-04b/load3aligned-05#decl-location" class="code_param">location</a>);
+<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="index.html" class="code_type">ByteAddressBuffer</a>.<a href="load3aligned-05.html">Load3Aligned</a>(<span class="code_keyword">int</span> <a href="load3aligned-05.html#decl-location" class="code_param">location</a>);
 
 </pre>
 
 ## Parameters
 
-#### location  : int {#decl-location}
+####  <a id="decl-location"></a>location  : int
 The input address in bytes which must be a multiple of alignment of 12.
 
 

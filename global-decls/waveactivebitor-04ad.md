@@ -13,28 +13,28 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/waveactivebitor-04ad">WaveActiveBitOr</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactivebitor-04ad.html">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactivebitor-04ad.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitor-04ad">WaveActiveBitOr</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitor-04ad.html">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitor-04ad.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitor-04ad">WaveActiveBitOr</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactivebitor-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitor-04ad.html">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactivebitor-04ad.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactivebitor-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitor-04ad.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### M  : int {#decl-M}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+####  <a id="decl-N"></a>N  : int
+####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-#### expr  : [T](/stdlib-reference/global-decls/waveactivebitor-04ad#typeparam-T) {#decl-expr}
-#### expr  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-expr}
-#### expr  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-expr}
+####  <a id="decl-expr"></a>expr  : [T](waveactivebitor-04ad#typeparam-T)
+####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

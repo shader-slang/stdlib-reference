@@ -13,7 +13,7 @@ Returns the current time value for motion blur.
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/raycurrenttime-03a">RayCurrentTime</a>();
+<span class="code_keyword">float</span> <a href="raycurrenttime-03a.html">RayCurrentTime</a>();
 
 </pre>
 

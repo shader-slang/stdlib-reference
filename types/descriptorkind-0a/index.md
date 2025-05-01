@@ -11,19 +11,19 @@ Represent the kind of a descriptor type.
 
 ## Values 
 
-#### _Unknown = _ {#decl-Unknown}
-#### _Texture = _ {#decl-Texture}
+####  <a id="decl-Unknown"></a>_Unknown = _
+####  <a id="decl-Texture"></a>_Texture = _
 Unknown descriptor kind.
 
-#### _CombinedTextureSampler = _ {#decl-CombinedTextureSampler}
+####  <a id="decl-CombinedTextureSampler"></a>_CombinedTextureSampler = _
 A texture descriptor.
 
-#### _Buffer = _ {#decl-Buffer}
+####  <a id="decl-Buffer"></a>_Buffer = _
 A combined texture and sampler state descriptor.
 
-#### _Sampler = _ {#decl-Sampler}
+####  <a id="decl-Sampler"></a>_Sampler = _
 A buffer descriptor.
 
-#### _AccelerationStructure = _ {#decl-AccelerationStructure}
+####  <a id="decl-AccelerationStructure"></a>_AccelerationStructure = _
 A sampler state descriptor.
 

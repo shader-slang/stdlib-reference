@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct DifferentialPtrPair\<T\>
 
-*Conforms to:* [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index)
+*Conforms to:* [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
 
 > #### Experimental Feature
 > The feature described in this page is marked as experimental, and may be subject to change in future releases.
@@ -12,9 +12,9 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'><a href="/stdlib-reference/types/differentialptrpair-0cf/index" class="code_type">DifferentialPtrPair</a>&lt;<a href="/stdlib-reference/types/differentialptrpair-0cf/index#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
+<span class='code'><a href="index.html" class="code_type">DifferentialPtrPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
 pointer-like object.
-<span class='code'><a href="/stdlib-reference/types/differentialptrpair-0cf/index#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index" class="code_type">IDifferentiablePtrType</a></span>
+<span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="../../interfaces/idifferentiableptrtype-01fi/index.html" class="code_type">IDifferentiablePtrType</a></span>
 
 It is defined as follows:
 ```csharp
@@ -28,17 +28,17 @@ struct DifferentialPtrPair<T : IDifferentiablePtrType> : IDifferentiablePtrType
 
 ## Generic Parameters
 
-#### T: [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
 
-## Properties
+## m_currentPage->path
 
-#### [d](/stdlib-reference/types/differentialptrpair-0cf/d) {#decl-d}
-#### [p](/stdlib-reference/types/differentialptrpair-0cf/p) {#decl-p}
-#### [v](/stdlib-reference/types/differentialptrpair-0cf/v) {#decl-v}
+####  <a id="decl-d"></a>[d](d)
+####  <a id="decl-p"></a>[p](p)
+####  <a id="decl-v"></a>[v](v)
 
 ## Methods
 
-* [init](/stdlib-reference/types/differentialptrpair-0cf/init)
+* [init](init)
 
 ## Remarks
 
@@ -59,3 +59,17 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 
 
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+Differential <differential-0>
+DifferentialElementType <differentialelementtype-0cj>
+d <d>
+init <init>
+p <p>
+v <v>
+```
+RTD-TOC-END -->

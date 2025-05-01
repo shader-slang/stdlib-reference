@@ -13,7 +13,7 @@ Gets the custom index of the instance containing the candidate hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidaterayinstancecustomindex-09ckq">CandidateRayInstanceCustomIndex</a>();
+<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidaterayinstancecustomindex-09ckq.html">CandidateRayInstanceCustomIndex</a>();
 
 </pre>
 

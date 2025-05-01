@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/ptr-0/index" class="code_type">Ptr</a>&lt;<span class="code_keyword">uint</span>[]&gt; <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/getbufferpointer-039">GetBufferPointer</a>();
+<a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">uint</span>[]&gt; <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="getbufferpointer-039.html">GetBufferPointer</a>();
 
 </pre>
 

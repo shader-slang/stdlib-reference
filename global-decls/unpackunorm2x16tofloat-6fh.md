@@ -16,13 +16,13 @@ floating-point value to generate a 2-component vector.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/global-decls/unpackunorm2x16tofloat-6fh">unpackUnorm2x16ToFloat</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/unpackunorm2x16tofloat-6fh#decl-packedValue" class="code_param">packedValue</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="unpackunorm2x16tofloat-6fh.html">unpackUnorm2x16ToFloat</a>(<span class="code_keyword">uint</span> <a href="unpackunorm2x16tofloat-6fh.html#decl-packedValue" class="code_param">packedValue</a>);
 
 </pre>
 
 ## Parameters
 
-#### packedValue  : uint {#decl-packedValue}
+####  <a id="decl-packedValue"></a>packedValue  : uint
 
 ## Availability and Requirements
 

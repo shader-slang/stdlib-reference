@@ -4,23 +4,34 @@ layout: stdlib-reference
 
 # extension T : ITexelElement
 
-*Conforms to:* [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
+*Conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index)
 
-*Conditionally conforms to:* [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
+*Conditionally conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index)
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
 
 ## Fields
 
-#### [elementCount](/stdlib-reference/types/t-0/elementcount-7) : int = 1 {#decl-elementCount}
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7) : int = 1
 
 ## Methods
 
-* [init](/stdlib-reference/types/t-0/init)
+* [init](init)
 
 ## Conditional Conformances
 
 ### Conformance to ITexelElement
 `<T>` additionally conforms to `ITexelElement`.
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+Element <element-0>
+elementCount <elementcount-7>
+init <init>
+```
+RTD-TOC-END -->

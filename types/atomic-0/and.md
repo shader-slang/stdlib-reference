@@ -16,15 +16,15 @@ stored value.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/atomic-0/index" class="code_type">Atomic</a>&lt;<a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/atomic-0/and">and</a>(
-    <a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/atomic-0/and#decl-value" class="code_param">value</a>,
-    <a href="/stdlib-reference/types/memoryorder-06/index" class="code_type">MemoryOrder</a> <a href="/stdlib-reference/types/atomic-0/and#decl-order" class="code_param">order</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/atomic-0/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/ibitatomicable-014/index" class="code_type">IBitAtomicable</a>;
+<a href="index.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">Atomic</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="and.html">and</a>(
+    <a href="index.html#typeparam-T" class="code_type">T</a> <a href="and.html#decl-value" class="code_param">value</a>,
+    <a href="../memoryorder-06/index.html" class="code_type">MemoryOrder</a> <a href="and.html#decl-order" class="code_param">order</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/ibitatomicable-014/index.html" class="code_type">IBitAtomicable</a>;
 
 </pre>
 
 ## Parameters
 
-#### value  : [T](/stdlib-reference/types/atomic-0/index#typeparam-T) {#decl-value}
-#### order  : [MemoryOrder](/stdlib-reference/types/memoryorder-06/index) = [MemoryOrder](/stdlib-reference/types/memoryorder-06/index)\.[Relaxed](/stdlib-reference/types/memoryorder-06/index#decl-Relaxed) {#decl-order}
+####  <a id="decl-value"></a>value  : [T](index#typeparam-T)
+####  <a id="decl-order"></a>order  : [MemoryOrder](../memoryorder-06/index) = [MemoryOrder](../memoryorder-06/index)\.[Relaxed](../memoryorder-06/index#decl-Relaxed)
 

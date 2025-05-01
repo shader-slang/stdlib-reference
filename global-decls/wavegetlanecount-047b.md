@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/wavegetlanecount-047b">WaveGetLaneCount</a>();
+<span class="code_keyword">uint</span> <a href="wavegetlanecount-047b.html">WaveGetLaneCount</a>();
 
 </pre>
 

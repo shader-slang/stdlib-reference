@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/ishelperlane-028">IsHelperLane</a>();
+<span class="code_keyword">bool</span> <a href="ishelperlane-028.html">IsHelperLane</a>();
 
 </pre>
 

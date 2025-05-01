@@ -6,34 +6,34 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 32-bit floating point atomic add operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 32-bit floating point atomic add operation at <span class='code'><a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be">InterlockedAddF32</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-valueToAdd" class="code_param">valueToAdd</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-originalValue" class="code_param">originalValue</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf32-0be.html">InterlockedAddF32</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">float</span> <a href="interlockedaddf32-0be.html#decl-valueToAdd" class="code_param">valueToAdd</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="interlockedaddf32-0be.html#decl-originalValue" class="code_param">originalValue</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be">InterlockedAddF32</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-valueToAdd" class="code_param">valueToAdd</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf32-0be.html">InterlockedAddF32</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">float</span> <a href="interlockedaddf32-0be.html#decl-valueToAdd" class="code_param">valueToAdd</a>);
 
 </pre>
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic add operation.
 
-#### valueToAdd  : float {#decl-valueToAdd}
-The value to add to the value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+####  <a id="decl-valueToAdd"></a>valueToAdd  : float
+The value to add to the value at <span class='code'><a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
-#### originalValue  : float {#decl-originalValue}
-The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+####  <a id="decl-originalValue"></a>originalValue  : float
+The original value at <span class='code'><a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 
 
 ## Remarks

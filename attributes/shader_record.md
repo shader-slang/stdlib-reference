@@ -12,6 +12,6 @@ Mark a global variable as a Vulkan shader record.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/shader_record">shader_record</a>]
+[<a href="shader_record.html">shader_record</a>]
 </pre>
 

@@ -10,10 +10,10 @@ Specifies the memory layout for matrices used in cooperative vector operations.
 
 ## Values 
 
-#### _RowMajor = _ {#decl-RowMajor}
-#### _ColumnMajor = _ {#decl-ColumnMajor}
-#### _InferencingOptimal = _ {#decl-InferencingOptimal}
-#### _TrainingOptimal = _ {#decl-TrainingOptimal}
+####  <a id="decl-RowMajor"></a>_RowMajor = _
+####  <a id="decl-ColumnMajor"></a>_ColumnMajor = _
+####  <a id="decl-InferencingOptimal"></a>_InferencingOptimal = _
+####  <a id="decl-TrainingOptimal"></a>_TrainingOptimal = _
 ## Remarks
 
 This enum defines different matrix layout options that affect how matrix data is stored and accessed,

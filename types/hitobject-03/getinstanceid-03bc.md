@@ -14,7 +14,7 @@ Returns the instance ID of a hit. Valid if the hit object represents a hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/getinstanceid-03bc">GetInstanceID</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="getinstanceid-03bc.html">GetInstanceID</a>();
 
 </pre>
 

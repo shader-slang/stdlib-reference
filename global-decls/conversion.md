@@ -5,27 +5,47 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [asdouble](/stdlib-reference/global-decls/asdouble)
+#### [asdouble](asdouble)
 
-#### [asfloat](/stdlib-reference/global-decls/asfloat)
+#### [asfloat](asfloat)
 
-#### [asfloat16](/stdlib-reference/global-decls/asfloat16)
+#### [asfloat16](asfloat16)
 
-#### [asint](/stdlib-reference/global-decls/asint)
+#### [asint](asint)
 
-#### [asint16](/stdlib-reference/global-decls/asint16)
+#### [asint16](asint16)
 
-#### [asuint](/stdlib-reference/global-decls/asuint)
+#### [asuint](asuint)
 
-#### [asuint16](/stdlib-reference/global-decls/asuint16)
+#### [asuint16](asuint16)
 
-#### [bit\_cast\<T, U\>](/stdlib-reference/global-decls/bit_cast)
+#### [bit\_cast\<T, U\>](bit_cast)
 
-#### [f16tof32](/stdlib-reference/global-decls/f16tof32)
+#### [f16tof32](f16tof32)
 
-#### [f32tof16](/stdlib-reference/global-decls/f32tof16)
+#### [f32tof16](f32tof16)
 
-#### [f32tof16\_](/stdlib-reference/global-decls/f32tof16_)
+#### [f32tof16\_](f32tof16_)
 
-#### [reinterpret\<T, U\>](/stdlib-reference/global-decls/reinterpret)
+#### [reinterpret\<T, U\>](reinterpret)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+asdouble <asdouble>
+asfloat <asfloat>
+asfloat16 <asfloat16>
+asint <asint>
+asint16 <asint16>
+asuint <asuint>
+asuint16 <asuint16>
+bit_cast <bit_cast>
+f16tof32 <f16tof32>
+f32tof16 <f32tof16>
+f32tof16_ <f32tof16_>
+reinterpret <reinterpret>
+```
+RTD-TOC-END -->

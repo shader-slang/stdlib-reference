@@ -14,14 +14,14 @@ of <span class='code'>uint2</span>, which is 8.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/load2aligned-05">Load2Aligned</a>(
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/load2aligned-05#decl-location" class="code_param">location</a>);
+<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="load2aligned-05.html">Load2Aligned</a>(
+    <span class="code_keyword">int</span> <a href="load2aligned-05.html#decl-location" class="code_param">location</a>);
 
 </pre>
 
 ## Parameters
 
-#### location  : int {#decl-location}
+####  <a id="decl-location"></a>location  : int
 The input address in bytes, which must be a multiple of alignment of 8.
 
 

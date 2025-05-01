@@ -13,6 +13,6 @@ This attribute has no effect on targets other than HLSL.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/call">call</a>]
+[<a href="call.html">call</a>]
 </pre>
 

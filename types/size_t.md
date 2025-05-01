@@ -11,6 +11,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/size_t" class="code_type">size_t</a> = uintptr_t;
+<span class='code_keyword'>typealias</span> <a href="size_t.html" class="code_type">size_t</a> = uintptr_t;
 </pre>
 

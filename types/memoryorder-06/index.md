@@ -10,18 +10,18 @@ layout: stdlib-reference
 
 ## Values 
 
-#### _Relaxed = 0_ {#decl-Relaxed}
+####  <a id="decl-Relaxed"></a>_Relaxed = 0_
 No memory operation ordering constraints
 
-#### _Acquire = 1_ {#decl-Acquire}
+####  <a id="decl-Acquire"></a>_Acquire = 1_
 Ensures that all subsequent memory operations in the same thread are not reordered before it
 
-#### _Release = 2_ {#decl-Release}
+####  <a id="decl-Release"></a>_Release = 2_
 Ensures that all prior memory operations in the same thread are not reordered after it
 
-#### _AcquireRelease = 3_ {#decl-AcquireRelease}
+####  <a id="decl-AcquireRelease"></a>_AcquireRelease = 3_
 Combines both acquire and release semantics
 
-#### _SeqCst = 4_ {#decl-SeqCst}
+####  <a id="decl-SeqCst"></a>_SeqCst = 4_
 Provides the strongest ordering: total order exists between all SeqCst operations
 

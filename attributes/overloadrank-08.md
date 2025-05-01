@@ -16,6 +16,6 @@ Specify the overload rank of a function for overload resolution.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/overloadrank-08">OverloadRank</a>]
+[<a href="overloadrank-08.html">OverloadRank</a>]
 </pre>
 

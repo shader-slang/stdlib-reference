@@ -13,28 +13,28 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/waveprefixsum-04a">WavePrefixSum</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a> <a href="waveprefixsum-04a.html">WavePrefixSum</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>&gt;(<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a> <a href="waveprefixsum-04a.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/waveprefixsum-04a">WavePrefixSum</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixsum-04a.html#decl-N" class="code_var">N</a>&gt; <a href="waveprefixsum-04a.html">WavePrefixSum</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixsum-04a.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixsum-04a.html#decl-N" class="code_var">N</a>&gt; <a href="waveprefixsum-04a.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/waveprefixsum-04a">WavePrefixSum</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/waveprefixsum-04a#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixsum-04a.html#decl-N" class="code_var">N</a>, <a href="waveprefixsum-04a.html#decl-M" class="code_var">M</a>&gt; <a href="waveprefixsum-04a.html">WavePrefixSum</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixsum-04a.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveprefixsum-04a.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixsum-04a.html#decl-N" class="code_var">N</a>, <a href="waveprefixsum-04a.html#decl-M" class="code_var">M</a>&gt; <a href="waveprefixsum-04a.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveprefixsum-04a.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### M  : int {#decl-M}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="decl-N"></a>N  : int
+####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-#### expr  : [T](/stdlib-reference/global-decls/waveprefixsum-04a#typeparam-T) {#decl-expr}
-#### expr  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-expr}
-#### expr  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-expr}
+####  <a id="decl-expr"></a>expr  : [T](waveprefixsum-04a#typeparam-T)
+####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

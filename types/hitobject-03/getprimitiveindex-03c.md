@@ -14,7 +14,7 @@ Returns the primitive index of a hit. Valid if the hit object represents a hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/getprimitiveindex-03c">GetPrimitiveIndex</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="getprimitiveindex-03c.html">GetPrimitiveIndex</a>();
 
 </pre>
 

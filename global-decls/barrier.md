@@ -5,15 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AllMemoryBarrier](/stdlib-reference/global-decls/allmemorybarrier-039)
+#### [AllMemoryBarrier](allmemorybarrier-039)
 
-#### [AllMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/allmemorybarrierwithgroupsync-039gkp)
+#### [AllMemoryBarrierWithGroupSync](allmemorybarrierwithgroupsync-039gkp)
 
-#### [DeviceMemoryBarrier](/stdlib-reference/global-decls/devicememorybarrier-06c)
+#### [DeviceMemoryBarrier](devicememorybarrier-06c)
 
-#### [DeviceMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/devicememorybarrierwithgroupsync-06cjns)
+#### [DeviceMemoryBarrierWithGroupSync](devicememorybarrierwithgroupsync-06cjns)
 
-#### [GroupMemoryBarrier](/stdlib-reference/global-decls/groupmemorybarrier-05b)
+#### [GroupMemoryBarrier](groupmemorybarrier-05b)
 
-#### [GroupMemoryBarrierWithGroupSync](/stdlib-reference/global-decls/groupmemorybarrierwithgroupsync-05bimr)
+#### [GroupMemoryBarrierWithGroupSync](groupmemorybarrierwithgroupsync-05bimr)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+AllMemoryBarrier <allmemorybarrier-039>
+AllMemoryBarrierWithGroupSync <allmemorybarrierwithgroupsync-039gkp>
+DeviceMemoryBarrier <devicememorybarrier-06c>
+DeviceMemoryBarrierWithGroupSync <devicememorybarrierwithgroupsync-06cjns>
+GroupMemoryBarrier <groupmemorybarrier-05b>
+GroupMemoryBarrierWithGroupSync <groupmemorybarrierwithgroupsync-05bimr>
+```
+RTD-TOC-END -->

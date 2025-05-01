@@ -7,10 +7,10 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/derivativemember-0a">DerivativeMember</a>(<a href="/stdlib-reference/attributes/derivativemember-0a#decl-memberName" class="code_param">memberName</a>)]
+[<a href="derivativemember-0a.html">DerivativeMember</a>(<a href="derivativemember-0a.html#decl-memberName" class="code_param">memberName</a>)]
 </pre>
 
 ## Parameters
 
-#### memberName {#decl-memberName}
+####  <a id="decl-memberName"></a>memberName
 

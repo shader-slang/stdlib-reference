@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface \_\_BuiltinIntegerType
 
-*Inherits from:* [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index), [IInteger](/stdlib-reference/interfaces/iinteger-01/index)
+*Inherits from:* [\_\_BuiltinArithmeticType](../0_builtinarithmetictype-029j/index), [IInteger](../iinteger-01/index)
 
 ## Description
 

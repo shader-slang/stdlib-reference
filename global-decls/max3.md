@@ -13,43 +13,43 @@ Maximum of 3 inputs.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3">max3</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3#decl-y" class="code_param">y</a>,
-    <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/max3#decl-z" class="code_param">z</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="max3.html#typeparam-T" class="code_type">T</a> <a href="max3.html">max3</a>&lt;<a href="max3.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="max3.html#typeparam-T" class="code_type">T</a> <a href="max3.html#decl-x" class="code_param">x</a>,
+    <a href="max3.html#typeparam-T" class="code_type">T</a> <a href="max3.html#decl-y" class="code_param">y</a>,
+    <a href="max3.html#typeparam-T" class="code_type">T</a> <a href="max3.html#decl-z" class="code_param">z</a>)
+    <span class='code_keyword'>where</span> <a href="max3.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/max3#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3">max3</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/max3#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/max3#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/max3#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3#decl-y" class="code_param">y</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/max3#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/max3#decl-z" class="code_param">z</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/max3#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max3.html#typeparam-T" class="code_type">T</a>, <a href="max3.html#decl-N" class="code_var">N</a>&gt; <a href="max3.html">max3</a>&lt;<a href="max3.html#typeparam-T" class="code_type">T</a>, <a href="max3.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max3.html#typeparam-T" class="code_type">T</a>, <a href="max3.html#decl-N" class="code_var">N</a>&gt; <a href="max3.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max3.html#typeparam-T" class="code_type">T</a>, <a href="max3.html#decl-N" class="code_var">N</a>&gt; <a href="max3.html#decl-y" class="code_param">y</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max3.html#typeparam-T" class="code_type">T</a>, <a href="max3.html#decl-N" class="code_var">N</a>&gt; <a href="max3.html#decl-z" class="code_param">z</a>)
+    <span class='code_keyword'>where</span> <a href="max3.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
-#### N  : int {#decl-N}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-#### x  : [T](/stdlib-reference/global-decls/max3#typeparam-T) {#decl-x}
+####  <a id="decl-x"></a>x  : [T](max3#typeparam-T)
 The first value to compare.
 
-#### y  : [T](/stdlib-reference/global-decls/max3#typeparam-T) {#decl-y}
+####  <a id="decl-y"></a>y  : [T](max3#typeparam-T)
 The second value to compare.
 
-#### z  : [T](/stdlib-reference/global-decls/max3#typeparam-T) {#decl-z}
+####  <a id="decl-z"></a>z  : [T](max3#typeparam-T)
 The third value to compare.
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The first value to compare.
 
-#### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The second value to compare.
 
-#### z  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-z}
+####  <a id="decl-z"></a>z  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The third value to compare.
 
 

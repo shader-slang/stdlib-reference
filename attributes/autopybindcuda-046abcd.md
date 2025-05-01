@@ -16,6 +16,6 @@ Mark a function for automatic pytorch binding.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/autopybindcuda-046abcd">AutoPyBindCUDA</a>]
+[<a href="autopybindcuda-046abcd.html">AutoPyBindCUDA</a>]
 </pre>
 

@@ -14,11 +14,11 @@ Given a string returns an integer hash of that string.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/getstringhash-39">getStringHash</a>(<a href="/stdlib-reference/types/string-0/index" class="code_type">String</a> <a href="/stdlib-reference/global-decls/getstringhash-39#decl-string" class="code_param">string</a>);
+<span class="code_keyword">int</span> <a href="getstringhash-39.html">getStringHash</a>(<a href="../types/string-0/index.html" class="code_type">String</a> <a href="getstringhash-39.html#decl-string" class="code_param">string</a>);
 
 </pre>
 
 ## Parameters
 
-#### string  : [String](/stdlib-reference/types/string-0/index) {#decl-string}
+####  <a id="decl-string"></a>string  : [String](../types/string-0/index)
 

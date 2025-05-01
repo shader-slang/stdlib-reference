@@ -16,6 +16,6 @@ Mark a function for export as a CUDA host function. Valid only on CUDA target.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/cudahost-01234">CUDAHost</a>]
+[<a href="cudahost-01234.html">CUDAHost</a>]
 </pre>
 

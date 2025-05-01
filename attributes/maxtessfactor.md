@@ -11,12 +11,12 @@ Used on an hull shader entrypoint to declare the upperbound of the tessellation 
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/maxtessfactor">maxtessfactor</a>(<a href="/stdlib-reference/attributes/maxtessfactor#decl-factor" class="code_param">factor</a> : <span class="code_keyword">float</span>)]
+[<a href="maxtessfactor.html">maxtessfactor</a>(<a href="maxtessfactor.html#decl-factor" class="code_param">factor</a> : <span class="code_keyword">float</span>)]
 </pre>
 
 ## Parameters
 
-#### factor  : float {#decl-factor}
+####  <a id="decl-factor"></a>factor  : float
 The maximum tessellation factor the hull shader can return.
 
 

@@ -6,25 +6,25 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit unsigned integer atomic add operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddu64-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit unsigned integer atomic add operation at <span class='code'><a href="interlockedaddu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-uint64_t <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddu64-0be">InterlockedAddU64</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddu64-0be#decl-byteAddress" class="code_param">byteAddress</a>,
-    uint64_t <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddu64-0be#decl-value" class="code_param">value</a>);
+uint64_t <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddu64-0be.html">InterlockedAddU64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    uint64_t <a href="interlockedaddu64-0be.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic add operation.
 
-#### value  : uint64\_t {#decl-value}
+####  <a id="decl-value"></a>value  : uint64\_t
 The operand for the add operation.
 
 

@@ -14,11 +14,11 @@ Shifts the bits of this value to the left by the specified number of positions.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/interfaces/ilogical-01/index" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/ilogical-01/index" class="code_type">ILogical</a>.<a href="/stdlib-reference/interfaces/ilogical-01/shl">shl</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/interfaces/ilogical-01/shl#decl-value" class="code_param">value</a>);
+<a href="index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="index.html" class="code_type">ILogical</a>.<a href="shl.html">shl</a>(<span class="code_keyword">int</span> <a href="shl.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-#### value  : int {#decl-value}
+####  <a id="decl-value"></a>value  : int
 

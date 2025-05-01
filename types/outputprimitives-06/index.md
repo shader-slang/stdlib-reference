@@ -10,10 +10,19 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
-#### MAX\_PRIMITIVES  : uint {#decl-MAX_PRIMITIVES}
+####  <a id="typeparam-T"></a>T
+####  <a id="decl-MAX_PRIMITIVES"></a>MAX\_PRIMITIVES  : uint
 
 ## Methods
 
-* [subscript](/stdlib-reference/types/outputprimitives-06/subscript)
+* [subscript](subscript)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+subscript <subscript>
+```
+RTD-TOC-END -->

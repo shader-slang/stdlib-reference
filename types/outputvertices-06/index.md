@@ -10,12 +10,23 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
-#### MAX\_VERTS  : uint {#decl-MAX_VERTS}
+####  <a id="typeparam-T"></a>T
+####  <a id="decl-MAX_VERTS"></a>MAX\_VERTS  : uint
 
 ## Methods
 
-* [\_metalSetVertex](/stdlib-reference/types/outputvertices-06/0metalsetvertex-069)
-* [\_setVertex](/stdlib-reference/types/outputvertices-06/0setvertex-04)
-* [subscript](/stdlib-reference/types/outputvertices-06/subscript)
+* [\_metalSetVertex](0metalsetvertex-069)
+* [\_setVertex](0setvertex-04)
+* [subscript](subscript)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+_metalSetVertex <0metalsetvertex-069>
+_setVertex <0setvertex-04>
+subscript <subscript>
+```
+RTD-TOC-END -->

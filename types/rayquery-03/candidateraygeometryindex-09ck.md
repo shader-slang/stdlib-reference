@@ -13,7 +13,7 @@ Gets the geometry index for the candidate hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/candidateraygeometryindex-09ck">CandidateRayGeometryIndex</a>();
+<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidateraygeometryindex-09ck.html">CandidateRayGeometryIndex</a>();
 
 </pre>
 

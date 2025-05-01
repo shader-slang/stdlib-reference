@@ -11,12 +11,12 @@ Used on a hull shader entrypoint to specify the associated function that compute
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/patchconstantfunc">patchconstantfunc</a>(<a href="/stdlib-reference/attributes/patchconstantfunc#decl-name" class="code_param">name</a>)]
+[<a href="patchconstantfunc.html">patchconstantfunc</a>(<a href="patchconstantfunc.html#decl-name" class="code_param">name</a>)]
 </pre>
 
 ## Parameters
 
-#### name {#decl-name}
+####  <a id="decl-name"></a>name
 The name of the function (in string literal) that computes the patch constant data.
 
 

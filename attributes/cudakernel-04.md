@@ -16,6 +16,6 @@ Mark a function for export as a CUDA kernel function. Valid only on CUDA target.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/cudakernel-04">CudaKernel</a>]
+[<a href="cudakernel-04.html">CudaKernel</a>]
 </pre>
 

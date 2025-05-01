@@ -11,12 +11,12 @@ Used on an hull shader entrypoint to declare the number of control points the hu
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/outputcontrolpoints">outputcontrolpoints</a>(<a href="/stdlib-reference/attributes/outputcontrolpoints#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href="outputcontrolpoints.html">outputcontrolpoints</a>(<a href="outputcontrolpoints.html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
-#### count  : int {#decl-count}
+####  <a id="decl-count"></a>count  : int
 The number of control points the hull shader will produce per thread.
 
 

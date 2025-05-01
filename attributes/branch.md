@@ -12,6 +12,6 @@ A hint to the downstream compiler to preserve the branching behavior of an if st
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/branch">branch</a>]
+[<a href="branch.html">branch</a>]
 </pre>
 

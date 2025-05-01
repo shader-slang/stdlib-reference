@@ -13,7 +13,7 @@ Returns the index of the current primitive within its geometry.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/primitiveindex-09">PrimitiveIndex</a>();
+<span class="code_keyword">uint</span> <a href="primitiveindex-09.html">PrimitiveIndex</a>();
 
 </pre>
 

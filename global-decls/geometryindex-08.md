@@ -13,7 +13,7 @@ Returns the index of the geometry that was hit in an intersection, any-hit, or c
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/geometryindex-08">GeometryIndex</a>();
+<span class="code_keyword">uint</span> <a href="geometryindex-08.html">GeometryIndex</a>();
 
 </pre>
 

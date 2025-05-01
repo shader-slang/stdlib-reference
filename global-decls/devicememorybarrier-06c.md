@@ -14,7 +14,7 @@ Barrier for device memory.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/devicememorybarrier-06c">DeviceMemoryBarrier</a>();
+<span class="code_keyword">void</span> <a href="devicememorybarrier-06c.html">DeviceMemoryBarrier</a>();
 
 </pre>
 

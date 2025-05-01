@@ -14,51 +14,51 @@ Accumulate the sum of a cooperative vector into a buffer at the specified offset
 
 <pre>
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg">coopVecReduceSumAccumulate</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-v" class="code_param">v</a>,
-    <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-buffer" class="code_param">buffer</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-offset" class="code_param">offset</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="coopvecreducesumaccumulate-47dg.html">coopVecReduceSumAccumulate</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-v" class="code_param">v</a>,
+    <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>,
+    <span class="code_keyword">int</span> <a href="coopvecreducesumaccumulate-47dg.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg">coopVecReduceSumAccumulate</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-v" class="code_param">v</a>,
-    <a href="/stdlib-reference/types/rwstructuredbuffer-012c/index" class="code_type">RWStructuredBuffer</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="/stdlib-reference/types/defaultdatalayout-07b/index" class="code_type">DefaultDataLayout</a>&gt; <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-buffer" class="code_param">buffer</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-offset" class="code_param">offset</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="coopvecreducesumaccumulate-47dg.html">coopVecReduceSumAccumulate</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="coopvecreducesumaccumulate-47dg.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-v" class="code_param">v</a>,
+    <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>,
+    <span class="code_keyword">int</span> <a href="coopvecreducesumaccumulate-47dg.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg">coopVecReduceSumAccumulate</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-v" class="code_param">v</a>,
-    <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-U" class="code_type">U</a>[<a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>] <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-buffer" class="code_param">buffer</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-offset" class="code_param">offset</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="coopvecreducesumaccumulate-47dg.html">coopVecReduceSumAccumulate</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="coopvecreducesumaccumulate-47dg.html#typeparam-U" class="code_type">U</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-v" class="code_param">v</a>,
+    <a href="coopvecreducesumaccumulate-47dg.html#typeparam-U" class="code_type">U</a>[<a href="coopvecreducesumaccumulate-47dg.html#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>] <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>,
+    <span class="code_keyword">int</span> <a href="coopvecreducesumaccumulate-47dg.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### IgnoredBufferElementType {#typeparam-IgnoredBufferElementType}
-#### U {#typeparam-U}
-#### IgnoredBufferSize  : int {#decl-IgnoredBufferSize}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="decl-N"></a>N  : int
+####  <a id="typeparam-IgnoredBufferElementType"></a>IgnoredBufferElementType
+####  <a id="typeparam-U"></a>U
+####  <a id="decl-IgnoredBufferSize"></a>IgnoredBufferSize  : int
 
 ## Parameters
 
-#### v  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-v}
+####  <a id="decl-v"></a>v  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
 The cooperative vector to sum.
 
-#### buffer  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-buffer}
+####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
 The buffer to accumulate the sum into.
 
-#### offset  : int {#decl-offset}
+####  <a id="decl-offset"></a>offset  : int
 Byte offset into the buffer.
 
-#### buffer  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-buffer}
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
 The buffer to accumulate the sum into.
 
-#### buffer  : [U](/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#typeparam-U) \[ [IgnoredBufferSize](/stdlib-reference/global-decls/coopvecreducesumaccumulate-47dg#decl-IgnoredBufferSize) \] {#decl-buffer}
+####  <a id="decl-buffer"></a>buffer  : [U](coopvecreducesumaccumulate-47dg#typeparam-U) \[ [IgnoredBufferSize](coopvecreducesumaccumulate-47dg#decl-IgnoredBufferSize) \]
 The buffer to accumulate the sum into.
 
 

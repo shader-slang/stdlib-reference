@@ -8,13 +8,25 @@ layout: stdlib-reference
 
 
 
-## Properties
+## m_currentPage->path
 
-#### [length](/stdlib-reference/types/nativestring-06/length) {#decl-length}
+####  <a id="decl-length"></a>[length](length)
 
 ## Methods
 
-* [getLength](/stdlib-reference/types/nativestring-06/getlength-3)
-* [getBuffer](/stdlib-reference/types/nativestring-06/getbuffer-3)
-* [init](/stdlib-reference/types/nativestring-06/init)
+* [getLength](getlength-3)
+* [getBuffer](getbuffer-3)
+* [init](init)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+getBuffer <getbuffer-3>
+getLength <getlength-3>
+init <init>
+length <length>
+```
+RTD-TOC-END -->

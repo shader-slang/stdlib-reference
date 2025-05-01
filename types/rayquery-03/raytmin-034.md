@@ -13,7 +13,7 @@ Gets the minimum valid distance along the ray.
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/raytmin-034">RayTMin</a>();
+<span class="code_keyword">float</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="raytmin-034.html">RayTMin</a>();
 
 </pre>
 

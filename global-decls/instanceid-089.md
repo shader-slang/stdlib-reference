@@ -13,7 +13,7 @@ Returns the user-provided ID of the current instance.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/instanceid-089">InstanceID</a>();
+<span class="code_keyword">uint</span> <a href="instanceid-089.html">InstanceID</a>();
 
 </pre>
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/synctorchcudastream-49d">syncTorchCudaStream</a>();
+<span class="code_keyword">void</span> <a href="synctorchcudastream-49d.html">syncTorchCudaStream</a>();
 
 </pre>
 

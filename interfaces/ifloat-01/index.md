@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IFloat
 
-*Inherits from:* [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index), [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+*Inherits from:* [IArithmetic](../iarithmetic-01/index), [IDifferentiable](../idifferentiable-01/index)
 
 ## Description
 
@@ -12,20 +12,20 @@ Represents a type that can be used for floating point arithmetic operations.
 
 Implemented by builtin scalar types: <span class='code'><span class="code_keyword">float</span></span>, <span class='code'><span class="code_keyword">half</span></span>, <span class='code'><span class="code_keyword">double</span></span>.
 
-Also implemented by <span class='code'><a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
+Also implemented by <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
 
 
 ## Methods
 
-* [toFloat](/stdlib-reference/interfaces/ifloat-01/tofloat-2)
-* [add](/stdlib-reference/interfaces/ifloat-01/add)
-* [sub](/stdlib-reference/interfaces/ifloat-01/sub)
-* [mul](/stdlib-reference/interfaces/ifloat-01/mul)
-* [div](/stdlib-reference/interfaces/ifloat-01/div)
-* [mod](/stdlib-reference/interfaces/ifloat-01/mod)
-* [neg](/stdlib-reference/interfaces/ifloat-01/neg)
-* [init](/stdlib-reference/interfaces/ifloat-01/init)
-* [scale](/stdlib-reference/interfaces/ifloat-01/scale)
+* [toFloat](tofloat-2)
+* [add](add)
+* [sub](sub)
+* [mul](mul)
+* [div](div)
+* [mod](mod)
+* [neg](neg)
+* [init](init)
+* [scale](scale)
 
 ## Remarks
 
@@ -58,3 +58,20 @@ void test()
 ```
 
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+add <add>
+div <div>
+init <init>
+mod <mod>
+mul <mul>
+neg <neg>
+scale <scale>
+sub <sub>
+toFloat <tofloat-2>
+```
+RTD-TOC-END -->

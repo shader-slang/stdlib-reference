@@ -13,6 +13,6 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/requirefullquads-07b">RequireFullQuads</a>]
+[<a href="requirefullquads-07b.html">RequireFullQuads</a>]
 </pre>
 

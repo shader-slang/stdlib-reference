@@ -14,77 +14,77 @@ Accumulate the outer product of two cooperative vectors into a matrix.
 
 <pre>
 /// Requires Capability Set 1:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj">coopVecOuterProductAccumulate</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-a" class="code_param">a</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-b" class="code_param">b</a>,
-    <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrix" class="code_param">matrix</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixOffset" class="code_param">matrixOffset</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixStride" class="code_param">matrixStride</a>,
-    <a href="/stdlib-reference/types/coopvecmatrixlayout-047d/index" class="code_type">CoopVecMatrixLayout</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-memoryLayout" class="code_param">memoryLayout</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="coopvecouterproductaccumulate-47cj.html">coopVecOuterProductAccumulate</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="coopvecouterproductaccumulate-47cj.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-a" class="code_param">a</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-b" class="code_param">b</a>,
+    <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrix" class="code_param">matrix</a>,
+    <span class="code_keyword">int</span> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
+    <span class="code_keyword">uint</span> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixStride" class="code_param">matrixStride</a>,
+    <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
+    <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj">coopVecOuterProductAccumulate</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-a" class="code_param">a</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-b" class="code_param">b</a>,
-    <a href="/stdlib-reference/types/rwstructuredbuffer-012c/index" class="code_type">RWStructuredBuffer</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="/stdlib-reference/types/defaultdatalayout-07b/index" class="code_type">DefaultDataLayout</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrix" class="code_param">matrix</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixOffset" class="code_param">matrixOffset</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixStride" class="code_param">matrixStride</a>,
-    <a href="/stdlib-reference/types/coopvecmatrixlayout-047d/index" class="code_type">CoopVecMatrixLayout</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-memoryLayout" class="code_param">memoryLayout</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="coopvecouterproductaccumulate-47cj.html">coopVecOuterProductAccumulate</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="coopvecouterproductaccumulate-47cj.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="coopvecouterproductaccumulate-47cj.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-a" class="code_param">a</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-b" class="code_param">b</a>,
+    <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-matrix" class="code_param">matrix</a>,
+    <span class="code_keyword">int</span> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
+    <span class="code_keyword">uint</span> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixStride" class="code_param">matrixStride</a>,
+    <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
+    <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj">coopVecOuterProductAccumulate</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-a" class="code_param">a</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-b" class="code_param">b</a>,
-    <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-U" class="code_type">U</a>[<a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>] <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrix" class="code_param">matrix</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixOffset" class="code_param">matrixOffset</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixStride" class="code_param">matrixStride</a>,
-    <a href="/stdlib-reference/types/coopvecmatrixlayout-047d/index" class="code_type">CoopVecMatrixLayout</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-memoryLayout" class="code_param">memoryLayout</a>,
-    <a href="/stdlib-reference/types/coopveccomponenttype-047g/index" class="code_type">CoopVecComponentType</a> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-U" class="code_type">U</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="coopvecouterproductaccumulate-47cj.html">coopVecOuterProductAccumulate</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="coopvecouterproductaccumulate-47cj.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="coopvecouterproductaccumulate-47cj.html#typeparam-U" class="code_type">U</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-a" class="code_param">a</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a>, <a href="coopvecouterproductaccumulate-47cj.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecouterproductaccumulate-47cj.html#decl-b" class="code_param">b</a>,
+    <a href="coopvecouterproductaccumulate-47cj.html#typeparam-U" class="code_type">U</a>[<a href="coopvecouterproductaccumulate-47cj.html#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>] <a href="coopvecouterproductaccumulate-47cj.html#decl-matrix" class="code_param">matrix</a>,
+    <span class="code_keyword">int</span> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
+    <span class="code_keyword">uint</span> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixStride" class="code_param">matrixStride</a>,
+    <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
+    <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecouterproductaccumulate-47cj.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecouterproductaccumulate-47cj.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
+    <span class='code_keyword'>where</span> <a href="coopvecouterproductaccumulate-47cj.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
-#### M  : int {#decl-M}
-#### N  : int {#decl-N}
-#### IgnoredBufferElementType {#typeparam-IgnoredBufferElementType}
-#### U: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-U}
-#### IgnoredBufferSize  : int {#decl-IgnoredBufferSize}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="decl-M"></a>M  : int
+####  <a id="decl-N"></a>N  : int
+####  <a id="typeparam-IgnoredBufferElementType"></a>IgnoredBufferElementType
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="decl-IgnoredBufferSize"></a>IgnoredBufferSize  : int
 
 ## Parameters
 
-#### a  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), M\> {#decl-a}
+####  <a id="decl-a"></a>a  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), M\>
 The first cooperative vector.
 
-#### b  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-b}
+####  <a id="decl-b"></a>b  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
 The second cooperative vector.
 
-#### matrix  : [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index) {#decl-matrix}
+####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
 The matrix buffer to accumulate the result into.
 
-#### matrixOffset  : int {#decl-matrixOffset}
+####  <a id="decl-matrixOffset"></a>matrixOffset  : int
 Byte offset into the matrix buffer.
 
-#### matrixStride  : uint {#decl-matrixStride}
+####  <a id="decl-matrixStride"></a>matrixStride  : uint
 The stride between matrix rows/columns in bytes.
 
-#### memoryLayout  : [CoopVecMatrixLayout](/stdlib-reference/types/coopvecmatrixlayout-047d/index) {#decl-memoryLayout}
+####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../types/coopvecmatrixlayout-047d/index)
 Specifies the memory layout of the matrix (row-major or column-major).
 
-#### matrixInterpretation  : [CoopVecComponentType](/stdlib-reference/types/coopveccomponenttype-047g/index) {#decl-matrixInterpretation}
+####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index)
 Specifies how to interpret the values in the matrix.
 
-#### matrix  : [RWStructuredBuffer](/stdlib-reference/types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)\> {#decl-matrix}
+####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
 The matrix buffer to accumulate the result into.
 
-#### matrix  : [U](/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#typeparam-U) \[ [IgnoredBufferSize](/stdlib-reference/global-decls/coopvecouterproductaccumulate-47cj#decl-IgnoredBufferSize) \] {#decl-matrix}
+####  <a id="decl-matrix"></a>matrix  : [U](coopvecouterproductaccumulate-47cj#typeparam-U) \[ [IgnoredBufferSize](coopvecouterproductaccumulate-47cj#decl-IgnoredBufferSize) \]
 The matrix buffer to accumulate the result into.
 
 

@@ -13,31 +13,66 @@ and its related functions are available in raytracing shader types only.
 
 ## Methods
 
-* [init](/stdlib-reference/types/hitobject-03/init)
-* [TraceRay](/stdlib-reference/types/hitobject-03/traceray-05)
-* [TraceMotionRay](/stdlib-reference/types/hitobject-03/tracemotionray-05b)
-* [MakeHit](/stdlib-reference/types/hitobject-03/makehit-04)
-* [MakeMotionHit](/stdlib-reference/types/hitobject-03/makemotionhit-04a)
-* [MakeMiss](/stdlib-reference/types/hitobject-03/makemiss-04)
-* [MakeMotionMiss](/stdlib-reference/types/hitobject-03/makemotionmiss-04a)
-* [MakeNop](/stdlib-reference/types/hitobject-03/makenop-04)
-* [Invoke](/stdlib-reference/types/hitobject-03/invoke-0)
-* [IsMiss](/stdlib-reference/types/hitobject-03/ismiss-02)
-* [IsHit](/stdlib-reference/types/hitobject-03/ishit-02)
-* [IsNop](/stdlib-reference/types/hitobject-03/isnop-02)
-* [GetRayDesc](/stdlib-reference/types/hitobject-03/getraydesc-036)
-* [GetShaderTableIndex](/stdlib-reference/types/hitobject-03/getshadertableindex-039e)
-* [GetInstanceIndex](/stdlib-reference/types/hitobject-03/getinstanceindex-03b)
-* [GetInstanceID](/stdlib-reference/types/hitobject-03/getinstanceid-03bc)
-* [GetGeometryIndex](/stdlib-reference/types/hitobject-03/getgeometryindex-03b)
-* [GetPrimitiveIndex](/stdlib-reference/types/hitobject-03/getprimitiveindex-03c)
-* [GetHitKind](/stdlib-reference/types/hitobject-03/gethitkind-036)
-* [GetWorldToObject](/stdlib-reference/types/hitobject-03/getworldtoobject-038a)
-* [GetObjectToWorld](/stdlib-reference/types/hitobject-03/getobjecttoworld-039b)
-* [GetCurrentTime](/stdlib-reference/types/hitobject-03/getcurrenttime-03a)
-* [GetObjectRayOrigin](/stdlib-reference/types/hitobject-03/getobjectrayorigin-039c)
-* [GetObjectRayDirection](/stdlib-reference/types/hitobject-03/getobjectraydirection-039c)
-* [GetShaderRecordBufferHandle](/stdlib-reference/types/hitobject-03/getshaderrecordbufferhandle-039fl)
-* [GetAttributes](/stdlib-reference/types/hitobject-03/getattributes-03)
-* [LoadLocalRootTableConstant](/stdlib-reference/types/hitobject-03/loadlocalroottableconstant-049di)
+* [init](init)
+* [TraceRay](traceray-05)
+* [TraceMotionRay](tracemotionray-05b)
+* [MakeHit](makehit-04)
+* [MakeMotionHit](makemotionhit-04a)
+* [MakeMiss](makemiss-04)
+* [MakeMotionMiss](makemotionmiss-04a)
+* [MakeNop](makenop-04)
+* [Invoke](invoke-0)
+* [IsMiss](ismiss-02)
+* [IsHit](ishit-02)
+* [IsNop](isnop-02)
+* [GetRayDesc](getraydesc-036)
+* [GetShaderTableIndex](getshadertableindex-039e)
+* [GetInstanceIndex](getinstanceindex-03b)
+* [GetInstanceID](getinstanceid-03bc)
+* [GetGeometryIndex](getgeometryindex-03b)
+* [GetPrimitiveIndex](getprimitiveindex-03c)
+* [GetHitKind](gethitkind-036)
+* [GetWorldToObject](getworldtoobject-038a)
+* [GetObjectToWorld](getobjecttoworld-039b)
+* [GetCurrentTime](getcurrenttime-03a)
+* [GetObjectRayOrigin](getobjectrayorigin-039c)
+* [GetObjectRayDirection](getobjectraydirection-039c)
+* [GetShaderRecordBufferHandle](getshaderrecordbufferhandle-039fl)
+* [GetAttributes](getattributes-03)
+* [LoadLocalRootTableConstant](loadlocalroottableconstant-049di)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+GetAttributes <getattributes-03>
+GetCurrentTime <getcurrenttime-03a>
+GetGeometryIndex <getgeometryindex-03b>
+GetHitKind <gethitkind-036>
+GetInstanceID <getinstanceid-03bc>
+GetInstanceIndex <getinstanceindex-03b>
+GetObjectRayDirection <getobjectraydirection-039c>
+GetObjectRayOrigin <getobjectrayorigin-039c>
+GetObjectToWorld <getobjecttoworld-039b>
+GetPrimitiveIndex <getprimitiveindex-03c>
+GetRayDesc <getraydesc-036>
+GetShaderRecordBufferHandle <getshaderrecordbufferhandle-039fl>
+GetShaderTableIndex <getshadertableindex-039e>
+GetWorldToObject <getworldtoobject-038a>
+Invoke <invoke-0>
+IsHit <ishit-02>
+IsMiss <ismiss-02>
+IsNop <isnop-02>
+LoadLocalRootTableConstant <loadlocalroottableconstant-049di>
+MakeHit <makehit-04>
+MakeMiss <makemiss-04>
+MakeMotionHit <makemotionhit-04a>
+MakeMotionMiss <makemotionmiss-04a>
+MakeNop <makenop-04>
+TraceMotionRay <tracemotionray-05b>
+TraceRay <traceray-05>
+init <init>
+```
+RTD-TOC-END -->

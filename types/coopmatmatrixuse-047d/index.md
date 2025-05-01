@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Values 
 
-#### _MatrixA = 0_ {#decl-MatrixA}
-#### _MatrixB = 1_ {#decl-MatrixB}
-#### _MatrixAccumulator = 2_ {#decl-MatrixAccumulator}
+####  <a id="decl-MatrixA"></a>_MatrixA = 0_
+####  <a id="decl-MatrixB"></a>_MatrixB = 1_
+####  <a id="decl-MatrixAccumulator"></a>_MatrixAccumulator = 2_

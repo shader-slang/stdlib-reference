@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Signature
 <pre>
-<span class='code_keyword'>static</span> <span class='code_keyword'>const</span> <a href="/stdlib-reference/types/descriptoraccess-0a/index" class="code_type">DescriptorAccess</a> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/descriptoraccess-a" class="code_var">descriptorAccess</a> = DescriptorAccess\.ReadWrite;
+<span class='code_keyword'>static</span> <span class='code_keyword'>const</span> <a href="../descriptoraccess-0a/index.html" class="code_type">DescriptorAccess</a> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="descriptoraccess-a.html" class="code_var">descriptorAccess</a> = DescriptorAccess\.ReadWrite;
 </pre>
 

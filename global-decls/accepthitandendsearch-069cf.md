@@ -13,7 +13,7 @@ Accepts the current intersection and terminates further traversal.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/accepthitandendsearch-069cf">AcceptHitAndEndSearch</a>();
+<span class="code_keyword">void</span> <a href="accepthitandendsearch-069cf.html">AcceptHitAndEndSearch</a>();
 
 </pre>
 

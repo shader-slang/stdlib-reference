@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="/stdlib-reference/types/nativestring-06/index" class="code_type">NativeString</a>.<a href="/stdlib-reference/types/nativestring-06/getlength-3">getLength</a>();
+<span class="code_keyword">int</span> <a href="index.html" class="code_type">NativeString</a>.<a href="getlength-3.html">getLength</a>();
 
 </pre>
 

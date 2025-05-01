@@ -17,6 +17,6 @@ This attribute has no effect on targets other than HLSL.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/allow_uav_condition">allow_uav_condition</a>]
+[<a href="allow_uav_condition.html">allow_uav_condition</a>]
 </pre>
 

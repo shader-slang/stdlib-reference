@@ -14,35 +14,35 @@ This operation is only available when targeting SPIR-V.
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="/stdlib-reference/types/coopvec-04/loadany-4">loadAny</a>&lt;<a href="/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <span class="code_keyword">const</span> <a href="/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U" class="code_type">U</a>[<a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-M" class="code_var">M</a>] <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-data" class="code_param">data</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U" class="code_type">U</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="loadany-4.html">loadAny</a>&lt;<a href="loadany-4.html#typeparam-U" class="code_type">U</a>, <a href="loadany-4.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <span class="code_keyword">const</span> <a href="loadany-4.html#typeparam-U" class="code_type">U</a>[<a href="loadany-4.html#decl-M" class="code_var">M</a>] <a href="loadany-4.html#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">int</span> <a href="loadany-4.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="loadany-4.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<span class='code_keyword'>static</span> <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="/stdlib-reference/types/coopvec-04/loadany-4">loadAny</a>&lt;<a href="/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(
-    <span class="code_keyword">const</span> <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U" class="code_type">U</a>, <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-L" class="code_var">L</a>&gt;[M] <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-data" class="code_param">data</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/types/coopvec-04/loadany-4#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U" class="code_type">U</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="loadany-4.html">loadAny</a>&lt;<a href="loadany-4.html#typeparam-U" class="code_type">U</a>, <a href="loadany-4.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="loadany-4.html#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(
+    <span class="code_keyword">const</span> <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="loadany-4.html#typeparam-U" class="code_type">U</a>, <a href="loadany-4.html#decl-L" class="code_var">L</a>&gt;[M] <a href="loadany-4.html#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">int</span> <a href="loadany-4.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="loadany-4.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### U: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-U}
-#### M  : int {#decl-M}
-#### L  : int {#decl-L}
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="decl-M"></a>M  : int
+####  <a id="decl-L"></a>L  : int
 
 ## Parameters
 
-#### data  : [U](/stdlib-reference/types/coopvec-04/loadany-4#typeparam-U) \[ [M](/stdlib-reference/types/coopvec-04/loadany-4#decl-M) \] {#decl-data}
+####  <a id="decl-data"></a>data  : [U](loadany-4#typeparam-U) \[ [M](loadany-4#decl-M) \]
 The source groupshared array to load from. The element type U can be different from the CoopVec element type T.
 
-#### byteOffset16ByteAligned  : int = 0 {#decl-byteOffset16ByteAligned}
+####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 The byte offset from the start of the array. Must be 16-byte aligned.
 
-#### data  : [vector](/stdlib-reference/types/vector/index)\<U, L\> \[ M \] {#decl-data}
+####  <a id="decl-data"></a>data  : [vector](../vector/index)\<U, L\> \[ M \]
 The source groupshared array to load from. The element type U can be different from the CoopVec element type T.
 
 

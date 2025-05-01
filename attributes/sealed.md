@@ -15,11 +15,11 @@ Mark a type as sealed, preventing it from being inherited from or implemented by
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/sealed">sealed</a>]
+[<a href="sealed.html">sealed</a>]
 </pre>
 
 ## See also
 
-<span class='code'>[<a href="/stdlib-reference/attributes/open">open</a>]</span>.
+<span class='code'>[<a href="open.html">open</a>]</span>.
 
 

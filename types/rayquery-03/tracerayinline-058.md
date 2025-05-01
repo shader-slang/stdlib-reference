@@ -13,9 +13,9 @@ on one that is already tracing a ray. In the latter
 case any state related to the ray previously being
 traced is overwritten.
 
-The <span class='code'><a href="/stdlib-reference/types/rayquery-03/tracerayinline-058#decl-rayFlags" class="code_param">rayFlags</a></span> here will be bitwise ORed with
-the <span class='code'><a href="/stdlib-reference/types/rayquery-03/tracerayinline-058#decl-rayFlags" class="code_param">rayFlags</a></span> passed as a generic argument to
-<span class='code'><a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a></span> to get the effective ray flags, which
+The <span class='code'><a href="tracerayinline-058.html#decl-rayFlags" class="code_param">rayFlags</a></span> here will be bitwise ORed with
+the <span class='code'><a href="tracerayinline-058.html#decl-rayFlags" class="code_param">rayFlags</a></span> passed as a generic argument to
+<span class='code'><a href="index.html" class="code_type">RayQuery</a></span> to get the effective ray flags, which
 must obey any API-imposed restrictions.
 
 
@@ -24,26 +24,26 @@ must obey any API-imposed restrictions.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/tracerayinline-058">TraceRayInline</a>(
-    <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/rayquery-03/tracerayinline-058#decl-accelerationStructure" class="code_param">accelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rayquery-03/tracerayinline-058#decl-rayFlags" class="code_param">rayFlags</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rayquery-03/tracerayinline-058#decl-instanceInclusionMask" class="code_param">instanceInclusionMask</a>,
-    <a href="/stdlib-reference/types/raydesc-03/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/rayquery-03/tracerayinline-058#decl-ray" class="code_param">ray</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="tracerayinline-058.html">TraceRayInline</a>(
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracerayinline-058.html#decl-accelerationStructure" class="code_param">accelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href="tracerayinline-058.html#decl-rayFlags" class="code_param">rayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="tracerayinline-058.html#decl-instanceInclusionMask" class="code_param">instanceInclusionMask</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracerayinline-058.html#decl-ray" class="code_param">ray</a>);
 
 </pre>
 
 ## Parameters
 
-#### accelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index) {#decl-accelerationStructure}
+####  <a id="decl-accelerationStructure"></a>accelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
 Acceleration structure to traverse
 
-#### rayFlags  : uint {#decl-rayFlags}
+####  <a id="decl-rayFlags"></a>rayFlags  : uint
 Additional flags for this trace (combined with rayFlagsGeneric)
 
-#### instanceInclusionMask  : uint {#decl-instanceInclusionMask}
+####  <a id="decl-instanceInclusionMask"></a>instanceInclusionMask  : uint
 Mask for filtering instance visibility
 
-#### ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-ray}
+####  <a id="decl-ray"></a>ray  : [RayDesc](../raydesc-03/index)
 Description of ray parameters (origin, direction, tMin, tMax)
 
 

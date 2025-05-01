@@ -14,7 +14,7 @@ Barrier for device memory with group synchronization.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/devicememorybarrierwithgroupsync-06cjns">DeviceMemoryBarrierWithGroupSync</a>();
+<span class="code_keyword">void</span> <a href="devicememorybarrierwithgroupsync-06cjns.html">DeviceMemoryBarrierWithGroupSync</a>();
 
 </pre>
 
