@@ -225,6 +225,8 @@ Slang's Standard Library defines the following global declarations:
 - [fract](fract)
 - [frexp](frexp)
 - [fwidth](fwidth)
+- [fwidth\_coarse](fwidth_coarse)
+- [fwidth\_fine](fwidth_fine)
 - [getDescriptorFromHandle](getdescriptorfromhandle-3dh)
 - [getRealtimeClock](getrealtimeclock-3b)
 - [getRealtimeClockLow](getrealtimeclocklow-3bg)

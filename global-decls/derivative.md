@@ -19,6 +19,10 @@ This category contains the following declarations:
 
 #### [fwidth\<T\>](fwidth)
 
+#### [fwidth\_coarse\<T\>](fwidth_coarse)
+
+#### [fwidth\_fine\<T\>](fwidth_fine)
+
 
 <!-- RTD-TOC-START
 ```{toctree}
@@ -32,5 +36,7 @@ ddy <ddy>
 ddy_coarse <ddy_coarse>
 ddy_fine <ddy_fine>
 fwidth <fwidth>
+fwidth_coarse <fwidth_coarse>
+fwidth_fine <fwidth_fine>
 ```
 RTD-TOC-END -->
