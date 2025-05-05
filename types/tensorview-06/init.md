@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="../torchtensor-05/index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="init.html#decl-t" class="code_param">t</a>);
+<a href="/stdlib-reference/types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="/stdlib-reference/types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/tensorview-06/init">init</a>(<a href="/stdlib-reference/types/torchtensor-05/index" class="code_type">TorchTensor</a>&lt;<a href="/stdlib-reference/types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/types/tensorview-06/init#decl-t" class="code_param">t</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [TorchTensor](../torchtensor-05/index)\<[T](../torchtensor-05/index#typeparam-T)\>
+#### t  : [TorchTensor](/stdlib-reference/types/torchtensor-05/index)\<[T](/stdlib-reference/types/torchtensor-05/index#typeparam-T)\> {#decl-t}
 

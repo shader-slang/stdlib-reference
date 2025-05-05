@@ -13,14 +13,14 @@ Appends a new element to the buffer.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">AppendStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-L" class="code_type">L</a>&gt;.<a href="append-0.html">Append</a>(<a href="index.html#typeparam-T" class="code_type">T</a> <a href="append-0.html#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/appendstructuredbuffer-06g/index" class="code_type">AppendStructuredBuffer</a>&lt;<a href="/stdlib-reference/types/appendstructuredbuffer-06g/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/appendstructuredbuffer-06g/index#typeparam-L" class="code_type">L</a>&gt;.<a href="/stdlib-reference/types/appendstructuredbuffer-06g/append-0">Append</a>(<a href="/stdlib-reference/types/appendstructuredbuffer-06g/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/appendstructuredbuffer-06g/append-0#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/appendstructuredbuffer-06g/index#typeparam-L" class="code_type">L</a> : <a href="/stdlib-reference/interfaces/ibufferdatalayout-017b/index" class="code_type">IBufferDataLayout</a>;
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](index#typeparam-T)
+#### value  : [T](/stdlib-reference/types/appendstructuredbuffer-06g/index#typeparam-T) {#decl-value}
 The element to be appended to the buffer.
 
 

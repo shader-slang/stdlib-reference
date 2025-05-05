@@ -13,53 +13,53 @@ Split into integer and fractional parts (both with same sign).
 ## Signature 
 
 <pre>
-<a href="modf.html#typeparam-T" class="code_type">T</a> <a href="modf.html">modf</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="modf.html#typeparam-T" class="code_type">T</a> <a href="modf.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">out</span> <a href="modf.html#typeparam-T" class="code_type">T</a> <a href="modf.html#decl-ip" class="code_param">ip</a>)
-    <span class='code_keyword'>where</span> <a href="modf.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/modf">modf</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/modf#decl-ip" class="code_param">ip</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>&gt; <a href="modf.html">modf</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>&gt; <a href="modf.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">out</span> <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>&gt; <a href="modf.html#decl-ip" class="code_param">ip</a>)
-    <span class='code_keyword'>where</span> <a href="modf.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/modf">modf</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/modf#decl-ip" class="code_param">ip</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>, <a href="modf.html#decl-M" class="code_var">M</a>&gt; <a href="modf.html">modf</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="modf.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="modf.html#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>, <a href="modf.html#decl-M" class="code_var">M</a>&gt; <a href="modf.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">out</span> <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="modf.html#typeparam-T" class="code_type">T</a>, <a href="modf.html#decl-N" class="code_var">N</a>, <a href="modf.html#decl-M" class="code_var">M</a>&gt; <a href="modf.html#decl-ip" class="code_param">ip</a>)
-    <span class='code_keyword'>where</span> <a href="modf.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/modf#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/modf">modf</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/modf#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/modf#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/modf#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/modf#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/modf#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/modf#decl-ip" class="code_param">ip</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/modf#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
-####  <a id="decl-M"></a>M  : int
-####  <a id="decl-L"></a>L  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
+#### L  : int {#decl-L}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](modf#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/modf#typeparam-T) {#decl-x}
 The input value.
 
-####  <a id="decl-ip"></a>ip  : [T](modf#typeparam-T)
-\[out\] The integer part of <span class='code'><a href="modf.html#decl-x" class="code_param">x</a></span>.
+#### ip  : [T](/stdlib-reference/global-decls/modf#typeparam-T) {#decl-ip}
+\[out\] The integer part of <span class='code'><a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 The input value.
 
-####  <a id="decl-ip"></a>ip  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-\[out\] The integer part of <span class='code'><a href="modf.html#decl-x" class="code_param">x</a></span>.
+#### ip  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-ip}
+\[out\] The integer part of <span class='code'><a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 The input value.
 
-####  <a id="decl-ip"></a>ip  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
-\[out\] The integer part of <span class='code'><a href="modf.html#decl-x" class="code_param">x</a></span>.
+#### ip  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-ip}
+\[out\] The integer part of <span class='code'><a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a></span>.
 
 
 ## Return value
-The fractional part of <span class='code'><a href="modf.html#decl-x" class="code_param">x</a></span>.
+The fractional part of <span class='code'><a href="/stdlib-reference/global-decls/modf#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

@@ -13,22 +13,22 @@ Executes a callable shader with the specified payload.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="callshader-04.html">CallShader</a>&lt;<a href="callshader-04.html#typeparam-Payload" class="code_type">Payload</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="callshader-04.html#decl-shaderIndex" class="code_param">shaderIndex</a>,
-    <span class="code_keyword">inout</span> <a href="callshader-04.html#typeparam-Payload" class="code_type">Payload</a> <a href="callshader-04.html#decl-payload" class="code_param">payload</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/callshader-04">CallShader</a>&lt;<a href="/stdlib-reference/global-decls/callshader-04#typeparam-Payload" class="code_type">Payload</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/callshader-04#decl-shaderIndex" class="code_param">shaderIndex</a>,
+    <span class="code_keyword">inout</span> <a href="/stdlib-reference/global-decls/callshader-04#typeparam-Payload" class="code_type">Payload</a> <a href="/stdlib-reference/global-decls/callshader-04#decl-payload" class="code_param">payload</a>);
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-Payload"></a>Payload
+#### Payload {#typeparam-Payload}
 
 ## Parameters
 
-####  <a id="decl-shaderIndex"></a>shaderIndex  : uint
+#### shaderIndex  : uint {#decl-shaderIndex}
 Index of the callable shader to execute
 
-####  <a id="decl-payload"></a>payload  : [Payload](callshader-04#typeparam-Payload)
+#### payload  : [Payload](/stdlib-reference/global-decls/callshader-04#typeparam-Payload) {#decl-payload}
 Data structure to pass to and receive from the callable shader
 
 

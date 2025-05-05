@@ -13,19 +13,19 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">NullDifferential</a> <a href="index.html" class="code_type">NullDifferential</a>.<a href="dmul.html">dmul</a>&lt;<a href="dmul.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="dmul.html#typeparam-T" class="code_type">T</a> <a href="dmul.html#decl-SLANG_anonymous_9" class="code_param">SLANG_anonymous_9</a>,
-    <a href="index.html" class="code_type">NullDifferential</a> <a href="dmul.html#decl-SLANG_anonymous_10" class="code_param">SLANG_anonymous_10</a>)
-    <span class='code_keyword'>where</span> <a href="dmul.html#typeparam-T" class="code_type">T</a> : __BuiltinRealType;
+<span class='code_keyword'>static</span> <a href="/stdlib-reference/types/nulldifferential-04/index" class="code_type">NullDifferential</a> <a href="/stdlib-reference/types/nulldifferential-04/index" class="code_type">NullDifferential</a>.<a href="/stdlib-reference/types/nulldifferential-04/dmul">dmul</a>&lt;<a href="/stdlib-reference/types/nulldifferential-04/dmul#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/types/nulldifferential-04/dmul#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/nulldifferential-04/dmul#decl-SLANG_anonymous_9" class="code_param">SLANG_anonymous_9</a>,
+    <a href="/stdlib-reference/types/nulldifferential-04/index" class="code_type">NullDifferential</a> <a href="/stdlib-reference/types/nulldifferential-04/dmul#decl-SLANG_anonymous_10" class="code_param">SLANG_anonymous_10</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/nulldifferential-04/dmul#typeparam-T" class="code_type">T</a> : __BuiltinRealType;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: \_\_BuiltinRealType
+#### T: \_\_BuiltinRealType {#typeparam-T}
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_9"></a>SLANG\_anonymous\_9  : [T](dmul#typeparam-T)
-####  <a id="decl-SLANG_anonymous_10"></a>SLANG\_anonymous\_10  : [NullDifferential](index)
+#### SLANG\_anonymous\_9  : [T](/stdlib-reference/types/nulldifferential-04/dmul#typeparam-T) {#decl-SLANG_anonymous_9}
+#### SLANG\_anonymous\_10  : [NullDifferential](/stdlib-reference/types/nulldifferential-04/index) {#decl-SLANG_anonymous_10}
 

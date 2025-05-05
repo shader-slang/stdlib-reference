@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct CoopVec\<T, N:int\>
 
-*Conforms to:* [IArray](../../interfaces/iarray-01/index)\<[T](../../interfaces/iarray-01/index#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index)
+*Conforms to:* [IArray](/stdlib-reference/interfaces/iarray-01/index)\<[T](/stdlib-reference/interfaces/iarray-01/index#typeparam-T)\>, [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index)
 
 ## Description
 
@@ -14,67 +14,36 @@ of neural network in graphics and compute pipeline.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
 The element type of the CoopVec.
 
-####  <a id="decl-N"></a>N  : int
+#### N  : int {#decl-N}
 The vector size.
 
 
 ## Methods
 
-* [init](init)
-* [copyFrom](copyfrom-4)
-* [fill](fill)
-* [store](store)
-* [storeAny](storeany-5)
-* [load](load)
-* [loadAny](loadany-4)
-* [getCount](getcount-3)
-* [subscript](subscript)
-* [replicate](replicate)
-* [equals](equals)
-* [lessThan](lessthan-4)
-* [lessThanOrEquals](lessthanorequals-48a)
-* [add](add)
-* [sub](sub)
-* [mul](mul)
-* [div](div)
-* [mod](mod)
-* [neg](neg)
-* [matMulAccumPacked](matmulaccumpacked-36b)
-* [matMulAccum](matmulaccum-36)
-* [matMulAddAccumPacked](matmuladdaccumpacked-369e)
-* [matMulAddAccum](matmuladdaccum-369)
+* [init](/stdlib-reference/types/coopvec-04/init)
+* [copyFrom](/stdlib-reference/types/coopvec-04/copyfrom-4)
+* [fill](/stdlib-reference/types/coopvec-04/fill)
+* [store](/stdlib-reference/types/coopvec-04/store)
+* [storeAny](/stdlib-reference/types/coopvec-04/storeany-5)
+* [load](/stdlib-reference/types/coopvec-04/load)
+* [loadAny](/stdlib-reference/types/coopvec-04/loadany-4)
+* [getCount](/stdlib-reference/types/coopvec-04/getcount-3)
+* [subscript](/stdlib-reference/types/coopvec-04/subscript)
+* [replicate](/stdlib-reference/types/coopvec-04/replicate)
+* [equals](/stdlib-reference/types/coopvec-04/equals)
+* [lessThan](/stdlib-reference/types/coopvec-04/lessthan-4)
+* [lessThanOrEquals](/stdlib-reference/types/coopvec-04/lessthanorequals-48a)
+* [add](/stdlib-reference/types/coopvec-04/add)
+* [sub](/stdlib-reference/types/coopvec-04/sub)
+* [mul](/stdlib-reference/types/coopvec-04/mul)
+* [div](/stdlib-reference/types/coopvec-04/div)
+* [mod](/stdlib-reference/types/coopvec-04/mod)
+* [neg](/stdlib-reference/types/coopvec-04/neg)
+* [matMulAccumPacked](/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b)
+* [matMulAccum](/stdlib-reference/types/coopvec-04/matmulaccum-36)
+* [matMulAddAccumPacked](/stdlib-reference/types/coopvec-04/matmuladdaccumpacked-369e)
+* [matMulAddAccum](/stdlib-reference/types/coopvec-04/matmuladdaccum-369)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-add <add>
-copyFrom <copyfrom-4>
-div <div>
-equals <equals>
-fill <fill>
-getCount <getcount-3>
-init <init>
-lessThan <lessthan-4>
-lessThanOrEquals <lessthanorequals-48a>
-load <load>
-loadAny <loadany-4>
-matMulAccum <matmulaccum-36>
-matMulAccumPacked <matmulaccumpacked-36b>
-matMulAddAccum <matmuladdaccum-369>
-matMulAddAccumPacked <matmuladdaccumpacked-369e>
-mod <mod>
-mul <mul>
-neg <neg>
-replicate <replicate>
-store <store>
-storeAny <storeany-5>
-sub <sub>
-subscript <subscript>
-```
-RTD-TOC-END -->

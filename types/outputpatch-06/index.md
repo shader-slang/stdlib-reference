@@ -10,19 +10,10 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
-####  <a id="decl-N"></a>N  : int
+#### T {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Methods
 
 * operator\[\]
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-subscript <subscript>
-```
-RTD-TOC-END -->

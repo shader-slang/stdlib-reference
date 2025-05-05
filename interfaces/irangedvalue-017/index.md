@@ -12,22 +12,12 @@ Implemented by all builtin integer and floating point types.
 
 ## Fields
 
-####  <a id="decl-maxValue"></a>[maxValue](maxvalue-3) : [IRangedValue](index)\.This
+#### [maxValue](/stdlib-reference/interfaces/irangedvalue-017/maxvalue-3) : [IRangedValue](/stdlib-reference/interfaces/irangedvalue-017/index)\.This {#decl-maxValue}
 The maximum value that an instance of the type can hold.
 This is a constant value specific to the type.
 
-####  <a id="decl-minValue"></a>[minValue](minvalue-3) : [IRangedValue](index)\.This
+#### [minValue](/stdlib-reference/interfaces/irangedvalue-017/minvalue-3) : [IRangedValue](/stdlib-reference/interfaces/irangedvalue-017/index)\.This {#decl-minValue}
 The minimum value that an instance of the type can hold.
 This is a constant value specific to the type.
 
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-maxValue <maxvalue-3>
-minValue <minvalue-3>
-```
-RTD-TOC-END -->

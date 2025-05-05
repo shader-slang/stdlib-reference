@@ -13,18 +13,18 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">IRWPhysicalBuffer</a>.<a href="storebyteoffset-059.html">StoreByteOffset</a>&lt;<a href="storebyteoffset-059.html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">int</span> <a href="storebyteoffset-059.html#decl-offset" class="code_param">offset</a>,
-    <a href="storebyteoffset-059.html#typeparam-T" class="code_type">T</a> <a href="storebyteoffset-059.html#decl-element" class="code_param">element</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/interfaces/irwphysicalbuffer-0123b/index" class="code_type">IRWPhysicalBuffer</a>.<a href="/stdlib-reference/interfaces/irwphysicalbuffer-0123b/storebyteoffset-059">StoreByteOffset</a>&lt;<a href="/stdlib-reference/interfaces/irwphysicalbuffer-0123b/storebyteoffset-059#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">int</span> <a href="/stdlib-reference/interfaces/irwphysicalbuffer-0123b/storebyteoffset-059#decl-offset" class="code_param">offset</a>,
+    <a href="/stdlib-reference/interfaces/irwphysicalbuffer-0123b/storebyteoffset-059#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/interfaces/irwphysicalbuffer-0123b/storebyteoffset-059#decl-element" class="code_param">element</a>);
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 
 ## Parameters
 
-####  <a id="decl-offset"></a>offset  : int
-####  <a id="decl-element"></a>element  : [T](storebyteoffset-059#typeparam-T)
+#### offset  : int {#decl-offset}
+#### element  : [T](/stdlib-reference/interfaces/irwphysicalbuffer-0123b/storebyteoffset-059#typeparam-T) {#decl-element}
 

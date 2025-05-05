@@ -10,18 +10,18 @@ Represents types that provide a subscript operator so that they can be used like
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 The element type returned by the subscript operator.
 
 
 ## Methods
 
-* [getCount](getcount-3)
-* [subscript](subscript)
+* [getCount](/stdlib-reference/interfaces/iarray-01/getcount-3)
+* [subscript](/stdlib-reference/interfaces/iarray-01/subscript)
 
 ## Remarks
 
-This interface is implemented by <span class='code'><a href="../../types/array-0/index.html" class="code_type">Array</a></span>, <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a></span>, <span class='code'><a href="../../types/matrix/index.html" class="code_type">matrix</a></span>, <span class='code'><a href="../../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="../../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a></span> types.
+This interface is implemented by <span class='code'><a href="/stdlib-reference/types/array-0/index" class="code_type">Array</a></span>, <span class='code'><a href="/stdlib-reference/types/vector/index" class="code_type">vector</a></span>, <span class='code'><a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a></span>, <span class='code'><a href="/stdlib-reference/types/structuredbuffer-0a/index" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="/stdlib-reference/types/rwstructuredbuffer-012c/index" class="code_type">RWStructuredBuffer</a></span> types.
 
 ## Example
 
@@ -58,13 +58,3 @@ void computeMain(int3 dispatchThreadID : SV_DispatchThreadID)
 ```
 
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-getCount <getcount-3>
-subscript <subscript>
-```
-RTD-TOC-END -->

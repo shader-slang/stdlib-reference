@@ -13,34 +13,34 @@ Cross product. Returns the cross product of two 3D vectors.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="cross.html">cross</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="cross.html#decl-left" class="code_param">left</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="cross.html#decl-right" class="code_param">right</a>)
-    <span class='code_keyword'>where</span> <a href="cross.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-left" class="code_param">left</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-right" class="code_param">right</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="cross.html">cross</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="cross.html#decl-left" class="code_param">left</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="cross.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="cross.html#decl-right" class="code_param">right</a>)
-    <span class='code_keyword'>where</span> <a href="cross.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross">cross</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-left" class="code_param">left</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a>, 3&gt; <a href="/stdlib-reference/global-decls/cross#decl-right" class="code_param">right</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/cross#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
 
 ## Parameters
 
-####  <a id="decl-left"></a>left  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), 3\>
+#### left  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), 3\> {#decl-left}
 The first vector.
 
-####  <a id="decl-right"></a>right  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), 3\>
+#### right  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), 3\> {#decl-right}
 The second vector.
 
 
 ## Return value
-The cross product of <span class='code'><a href="cross.html#decl-left" class="code_param">left</a></span> and <span class='code'><a href="cross.html#decl-right" class="code_param">right</a></span>.
+The cross product of <span class='code'><a href="/stdlib-reference/global-decls/cross#decl-left" class="code_param">left</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/cross#decl-right" class="code_param">right</a></span>.
 
 
 ## Availability and Requirements

@@ -12,19 +12,10 @@ The function allows to modify the state of the object it belongs to.
 
 ## Generic Parameters
 
-####  <a id="typeparam-TR"></a>TR
-####  <a id="typeparam-TP"></a>TP
+#### TR {#typeparam-TR}
+#### TP {#typeparam-TP}
 
 ## Methods
 
-* [operator\(\)](operatorx28x29)
+* [operator\(\)](/stdlib-reference/interfaces/imutatingfunc-019/operatorx28x29)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-operator() <operatorx28x29>
-```
-RTD-TOC-END -->

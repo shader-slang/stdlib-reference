@@ -16,6 +16,6 @@ Marks a member function to make <span class='code'>this</span> argument passed b
 ## Signature
 
 <pre>
-[<a href="constref.html">constref</a>]
+[<a href="/stdlib-reference/attributes/constref">constref</a>]
 </pre>
 

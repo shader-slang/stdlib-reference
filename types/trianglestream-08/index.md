@@ -10,20 +10,10 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 
 ## Methods
 
-* [Append](append-0)
-* [RestartStrip](restartstrip-07)
+* [Append](/stdlib-reference/types/trianglestream-08/append-0)
+* [RestartStrip](/stdlib-reference/types/trianglestream-08/restartstrip-07)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Append <append-0>
-RestartStrip <restartstrip-07>
-```
-RTD-TOC-END -->

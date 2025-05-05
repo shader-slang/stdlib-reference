@@ -5,17 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [SamplerComparisonState](samplercomparisonstate-07h/index)
+#### [SamplerComparisonState](/stdlib-reference/types/samplercomparisonstate-07h/index)
 
-#### [SamplerState](samplerstate-07/index)
+#### [SamplerState](/stdlib-reference/types/samplerstate-07/index)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-SamplerComparisonState <samplercomparisonstate-07h/index>
-SamplerState <samplerstate-07/index>
-```
-RTD-TOC-END -->

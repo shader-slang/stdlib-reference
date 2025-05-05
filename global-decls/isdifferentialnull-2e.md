@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="isdifferentialnull-2e.html">isDifferentialNull</a>(<a href="../interfaces/idifferentiable-01/index.html" class="code_type">IDifferentiable</a> <a href="isdifferentialnull-2e.html#decl-obj" class="code_param">obj</a>);
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/isdifferentialnull-2e">isDifferentialNull</a>(<a href="/stdlib-reference/interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a> <a href="/stdlib-reference/global-decls/isdifferentialnull-2e#decl-obj" class="code_param">obj</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-obj"></a>obj  : [IDifferentiable](../interfaces/idifferentiable-01/index)
+#### obj  : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index) {#decl-obj}
 

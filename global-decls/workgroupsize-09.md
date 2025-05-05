@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 3&gt; <a href="workgroupsize-09.html">WorkgroupSize</a>();
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 3&gt; <a href="/stdlib-reference/global-decls/workgroupsize-09">WorkgroupSize</a>();
 
 </pre>
 
@@ -43,9 +43,6 @@ Available in `compute` stage only.
 Available in `compute` stage only.
 
 #### wgsl
-Available in `compute` stage only.
-
-#### slangvm
 Available in `compute` stage only.
 
 

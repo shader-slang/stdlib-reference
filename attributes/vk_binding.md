@@ -11,15 +11,15 @@ Declare the Vulkan binding location of a global shader variable.
 ## Signature
 
 <pre>
-[vk::<a href="vk_binding.html#decl-binding" class="code_param">binding</a>(<a href="vk_binding.html#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href="vk_binding.html#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
+[vk::<a href="/stdlib-reference/attributes/vk_binding#decl-binding" class="code_param">binding</a>(<a href="/stdlib-reference/attributes/vk_binding#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href="/stdlib-reference/attributes/vk_binding#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
-####  <a id="decl-binding"></a>binding  : int
+#### binding  : int {#decl-binding}
 The binding location.
 
-####  <a id="decl-set"></a>set  : int = 0
+#### set  : int = 0 {#decl-set}
 The descriptor set index of the binding.
 
 

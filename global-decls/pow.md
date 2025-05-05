@@ -13,52 +13,52 @@ Raise to a power.
 ## Signature 
 
 <pre>
-<a href="pow.html#typeparam-T" class="code_type">T</a> <a href="pow.html">pow</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="pow.html#typeparam-T" class="code_type">T</a> <a href="pow.html#decl-x" class="code_param">x</a>,
-    <a href="pow.html#typeparam-T" class="code_type">T</a> <a href="pow.html#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="pow.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/pow">pow</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/pow#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/pow#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>&gt; <a href="pow.html">pow</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>&gt; <a href="pow.html#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>&gt; <a href="pow.html#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="pow.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/pow">pow</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/pow#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/pow#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>, <a href="pow.html#decl-M" class="code_var">M</a>&gt; <a href="pow.html">pow</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="pow.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>, <a href="pow.html#decl-M" class="code_var">M</a>&gt; <a href="pow.html#decl-x" class="code_param">x</a>,
-    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="pow.html#typeparam-T" class="code_type">T</a>, <a href="pow.html#decl-N" class="code_var">N</a>, <a href="pow.html#decl-M" class="code_var">M</a>&gt; <a href="pow.html#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="pow.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/pow#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/pow">pow</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/pow#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/pow#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/pow#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/pow#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/pow#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/pow#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/pow#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
-####  <a id="decl-M"></a>M  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](pow#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/pow#typeparam-T) {#decl-x}
 The base value.
 
-####  <a id="decl-y"></a>y  : [T](pow#typeparam-T)
+#### y  : [T](/stdlib-reference/global-decls/pow#typeparam-T) {#decl-y}
 The exponent value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 The base value.
 
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
 The exponent value.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 The base value.
 
-####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
 The exponent value.
 
 
 ## Return value
-The value of <span class='code'><a href="pow.html#decl-x" class="code_param">x</a></span> raised to the power of <span class='code'><a href="pow.html#decl-y" class="code_param">y</a></span>.
+The value of <span class='code'><a href="/stdlib-reference/global-decls/pow#decl-x" class="code_param">x</a></span> raised to the power of <span class='code'><a href="/stdlib-reference/global-decls/pow#decl-y" class="code_param">y</a></span>.
 
 
 ## Availability and Requirements

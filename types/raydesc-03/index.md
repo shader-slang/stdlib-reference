@@ -11,16 +11,16 @@ Describes a ray for traversal through an acceleration structure.
 
 ## Fields
 
-####  <a id="decl-Direction"></a>[Direction](direction-0) : [vector](../vector/index)\<float, 3\>
+#### [Direction](/stdlib-reference/types/raydesc-03/direction-0) : [vector](/stdlib-reference/types/vector/index)\<float, 3\> {#decl-Direction}
 Normalized direction vector of the ray in world space.
 
-####  <a id="decl-Origin"></a>[Origin](origin-0) : [vector](../vector/index)\<float, 3\>
+#### [Origin](/stdlib-reference/types/raydesc-03/origin-0) : [vector](/stdlib-reference/types/vector/index)\<float, 3\> {#decl-Origin}
 Starting point of the ray in world space.
 
-####  <a id="decl-TMax"></a>[TMax](tmax-01) : float
+#### [TMax](/stdlib-reference/types/raydesc-03/tmax-01) : float {#decl-TMax}
 Maximum distance along the ray to consider intersections.
 
-####  <a id="decl-TMin"></a>[TMin](tmin-01) : float
+#### [TMin](/stdlib-reference/types/raydesc-03/tmin-01) : float {#decl-TMin}
 Minimum distance along the ray to consider intersections.
 
 
@@ -28,15 +28,3 @@ Minimum distance along the ray to consider intersections.
 
 * init
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Direction <direction-0>
-Origin <origin-0>
-TMax <tmax-01>
-TMin <tmin-01>
-```
-RTD-TOC-END -->

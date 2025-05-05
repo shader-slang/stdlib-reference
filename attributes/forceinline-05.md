@@ -11,7 +11,7 @@ Perform inlining of the function at the call site during Slang compilation.
 ## Signature
 
 <pre>
-[<a href="forceinline-05.html">ForceInline</a>]
+[<a href="/stdlib-reference/attributes/forceinline-05">ForceInline</a>]
 </pre>
 
 ## Remarks

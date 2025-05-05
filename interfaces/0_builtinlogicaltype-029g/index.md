@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface \_\_BuiltinLogicalType
 
-*Inherits from:* \_\_BuiltinType, [ILogical](../ilogical-01/index)
+*Inherits from:* \_\_BuiltinType, [ILogical](/stdlib-reference/interfaces/ilogical-01/index)
 
 ## Description
 

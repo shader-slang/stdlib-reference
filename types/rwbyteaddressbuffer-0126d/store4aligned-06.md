@@ -14,18 +14,18 @@ to the alignment of <span class='code'>uint4</span>, which is 16.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="store4aligned-06.html">Store4Aligned</a>(
-    <span class="code_keyword">uint</span> <a href="store4aligned-06.html#decl-address" class="code_param">address</a>,
-    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="store4aligned-06.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/store4aligned-06">Store4Aligned</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/store4aligned-06#decl-address" class="code_param">address</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/store4aligned-06#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-address"></a>address  : uint
+#### address  : uint {#decl-address}
 The input address in bytes, which must be a multiple of 16.
 
-####  <a id="decl-value"></a>value  : [vector](../vector/index)\<uint, 4\>
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, 4\> {#decl-value}
 Four input values.
 
 

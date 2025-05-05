@@ -7,69 +7,69 @@ layout: stdlib-reference
 ## Description
 
 Sine and cosine.
-Calculate both the sine and cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+Calculate both the sine and cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="sincos.html">sincos</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="sincos.html#typeparam-T" class="code_type">T</a> <a href="sincos.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">out</span> <a href="sincos.html#typeparam-T" class="code_type">T</a> <a href="sincos.html#decl-s" class="code_param">s</a>,
-    <span class="code_keyword">out</span> <a href="sincos.html#typeparam-T" class="code_type">T</a> <a href="sincos.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="sincos.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/sincos">sincos</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/sincos#decl-s" class="code_param">s</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/sincos#decl-c" class="code_param">c</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<span class="code_keyword">void</span> <a href="sincos.html">sincos</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>&gt; <a href="sincos.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">out</span> <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>&gt; <a href="sincos.html#decl-s" class="code_param">s</a>,
-    <span class="code_keyword">out</span> <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>&gt; <a href="sincos.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="sincos.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/sincos">sincos</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/sincos#decl-s" class="code_param">s</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/sincos#decl-c" class="code_param">c</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<span class="code_keyword">void</span> <a href="sincos.html">sincos</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="sincos.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="sincos.html#decl-L1" class="code_var">L1</a>:<span class="code_keyword">int</span>, <a href="sincos.html#decl-L2" class="code_var">L2</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>, <a href="sincos.html#decl-M" class="code_var">M</a>&gt; <a href="sincos.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">out</span> <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>, <a href="sincos.html#decl-M" class="code_var">M</a>&gt; <a href="sincos.html#decl-s" class="code_param">s</a>,
-    <span class="code_keyword">out</span> <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="sincos.html#typeparam-T" class="code_type">T</a>, <a href="sincos.html#decl-N" class="code_var">N</a>, <a href="sincos.html#decl-M" class="code_var">M</a>&gt; <a href="sincos.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="sincos.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/sincos">sincos</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/sincos#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/sincos#decl-L1" class="code_var">L1</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/sincos#decl-L2" class="code_var">L2</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/sincos#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/sincos#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/sincos#decl-s" class="code_param">s</a>,
+    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/sincos#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/sincos#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/sincos#decl-c" class="code_param">c</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/sincos#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
-####  <a id="decl-M"></a>M  : int
-####  <a id="decl-L1"></a>L1  : int
-####  <a id="decl-L2"></a>L2  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
+#### L1  : int {#decl-L1}
+#### L2  : int {#decl-L2}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](sincos#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/sincos#typeparam-T) {#decl-x}
 The angle in radians.
 
-####  <a id="decl-s"></a>s  : [T](sincos#typeparam-T)
-\[out\] The sine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+#### s  : [T](/stdlib-reference/global-decls/sincos#typeparam-T) {#decl-s}
+\[out\] The sine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-c"></a>c  : [T](sincos#typeparam-T)
-\[out\] The cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+#### c  : [T](/stdlib-reference/global-decls/sincos#typeparam-T) {#decl-c}
+\[out\] The cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 The angle in radians.
 
-####  <a id="decl-s"></a>s  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-\[out\] The sine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+#### s  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-s}
+\[out\] The sine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-c"></a>c  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-\[out\] The cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+#### c  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-c}
+\[out\] The cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 The angle in radians.
 
-####  <a id="decl-s"></a>s  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
-\[out\] The sine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+#### s  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-s}
+\[out\] The sine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-c"></a>c  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
-\[out\] The cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
+#### c  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-c}
+\[out\] The cosine of <span class='code'><a href="/stdlib-reference/global-decls/sincos#decl-x" class="code_param">x</a></span>.
 
 
 ## Return value

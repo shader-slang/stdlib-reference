@@ -13,25 +13,25 @@ Hyperbolic arc tangent. Returns the hyperbolic arc tangent of the specified valu
 ## Signature 
 
 <pre>
-<a href="atanh.html#typeparam-T" class="code_type">T</a> <a href="atanh.html">atanh</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>&gt;(<a href="atanh.html#typeparam-T" class="code_type">T</a> <a href="atanh.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="atanh.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/atanh">atanh</a>&lt;<a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/atanh#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>, <a href="atanh.html#decl-N" class="code_var">N</a>&gt; <a href="atanh.html">atanh</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>, <a href="atanh.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>, <a href="atanh.html#decl-N" class="code_var">N</a>&gt; <a href="atanh.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="atanh.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/atanh#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/atanh">atanh</a>&lt;<a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/atanh#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/atanh#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/atanh#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/atanh#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](atanh#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/atanh#typeparam-T) {#decl-x}
 The value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 The value.
 
 

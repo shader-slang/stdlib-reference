@@ -5,38 +5,17 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [ddx\<T\>](ddx)
+#### [ddx\<T\>](/stdlib-reference/global-decls/ddx)
 
-#### [ddx\_coarse\<T\>](ddx_coarse)
+#### [ddx\_coarse\<T\>](/stdlib-reference/global-decls/ddx_coarse)
 
-#### [ddx\_fine\<T\>](ddx_fine)
+#### [ddx\_fine\<T\>](/stdlib-reference/global-decls/ddx_fine)
 
-#### [ddy\<T\>](ddy)
+#### [ddy\<T\>](/stdlib-reference/global-decls/ddy)
 
-#### [ddy\_coarse\<T\>](ddy_coarse)
+#### [ddy\_coarse\<T\>](/stdlib-reference/global-decls/ddy_coarse)
 
-#### [ddy\_fine\<T\>](ddy_fine)
+#### [ddy\_fine\<T\>](/stdlib-reference/global-decls/ddy_fine)
 
-#### [fwidth\<T\>](fwidth)
+#### [fwidth\<T\>](/stdlib-reference/global-decls/fwidth)
 
-#### [fwidth\_coarse\<T\>](fwidth_coarse)
-
-#### [fwidth\_fine\<T\>](fwidth_fine)
-
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-ddx <ddx>
-ddx_coarse <ddx_coarse>
-ddx_fine <ddx_fine>
-ddy <ddy>
-ddy_coarse <ddy_coarse>
-ddy_fine <ddy_fine>
-fwidth <fwidth>
-fwidth_coarse <fwidth_coarse>
-fwidth_fine <fwidth_fine>
-```
-RTD-TOC-END -->

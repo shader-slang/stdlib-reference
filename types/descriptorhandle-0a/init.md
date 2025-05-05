@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="init.html#decl-handleValue" class="code_param">handleValue</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
+<a href="/stdlib-reference/types/descriptorhandle-0a/index" class="code_type">DescriptorHandle</a>&lt;<a href="/stdlib-reference/types/descriptorhandle-0a/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/descriptorhandle-0a/init">init</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="/stdlib-reference/types/descriptorhandle-0a/init#decl-handleValue" class="code_param">handleValue</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/descriptorhandle-0a/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/iopaquedescriptor-017/index" class="code_type">IOpaqueDescriptor</a>;
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-handleValue"></a>handleValue  : [vector](../vector/index)\<uint, 2\>
+#### handleValue  : [vector](/stdlib-reference/types/vector/index)\<uint, 2\> {#decl-handleValue}
 
 ## Availability and Requirements
 

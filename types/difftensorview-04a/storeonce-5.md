@@ -13,27 +13,27 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">DiffTensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-A" class="code_type">A</a>&gt;.<a href="storeonce-5.html">storeOnce</a>(
-    <span class="code_keyword">uint</span> <a href="storeonce-5.html#decl-x" class="code_param">x</a>,
-    <a href="index.html#typeparam-T" class="code_type">T</a> <a href="storeonce-5.html#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-A" class="code_type">A</a> : <a href="../../interfaces/idifftensorwrapper-015b/index.html" class="code_type">IDiffTensorWrapper</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/difftensorview-04a/index" class="code_type">DiffTensorView</a>&lt;<a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-A" class="code_type">A</a>&gt;.<a href="/stdlib-reference/types/difftensorview-04a/storeonce-5">storeOnce</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/difftensorview-04a/storeonce-5#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/difftensorview-04a/storeonce-5#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-A" class="code_type">A</a> : <a href="/stdlib-reference/interfaces/idifftensorwrapper-015b/index" class="code_type">IDiffTensorWrapper</a>;
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">DiffTensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-A" class="code_type">A</a>&gt;.<a href="storeonce-5.html">storeOnce</a>&lt;<a href="storeonce-5.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="storeonce-5.html#decl-N" class="code_var">N</a>&gt; <a href="storeonce-5.html#decl-x" class="code_param">x</a>,
-    <a href="index.html#typeparam-T" class="code_type">T</a> <a href="storeonce-5.html#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-A" class="code_type">A</a> : <a href="../../interfaces/idifftensorwrapper-015b/index.html" class="code_type">IDiffTensorWrapper</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/difftensorview-04a/index" class="code_type">DiffTensorView</a>&lt;<a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-A" class="code_type">A</a>&gt;.<a href="/stdlib-reference/types/difftensorview-04a/storeonce-5">storeOnce</a>&lt;<a href="/stdlib-reference/types/difftensorview-04a/storeonce-5#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/types/difftensorview-04a/storeonce-5#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/types/difftensorview-04a/storeonce-5#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/difftensorview-04a/storeonce-5#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/difftensorview-04a/index#typeparam-A" class="code_type">A</a> : <a href="/stdlib-reference/interfaces/idifftensorwrapper-015b/index" class="code_type">IDiffTensorWrapper</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="decl-N"></a>N  : int
+#### N  : int {#decl-N}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : uint
-####  <a id="decl-val"></a>val  : [T](index#typeparam-T)
-####  <a id="decl-x"></a>x  : [vector](../vector/index)\<uint, [N](../vector/index#decl-N)\>
+#### x  : uint {#decl-x}
+#### val  : [T](/stdlib-reference/types/difftensorview-04a/index#typeparam-T) {#decl-val}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 

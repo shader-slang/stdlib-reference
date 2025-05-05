@@ -6,5 +6,5 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 

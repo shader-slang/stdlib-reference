@@ -16,16 +16,16 @@ values to two 16-bit integer values, then pack these 16-bit values into a
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="packsnorm2x16-4.html">packSnorm2x16</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="packsnorm2x16-4.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/packsnorm2x16-4">packSnorm2x16</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/global-decls/packsnorm2x16-4#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href="packsnorm2x16-4.html">packSnorm2x16</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="packsnorm2x16-4.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/packsnorm2x16-4">packSnorm2x16</a>(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="/stdlib-reference/global-decls/packsnorm2x16-4#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<float, 2\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<half, 2\>
+#### unpackedValue  : [vector](/stdlib-reference/types/vector/index)\<float, 2\> {#decl-unpackedValue}
+#### unpackedValue  : [vector](/stdlib-reference/types/vector/index)\<half, 2\> {#decl-unpackedValue}
 
 ## Availability and Requirements
 

@@ -13,40 +13,40 @@ Refract incident vector given surface normal and index of refraction.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html">refract</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html#decl-i" class="code_param">i</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html#decl-n" class="code_param">n</a>,
-    <a href="refract.html#typeparam-T" class="code_type">T</a> <a href="refract.html#decl-eta" class="code_param">eta</a>)
-    <span class='code_keyword'>where</span> <a href="refract.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/refract#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/refract#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/refract#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/refract#decl-i" class="code_param">i</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/refract#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/refract#decl-n" class="code_param">n</a>,
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-eta" class="code_param">eta</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="refract.html#typeparam-T" class="code_type">T</a> <a href="refract.html">refract</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="refract.html#typeparam-T" class="code_type">T</a> <a href="refract.html#decl-i" class="code_param">i</a>,
-    <a href="refract.html#typeparam-T" class="code_type">T</a> <a href="refract.html#decl-n" class="code_param">n</a>,
-    <a href="refract.html#typeparam-T" class="code_type">T</a> <a href="refract.html#decl-eta" class="code_param">eta</a>)
-    <span class='code_keyword'>where</span> <a href="refract.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract">refract</a>&lt;<a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-i" class="code_param">i</a>,
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-n" class="code_param">n</a>,
+    <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/refract#decl-eta" class="code_param">eta</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/refract#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Parameters
 
-####  <a id="decl-i"></a>i  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### i  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-i}
 The incident vector.
 
-####  <a id="decl-n"></a>n  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### n  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-n}
 The normal vector.
 
-####  <a id="decl-eta"></a>eta  : [T](refract#typeparam-T)
+#### eta  : [T](/stdlib-reference/global-decls/refract#typeparam-T) {#decl-eta}
 The relative refractive index.
 
-####  <a id="decl-i"></a>i  : [T](refract#typeparam-T)
+#### i  : [T](/stdlib-reference/global-decls/refract#typeparam-T) {#decl-i}
 The incident vector.
 
-####  <a id="decl-n"></a>n  : [T](refract#typeparam-T)
+#### n  : [T](/stdlib-reference/global-decls/refract#typeparam-T) {#decl-n}
 The normal vector.
 
 

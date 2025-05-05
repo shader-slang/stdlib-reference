@@ -14,25 +14,25 @@ Aligned stores are more efficient than unaligned stores on some platforms.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="storealigned-5.html">storeAligned</a>&lt;<a href="storealigned-5.html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt; <a href="storealigned-5.html#decl-ptr" class="code_param">ptr</a>,
-    <a href="storealigned-5.html#typeparam-T" class="code_type">T</a> <a href="storealigned-5.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/storealigned-5">storeAligned</a>&lt;<a href="/stdlib-reference/global-decls/storealigned-5#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/storealigned-5#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/types/ptr-0/index" class="code_type">Ptr</a>&lt;<a href="/stdlib-reference/global-decls/storealigned-5#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/storealigned-5#decl-ptr" class="code_param">ptr</a>,
+    <a href="/stdlib-reference/global-decls/storealigned-5#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/storealigned-5#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="decl-alignment"></a>alignment  : int
+#### alignment  : int {#decl-alignment}
 The alignment of the store operation.
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index)\<[T](../types/ptr-0/index#typeparam-T)\>
+#### ptr  : [Ptr](/stdlib-reference/types/ptr-0/index)\<[T](/stdlib-reference/types/ptr-0/index#typeparam-T)\> {#decl-ptr}
 The pointer to store value to.
 
-####  <a id="decl-value"></a>value  : [T](storealigned-5#typeparam-T)
+#### value  : [T](/stdlib-reference/global-decls/storealigned-5#typeparam-T) {#decl-value}
 The value to store.
 
 

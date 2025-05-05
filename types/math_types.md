@@ -5,17 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [matrix\<T, R:int, C:int, L:int\>](matrix/index)
+#### [matrix\<T, R:int, C:int, L:int\>](/stdlib-reference/types/matrix/index)
 
-#### [vector\<T, N:int\>](vector/index)
+#### [vector\<T, N:int\>](/stdlib-reference/types/vector/index)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-matrix <matrix/index>
-vector <vector/index>
-```
-RTD-TOC-END -->

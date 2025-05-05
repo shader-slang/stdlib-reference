@@ -11,14 +11,5 @@ Represents types that can be initialized with a default constructor.
 
 ## Methods
 
-* [init](init)
+* [init](/stdlib-reference/interfaces/idefaultinitializable-018/init)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-init <init>
-```
-RTD-TOC-END -->

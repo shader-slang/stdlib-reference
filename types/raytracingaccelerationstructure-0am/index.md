@@ -13,26 +13,13 @@ Opaque type representing a ray-tracing acceleration structure.
 
 ## Fields
 
-####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a) : [DescriptorAccess](../descriptoraccess-0a/index) = [DescriptorAccess](../descriptoraccess-0a/index)\.[Read](../descriptoraccess-0a/index#decl-Read)
-####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[AccelerationStructure](../descriptorkind-0a/index#decl-AccelerationStructure)
+#### [kind](/stdlib-reference/types/raytracingaccelerationstructure-0am/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[AccelerationStructure](/stdlib-reference/types/descriptorkind-0a/index#decl-AccelerationStructure) {#decl-kind}
 
 ## Methods
 
-* [init](init)
+* [init](/stdlib-reference/types/raytracingaccelerationstructure-0am/init)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `RaytracingAccelerationStructure` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Handle <handle-0>
-descriptorAccess <descriptoraccess-a>
-init <init>
-kind <kind>
-```
-RTD-TOC-END -->

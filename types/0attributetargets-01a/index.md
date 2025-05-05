@@ -11,13 +11,13 @@ Represents the applicable target for an attribute.
 
 ## Values 
 
-####  <a id="decl-Struct"></a>_Struct = 1_
-####  <a id="decl-Var"></a>_Var = 2_
+#### _Struct = 1_ {#decl-Struct}
+#### _Var = 2_ {#decl-Var}
 Struct types.
 
-####  <a id="decl-Function"></a>_Function = 4_
+#### _Function = 4_ {#decl-Function}
 Global and local variables and constants.
 
-####  <a id="decl-Param"></a>_Param = 8_
+#### _Param = 8_ {#decl-Param}
 Functions or member functions.
 

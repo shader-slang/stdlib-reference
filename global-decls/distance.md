@@ -13,43 +13,43 @@ Vector distance. Returns the distance between two points.
 ## Signature 
 
 <pre>
-<a href="distance.html#typeparam-T" class="code_type">T</a> <a href="distance.html">distance</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <a href="distance.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <a href="distance.html#decl-N" class="code_var">N</a>&gt; <a href="distance.html#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <a href="distance.html#decl-N" class="code_var">N</a>&gt; <a href="distance.html#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="distance.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/distance">distance</a>&lt;<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/distance#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/distance#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/distance#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/distance#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/distance#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="distance.html#typeparam-T" class="code_type">T</a> <a href="distance.html">distance</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="distance.html#typeparam-T" class="code_type">T</a> <a href="distance.html#decl-x" class="code_param">x</a>,
-    <a href="distance.html#typeparam-T" class="code_type">T</a> <a href="distance.html#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="distance.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/distance">distance</a>&lt;<a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/distance#decl-x" class="code_param">x</a>,
+    <a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/distance#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/distance#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 The first point.
 
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
 The second point.
 
-####  <a id="decl-x"></a>x  : [T](distance#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/distance#typeparam-T) {#decl-x}
 The first point.
 
-####  <a id="decl-y"></a>y  : [T](distance#typeparam-T)
+#### y  : [T](/stdlib-reference/global-decls/distance#typeparam-T) {#decl-y}
 The second point.
 
 
 ## Return value
-The distance between <span class='code'><a href="distance.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="distance.html#decl-y" class="code_param">y</a></span>.
+The distance between <span class='code'><a href="/stdlib-reference/global-decls/distance#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/distance#decl-y" class="code_param">y</a></span>.
 
 ## Remarks
-This function is equivalent to <span class='code'><a href="length.html">length</a>(<a href="length.html#decl-x" class="code_param">x</a>-y)</span>. When <span class='code'><a href="distance.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="distance.html#decl-y" class="code_param">y</a></span> are scalars, this function is equivalent to <span class='code'><a href="abs.html">abs</a>(<a href="abs.html#decl-x" class="code_param">x</a>-y)</span>.
+This function is equivalent to <span class='code'><a href="/stdlib-reference/global-decls/length">length</a>(<a href="/stdlib-reference/global-decls/length#decl-x" class="code_param">x</a>-y)</span>. When <span class='code'><a href="/stdlib-reference/global-decls/distance#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/distance#decl-y" class="code_param">y</a></span> are scalars, this function is equivalent to <span class='code'><a href="/stdlib-reference/global-decls/abs">abs</a>(<a href="/stdlib-reference/global-decls/abs#decl-x" class="code_param">x</a>-y)</span>.
 
 
 ## Availability and Requirements

@@ -12,6 +12,6 @@ Mark a function's return value as non-uniform.
 ## Signature
 
 <pre>
-[<a href="nonuniformreturn-03a.html">NonUniformReturn</a>]
+[<a href="/stdlib-reference/attributes/nonuniformreturn-03a">NonUniformReturn</a>]
 </pre>
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Values 
 
-####  <a id="decl-Device"></a>_Device = 1_
-####  <a id="decl-Workgroup"></a>_Workgroup = 2_
-####  <a id="decl-Subgroup"></a>_Subgroup = 3_
-####  <a id="decl-QueueFamily"></a>_QueueFamily = 5_
+#### _Device = 1_ {#decl-Device}
+#### _Workgroup = 2_ {#decl-Workgroup}
+#### _Subgroup = 3_ {#decl-Subgroup}
+#### _QueueFamily = 5_ {#decl-QueueFamily}

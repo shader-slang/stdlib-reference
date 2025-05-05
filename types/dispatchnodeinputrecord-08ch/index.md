@@ -11,18 +11,9 @@ read-only input to Broadcasting launch node.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 
 ## Methods
 
-* [Get](get-0)
+* [Get](/stdlib-reference/types/dispatchnodeinputrecord-08ch/get-0)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Get <get-0>
-```
-RTD-TOC-END -->

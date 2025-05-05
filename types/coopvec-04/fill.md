@@ -13,14 +13,14 @@ Fill all elements of this CoopVec with the specified value.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="fill.html">fill</a>(<a href="index.html#typeparam-T" class="code_type">T</a> <a href="fill.html#decl-t" class="code_param">t</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="/stdlib-reference/types/coopvec-04/fill">fill</a>(<a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/coopvec-04/fill#decl-t" class="code_param">t</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [T](index#typeparam-T)
+#### t  : [T](/stdlib-reference/types/coopvec-04/index#typeparam-T) {#decl-t}
 The value to fill all elements with.
 
 

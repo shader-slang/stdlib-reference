@@ -13,7 +13,7 @@ Returns the current ray dispatch coordinates.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="dispatchraysindex-08c.html">DispatchRaysIndex</a>();
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="/stdlib-reference/global-decls/dispatchraysindex-08c">DispatchRaysIndex</a>();
 
 </pre>
 
@@ -29,16 +29,16 @@ Available in all ray tracing shader stages
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 #### glsl
-Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 #### cuda
-Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 #### spirv
-Available in stages: `intersection`, `raygen`, `miss`, `callable`, `closesthit`, `anyhit`.
+Available in stages: `raygen`, `intersection`, `miss`, `callable`, `closesthit`, `anyhit`.
 
 Requires capability: `spvRayTracingKHR`.
 

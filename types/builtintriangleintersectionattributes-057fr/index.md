@@ -11,7 +11,7 @@ Built-in structure containing intersection attributes for triangle primitives.
 
 ## Fields
 
-####  <a id="decl-barycentrics"></a>[barycentrics](barycentrics) : [vector](../vector/index)\<float, 2\>
+#### [barycentrics](/stdlib-reference/types/builtintriangleintersectionattributes-057fr/barycentrics) : [vector](/stdlib-reference/types/vector/index)\<float, 2\> {#decl-barycentrics}
 Barycentric coordinates of the intersection point on the triangle.
 
 
@@ -19,12 +19,3 @@ Barycentric coordinates of the intersection point on the triangle.
 
 * init
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-barycentrics <barycentrics>
-```
-RTD-TOC-END -->

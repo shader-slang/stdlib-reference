@@ -5,50 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InputPatch\<T, N:int\>](inputpatch-05/index)
+#### [InputPatch\<T, N:int\>](/stdlib-reference/types/inputpatch-05/index)
 
-#### [LineStream\<T\>](linestream-04/index)
+#### [LineStream\<T\>](/stdlib-reference/types/linestream-04/index)
 
-#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](outputindices-06/index)
+#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/outputindices-06/index)
 
-#### [OutputPatch\<T, N:int\>](outputpatch-06/index)
+#### [OutputPatch\<T, N:int\>](/stdlib-reference/types/outputpatch-06/index)
 
-#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](outputprimitives-06/index)
+#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/outputprimitives-06/index)
 
-#### [OutputVertices\<T, MAX\_VERTS:uint\>](outputvertices-06/index)
+#### [OutputVertices\<T, MAX\_VERTS:uint\>](/stdlib-reference/types/outputvertices-06/index)
 
-#### [PointStream\<T\>](pointstream-05/index)
+#### [PointStream\<T\>](/stdlib-reference/types/pointstream-05/index)
 
-#### [SubpassInput\<T, isMS:int\>](subpassinput-07)
+#### [SubpassInput\<T, isMS:int\>](/stdlib-reference/types/subpassinput-07)
 
-#### [SubpassInputMS\<T, isMS:int\>](subpassinputms-07cd)
+#### [SubpassInputMS\<T, isMS:int\>](/stdlib-reference/types/subpassinputms-07cd)
 
-#### [TextureFootprint\<ND:int\>](texturefootprint-07/index)
+#### [TextureFootprint\<ND:int\>](/stdlib-reference/types/texturefootprint-07/index)
 
-#### [TextureFootprint2D](texturefootprint2d-07h)
+#### [TextureFootprint2D](/stdlib-reference/types/texturefootprint2d-07h)
 
-#### [TextureFootprint3D](texturefootprint3d-07h)
+#### [TextureFootprint3D](/stdlib-reference/types/texturefootprint3d-07h)
 
-#### [TriangleStream\<T\>](trianglestream-08/index)
+#### [TriangleStream\<T\>](/stdlib-reference/types/trianglestream-08/index)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-InputPatch <inputpatch-05/index>
-LineStream <linestream-04/index>
-OutputIndices <outputindices-06/index>
-OutputPatch <outputpatch-06/index>
-OutputPrimitives <outputprimitives-06/index>
-OutputVertices <outputvertices-06/index>
-PointStream <pointstream-05/index>
-SubpassInput <subpassinput-07>
-SubpassInputMS <subpassinputms-07cd>
-TextureFootprint <texturefootprint-07/index>
-TextureFootprint2D <texturefootprint2d-07h>
-TextureFootprint3D <texturefootprint3d-07h>
-TriangleStream <trianglestream-08/index>
-```
-RTD-TOC-END -->

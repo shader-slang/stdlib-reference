@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">Optional</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="index.html#typeparam-T" class="code_type">T</a> <a href="init.html#decl-val" class="code_param">val</a>);
+<a href="/stdlib-reference/types/optional-0/index" class="code_type">Optional</a>&lt;<a href="/stdlib-reference/types/optional-0/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/optional-0/init">init</a>(<a href="/stdlib-reference/types/optional-0/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/optional-0/init#decl-val" class="code_param">val</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-val"></a>val  : [T](index#typeparam-T)
+#### val  : [T](/stdlib-reference/types/optional-0/index#typeparam-T) {#decl-val}
 

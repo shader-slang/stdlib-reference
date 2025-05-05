@@ -12,12 +12,12 @@ emiting targett code.
 ## Signature
 
 <pre>
-[<a href="forceunroll-05.html">ForceUnroll</a>(<a href="forceunroll-05.html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href="/stdlib-reference/attributes/forceunroll-05">ForceUnroll</a>(<a href="/stdlib-reference/attributes/forceunroll-05#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
-####  <a id="decl-count"></a>count  : int = 0
+#### count  : int = 0 {#decl-count}
 The maximun number of iterations to unroll the loop.
 
 

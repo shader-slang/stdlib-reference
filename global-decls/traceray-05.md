@@ -13,46 +13,46 @@ Traces a ray through the acceleration structure.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="traceray-05.html">TraceRay</a>&lt;<a href="traceray-05.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="../types/raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="traceray-05.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="traceray-05.html#decl-RayFlags" class="code_param">RayFlags</a>,
-    <span class="code_keyword">uint</span> <a href="traceray-05.html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
-    <span class="code_keyword">uint</span> <a href="traceray-05.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="traceray-05.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="traceray-05.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="../types/raydesc-03/index.html" class="code_type">RayDesc</a> <a href="traceray-05.html#decl-Ray" class="code_param">Ray</a>,
-    <span class="code_keyword">inout</span> <a href="traceray-05.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="traceray-05.html#decl-Payload" class="code_param">Payload</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/traceray-05">TraceRay</a>&lt;<a href="/stdlib-reference/global-decls/traceray-05#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+    <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/global-decls/traceray-05#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/traceray-05#decl-RayFlags" class="code_param">RayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/traceray-05#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/traceray-05#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/traceray-05#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/traceray-05#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="/stdlib-reference/types/raydesc-03/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/global-decls/traceray-05#decl-Ray" class="code_param">Ray</a>,
+    <span class="code_keyword">inout</span> <a href="/stdlib-reference/global-decls/traceray-05#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/global-decls/traceray-05#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-payload_t"></a>payload\_t
+#### payload\_t {#typeparam-payload_t}
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index)
+#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index) {#decl-AccelerationStructure}
 The acceleration structure to traverse
 
-####  <a id="decl-RayFlags"></a>RayFlags  : uint
+#### RayFlags  : uint {#decl-RayFlags}
 Flags controlling ray behavior
 
-####  <a id="decl-InstanceInclusionMask"></a>InstanceInclusionMask  : uint
+#### InstanceInclusionMask  : uint {#decl-InstanceInclusionMask}
 Mask for filtering instance visibility
 
-####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
+#### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
 Offset for hit group indexing
 
-####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
+#### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
 Multiplier for geometry-based hit group indexing
 
-####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
+#### MissShaderIndex  : uint {#decl-MissShaderIndex}
 Index of the miss shader to execute if no hit is found
 
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../types/raydesc-03/index)
+#### Ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-Ray}
 Description of the ray to trace
 
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](traceray-05#typeparam-payload_t)
+#### Payload  : [payload\_t](/stdlib-reference/global-decls/traceray-05#typeparam-payload_t) {#decl-Payload}
 Structure for passing data between shaders
 
 

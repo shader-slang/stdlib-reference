@@ -11,9 +11,9 @@ Controls the behavior of the compiler when a differentiable function is detected
 
 ## Values 
 
-####  <a id="decl-Warn"></a>_Warn = 0_
+#### _Warn = 0_ {#decl-Warn}
 Causes a warning if the method is detected to have side-effects
 
-####  <a id="decl-Allow"></a>_Allow = 1_
+#### _Allow = 1_ {#decl-Allow}
 Suppresses the warning
 

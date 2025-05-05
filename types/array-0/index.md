@@ -4,42 +4,29 @@ layout: stdlib-reference
 
 # struct Array\<T, N:int\>
 
-*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index)\<[T](../../interfaces/irwarray-0123/index#typeparam-T)\>
+*Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
 
-*Conditionally conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index), [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
+*Conditionally conforms to:* [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index), [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index)
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
-####  <a id="decl-N"></a>N  : int
+#### T {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Methods
 
-* [getCount](getcount-3)
-* [dzero](dzero)
-* [dadd](dadd)
-* [dmul](dmul)
+* [getCount](/stdlib-reference/types/array-0/getcount-3)
+* [dzero](/stdlib-reference/types/array-0/dzero)
+* [dadd](/stdlib-reference/types/array-0/dadd)
+* [dmul](/stdlib-reference/types/array-0/dmul)
 
 ## Conditional Conformances
 
 ### Conformance to IDifferentiable
 `Array<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index)
+  * [T](/stdlib-reference/types/array-0/index#typeparam-T) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
 ### Conformance to IDifferentiablePtrType
 `Array<T, N:int>` additionally conforms to `IDifferentiablePtrType` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Differential <differential-0>
-dadd <dadd>
-dmul <dmul>
-dzero <dzero>
-getCount <getcount-3>
-```
-RTD-TOC-END -->
+  * [T](/stdlib-reference/types/array-0/index#typeparam-T) : [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index)

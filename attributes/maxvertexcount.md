@@ -11,12 +11,12 @@ Used on a geometry shader entry point to specify the maximum number of vertices 
 ## Signature
 
 <pre>
-[<a href="maxvertexcount.html">maxvertexcount</a>(<a href="maxvertexcount.html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href="/stdlib-reference/attributes/maxvertexcount">maxvertexcount</a>(<a href="/stdlib-reference/attributes/maxvertexcount#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
-####  <a id="decl-count"></a>count  : int
+#### count  : int {#decl-count}
 The maximum number of vertices that the geometry shader can output.
 
 

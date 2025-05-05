@@ -13,19 +13,19 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="updatediff-6.html">updateDiff</a>&lt;<a href="updatediff-6.html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">inout</span> <a href="../types/differentialpair-0c/index.html" class="code_type">DifferentialPair</a>&lt;<a href="updatediff-6.html#typeparam-T" class="code_type">T</a>&gt; <a href="updatediff-6.html#decl-p" class="code_param">p</a>,
-    <a href="updatediff-6.html#typeparam-T" class="code_type">T</a>.Differential <a href="updatediff-6.html#decl-newDiff" class="code_param">newDiff</a>)
-    <span class='code_keyword'>where</span> <a href="updatediff-6.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/idifferentiable-01/index.html" class="code_type">IDifferentiable</a>;
+<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/updatediff-6">updateDiff</a>&lt;<a href="/stdlib-reference/global-decls/updatediff-6#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">inout</span> <a href="/stdlib-reference/types/differentialpair-0c/index" class="code_type">DifferentialPair</a>&lt;<a href="/stdlib-reference/global-decls/updatediff-6#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/updatediff-6#decl-p" class="code_param">p</a>,
+    <a href="/stdlib-reference/global-decls/updatediff-6#typeparam-T" class="code_type">T</a>.Differential <a href="/stdlib-reference/global-decls/updatediff-6#decl-newDiff" class="code_param">newDiff</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/updatediff-6#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
+#### T: [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index) {#typeparam-T}
 
 ## Parameters
 
-####  <a id="decl-p"></a>p  : [DifferentialPair](../types/differentialpair-0c/index)\<[T](../types/differentialpair-0c/index#typeparam-T)\>
-####  <a id="decl-newDiff"></a>newDiff  : [T](updatediff-6#typeparam-T)\.Differential
+#### p  : [DifferentialPair](/stdlib-reference/types/differentialpair-0c/index)\<[T](/stdlib-reference/types/differentialpair-0c/index#typeparam-T)\> {#decl-p}
+#### newDiff  : [T](/stdlib-reference/global-decls/updatediff-6#typeparam-T)\.Differential {#decl-newDiff}
 

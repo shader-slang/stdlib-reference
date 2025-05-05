@@ -16,16 +16,16 @@ table.
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemiss-04.html">MakeMiss</a>(
-    <span class="code_keyword">uint</span> <a href="makemiss-04.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makemiss-04.html#decl-Ray" class="code_param">Ray</a>);
+<span class='code_keyword'>static</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/makemiss-04">MakeMiss</a>(
+    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/makemiss-04#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="/stdlib-reference/types/raydesc-03/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/hitobject-03/makemiss-04#decl-Ray" class="code_param">Ray</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index)
+#### MissShaderIndex  : uint {#decl-MissShaderIndex}
+#### Ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-Ray}
 
 ## Availability and Requirements
 

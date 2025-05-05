@@ -16,6 +16,6 @@ Marks a declaration as a builtin declaration.
 ## Signature
 
 <pre>
-[<a href="builtin.html">builtin</a>]
+[<a href="/stdlib-reference/attributes/builtin">builtin</a>]
 </pre>
 

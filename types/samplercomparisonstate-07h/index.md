@@ -13,26 +13,13 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
-####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a) : [DescriptorAccess](../descriptoraccess-0a/index) = [DescriptorAccess](../descriptoraccess-0a/index)\.[Unknown](../descriptoraccess-0a/index#decl-Unknown)
-####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[Sampler](../descriptorkind-0a/index#decl-Sampler)
+#### [kind](/stdlib-reference/types/samplercomparisonstate-07h/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Sampler](/stdlib-reference/types/descriptorkind-0a/index#decl-Sampler) {#decl-kind}
 
 ## Methods
 
-* [init](init)
+* [init](/stdlib-reference/types/samplercomparisonstate-07h/init)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>
 `SamplerComparisonState` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>`.
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Handle <handle-0>
-descriptorAccess <descriptoraccess-a>
-init <init>
-kind <kind>
-```
-RTD-TOC-END -->

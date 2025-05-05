@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Reinterpret type <span class='code'><a href="reinterpret.html#typeparam-U" class="code_type">U</a></span> as type <span class='code'><a href="reinterpret.html#typeparam-T" class="code_type">T</a></span>. <span class='code'><a href="reinterpret.html#typeparam-T" class="code_type">T</a></span> and <span class='code'><a href="reinterpret.html#typeparam-U" class="code_type">U</a></span>
+Reinterpret type <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a></span> as type <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a></span>. <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a></span>
 can be any scalar, vector, matrix, struct or array types.
 
 
@@ -15,16 +15,16 @@ can be any scalar, vector, matrix, struct or array types.
 ## Signature 
 
 <pre>
-<a href="reinterpret.html#typeparam-T" class="code_type">T</a> <a href="reinterpret.html">reinterpret</a>&lt;<a href="reinterpret.html#typeparam-T" class="code_type">T</a>, <a href="reinterpret.html#typeparam-U" class="code_type">U</a>&gt;(<a href="reinterpret.html#typeparam-U" class="code_type">U</a> <a href="reinterpret.html#decl-value" class="code_param">value</a>);
+<a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/reinterpret">reinterpret</a>&lt;<a href="/stdlib-reference/global-decls/reinterpret#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a>&gt;(<a href="/stdlib-reference/global-decls/reinterpret#typeparam-U" class="code_type">U</a> <a href="/stdlib-reference/global-decls/reinterpret#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
-####  <a id="typeparam-U"></a>U
+#### T {#typeparam-T}
+#### U {#typeparam-U}
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [U](reinterpret#typeparam-U)
+#### value  : [U](/stdlib-reference/global-decls/reinterpret#typeparam-U) {#decl-value}
 

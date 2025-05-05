@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IRWArray\<T\>
 
-*Inherits from:* [IArray](../iarray-01/index)\<[T](../iarray-01/index#typeparam-T)\>
+*Inherits from:* [IArray](/stdlib-reference/interfaces/iarray-01/index)\<[T](/stdlib-reference/interfaces/iarray-01/index#typeparam-T)\>
 
 ## Description
 
@@ -12,21 +12,21 @@ Represents types that provide a subscript operator so that they can be used like
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 The element type returned by the subscript operator.
 
 
 ## Methods
 
-* [subscript](subscript)
+* [subscript](/stdlib-reference/interfaces/irwarray-0123/subscript)
 
 ## Remarks
 
-This interface is implemented by <span class='code'><a href="../../types/array-0/index.html" class="code_type">Array</a></span>, <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a></span>, <span class='code'><a href="../../types/matrix/index.html" class="code_type">matrix</a></span>, <span class='code'><a href="../../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="../../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a></span> types.
+This interface is implemented by <span class='code'><a href="/stdlib-reference/types/array-0/index" class="code_type">Array</a></span>, <span class='code'><a href="/stdlib-reference/types/vector/index" class="code_type">vector</a></span>, <span class='code'><a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a></span>, <span class='code'><a href="/stdlib-reference/types/structuredbuffer-0a/index" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="/stdlib-reference/types/rwstructuredbuffer-012c/index" class="code_type">RWStructuredBuffer</a></span> types.
 
 ## Example
 
-The follow example shows how to define a generic function uses the <span class='code'><a href="index.html" class="code_type">IRWArray</a></span> interface to mutate an array-like value.
+The follow example shows how to define a generic function uses the <span class='code'><a href="/stdlib-reference/interfaces/irwarray-0123/index" class="code_type">IRWArray</a></span> interface to mutate an array-like value.
 ```csharp
 void writeToArray<U, T : IRWArray<U>>(inout T array, int index, U value) { array[index] = value; }
 void writeToBuffer<U, T : IRWArray<U>>(T array, int index, U value) { array[index] = value; }
@@ -62,12 +62,3 @@ void computeMain(int3 dispatchThreadID: SV_DispatchThreadID)
 ```
 
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-subscript <subscript>
-```
-RTD-TOC-END -->

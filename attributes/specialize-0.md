@@ -16,6 +16,6 @@ Mark an interface type for specialization only. Such interface types cannot be u
 ## Signature
 
 <pre>
-[<a href="specialize-0.html">Specialize</a>]
+[<a href="/stdlib-reference/attributes/specialize-0">Specialize</a>]
 </pre>
 

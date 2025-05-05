@@ -5,272 +5,177 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [abs\<T\>](abs)
+#### [abs\<T\>](/stdlib-reference/global-decls/abs)
 
-#### [acos\<T\>](acos)
+#### [acos\<T\>](/stdlib-reference/global-decls/acos)
 
-#### [acosh\<T\>](acosh)
+#### [acosh\<T\>](/stdlib-reference/global-decls/acosh)
 
-#### [asin\<T\>](asin)
+#### [asin\<T\>](/stdlib-reference/global-decls/asin)
 
-#### [asinh\<T\>](asinh)
+#### [asinh\<T\>](/stdlib-reference/global-decls/asinh)
 
-#### [atan\<T\>](atan)
+#### [atan\<T\>](/stdlib-reference/global-decls/atan)
 
-#### [atan2\<T\>](atan2)
+#### [atan2\<T\>](/stdlib-reference/global-decls/atan2)
 
-#### [atanh\<T\>](atanh)
+#### [atanh\<T\>](/stdlib-reference/global-decls/atanh)
 
-#### [ceil\<T\>](ceil)
+#### [ceil\<T\>](/stdlib-reference/global-decls/ceil)
 
-#### [clamp\<T\>](clamp)
+#### [clamp\<T\>](/stdlib-reference/global-decls/clamp)
 
-#### [copysign\<T, N:int\>](copysign)
+#### [copysign\<T, N:int\>](/stdlib-reference/global-decls/copysign)
 
-#### [copysign\_double\<N:int\>](copysign_double)
+#### [copysign\_double\<N:int\>](/stdlib-reference/global-decls/copysign_double)
 
-#### [copysign\_float\<N:int\>](copysign_float)
+#### [copysign\_float\<N:int\>](/stdlib-reference/global-decls/copysign_float)
 
-#### [copysign\_half\<N:int\>](copysign_half)
+#### [copysign\_half\<N:int\>](/stdlib-reference/global-decls/copysign_half)
 
-#### [cos\<T\>](cos)
+#### [cos\<T\>](/stdlib-reference/global-decls/cos)
 
-#### [cosh\<T\>](cosh)
+#### [cosh\<T\>](/stdlib-reference/global-decls/cosh)
 
-#### [cospi\<T\>](cospi)
+#### [cospi\<T\>](/stdlib-reference/global-decls/cospi)
 
-#### [cross\<T\>](cross)
+#### [cross\<T\>](/stdlib-reference/global-decls/cross)
 
-#### [degrees\<T\>](degrees)
+#### [degrees\<T\>](/stdlib-reference/global-decls/degrees)
 
-#### [determinant\<T, N:int\>](determinant)
+#### [determinant\<T, N:int\>](/stdlib-reference/global-decls/determinant)
 
-#### [distance\<T, N:int\>](distance)
+#### [distance\<T, N:int\>](/stdlib-reference/global-decls/distance)
 
-#### [divide\<T\>](divide)
+#### [divide\<T\>](/stdlib-reference/global-decls/divide)
 
-#### [dot\<T\>](dot)
+#### [dot\<T\>](/stdlib-reference/global-decls/dot)
 
-#### [dot2add](dot2add)
+#### [dot2add](/stdlib-reference/global-decls/dot2add)
 
-#### [dot4add\_i8packed](dot4add_i8packed)
+#### [dot4add\_i8packed](/stdlib-reference/global-decls/dot4add_i8packed)
 
-#### [dot4add\_u8packed](dot4add_u8packed)
+#### [dot4add\_u8packed](/stdlib-reference/global-decls/dot4add_u8packed)
 
-#### [dst\<T\>](dst)
+#### [dst\<T\>](/stdlib-reference/global-decls/dst)
 
-#### [exp\<T\>](exp)
+#### [exp\<T\>](/stdlib-reference/global-decls/exp)
 
-#### [exp10\<T\>](exp10)
+#### [exp10\<T\>](/stdlib-reference/global-decls/exp10)
 
-#### [exp2\<T\>](exp2)
+#### [exp2\<T\>](/stdlib-reference/global-decls/exp2)
 
-#### [fabs\<T\>](fabs)
+#### [fabs\<T\>](/stdlib-reference/global-decls/fabs)
 
-#### [faceforward\<T, N:int\>](faceforward)
+#### [faceforward\<T, N:int\>](/stdlib-reference/global-decls/faceforward)
 
-#### [fdim\<T\>](fdim)
+#### [fdim\<T\>](/stdlib-reference/global-decls/fdim)
 
-#### [floor\<T\>](floor)
+#### [floor\<T\>](/stdlib-reference/global-decls/floor)
 
-#### [fma\<T\>](fma)
+#### [fma\<T\>](/stdlib-reference/global-decls/fma)
 
-#### [fmax\<T\>](fmax)
+#### [fmax\<T\>](/stdlib-reference/global-decls/fmax)
 
-#### [fmax3\<T\>](fmax3)
+#### [fmax3\<T\>](/stdlib-reference/global-decls/fmax3)
 
-#### [fmedian3\<T\>](fmedian3)
+#### [fmedian3\<T\>](/stdlib-reference/global-decls/fmedian3)
 
-#### [fmin\<T\>](fmin)
+#### [fmin\<T\>](/stdlib-reference/global-decls/fmin)
 
-#### [fmin3\<T\>](fmin3)
+#### [fmin3\<T\>](/stdlib-reference/global-decls/fmin3)
 
-#### [fmod\<T\>](fmod)
+#### [fmod\<T\>](/stdlib-reference/global-decls/fmod)
 
-#### [frac\<T\>](frac)
+#### [frac\<T\>](/stdlib-reference/global-decls/frac)
 
-#### [fract\<T\>](fract)
+#### [fract\<T\>](/stdlib-reference/global-decls/fract)
 
-#### [frexp\<T\>](frexp)
+#### [frexp\<T\>](/stdlib-reference/global-decls/frexp)
 
-#### [isfinite\<T\>](isfinite)
+#### [isfinite\<T\>](/stdlib-reference/global-decls/isfinite)
 
-#### [isinf\<T\>](isinf)
+#### [isinf\<T\>](/stdlib-reference/global-decls/isinf)
 
-#### [isnan\<T\>](isnan)
+#### [isnan\<T\>](/stdlib-reference/global-decls/isnan)
 
-#### [ldexp\<T\>](ldexp)
+#### [ldexp\<T\>](/stdlib-reference/global-decls/ldexp)
 
-#### [length\<T, N:int\>](length)
+#### [length\<T, N:int\>](/stdlib-reference/global-decls/length)
 
-#### [lerp\<T\>](lerp)
+#### [lerp\<T\>](/stdlib-reference/global-decls/lerp)
 
-#### [lit](lit)
+#### [lit](/stdlib-reference/global-decls/lit)
 
-#### [log\<T\>](log)
+#### [log\<T\>](/stdlib-reference/global-decls/log)
 
-#### [log10\<T\>](log10)
+#### [log10\<T\>](/stdlib-reference/global-decls/log10)
 
-#### [log2\<T\>](log2)
+#### [log2\<T\>](/stdlib-reference/global-decls/log2)
 
-#### [mad\<T\>](mad)
+#### [mad\<T\>](/stdlib-reference/global-decls/mad)
 
-#### [max\<T\>](max)
+#### [max\<T\>](/stdlib-reference/global-decls/max)
 
-#### [max3\<T\>](max3)
+#### [max3\<T\>](/stdlib-reference/global-decls/max3)
 
-#### [median3\<T\>](median3)
+#### [median3\<T\>](/stdlib-reference/global-decls/median3)
 
-#### [min\<T\>](min)
+#### [min\<T\>](/stdlib-reference/global-decls/min)
 
-#### [min3\<T\>](min3)
+#### [min3\<T\>](/stdlib-reference/global-decls/min3)
 
-#### [modf\<T\>](modf)
+#### [modf\<T\>](/stdlib-reference/global-decls/modf)
 
-#### [msad4](msad4)
+#### [msad4](/stdlib-reference/global-decls/msad4)
 
-#### [mul\<T\>](mul)
+#### [mul\<T\>](/stdlib-reference/global-decls/mul)
 
-#### [normalize\<T, N:int\>](normalize)
+#### [normalize\<T, N:int\>](/stdlib-reference/global-decls/normalize)
 
-#### [pow\<T\>](pow)
+#### [pow\<T\>](/stdlib-reference/global-decls/pow)
 
-#### [powr\<T\>](powr)
+#### [powr\<T\>](/stdlib-reference/global-decls/powr)
 
-#### [radians\<T\>](radians)
+#### [radians\<T\>](/stdlib-reference/global-decls/radians)
 
-#### [rcp\<T\>](rcp)
+#### [rcp\<T\>](/stdlib-reference/global-decls/rcp)
 
-#### [reflect\<T\>](reflect)
+#### [reflect\<T\>](/stdlib-reference/global-decls/reflect)
 
-#### [refract\<T, N:int\>](refract)
+#### [refract\<T, N:int\>](/stdlib-reference/global-decls/refract)
 
-#### [rint\<T\>](rint)
+#### [rint\<T\>](/stdlib-reference/global-decls/rint)
 
-#### [round\<T\>](round)
+#### [round\<T\>](/stdlib-reference/global-decls/round)
 
-#### [rsqrt\<T\>](rsqrt)
+#### [rsqrt\<T\>](/stdlib-reference/global-decls/rsqrt)
 
-#### [saturate\<T\>](saturate)
+#### [saturate\<T\>](/stdlib-reference/global-decls/saturate)
 
-#### [sign\<T\>](sign)
+#### [sign\<T\>](/stdlib-reference/global-decls/sign)
 
-#### [sin\<T\>](sin)
+#### [sin\<T\>](/stdlib-reference/global-decls/sin)
 
-#### [sincos\<T\>](sincos)
+#### [sincos\<T\>](/stdlib-reference/global-decls/sincos)
 
-#### [sinh\<T\>](sinh)
+#### [sinh\<T\>](/stdlib-reference/global-decls/sinh)
 
-#### [sinpi\<T\>](sinpi)
-
-#### [smoothstep\<T\>](smoothstep)
-
-#### [sqrt\<T\>](sqrt)
-
-#### [step\<T\>](step)
-
-#### [tan\<T\>](tan)
-
-#### [tanh\<T\>](tanh)
-
-#### [tanpi\<T\>](tanpi)
-
-#### [transpose\<T, N:int, M:int\>](transpose)
-
-#### [trunc\<T\>](trunc)
-
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-abs <abs>
-acos <acos>
-acosh <acosh>
-asin <asin>
-asinh <asinh>
-atan <atan>
-atan2 <atan2>
-atanh <atanh>
-ceil <ceil>
-clamp <clamp>
-copysign <copysign>
-copysign_double <copysign_double>
-copysign_float <copysign_float>
-copysign_half <copysign_half>
-cos <cos>
-cosh <cosh>
-cospi <cospi>
-cross <cross>
-degrees <degrees>
-determinant <determinant>
-distance <distance>
-divide <divide>
-dot <dot>
-dot2add <dot2add>
-dot4add_i8packed <dot4add_i8packed>
-dot4add_u8packed <dot4add_u8packed>
-dst <dst>
-exp <exp>
-exp10 <exp10>
-exp2 <exp2>
-fabs <fabs>
-faceforward <faceforward>
-fdim <fdim>
-floor <floor>
-fma <fma>
-fmax <fmax>
-fmax3 <fmax3>
-fmedian3 <fmedian3>
-fmin <fmin>
-fmin3 <fmin3>
-fmod <fmod>
-frac <frac>
-fract <fract>
-frexp <frexp>
-isfinite <isfinite>
-isinf <isinf>
-isnan <isnan>
-ldexp <ldexp>
-length <length>
-lerp <lerp>
-lit <lit>
-log <log>
-log10 <log10>
-log2 <log2>
-mad <mad>
-max <max>
-max3 <max3>
-median3 <median3>
-min <min>
-min3 <min3>
-modf <modf>
-msad4 <msad4>
-mul <mul>
-normalize <normalize>
-pow <pow>
-powr <powr>
-radians <radians>
-rcp <rcp>
-reflect <reflect>
-refract <refract>
-rint <rint>
-round <round>
-rsqrt <rsqrt>
-saturate <saturate>
-sign <sign>
-sin <sin>
-sincos <sincos>
-sinh <sinh>
-sinpi <sinpi>
-smoothstep <smoothstep>
-sqrt <sqrt>
-step <step>
-tan <tan>
-tanh <tanh>
-tanpi <tanpi>
-transpose <transpose>
-trunc <trunc>
-```
-RTD-TOC-END -->
+#### [sinpi\<T\>](/stdlib-reference/global-decls/sinpi)
+
+#### [smoothstep\<T\>](/stdlib-reference/global-decls/smoothstep)
+
+#### [sqrt\<T\>](/stdlib-reference/global-decls/sqrt)
+
+#### [step\<T\>](/stdlib-reference/global-decls/step)
+
+#### [tan\<T\>](/stdlib-reference/global-decls/tan)
+
+#### [tanh\<T\>](/stdlib-reference/global-decls/tanh)
+
+#### [tanpi\<T\>](/stdlib-reference/global-decls/tanpi)
+
+#### [transpose\<T, N:int, M:int\>](/stdlib-reference/global-decls/transpose)
+
+#### [trunc\<T\>](/stdlib-reference/global-decls/trunc)
+

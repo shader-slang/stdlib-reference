@@ -14,16 +14,16 @@ Detach and set derivatives to zero.
 ## Signature 
 
 <pre>
-<a href="detach.html#typeparam-T" class="code_type">T</a> <a href="detach.html">detach</a>&lt;<a href="detach.html#typeparam-T" class="code_type">T</a>&gt;(<a href="detach.html#typeparam-T" class="code_type">T</a> <a href="detach.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="detach.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/idifferentiable-01/index.html" class="code_type">IDifferentiable</a>;
+<a href="/stdlib-reference/global-decls/detach#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/detach">detach</a>&lt;<a href="/stdlib-reference/global-decls/detach#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/detach#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/detach#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/detach#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
+#### T: [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index) {#typeparam-T}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](detach#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/detach#typeparam-T) {#decl-x}
 

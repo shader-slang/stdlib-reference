@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Returns true if <span class='code'>this</span> is less than or equal to <span class='code'><a href="lessthanorequals-48a.html#decl-other" class="code_param">other</a></span>.
+Returns true if <span class='code'>this</span> is less than or equal to <span class='code'><a href="/stdlib-reference/interfaces/icomparable-01/lessthanorequals-48a#decl-other" class="code_param">other</a></span>.
 
 
 
@@ -14,11 +14,11 @@ Returns true if <span class='code'>this</span> is less than or equal to <span cl
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="index.html" class="code_type">IComparable</a>.<a href="lessthanorequals-48a.html">lessThanOrEquals</a>(<a href="index.html" class="code_type">IComparable</a>.<span class="code_keyword">This</span> <a href="lessthanorequals-48a.html#decl-other" class="code_param">other</a>);
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/interfaces/icomparable-01/index" class="code_type">IComparable</a>.<a href="/stdlib-reference/interfaces/icomparable-01/lessthanorequals-48a">lessThanOrEquals</a>(<a href="/stdlib-reference/interfaces/icomparable-01/index" class="code_type">IComparable</a>.<span class="code_keyword">This</span> <a href="/stdlib-reference/interfaces/icomparable-01/lessthanorequals-48a#decl-other" class="code_param">other</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IComparable](index)\.This
+#### other  : [IComparable](/stdlib-reference/interfaces/icomparable-01/index)\.This {#decl-other}
 

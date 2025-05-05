@@ -11,36 +11,18 @@ Represents the handle of a Torch tensor object.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T
+#### T {#typeparam-T}
 
 ## Methods
 
-* [getView](getview-3)
-* [dims](dims)
-* [size](size)
-* [stride](stride)
-* [data\_ptr](data_ptr)
-* [alloc](alloc)
-* [emptyLike](emptylike-5)
-* [fillZero](fillzero-4)
-* [fillValue](fillvalue-4)
-* [zerosLike](zeroslike-5)
+* [getView](/stdlib-reference/types/torchtensor-05/getview-3)
+* [dims](/stdlib-reference/types/torchtensor-05/dims)
+* [size](/stdlib-reference/types/torchtensor-05/size)
+* [stride](/stdlib-reference/types/torchtensor-05/stride)
+* [data\_ptr](/stdlib-reference/types/torchtensor-05/data_ptr)
+* [alloc](/stdlib-reference/types/torchtensor-05/alloc)
+* [emptyLike](/stdlib-reference/types/torchtensor-05/emptylike-5)
+* [fillZero](/stdlib-reference/types/torchtensor-05/fillzero-4)
+* [fillValue](/stdlib-reference/types/torchtensor-05/fillvalue-4)
+* [zerosLike](/stdlib-reference/types/torchtensor-05/zeroslike-5)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-alloc <alloc>
-data_ptr <data_ptr>
-dims <dims>
-emptyLike <emptylike-5>
-fillValue <fillvalue-4>
-fillZero <fillzero-4>
-getView <getview-3>
-size <size>
-stride <stride>
-zerosLike <zeroslike-5>
-```
-RTD-TOC-END -->

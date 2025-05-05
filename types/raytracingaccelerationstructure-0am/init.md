@@ -13,19 +13,19 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(uint64_t <a href="init.html#decl-address" class="code_param">address</a>);
+<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(uint64_t <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-address" class="code_param">address</a>);
 
-<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="init.html#decl-res" class="code_param">res</a>);
+<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-res" class="code_param">res</a>);
 
-<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(<a href="../descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>);
+<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init">init</a>(<a href="/stdlib-reference/types/descriptorhandle-0a/index" class="code_type">DescriptorHandle</a>&lt;<a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/init#decl-bindless" class="code_param">bindless</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-address"></a>address  : uint64\_t
-####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[RaytracingAccelerationStructure](index)\>
+#### address  : uint64\_t {#decl-address}
+#### res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\> {#decl-res}
+#### bindless  : [DescriptorHandle](/stdlib-reference/types/descriptorhandle-0a/index)\<[RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index)\> {#decl-bindless}
 
 ## Availability and Requirements
 

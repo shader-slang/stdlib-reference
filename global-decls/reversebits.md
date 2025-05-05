@@ -13,27 +13,27 @@ Reverse order of bits.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="reversebits.html">reversebits</a>(<span class="code_keyword">uint</span> <a href="reversebits.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reversebits">reversebits</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a>);
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html">reversebits</a>&lt;<a href="reversebits.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html#decl-value" class="code_param">value</a>);
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reversebits">reversebits</a>&lt;<a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/reversebits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="decl-N"></a>N  : int
+#### N  : int {#decl-N}
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : uint
+#### value  : uint {#decl-value}
 The value to reverse bits of.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint, [N](../types/vector/index#decl-N)\>
+#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
 The value to reverse bits of.
 
 
 ## Return value
-The bits of <span class='code'><a href="reversebits.html#decl-value" class="code_param">value</a></span>, reversed such that bit n of the result is equal to bit (width - 1 - n) of <span class='code'><a href="reversebits.html#decl-value" class="code_param">value</a></span>.
+The bits of <span class='code'><a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a></span>, reversed such that bit n of the result is equal to bit (width - 1 - n) of <span class='code'><a href="/stdlib-reference/global-decls/reversebits#decl-value" class="code_param">value</a></span>.
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpBitReverse</span>.

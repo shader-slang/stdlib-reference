@@ -14,30 +14,30 @@ Counts the number of set bits in the binary representation of a value.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="countbits.html">countbits</a>&lt;<a href="countbits.html#typeparam-T" class="code_type">T</a>&gt;(<a href="countbits.html#typeparam-T" class="code_type">T</a> <a href="countbits.html#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="countbits.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/countbits">countbits</a>&lt;<a href="/stdlib-reference/global-decls/countbits#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/countbits#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/countbits#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="countbits.html#decl-N" class="code_var">N</a>&gt; <a href="countbits.html">countbits</a>&lt;<a href="countbits.html#typeparam-T" class="code_type">T</a>, <a href="countbits.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="countbits.html#typeparam-T" class="code_type">T</a>, <a href="countbits.html#decl-N" class="code_var">N</a>&gt; <a href="countbits.html#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="countbits.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/countbits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/countbits">countbits</a>&lt;<a href="/stdlib-reference/global-decls/countbits#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/countbits#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/countbits#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/countbits#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/countbits#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
-####  <a id="decl-N"></a>N  : int
+#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
+#### N  : int {#decl-N}
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](countbits#typeparam-T)
+#### value  : [T](/stdlib-reference/global-decls/countbits#typeparam-T) {#decl-value}
 The value to count bits in.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### value  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
 The value to count bits in.
 
 
 ## Return value
-The number of bits in the binary representation of <span class='code'><a href="countbits.html#decl-value" class="code_param">value</a></span> that are set to one.
+The number of bits in the binary representation of <span class='code'><a href="/stdlib-reference/global-decls/countbits#decl-value" class="code_param">value</a></span> that are set to one.
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpBitCount</span>.

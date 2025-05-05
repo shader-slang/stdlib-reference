@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">LineStream</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="append-0.html">Append</a>(<a href="index.html#typeparam-T" class="code_type">T</a> <a href="append-0.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="/stdlib-reference/types/linestream-04/index" class="code_type">LineStream</a>&lt;<a href="/stdlib-reference/types/linestream-04/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/linestream-04/append-0">Append</a>(<a href="/stdlib-reference/types/linestream-04/index#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/linestream-04/append-0#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](index#typeparam-T)
+#### value  : [T](/stdlib-reference/types/linestream-04/index#typeparam-T) {#decl-value}
 

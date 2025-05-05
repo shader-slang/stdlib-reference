@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct Std140DataLayout
 
-*Conforms to:* [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index)
+*Conforms to:* [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
 
 ## Description
 

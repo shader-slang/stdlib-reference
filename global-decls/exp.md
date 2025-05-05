@@ -14,46 +14,46 @@ Computes base-e exponent.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="exp.html#typeparam-T" class="code_type">T</a> <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>&gt;(<a href="exp.html#typeparam-T" class="code_type">T</a> <a href="exp.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/exp">exp</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/exp#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/exp">exp</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/exp#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>, <a href="exp.html#decl-M" class="code_var">M</a>&gt; <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="exp.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>, <a href="exp.html#decl-M" class="code_var">M</a>&gt; <a href="exp.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/exp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/exp">exp</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/exp#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/exp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/exp#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/exp">exp</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/exp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/exp#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/exp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="decl-N"></a>N  : int
-####  <a id="decl-M"></a>M  : int
+#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](exp#typeparam-T)
+#### x  : [T](/stdlib-reference/global-decls/exp#typeparam-T) {#decl-x}
 The input value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
 The input value.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 The input value.
 
-####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
+#### x  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-x}
 The input value.
 
 
 ## Return value
-The base-e exponent of <span class='code'><a href="exp.html#decl-x" class="code_param">x</a></span>.
+The base-e exponent of <span class='code'><a href="/stdlib-reference/global-decls/exp#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

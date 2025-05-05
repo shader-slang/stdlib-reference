@@ -5,35 +5,19 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AppendStructuredBuffer\<T, L\>](appendstructuredbuffer-06g/index)
+#### [AppendStructuredBuffer\<T, L\>](/stdlib-reference/types/appendstructuredbuffer-06g/index)
 
-#### [ByteAddressBuffer](byteaddressbuffer-04b/index)
+#### [ByteAddressBuffer](/stdlib-reference/types/byteaddressbuffer-04b/index)
 
-#### [ConsumeStructuredBuffer\<T, L\>](consumestructuredbuffer-07h/index)
+#### [ConsumeStructuredBuffer\<T, L\>](/stdlib-reference/types/consumestructuredbuffer-07h/index)
 
-#### [RWByteAddressBuffer](rwbyteaddressbuffer-0126d/index)
+#### [RWByteAddressBuffer](/stdlib-reference/types/rwbyteaddressbuffer-0126d/index)
 
-#### [RWStructuredBuffer\<T, L\>](rwstructuredbuffer-012c/index)
+#### [RWStructuredBuffer\<T, L\>](/stdlib-reference/types/rwstructuredbuffer-012c/index)
 
-#### [RasterizerOrderedByteAddressBuffer](rasterizerorderedbyteaddressbuffer-0ahls/index)
+#### [RasterizerOrderedByteAddressBuffer](/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index)
 
-#### [RasterizerOrderedStructuredBuffer\<T, L\>](rasterizerorderedstructuredbuffer-0ahr/index)
+#### [RasterizerOrderedStructuredBuffer\<T, L\>](/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index)
 
-#### [StructuredBuffer\<T, L\>](structuredbuffer-0a/index)
+#### [StructuredBuffer\<T, L\>](/stdlib-reference/types/structuredbuffer-0a/index)
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-AppendStructuredBuffer <appendstructuredbuffer-06g/index>
-ByteAddressBuffer <byteaddressbuffer-04b/index>
-ConsumeStructuredBuffer <consumestructuredbuffer-07h/index>
-RWByteAddressBuffer <rwbyteaddressbuffer-0126d/index>
-RWStructuredBuffer <rwstructuredbuffer-012c/index>
-RasterizerOrderedByteAddressBuffer <rasterizerorderedbyteaddressbuffer-0ahls/index>
-RasterizerOrderedStructuredBuffer <rasterizerorderedstructuredbuffer-0ahr/index>
-StructuredBuffer <structuredbuffer-0a/index>
-```
-RTD-TOC-END -->

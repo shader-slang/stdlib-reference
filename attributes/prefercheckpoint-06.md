@@ -13,6 +13,6 @@ during backward derivative propagation.
 ## Signature
 
 <pre>
-[<a href="prefercheckpoint-06.html">PreferCheckpoint</a>]
+[<a href="/stdlib-reference/attributes/prefercheckpoint-06">PreferCheckpoint</a>]
 </pre>
 

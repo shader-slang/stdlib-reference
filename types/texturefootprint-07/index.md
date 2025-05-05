@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct TextureFootprint\<ND:int\>
 
-*Conforms to:* \_\_TextureFootprintData\<[ND](index#decl-ND)\>
+*Conforms to:* \_\_TextureFootprintData\<[ND](/stdlib-reference/types/texturefootprint-07/index#decl-ND)\>
 
 ## Description
 
@@ -12,27 +12,17 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="decl-ND"></a>ND  : int
+#### ND  : int {#decl-ND}
 
 ## Fields
 
-####  <a id="decl-_isSingleLevel"></a>[\_isSingleLevel](0issinglelevel-039) : bool
+#### [\_isSingleLevel](/stdlib-reference/types/texturefootprint-07/0issinglelevel-039) : bool {#decl-_isSingleLevel}
 
-## m_currentPage->path
+## Properties
 
-####  <a id="decl-isSingleLevel"></a>[isSingleLevel](issinglelevel-28)
+#### [isSingleLevel](/stdlib-reference/types/texturefootprint-07/issinglelevel-28) {#decl-isSingleLevel}
 
 ## Methods
 
 * init
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-_isSingleLevel <0issinglelevel-039>
-isSingleLevel <issinglelevel-28>
-```
-RTD-TOC-END -->

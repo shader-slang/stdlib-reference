@@ -14,30 +14,30 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<span class="code_keyword">bool</span> <a href="all.html">all</a>&lt;<a href="all.html#typeparam-T" class="code_type">T</a>&gt;(<a href="all.html#typeparam-T" class="code_type">T</a> <a href="all.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="all.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/all">all</a>&lt;<a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/all#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">bool</span> <a href="all.html">all</a>&lt;<a href="all.html#typeparam-T" class="code_type">T</a>, <a href="all.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="all.html#typeparam-T" class="code_type">T</a>, <a href="all.html#decl-N" class="code_var">N</a>&gt; <a href="all.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="all.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/all">all</a>&lt;<a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/all#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/all#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/all#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">bool</span> <a href="all.html">all</a>&lt;<a href="all.html#typeparam-T" class="code_type">T</a>, <a href="all.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="all.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="all.html#typeparam-T" class="code_type">T</a>, <a href="all.html#decl-N" class="code_var">N</a>, <a href="all.html#decl-M" class="code_var">M</a>&gt; <a href="all.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="all.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/all">all</a>&lt;<a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/all#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/all#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/all#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/all#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/all#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/all#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: \_\_BuiltinType
-####  <a id="decl-N"></a>N  : int
-####  <a id="decl-M"></a>M  : int
+#### T: \_\_BuiltinType {#typeparam-T}
+#### N  : int {#decl-N}
+#### M  : int {#decl-M}
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](all#typeparam-T)
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+#### x  : [T](/stdlib-reference/global-decls/all#typeparam-T) {#decl-x}
+#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
 
 ## Availability and Requirements
 
