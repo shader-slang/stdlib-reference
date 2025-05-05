@@ -15,13 +15,13 @@ represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/loadlocalroottableconstant-049di">LoadLocalRootTableConstant</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/loadlocalroottableconstant-049di#decl-RootConstantOffsetInBytes" class="code_param">RootConstantOffsetInBytes</a>);
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="loadlocalroottableconstant-049di.html">LoadLocalRootTableConstant</a>(<span class="code_keyword">uint</span> <a href="loadlocalroottableconstant-049di.html#decl-RootConstantOffsetInBytes" class="code_param">RootConstantOffsetInBytes</a>);
 
 </pre>
 
 ## Parameters
 
-#### RootConstantOffsetInBytes  : uint {#decl-RootConstantOffsetInBytes}
+####  <a id="decl-RootConstantOffsetInBytes"></a>RootConstantOffsetInBytes  : uint
 
 ## Availability and Requirements
 

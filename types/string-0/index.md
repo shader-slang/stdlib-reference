@@ -10,14 +10,25 @@ Represents a string.
 This type can only be used on the CPU target.
 
 
-## Properties
+## m_currentPage->path
 
-#### [length](/stdlib-reference/types/string-0/length) {#decl-length}
+####  <a id="decl-length"></a>[length](length)
 Returns the length of the string.
 
 
 ## Methods
 
-* [init](/stdlib-reference/types/string-0/init)
-* [getLength](/stdlib-reference/types/string-0/getlength-3)
+* [init](init)
+* [getLength](getlength-3)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+getLength <getlength-3>
+init <init>
+length <length>
+```
+RTD-TOC-END -->

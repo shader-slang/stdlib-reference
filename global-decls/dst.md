@@ -15,19 +15,19 @@ Use the subtraction operator '-' instead.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/dst#typeparam-T" class="code_type">T</a>, 4&gt; <a href="/stdlib-reference/global-decls/dst">dst</a>&lt;<a href="/stdlib-reference/global-decls/dst#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/dst#typeparam-T" class="code_type">T</a>, 4&gt; <a href="/stdlib-reference/global-decls/dst#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/dst#typeparam-T" class="code_type">T</a>, 4&gt; <a href="/stdlib-reference/global-decls/dst#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/dst#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="dst.html#typeparam-T" class="code_type">T</a>, 4&gt; <a href="dst.html">dst</a>&lt;<a href="dst.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="dst.html#typeparam-T" class="code_type">T</a>, 4&gt; <a href="dst.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="dst.html#typeparam-T" class="code_type">T</a>, 4&gt; <a href="dst.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="dst.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
 
 ## Parameters
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), 4\> {#decl-x}
-#### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), 4\> {#decl-y}
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), 4\>
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), 4\>
 

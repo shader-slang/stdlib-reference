@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Bit cast between types. <span class='code'><a href="/stdlib-reference/global-decls/bit_cast#typeparam-T" class="code_type">T</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/bit_cast#typeparam-U" class="code_type">U</a></span> must have the same size.
+Bit cast between types. <span class='code'><a href="bit_cast.html#typeparam-T" class="code_type">T</a></span> and <span class='code'><a href="bit_cast.html#typeparam-U" class="code_type">U</a></span> must have the same size.
 They can be any scalar, vector, matrix, struct or array types.
 
 
@@ -15,16 +15,16 @@ They can be any scalar, vector, matrix, struct or array types.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/bit_cast#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/bit_cast">bit_cast</a>&lt;<a href="/stdlib-reference/global-decls/bit_cast#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/bit_cast#typeparam-U" class="code_type">U</a>&gt;(<a href="/stdlib-reference/global-decls/bit_cast#typeparam-U" class="code_type">U</a> <a href="/stdlib-reference/global-decls/bit_cast#decl-value" class="code_param">value</a>);
+<a href="bit_cast.html#typeparam-T" class="code_type">T</a> <a href="bit_cast.html">bit_cast</a>&lt;<a href="bit_cast.html#typeparam-T" class="code_type">T</a>, <a href="bit_cast.html#typeparam-U" class="code_type">U</a>&gt;(<a href="bit_cast.html#typeparam-U" class="code_type">U</a> <a href="bit_cast.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
-#### U {#typeparam-U}
+####  <a id="typeparam-T"></a>T
+####  <a id="typeparam-U"></a>U
 
 ## Parameters
 
-#### value  : [U](/stdlib-reference/global-decls/bit_cast#typeparam-U) {#decl-value}
+####  <a id="decl-value"></a>value  : [U](bit_cast#typeparam-U)
 

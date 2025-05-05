@@ -14,16 +14,16 @@ Set the number of output vertices and primitives for a mesh shader invocation.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/setmeshoutputcounts-037d">SetMeshOutputCounts</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/setmeshoutputcounts-037d#decl-vertexCount" class="code_param">vertexCount</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/setmeshoutputcounts-037d#decl-primitiveCount" class="code_param">primitiveCount</a>);
+<span class="code_keyword">void</span> <a href="setmeshoutputcounts-037d.html">SetMeshOutputCounts</a>(
+    <span class="code_keyword">uint</span> <a href="setmeshoutputcounts-037d.html#decl-vertexCount" class="code_param">vertexCount</a>,
+    <span class="code_keyword">uint</span> <a href="setmeshoutputcounts-037d.html#decl-primitiveCount" class="code_param">primitiveCount</a>);
 
 </pre>
 
 ## Parameters
 
-#### vertexCount  : uint {#decl-vertexCount}
-#### primitiveCount  : uint {#decl-primitiveCount}
+####  <a id="decl-vertexCount"></a>vertexCount  : uint
+####  <a id="decl-primitiveCount"></a>primitiveCount  : uint
 
 ## Availability and Requirements
 

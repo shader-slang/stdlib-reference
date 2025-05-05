@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/debugbreak-5">debugBreak</a>();
+<span class="code_keyword">void</span> <a href="debugbreak-5.html">debugBreak</a>();
 
 </pre>
 

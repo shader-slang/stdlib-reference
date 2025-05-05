@@ -14,7 +14,7 @@ Group memory barrier. Ensures that all memory accesses in the group are visible 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/groupmemorybarrierwithgroupsync-05bimr">GroupMemoryBarrierWithGroupSync</a>();
+<span class="code_keyword">void</span> <a href="groupmemorybarrierwithgroupsync-05bimr.html">GroupMemoryBarrierWithGroupSync</a>();
 
 </pre>
 

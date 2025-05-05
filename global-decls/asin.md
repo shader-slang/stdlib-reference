@@ -13,32 +13,32 @@ Arc sine. Returns the angle whose sine is the specified number.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/asin">asin</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/asin#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="asin.html#typeparam-T" class="code_type">T</a> <a href="asin.html">asin</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>&gt;(<a href="asin.html#typeparam-T" class="code_type">T</a> <a href="asin.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="asin.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/asin#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asin">asin</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/asin#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/asin#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/asin#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>, <a href="asin.html#decl-N" class="code_var">N</a>&gt; <a href="asin.html">asin</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>, <a href="asin.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>, <a href="asin.html#decl-N" class="code_var">N</a>&gt; <a href="asin.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="asin.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/asin#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/asin#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/asin">asin</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/asin#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/asin#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/asin#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/asin#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/asin#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/asin#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>, <a href="asin.html#decl-N" class="code_var">N</a>, <a href="asin.html#decl-M" class="code_var">M</a>&gt; <a href="asin.html">asin</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>, <a href="asin.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="asin.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="asin.html#typeparam-T" class="code_type">T</a>, <a href="asin.html#decl-N" class="code_var">N</a>, <a href="asin.html#decl-M" class="code_var">M</a>&gt; <a href="asin.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="asin.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### M  : int {#decl-M}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="decl-N"></a>N  : int
+####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-#### x  : [T](/stdlib-reference/global-decls/asin#typeparam-T) {#decl-x}
+####  <a id="decl-x"></a>x  : [T](asin#typeparam-T)
 The sine value.
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The sine value.
 
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The sine value.
 
 

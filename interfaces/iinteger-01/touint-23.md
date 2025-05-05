@@ -13,7 +13,7 @@ Converts the value of the current instance to an <span class='code'><span class=
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/interfaces/iinteger-01/index" class="code_type">IInteger</a>.<a href="/stdlib-reference/interfaces/iinteger-01/touint-23">toUInt</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">IInteger</a>.<a href="touint-23.html">toUInt</a>();
 
 </pre>
 

@@ -14,7 +14,7 @@ Thread-group sync and barrier for writes to all memory spaces.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/allmemorybarrierwithgroupsync-039gkp">AllMemoryBarrierWithGroupSync</a>();
+<span class="code_keyword">void</span> <a href="allmemorybarrierwithgroupsync-039gkp.html">AllMemoryBarrierWithGroupSync</a>();
 
 </pre>
 

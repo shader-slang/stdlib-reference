@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/norefinline-25">noRefInline</a>]
+[<a href="norefinline-25.html">noRefInline</a>]
 </pre>
 

@@ -13,7 +13,7 @@ Returns the flags used when tracing the current ray.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/rayflags-03">RayFlags</a>();
+<span class="code_keyword">uint</span> <a href="rayflags-03.html">RayFlags</a>();
 
 </pre>
 

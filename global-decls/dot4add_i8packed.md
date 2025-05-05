@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Treats <span class='code'><a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-x" class="code_param">x</a></span> and <span class='code'><a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>int8</span> and computes <span class='code'><a href="/stdlib-reference/global-decls/dot">dot</a>(<a href="/stdlib-reference/global-decls/dot#decl-x" class="code_param">x</a>, <a href="/stdlib-reference/global-decls/dot#decl-y" class="code_param">y</a>)+acc</span>
+Treats <span class='code'><a href="dot4add_i8packed.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot4add_i8packed.html#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>int8</span> and computes <span class='code'><a href="dot.html">dot</a>(<a href="dot.html#decl-x" class="code_param">x</a>, <a href="dot.html#decl-y" class="code_param">y</a>)+acc</span>
 
 
 
@@ -14,18 +14,18 @@ Treats <span class='code'><a href="/stdlib-reference/global-decls/dot4add_i8pack
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/dot4add_i8packed">dot4add_i8packed</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/dot4add_i8packed#decl-acc" class="code_param">acc</a>);
+<span class="code_keyword">int</span> <a href="dot4add_i8packed.html">dot4add_i8packed</a>(
+    <span class="code_keyword">uint</span> <a href="dot4add_i8packed.html#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="dot4add_i8packed.html#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">int</span> <a href="dot4add_i8packed.html#decl-acc" class="code_param">acc</a>);
 
 </pre>
 
 ## Parameters
 
-#### x  : uint {#decl-x}
-#### y  : uint {#decl-y}
-#### acc  : int {#decl-acc}
+####  <a id="decl-x"></a>x  : uint
+####  <a id="decl-y"></a>y  : uint
+####  <a id="decl-acc"></a>acc  : int
 
 ## Availability and Requirements
 

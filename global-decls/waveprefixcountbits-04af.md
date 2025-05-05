@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/waveprefixcountbits-04af">WavePrefixCountBits</a>(<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/waveprefixcountbits-04af#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="waveprefixcountbits-04af.html">WavePrefixCountBits</a>(<span class="code_keyword">bool</span> <a href="waveprefixcountbits-04af.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-#### value  : bool {#decl-value}
+####  <a id="decl-value"></a>value  : bool
 
 ## Availability and Requirements
 

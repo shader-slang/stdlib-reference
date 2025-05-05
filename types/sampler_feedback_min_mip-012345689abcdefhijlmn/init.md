@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/sampler_feedback_min_mip-012345689abcdefhijlmn/index" class="code_type">SAMPLER_FEEDBACK_MIN_MIP</a>.<a href="/stdlib-reference/types/sampler_feedback_min_mip-012345689abcdefhijlmn/init">init</a>(<span class="code_keyword">float</span> <a href="/stdlib-reference/types/sampler_feedback_min_mip-012345689abcdefhijlmn/init#decl-x" class="code_param">x</a>);
+<a href="index.html" class="code_type">SAMPLER_FEEDBACK_MIN_MIP</a>.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-x" class="code_param">x</a>);
 
 </pre>
 
 ## Parameters
 
-#### x  : float {#decl-x}
+####  <a id="decl-x"></a>x  : float
 

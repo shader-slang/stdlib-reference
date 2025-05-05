@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="/stdlib-reference/types/sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/index" class="code_type">SAMPLER_FEEDBACK_MIP_REGION_USED</a>.<a href="/stdlib-reference/types/sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/element-0" class="code_type">Element</a> = 
+<span class='code_keyword'>typealias</span> <a href="index.html" class="code_type">SAMPLER_FEEDBACK_MIP_REGION_USED</a>.<a href="element-0.html" class="code_type">Element</a> = 
     <span class="code_keyword">float</span>;
 </pre>
 

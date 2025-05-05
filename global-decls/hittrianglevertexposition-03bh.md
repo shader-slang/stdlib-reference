@@ -14,13 +14,13 @@ https://github.com/KhronosGroup/GLSL/blob/master/extensions/ext/GLSL_EXT_ray_tra
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/hittrianglevertexposition-03bh">HitTriangleVertexPosition</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/hittrianglevertexposition-03bh#decl-index" class="code_param">index</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="hittrianglevertexposition-03bh.html">HitTriangleVertexPosition</a>(<span class="code_keyword">uint</span> <a href="hittrianglevertexposition-03bh.html#decl-index" class="code_param">index</a>);
 
 </pre>
 
 ## Parameters
 
-#### index  : uint {#decl-index}
+####  <a id="decl-index"></a>index  : uint
 Index of the vertex (0-2)
 
 

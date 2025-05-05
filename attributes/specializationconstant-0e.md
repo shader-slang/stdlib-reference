@@ -12,6 +12,6 @@ Mark a global variable as a Vulkan specialization constant.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/specializationconstant-0e">SpecializationConstant</a>]
+[<a href="specializationconstant-0e.html">SpecializationConstant</a>]
 </pre>
 

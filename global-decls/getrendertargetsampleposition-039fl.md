@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="/stdlib-reference/global-decls/getrendertargetsampleposition-039fl">GetRenderTargetSamplePosition</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/getrendertargetsampleposition-039fl#decl-Index" class="code_param">Index</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="getrendertargetsampleposition-039fl.html">GetRenderTargetSamplePosition</a>(<span class="code_keyword">int</span> <a href="getrendertargetsampleposition-039fl.html#decl-Index" class="code_param">Index</a>);
 
 </pre>
 
 ## Parameters
 
-#### Index  : int {#decl-Index}
+####  <a id="decl-Index"></a>Index  : int
 
 ## Availability and Requirements
 

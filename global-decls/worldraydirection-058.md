@@ -13,7 +13,7 @@ Returns the direction of the current ray in world space.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/worldraydirection-058">WorldRayDirection</a>();
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="worldraydirection-058.html">WorldRayDirection</a>();
 
 </pre>
 

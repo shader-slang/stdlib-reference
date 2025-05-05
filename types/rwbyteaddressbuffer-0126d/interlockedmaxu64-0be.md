@@ -6,25 +6,25 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit unsigned integer atomic max operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedmaxu64-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit unsigned integer atomic max operation at <span class='code'><a href="interlockedmaxu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-uint64_t <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedmaxu64-0be">InterlockedMaxU64</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedmaxu64-0be#decl-byteAddress" class="code_param">byteAddress</a>,
-    uint64_t <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedmaxu64-0be#decl-value" class="code_param">value</a>);
+uint64_t <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedmaxu64-0be.html">InterlockedMaxU64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedmaxu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    uint64_t <a href="interlockedmaxu64-0be.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic max operation.
 
-#### value  : uint64\_t {#decl-value}
+####  <a id="decl-value"></a>value  : uint64\_t
 The operand for the max operation.
 
 

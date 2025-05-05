@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/getrealtimeclocklow-3bg">getRealtimeClockLow</a>();
+<span class="code_keyword">uint</span> <a href="getrealtimeclocklow-3bg.html">getRealtimeClockLow</a>();
 
 </pre>
 

@@ -14,86 +14,86 @@ Minimum.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="min.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/min#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="min.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min">min</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/min#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/min#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### M  : int {#decl-M}
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+####  <a id="decl-N"></a>N  : int
+####  <a id="decl-M"></a>M  : int
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
 
 ## Parameters
 
-#### x  : [T](/stdlib-reference/global-decls/min#typeparam-T) {#decl-x}
+####  <a id="decl-x"></a>x  : [T](min#typeparam-T)
 The first value to compare.
 
-#### y  : [T](/stdlib-reference/global-decls/min#typeparam-T) {#decl-y}
+####  <a id="decl-y"></a>y  : [T](min#typeparam-T)
 The second value to compare.
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The first value to compare.
 
-#### y  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-y}
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The second value to compare.
 
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The first value to compare.
 
-#### y  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-y}
+####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The second value to compare.
 
-#### x  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
 The first value to compare.
 
-#### y  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-y}
+####  <a id="decl-y"></a>y  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
 The second value to compare.
 
 

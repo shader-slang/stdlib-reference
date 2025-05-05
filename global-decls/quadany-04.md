@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Returns true if <span class='code'><a href="/stdlib-reference/global-decls/quadany-04#decl-expr" class="code_param">expr</a></span> is true in any lane of the current quad.
+Returns true if <span class='code'><a href="quadany-04.html#decl-expr" class="code_param">expr</a></span> is true in any lane of the current quad.
 
 
 
@@ -14,13 +14,13 @@ Returns true if <span class='code'><a href="/stdlib-reference/global-decls/quada
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/quadany-04">QuadAny</a>(<span class="code_keyword">bool</span> <a href="/stdlib-reference/global-decls/quadany-04#decl-expr" class="code_param">expr</a>);
+<span class="code_keyword">bool</span> <a href="quadany-04.html">QuadAny</a>(<span class="code_keyword">bool</span> <a href="quadany-04.html#decl-expr" class="code_param">expr</a>);
 
 </pre>
 
 ## Parameters
 
-#### expr  : bool {#decl-expr}
+####  <a id="decl-expr"></a>expr  : bool
 
 ## Availability and Requirements
 

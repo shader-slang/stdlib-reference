@@ -13,7 +13,7 @@ Returns the origin of the current ray in world space.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/worldrayorigin-058">WorldRayOrigin</a>();
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="worldrayorigin-058.html">WorldRayOrigin</a>();
 
 </pre>
 

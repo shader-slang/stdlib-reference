@@ -13,7 +13,7 @@ Gets the distance to the committed (closest) hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="/stdlib-reference/types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="/stdlib-reference/types/rayquery-03/committedrayt-09c">CommittedRayT</a>();
+<span class="code_keyword">float</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="committedrayt-09c.html">CommittedRayT</a>();
 
 </pre>
 

@@ -16,13 +16,13 @@ floating-point value to generate a 4-component vector.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="/stdlib-reference/global-decls/unpacksnorm4x8tofloat-6eg">unpackSnorm4x8ToFloat</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/unpacksnorm4x8tofloat-6eg#decl-packedValue" class="code_param">packedValue</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="unpacksnorm4x8tofloat-6eg.html">unpackSnorm4x8ToFloat</a>(<span class="code_keyword">uint</span> <a href="unpacksnorm4x8tofloat-6eg.html#decl-packedValue" class="code_param">packedValue</a>);
 
 </pre>
 
 ## Parameters
 
-#### packedValue  : uint {#decl-packedValue}
+####  <a id="decl-packedValue"></a>packedValue  : uint
 
 ## Availability and Requirements
 

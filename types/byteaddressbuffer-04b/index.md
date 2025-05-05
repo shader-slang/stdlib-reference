@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct ByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](/stdlib-reference/interfaces/iphysicalbuffer-019/index)
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../interfaces/iphysicalbuffer-019/index)
 
 ## Description
 
@@ -15,22 +15,23 @@ four 32-bit typeless address values.
 
 ## Fields
 
-#### [kind](/stdlib-reference/types/byteaddressbuffer-04b/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Buffer](/stdlib-reference/types/descriptorkind-0a/index#decl-Buffer) {#decl-kind}
+####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a) : [DescriptorAccess](../descriptoraccess-0a/index) = [DescriptorAccess](../descriptoraccess-0a/index)\.[Read](../descriptoraccess-0a/index#decl-Read)
+####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[Buffer](../descriptorkind-0a/index#decl-Buffer)
 
 ## Methods
 
-* [GetDimensions](/stdlib-reference/types/byteaddressbuffer-04b/getdimensions-03)
-* [Load2](/stdlib-reference/types/byteaddressbuffer-04b/load2-0)
-* [Load2Aligned](/stdlib-reference/types/byteaddressbuffer-04b/load2aligned-05)
-* [Load3](/stdlib-reference/types/byteaddressbuffer-04b/load3-0)
-* [Load3Aligned](/stdlib-reference/types/byteaddressbuffer-04b/load3aligned-05)
-* [Load4](/stdlib-reference/types/byteaddressbuffer-04b/load4-0)
-* [Load4Aligned](/stdlib-reference/types/byteaddressbuffer-04b/load4aligned-05)
-* [Load](/stdlib-reference/types/byteaddressbuffer-04b/load-0)
-* [LoadAligned](/stdlib-reference/types/byteaddressbuffer-04b/loadaligned-04)
-* [init](/stdlib-reference/types/byteaddressbuffer-04b/init)
-* [GetBufferPointer](/stdlib-reference/types/byteaddressbuffer-04b/getbufferpointer-039)
-* [LoadByteOffset](/stdlib-reference/types/byteaddressbuffer-04b/loadbyteoffset-048)
+* [GetDimensions](getdimensions-03)
+* [Load2](load2-0)
+* [Load2Aligned](load2aligned-05)
+* [Load3](load3-0)
+* [Load3Aligned](load3aligned-05)
+* [Load4](load4-0)
+* [Load4Aligned](load4aligned-05)
+* [Load](load-0)
+* [LoadAligned](loadaligned-04)
+* [init](init)
+* [GetBufferPointer](getbufferpointer-039)
+* [LoadByteOffset](loadbyteoffset-048)
 
 ## Conditional Conformances
 
@@ -45,3 +46,26 @@ This type is supported natively when targeting HLSL.
 For all other targets, this type maps to a buffer of 32bit unsigned integers.
 
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+GetBufferPointer <getbufferpointer-039>
+GetDimensions <getdimensions-03>
+Handle <handle-0>
+Load <load-0>
+Load2 <load2-0>
+Load2Aligned <load2aligned-05>
+Load3 <load3-0>
+Load3Aligned <load3aligned-05>
+Load4 <load4-0>
+Load4Aligned <load4aligned-05>
+LoadAligned <loadaligned-04>
+LoadByteOffset <loadbyteoffset-048>
+descriptorAccess <descriptoraccess-a>
+init <init>
+kind <kind>
+```
+RTD-TOC-END -->

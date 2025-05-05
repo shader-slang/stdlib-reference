@@ -14,7 +14,7 @@ Converts a value of the conforming type into a <span class='code'><span class="c
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/interfaces/ifloat-01/index" class="code_type">IFloat</a>.<a href="/stdlib-reference/interfaces/ifloat-01/tofloat-2">toFloat</a>();
+<span class="code_keyword">float</span> <a href="index.html" class="code_type">IFloat</a>.<a href="tofloat-2.html">toFloat</a>();
 
 </pre>
 

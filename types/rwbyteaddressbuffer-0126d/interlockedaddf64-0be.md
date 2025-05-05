@@ -13,18 +13,18 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf64-0be">InterlockedAddF64</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf64-0be#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">double</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf64-0be#decl-valueToAdd" class="code_param">valueToAdd</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">double</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedaddf64-0be#decl-originalValue" class="code_param">originalValue</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf64-0be.html">InterlockedAddF64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddf64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">double</span> <a href="interlockedaddf64-0be.html#decl-valueToAdd" class="code_param">valueToAdd</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">double</span> <a href="interlockedaddf64-0be.html#decl-originalValue" class="code_param">originalValue</a>);
 
 </pre>
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
-#### valueToAdd  : double {#decl-valueToAdd}
-#### originalValue  : double {#decl-originalValue}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
+####  <a id="decl-valueToAdd"></a>valueToAdd  : double
+####  <a id="decl-originalValue"></a>originalValue  : double
 
 ## Availability and Requirements
 

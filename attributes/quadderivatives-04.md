@@ -13,6 +13,6 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/quadderivatives-04">QuadDerivatives</a>]
+[<a href="quadderivatives-04.html">QuadDerivatives</a>]
 </pre>
 

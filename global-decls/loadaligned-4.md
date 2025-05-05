@@ -14,20 +14,20 @@ Aligned loads are more efficient than unaligned loads on some platforms.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/global-decls/loadaligned-4#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/loadaligned-4">loadAligned</a>&lt;<a href="/stdlib-reference/global-decls/loadaligned-4#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/loadaligned-4#typeparam-T" class="code_type">T</a>&gt;(<a href="/stdlib-reference/types/ptr-0/index" class="code_type">Ptr</a>&lt;<a href="/stdlib-reference/global-decls/loadaligned-4#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/loadaligned-4#decl-ptr" class="code_param">ptr</a>);
+<a href="loadaligned-4.html#typeparam-T" class="code_type">T</a> <a href="loadaligned-4.html">loadAligned</a>&lt;<a href="loadaligned-4.html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="loadaligned-4.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="loadaligned-4.html#typeparam-T" class="code_type">T</a>&gt; <a href="loadaligned-4.html#decl-ptr" class="code_param">ptr</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### alignment  : int {#decl-alignment}
+####  <a id="decl-alignment"></a>alignment  : int
 The alignment of the load operation.
 
-#### T {#typeparam-T}
+####  <a id="typeparam-T"></a>T
 
 ## Parameters
 
-#### ptr  : [Ptr](/stdlib-reference/types/ptr-0/index)\<[T](/stdlib-reference/types/ptr-0/index#typeparam-T)\> {#decl-ptr}
+####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index)\<[T](../types/ptr-0/index#typeparam-T)\>
 The pointer to load from.
 
 

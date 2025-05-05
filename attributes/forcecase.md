@@ -13,6 +13,6 @@ This attribute has no effect on targets other than HLSL.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/forcecase">forcecase</a>]
+[<a href="forcecase.html">forcecase</a>]
 </pre>
 

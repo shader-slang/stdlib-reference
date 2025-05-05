@@ -13,7 +13,7 @@ Returns the current intersection distance or maximum ray distance.
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/raytcurrent-034">RayTCurrent</a>();
+<span class="code_keyword">float</span> <a href="raytcurrent-034.html">RayTCurrent</a>();
 
 </pre>
 

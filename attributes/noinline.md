@@ -12,6 +12,6 @@ Inform the downstream compiler to not inline the function.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/noinline">noinline</a>]
+[<a href="noinline.html">noinline</a>]
 </pre>
 

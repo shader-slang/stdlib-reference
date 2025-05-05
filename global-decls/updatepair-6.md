@@ -13,21 +13,21 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/global-decls/updatepair-6">updatePair</a>&lt;<a href="/stdlib-reference/global-decls/updatepair-6#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">inout</span> <a href="/stdlib-reference/types/differentialpair-0c/index" class="code_type">DifferentialPair</a>&lt;<a href="/stdlib-reference/global-decls/updatepair-6#typeparam-T" class="code_type">T</a>&gt; <a href="/stdlib-reference/global-decls/updatepair-6#decl-p" class="code_param">p</a>,
-    <a href="/stdlib-reference/global-decls/updatepair-6#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/updatepair-6#decl-newPrimal" class="code_param">newPrimal</a>,
-    <a href="/stdlib-reference/global-decls/updatepair-6#typeparam-T" class="code_type">T</a>.Differential <a href="/stdlib-reference/global-decls/updatepair-6#decl-newDiff" class="code_param">newDiff</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/updatepair-6#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a>;
+<span class="code_keyword">void</span> <a href="updatepair-6.html">updatePair</a>&lt;<a href="updatepair-6.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">inout</span> <a href="../types/differentialpair-0c/index.html" class="code_type">DifferentialPair</a>&lt;<a href="updatepair-6.html#typeparam-T" class="code_type">T</a>&gt; <a href="updatepair-6.html#decl-p" class="code_param">p</a>,
+    <a href="updatepair-6.html#typeparam-T" class="code_type">T</a> <a href="updatepair-6.html#decl-newPrimal" class="code_param">newPrimal</a>,
+    <a href="updatepair-6.html#typeparam-T" class="code_type">T</a>.Differential <a href="updatepair-6.html#decl-newDiff" class="code_param">newDiff</a>)
+    <span class='code_keyword'>where</span> <a href="updatepair-6.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/idifferentiable-01/index.html" class="code_type">IDifferentiable</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
 
 ## Parameters
 
-#### p  : [DifferentialPair](/stdlib-reference/types/differentialpair-0c/index)\<[T](/stdlib-reference/types/differentialpair-0c/index#typeparam-T)\> {#decl-p}
-#### newPrimal  : [T](/stdlib-reference/global-decls/updatepair-6#typeparam-T) {#decl-newPrimal}
-#### newDiff  : [T](/stdlib-reference/global-decls/updatepair-6#typeparam-T)\.Differential {#decl-newDiff}
+####  <a id="decl-p"></a>p  : [DifferentialPair](../types/differentialpair-0c/index)\<[T](../types/differentialpair-0c/index#typeparam-T)\>
+####  <a id="decl-newPrimal"></a>newPrimal  : [T](updatepair-6#typeparam-T)
+####  <a id="decl-newDiff"></a>newDiff  : [T](updatepair-6#typeparam-T)\.Differential
 

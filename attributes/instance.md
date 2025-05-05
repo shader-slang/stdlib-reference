@@ -11,12 +11,12 @@ Used on a geometry shader entry point to specify the number of instances to exec
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/instance">instance</a>(<a href="/stdlib-reference/attributes/instance#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href="instance.html">instance</a>(<a href="instance.html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
-#### count  : int {#decl-count}
+####  <a id="decl-count"></a>count  : int
 The number of instances to execute for each input primitive.
 
 

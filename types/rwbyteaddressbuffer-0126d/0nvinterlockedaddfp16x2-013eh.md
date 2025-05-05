@@ -9,23 +9,23 @@ layout: stdlib-reference
 
 
 Maps to the <span class='code'>NvInterlockedAddFp16x2</span> NVAPI function.
-Perform 2 16-bit floating point atomic add operations at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/0nvinterlockedaddfp16x2-013eh#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform 2 16-bit floating point atomic add operations at <span class='code'><a href="0nvinterlockedaddfp16x2-013eh.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/0nvinterlockedaddfp16x2-013eh">_NvInterlockedAddFp16x2</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/0nvinterlockedaddfp16x2-013eh#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/0nvinterlockedaddfp16x2-013eh#decl-fp16x2Value" class="code_param">fp16x2Value</a>);
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="0nvinterlockedaddfp16x2-013eh.html">_NvInterlockedAddFp16x2</a>(
+    <span class="code_keyword">uint</span> <a href="0nvinterlockedaddfp16x2-013eh.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">uint</span> <a href="0nvinterlockedaddfp16x2-013eh.html#decl-fp16x2Value" class="code_param">fp16x2Value</a>);
 
 </pre>
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic add operation.
 
-#### fp16x2Value  : uint {#decl-fp16x2Value}
+####  <a id="decl-fp16x2Value"></a>fp16x2Value  : uint
 Two 16-bit floating point values are packed into a 32-bit unsigned integer.
 
 

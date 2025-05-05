@@ -14,7 +14,7 @@ Returns true if the HitObject encodes a hit, otherwise returns false.
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/ishit-02">IsHit</a>();
+<span class="code_keyword">bool</span> <a href="index.html" class="code_type">HitObject</a>.<a href="ishit-02.html">IsHit</a>();
 
 </pre>
 

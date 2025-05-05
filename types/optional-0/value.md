@@ -6,13 +6,13 @@ layout: stdlib-reference
 
 ## Description
 
-If this <span class='code'><a href="/stdlib-reference/types/optional-0/index" class="code_type">Optional</a></span> contains a value of type <span class='code'><a href="/stdlib-reference/types/optional-0/index#typeparam-T" class="code_type">T</a></span> return that.
+If this <span class='code'><a href="index.html" class="code_type">Optional</a></span> contains a value of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> return that.
 
 
 ## Signature
 
 <pre>
-<span class='code_keyword'>property</span> <a href="/stdlib-reference/types/optional-0/index" class="code_type">Optional</a>&lt;<a href="/stdlib-reference/types/optional-0/index#typeparam-T" class="code_type">T</a>&gt;.<a href="/stdlib-reference/types/optional-0/value">value</a> : <a href="/stdlib-reference/types/optional-0/index#typeparam-T" class="code_type">T</a>
+<span class='code_keyword'>property</span> <a href="index.html" class="code_type">Optional</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="value.html">value</a> : <a href="index.html#typeparam-T" class="code_type">T</a>
 {
     get;
 }

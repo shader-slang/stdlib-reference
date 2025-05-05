@@ -13,19 +13,19 @@ Get the dimensions of the buffer.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index" class="code_type">RasterizerOrderedStructuredBuffer</a>&lt;<a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L" class="code_type">L</a>&gt;.<a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/getdimensions-03">GetDimensions</a>(
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/getdimensions-03#decl-numStructs" class="code_param">numStructs</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/getdimensions-03#decl-stride" class="code_param">stride</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/rasterizerorderedstructuredbuffer-0ahr/index#typeparam-L" class="code_type">L</a> : <a href="/stdlib-reference/interfaces/ibufferdatalayout-017b/index" class="code_type">IBufferDataLayout</a>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-L" class="code_type">L</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numStructs" class="code_param">numStructs</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-stride" class="code_param">stride</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>;
 
 </pre>
 
 ## Parameters
 
-#### numStructs  : uint {#decl-numStructs}
+####  <a id="decl-numStructs"></a>numStructs  : uint
 The number of structures in the buffer.
 
-#### stride  : uint {#decl-stride}
+####  <a id="decl-stride"></a>stride  : uint
 The stride, in bytes, of each structure element.
 
 

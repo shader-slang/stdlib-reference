@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/getcurrenttime-03a">GetCurrentTime</a>();
+<span class="code_keyword">float</span> <a href="index.html" class="code_type">HitObject</a>.<a href="getcurrenttime-03a.html">GetCurrentTime</a>();
 
 </pre>
 

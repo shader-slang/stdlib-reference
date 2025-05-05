@@ -6,5 +6,5 @@ layout: stdlib-reference
 
 ## Values 
 
-#### _RowMajor = 0_ {#decl-RowMajor}
-#### _ColumnMajor = 1_ {#decl-ColumnMajor}
+####  <a id="decl-RowMajor"></a>_RowMajor = 0_
+####  <a id="decl-ColumnMajor"></a>_ColumnMajor = 1_

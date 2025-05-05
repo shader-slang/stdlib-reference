@@ -5,11 +5,23 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [countbits\<T\>](/stdlib-reference/global-decls/countbits)
+#### [countbits\<T\>](countbits)
 
-#### [firstbithigh](/stdlib-reference/global-decls/firstbithigh)
+#### [firstbithigh](firstbithigh)
 
-#### [firstbitlow](/stdlib-reference/global-decls/firstbitlow)
+#### [firstbitlow](firstbitlow)
 
-#### [reversebits](/stdlib-reference/global-decls/reversebits)
+#### [reversebits](reversebits)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+countbits <countbits>
+firstbithigh <firstbithigh>
+firstbitlow <firstbitlow>
+reversebits <reversebits>
+```
+RTD-TOC-END -->

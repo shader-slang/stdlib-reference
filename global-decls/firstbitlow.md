@@ -13,38 +13,38 @@ Find first set bit starting at low bit and working up.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(<span class="code_keyword">int</span> <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
+<span class="code_keyword">int</span> <a href="firstbitlow.html">firstbitlow</a>(<span class="code_keyword">int</span> <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>&lt;<a href="/stdlib-reference/global-decls/firstbitlow#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html">firstbitlow</a>&lt;<a href="firstbitlow.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>(<span class="code_keyword">uint</span> <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="firstbitlow.html">firstbitlow</a>(<span class="code_keyword">uint</span> <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow">firstbitlow</a>&lt;<a href="/stdlib-reference/global-decls/firstbitlow#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="/stdlib-reference/global-decls/firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html">firstbitlow</a>&lt;<a href="firstbitlow.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### N  : int {#decl-N}
+####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-#### value  : int {#decl-value}
+####  <a id="decl-value"></a>value  : int
 The value to find set bits in.
 
-#### value  : [vector](/stdlib-reference/types/vector/index)\<int, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<int, [N](../types/vector/index#decl-N)\>
 The value to find set bits in.
 
-#### value  : uint {#decl-value}
+####  <a id="decl-value"></a>value  : uint
 The value to find set bits in.
 
-#### value  : [vector](/stdlib-reference/types/vector/index)\<uint, [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-value}
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint, [N](../types/vector/index#decl-N)\>
 The value to find set bits in.
 
 
 ## Return value
 The bit index number of the least significant set bit,
-or all ones (-1 when interpretted as signed) if <span class='code'><a href="/stdlib-reference/global-decls/firstbitlow#decl-value" class="code_param">value</a></span> is 0.
+or all ones (-1 when interpretted as signed) if <span class='code'><a href="firstbitlow.html#decl-value" class="code_param">value</a></span> is 0.
 
 ## Remarks
 For SPIR-V, this function maps to GLSL extended instruction <span class='code'>FindILsb</span>.

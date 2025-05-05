@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-uint64_t <a href="/stdlib-reference/global-decls/clockarb-567">clockARB</a>();
+uint64_t <a href="clockarb-567.html">clockARB</a>();
 
 </pre>
 

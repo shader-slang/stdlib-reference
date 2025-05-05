@@ -14,7 +14,7 @@ Queries shader table index from HitObject. Valid if the hit object represents a 
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/getshadertableindex-039e">GetShaderTableIndex</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="getshadertableindex-039e.html">GetShaderTableIndex</a>();
 
 </pre>
 

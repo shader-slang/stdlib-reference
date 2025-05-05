@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface ILogical
 
-*Inherits from:* [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
+*Inherits from:* [IComparable](../icomparable-01/index)
 
 ## Description
 
@@ -13,14 +13,32 @@ Represents types that provide logical operations.
 
 ## Methods
 
-* [shl](/stdlib-reference/interfaces/ilogical-01/shl)
-* [shr](/stdlib-reference/interfaces/ilogical-01/shr)
-* [bitAnd](/stdlib-reference/interfaces/ilogical-01/bitand-3)
-* [bitOr](/stdlib-reference/interfaces/ilogical-01/bitor-3)
-* [bitXor](/stdlib-reference/interfaces/ilogical-01/bitxor-3)
-* [bitNot](/stdlib-reference/interfaces/ilogical-01/bitnot-3)
-* [and](/stdlib-reference/interfaces/ilogical-01/and)
-* [or](/stdlib-reference/interfaces/ilogical-01/or)
-* [not](/stdlib-reference/interfaces/ilogical-01/not)
-* [init](/stdlib-reference/interfaces/ilogical-01/init)
+* [shl](shl)
+* [shr](shr)
+* [bitAnd](bitand-3)
+* [bitOr](bitor-3)
+* [bitXor](bitxor-3)
+* [bitNot](bitnot-3)
+* [and](and)
+* [or](or)
+* [not](not)
+* [init](init)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+and <and>
+bitAnd <bitand-3>
+bitNot <bitnot-3>
+bitOr <bitor-3>
+bitXor <bitxor-3>
+init <init>
+not <not>
+or <or>
+shl <shl>
+shr <shr>
+```
+RTD-TOC-END -->

@@ -5,33 +5,71 @@ layout: stdlib-reference
 
 Slang's Standard Library defines the following interfaces:
 
-- [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index)
-- [IArithmeticAtomicable](/stdlib-reference/interfaces/iarithmeticatomicable-01b/index)
-- [IArray](/stdlib-reference/interfaces/iarray-01/index)
-- [IAtomicable](/stdlib-reference/interfaces/iatomicable-01/index)
-- [IBitAtomicable](/stdlib-reference/interfaces/ibitatomicable-014/index)
-- [IBufferDataLayout](/stdlib-reference/interfaces/ibufferdatalayout-017b/index)
-- [IComparable](/stdlib-reference/interfaces/icomparable-01/index)
-- [IDefaultInitializable](/stdlib-reference/interfaces/idefaultinitializable-018/index)
-- [IDiffTensorWrapper](/stdlib-reference/interfaces/idifftensorwrapper-015b/index)
-- [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
-- [IDifferentiableFunc](/stdlib-reference/interfaces/idifferentiablefunc-01f/index)
-- [IDifferentiableMutatingFunc](/stdlib-reference/interfaces/idifferentiablemutatingfunc-01fn/index)
-- [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index)
-- [IFloat](/stdlib-reference/interfaces/ifloat-01/index)
-- [IFunc](/stdlib-reference/interfaces/ifunc-01/index)
-- [IInteger](/stdlib-reference/interfaces/iinteger-01/index)
-- [ILogical](/stdlib-reference/interfaces/ilogical-01/index)
-- [IMutatingFunc](/stdlib-reference/interfaces/imutatingfunc-019/index)
-- [IOpaqueDescriptor](/stdlib-reference/interfaces/iopaquedescriptor-017/index)
-- [IPhysicalBuffer](/stdlib-reference/interfaces/iphysicalbuffer-019/index)
-- [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)
-- [IRWPhysicalBuffer](/stdlib-reference/interfaces/irwphysicalbuffer-0123b/index)
-- [IRangedValue](/stdlib-reference/interfaces/irangedvalue-017/index)
-- [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
-- [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index)
-- [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)
-- [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index)
-- [\_\_BuiltinLogicalType](/stdlib-reference/interfaces/0_builtinlogicaltype-029g/index)
-- [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index)
-- [\_\_ITextureShape1D2D3D](/stdlib-reference/interfaces/0_itextureshape1d2d3d-023agik/index)
+- [IArithmetic](iarithmetic-01/index)
+- [IArithmeticAtomicable](iarithmeticatomicable-01b/index)
+- [IArray](iarray-01/index)
+- [IAtomicable](iatomicable-01/index)
+- [IBitAtomicable](ibitatomicable-014/index)
+- [IBufferDataLayout](ibufferdatalayout-017b/index)
+- [IComparable](icomparable-01/index)
+- [IDefaultInitializable](idefaultinitializable-018/index)
+- [IDiffTensorWrapper](idifftensorwrapper-015b/index)
+- [IDifferentiable](idifferentiable-01/index)
+- [IDifferentiableFunc](idifferentiablefunc-01f/index)
+- [IDifferentiableMutatingFunc](idifferentiablemutatingfunc-01fn/index)
+- [IDifferentiablePtrType](idifferentiableptrtype-01fi/index)
+- [IFloat](ifloat-01/index)
+- [IFunc](ifunc-01/index)
+- [IInteger](iinteger-01/index)
+- [ILogical](ilogical-01/index)
+- [IMutatingFunc](imutatingfunc-019/index)
+- [IOpaqueDescriptor](iopaquedescriptor-017/index)
+- [IPhysicalBuffer](iphysicalbuffer-019/index)
+- [IRWArray](irwarray-0123/index)
+- [IRWPhysicalBuffer](irwphysicalbuffer-0123b/index)
+- [IRangedValue](irangedvalue-017/index)
+- [ITexelElement](itexelelement-016/index)
+- [\_\_BuiltinArithmeticType](0_builtinarithmetictype-029j/index)
+- [\_\_BuiltinFloatingPointType](0_builtinfloatingpointtype-029hm/index)
+- [\_\_BuiltinIntegerType](0_builtinintegertype-029g/index)
+- [\_\_BuiltinLogicalType](0_builtinlogicaltype-029g/index)
+- [\_\_ITextureShape](0_itextureshape-023a/index)
+- [\_\_ITextureShape1D2D3D](0_itextureshape1d2d3d-023agik/index)
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+IArithmetic <iarithmetic-01/index>
+IArithmeticAtomicable <iarithmeticatomicable-01b/index>
+IArray <iarray-01/index>
+IAtomicable <iatomicable-01/index>
+IBitAtomicable <ibitatomicable-014/index>
+IBufferDataLayout <ibufferdatalayout-017b/index>
+IComparable <icomparable-01/index>
+IDefaultInitializable <idefaultinitializable-018/index>
+IDiffTensorWrapper <idifftensorwrapper-015b/index>
+IDifferentiable <idifferentiable-01/index>
+IDifferentiableFunc <idifferentiablefunc-01f/index>
+IDifferentiableMutatingFunc <idifferentiablemutatingfunc-01fn/index>
+IDifferentiablePtrType <idifferentiableptrtype-01fi/index>
+IFloat <ifloat-01/index>
+IFunc <ifunc-01/index>
+IInteger <iinteger-01/index>
+ILogical <ilogical-01/index>
+IMutatingFunc <imutatingfunc-019/index>
+IOpaqueDescriptor <iopaquedescriptor-017/index>
+IPhysicalBuffer <iphysicalbuffer-019/index>
+IRWArray <irwarray-0123/index>
+IRWPhysicalBuffer <irwphysicalbuffer-0123b/index>
+IRangedValue <irangedvalue-017/index>
+ITexelElement <itexelelement-016/index>
+__BuiltinArithmeticType <0_builtinarithmetictype-029j/index>
+__BuiltinFloatingPointType <0_builtinfloatingpointtype-029hm/index>
+__BuiltinIntegerType <0_builtinintegertype-029g/index>
+__BuiltinLogicalType <0_builtinlogicaltype-029g/index>
+__ITextureShape <0_itextureshape-023a/index>
+__ITextureShape1D2D3D <0_itextureshape1d2d3d-023agik/index>
+```
+RTD-TOC-END -->

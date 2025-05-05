@@ -6,42 +6,42 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit integer atomic exchange operation at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit integer atomic exchange operation at <span class='code'><a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b">InterlockedExchange64</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-byteAddress" class="code_param">byteAddress</a>,
-    int64_t <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedexchange64-0b.html">InterlockedExchange64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    int64_t <a href="interlockedexchange64-0b.html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b">InterlockedExchange64</a>&lt;<a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-byteAddress" class="code_param">byteAddress</a>,
-    <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedexchange64-0b.html">InterlockedExchange64</a>&lt;<a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange64-0b.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange64-0b.html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
+    <span class='code_keyword'>where</span> <a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: \_\_BuiltinInt64Type {#typeparam-T}
+####  <a id="typeparam-T"></a>T: \_\_BuiltinInt64Type
 
 ## Parameters
 
-#### byteAddress  : uint {#decl-byteAddress}
+####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic exchange operation.
 
-#### value  : int64\_t {#decl-value}
+####  <a id="decl-value"></a>value  : int64\_t
 The operand for the exchange operation.
 
-#### value  : [T](/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T) {#decl-value}
+####  <a id="decl-value"></a>value  : [T](interlockedexchange64-0b#typeparam-T)
 The operand for the exchange operation.
 
-#### outOriginalValue  : [T](/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#typeparam-T) {#decl-outOriginalValue}
-The original value at <span class='code'><a href="/stdlib-reference/types/rwbyteaddressbuffer-0126d/interlockedexchange64-0b#decl-byteAddress" class="code_param">byteAddress</a></span> before the exchange operation.
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedexchange64-0b#typeparam-T)
+The original value at <span class='code'><a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the exchange operation.
 
 
 ## Availability and Requirements

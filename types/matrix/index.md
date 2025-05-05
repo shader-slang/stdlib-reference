@@ -4,48 +4,74 @@ layout: stdlib-reference
 
 # struct matrix\<T, R:int, C:int, L:int\>
 
-*Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), C \>\>
+*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index)\<[vector](../vector/index)\<[T](../vector/index#typeparam-T), C \>\>
 
-*Conditionally conforms to:* [IFloat](/stdlib-reference/interfaces/ifloat-01/index), [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+*Conditionally conforms to:* [IFloat](../../interfaces/ifloat-01/index), [IDifferentiable](../../interfaces/idifferentiable-01/index)
 
 ## Description
 
-A matrix with <span class='code'><a href="/stdlib-reference/types/matrix/index#decl-R" class="code_var">R</a></span> rows and <span class='code'><a href="/stdlib-reference/types/matrix/index#decl-C" class="code_var">C</a></span> columns, with elements of type <span class='code'><a href="/stdlib-reference/types/matrix/t-0" class="code_type">T</a></span>.
+A matrix with <span class='code'><a href="index.html#decl-R" class="code_var">R</a></span> rows and <span class='code'><a href="index.html#decl-C" class="code_var">C</a></span> columns, with elements of type <span class='code'><a href="t-0.html" class="code_type">T</a></span>.
 
 
 ## Generic Parameters
 
-#### T  = float {#typeparam-T}
-#### R  : int = 4 {#decl-R}
-#### C  : int = 4 {#decl-C}
-#### L  : int = 0 {#decl-L}
+####  <a id="typeparam-T"></a>T  = float
+####  <a id="decl-R"></a>R  : int = 4
+####  <a id="decl-C"></a>C  : int = 4
+####  <a id="decl-L"></a>L  : int = 0
 
 ## Methods
 
-* [getCount](/stdlib-reference/types/matrix/getcount-3)
-* [lessThan](/stdlib-reference/types/matrix/lessthan-4)
-* [lessThanOrEquals](/stdlib-reference/types/matrix/lessthanorequals-48a)
-* [equals](/stdlib-reference/types/matrix/equals)
-* [add](/stdlib-reference/types/matrix/add)
-* [sub](/stdlib-reference/types/matrix/sub)
-* [mul](/stdlib-reference/types/matrix/mul)
-* [div](/stdlib-reference/types/matrix/div)
-* [mod](/stdlib-reference/types/matrix/mod)
-* [neg](/stdlib-reference/types/matrix/neg)
-* [scale](/stdlib-reference/types/matrix/scale)
-* [toFloat](/stdlib-reference/types/matrix/tofloat-2)
-* [dzero](/stdlib-reference/types/matrix/dzero)
-* [dadd](/stdlib-reference/types/matrix/dadd)
-* [dmul](/stdlib-reference/types/matrix/dmul)
-* [init](/stdlib-reference/types/matrix/init)
+* [getCount](getcount-3)
+* [lessThan](lessthan-4)
+* [lessThanOrEquals](lessthanorequals-48a)
+* [equals](equals)
+* [add](add)
+* [sub](sub)
+* [mul](mul)
+* [div](div)
+* [mod](mod)
+* [neg](neg)
+* [scale](scale)
+* [toFloat](tofloat-2)
+* [dzero](dzero)
+* [dadd](dadd)
+* [dmul](dmul)
+* [init](init)
 
 ## Conditional Conformances
 
 ### Conformance to IFloat
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/matrix/t-0) : [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index)
+  * [T](t-0) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index)
 ### Conformance to IDifferentiable
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/matrix/t-0) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+  * [T](t-0) : [IDifferentiable](../../interfaces/idifferentiable-01/index)
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+Differential <differential-0>
+T <t-0>
+add <add>
+dadd <dadd>
+div <div>
+dmul <dmul>
+dzero <dzero>
+equals <equals>
+getCount <getcount-3>
+init <init>
+lessThan <lessthan-4>
+lessThanOrEquals <lessthanorequals-48a>
+mod <mod>
+mul <mul>
+neg <neg>
+scale <scale>
+sub <sub>
+toFloat <tofloat-2>
+```
+RTD-TOC-END -->

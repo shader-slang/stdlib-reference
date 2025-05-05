@@ -15,34 +15,34 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b">TraceMotionRay</a>&lt;<a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="/stdlib-reference/types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-RayFlags" class="code_param">RayFlags</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="/stdlib-reference/types/raydesc-03/index" class="code_type">RayDesc</a> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-Ray" class="code_param">Ray</a>,
-    <span class="code_keyword">float</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-CurrentTime" class="code_param">CurrentTime</a>,
-    <span class="code_keyword">inout</span> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#typeparam-payload_t" class="code_type">payload_t</a> <a href="/stdlib-reference/types/hitobject-03/tracemotionray-05b#decl-Payload" class="code_param">Payload</a>);
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="tracemotionray-05b.html">TraceMotionRay</a>&lt;<a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayFlags" class="code_param">RayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracemotionray-05b.html#decl-Ray" class="code_param">Ray</a>,
+    <span class="code_keyword">float</span> <a href="tracemotionray-05b.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <span class="code_keyword">inout</span> <a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="tracemotionray-05b.html#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 
 ## Generic Parameters
 
-#### payload\_t {#typeparam-payload_t}
+####  <a id="typeparam-payload_t"></a>payload\_t
 
 ## Parameters
 
-#### AccelerationStructure  : [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index) {#decl-AccelerationStructure}
-#### RayFlags  : uint {#decl-RayFlags}
-#### InstanceInclusionMask  : uint {#decl-InstanceInclusionMask}
-#### RayContributionToHitGroupIndex  : uint {#decl-RayContributionToHitGroupIndex}
-#### MultiplierForGeometryContributionToHitGroupIndex  : uint {#decl-MultiplierForGeometryContributionToHitGroupIndex}
-#### MissShaderIndex  : uint {#decl-MissShaderIndex}
-#### Ray  : [RayDesc](/stdlib-reference/types/raydesc-03/index) {#decl-Ray}
-#### CurrentTime  : float {#decl-CurrentTime}
-#### Payload  : [payload\_t](/stdlib-reference/types/hitobject-03/tracemotionray-05b#typeparam-payload_t) {#decl-Payload}
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
+####  <a id="decl-RayFlags"></a>RayFlags  : uint
+####  <a id="decl-InstanceInclusionMask"></a>InstanceInclusionMask  : uint
+####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
+####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
+####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index)
+####  <a id="decl-CurrentTime"></a>CurrentTime  : float
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b#typeparam-payload_t)
 
 ## Availability and Requirements
 

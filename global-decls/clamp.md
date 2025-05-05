@@ -14,104 +14,104 @@ Clamp. Returns the specified value clamped to the specified minimum and maximum 
 
 <pre>
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp#decl-minBound" class="code_param">minBound</a>,
-    <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp#decl-maxBound" class="code_param">maxBound</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html#decl-minBound" class="code_param">minBound</a>,
+    <a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html#decl-maxBound" class="code_param">maxBound</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-minBound" class="code_param">minBound</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-maxBound" class="code_param">maxBound</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-minBound" class="code_param">minBound</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-maxBound" class="code_param">maxBound</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-minBound" class="code_param">minBound</a>,
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-maxBound" class="code_param">maxBound</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="clamp.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html#decl-minBound" class="code_param">minBound</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html#decl-maxBound" class="code_param">maxBound</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp#decl-minBound" class="code_param">minBound</a>,
-    <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> <a href="/stdlib-reference/global-decls/clamp#decl-maxBound" class="code_param">maxBound</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html#decl-minBound" class="code_param">minBound</a>,
+    <a href="clamp.html#typeparam-T" class="code_type">T</a> <a href="clamp.html#decl-maxBound" class="code_param">maxBound</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-minBound" class="code_param">minBound</a>,
-    <a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-maxBound" class="code_param">maxBound</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-minBound" class="code_param">minBound</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-maxBound" class="code_param">maxBound</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-minBound" class="code_param">minBound</a>,
-    <a href="/stdlib-reference/types/matrix/index" class="code_type">matrix</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>, <a href="/stdlib-reference/global-decls/clamp#decl-M" class="code_var">M</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-maxBound" class="code_param">maxBound</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="clamp.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html#decl-minBound" class="code_param">minBound</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>, <a href="clamp.html#decl-M" class="code_var">M</a>&gt; <a href="clamp.html#decl-maxBound" class="code_param">maxBound</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-minVal" class="code_param">minVal</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-maxVal" class="code_param">maxVal</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-minVal" class="code_param">minVal</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-maxVal" class="code_param">maxVal</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp">clamp</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-x" class="code_param">x</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-minVal" class="code_param">minVal</a>,
-    <a href="/stdlib-reference/types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a>, <a href="/stdlib-reference/global-decls/clamp#decl-N" class="code_var">N</a>&gt; <a href="/stdlib-reference/global-decls/clamp#decl-maxVal" class="code_param">maxVal</a>)
-    <span class='code_keyword'>where</span> <a href="/stdlib-reference/global-decls/clamp#typeparam-T" class="code_type">T</a> : <a href="/stdlib-reference/interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html">clamp</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-x" class="code_param">x</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-minVal" class="code_param">minVal</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="clamp.html#typeparam-T" class="code_type">T</a>, <a href="clamp.html#decl-N" class="code_var">N</a>&gt; <a href="clamp.html#decl-maxVal" class="code_param">maxVal</a>)
+    <span class='code_keyword'>where</span> <a href="clamp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinIntegerType](/stdlib-reference/interfaces/0_builtinintegertype-029g/index) {#typeparam-T}
-#### N  : int {#decl-N}
-#### M  : int {#decl-M}
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+####  <a id="decl-N"></a>N  : int
+####  <a id="decl-M"></a>M  : int
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
 
 ## Parameters
 
-#### x  : [T](/stdlib-reference/global-decls/clamp#typeparam-T) {#decl-x}
+####  <a id="decl-x"></a>x  : [T](clamp#typeparam-T)
 The value to clamp.
 
-#### minBound  : [T](/stdlib-reference/global-decls/clamp#typeparam-T) {#decl-minBound}
+####  <a id="decl-minBound"></a>minBound  : [T](clamp#typeparam-T)
 The minimum bound.
 
-#### maxBound  : [T](/stdlib-reference/global-decls/clamp#typeparam-T) {#decl-maxBound}
+####  <a id="decl-maxBound"></a>maxBound  : [T](clamp#typeparam-T)
 The maximum bound.
 
-#### x  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The value to clamp.
 
-#### minBound  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-minBound}
+####  <a id="decl-minBound"></a>minBound  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The minimum bound.
 
-#### maxBound  : [vector](/stdlib-reference/types/vector/index)\<[T](/stdlib-reference/types/vector/index#typeparam-T), [N](/stdlib-reference/types/vector/index#decl-N)\> {#decl-maxBound}
+####  <a id="decl-maxBound"></a>maxBound  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The maximum bound.
 
-#### x  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The value to clamp.
 
-#### minBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-minBound}
+####  <a id="decl-minBound"></a>minBound  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The minimum bound.
 
-#### maxBound  : [matrix](/stdlib-reference/types/matrix/index)\<[T](/stdlib-reference/types/matrix/t-0), [N](/stdlib-reference/types/matrix/index#decl-N), [M](/stdlib-reference/types/matrix/index#decl-M)\> {#decl-maxBound}
+####  <a id="decl-maxBound"></a>maxBound  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The maximum bound.
 
-#### x  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-x}
+####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
 The value to clamp.
 
-#### minVal  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-minVal}
-#### maxVal  : [CoopVec](/stdlib-reference/types/coopvec-04/index)\<[T](/stdlib-reference/types/coopvec-04/index#typeparam-T), [N](/stdlib-reference/types/coopvec-04/index#decl-N)\> {#decl-maxVal}
+####  <a id="decl-minVal"></a>minVal  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
+####  <a id="decl-maxVal"></a>maxVal  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
 
 ## Return value
 The clamped value.

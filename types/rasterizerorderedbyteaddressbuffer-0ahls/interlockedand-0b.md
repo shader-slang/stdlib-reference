@@ -14,27 +14,27 @@ location of the byte address buffer.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b">InterlockedAnd</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedand-0b.html">InterlockedAnd</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-original_value" class="code_param">original_value</a>);
 
-<span class="code_keyword">void</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b">InterlockedAnd</a>(
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedand-0b.html">InterlockedAnd</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
 ## Parameters
 
-#### dest  : uint {#decl-dest}
+####  <a id="decl-dest"></a>dest  : uint
 The byte address at which to perform the atomic and operation.
 
-#### value  : uint {#decl-value}
+####  <a id="decl-value"></a>value  : uint
 The operand of the atomic operation.
 
-#### original\_value  : uint {#decl-original_value}
-The original value at <span class='code'><a href="/stdlib-reference/types/rasterizerorderedbyteaddressbuffer-0ahls/interlockedand-0b#decl-dest" class="code_param">dest</a></span> before the and operation.
+####  <a id="decl-original_value"></a>original\_value  : uint
+The original value at <span class='code'><a href="interlockedand-0b.html#decl-dest" class="code_param">dest</a></span> before the and operation.
 
 
 ## Availability and Requirements

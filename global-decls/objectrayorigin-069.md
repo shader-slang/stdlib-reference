@@ -13,7 +13,7 @@ Returns the ray origin in object space of the current instance.
 ## Signature 
 
 <pre>
-<a href="/stdlib-reference/types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="/stdlib-reference/global-decls/objectrayorigin-069">ObjectRayOrigin</a>();
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="objectrayorigin-069.html">ObjectRayOrigin</a>();
 
 </pre>
 

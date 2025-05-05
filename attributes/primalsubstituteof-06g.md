@@ -6,21 +6,21 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'>[<a href="/stdlib-reference/attributes/primalsubstituteof-06g">PrimalSubstituteOf</a>(fn)]</span> is the back-reference version of <span class='code'>[<a href="/stdlib-reference/attributes/primalsubstitute-06">PrimalSubstitute</a>(substFn)]</span>
+<span class='code'>[<a href="primalsubstituteof-06g.html">PrimalSubstituteOf</a>(fn)]</span> is the back-reference version of <span class='code'>[<a href="primalsubstitute-06.html">PrimalSubstitute</a>(substFn)]</span>
 
 When used to decorate a function, that function is considered the substitute for the
 referenced <span class='code'>fn</span>.
 Apart from this difference, the semantics of the substitution are the same as for
-<span class='code'>[<a href="/stdlib-reference/attributes/primalsubstitute-06">PrimalSubstitute</a>(substFn)]</span>
+<span class='code'>[<a href="primalsubstitute-06.html">PrimalSubstitute</a>(substFn)]</span>
 
 
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/primalsubstituteof-06g">PrimalSubstituteOf</a>(<a href="/stdlib-reference/attributes/primalsubstituteof-06g#decl-function" class="code_param">function</a>)]
+[<a href="primalsubstituteof-06g.html">PrimalSubstituteOf</a>(<a href="primalsubstituteof-06g.html#decl-function" class="code_param">function</a>)]
 </pre>
 
 ## Parameters
 
-#### function {#decl-function}
+####  <a id="decl-function"></a>function
 

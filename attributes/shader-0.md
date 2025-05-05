@@ -11,12 +11,12 @@ Marks a function as a shader entry point.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/shader-0">Shader</a>(<a href="/stdlib-reference/attributes/shader-0#decl-stage" class="code_param">stage</a>)]
+[<a href="shader-0.html">Shader</a>(<a href="shader-0.html#decl-stage" class="code_param">stage</a>)]
 </pre>
 
 ## Parameters
 
-#### stage {#decl-stage}
+####  <a id="decl-stage"></a>stage
 The stage of the shader. Must be one of "vertex", "fragment", "compute", "geometry", "hull", "domain", "raygeneration",
 
 

@@ -1,5 +1,5 @@
-documented pages: 674
-undocumented pages: 529(44.0%)
+documented pages: 676
+undocumented pages: 545(44.6%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -19,6 +19,7 @@ IFunc<TR, each TP>.operator()
 IInteger.init
 ILogical.init
 IMutatingFunc<TR, each TP>.operator()
+IOpaqueDescriptor.descriptorAccess
 IPhysicalBuffer
 IPhysicalBuffer.GetBufferPointer
 IPhysicalBuffer.LoadByteOffset<T>
@@ -35,6 +36,7 @@ T.Element
 T.elementCount
 T.init
 AppendStructuredBuffer<T, L>.Handle
+AppendStructuredBuffer<T, L>.descriptorAccess
 AppendStructuredBuffer<T, L>.init
 AppendStructuredBuffer<T, L>.kind
 Array<T, N:int>
@@ -61,13 +63,16 @@ Buffer<T, format:int>
 ByteAddressBuffer.GetBufferPointer
 ByteAddressBuffer.Handle
 ByteAddressBuffer.LoadByteOffset<T>
+ByteAddressBuffer.descriptorAccess
 ByteAddressBuffer.init
 ByteAddressBuffer.kind
 ConstantBuffer<T, L>
 ConstantBuffer<T, L>.Handle
+ConstantBuffer<T, L>.descriptorAccess
 ConstantBuffer<T, L>.init
 ConstantBuffer<T, L>.kind
 ConsumeStructuredBuffer<T, L>.Handle
+ConsumeStructuredBuffer<T, L>.descriptorAccess
 ConsumeStructuredBuffer<T, L>.init
 ConsumeStructuredBuffer<T, L>.kind
 CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>
@@ -101,6 +106,7 @@ CoopVec<T, N:int>.matMulAddAccum<U, K:int>
 CoopVec<T, N:int>.matMulAddAccumPacked<U, PackedK:int>
 CoopVec<T, N:int>.subscript
 DefaultDataLayout
+DescriptorAccess
 DescriptorHandle<T>.equals
 DescriptorHandle<T>.init
 DescriptorHandle<T>.lessThan
@@ -186,18 +192,22 @@ RWByteAddressBuffer.Handle
 RWByteAddressBuffer.InterlockedAddF64
 RWByteAddressBuffer.LoadByteOffset<T>
 RWByteAddressBuffer.StoreByteOffset<T>
+RWByteAddressBuffer.descriptorAccess
 RWByteAddressBuffer.init
 RWByteAddressBuffer.kind
 RWStructuredBuffer<T, L>.Handle
+RWStructuredBuffer<T, L>.descriptorAccess
 RWStructuredBuffer<T, L>.getCount
 RWStructuredBuffer<T, L>.init
 RWStructuredBuffer<T, L>.kind
 RWStructuredBuffer<T, L>.subscript<TIndex>
 RasterizerOrderedBuffer<T, format:int>
 RasterizerOrderedByteAddressBuffer.Handle
+RasterizerOrderedByteAddressBuffer.descriptorAccess
 RasterizerOrderedByteAddressBuffer.init
 RasterizerOrderedByteAddressBuffer.kind
 RasterizerOrderedStructuredBuffer<T, L>.Handle
+RasterizerOrderedStructuredBuffer<T, L>.descriptorAccess
 RasterizerOrderedStructuredBuffer<T, L>.getCount
 RasterizerOrderedStructuredBuffer<T, L>.init
 RasterizerOrderedStructuredBuffer<T, L>.kind
@@ -222,6 +232,7 @@ RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
 RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
 RayQuery<rayFlagsGeneric:uint>.RayFlags
 RaytracingAccelerationStructure.Handle
+RaytracingAccelerationStructure.descriptorAccess
 RaytracingAccelerationStructure.init
 RaytracingAccelerationStructure.kind
 SAMPLER_FEEDBACK_MIN_MIP
@@ -233,9 +244,11 @@ SAMPLER_FEEDBACK_MIP_REGION_USED.Element
 SAMPLER_FEEDBACK_MIP_REGION_USED.elementCount
 SAMPLER_FEEDBACK_MIP_REGION_USED.init
 SamplerComparisonState.Handle
+SamplerComparisonState.descriptorAccess
 SamplerComparisonState.init
 SamplerComparisonState.kind
 SamplerState.Handle
+SamplerState.descriptorAccess
 SamplerState.init
 SamplerState.kind
 ScalarDataLayout
@@ -243,6 +256,7 @@ Std140DataLayout
 Std430DataLayout
 String.init
 StructuredBuffer<T, L>.Handle
+StructuredBuffer<T, L>.descriptorAccess
 StructuredBuffer<T, L>.getCount
 StructuredBuffer<T, L>.init
 StructuredBuffer<T, L>.kind
@@ -268,6 +282,7 @@ TensorView<T>.stride
 TensorView<T>.subscript
 TextureBuffer<T>
 TextureBuffer<T>.Handle
+TextureBuffer<T>.descriptorAccess
 TextureBuffer<T>.init
 TextureBuffer<T>.kind
 TextureFootprint<ND:int>
@@ -328,6 +343,7 @@ FeedbackTexture2D<T>.WriteSamplerFeedback<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackBias<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackGrad<S>
 FeedbackTexture2D<T>.WriteSamplerFeedbackLevel<S>
+_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.descriptorAccess
 _Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.init
 _Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.kind
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarse

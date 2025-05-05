@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/treatasdifferentiable-057">TreatAsDifferentiable</a>]
+[<a href="treatasdifferentiable-057.html">TreatAsDifferentiable</a>]
 </pre>
 

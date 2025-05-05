@@ -16,10 +16,10 @@ Mark a type for export to slang-torch.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/pyexport-02">PyExport</a>(<a href="/stdlib-reference/attributes/pyexport-02#decl-name" class="code_param">name</a> : <a href="/stdlib-reference/types/string-0/index" class="code_type">String</a>)]
+[<a href="pyexport-02.html">PyExport</a>(<a href="pyexport-02.html#decl-name" class="code_param">name</a> : <a href="../types/string-0/index.html" class="code_type">String</a>)]
 </pre>
 
 ## Parameters
 
-#### name  : [String](/stdlib-reference/types/string-0/index) {#decl-name}
+####  <a id="decl-name"></a>name  : [String](../types/string-0/index)
 

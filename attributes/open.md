@@ -16,11 +16,11 @@ This is the default behavior.
 ## Signature
 
 <pre>
-[<a href="/stdlib-reference/attributes/open">open</a>]
+[<a href="open.html">open</a>]
 </pre>
 
 ## See also
 
-<span class='code'>[<a href="/stdlib-reference/attributes/sealed">sealed</a>]</span>.
+<span class='code'>[<a href="sealed.html">sealed</a>]</span>.
 
 

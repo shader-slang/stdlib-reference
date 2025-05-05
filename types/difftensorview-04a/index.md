@@ -6,23 +6,42 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) = float {#typeparam-T}
-#### A: [IDiffTensorWrapper](/stdlib-reference/interfaces/idifftensorwrapper-015b/index) = [AtomicAdd](/stdlib-reference/types/atomicadd-06/index) {#typeparam-A}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index) = float
+####  <a id="typeparam-A"></a>A: [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index) = [AtomicAdd](../atomicadd-06/index)
 
 ## Fields
 
-#### [diff](/stdlib-reference/types/difftensorview-04a/diff) : [A](/stdlib-reference/types/difftensorview-04a/index#typeparam-A) {#decl-diff}
-#### [primal](/stdlib-reference/types/difftensorview-04a/primal) : [TensorView](/stdlib-reference/types/tensorview-06/index)\<[T](/stdlib-reference/types/tensorview-06/index#typeparam-T)\> {#decl-primal}
+####  <a id="decl-diff"></a>[diff](diff) : [A](index#typeparam-A)
+####  <a id="decl-primal"></a>[primal](primal) : [TensorView](../tensorview-06/index)\<[T](../tensorview-06/index#typeparam-T)\>
 
 ## Methods
 
-* [size](/stdlib-reference/types/difftensorview-04a/size)
-* [dims](/stdlib-reference/types/difftensorview-04a/dims)
-* [stride](/stdlib-reference/types/difftensorview-04a/stride)
-* [init](/stdlib-reference/types/difftensorview-04a/init)
-* [load](/stdlib-reference/types/difftensorview-04a/load)
-* [store](/stdlib-reference/types/difftensorview-04a/store)
-* [subscript](/stdlib-reference/types/difftensorview-04a/subscript)
-* [loadOnce](/stdlib-reference/types/difftensorview-04a/loadonce-4)
-* [storeOnce](/stdlib-reference/types/difftensorview-04a/storeonce-5)
+* [size](size)
+* [dims](dims)
+* [stride](stride)
+* [init](init)
+* [load](load)
+* [store](store)
+* [subscript](subscript)
+* [loadOnce](loadonce-4)
+* [storeOnce](storeonce-5)
 
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+diff <diff>
+dims <dims>
+init <init>
+load <load>
+loadOnce <loadonce-4>
+primal <primal>
+size <size>
+store <store>
+storeOnce <storeonce-5>
+stride <stride>
+subscript <subscript>
+```
+RTD-TOC-END -->

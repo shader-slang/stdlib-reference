@@ -13,7 +13,7 @@ Returns the minimum valid intersection distance for the current ray.
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="/stdlib-reference/global-decls/raytmin-034">RayTMin</a>();
+<span class="code_keyword">float</span> <a href="raytmin-034.html">RayTMin</a>();
 
 </pre>
 

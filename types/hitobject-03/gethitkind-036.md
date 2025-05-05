@@ -14,7 +14,7 @@ Returns the hit kind. Valid if the hit object represents a hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="/stdlib-reference/types/hitobject-03/index" class="code_type">HitObject</a>.<a href="/stdlib-reference/types/hitobject-03/gethitkind-036">GetHitKind</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="gethitkind-036.html">GetHitKind</a>();
 
 </pre>
 
