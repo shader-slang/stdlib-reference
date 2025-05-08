@@ -22,5 +22,5 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[TextureBuffer](index)\<[T](index#typeparam-T) \>\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index.html)\<[TextureBuffer](index.html)\<[T](index.html#typeparam-T) \>\>
 

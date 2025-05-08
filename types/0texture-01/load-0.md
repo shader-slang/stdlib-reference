@@ -247,13 +247,13 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<int, isArray + Shape\.dimensions + 1\>
-####  <a id="decl-offset"></a>offset  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<int, isArray + Shape\.dimensions + 1\>
+####  <a id="decl-offset"></a>offset  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
 ####  <a id="decl-status"></a>status  : uint
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<int, isArray + Shape\.dimensions\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<int, isArray + Shape\.dimensions\>
 ####  <a id="decl-sampleIndex"></a>sampleIndex  : int
-####  <a id="decl-locationAndSampleIndex"></a>locationAndSampleIndex  : [vector](../vector/index)\<int, isArray + Shape\.dimensions + 1\>
-####  <a id="decl-offset"></a>offset  : [vector](../vector/index)\<int, isArray + Shape\.dimensions\>
+####  <a id="decl-locationAndSampleIndex"></a>locationAndSampleIndex  : [vector](../vector/index.html)\<int, isArray + Shape\.dimensions + 1\>
+####  <a id="decl-offset"></a>offset  : [vector](../vector/index.html)\<int, isArray + Shape\.dimensions\>
 ####  <a id="decl-location"></a>location  : int
 
 ## Availability and Requirements

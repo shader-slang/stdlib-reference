@@ -26,5 +26,5 @@ They can be any scalar, vector, matrix, struct or array types.
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [U](bit_cast#typeparam-U)
+####  <a id="decl-value"></a>value  : [U](bit_cast.html#typeparam-U)
 

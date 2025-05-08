@@ -32,22 +32,22 @@ Interpolates vertex attribute at the specified subpixel offset.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](evaluateattributesnapped-08h#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](evaluateattributesnapped-08h.html#typeparam-T)
 The vertex attribute to interpolate.
 
-####  <a id="decl-offset"></a>offset  : [vector](../types/vector/index)\<int, 2\>
+####  <a id="decl-offset"></a>offset  : [vector](../types/vector/index.html)\<int, 2\>
 The subpixel offset. Each component is a 4-bit signed integer in range [-8, 7].
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The vertex attribute to interpolate.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The vertex attribute to interpolate.
 
 

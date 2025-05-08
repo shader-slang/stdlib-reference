@@ -21,5 +21,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [CoopMat](index)\<[T](index#typeparam-T), [S](index#decl-S), [M](index#decl-M), [N](index#decl-N), [R](index#decl-R)\>
+####  <a id="decl-other"></a>other  : [CoopMat](index.html)\<[T](index.html#typeparam-T), [S](index.html#decl-S), [M](index.html#decl-M), [N](index.html#decl-N), [R](index.html#decl-R)\>
 

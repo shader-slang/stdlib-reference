@@ -22,7 +22,7 @@ Constraints:
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount](elementcount-7) : int
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int
 
 ## Methods
 

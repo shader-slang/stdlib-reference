@@ -21,9 +21,9 @@ Detach and set derivatives to zero.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](detach#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](detach.html#typeparam-T)
 

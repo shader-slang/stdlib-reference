@@ -26,10 +26,10 @@ of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T<
 
 ## m_currentPage->path
 
-####  <a id="decl-hasValue"></a>[hasValue](hasvalue-3)
+####  <a id="decl-hasValue"></a>[hasValue](hasvalue-3.html)
 Return <span class='code'>true</span> iff this <span class='code'><a href="index.html" class="code_type">Optional</a></span> contains a value of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>
 
-####  <a id="decl-value"></a>[value](value)
+####  <a id="decl-value"></a>[value](value.html)
 If this <span class='code'><a href="index.html" class="code_type">Optional</a></span> contains a value of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> return that.
 
 

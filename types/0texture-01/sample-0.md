@@ -96,10 +96,10 @@ Samples the texture at the given location.
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, isArray + Shape\.dimensions\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, isArray + Shape\.dimensions\>
 The location to sample the texture at.
 
-####  <a id="decl-offset"></a>offset  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset"></a>offset  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
 Texel offset to apply.
 
 ####  <a id="decl-clamp"></a>clamp  : float
@@ -110,7 +110,7 @@ The max level of detail to use.
 This parameter is currently only used when targeting HLSL.
 For other targets, the result status is always 0.
 
-####  <a id="decl-s"></a>s  : [SamplerState](../samplerstate-07/index)
+####  <a id="decl-s"></a>s  : [SamplerState](../samplerstate-07/index.html)
 The <span class='code'><a href="../samplerstate-07/index.html" class="code_type">SamplerState</a></span> to use for the sampling operation. This parameter is omitted when <span class='code'>this</span> is a combined texture sampler type (<span class='code'><a href="index.html#decl-isCombined" class="code_var">isCombined</a>==0</span>).
 
 

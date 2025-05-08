@@ -19,7 +19,7 @@ Divides one value of the conforming type by another.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IArithmetic](index)\.This
+####  <a id="decl-other"></a>other  : [IArithmetic](index.html)\.This
 The value by which to divide <span class='code'>this</span>.
 
 

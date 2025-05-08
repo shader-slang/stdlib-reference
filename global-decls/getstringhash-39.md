@@ -20,5 +20,5 @@ Given a string returns an integer hash of that string.
 
 ## Parameters
 
-####  <a id="decl-string"></a>string  : [String](../types/string-0/index)
+####  <a id="decl-string"></a>string  : [String](../types/string-0/index.html)
 

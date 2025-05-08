@@ -27,21 +27,21 @@ Reflect incident vector across plane with given normal.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-i"></a>i  : [T](reflect#typeparam-T)
+####  <a id="decl-i"></a>i  : [T](reflect.html#typeparam-T)
 The incident vector.
 
-####  <a id="decl-n"></a>n  : [T](reflect#typeparam-T)
+####  <a id="decl-n"></a>n  : [T](reflect.html#typeparam-T)
 The normal vector.
 
-####  <a id="decl-i"></a>i  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-i"></a>i  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The incident vector.
 
-####  <a id="decl-n"></a>n  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-n"></a>n  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The normal vector.
 
 

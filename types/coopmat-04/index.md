@@ -4,15 +4,15 @@ layout: stdlib-reference
 
 # struct CoopMat\<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse\>
 
-*Conforms to:* [IArray](../../interfaces/iarray-01/index)\<[T](../../interfaces/iarray-01/index#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index)
+*Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
-####  <a id="decl-S"></a>S  : [CoopMatScope](../coopmatscope-047/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="decl-S"></a>S  : [CoopMatScope](../coopmatscope-047/index.html)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-N"></a>N  : int
-####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../coopmatmatrixuse-047d/index)
+####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../coopmatmatrixuse-047d/index.html)
 
 ## Methods
 

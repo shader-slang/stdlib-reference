@@ -27,5 +27,5 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-typeId"></a>typeId  : uint
-####  <a id="decl-value"></a>value  : [U](createdynamicobject-6d#typeparam-U)
+####  <a id="decl-value"></a>value  : [U](createdynamicobject-6d.html#typeparam-U)
 

@@ -21,5 +21,5 @@ Mark a type for export to slang-torch.
 
 ## Parameters
 
-####  <a id="decl-name"></a>name  : [String](../types/string-0/index)
+####  <a id="decl-name"></a>name  : [String](../types/string-0/index.html)
 

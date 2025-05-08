@@ -20,7 +20,7 @@ Appends a new element to the buffer.
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](index#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](index.html#typeparam-T)
 The element to be appended to the buffer.
 
 

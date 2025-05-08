@@ -26,10 +26,10 @@ This function computes the absolute differences of the byte alignments of the re
 ####  <a id="decl-reference"></a>reference  : uint
 The reference 4 bytes packed in a uint.
 
-####  <a id="decl-source"></a>source  : [vector](../types/vector/index)\<uint, 2\>
+####  <a id="decl-source"></a>source  : [vector](../types/vector/index.html)\<uint, 2\>
 The source 2 uints packed in a uint2.
 
-####  <a id="decl-accum"></a>accum  : [vector](../types/vector/index)\<uint, 4\>
+####  <a id="decl-accum"></a>accum  : [vector](../types/vector/index.html)\<uint, 4\>
 The accumulated differences.
 
 

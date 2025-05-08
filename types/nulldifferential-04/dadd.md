@@ -21,6 +21,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_7"></a>SLANG\_anonymous\_7  : [NullDifferential](index)
-####  <a id="decl-SLANG_anonymous_8"></a>SLANG\_anonymous\_8  : [NullDifferential](index)
+####  <a id="decl-SLANG_anonymous_7"></a>SLANG\_anonymous\_7  : [NullDifferential](index.html)
+####  <a id="decl-SLANG_anonymous_8"></a>SLANG\_anonymous\_8  : [NullDifferential](index.html)
 

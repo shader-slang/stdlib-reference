@@ -30,19 +30,19 @@ This operation is only available when targeting SPIR-V.
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-L"></a>L  : int
 
 ## Parameters
 
-####  <a id="decl-data"></a>data  : [U](loadany-4#typeparam-U) \[ [M](loadany-4#decl-M) \]
+####  <a id="decl-data"></a>data  : [U](loadany-4.html#typeparam-U) \[ [M](loadany-4.html#decl-M) \]
 The source groupshared array to load from. The element type U can be different from the CoopVec element type T.
 
 ####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 The byte offset from the start of the array. Must be 16-byte aligned.
 
-####  <a id="decl-data"></a>data  : [vector](../vector/index)\<U, L\> \[ M \]
+####  <a id="decl-data"></a>data  : [vector](../vector/index.html)\<U, L\> \[ M \]
 The source groupshared array to load from. The element type U can be different from the CoopVec element type T.
 
 

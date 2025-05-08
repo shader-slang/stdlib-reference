@@ -35,37 +35,37 @@ Smooth step (Hermite interpolation).
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-min"></a>min  : [T](smoothstep#typeparam-T)
+####  <a id="decl-min"></a>min  : [T](smoothstep.html#typeparam-T)
 The lower edge of the interpolation range.
 
-####  <a id="decl-max"></a>max  : [T](smoothstep#typeparam-T)
+####  <a id="decl-max"></a>max  : [T](smoothstep.html#typeparam-T)
 The upper edge of the interpolation range.
 
-####  <a id="decl-x"></a>x  : [T](smoothstep#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](smoothstep.html#typeparam-T)
 The value to interpolate.
 
-####  <a id="decl-min"></a>min  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-min"></a>min  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The lower edge of the interpolation range.
 
-####  <a id="decl-max"></a>max  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-max"></a>max  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The upper edge of the interpolation range.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to interpolate.
 
-####  <a id="decl-min"></a>min  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-min"></a>min  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The lower edge of the interpolation range.
 
-####  <a id="decl-max"></a>max  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-max"></a>max  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The upper edge of the interpolation range.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The value to interpolate.
 
 

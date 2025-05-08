@@ -37,8 +37,8 @@ t.SampleBiasClamp(sampler, coords, lodBias, lodClamp);
 ## Parameters
 
 ####  <a id="decl-granularity"></a>granularity  : uint
-####  <a id="decl-sampler"></a>sampler  : [SamplerState](../samplerstate-07/index)
-####  <a id="decl-coords"></a>coords  : [vector](../vector/index)\<float, Shape\.dimensions\>
+####  <a id="decl-sampler"></a>sampler  : [SamplerState](../samplerstate-07/index.html)
+####  <a id="decl-coords"></a>coords  : [vector](../vector/index.html)\<float, Shape\.dimensions\>
 ####  <a id="decl-lodBias"></a>lodBias  : float
 ####  <a id="decl-lodClamp"></a>lodClamp  : float
 

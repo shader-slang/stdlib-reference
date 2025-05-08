@@ -24,11 +24,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-RawEdgeFactors"></a>RawEdgeFactors  : [vector](../types/vector/index)\<float, 4\>
+####  <a id="decl-RawEdgeFactors"></a>RawEdgeFactors  : [vector](../types/vector/index.html)\<float, 4\>
 ####  <a id="decl-InsideScale"></a>InsideScale  : float
-####  <a id="decl-RoundedEdgeTessFactors"></a>RoundedEdgeTessFactors  : [vector](../types/vector/index)\<float, 4\>
-####  <a id="decl-RoundedInsideTessFactors"></a>RoundedInsideTessFactors  : [vector](../types/vector/index)\<float, 2\>
-####  <a id="decl-UnroundedInsideTessFactors"></a>UnroundedInsideTessFactors  : [vector](../types/vector/index)\<float, 2\>
+####  <a id="decl-RoundedEdgeTessFactors"></a>RoundedEdgeTessFactors  : [vector](../types/vector/index.html)\<float, 4\>
+####  <a id="decl-RoundedInsideTessFactors"></a>RoundedInsideTessFactors  : [vector](../types/vector/index.html)\<float, 2\>
+####  <a id="decl-UnroundedInsideTessFactors"></a>UnroundedInsideTessFactors  : [vector](../types/vector/index.html)\<float, 2\>
 
 ## Availability and Requirements
 

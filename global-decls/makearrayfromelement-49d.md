@@ -24,5 +24,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-element"></a>element  : [T](makearrayfromelement-49d#typeparam-T)
+####  <a id="decl-element"></a>element  : [T](makearrayfromelement-49d.html#typeparam-T)
 

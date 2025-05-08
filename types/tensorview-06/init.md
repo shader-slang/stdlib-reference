@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [TorchTensor](../torchtensor-05/index)\<[T](../torchtensor-05/index#typeparam-T)\>
+####  <a id="decl-t"></a>t  : [TorchTensor](../torchtensor-05/index.html)\<[T](../torchtensor-05/index.html#typeparam-T)\>
 

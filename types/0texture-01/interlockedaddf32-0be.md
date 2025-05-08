@@ -42,7 +42,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-coord"></a>coord  : [vector](../vector/index)\<uint, Shape\.dimensions\>
+####  <a id="decl-coord"></a>coord  : [vector](../vector/index.html)\<uint, Shape\.dimensions\>
 ####  <a id="decl-value"></a>value  : float
 ####  <a id="decl-originalValue"></a>originalValue  : float
 

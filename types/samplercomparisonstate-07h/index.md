@@ -13,8 +13,8 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
-####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a) : [DescriptorAccess](../descriptoraccess-0a/index) = [DescriptorAccess](../descriptoraccess-0a/index)\.[Unknown](../descriptoraccess-0a/index#decl-Unknown)
-####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[Sampler](../descriptorkind-0a/index#decl-Sampler)
+####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a.html) : [DescriptorAccess](../descriptoraccess-0a/index.html) = [DescriptorAccess](../descriptoraccess-0a/index.html)\.[Unknown](../descriptoraccess-0a/index.html#decl-Unknown)
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Sampler](../descriptorkind-0a/index.html#decl-Sampler)
 
 ## Methods
 

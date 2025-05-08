@@ -28,9 +28,9 @@ shader is invoked.
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
-####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](index)
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](invoke-0#typeparam-payload_t)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
+####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](index.html)
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](invoke-0.html#typeparam-payload_t)
 
 ## Availability and Requirements
 

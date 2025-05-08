@@ -22,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-a"></a>a  : [DifferentialPair](index)\<[T](index#typeparam-T)\.[Differential](differential-0)\>
-####  <a id="decl-b"></a>b  : [DifferentialPair](index)\<[T](index#typeparam-T)\.[Differential](differential-0)\>
+####  <a id="decl-a"></a>a  : [DifferentialPair](index.html)\<[T](index.html#typeparam-T)\.[Differential](differential-0.html)\>
+####  <a id="decl-b"></a>b  : [DifferentialPair](index.html)\<[T](index.html#typeparam-T)\.[Differential](differential-0.html)\>
 

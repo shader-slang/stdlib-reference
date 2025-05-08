@@ -27,15 +27,15 @@ Cross product. Returns the cross product of two 3D vectors.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
 
 ## Parameters
 
-####  <a id="decl-left"></a>left  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), 3\>
+####  <a id="decl-left"></a>left  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), 3\>
 The first vector.
 
-####  <a id="decl-right"></a>right  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), 3\>
+####  <a id="decl-right"></a>right  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), 3\>
 The second vector.
 
 

@@ -56,7 +56,7 @@ layout: stdlib-reference
 ####  <a id="decl-i2"></a>i2  : uint
 ####  <a id="decl-i3"></a>i3  : uint
 ####  <a id="decl-i4"></a>i4  : uint
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, [N](../vector/index#decl-N)\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 
 ## Availability and Requirements
 

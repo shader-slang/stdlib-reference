@@ -26,23 +26,23 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
-####  <a id="typeparam-V"></a>V: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
-####  <a id="decl-S"></a>S  : [CoopMatScope](../types/coopmatscope-047/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="typeparam-V"></a>V: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="decl-S"></a>S  : [CoopMatScope](../types/coopmatscope-047/index.html)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-K"></a>K  : int
 ####  <a id="decl-N"></a>N  : int
-####  <a id="decl-RA"></a>RA  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index)
-####  <a id="decl-RB"></a>RB  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index)
-####  <a id="decl-RC"></a>RC  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index)
+####  <a id="decl-RA"></a>RA  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index.html)
+####  <a id="decl-RB"></a>RB  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index.html)
+####  <a id="decl-RC"></a>RC  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index.html)
 
 ## Parameters
 
-####  <a id="decl-matA"></a>matA  : [CoopMat](../types/coopmat-04/index)\<[T](../types/coopmat-04/index#typeparam-T), [S](../types/coopmat-04/index#decl-S), [M](../types/coopmat-04/index#decl-M), K, RA\>
-####  <a id="decl-matB"></a>matB  : [CoopMat](../types/coopmat-04/index)\<U, [S](../types/coopmat-04/index#decl-S), K, [N](../types/coopmat-04/index#decl-N), RB\>
-####  <a id="decl-matC"></a>matC  : [CoopMat](../types/coopmat-04/index)\<V, [S](../types/coopmat-04/index#decl-S), [M](../types/coopmat-04/index#decl-M), [N](../types/coopmat-04/index#decl-N), RC\>
-####  <a id="decl-operands"></a>operands  : [CoopMatMatrixOperands](../types/coopmatmatrixoperands-047d/index)
+####  <a id="decl-matA"></a>matA  : [CoopMat](../types/coopmat-04/index.html)\<[T](../types/coopmat-04/index.html#typeparam-T), [S](../types/coopmat-04/index.html#decl-S), [M](../types/coopmat-04/index.html#decl-M), K, RA\>
+####  <a id="decl-matB"></a>matB  : [CoopMat](../types/coopmat-04/index.html)\<U, [S](../types/coopmat-04/index.html#decl-S), K, [N](../types/coopmat-04/index.html#decl-N), RB\>
+####  <a id="decl-matC"></a>matC  : [CoopMat](../types/coopmat-04/index.html)\<V, [S](../types/coopmat-04/index.html#decl-S), [M](../types/coopmat-04/index.html#decl-M), [N](../types/coopmat-04/index.html#decl-N), RC\>
+####  <a id="decl-operands"></a>operands  : [CoopMatMatrixOperands](../types/coopmatmatrixoperands-047d/index.html)
 
 ## Availability and Requirements
 

@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct StructuredBuffer\<T, L\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IArray](../../interfaces/iarray-01/index)\<[T](../../interfaces/iarray-01/index#typeparam-T)\>
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>
 
 ## Description
 
@@ -16,14 +16,14 @@ A structured buffer can be viewed as an array of the specified element type.
 ####  <a id="typeparam-T"></a>T
 The element type of the buffer.
 
-####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index) = [DefaultDataLayout](../defaultdatalayout-07b/index)
+####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index.html) = [DefaultDataLayout](../defaultdatalayout-07b/index.html)
 The memory layout of the buffer.
 
 
 ## Fields
 
-####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a) : [DescriptorAccess](../descriptoraccess-0a/index) = [DescriptorAccess](../descriptoraccess-0a/index)\.[Read](../descriptoraccess-0a/index#decl-Read)
-####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[Buffer](../descriptorkind-0a/index#decl-Buffer)
+####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a.html) : [DescriptorAccess](../descriptoraccess-0a/index.html) = [DescriptorAccess](../descriptoraccess-0a/index.html)\.[Read](../descriptoraccess-0a/index.html#decl-Read)
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Buffer](../descriptorkind-0a/index.html#decl-Buffer)
 
 ## Methods
 
@@ -38,11 +38,11 @@ The memory layout of the buffer.
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `StructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
-  * [L](index#typeparam-L) : [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index)
+  * [L](index.html#typeparam-L) : [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index.html)
 ### Conformance to IArray\<T\>
 `StructuredBuffer<T, L>` additionally conforms to `IArray\<T\>` when the following conditions are met:
 
-  * [L](index#typeparam-L) : [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index)
+  * [L](index.html#typeparam-L) : [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index.html)
 ## Remarks
 
 

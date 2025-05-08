@@ -20,7 +20,7 @@ Performs component-wise remainder operation between two cooperative vectors.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [CoopVec](index)\<[T](index#typeparam-T), [N](index#decl-N)\>
+####  <a id="decl-other"></a>other  : [CoopVec](index.html)\<[T](index.html#typeparam-T), [N](index.html#decl-N)\>
 The cooperative vector to compute the remainder with.
 
 

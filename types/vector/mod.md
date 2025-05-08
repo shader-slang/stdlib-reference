@@ -23,5 +23,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [vector](index)\<[T](index#typeparam-T), [N](index#decl-N)\>
+####  <a id="decl-other"></a>other  : [vector](index.html)\<[T](index.html#typeparam-T), [N](index.html#decl-N)\>
 

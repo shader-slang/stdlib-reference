@@ -25,7 +25,7 @@ to the alignment of <span class='code'>uint4</span>, which is 16.
 ####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of 16.
 
-####  <a id="decl-value"></a>value  : [vector](../vector/index)\<uint, 4\>
+####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<uint, 4\>
 Four input values.
 
 

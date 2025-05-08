@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct \_\_Shape2D
 
-*Conforms to:* [\_\_ITextureShape1D2D3D](../../interfaces/0_itextureshape1d2d3d-023agik/index)
+*Conforms to:* [\_\_ITextureShape1D2D3D](../../interfaces/0_itextureshape1d2d3d-023agik/index.html)
 
 ## Description
 
@@ -13,9 +13,9 @@ When used as the <span class='code'>Shape</span> parameter of the <span class='c
 
 ## Fields
 
-####  <a id="decl-dimensions"></a>[dimensions](dimensions) : int = 2
-####  <a id="decl-flavor"></a>[flavor](flavor) : int = 2
-####  <a id="decl-planeDimensions"></a>[planeDimensions](planedimensions-5) : int = 2
+####  <a id="decl-dimensions"></a>[dimensions](dimensions.html) : int = 2
+####  <a id="decl-flavor"></a>[flavor](flavor.html) : int = 2
+####  <a id="decl-planeDimensions"></a>[planeDimensions](planedimensions-5.html) : int = 2
 
 
 <!-- RTD-TOC-START

@@ -35,6 +35,6 @@ t.Sample(sampler, coords);
 ## Parameters
 
 ####  <a id="decl-granularity"></a>granularity  : uint
-####  <a id="decl-sampler"></a>sampler  : [SamplerState](../samplerstate-07/index)
-####  <a id="decl-coords"></a>coords  : [vector](../vector/index)\<float, Shape\.dimensions\>
+####  <a id="decl-sampler"></a>sampler  : [SamplerState](../samplerstate-07/index.html)
+####  <a id="decl-coords"></a>coords  : [vector](../vector/index.html)\<float, Shape\.dimensions\>
 

@@ -82,12 +82,12 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, isArray + Shape\.dimensions\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, isArray + Shape\.dimensions\>
 ####  <a id="decl-bias"></a>bias  : float
-####  <a id="decl-offset"></a>offset  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset"></a>offset  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
 ####  <a id="decl-clamp"></a>clamp  : float
 ####  <a id="decl-status"></a>status  : uint
-####  <a id="decl-s"></a>s  : [SamplerState](../samplerstate-07/index)
+####  <a id="decl-s"></a>s  : [SamplerState](../samplerstate-07/index.html)
 
 ## Availability and Requirements
 

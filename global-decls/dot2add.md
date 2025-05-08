@@ -24,8 +24,8 @@ May not produce infinities or NaNs for intermediate results that overflow the ra
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<half, 2\>
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<half, 2\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<half, 2\>
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<half, 2\>
 ####  <a id="decl-acc"></a>acc  : float
 
 ## Availability and Requirements

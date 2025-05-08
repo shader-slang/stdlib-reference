@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IDifferentiableMutatingFunc\<TR, each TP\>
 
-*Inherits from:* [IMutatingFunc](../imutatingfunc-019/index)\<[TR](../imutatingfunc-019/index#typeparam-TR), [TP](../imutatingfunc-019/index#typeparam-TP)\>
+*Inherits from:* [IMutatingFunc](../imutatingfunc-019/index.html)\<[TR](../imutatingfunc-019/index.html#typeparam-TR), [TP](../imutatingfunc-019/index.html#typeparam-TP)\>
 
 ## Description
 
@@ -14,8 +14,8 @@ The function allows to modify the state of the object it belongs to and supports
 
 ## Generic Parameters
 
-####  <a id="typeparam-TR"></a>TR: [IDifferentiable](../idifferentiable-01/index)
-####  <a id="typeparam-TP"></a>TP: [IDifferentiable](../idifferentiable-01/index)
+####  <a id="typeparam-TR"></a>TR: [IDifferentiable](../idifferentiable-01/index.html)
+####  <a id="typeparam-TP"></a>TP: [IDifferentiable](../idifferentiable-01/index.html)
 
 ## Methods
 

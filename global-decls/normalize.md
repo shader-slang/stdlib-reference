@@ -23,15 +23,15 @@ Normalize a vector.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The vector to normalize.
 
-####  <a id="decl-x"></a>x  : [T](normalize#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](normalize.html#typeparam-T)
 The vector to normalize.
 
 

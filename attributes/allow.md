@@ -12,5 +12,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-diagnostic"></a>diagnostic  : [String](../types/string-0/index)
+####  <a id="decl-diagnostic"></a>diagnostic  : [String](../types/string-0/index.html)
 

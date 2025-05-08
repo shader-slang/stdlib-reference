@@ -20,7 +20,7 @@ Performs component-wise division with another cooperative vector.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [CoopVec](index)\<[T](index#typeparam-T), [N](index#decl-N)\>
+####  <a id="decl-other"></a>other  : [CoopVec](index.html)\<[T](index.html#typeparam-T), [N](index.html#decl-N)\>
 The cooperative vector to divide this vector by.
 
 

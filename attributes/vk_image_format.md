@@ -17,7 +17,7 @@ This is an alias of the <span class='code'>[<a href="vk_image_format.html#decl-f
 
 ## Parameters
 
-####  <a id="decl-format"></a>format  : [String](../types/string-0/index)
+####  <a id="decl-format"></a>format  : [String](../types/string-0/index.html)
 The storage format of the texture.
 
 

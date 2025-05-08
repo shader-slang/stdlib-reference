@@ -20,5 +20,5 @@ the marked type.
 ## Parameters
 
 ####  <a id="decl-target"></a>target
-####  <a id="decl-prelude"></a>prelude  : [String](../types/string-0/index)
+####  <a id="decl-prelude"></a>prelude  : [String](../types/string-0/index.html)
 

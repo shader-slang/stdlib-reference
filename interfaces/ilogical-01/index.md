@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface ILogical
 
-*Inherits from:* [IComparable](../icomparable-01/index)
+*Inherits from:* [IComparable](../icomparable-01/index.html)
 
 ## Description
 

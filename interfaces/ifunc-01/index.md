@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IFunc\<TR, each TP\>
 
-*Inherits from:* [IMutatingFunc](../imutatingfunc-019/index)\<[TR](../imutatingfunc-019/index#typeparam-TR), [TP](../imutatingfunc-019/index#typeparam-TP)\>
+*Inherits from:* [IMutatingFunc](../imutatingfunc-019/index.html)\<[TR](../imutatingfunc-019/index.html#typeparam-TR), [TP](../imutatingfunc-019/index.html#typeparam-TP)\>
 
 ## Description
 

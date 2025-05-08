@@ -28,13 +28,13 @@ Load a element from the buffer at the specified location.
 
 ## Generic Parameters
 
-####  <a id="typeparam-TIndex"></a>TIndex: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-TIndex"></a>TIndex: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index.html)
 Type of the index.
 
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [TIndex](load-0#typeparam-TIndex)
+####  <a id="decl-location"></a>location  : [TIndex](load-0.html#typeparam-TIndex)
 The index of buffer.
 
 ####  <a id="decl-status"></a>status  : uint

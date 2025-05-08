@@ -41,27 +41,27 @@ Accumulate the result from a matrix multiplication between an input Cooperative 
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-K"></a>K  : int
 
 ## Parameters
 
-####  <a id="decl-input"></a>input  : [CoopVec](index)\<U, K\>
+####  <a id="decl-input"></a>input  : [CoopVec](index.html)\<U, K\>
 The input Cooperative vector to multiply with the matrix.
 
-####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
+####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index.html)
 Specifies how to interpret the values in the input vector (e.g. as 8-bit integers, 16-bit floats, etc).
 
-####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
 The matrix to multiply with the input vector.
 
 ####  <a id="decl-matrixOffset"></a>matrixOffset  : int
 Byte offset into the matrix buffer.
 
-####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
+####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index.html)
 Specifies how to interpret the values in the matrix (e.g. as 8-bit integers, 16-bit floats, etc).
 
-####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../coopvecmatrixlayout-047d/index)
+####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../coopvecmatrixlayout-047d/index.html)
 Specifies the memory layout of the matrix (row-major or column-major).
 
 ####  <a id="decl-transpose"></a>transpose  : bool
@@ -70,7 +70,7 @@ Whether to transpose the matrix before multiplication.
 ####  <a id="decl-matrixStride"></a>matrixStride  : uint
 The stride in bytes between rows/columns of the matrix.
 
-####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../byteaddressbuffer-04b/index)
+####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../byteaddressbuffer-04b/index.html)
 The matrix to multiply with the input vector.
 
 

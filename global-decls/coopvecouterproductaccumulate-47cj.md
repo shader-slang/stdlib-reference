@@ -51,22 +51,22 @@ Accumulate the outer product of two cooperative vectors into a matrix.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="typeparam-IgnoredBufferElementType"></a>IgnoredBufferElementType
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-IgnoredBufferSize"></a>IgnoredBufferSize  : int
 
 ## Parameters
 
-####  <a id="decl-a"></a>a  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), M\>
+####  <a id="decl-a"></a>a  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), M\>
 The first cooperative vector.
 
-####  <a id="decl-b"></a>b  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
+####  <a id="decl-b"></a>b  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), [N](../types/coopvec-04/index.html#decl-N)\>
 The second cooperative vector.
 
-####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index.html)
 The matrix buffer to accumulate the result into.
 
 ####  <a id="decl-matrixOffset"></a>matrixOffset  : int
@@ -75,16 +75,16 @@ Byte offset into the matrix buffer.
 ####  <a id="decl-matrixStride"></a>matrixStride  : uint
 The stride between matrix rows/columns in bytes.
 
-####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../types/coopvecmatrixlayout-047d/index)
+####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../types/coopvecmatrixlayout-047d/index.html)
 Specifies the memory layout of the matrix (row-major or column-major).
 
-####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index)
+####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index.html)
 Specifies how to interpret the values in the matrix.
 
-####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
+####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The matrix buffer to accumulate the result into.
 
-####  <a id="decl-matrix"></a>matrix  : [U](coopvecouterproductaccumulate-47cj#typeparam-U) \[ [IgnoredBufferSize](coopvecouterproductaccumulate-47cj#decl-IgnoredBufferSize) \]
+####  <a id="decl-matrix"></a>matrix  : [U](coopvecouterproductaccumulate-47cj.html#typeparam-U) \[ [IgnoredBufferSize](coopvecouterproductaccumulate-47cj.html#decl-IgnoredBufferSize) \]
 The matrix buffer to accumulate the result into.
 
 

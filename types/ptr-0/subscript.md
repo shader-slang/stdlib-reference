@@ -21,9 +21,9 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-TInt"></a>TInt: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-TInt"></a>TInt: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index.html)
 
 ## Parameters
 
-####  <a id="decl-index"></a>index  : [TInt](subscript#typeparam-TInt)
+####  <a id="decl-index"></a>index  : [TInt](subscript.html#typeparam-TInt)
 

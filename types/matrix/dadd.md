@@ -22,6 +22,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-a"></a>a  : [matrix](index)\<[T](t-0), [N](index#decl-N), [M](index#decl-M)\>
-####  <a id="decl-b"></a>b  : [matrix](index)\<[T](t-0), [N](index#decl-N), [M](index#decl-M)\>
+####  <a id="decl-a"></a>a  : [matrix](index.html)\<[T](t-0.html), [N](index.html#decl-N), [M](index.html#decl-M)\>
+####  <a id="decl-b"></a>b  : [matrix](index.html)\<[T](t-0.html), [N](index.html#decl-N), [M](index.html#decl-M)\>
 

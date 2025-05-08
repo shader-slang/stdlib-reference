@@ -27,6 +27,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-a"></a>a  : [U](dmul#typeparam-U)
-####  <a id="decl-b"></a>b  : [vector](index)\<[T](index#typeparam-T), [N](index#decl-N)\>
+####  <a id="decl-a"></a>a  : [U](dmul.html#typeparam-U)
+####  <a id="decl-b"></a>b  : [vector](index.html)\<[T](index.html#typeparam-T), [N](index.html#decl-N)\>
 

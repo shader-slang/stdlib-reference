@@ -20,5 +20,5 @@ Returns true if two values of the conforming type are equal.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IComparable](index)\.This
+####  <a id="decl-other"></a>other  : [IComparable](index.html)\.This
 

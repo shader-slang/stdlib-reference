@@ -47,36 +47,36 @@ Performs matrix multiplication and accumulation with bias: this += input * matri
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-K"></a>K  : int
 
 ## Parameters
 
-####  <a id="decl-input"></a>input  : [CoopVec](index)\<U, K\>
+####  <a id="decl-input"></a>input  : [CoopVec](index.html)\<U, K\>
 The input vector to multiply with the matrix
 
-####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
+####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index.html)
 How to interpret the input vector elements (must not be packed)
 
-####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
 The matrix buffer to multiply with
 
 ####  <a id="decl-matrixOffset"></a>matrixOffset  : int
 Byte offset into the matrix buffer
 
-####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
+####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index.html)
 How to interpret the matrix elements
 
-####  <a id="decl-bias"></a>bias  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-bias"></a>bias  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
 The bias buffer to add
 
 ####  <a id="decl-biasOffset"></a>biasOffset  : int
 Byte offset into the bias buffer
 
-####  <a id="decl-biasInterpretation"></a>biasInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index)
+####  <a id="decl-biasInterpretation"></a>biasInterpretation  : [CoopVecComponentType](../coopveccomponenttype-047g/index.html)
 How to interpret the bias elements
 
-####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../coopvecmatrixlayout-047d/index)
+####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../coopvecmatrixlayout-047d/index.html)
 Memory layout of the matrix (row or column major)
 
 ####  <a id="decl-transpose"></a>transpose  : bool
@@ -85,10 +85,10 @@ Whether to transpose the matrix before multiplication
 ####  <a id="decl-matrixStride"></a>matrixStride  : uint
 Stride between matrix rows/columns in bytes
 
-####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../byteaddressbuffer-04b/index)
+####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../byteaddressbuffer-04b/index.html)
 The matrix buffer to multiply with
 
-####  <a id="decl-bias"></a>bias  : [ByteAddressBuffer](../byteaddressbuffer-04b/index)
+####  <a id="decl-bias"></a>bias  : [ByteAddressBuffer](../byteaddressbuffer-04b/index.html)
 The bias buffer to add
 
 

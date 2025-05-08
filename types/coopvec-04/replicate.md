@@ -20,7 +20,7 @@ Creates a new cooperative vector with all elements initialized to the specified 
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [T](index#typeparam-T)
+####  <a id="decl-t"></a>t  : [T](index.html#typeparam-T)
 The scalar value to replicate across all elements.
 
 

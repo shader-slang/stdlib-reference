@@ -4,11 +4,11 @@ layout: stdlib-reference
 
 # struct AtomicAdd
 
-*Conforms to:* [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index)
+*Conforms to:* [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index.html)
 
 ## Fields
 
-####  <a id="decl-diff"></a>[diff](diff) : [TensorView](../tensorview-06/index)\<float\>
+####  <a id="decl-diff"></a>[diff](diff.html) : [TensorView](../tensorview-06/index.html)\<float\>
 
 ## Methods
 

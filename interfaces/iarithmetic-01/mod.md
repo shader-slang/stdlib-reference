@@ -19,7 +19,7 @@ Computes the remainder of division of one value of the conforming type by anothe
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IArithmetic](index)\.This
+####  <a id="decl-other"></a>other  : [IArithmetic](index.html)\.This
 The divisor used to divide <span class='code'>this</span>.
 
 

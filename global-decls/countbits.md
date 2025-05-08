@@ -24,15 +24,15 @@ Counts the number of set bits in the binary representation of a value.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](countbits#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](countbits.html#typeparam-T)
 The value to count bits in.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to count bits in.
 
 

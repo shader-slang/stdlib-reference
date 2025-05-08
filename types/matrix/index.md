@@ -4,9 +4,9 @@ layout: stdlib-reference
 
 # struct matrix\<T, R:int, C:int, L:int\>
 
-*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index)\<[vector](../vector/index)\<[T](../vector/index#typeparam-T), C \>\>
+*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), C \>\>
 
-*Conditionally conforms to:* [IFloat](../../interfaces/ifloat-01/index), [IDifferentiable](../../interfaces/idifferentiable-01/index)
+*Conditionally conforms to:* [IFloat](../../interfaces/ifloat-01/index.html), [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## Description
 
@@ -44,11 +44,11 @@ A matrix with <span class='code'><a href="index.html#decl-R" class="code_var">R<
 ### Conformance to IFloat
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](t-0) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index)
+  * [T](t-0.html) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IDifferentiable
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](t-0) : [IDifferentiable](../../interfaces/idifferentiable-01/index)
+  * [T](t-0.html) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 <!-- RTD-TOC-START
 ```{toctree}

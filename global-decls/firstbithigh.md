@@ -32,13 +32,13 @@ Find first set bit starting at high bit and working down.
 ####  <a id="decl-value"></a>value  : int
 The value to find set bits in.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<int, [N](../types/vector/index#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<int, [N](../types/vector/index.html#decl-N)\>
 The value to find set bits in.
 
 ####  <a id="decl-value"></a>value  : uint
 The value to find set bits in.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint, [N](../types/vector/index#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<uint, [N](../types/vector/index.html#decl-N)\>
 The value to find set bits in.
 
 

@@ -37,7 +37,7 @@ layout: stdlib-reference
 ####  <a id="decl-val"></a>val  : uint64\_t
 ####  <a id="decl-val"></a>val  : float
 ####  <a id="decl-val"></a>val  : double
-####  <a id="decl-value"></a>value  : [NativeString](../nativestring-06/index)
+####  <a id="decl-value"></a>value  : [NativeString](../nativestring-06/index.html)
 
 ## Availability and Requirements
 

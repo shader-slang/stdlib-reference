@@ -23,5 +23,5 @@ Initialize from the same type.
 ## Parameters
 
 ####  <a id="decl-val"></a>val  : int
-####  <a id="decl-value"></a>value  : [IArithmetic](index)\.This
+####  <a id="decl-value"></a>value  : [IArithmetic](index.html)\.This
 

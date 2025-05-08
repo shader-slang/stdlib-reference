@@ -48,14 +48,14 @@ Reinterpret bits as a float16 (HLSL SM 6.2).
 ## Parameters
 
 ####  <a id="decl-value"></a>value  : half
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<half, [N](../types/vector/index#decl-N)\>
-####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index)\<half, [R](../types/matrix/index#decl-R), [C](../types/matrix/index#decl-C)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<half, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index.html)\<half, [R](../types/matrix/index.html#decl-R), [C](../types/matrix/index.html#decl-C)\>
 ####  <a id="decl-value"></a>value  : uint16\_t
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint16\_t, [N](../types/vector/index#decl-N)\>
-####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index)\<uint16\_t, [R](../types/matrix/index#decl-R), [C](../types/matrix/index#decl-C)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<uint16\_t, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index.html)\<uint16\_t, [R](../types/matrix/index.html#decl-R), [C](../types/matrix/index.html#decl-C)\>
 ####  <a id="decl-value"></a>value  : int16\_t
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<int16\_t, [N](../types/vector/index#decl-N)\>
-####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index)\<int16\_t, [R](../types/matrix/index#decl-R), [C](../types/matrix/index#decl-C)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<int16\_t, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index.html)\<int16\_t, [R](../types/matrix/index.html#decl-R), [C](../types/matrix/index.html#decl-C)\>
 
 ## Availability and Requirements
 

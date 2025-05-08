@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-obj"></a>obj  : [IDifferentiable](../interfaces/idifferentiable-01/index)
+####  <a id="decl-obj"></a>obj  : [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 

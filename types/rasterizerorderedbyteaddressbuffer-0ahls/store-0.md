@@ -42,7 +42,7 @@ The input address in bytes, which must be a multiple of 4.
 ####  <a id="decl-value"></a>value  : uint
 The input value.
 
-####  <a id="decl-value"></a>value  : [T](store-0#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](store-0.html#typeparam-T)
 The input value.
 
 ####  <a id="decl-alignment"></a>alignment  : uint

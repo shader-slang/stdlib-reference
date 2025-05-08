@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface \_\_ITextureShape1D2D3D
 
-*Inherits from:* [\_\_ITextureShape](../0_itextureshape-023a/index)
+*Inherits from:* [\_\_ITextureShape](../0_itextureshape-023a/index.html)
 
 > #### Internal Feature
 > The feature described in this page is marked as an internal implementation detail, and is not intended for use by end-users.

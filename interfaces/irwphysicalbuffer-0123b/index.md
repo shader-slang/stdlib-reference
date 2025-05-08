@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IRWPhysicalBuffer
 
-*Inherits from:* [IPhysicalBuffer](../iphysicalbuffer-019/index)
+*Inherits from:* [IPhysicalBuffer](../iphysicalbuffer-019/index.html)
 
 ## Methods
 

@@ -20,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [matrix](index)\<[T](t-0), [N](index#decl-N), [M](index#decl-M)\>
+####  <a id="decl-other"></a>other  : [matrix](index.html)\<[T](t-0.html), [N](index.html#decl-N), [M](index.html#decl-M)\>
 

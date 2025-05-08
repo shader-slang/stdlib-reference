@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct DescriptorHandle\<T\>
 
-*Conforms to:* [IComparable](../../interfaces/icomparable-01/index)
+*Conforms to:* [IComparable](../../interfaces/icomparable-01/index.html)
 
 ## Description
 
@@ -13,7 +13,7 @@ declared in any memory location.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../../interfaces/iopaquedescriptor-017/index)
+####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../../interfaces/iopaquedescriptor-017/index.html)
 
 ## Methods
 

@@ -26,5 +26,5 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-offset"></a>offset  : int
-####  <a id="decl-element"></a>element  : [T](storebyteoffset-059#typeparam-T)
+####  <a id="decl-element"></a>element  : [T](storebyteoffset-059.html#typeparam-T)
 

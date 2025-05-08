@@ -56,7 +56,7 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-x"></a>x  : uint
-####  <a id="decl-val"></a>val  : [T](index#typeparam-T)
+####  <a id="decl-val"></a>val  : [T](index.html#typeparam-T)
 ####  <a id="decl-y"></a>y  : uint
 ####  <a id="decl-z"></a>z  : uint
 ####  <a id="decl-w"></a>w  : uint
@@ -65,7 +65,7 @@ layout: stdlib-reference
 ####  <a id="decl-i2"></a>i2  : uint
 ####  <a id="decl-i3"></a>i3  : uint
 ####  <a id="decl-i4"></a>i4  : uint
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, [N](../vector/index#decl-N)\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 
 ## Availability and Requirements
 

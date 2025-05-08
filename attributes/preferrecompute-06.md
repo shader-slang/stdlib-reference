@@ -18,5 +18,5 @@ during backward derivative propagation.
 
 ## Parameters
 
-####  <a id="decl-behavior"></a>behavior  : [SideEffectBehavior](../types/sideeffectbehavior-04a/index) = [SideEffectBehavior](../types/sideeffectbehavior-04a/index)\.[Warn](../types/sideeffectbehavior-04a/index#decl-Warn)
+####  <a id="decl-behavior"></a>behavior  : [SideEffectBehavior](../types/sideeffectbehavior-04a/index.html) = [SideEffectBehavior](../types/sideeffectbehavior-04a/index.html)\.[Warn](../types/sideeffectbehavior-04a/index.html#decl-Warn)
 

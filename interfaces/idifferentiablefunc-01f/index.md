@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IDifferentiableFunc\<TR, each TP\>
 
-*Inherits from:* [IFunc](../ifunc-01/index)\<[TR](../ifunc-01/index#typeparam-TR), [TP](../ifunc-01/index#typeparam-TP)\>, [IDifferentiableMutatingFunc](../idifferentiablemutatingfunc-01fn/index)\<[TR](../idifferentiablemutatingfunc-01fn/index#typeparam-TR), [TP](../idifferentiablemutatingfunc-01fn/index#typeparam-TP)\>
+*Inherits from:* [IFunc](../ifunc-01/index.html)\<[TR](../ifunc-01/index.html#typeparam-TR), [TP](../ifunc-01/index.html#typeparam-TP)\>, [IDifferentiableMutatingFunc](../idifferentiablemutatingfunc-01fn/index.html)\<[TR](../idifferentiablemutatingfunc-01fn/index.html#typeparam-TR), [TP](../idifferentiablemutatingfunc-01fn/index.html#typeparam-TP)\>
 
 ## Description
 
@@ -14,8 +14,8 @@ This interface inherits from both <span class='code'><a href="../ifunc-01/index.
 
 ## Generic Parameters
 
-####  <a id="typeparam-TR"></a>TR: [IDifferentiable](../idifferentiable-01/index)
-####  <a id="typeparam-TP"></a>TP: [IDifferentiable](../idifferentiable-01/index)
+####  <a id="typeparam-TR"></a>TR: [IDifferentiable](../idifferentiable-01/index.html)
+####  <a id="typeparam-TP"></a>TP: [IDifferentiable](../idifferentiable-01/index.html)
 
 ## Methods
 

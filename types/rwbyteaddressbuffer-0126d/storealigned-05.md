@@ -31,7 +31,7 @@ The type of the input value.
 ####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of size of <span class='code'><a href="storealigned-05.html#typeparam-T" class="code_type">T</a></span>.
 
-####  <a id="decl-value"></a>value  : [T](storealigned-05#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](storealigned-05.html#typeparam-T)
 The input value.
 
 

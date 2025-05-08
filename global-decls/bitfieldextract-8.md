@@ -28,7 +28,7 @@ returns it in the least significant bits of the result. The range of bits extrac
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](bitfieldextract-8#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](bitfieldextract-8.html#typeparam-T)
 ####  <a id="decl-offset"></a>offset  : uint
 ####  <a id="decl-bits"></a>bits  : uint
 

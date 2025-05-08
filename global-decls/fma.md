@@ -45,46 +45,46 @@ Fused multiply-add.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-a"></a>a  : [T](fma#typeparam-T)
+####  <a id="decl-a"></a>a  : [T](fma.html#typeparam-T)
 The first value to multiply.
 
-####  <a id="decl-b"></a>b  : [T](fma#typeparam-T)
+####  <a id="decl-b"></a>b  : [T](fma.html#typeparam-T)
 The second value to multiply.
 
-####  <a id="decl-c"></a>c  : [T](fma#typeparam-T)
+####  <a id="decl-c"></a>c  : [T](fma.html#typeparam-T)
 The value to add to the product of <span class='code'><a href="fma.html#decl-a" class="code_param">a</a></span> and <span class='code'><a href="fma.html#decl-b" class="code_param">b</a></span>.
 
-####  <a id="decl-a"></a>a  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-a"></a>a  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The first value to multiply.
 
-####  <a id="decl-b"></a>b  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-b"></a>b  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The second value to multiply.
 
-####  <a id="decl-c"></a>c  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-c"></a>c  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to add to the product of <span class='code'><a href="fma.html#decl-a" class="code_param">a</a></span> and <span class='code'><a href="fma.html#decl-b" class="code_param">b</a></span>.
 
-####  <a id="decl-a"></a>a  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-a"></a>a  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The first value to multiply.
 
-####  <a id="decl-b"></a>b  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-b"></a>b  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The second value to multiply.
 
-####  <a id="decl-c"></a>c  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-c"></a>c  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The value to add to the product of <span class='code'><a href="fma.html#decl-a" class="code_param">a</a></span> and <span class='code'><a href="fma.html#decl-b" class="code_param">b</a></span>.
 
-####  <a id="decl-a"></a>a  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
+####  <a id="decl-a"></a>a  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), [N](../types/coopvec-04/index.html#decl-N)\>
 The first value to multiply.
 
-####  <a id="decl-b"></a>b  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
+####  <a id="decl-b"></a>b  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), [N](../types/coopvec-04/index.html#decl-N)\>
 The second value to multiply.
 
-####  <a id="decl-c"></a>c  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
+####  <a id="decl-c"></a>c  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), [N](../types/coopvec-04/index.html#decl-N)\>
 The value to add to the product of <span class='code'><a href="fma.html#decl-a" class="code_param">a</a></span> and <span class='code'><a href="fma.html#decl-b" class="code_param">b</a></span>.
 
 

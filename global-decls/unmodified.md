@@ -23,5 +23,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_6"></a>SLANG\_anonymous\_6  : [T](unmodified#typeparam-T)
+####  <a id="decl-SLANG_anonymous_6"></a>SLANG\_anonymous\_6  : [T](unmodified.html#typeparam-T)
 

@@ -25,7 +25,7 @@ layout: stdlib-reference
 
 ####  <a id="decl-address"></a>address  : uint64\_t
 ####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[RaytracingAccelerationStructure](index)\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index.html)\<[RaytracingAccelerationStructure](index.html)\>
 
 ## Availability and Requirements
 

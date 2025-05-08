@@ -55,11 +55,11 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-index"></a>index  : uint
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, 2\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, 2\>
 ####  <a id="decl-x"></a>x  : uint
 ####  <a id="decl-y"></a>y  : uint
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, 3\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, 3\>
 ####  <a id="decl-z"></a>z  : uint
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, 4\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, 4\>
 ####  <a id="decl-w"></a>w  : uint
 

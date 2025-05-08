@@ -169,15 +169,15 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-s"></a>s  : [SamplerComparisonState](../samplercomparisonstate-07h/index)
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, isArray + Shape\.dimensions\>
-####  <a id="decl-compareValue"></a>compareValue  : [T](index#typeparam-T)\.Element
+####  <a id="decl-s"></a>s  : [SamplerComparisonState](../samplercomparisonstate-07h/index.html)
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, isArray + Shape\.dimensions\>
+####  <a id="decl-compareValue"></a>compareValue  : [T](index.html#typeparam-T)\.Element
 ####  <a id="decl-status"></a>status  : uint
-####  <a id="decl-offset"></a>offset  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
-####  <a id="decl-offset1"></a>offset1  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
-####  <a id="decl-offset2"></a>offset2  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
-####  <a id="decl-offset3"></a>offset3  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
-####  <a id="decl-offset4"></a>offset4  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset"></a>offset  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset1"></a>offset1  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset2"></a>offset2  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset3"></a>offset3  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset4"></a>offset4  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
 
 ## Availability and Requirements
 

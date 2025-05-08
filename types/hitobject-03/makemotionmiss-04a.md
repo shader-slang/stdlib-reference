@@ -25,7 +25,7 @@ Currently only supported on VK
 ## Parameters
 
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
 ####  <a id="decl-CurrentTime"></a>CurrentTime  : float
 
 ## Availability and Requirements

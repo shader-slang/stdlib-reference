@@ -27,6 +27,6 @@ Return a tuple containing the values of both input tuples in order
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [Tuple](../types/tuple-0/index)\<[T](../types/tuple-0/index#typeparam-T)\>
-####  <a id="decl-u"></a>u  : [Tuple](../types/tuple-0/index)\<U\>
+####  <a id="decl-t"></a>t  : [Tuple](../types/tuple-0/index.html)\<[T](../types/tuple-0/index.html#typeparam-T)\>
+####  <a id="decl-u"></a>u  : [Tuple](../types/tuple-0/index.html)\<U\>
 

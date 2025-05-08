@@ -69,30 +69,30 @@ Multiply a cooperative vector with a matrix.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-K"></a>K  : int
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="typeparam-IgnoredBufferElementType"></a>IgnoredBufferElementType
 
 ## Parameters
 
-####  <a id="decl-input"></a>input  : [CoopVec](../types/coopvec-04/index)\<U, K\>
+####  <a id="decl-input"></a>input  : [CoopVec](../types/coopvec-04/index.html)\<U, K\>
 The input cooperative vector to multiply with the matrix.
 
-####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index)
+####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index.html)
 Specifies how to interpret the values in the input vector (e.g. as 8-bit integers, 16-bit floats, etc).
 
-####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index.html)
 The matrix to multiply with the input vector.
 
 ####  <a id="decl-matrixOffset"></a>matrixOffset  : int
 Byte offset into the matrix buffer.
 
-####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index)
+####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index.html)
 Specifies how to interpret the values in the matrix (e.g. as 8-bit integers, 16-bit floats, etc).
 
-####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../types/coopvecmatrixlayout-047d/index)
+####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../types/coopvecmatrixlayout-047d/index.html)
 Specifies the memory layout of the matrix (row-major or column-major).
 
 ####  <a id="decl-transpose"></a>transpose  : bool
@@ -101,13 +101,13 @@ Whether to transpose the matrix before multiplication.
 ####  <a id="decl-matrixStride"></a>matrixStride  : uint
 The stride in bytes between rows/columns of the matrix.
 
-####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index)
+####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index.html)
 The matrix to multiply with the input vector.
 
-####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
+####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The matrix to multiply with the input vector.
 
-####  <a id="decl-matrix"></a>matrix  : [StructuredBuffer](../types/structuredbuffer-0a/index)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
+####  <a id="decl-matrix"></a>matrix  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The matrix to multiply with the input vector.
 
 

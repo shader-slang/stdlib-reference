@@ -23,15 +23,15 @@ Arc hyperbolic sine. Returns the arc hyperbolic sine of the specified value.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](asinh#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](asinh.html#typeparam-T)
 The hyperbolic sine value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The hyperbolic sine value.
 
 

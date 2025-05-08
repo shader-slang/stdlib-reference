@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct Tuple\<each T\>
 
-*Conditionally conforms to:* [IComparable](../../interfaces/icomparable-01/index), [IDifferentiable](../../interfaces/idifferentiable-01/index)
+*Conditionally conforms to:* [IComparable](../../interfaces/icomparable-01/index.html), [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## Description
 
@@ -41,11 +41,11 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 ### Conformance to IComparable
 `Tuple<each T>` additionally conforms to `IComparable` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [IComparable](../../interfaces/icomparable-01/index)
+  * [T](index.html#typeparam-T) : [IComparable](../../interfaces/icomparable-01/index.html)
 ### Conformance to IDifferentiable
 `Tuple<each T>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index)
+  * [T](index.html#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 <!-- RTD-TOC-START
 ```{toctree}

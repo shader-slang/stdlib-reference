@@ -41,10 +41,10 @@ Addr&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt;.<a href="ini
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : Addr\<[U](init#typeparam-U)\>
+####  <a id="decl-ptr"></a>ptr  : Addr\<[U](init.html#typeparam-U)\>
 ####  <a id="decl-val"></a>val  : uint64\_t
 ####  <a id="decl-val"></a>val  : int64\_t
-####  <a id="decl-nativeStr"></a>nativeStr  : [NativeString](../nativestring-06/index)
-####  <a id="decl-ptr"></a>ptr  : Addr\<[T](init#typeparam-T)\>
-####  <a id="decl-ptr"></a>ptr  : NativeRef\<[T](init#typeparam-T)\>
+####  <a id="decl-nativeStr"></a>nativeStr  : [NativeString](../nativestring-06/index.html)
+####  <a id="decl-ptr"></a>ptr  : Addr\<[T](init.html#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : NativeRef\<[T](init.html#typeparam-T)\>
 

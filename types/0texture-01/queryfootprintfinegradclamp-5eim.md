@@ -38,9 +38,9 @@ t.SampleGradClamp(sampler, coords, dx, dy, lodClamp);
 ## Parameters
 
 ####  <a id="decl-granularity"></a>granularity  : uint
-####  <a id="decl-sampler"></a>sampler  : [SamplerState](../samplerstate-07/index)
-####  <a id="decl-coords"></a>coords  : [vector](../vector/index)\<float, Shape\.dimensions\>
-####  <a id="decl-dx"></a>dx  : [vector](../vector/index)\<float, Shape\.dimensions\>
-####  <a id="decl-dy"></a>dy  : [vector](../vector/index)\<float, Shape\.dimensions\>
+####  <a id="decl-sampler"></a>sampler  : [SamplerState](../samplerstate-07/index.html)
+####  <a id="decl-coords"></a>coords  : [vector](../vector/index.html)\<float, Shape\.dimensions\>
+####  <a id="decl-dx"></a>dx  : [vector](../vector/index.html)\<float, Shape\.dimensions\>
+####  <a id="decl-dy"></a>dy  : [vector](../vector/index.html)\<float, Shape\.dimensions\>
 ####  <a id="decl-lodClamp"></a>lodClamp  : float
 

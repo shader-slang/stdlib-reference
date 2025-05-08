@@ -27,6 +27,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-primal"></a>primal  : [TensorView](../tensorview-06/index)\<[T](../tensorview-06/index#typeparam-T)\>
-####  <a id="decl-diff"></a>diff  : [A](index#typeparam-A)
+####  <a id="decl-primal"></a>primal  : [TensorView](../tensorview-06/index.html)\<[T](../tensorview-06/index.html#typeparam-T)\>
+####  <a id="decl-diff"></a>diff  : [A](index.html#typeparam-A)
 

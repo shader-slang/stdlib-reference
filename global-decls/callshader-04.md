@@ -28,7 +28,7 @@ Executes a callable shader with the specified payload.
 ####  <a id="decl-shaderIndex"></a>shaderIndex  : uint
 Index of the callable shader to execute
 
-####  <a id="decl-payload"></a>payload  : [Payload](callshader-04#typeparam-Payload)
+####  <a id="decl-payload"></a>payload  : [Payload](callshader-04.html#typeparam-Payload)
 Data structure to pass to and receive from the callable shader
 
 

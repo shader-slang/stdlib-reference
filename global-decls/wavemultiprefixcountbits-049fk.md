@@ -22,7 +22,7 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-value"></a>value  : bool
-####  <a id="decl-mask"></a>mask  : [vector](../types/vector/index)\<uint, 4\>
+####  <a id="decl-mask"></a>mask  : [vector](../types/vector/index.html)\<uint, 4\>
 
 ## Availability and Requirements
 

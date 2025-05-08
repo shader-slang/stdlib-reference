@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [ITexelElement](index)\.This\.Element
+####  <a id="decl-x"></a>x  : [ITexelElement](index.html)\.This\.Element
 

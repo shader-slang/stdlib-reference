@@ -31,13 +31,13 @@ Perform a 64-bit integer atomic compare-and-exchange operation at <span class='c
 ####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic compare-and-exchange operation.
 
-####  <a id="decl-compareValue"></a>compareValue  : [T](interlockedcompareexchange64-0bi#typeparam-T)
+####  <a id="decl-compareValue"></a>compareValue  : [T](interlockedcompareexchange64-0bi.html#typeparam-T)
 The value to compare to the value at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
-####  <a id="decl-value"></a>value  : [T](interlockedcompareexchange64-0bi#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedcompareexchange64-0bi.html#typeparam-T)
 The value to store at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span> if the comparison is successful.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedcompareexchange64-0bi#typeparam-T)
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedcompareexchange64-0bi.html#typeparam-T)
 The original value at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 
 

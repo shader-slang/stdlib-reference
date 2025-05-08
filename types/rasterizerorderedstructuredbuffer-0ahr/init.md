@@ -26,5 +26,5 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[RasterizerOrderedStructuredBuffer](index)\<[T](index#typeparam-T), [L](index#typeparam-L) \>\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index.html)\<[RasterizerOrderedStructuredBuffer](index.html)\<[T](index.html#typeparam-T), [L](index.html#typeparam-L) \>\>
 

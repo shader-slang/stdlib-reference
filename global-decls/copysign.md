@@ -27,21 +27,21 @@ Copy-sign. Returns a value whose magnitude is from one operand and whose sign is
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to use as the magnitude.
 
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to use as the sign.
 
-####  <a id="decl-x"></a>x  : [T](copysign#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](copysign.html#typeparam-T)
 The value to use as the magnitude.
 
-####  <a id="decl-y"></a>y  : [T](copysign#typeparam-T)
+####  <a id="decl-y"></a>y  : [T](copysign.html#typeparam-T)
 The value to use as the sign.
 
 

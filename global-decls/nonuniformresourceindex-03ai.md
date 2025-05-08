@@ -24,13 +24,13 @@ divergent, and ensure scalarization happens correctly for each divergent lane.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="typeparam-T"></a>T
 
 ## Parameters
 
-####  <a id="decl-index"></a>index  : [T](nonuniformresourceindex-03ai#typeparam-T)
-####  <a id="decl-value"></a>value  : [T](nonuniformresourceindex-03ai#typeparam-T)
+####  <a id="decl-index"></a>index  : [T](nonuniformresourceindex-03ai.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](nonuniformresourceindex-03ai.html#typeparam-T)
 
 ## Availability and Requirements
 

@@ -29,10 +29,10 @@ The alignment of the store operation.
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index)\<[T](../types/ptr-0/index#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T)\>
 The pointer to store value to.
 
-####  <a id="decl-value"></a>value  : [T](storealigned-5#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](storealigned-5.html#typeparam-T)
 The value to store.
 
 

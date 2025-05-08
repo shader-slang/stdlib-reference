@@ -19,7 +19,7 @@ Subtracts one value of the conforming type from another.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IArithmetic](index)\.This
+####  <a id="decl-other"></a>other  : [IArithmetic](index.html)\.This
 The value to subtract from <span class='code'>this</span>.
 
 

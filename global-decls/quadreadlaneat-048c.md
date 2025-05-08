@@ -38,10 +38,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-sourceValue"></a>sourceValue  : [T](quadreadlaneat-048c#typeparam-T)
+####  <a id="decl-sourceValue"></a>sourceValue  : [T](quadreadlaneat-048c.html#typeparam-T)
 ####  <a id="decl-quadLaneID"></a>quadLaneID  : uint
-####  <a id="decl-sourceValue"></a>sourceValue  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-sourceValue"></a>sourceValue  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-sourceValue"></a>sourceValue  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-sourceValue"></a>sourceValue  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 

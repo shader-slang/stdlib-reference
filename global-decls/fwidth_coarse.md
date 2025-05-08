@@ -30,17 +30,17 @@ Calculates the sum abs(ddx_coarse(<span class='code'><a href="fwidth_coarse.html
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-p"></a>p  : [T](fwidth_coarse#typeparam-T)
+####  <a id="decl-p"></a>p  : [T](fwidth_coarse.html#typeparam-T)
 The value to sum x and y partial derivative magnitudes for.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Return value
 The sum of abs(ddx_coarse(<span class='code'><a href="fwidth_coarse.html#decl-p" class="code_param">p</a></span>)) and abs(ddy_coarse(<span class='code'><a href="fwidth_coarse.html#decl-p" class="code_param">p</a></span>)).

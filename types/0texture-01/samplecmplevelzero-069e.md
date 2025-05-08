@@ -80,11 +80,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, isArray + Shape\.dimensions\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, isArray + Shape\.dimensions\>
 ####  <a id="decl-compareValue"></a>compareValue  : float
-####  <a id="decl-offset"></a>offset  : [vector](../vector/index)\<int, Shape\.planeDimensions\>
+####  <a id="decl-offset"></a>offset  : [vector](../vector/index.html)\<int, Shape\.planeDimensions\>
 ####  <a id="decl-status"></a>status  : uint
-####  <a id="decl-s"></a>s  : [SamplerComparisonState](../samplercomparisonstate-07h/index)
+####  <a id="decl-s"></a>s  : [SamplerComparisonState](../samplercomparisonstate-07h/index.html)
 
 ## Availability and Requirements
 

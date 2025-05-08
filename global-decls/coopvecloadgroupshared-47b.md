@@ -23,12 +23,12 @@ layout: stdlib-reference
 ## Generic Parameters
 
 ####  <a id="decl-N"></a>N  : int
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-data"></a>data  : [T](coopvecloadgroupshared-47b#typeparam-T) \[ [M](coopvecloadgroupshared-47b#decl-M) \]
+####  <a id="decl-data"></a>data  : [T](coopvecloadgroupshared-47b.html#typeparam-T) \[ [M](coopvecloadgroupshared-47b.html#decl-M) \]
 ####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 
 ## Availability and Requirements

@@ -97,7 +97,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<uint, isArray + Shape\.dimensions\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<uint, isArray + Shape\.dimensions\>
 ####  <a id="decl-sampleIndex"></a>sampleIndex  : int
 ####  <a id="decl-index"></a>index  : uint
 

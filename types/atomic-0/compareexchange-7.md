@@ -34,8 +34,8 @@ If the comparison value is equal to the stored value, then the
 
 ## Parameters
 
-####  <a id="decl-compareValue"></a>compareValue  : [T](index#typeparam-T)
-####  <a id="decl-newValue"></a>newValue  : [T](index#typeparam-T)
-####  <a id="decl-successOrder"></a>successOrder  : [MemoryOrder](../memoryorder-06/index) = [MemoryOrder](../memoryorder-06/index)\.[Relaxed](../memoryorder-06/index#decl-Relaxed)
-####  <a id="decl-failOrder"></a>failOrder  : [MemoryOrder](../memoryorder-06/index) = [MemoryOrder](../memoryorder-06/index)\.[Relaxed](../memoryorder-06/index#decl-Relaxed)
+####  <a id="decl-compareValue"></a>compareValue  : [T](index.html#typeparam-T)
+####  <a id="decl-newValue"></a>newValue  : [T](index.html#typeparam-T)
+####  <a id="decl-successOrder"></a>successOrder  : [MemoryOrder](../memoryorder-06/index.html) = [MemoryOrder](../memoryorder-06/index.html)\.[Relaxed](../memoryorder-06/index.html#decl-Relaxed)
+####  <a id="decl-failOrder"></a>failOrder  : [MemoryOrder](../memoryorder-06/index.html) = [MemoryOrder](../memoryorder-06/index.html)\.[Relaxed](../memoryorder-06/index.html#decl-Relaxed)
 

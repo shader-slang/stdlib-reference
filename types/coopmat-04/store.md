@@ -49,13 +49,13 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
 ####  <a id="decl-element"></a>element  : uint
 ####  <a id="decl-stride"></a>stride  : uint
-####  <a id="decl-matrixLayout"></a>matrixLayout  : [CoopMatMatrixLayout](../coopmatmatrixlayout-047d/index)
-####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index)\<[T](../rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index)\>
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index)\<[T](../ptr-0/index#typeparam-T)\>
-####  <a id="decl-data"></a>data  : [T](index#typeparam-T) \[ U \]
+####  <a id="decl-matrixLayout"></a>matrixLayout  : [CoopMatMatrixLayout](../coopmatmatrixlayout-047d/index.html)
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T)\>
+####  <a id="decl-data"></a>data  : [T](index.html#typeparam-T) \[ U \]
 
 ## Availability and Requirements
 

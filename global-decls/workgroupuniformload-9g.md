@@ -23,7 +23,7 @@ Mark a variable as being workgroup uniform.
 
 ## Parameters
 
-####  <a id="decl-v"></a>v  : [T](workgroupuniformload-9g#typeparam-T)
+####  <a id="decl-v"></a>v  : [T](workgroupuniformload-9g.html#typeparam-T)
 The variable to mark as workgroup uniform.
 
 

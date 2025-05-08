@@ -21,10 +21,10 @@ This documentation is provided for reference purposes only.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [ITexelElement](../../interfaces/itexelelement-016/index)
+####  <a id="typeparam-T"></a>T: [ITexelElement](../../interfaces/itexelelement-016/index.html)
 The element type of the texture. Must be a scalar or vector type.
 
-####  <a id="typeparam-Shape"></a>Shape: [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index)
+####  <a id="typeparam-Shape"></a>Shape: [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)
 The shape of the texture. Must be one of <span class='code'><a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a></span>, <span class='code'><a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a></span>, <span class='code'><a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a></span>, <span class='code'><a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a></span>.
 
 ####  <a id="decl-isArray"></a>isArray  : int
@@ -51,8 +51,8 @@ The storage format of the texture. Users should specify the format using an <spa
 
 ## Fields
 
-####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a) : [DescriptorAccess](../descriptoraccess-0a/index) = access
-####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) =\.\.\.
+####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a.html) : [DescriptorAccess](../descriptoraccess-0a/index.html) = access
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) =\.\.\.
 
 ## Methods
 
@@ -106,8 +106,8 @@ The storage format of the texture. Users should specify the format using an <spa
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `_Texture<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index)
-  * [Shape](index#typeparam-Shape) : [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index)
+  * [T](index.html#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
+  * [Shape](index.html#typeparam-Shape) : [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)
 ## Remarks
 
 

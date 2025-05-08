@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint, 4\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<uint, 4\>
 
 ## Availability and Requirements
 

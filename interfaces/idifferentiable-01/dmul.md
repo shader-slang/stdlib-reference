@@ -27,8 +27,8 @@ Multiplies a scalar value of a built-in real type with a differential value and 
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_2"></a>SLANG\_anonymous\_2  : [T](dmul#typeparam-T)
-####  <a id="decl-SLANG_anonymous_3"></a>SLANG\_anonymous\_3  : [IDifferentiable](index)\.This\.Differential
+####  <a id="decl-SLANG_anonymous_2"></a>SLANG\_anonymous\_2  : [T](dmul.html#typeparam-T)
+####  <a id="decl-SLANG_anonymous_3"></a>SLANG\_anonymous\_3  : [IDifferentiable](index.html)\.This\.Differential
 Multiplies a scalar value of a built-in real type with a differential value and returns the result.
 
 

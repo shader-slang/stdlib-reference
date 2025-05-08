@@ -25,7 +25,7 @@ This can be used to silence the warning about returning before initializing an o
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_5"></a>SLANG\_anonymous\_5  : [T](unused#typeparam-T)
+####  <a id="decl-SLANG_anonymous_5"></a>SLANG\_anonymous\_5  : [T](unused.html#typeparam-T)
 Use an otherwise unused value
 This can be used to silence the warning about returning before initializing an out paramter.
 

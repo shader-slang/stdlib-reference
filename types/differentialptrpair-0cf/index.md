@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct DifferentialPtrPair\<T\>
 
-*Conforms to:* [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
+*Conforms to:* [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 > #### Experimental Feature
 > The feature described in this page is marked as experimental, and may be subject to change in future releases.
@@ -28,13 +28,13 @@ struct DifferentialPtrPair<T : IDifferentiablePtrType> : IDifferentiablePtrType
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 ## m_currentPage->path
 
-####  <a id="decl-d"></a>[d](d)
-####  <a id="decl-p"></a>[p](p)
-####  <a id="decl-v"></a>[v](v)
+####  <a id="decl-d"></a>[d](d.html)
+####  <a id="decl-p"></a>[p](p.html)
+####  <a id="decl-v"></a>[v](v.html)
 
 ## Methods
 

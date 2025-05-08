@@ -19,7 +19,7 @@ Multiplies two values of the conforming type.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IArithmetic](index)\.This
+####  <a id="decl-other"></a>other  : [IArithmetic](index.html)\.This
 The value to multiply with <span class='code'>this</span>.
 
 

@@ -29,7 +29,7 @@ Set four values to the buffer at the specified location.
 ####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of 4.
 
-####  <a id="decl-value"></a>value  : [vector](../vector/index)\<uint, 4\>
+####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<uint, 4\>
 Four input values.
 
 ####  <a id="decl-alignment"></a>alignment  : uint

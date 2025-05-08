@@ -36,7 +36,7 @@ Calculate both the sine and cosine of <span class='code'><a href="sincos.html#de
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-L1"></a>L1  : int
@@ -44,31 +44,31 @@ Calculate both the sine and cosine of <span class='code'><a href="sincos.html#de
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](sincos#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](sincos.html#typeparam-T)
 The angle in radians.
 
-####  <a id="decl-s"></a>s  : [T](sincos#typeparam-T)
+####  <a id="decl-s"></a>s  : [T](sincos.html#typeparam-T)
 \[out\] The sine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-c"></a>c  : [T](sincos#typeparam-T)
+####  <a id="decl-c"></a>c  : [T](sincos.html#typeparam-T)
 \[out\] The cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The angle in radians.
 
-####  <a id="decl-s"></a>s  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-s"></a>s  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 \[out\] The sine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-c"></a>c  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-c"></a>c  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 \[out\] The cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The angle in radians.
 
-####  <a id="decl-s"></a>s  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-s"></a>s  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 \[out\] The sine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
 
-####  <a id="decl-c"></a>c  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-c"></a>c  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 \[out\] The cosine of <span class='code'><a href="sincos.html#decl-x" class="code_param">x</a></span>.
 
 

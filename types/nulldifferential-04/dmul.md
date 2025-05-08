@@ -26,6 +26,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_9"></a>SLANG\_anonymous\_9  : [T](dmul#typeparam-T)
-####  <a id="decl-SLANG_anonymous_10"></a>SLANG\_anonymous\_10  : [NullDifferential](index)
+####  <a id="decl-SLANG_anonymous_9"></a>SLANG\_anonymous\_9  : [T](dmul.html#typeparam-T)
+####  <a id="decl-SLANG_anonymous_10"></a>SLANG\_anonymous\_10  : [NullDifferential](index.html)
 

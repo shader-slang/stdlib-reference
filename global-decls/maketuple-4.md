@@ -24,5 +24,5 @@ Construct a tuple from several values in order
 
 ## Parameters
 
-####  <a id="decl-v"></a>v  : [T](maketuple-4#typeparam-T)
+####  <a id="decl-v"></a>v  : [T](maketuple-4.html#typeparam-T)
 

@@ -59,24 +59,24 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
-####  <a id="decl-S"></a>S  : [CoopMatScope](../types/coopmatscope-047/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="decl-S"></a>S  : [CoopMatScope](../types/coopmatscope-047/index.html)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-N"></a>N  : int
-####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index)
+####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../types/coopmatmatrixuse-047d/index.html)
 ####  <a id="decl-U"></a>U  : int
 
 ## Parameters
 
-####  <a id="decl-buffer"></a>buffer  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index)
+####  <a id="decl-buffer"></a>buffer  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index.html)
 ####  <a id="decl-element"></a>element  : uint
 ####  <a id="decl-stride"></a>stride  : uint
-####  <a id="decl-matrixLayout"></a>matrixLayout  : [CoopMatMatrixLayout](../types/coopmatmatrixlayout-047d/index)
-####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
-####  <a id="decl-buffer"></a>buffer  : [StructuredBuffer](../types/structuredbuffer-0a/index)\<[T](../types/structuredbuffer-0a/index#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
-####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<[T](../types/rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index)\<[T](../types/ptr-0/index#typeparam-T)\>
-####  <a id="decl-data"></a>data  : [T](coopmatload-47#typeparam-T) \[ [U](coopmatload-47#decl-U) \]
+####  <a id="decl-matrixLayout"></a>matrixLayout  : [CoopMatMatrixLayout](../types/coopmatmatrixlayout-047d/index.html)
+####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index.html)
+####  <a id="decl-buffer"></a>buffer  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<[T](../types/structuredbuffer-0a/index.html#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<[T](../types/rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T)\>
+####  <a id="decl-data"></a>data  : [T](coopmatload-47.html#typeparam-T) \[ [U](coopmatload-47.html#decl-U) \]
 
 ## Availability and Requirements
 

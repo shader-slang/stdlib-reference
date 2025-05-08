@@ -155,29 +155,29 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index.html)
 ####  <a id="decl-L"></a>L  : int
-####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../../interfaces/iopaquedescriptor-017/index)
+####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../../interfaces/iopaquedescriptor-017/index.html)
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](init#typeparam-T)
-####  <a id="decl-value"></a>value  : [vector](index)\<[T](index#typeparam-T), [N](index#decl-N)\>
+####  <a id="decl-value"></a>value  : [T](init.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [vector](index.html)\<[T](index.html#typeparam-T), [N](index.html#decl-N)\>
 ####  <a id="decl-v"></a>v  : int
 ####  <a id="decl-v"></a>v  : int64\_t
-####  <a id="decl-other"></a>other  : [vector](index)\<U, [N](index#decl-N)\>
+####  <a id="decl-other"></a>other  : [vector](index.html)\<U, [N](index.html#decl-N)\>
 ####  <a id="decl-v"></a>v  : float
-####  <a id="decl-value"></a>value  : [matrix](../matrix/index)\<[T](../matrix/t-0), 2, 2\>
-####  <a id="decl-x"></a>x  : [T](init#typeparam-T)
-####  <a id="decl-y"></a>y  : [T](init#typeparam-T)
-####  <a id="decl-z"></a>z  : [T](init#typeparam-T)
-####  <a id="decl-xy"></a>xy  : [vector](index)\<[T](index#typeparam-T), 2\>
-####  <a id="decl-yz"></a>yz  : [vector](index)\<[T](index#typeparam-T), 2\>
-####  <a id="decl-w"></a>w  : [T](init#typeparam-T)
-####  <a id="decl-zw"></a>zw  : [vector](index)\<[T](index#typeparam-T), 2\>
-####  <a id="decl-xyz"></a>xyz  : [vector](index)\<[T](index#typeparam-T), 3\>
-####  <a id="decl-yzw"></a>yzw  : [vector](index)\<[T](index#typeparam-T), 3\>
+####  <a id="decl-value"></a>value  : [matrix](../matrix/index.html)\<[T](../matrix/t-0.html), 2, 2\>
+####  <a id="decl-x"></a>x  : [T](init.html#typeparam-T)
+####  <a id="decl-y"></a>y  : [T](init.html#typeparam-T)
+####  <a id="decl-z"></a>z  : [T](init.html#typeparam-T)
+####  <a id="decl-xy"></a>xy  : [vector](index.html)\<[T](index.html#typeparam-T), 2\>
+####  <a id="decl-yz"></a>yz  : [vector](index.html)\<[T](index.html#typeparam-T), 2\>
+####  <a id="decl-w"></a>w  : [T](init.html#typeparam-T)
+####  <a id="decl-zw"></a>zw  : [vector](index.html)\<[T](index.html#typeparam-T), 2\>
+####  <a id="decl-xyz"></a>xyz  : [vector](index.html)\<[T](index.html#typeparam-T), 3\>
+####  <a id="decl-yzw"></a>yzw  : [vector](index.html)\<[T](index.html#typeparam-T), 3\>
 ####  <a id="decl-x"></a>x  : half
 ####  <a id="decl-x"></a>x  : float
 ####  <a id="decl-x"></a>x  : int
@@ -189,7 +189,7 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 ####  <a id="decl-x"></a>x  : double
 ####  <a id="decl-x"></a>x  : uint64\_t
 ####  <a id="decl-x"></a>x  : int64\_t
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[T](../descriptorhandle-0a/index#typeparam-T)\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index.html)\<[T](../descriptorhandle-0a/index.html#typeparam-T)\>
 
 ## Availability and Requirements
 

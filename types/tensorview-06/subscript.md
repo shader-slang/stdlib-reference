@@ -50,10 +50,10 @@ layout: stdlib-reference
 ####  <a id="decl-index"></a>index  : uint
 ####  <a id="decl-i1"></a>i1  : uint
 ####  <a id="decl-i2"></a>i2  : uint
-####  <a id="decl-i"></a>i  : [vector](../vector/index)\<uint, 2\>
+####  <a id="decl-i"></a>i  : [vector](../vector/index.html)\<uint, 2\>
 ####  <a id="decl-i3"></a>i3  : uint
-####  <a id="decl-i"></a>i  : [vector](../vector/index)\<uint, 3\>
+####  <a id="decl-i"></a>i  : [vector](../vector/index.html)\<uint, 3\>
 ####  <a id="decl-i4"></a>i4  : uint
-####  <a id="decl-i"></a>i  : [vector](../vector/index)\<uint, 4\>
+####  <a id="decl-i"></a>i  : [vector](../vector/index.html)\<uint, 4\>
 ####  <a id="decl-i5"></a>i5  : uint
 

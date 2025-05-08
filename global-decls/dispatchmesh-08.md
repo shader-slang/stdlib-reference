@@ -31,7 +31,7 @@ and provide the values for per-mesh payload parameters.
 ####  <a id="decl-threadGroupCountX"></a>threadGroupCountX  : uint
 ####  <a id="decl-threadGroupCountY"></a>threadGroupCountY  : uint
 ####  <a id="decl-threadGroupCountZ"></a>threadGroupCountZ  : uint
-####  <a id="decl-meshPayload"></a>meshPayload  : [P](dispatchmesh-08#typeparam-P)
+####  <a id="decl-meshPayload"></a>meshPayload  : [P](dispatchmesh-08.html#typeparam-P)
 
 ## Return value
 This function doesn't return.

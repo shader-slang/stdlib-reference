@@ -38,9 +38,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, Shape\.dimensions\>
-####  <a id="decl-s"></a>s  : [SamplerState](../samplerstate-07/index)
-####  <a id="decl-s"></a>s  : [SamplerComparisonState](../samplercomparisonstate-07h/index)
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, Shape\.dimensions\>
+####  <a id="decl-s"></a>s  : [SamplerState](../samplerstate-07/index.html)
+####  <a id="decl-s"></a>s  : [SamplerComparisonState](../samplercomparisonstate-07h/index.html)
 
 ## Availability and Requirements
 

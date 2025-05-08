@@ -21,5 +21,5 @@ Mark a function as imported from a DLL. Valid only on CPU host targets.
 
 ## Parameters
 
-####  <a id="decl-modulePath"></a>modulePath  : [String](../types/string-0/index)
+####  <a id="decl-modulePath"></a>modulePath  : [String](../types/string-0/index.html)
 

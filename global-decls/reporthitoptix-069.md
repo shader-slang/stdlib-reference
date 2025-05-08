@@ -23,7 +23,7 @@ Reports a hit optimized for OptiX.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
 
 ## Parameters
 
@@ -33,7 +33,7 @@ Distance along the ray where the intersection occurred
 ####  <a id="decl-hitKind"></a>hitKind  : uint
 User-defined value identifying the type of hit
 
-####  <a id="decl-attribs"></a>attribs  : [T](reporthitoptix-069#typeparam-T)
+####  <a id="decl-attribs"></a>attribs  : [T](reporthitoptix-069.html#typeparam-T)
 Attribute values for the intersection
 
 

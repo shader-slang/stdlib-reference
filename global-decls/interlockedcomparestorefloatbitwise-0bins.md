@@ -23,19 +23,19 @@ Perform an atomic compare and store operation on <span class='code'><a href="int
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IAtomicable](../interfaces/iatomicable-01/index)
+####  <a id="typeparam-T"></a>T: [IAtomicable](../interfaces/iatomicable-01/index.html)
 The type of the value to perform the atomic operation on.
 
 
 ## Parameters
 
-####  <a id="decl-dest"></a>dest  : [T](interlockedcomparestorefloatbitwise-0bins#typeparam-T)
+####  <a id="decl-dest"></a>dest  : [T](interlockedcomparestorefloatbitwise-0bins.html#typeparam-T)
 The value to perform the atomic operation on.
 
-####  <a id="decl-compare_value"></a>compare\_value  : [T](interlockedcomparestorefloatbitwise-0bins#typeparam-T)
+####  <a id="decl-compare_value"></a>compare\_value  : [T](interlockedcomparestorefloatbitwise-0bins.html#typeparam-T)
 The value to compare <span class='code'><a href="interlockedcomparestorefloatbitwise-0bins.html#decl-dest" class="code_param">dest</a></span> with.
 
-####  <a id="decl-value"></a>value  : [T](interlockedcomparestorefloatbitwise-0bins#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedcomparestorefloatbitwise-0bins.html#typeparam-T)
 The value to store into <span class='code'><a href="interlockedcomparestorefloatbitwise-0bins.html#decl-dest" class="code_param">dest</a></span> if the compare result is equal.
 
 

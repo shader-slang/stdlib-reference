@@ -25,6 +25,6 @@ value.
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](index#typeparam-T)
-####  <a id="decl-order"></a>order  : [MemoryOrder](../memoryorder-06/index) = [MemoryOrder](../memoryorder-06/index)\.[Relaxed](../memoryorder-06/index#decl-Relaxed)
+####  <a id="decl-value"></a>value  : [T](index.html#typeparam-T)
+####  <a id="decl-order"></a>order  : [MemoryOrder](../memoryorder-06/index.html) = [MemoryOrder](../memoryorder-06/index.html)\.[Relaxed](../memoryorder-06/index.html#decl-Relaxed)
 

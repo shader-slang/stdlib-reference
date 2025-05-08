@@ -23,8 +23,8 @@ clamping each value to the range [0, 255] to ensure it fits within 8 bits.
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<int, 4\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<int16\_t, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<int, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<int16\_t, 4\>
 
 ## Availability and Requirements
 

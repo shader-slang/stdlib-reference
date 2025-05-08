@@ -20,5 +20,5 @@ Performs a logical OR operation on this value with another value of the same typ
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [ILogical](index)\.This
+####  <a id="decl-other"></a>other  : [ILogical](index.html)\.This
 

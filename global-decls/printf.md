@@ -27,10 +27,10 @@ The variadic type pack parameter for the arguments to be printed.
 
 ## Parameters
 
-####  <a id="decl-format"></a>format  : [NativeString](../types/nativestring-06/index)
+####  <a id="decl-format"></a>format  : [NativeString](../types/nativestring-06/index.html)
 The format string.
 
-####  <a id="decl-args"></a>args  : [T](printf#typeparam-T)
+####  <a id="decl-args"></a>args  : [T](printf.html#typeparam-T)
 (optional) The arguments to be printed.
 
 

@@ -32,7 +32,7 @@ Traces a ray with motion blur support through the acceleration structure.
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index.html)
 The acceleration structure to traverse
 
 ####  <a id="decl-RayFlags"></a>RayFlags  : uint
@@ -50,13 +50,13 @@ Multiplier for geometry-based hit group indexing
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
 Index of the miss shader to execute if no hit is found
 
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../types/raydesc-03/index)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../types/raydesc-03/index.html)
 Description of the ray to trace
 
 ####  <a id="decl-CurrentTime"></a>CurrentTime  : float
 Time value for motion blur interpolation
 
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b#typeparam-payload_t)
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b.html#typeparam-payload_t)
 Structure for passing data between shaders
 
 

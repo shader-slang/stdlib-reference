@@ -37,10 +37,10 @@ The address at which to perform the atomic xor operation.
 ####  <a id="decl-value"></a>value  : int64\_t
 The operand for the xor operation.
 
-####  <a id="decl-value"></a>value  : [T](interlockedxor64-0b#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedxor64-0b.html#typeparam-T)
 The operand for the xor operation.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedxor64-0b#typeparam-T)
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedxor64-0b.html#typeparam-T)
 The original value at <span class='code'><a href="interlockedxor64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the xor operation.
 
 

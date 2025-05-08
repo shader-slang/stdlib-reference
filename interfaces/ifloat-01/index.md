@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IFloat
 
-*Inherits from:* [IArithmetic](../iarithmetic-01/index), [IDifferentiable](../idifferentiable-01/index)
+*Inherits from:* [IArithmetic](../iarithmetic-01/index.html), [IDifferentiable](../idifferentiable-01/index.html)
 
 ## Description
 

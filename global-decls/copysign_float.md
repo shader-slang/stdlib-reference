@@ -25,10 +25,10 @@ Copy-sign. Returns a value whose magnitude is from one operand and whose sign is
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<float, [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<float, [N](../types/vector/index.html#decl-N)\>
 The value to use as the magnitude.
 
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<float, [N](../types/vector/index#decl-N)\>
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<float, [N](../types/vector/index.html#decl-N)\>
 The value to use as the sign.
 
 

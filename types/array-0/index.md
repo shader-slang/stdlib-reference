@@ -4,9 +4,9 @@ layout: stdlib-reference
 
 # struct Array\<T, N:int\>
 
-*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index)\<[T](../../interfaces/irwarray-0123/index#typeparam-T)\>
+*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index.html)\<[T](../../interfaces/irwarray-0123/index.html#typeparam-T)\>
 
-*Conditionally conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index), [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
+*Conditionally conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html), [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 ## Generic Parameters
 
@@ -25,11 +25,11 @@ layout: stdlib-reference
 ### Conformance to IDifferentiable
 `Array<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index)
+  * [T](index.html#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 ### Conformance to IDifferentiablePtrType
 `Array<T, N:int>` additionally conforms to `IDifferentiablePtrType` when the following conditions are met:
 
-  * [T](index#typeparam-T) : [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
+  * [T](index.html#typeparam-T) : [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 <!-- RTD-TOC-START
 ```{toctree}

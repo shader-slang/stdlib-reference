@@ -19,5 +19,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-val"></a>val  : [T](index#typeparam-T)
+####  <a id="decl-val"></a>val  : [T](index.html#typeparam-T)
 

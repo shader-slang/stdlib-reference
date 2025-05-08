@@ -34,7 +34,7 @@ must obey any API-imposed restrictions.
 
 ## Parameters
 
-####  <a id="decl-accelerationStructure"></a>accelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
+####  <a id="decl-accelerationStructure"></a>accelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
 Acceleration structure to traverse
 
 ####  <a id="decl-rayFlags"></a>rayFlags  : uint
@@ -43,7 +43,7 @@ Additional flags for this trace (combined with rayFlagsGeneric)
 ####  <a id="decl-instanceInclusionMask"></a>instanceInclusionMask  : uint
 Mask for filtering instance visibility
 
-####  <a id="decl-ray"></a>ray  : [RayDesc](../raydesc-03/index)
+####  <a id="decl-ray"></a>ray  : [RayDesc](../raydesc-03/index.html)
 Description of ray parameters (origin, direction, tMin, tMax)
 
 

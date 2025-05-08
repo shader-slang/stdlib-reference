@@ -25,7 +25,7 @@ table.
 ## Parameters
 
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
 
 ## Availability and Requirements
 

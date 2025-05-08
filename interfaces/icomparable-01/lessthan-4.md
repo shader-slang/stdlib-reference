@@ -20,5 +20,5 @@ Returns true if <span class='code'>this</span> is less than <span class='code'><
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IComparable](index)\.This
+####  <a id="decl-other"></a>other  : [IComparable](index.html)\.This
 

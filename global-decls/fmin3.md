@@ -29,27 +29,27 @@ Floating-point minimum of 3 inputs.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](fmin3#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](fmin3.html#typeparam-T)
 The first value to compare.
 
-####  <a id="decl-y"></a>y  : [T](fmin3#typeparam-T)
+####  <a id="decl-y"></a>y  : [T](fmin3.html#typeparam-T)
 The second value to compare.
 
-####  <a id="decl-z"></a>z  : [T](fmin3#typeparam-T)
+####  <a id="decl-z"></a>z  : [T](fmin3.html#typeparam-T)
 The third value to compare.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The first value to compare.
 
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The second value to compare.
 
-####  <a id="decl-z"></a>z  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-z"></a>z  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The third value to compare.
 
 

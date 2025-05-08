@@ -21,7 +21,7 @@ operate on <span class='code'><a href="index.html" class="code_type">Atomic</a>&
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IAtomicable](../../interfaces/iatomicable-01/index)
+####  <a id="typeparam-T"></a>T: [IAtomicable](../../interfaces/iatomicable-01/index.html)
 
 ## Methods
 

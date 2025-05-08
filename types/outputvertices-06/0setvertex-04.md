@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-v"></a>v  : [OutputVertices](index)\<[T](index#typeparam-T), [MAX\_VERTS](index#decl-MAX_VERTS)\>
+####  <a id="decl-v"></a>v  : [OutputVertices](index.html)\<[T](index.html#typeparam-T), [MAX\_VERTS](index.html#decl-MAX_VERTS)\>
 ####  <a id="decl-index"></a>index  : uint
-####  <a id="decl-val"></a>val  : [T](index#typeparam-T)
+####  <a id="decl-val"></a>val  : [T](index.html#typeparam-T)
 

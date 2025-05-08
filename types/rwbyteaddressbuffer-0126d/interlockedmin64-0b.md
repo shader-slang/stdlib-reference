@@ -37,10 +37,10 @@ The address at which to perform the atomic min operation.
 ####  <a id="decl-value"></a>value  : int64\_t
 The operand for the min operation.
 
-####  <a id="decl-value"></a>value  : [T](interlockedmin64-0b#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedmin64-0b.html#typeparam-T)
 The operand for the min operation.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedmin64-0b#typeparam-T)
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedmin64-0b.html#typeparam-T)
 The original value at <span class='code'><a href="interlockedmin64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the min operation.
 
 

@@ -20,5 +20,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [DescriptorHandle](index)\<[T](index#typeparam-T)\>
+####  <a id="decl-other"></a>other  : [DescriptorHandle](index.html)\<[T](index.html#typeparam-T)\>
 

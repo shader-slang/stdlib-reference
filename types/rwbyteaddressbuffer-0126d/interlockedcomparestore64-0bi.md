@@ -30,10 +30,10 @@ Perform a 64-bit integer atomic compare-and-store operation at <span class='code
 ####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic store operation.
 
-####  <a id="decl-compareValue"></a>compareValue  : [T](interlockedcomparestore64-0bi#typeparam-T)
+####  <a id="decl-compareValue"></a>compareValue  : [T](interlockedcomparestore64-0bi.html#typeparam-T)
 The value to compare to the value at <span class='code'><a href="interlockedcomparestore64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
-####  <a id="decl-value"></a>value  : [T](interlockedcomparestore64-0bi#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedcomparestore64-0bi.html#typeparam-T)
 The value to store at <span class='code'><a href="interlockedcomparestore64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span> if the the value at address is equal to <span class='code'><a href="interlockedcomparestore64-0bi.html#decl-compareValue" class="code_param">compareValue</a></span>.
 
 

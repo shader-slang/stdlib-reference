@@ -24,8 +24,8 @@ values to four 8-bit integer values, then pack these 8-bit values into a
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<float, 4\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<half, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<float, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<half, 4\>
 
 ## Availability and Requirements
 

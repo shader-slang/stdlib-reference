@@ -27,7 +27,7 @@ The alignment of the load operation.
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index)\<[T](../types/ptr-0/index#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T)\>
 The pointer to load from.
 
 

@@ -20,5 +20,5 @@ Computes the arithmetic remainder from values of the conforming type.
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [IFloat](index)\.This
+####  <a id="decl-other"></a>other  : [IFloat](index.html)\.This
 

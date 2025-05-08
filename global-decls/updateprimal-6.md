@@ -22,10 +22,10 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 
 ## Parameters
 
-####  <a id="decl-p"></a>p  : [DifferentialPair](../types/differentialpair-0c/index)\<[T](../types/differentialpair-0c/index#typeparam-T)\>
-####  <a id="decl-newPrimal"></a>newPrimal  : [T](updateprimal-6#typeparam-T)
+####  <a id="decl-p"></a>p  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[T](../types/differentialpair-0c/index.html#typeparam-T)\>
+####  <a id="decl-newPrimal"></a>newPrimal  : [T](updateprimal-6.html#typeparam-T)
 

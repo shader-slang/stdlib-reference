@@ -10,7 +10,7 @@ layout: stdlib-reference
 
 ## m_currentPage->path
 
-####  <a id="decl-length"></a>[length](length)
+####  <a id="decl-length"></a>[length](length.html)
 
 ## Methods
 

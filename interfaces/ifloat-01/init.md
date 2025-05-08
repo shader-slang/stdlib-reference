@@ -23,5 +23,5 @@ Initializes a value of the conforming type form a <span class='code'><span class
 ## Parameters
 
 ####  <a id="decl-value"></a>value  : float
-####  <a id="decl-value"></a>value  : [IFloat](index)\.This
+####  <a id="decl-value"></a>value  : [IFloat](index.html)\.This
 

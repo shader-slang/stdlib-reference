@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface \_\_BuiltinArithmeticType
 
-*Inherits from:* \_\_BuiltinType, [IArithmetic](../iarithmetic-01/index)
+*Inherits from:* \_\_BuiltinType, [IArithmetic](../iarithmetic-01/index.html)
 
 ## Description
 

@@ -37,15 +37,15 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [T](index#typeparam-T)
-####  <a id="decl-other"></a>other  : [CoopVec](index)\<U, [N](index#decl-N)\>
-####  <a id="decl-args"></a>args  : [U](init#typeparam-U)
+####  <a id="decl-t"></a>t  : [T](index.html#typeparam-T)
+####  <a id="decl-other"></a>other  : [CoopVec](index.html)\<U, [N](index.html#decl-N)\>
+####  <a id="decl-args"></a>args  : [U](init.html#typeparam-U)
 ####  <a id="decl-i"></a>i  : int
-####  <a id="decl-x"></a>x  : [CoopVec](index)\<[T](index#typeparam-T), [N](index#decl-N)\>
+####  <a id="decl-x"></a>x  : [CoopVec](index.html)\<[T](index.html#typeparam-T), [N](index.html#decl-N)\>
 
 ## Availability and Requirements
 

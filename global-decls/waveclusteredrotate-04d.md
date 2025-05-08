@@ -34,10 +34,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](waveclusteredrotate-04d#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](waveclusteredrotate-04d.html#typeparam-T)
 ####  <a id="decl-delta"></a>delta  : uint
 ####  <a id="decl-clusterSize"></a>clusterSize  : uint
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 
 ## Availability and Requirements
 

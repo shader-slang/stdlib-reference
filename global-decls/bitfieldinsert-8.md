@@ -30,8 +30,8 @@ and all other bits taken directly from the corresponding bits of <span class='co
 
 ## Parameters
 
-####  <a id="decl-base"></a>base  : [T](bitfieldinsert-8#typeparam-T)
-####  <a id="decl-insert"></a>insert  : [T](bitfieldinsert-8#typeparam-T)
+####  <a id="decl-base"></a>base  : [T](bitfieldinsert-8.html#typeparam-T)
+####  <a id="decl-insert"></a>insert  : [T](bitfieldinsert-8.html#typeparam-T)
 ####  <a id="decl-offset"></a>offset  : uint
 ####  <a id="decl-bits"></a>bits  : uint
 

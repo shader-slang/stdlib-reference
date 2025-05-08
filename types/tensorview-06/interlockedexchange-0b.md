@@ -84,7 +84,7 @@ layout: stdlib-reference
 ####  <a id="decl-index"></a>index  : uint
 ####  <a id="decl-va"></a>va  : int
 ####  <a id="decl-oldVall"></a>oldVall  : int
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, [N](../vector/index#decl-N)\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 ####  <a id="decl-val"></a>val  : int
 ####  <a id="decl-oldVal"></a>oldVal  : int
 ####  <a id="decl-va"></a>va  : uint

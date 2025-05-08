@@ -24,8 +24,8 @@ values to two 16-bit integer values, then pack these 16-bit values into a
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<float, 2\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<half, 2\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<float, 2\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<half, 2\>
 
 ## Availability and Requirements
 

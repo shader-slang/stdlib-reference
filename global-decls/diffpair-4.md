@@ -26,10 +26,10 @@ Constructs a <span class='code'><a href="../types/differentialpair-0c/index.html
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 
 ## Parameters
 
-####  <a id="decl-primal"></a>primal  : [T](diffpair-4#typeparam-T)
-####  <a id="decl-diff"></a>diff  : [T](diffpair-4#typeparam-T)\.Differential
+####  <a id="decl-primal"></a>primal  : [T](diffpair-4.html#typeparam-T)
+####  <a id="decl-diff"></a>diff  : [T](diffpair-4.html#typeparam-T)\.Differential
 

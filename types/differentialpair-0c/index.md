@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct DifferentialPair\<T\>
 
-*Conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index)
+*Conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## Description
 
@@ -32,13 +32,13 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../../interfaces/idifferentiable-01/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## m_currentPage->path
 
-####  <a id="decl-d"></a>[d](d)
-####  <a id="decl-p"></a>[p](p)
-####  <a id="decl-v"></a>[v](v)
+####  <a id="decl-d"></a>[d](d.html)
+####  <a id="decl-p"></a>[p](p.html)
+####  <a id="decl-v"></a>[v](v.html)
 
 ## Methods
 

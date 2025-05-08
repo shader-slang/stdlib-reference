@@ -21,5 +21,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [String](../string-0/index)
+####  <a id="decl-value"></a>value  : [String](../string-0/index.html)
 

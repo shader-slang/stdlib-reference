@@ -32,7 +32,7 @@ Distance along the ray where the intersection occurred
 ####  <a id="decl-hitKind"></a>hitKind  : uint
 User-defined value identifying the type of hit
 
-####  <a id="decl-attributes"></a>attributes  : [A](reporthit-06#typeparam-A)
+####  <a id="decl-attributes"></a>attributes  : [A](reporthit-06.html#typeparam-A)
 Custom attributes for the intersection
 
 

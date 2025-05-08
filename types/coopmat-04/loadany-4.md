@@ -37,11 +37,11 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-data"></a>data  : [U](loadany-4#typeparam-U) \[ [V](loadany-4#decl-V) \]
+####  <a id="decl-data"></a>data  : [U](loadany-4.html#typeparam-U) \[ [V](loadany-4.html#decl-V) \]
 ####  <a id="decl-element"></a>element  : uint
 ####  <a id="decl-stride"></a>stride  : uint
-####  <a id="decl-matrixLayout"></a>matrixLayout  : [CoopMatMatrixLayout](../coopmatmatrixlayout-047d/index)
-####  <a id="decl-data"></a>data  : [vector](../vector/index)\<U, L\> \[ V \]
+####  <a id="decl-matrixLayout"></a>matrixLayout  : [CoopMatMatrixLayout](../coopmatmatrixlayout-047d/index.html)
+####  <a id="decl-data"></a>data  : [vector](../vector/index.html)\<U, L\> \[ V \]
 
 ## Availability and Requirements
 

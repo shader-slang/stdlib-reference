@@ -20,9 +20,9 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../interfaces/iopaquedescriptor-017/index)
+####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../interfaces/iopaquedescriptor-017/index.html)
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [DescriptorHandle](../types/descriptorhandle-0a/index)\<[T](../types/descriptorhandle-0a/index#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : [DescriptorHandle](../types/descriptorhandle-0a/index.html)\<[T](../types/descriptorhandle-0a/index.html#typeparam-T)\>
 

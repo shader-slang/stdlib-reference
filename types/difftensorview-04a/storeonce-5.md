@@ -34,6 +34,6 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-x"></a>x  : uint
-####  <a id="decl-val"></a>val  : [T](index#typeparam-T)
-####  <a id="decl-x"></a>x  : [vector](../vector/index)\<uint, [N](../vector/index#decl-N)\>
+####  <a id="decl-val"></a>val  : [T](index.html#typeparam-T)
+####  <a id="decl-x"></a>x  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 

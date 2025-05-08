@@ -27,6 +27,6 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-a"></a>a  : [U](dmul#typeparam-U)
-####  <a id="decl-b"></a>b  : [Tuple](index)\<expand each [T](index#typeparam-T)\.[Differential](differential-0)\>
+####  <a id="decl-a"></a>a  : [U](dmul.html#typeparam-U)
+####  <a id="decl-b"></a>b  : [Tuple](index.html)\<expand each [T](index.html#typeparam-T)\.[Differential](differential-0.html)\>
 

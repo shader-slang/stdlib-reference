@@ -32,19 +32,19 @@ Perform an atomic or operation on <span class='code'><a href="interlockedor-0b.h
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IArithmeticAtomicable](../interfaces/iarithmeticatomicable-01b/index)
+####  <a id="typeparam-T"></a>T: [IArithmeticAtomicable](../interfaces/iarithmeticatomicable-01b/index.html)
 The type of the value to perform the atomic operation on.
 
 
 ## Parameters
 
-####  <a id="decl-dest"></a>dest  : [T](interlockedor-0b#typeparam-T)
+####  <a id="decl-dest"></a>dest  : [T](interlockedor-0b.html#typeparam-T)
 The value to perform the atomic operation on.
 
-####  <a id="decl-value"></a>value  : [T](interlockedor-0b#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedor-0b.html#typeparam-T)
 The operand to the atomic operation.
 
-####  <a id="decl-original_value"></a>original\_value  : [T](interlockedor-0b#typeparam-T)
+####  <a id="decl-original_value"></a>original\_value  : [T](interlockedor-0b.html#typeparam-T)
 The value of <span class='code'><a href="interlockedor-0b.html#decl-dest" class="code_param">dest</a></span> before the operation.
 
 ####  <a id="decl-dest"></a>dest  : uint

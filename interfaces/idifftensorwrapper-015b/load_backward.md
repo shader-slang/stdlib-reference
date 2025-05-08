@@ -27,12 +27,12 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
 ####  <a id="decl-i"></a>i  : uint
-####  <a id="decl-dOut"></a>dOut  : [T](load_backward#typeparam-T)
-####  <a id="decl-i"></a>i  : [vector](../../types/vector/index)\<uint, [N](../../types/vector/index#decl-N)\>
+####  <a id="decl-dOut"></a>dOut  : [T](load_backward.html#typeparam-T)
+####  <a id="decl-i"></a>i  : [vector](../../types/vector/index.html)\<uint, [N](../../types/vector/index.html#decl-N)\>
 

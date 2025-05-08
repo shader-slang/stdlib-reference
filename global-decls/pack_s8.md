@@ -22,8 +22,8 @@ Pack a vector of 4 signed 32/16 bit integers into a packed value of 4 8-bit inte
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<int, 4\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index)\<int16\_t, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<int, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<int16\_t, 4\>
 
 ## Availability and Requirements
 

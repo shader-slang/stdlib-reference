@@ -22,5 +22,5 @@ Use <span class='code'>spirv_asm</span> instead for inline SPIR-V assembly.
 ## Parameters
 
 ####  <a id="decl-op"></a>op  : int
-####  <a id="decl-set"></a>set  : [String](../types/string-0/index) = ""
+####  <a id="decl-set"></a>set  : [String](../types/string-0/index.html) = ""
 

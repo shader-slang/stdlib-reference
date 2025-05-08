@@ -21,9 +21,9 @@ Multiplies a value of the conforming type by a floating point scale factor..
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../0_builtinfloatingpointtype-029hm/index.html)
 
 ## Parameters
 
-####  <a id="decl-scale"></a>scale  : [T](scale#typeparam-T)
+####  <a id="decl-scale"></a>scale  : [T](scale.html#typeparam-T)
 

@@ -22,9 +22,9 @@ how a descriptor handle is converted into a actual descriptor.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../interfaces/iopaquedescriptor-017/index)
+####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../interfaces/iopaquedescriptor-017/index.html)
 
 ## Parameters
 
-####  <a id="decl-handleValue"></a>handleValue  : [DescriptorHandle](../types/descriptorhandle-0a/index)\<[T](../types/descriptorhandle-0a/index#typeparam-T)\>
+####  <a id="decl-handleValue"></a>handleValue  : [DescriptorHandle](../types/descriptorhandle-0a/index.html)\<[T](../types/descriptorhandle-0a/index.html#typeparam-T)\>
 

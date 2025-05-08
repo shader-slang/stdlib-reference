@@ -17,6 +17,6 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T  = [vector](vector/index)\<float, 4\>
+####  <a id="typeparam-T"></a>T  = [vector](vector/index.html)\<float, 4\>
 ####  <a id="decl-isMS"></a>isMS  : int = 1
 

@@ -16,7 +16,7 @@ Specify the storage format of a read-write texture. Can only be used on a textur
 
 ## Parameters
 
-####  <a id="decl-format"></a>format  : [String](../types/string-0/index)
+####  <a id="decl-format"></a>format  : [String](../types/string-0/index.html)
 The storage format of the texture.
 
 

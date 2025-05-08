@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-color"></a>color  : [vector](../types/vector/index)\<float, 4\>
+####  <a id="decl-color"></a>color  : [vector](../types/vector/index.html)\<float, 4\>
 
 ## Availability and Requirements
 

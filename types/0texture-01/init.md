@@ -28,5 +28,5 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[\_Texture](index)\<[T](index#typeparam-T), [Shape](index#typeparam-Shape), [isArray](index#decl-isArray), [isMS](index#decl-isMS), [sampleCount](index#decl-sampleCount), [access](index#decl-access), [isShadow](index#decl-isShadow), [isCombined](index#decl-isCombined), [format](index#decl-format) \>\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index.html)\<[\_Texture](index.html)\<[T](index.html#typeparam-T), [Shape](index.html#typeparam-Shape), [isArray](index.html#decl-isArray), [isMS](index.html#decl-isMS), [sampleCount](index.html#decl-sampleCount), [access](index.html#decl-access), [isShadow](index.html#decl-isShadow), [isCombined](index.html#decl-isCombined), [format](index.html#decl-format) \>\>
 

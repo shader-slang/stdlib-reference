@@ -38,23 +38,23 @@ Load values from a byte-addressable buffer into a cooperative vector.
 ## Generic Parameters
 
 ####  <a id="decl-N"></a>N  : int
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 
 ## Parameters
 
-####  <a id="decl-buffer"></a>buffer  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index)
+####  <a id="decl-buffer"></a>buffer  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index.html)
 The source buffer to load data from.
 
 ####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 The byte offset from the start of the buffer. Must be 16-byte aligned.
 
-####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index.html)
 The source buffer to load data from.
 
-####  <a id="decl-buffer"></a>buffer  : [StructuredBuffer](../types/structuredbuffer-0a/index)\<[T](../types/structuredbuffer-0a/index#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
+####  <a id="decl-buffer"></a>buffer  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<[T](../types/structuredbuffer-0a/index.html#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The source buffer to load data from.
 
-####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<[T](../types/rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<[T](../types/rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The source buffer to load data from.
 
 

@@ -37,7 +37,7 @@ Where possible, reordering will also attempt to retain locality in the thread429
 
 ####  <a id="decl-CoherenceHint"></a>CoherenceHint  : uint
 ####  <a id="decl-NumCoherenceHintBitsFromLSB"></a>NumCoherenceHintBitsFromLSB  : uint
-####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../types/hitobject-03/index)
+####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../types/hitobject-03/index.html)
 
 ## Availability and Requirements
 

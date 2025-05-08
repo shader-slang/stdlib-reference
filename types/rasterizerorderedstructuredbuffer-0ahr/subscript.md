@@ -22,9 +22,9 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-TIndex"></a>TIndex: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index)
+####  <a id="typeparam-TIndex"></a>TIndex: [\_\_BuiltinIntegerType](../../interfaces/0_builtinintegertype-029g/index.html)
 
 ## Parameters
 
-####  <a id="decl-index"></a>index  : [TIndex](subscript#typeparam-TIndex)
+####  <a id="decl-index"></a>index  : [TIndex](subscript.html#typeparam-TIndex)
 

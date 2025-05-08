@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IRWArray\<T\>
 
-*Inherits from:* [IArray](../iarray-01/index)\<[T](../iarray-01/index#typeparam-T)\>
+*Inherits from:* [IArray](../iarray-01/index.html)\<[T](../iarray-01/index.html#typeparam-T)\>
 
 ## Description
 

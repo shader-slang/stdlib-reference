@@ -37,13 +37,13 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 
 ## Parameters
 
-####  <a id="decl-t"></a>t  : [T](index#typeparam-T)
-####  <a id="decl-other"></a>other  : [CoopMat](index)\<U, [S](index#decl-S), [M](index#decl-M), [N](index#decl-N), [R](index#decl-R)\>
-####  <a id="decl-x"></a>x  : [CoopMat](index)\<[T](index#typeparam-T), [S](index#decl-S), [M](index#decl-M), [N](index#decl-N), [R](index#decl-R)\>
+####  <a id="decl-t"></a>t  : [T](index.html#typeparam-T)
+####  <a id="decl-other"></a>other  : [CoopMat](index.html)\<U, [S](index.html#decl-S), [M](index.html#decl-M), [N](index.html#decl-N), [R](index.html#decl-R)\>
+####  <a id="decl-x"></a>x  : [CoopMat](index.html)\<[T](index.html#typeparam-T), [S](index.html#decl-S), [M](index.html#decl-M), [N](index.html#decl-N), [R](index.html#decl-R)\>
 ####  <a id="decl-i"></a>i  : int
 
 ## Availability and Requirements

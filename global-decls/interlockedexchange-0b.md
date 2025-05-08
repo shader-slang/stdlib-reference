@@ -32,19 +32,19 @@ Perform an atomic exchange operation on <span class='code'><a href="interlockede
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IAtomicable](../interfaces/iatomicable-01/index)
+####  <a id="typeparam-T"></a>T: [IAtomicable](../interfaces/iatomicable-01/index.html)
 The type of the value to perform the atomic operation on.
 
 
 ## Parameters
 
-####  <a id="decl-dest"></a>dest  : [T](interlockedexchange-0b#typeparam-T)
+####  <a id="decl-dest"></a>dest  : [T](interlockedexchange-0b.html#typeparam-T)
 The value to perform the atomic operation on.
 
-####  <a id="decl-value"></a>value  : [T](interlockedexchange-0b#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedexchange-0b.html#typeparam-T)
 The operand to the atomic operation.
 
-####  <a id="decl-original_value"></a>original\_value  : [T](interlockedexchange-0b#typeparam-T)
+####  <a id="decl-original_value"></a>original\_value  : [T](interlockedexchange-0b.html#typeparam-T)
 The value of <span class='code'><a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a></span> before the operation.
 
 ####  <a id="decl-dest"></a>dest  : uint

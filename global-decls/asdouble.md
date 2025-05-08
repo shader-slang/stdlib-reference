@@ -28,8 +28,8 @@ Reinterpret bits as a double.
 
 ####  <a id="decl-lowbits"></a>lowbits  : uint
 ####  <a id="decl-highbits"></a>highbits  : uint
-####  <a id="decl-lowbits"></a>lowbits  : [vector](../types/vector/index)\<uint, 2\>
-####  <a id="decl-highbits"></a>highbits  : [vector](../types/vector/index)\<uint, 2\>
+####  <a id="decl-lowbits"></a>lowbits  : [vector](../types/vector/index.html)\<uint, 2\>
+####  <a id="decl-highbits"></a>highbits  : [vector](../types/vector/index.html)\<uint, 2\>
 
 ## Availability and Requirements
 

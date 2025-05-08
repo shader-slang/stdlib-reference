@@ -36,16 +36,16 @@ Store all elements of this CoopVec into a buffer at a specified offset.
 
 ## Parameters
 
-####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
+####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
 The destination buffer to store the values into.
 
 ####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 The byte offset from the start of the buffer where the data will be stored. Must be 16-byte aligned.
 
-####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index)\<[T](../rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index)\>
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 The destination buffer to store the values into.
 
-####  <a id="decl-data"></a>data  : [T](index#typeparam-T) \[ M \]
+####  <a id="decl-data"></a>data  : [T](index.html#typeparam-T) \[ M \]
 
 ## Availability and Requirements
 

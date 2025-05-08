@@ -22,11 +22,11 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [CoopMat](index)\<U, [S](index#decl-S), [M](index#decl-M), [N](index#decl-N), [R](index#decl-R)\>
+####  <a id="decl-other"></a>other  : [CoopMat](index.html)\<U, [S](index.html#decl-S), [M](index.html#decl-M), [N](index.html#decl-N), [R](index.html#decl-R)\>
 
 ## Availability and Requirements
 

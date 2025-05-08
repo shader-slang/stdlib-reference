@@ -21,9 +21,9 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T1"></a>T1: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index)
+####  <a id="typeparam-T1"></a>T1: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 
 ## Parameters
 
-####  <a id="decl-s"></a>s  : [T1](scale#typeparam-T1)
+####  <a id="decl-s"></a>s  : [T1](scale.html#typeparam-T1)
 

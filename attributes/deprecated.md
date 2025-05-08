@@ -16,7 +16,7 @@ Mark a declaration as deprecated.
 
 ## Parameters
 
-####  <a id="decl-message"></a>message  : [String](../types/string-0/index)
+####  <a id="decl-message"></a>message  : [String](../types/string-0/index.html)
 The diagnostic message to show when the declaration is used.
 
 

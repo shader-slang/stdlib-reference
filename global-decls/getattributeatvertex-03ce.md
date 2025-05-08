@@ -49,10 +49,10 @@ built-in scalar types.
 
 ## Parameters
 
-####  <a id="decl-attribute"></a>attribute  : [T](getattributeatvertex-03ce#typeparam-T)
+####  <a id="decl-attribute"></a>attribute  : [T](getattributeatvertex-03ce.html#typeparam-T)
 ####  <a id="decl-vertexIndex"></a>vertexIndex  : uint
-####  <a id="decl-attribute"></a>attribute  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-attribute"></a>attribute  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-attribute"></a>attribute  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-attribute"></a>attribute  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 

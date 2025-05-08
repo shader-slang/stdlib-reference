@@ -25,7 +25,7 @@ Perform a compile-time condition check and emit a compile-time error if the cond
 ####  <a id="decl-condition"></a>condition  : bool
 The compile-time condition to check.
 
-####  <a id="decl-errorMessage"></a>errorMessage  : [NativeString](../types/nativestring-06/index)
+####  <a id="decl-errorMessage"></a>errorMessage  : [NativeString](../types/nativestring-06/index.html)
 The error message to emit if the condition is false.
 
 

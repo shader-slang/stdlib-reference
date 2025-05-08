@@ -79,16 +79,16 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-S"></a>S: [ITexelElement](../../interfaces/itexelelement-016/index)
+####  <a id="typeparam-S"></a>S: [ITexelElement](../../interfaces/itexelelement-016/index.html)
 
 ## Parameters
 
-####  <a id="decl-tex"></a>tex  : [Texture2D](../texture2d-08)\<S\>
-####  <a id="decl-samp"></a>samp  : [SamplerState](../samplerstate-07/index)
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, 2\>
+####  <a id="decl-tex"></a>tex  : [Texture2D](../texture2d-08.html)\<S\>
+####  <a id="decl-samp"></a>samp  : [SamplerState](../samplerstate-07/index.html)
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, 2\>
 ####  <a id="decl-clamp"></a>clamp  : float
-####  <a id="decl-texArray"></a>texArray  : [Texture2DArray](../texture2darray-089)\<S\>
-####  <a id="decl-location"></a>location  : [vector](../vector/index)\<float, 3\>
+####  <a id="decl-texArray"></a>texArray  : [Texture2DArray](../texture2darray-089.html)\<S\>
+####  <a id="decl-location"></a>location  : [vector](../vector/index.html)\<float, 3\>
 
 ## Availability and Requirements
 

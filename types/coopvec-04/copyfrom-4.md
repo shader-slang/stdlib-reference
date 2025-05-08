@@ -22,11 +22,11 @@ in which case appropriate type conversion will be performed.
 
 ## Generic Parameters
 
-####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [CoopVec](index)\<U, [N](index#decl-N)\>
+####  <a id="decl-other"></a>other  : [CoopVec](index.html)\<U, [N](index.html#decl-N)\>
 The source CoopVec to copy from.
 
 

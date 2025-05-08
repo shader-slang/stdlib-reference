@@ -17,7 +17,7 @@ Represents a handle to a read-only, multisampled 2D texture.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [ITexelElement](../interfaces/itexelelement-016/index) = [vector](vector/index)\<float, 4\>
+####  <a id="typeparam-T"></a>T: [ITexelElement](../interfaces/itexelelement-016/index.html) = [vector](vector/index.html)\<float, 4\>
 The texel type of the texture.
 
 ####  <a id="decl-sampleCount"></a>sampleCount  : int = 0

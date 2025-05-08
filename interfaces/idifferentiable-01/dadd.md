@@ -22,8 +22,8 @@ Adds two differential values and returns the result.
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_0"></a>SLANG\_anonymous\_0  : [IDifferentiable](index)\.This\.Differential
-####  <a id="decl-SLANG_anonymous_1"></a>SLANG\_anonymous\_1  : [IDifferentiable](index)\.This\.Differential
+####  <a id="decl-SLANG_anonymous_0"></a>SLANG\_anonymous\_0  : [IDifferentiable](index.html)\.This\.Differential
+####  <a id="decl-SLANG_anonymous_1"></a>SLANG\_anonymous\_1  : [IDifferentiable](index.html)\.This\.Differential
 Adds two differential values and returns the result.
 
 

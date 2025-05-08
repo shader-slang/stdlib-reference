@@ -28,7 +28,7 @@ Reverse order of bits.
 ####  <a id="decl-value"></a>value  : uint
 The value to reverse bits of.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint, [N](../types/vector/index#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<uint, [N](../types/vector/index.html#decl-N)\>
 The value to reverse bits of.
 
 

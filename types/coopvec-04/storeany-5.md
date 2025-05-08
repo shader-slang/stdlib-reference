@@ -33,13 +33,13 @@ Store the value to a groupshared array of any type. This method is only availabl
 
 ## Parameters
 
-####  <a id="decl-data"></a>data  : [U](storeany-5#typeparam-U) \[ [M](storeany-5#decl-M) \]
+####  <a id="decl-data"></a>data  : [U](storeany-5.html#typeparam-U) \[ [M](storeany-5.html#decl-M) \]
 The destination array where the data will be stored. The array element type can be different from the CoopVec element type.
 
 ####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 The byte offset from the start of <span class='code'><a href="storeany-5.html#decl-data" class="code_param">data</a></span>. Must be a multiple of 16 bytes.
 
-####  <a id="decl-data"></a>data  : [vector](../vector/index)\<U, L\> \[ M \]
+####  <a id="decl-data"></a>data  : [vector](../vector/index.html)\<U, L\> \[ M \]
 The destination array where the data will be stored. The array element type can be different from the CoopVec element type.
 
 

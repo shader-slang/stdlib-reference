@@ -18,9 +18,9 @@ Implemented by <span class='code'><a href="../../types/0_shape1d-028/index.html"
 
 ## Fields
 
-####  <a id="decl-dimensions"></a>[dimensions](dimensions) : int
-####  <a id="decl-flavor"></a>[flavor](flavor) : int
-####  <a id="decl-planeDimensions"></a>[planeDimensions](planedimensions-5) : int
+####  <a id="decl-dimensions"></a>[dimensions](dimensions.html) : int
+####  <a id="decl-flavor"></a>[flavor](flavor.html) : int
+####  <a id="decl-planeDimensions"></a>[planeDimensions](planedimensions-5.html) : int
 
 ## See also
 

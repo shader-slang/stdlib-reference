@@ -20,7 +20,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-handleValue"></a>handleValue  : [vector](../vector/index)\<uint, 2\>
+####  <a id="decl-handleValue"></a>handleValue  : [vector](../vector/index.html)\<uint, 2\>
 
 ## Availability and Requirements
 

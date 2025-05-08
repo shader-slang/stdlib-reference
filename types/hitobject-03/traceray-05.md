@@ -33,14 +33,14 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
 ####  <a id="decl-RayFlags"></a>RayFlags  : uint
 ####  <a id="decl-InstanceInclusionMask"></a>InstanceInclusionMask  : uint
 ####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
 ####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index)
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](traceray-05#typeparam-payload_t)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](traceray-05.html#typeparam-payload_t)
 
 ## Availability and Requirements
 

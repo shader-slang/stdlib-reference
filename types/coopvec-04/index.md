@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct CoopVec\<T, N:int\>
 
-*Conforms to:* [IArray](../../interfaces/iarray-01/index)\<[T](../../interfaces/iarray-01/index#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index)
+*Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
 
 ## Description
 
@@ -14,7 +14,7 @@ of neural network in graphics and compute pipeline.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 The element type of the CoopVec.
 
 ####  <a id="decl-N"></a>N  : int

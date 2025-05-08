@@ -118,48 +118,48 @@ Multiply.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinLogicalType](../interfaces/0_builtinlogicaltype-029g/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinLogicalType](../interfaces/0_builtinlogicaltype-029g/index.html)
 ####  <a id="decl-R"></a>R  : int
 ####  <a id="decl-C"></a>C  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](mul#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](mul.html#typeparam-T)
 The first value.
 
-####  <a id="decl-y"></a>y  : [T](mul#typeparam-T)
+####  <a id="decl-y"></a>y  : [T](mul.html#typeparam-T)
 The second value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The first value.
 
-####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The second value.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The first value.
 
-####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The second value.
 
-####  <a id="decl-left"></a>left  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-right"></a>right  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
-####  <a id="decl-left"></a>left  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
-####  <a id="decl-right"></a>right  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), M\>
-####  <a id="decl-left"></a>left  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [R](../types/matrix/index#decl-R), [N](../types/matrix/index#decl-N)\>
-####  <a id="decl-right"></a>right  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [C](../types/matrix/index#decl-C)\>
-####  <a id="decl-left"></a>left  : [DifferentialPair](../types/differentialpair-0c/index)\<[vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N) \>\>
-####  <a id="decl-right"></a>right  : [DifferentialPair](../types/differentialpair-0c/index)\<[matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M) \>\>
-####  <a id="decl-left"></a>left  : [DifferentialPair](../types/differentialpair-0c/index)\<[matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M) \>\>
-####  <a id="decl-right"></a>right  : [DifferentialPair](../types/differentialpair-0c/index)\<[vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), M \>\>
-####  <a id="decl-left"></a>left  : [DifferentialPair](../types/differentialpair-0c/index)\<[matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [R](../types/matrix/index#decl-R), [N](../types/matrix/index#decl-N) \>\>
-####  <a id="decl-right"></a>right  : [DifferentialPair](../types/differentialpair-0c/index)\<[matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [C](../types/matrix/index#decl-C) \>\>
-####  <a id="decl-dOut"></a>dOut  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [R](../types/matrix/index#decl-R), [C](../types/matrix/index#decl-C)\>
+####  <a id="decl-left"></a>left  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-right"></a>right  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-left"></a>left  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-right"></a>right  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), M\>
+####  <a id="decl-left"></a>left  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [R](../types/matrix/index.html#decl-R), [N](../types/matrix/index.html#decl-N)\>
+####  <a id="decl-right"></a>right  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [C](../types/matrix/index.html#decl-C)\>
+####  <a id="decl-left"></a>left  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N) \>\>
+####  <a id="decl-right"></a>right  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M) \>\>
+####  <a id="decl-left"></a>left  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M) \>\>
+####  <a id="decl-right"></a>right  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), M \>\>
+####  <a id="decl-left"></a>left  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [R](../types/matrix/index.html#decl-R), [N](../types/matrix/index.html#decl-N) \>\>
+####  <a id="decl-right"></a>right  : [DifferentialPair](../types/differentialpair-0c/index.html)\<[matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [C](../types/matrix/index.html#decl-C) \>\>
+####  <a id="decl-dOut"></a>dOut  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [R](../types/matrix/index.html#decl-R), [C](../types/matrix/index.html#decl-C)\>
 
 ## Return value
 The inner product of <span class='code'><a href="mul.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="mul.html#decl-y" class="code_param">y</a></span>.

@@ -84,7 +84,7 @@ layout: stdlib-reference
 ####  <a id="decl-index"></a>index  : uint
 ####  <a id="decl-compare"></a>compare  : int
 ####  <a id="decl-val"></a>val  : int
-####  <a id="decl-index"></a>index  : [vector](../vector/index)\<uint, [N](../vector/index#decl-N)\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 ####  <a id="decl-compare"></a>compare  : uint
 ####  <a id="decl-val"></a>val  : uint
 ####  <a id="decl-compare"></a>compare  : uint64\_t

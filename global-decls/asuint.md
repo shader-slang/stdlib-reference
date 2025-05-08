@@ -51,13 +51,13 @@ Reinterpret bits of double as a uint.
 ####  <a id="decl-highbits"></a>highbits  : uint
 ####  <a id="decl-x"></a>x  : float
 ####  <a id="decl-x"></a>x  : int
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<float, [N](../types/vector/index#decl-N)\>
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<int, [N](../types/vector/index#decl-N)\>
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<float, [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<int, [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<float, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<int, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<float, [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<int, [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 ####  <a id="decl-x"></a>x  : uint
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<uint, [N](../types/vector/index#decl-N)\>
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<uint, [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<uint, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<uint, [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 

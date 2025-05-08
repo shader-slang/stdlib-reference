@@ -48,15 +48,15 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
 ####  <a id="decl-InstanceIndex"></a>InstanceIndex  : uint
 ####  <a id="decl-GeometryIndex"></a>GeometryIndex  : uint
 ####  <a id="decl-PrimitiveIndex"></a>PrimitiveIndex  : uint
 ####  <a id="decl-HitKind"></a>HitKind  : uint
 ####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
 ####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index)
-####  <a id="decl-attributes"></a>attributes  : [attr\_t](makehit-04#typeparam-attr_t)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
+####  <a id="decl-attributes"></a>attributes  : [attr\_t](makehit-04.html#typeparam-attr_t)
 ####  <a id="decl-HitGroupRecordIndex"></a>HitGroupRecordIndex  : uint
 
 ## Availability and Requirements
