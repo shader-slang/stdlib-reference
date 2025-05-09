@@ -18,7 +18,7 @@ layout: stdlib-reference
 
 ####  <a id="decl-_isSingleLevel"></a>[\_isSingleLevel](0issinglelevel-039.html) : bool
 
-## m_currentPage->path
+## Properties
 
 ####  <a id="decl-isSingleLevel"></a>[isSingleLevel](issinglelevel-28.html)
 

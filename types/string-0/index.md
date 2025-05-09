@@ -10,7 +10,7 @@ Represents a string.
 This type can only be used on the CPU target.
 
 
-## m_currentPage->path
+## Properties
 
 ####  <a id="decl-length"></a>[length](length.html)
 Returns the length of the string.

@@ -30,7 +30,7 @@ struct DifferentialPtrPair<T : IDifferentiablePtrType> : IDifferentiablePtrType
 
 ####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
-## m_currentPage->path
+## Properties
 
 ####  <a id="decl-d"></a>[d](d.html)
 ####  <a id="decl-p"></a>[p](p.html)

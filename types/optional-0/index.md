@@ -24,7 +24,7 @@ of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T<
 
 ####  <a id="typeparam-T"></a>T
 
-## m_currentPage->path
+## Properties
 
 ####  <a id="decl-hasValue"></a>[hasValue](hasvalue-3.html)
 Return <span class='code'>true</span> iff this <span class='code'><a href="index.html" class="code_type">Optional</a></span> contains a value of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>

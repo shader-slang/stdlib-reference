@@ -34,7 +34,7 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 
 ####  <a id="typeparam-T"></a>T: [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
-## m_currentPage->path
+## Properties
 
 ####  <a id="decl-d"></a>[d](d.html)
 ####  <a id="decl-p"></a>[p](p.html)

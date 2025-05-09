@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 
 
-## m_currentPage->path
+## Properties
 
 ####  <a id="decl-length"></a>[length](length.html)
 
