@@ -32,6 +32,7 @@ and its related functions are available in raytracing shader types only.
 * [GetGeometryIndex](getgeometryindex-03b)
 * [GetPrimitiveIndex](getprimitiveindex-03c)
 * [GetHitKind](gethitkind-036)
+* [GetClusterID](getclusterid-03ab)
 * [GetWorldToObject](getworldtoobject-038a)
 * [GetObjectToWorld](getobjecttoworld-039b)
 * [GetCurrentTime](getcurrenttime-03a)
@@ -48,6 +49,7 @@ and its related functions are available in raytracing shader types only.
 :hidden:
 
 GetAttributes <getattributes-03>
+GetClusterID <getclusterid-03ab>
 GetCurrentTime <getcurrenttime-03a>
 GetGeometryIndex <getgeometryindex-03b>
 GetHitKind <gethitkind-036>

@@ -25,6 +25,8 @@ This category contains the following declarations:
 
 #### [GeometryIndex](geometryindex-08)
 
+#### [GetClusterID](getclusterid-03ab)
+
 #### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](hit_kind_triangle_back_face-01245679abcdefgijklnopq)
 
 #### [HIT\_KIND\_TRIANGLE\_FRONT\_FACE](hit_kind_triangle_front_face-01245679abcdefgijklmopqr)
@@ -115,6 +117,7 @@ CallShader <callshader-04>
 DispatchRaysDimensions <dispatchraysdimensions-08c>
 DispatchRaysIndex <dispatchraysindex-08c>
 GeometryIndex <geometryindex-08>
+GetClusterID <getclusterid-03ab>
 HIT_KIND_TRIANGLE_BACK_FACE <hit_kind_triangle_back_face-01245679abcdefgijklnopq>
 HIT_KIND_TRIANGLE_FRONT_FACE <hit_kind_triangle_front_face-01245679abcdefgijklmopqr>
 HitKind <hitkind-03>

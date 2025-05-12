@@ -52,7 +52,9 @@ since it will propegate rules to children.
 * [CandidateTriangleRayT](candidatetrianglerayt-09hk)
 * [CommittedRayT](committedrayt-09c)
 * [CandidateRayInstanceCustomIndex](candidaterayinstancecustomindex-09ckq)
+* [CandidateClusterID](candidateclusterid-09gh)
 * [CommittedRayInstanceCustomIndex](committedrayinstancecustomindex-09ckq)
+* [CommittedClusterID](committedclusterid-09gh)
 * [CandidateRayInstanceId](candidaterayinstanceid-09ck)
 * [CommittedRayInstanceId](committedrayinstanceid-09ck)
 * [CandidateRayInstanceShaderBindingTableRecordOffset](candidaterayinstanceshaderbindingtablerecordoffset-09ckqx1218)
@@ -113,6 +115,7 @@ since it will propegate rules to children.
 :hidden:
 
 Abort <abort-0>
+CandidateClusterID <candidateclusterid-09gh>
 CandidateGeometryIndex <candidategeometryindex-09h>
 CandidateGetIntersectionTriangleVertexPositions <candidategetintersectiontrianglevertexpositions-09cow12>
 CandidateInstanceContributionToHitGroupIndex <candidateinstancecontributiontohitgroupindex-09htvy13>
@@ -143,6 +146,7 @@ CandidateWorldToObject3x4 <candidateworldtoobject3x4-09eg>
 CandidateWorldToObject4x3 <candidateworldtoobject4x3-09eg>
 CommitNonOpaqueTriangleHit <commitnonopaquetrianglehit-069fn>
 CommitProceduralPrimitiveHit <commitproceduralprimitivehit-06gp>
+CommittedClusterID <committedclusterid-09gh>
 CommittedGeometryIndex <committedgeometryindex-09h>
 CommittedGetIntersectionTriangleVertexPositions <committedgetintersectiontrianglevertexpositions-09cow12>
 CommittedInstanceContributionToHitGroupIndex <committedinstancecontributiontohitgroupindex-09htvy13>

@@ -1,5 +1,5 @@
-documented pages: 676
-undocumented pages: 545(44.6%)
+documented pages: 679
+undocumented pages: 546(44.6%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -456,6 +456,7 @@ raypayload
 spv_target_env_1_3
 CheckAccessFullyMapped
 D3DCOLORtoUBYTE4
+GetClusterID
 GetRenderTargetSampleCount
 GetRenderTargetSamplePosition
 HitTriangleVertexPosition

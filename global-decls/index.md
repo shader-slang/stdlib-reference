@@ -26,6 +26,7 @@ Slang's Standard Library defines the following global declarations:
 - [EvaluateAttributeSnapped](evaluateattributesnapped-08h)
 - [GeometryIndex](geometryindex-08)
 - [GetAttributeAtVertex](getattributeatvertex-03ce)
+- [GetClusterID](getclusterid-03ab)
 - [GetRenderTargetSampleCount](getrendertargetsamplecount-039fl)
 - [GetRenderTargetSamplePosition](getrendertargetsampleposition-039fl)
 - [GroupMemoryBarrier](groupmemorybarrier-05b)
