@@ -51,7 +51,7 @@ four 32-bit typeless address values.
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`RasterizerOrderedByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+`RasterizerOrderedByteAddressBuffer` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>`.
 ## Remarks
 
 

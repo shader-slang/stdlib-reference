@@ -23,7 +23,7 @@ Sampling state for filtered texture fetches.
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>
-`SamplerState` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>`.
+`SamplerState` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.Sampler>`.
 
 <!-- RTD-TOC-START
 ```{toctree}

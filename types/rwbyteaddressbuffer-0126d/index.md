@@ -80,7 +80,7 @@ four 32-bit typeless address values.
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`RWByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+`RWByteAddressBuffer` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>`.
 ### Conformance to IPhysicalBuffer
 `RWByteAddressBuffer` additionally conforms to `IPhysicalBuffer`.
 ### Conformance to IRWPhysicalBuffer

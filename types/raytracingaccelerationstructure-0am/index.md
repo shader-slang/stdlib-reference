@@ -23,7 +23,7 @@ Opaque type representing a ray-tracing acceleration structure.
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`RaytracingAccelerationStructure` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+`RaytracingAccelerationStructure` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>`.
 
 <!-- RTD-TOC-START
 ```{toctree}

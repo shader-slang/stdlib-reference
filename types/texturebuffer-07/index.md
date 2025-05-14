@@ -26,7 +26,7 @@ layout: stdlib-reference
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`TextureBuffer<T>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+`TextureBuffer<T>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>`.
 
 <!-- RTD-TOC-START
 ```{toctree}

@@ -36,7 +36,7 @@ The memory layout of the buffer.
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`ConsumeStructuredBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
+`ConsumeStructuredBuffer<T, L>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>` when the following conditions are met:
 
   * [L](index.html#typeparam-L) : [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index.html)
 ## Remarks

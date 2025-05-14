@@ -36,7 +36,7 @@ four 32-bit typeless address values.
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`ByteAddressBuffer` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+`ByteAddressBuffer` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>`.
 ### Conformance to IPhysicalBuffer
 `ByteAddressBuffer` additionally conforms to `IPhysicalBuffer`.
 ## Remarks
