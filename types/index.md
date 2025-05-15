@@ -18,10 +18,9 @@ Slang's Standard Library defines the following types:
 - [ConstantBuffer](constantbuffer-08/index)
 - [ConsumeStructuredBuffer](consumestructuredbuffer-07h/index)
 - [CoopMat](coopmat-04/index)
+- [CoopMatClampMode](coopmatclampmode-047c/index)
 - [CoopMatMatrixLayout](coopmatmatrixlayout-047d/index)
-- [CoopMatMatrixOperands](coopmatmatrixoperands-047d/index)
 - [CoopMatMatrixUse](coopmatmatrixuse-047d/index)
-- [CoopMatScope](coopmatscope-047/index)
 - [CoopVec](coopvec-04/index)
 - [CoopVecComponentType](coopveccomponenttype-047g/index)
 - [CoopVecMatrixLayout](coopvecmatrixlayout-047d/index)
@@ -39,6 +38,7 @@ Slang's Standard Library defines the following types:
 - [InputPatch](inputpatch-05/index)
 - [LineStream](linestream-04/index)
 - [MemoryOrder](memoryorder-06/index)
+- [MemoryScope](memoryscope-06/index)
 - [NativeString](nativestring-06/index)
 - [NodePayloadPtr](nodepayloadptr-04b)
 - [NullDifferential](nulldifferential-04/index)
@@ -180,10 +180,9 @@ Atomic <atomic-0/index>
 AtomicAdd <atomicadd-06/index>
 ConstantBuffer <constantbuffer-08/index>
 CoopMat <coopmat-04/index>
+CoopMatClampMode <coopmatclampmode-047c/index>
 CoopMatMatrixLayout <coopmatmatrixlayout-047d/index>
-CoopMatMatrixOperands <coopmatmatrixoperands-047d/index>
 CoopMatMatrixUse <coopmatmatrixuse-047d/index>
-CoopMatScope <coopmatscope-047/index>
 CoopVec <coopvec-04/index>
 CoopVecComponentType <coopveccomponenttype-047g/index>
 CoopVecMatrixLayout <coopvecmatrixlayout-047d/index>
@@ -194,6 +193,7 @@ DiffTensorView <difftensorview-04a/index>
 DifferentialPair <differentialpair-0c/index>
 DifferentialPtrPair <differentialptrpair-0cf/index>
 DispatchNodeInputRecord <dispatchnodeinputrecord-08ch/index>
+MemoryScope <memoryscope-06/index>
 NodePayloadPtr <nodepayloadptr-04b>
 NullDifferential <nulldifferential-04/index>
 Optional <optional-0/index>

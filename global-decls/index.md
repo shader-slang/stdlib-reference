@@ -161,8 +161,6 @@ Slang's Standard Library defines the following global declarations:
 - [clock2x32ARB](clock2x32arb-9ab)
 - [clockARB](clockarb-567)
 - [concat](concat)
-- [coopMatLoad](coopmatload-47)
-- [coopMatMulAdd](coopmatmuladd-47a)
 - [coopVecLoad](coopvecload-47)
 - [coopVecLoadGroupshared](coopvecloadgroupshared-47b)
 - [coopVecMatMul](coopvecmatmul-47a)
@@ -365,8 +363,6 @@ clip <clip>
 clock2x32ARB <clock2x32arb-9ab>
 clockARB <clockarb-567>
 concat <concat>
-coopMatLoad <coopmatload-47>
-coopMatMulAdd <coopmatmuladd-47a>
 coopVecLoad <coopvecload-47>
 coopVecLoadGroupshared <coopvecloadgroupshared-47b>
 coopVecMatMul <coopvecmatmul-47a>

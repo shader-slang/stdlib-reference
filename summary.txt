@@ -1,5 +1,5 @@
-documented pages: 679
-undocumented pages: 546(44.6%)
+documented pages: 684
+undocumented pages: 543(44.3%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -75,31 +75,29 @@ ConsumeStructuredBuffer<T, L>.Handle
 ConsumeStructuredBuffer<T, L>.descriptorAccess
 ConsumeStructuredBuffer<T, L>.init
 ConsumeStructuredBuffer<T, L>.kind
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.add
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.copyFrom<U>
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.div
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.equals
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.fill
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.getColumnCount
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.getCount
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.getRowCount
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.init
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.lessThan
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.lessThanOrEquals
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.load
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.loadAny<U, V:int>
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.mod
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.mul
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.neg
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.store
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.storeAny<U, V:int>
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.sub
-CoopMat<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>.subscript
-CoopMatMatrixLayout
-CoopMatMatrixOperands
-CoopMatMatrixUse
-CoopMatScope
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Load<matrixLayout:linalg.CoopMatMatrixLayout>
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.MapElement
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Reduce2x2
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.ReduceColumn<RM:int>
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.ReduceRow<RN:int>
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.ReduceRowAndColumn<RM:int, RN:int>
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Store<matrixLayout:linalg.CoopMatMatrixLayout>
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Transpose
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.add
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.div
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.equals
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.init
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.lessThan
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.lessThanOrEquals
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.mod
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.mul
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.neg
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.sub
+linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.subscript
+linalg::CoopMatClampMode
+linalg::CoopMatMatrixLayout
+linalg::CoopMatMatrixUse
 CoopVec<T, N:int>.getCount
 CoopVec<T, N:int>.init
 CoopVec<T, N:int>.matMulAddAccum<U, K:int>
@@ -156,6 +154,7 @@ LineStream<T>
 LineStream<T>.Append
 LineStream<T>.RestartStrip
 MemoryOrder
+MemoryScope
 NativeString
 NativeString.getBuffer
 NativeString.getLength
@@ -517,8 +516,6 @@ clip<T>
 clock2x32ARB
 clockARB
 concat<each T, each U>
-coopMatLoad<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse>
-coopMatMulAdd<T, U, V, S:CoopMatScope, M:int, K:int, N:int, RA:CoopMatMatrixUse, RB:CoopMatMatrixUse, RC:CoopMatMatrixUse>
 coopVecLoadGroupshared<N:int, T, M:int>
 createDynamicObject<T, U>
 cudaBlockDim
