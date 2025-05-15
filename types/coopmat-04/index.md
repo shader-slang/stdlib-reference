@@ -30,8 +30,6 @@ layout: stdlib-reference
 * [ReduceRowAndColumn](reducerowandcolumn-069c)
 * [Reduce2x2](reduce2x2-0)
 * [MapElement](mapelement-03)
-* [Store](store-0)
-* [Load](load-0)
 * [add](add)
 * [sub](sub)
 * [mul](mul)
@@ -41,6 +39,8 @@ layout: stdlib-reference
 * [equals](equals)
 * [lessThan](lessthan-4)
 * [lessThanOrEquals](lessthanorequals-48a)
+* [Load](load-0)
+* [Store](store-0)
 
 
 <!-- RTD-TOC-START

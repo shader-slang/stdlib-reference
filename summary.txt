@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 543(44.3%)
+undocumented pages: 553(44.7%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -262,6 +262,15 @@ StructuredBuffer<T, L>.kind
 StructuredBuffer<T, L>.subscript<TIndex>
 SubpassInput<T, isMS:int>
 SubpassInputMS<T, isMS:int>
+linalg::TensorLayout<Dim:uint, ClampMode:linalg.CoopMatClampMode>
+linalg.TensorLayout<1, ClampMode>.BlockSize
+linalg.TensorLayout<1, ClampMode>.ClampValue
+linalg.TensorLayout<1, ClampMode>.Dimension
+linalg.TensorLayout<1, ClampMode>.Slice
+linalg.TensorLayout<1, ClampMode>.Stride
+linalg::TensorLayout<Dim:uint, ClampMode:linalg.CoopMatClampMode>.init
+linalg.TensorView<1, HasDimensions, Dim0, 255, 255, 255, 255>.Clip
+linalg.TensorView<1, HasDimensions, Dim0, 255, 255, 255, 255>.Dimension
 TensorView<T>.InterlockedAdd
 TensorView<int>.InterlockedAnd<T>
 TensorView<int>.InterlockedCompareExchange
@@ -270,10 +279,11 @@ TensorView<int>.InterlockedMax<T>
 TensorView<int>.InterlockedMin
 TensorView<int>.InterlockedOr<T>
 TensorView<int>.InterlockedXor<T>
+linalg.TensorView<1, HasDimensions, Dim0, 255, 255, 255, 255>.Stride
 TensorView<T>.data_ptr
 TensorView<T>.data_ptr_at
 TensorView<T>.dims
-TensorView<T>.init
+linalg::TensorView<Dim:uint, HasDimensions:bool, p0:uint, p1:uint, p2:uint, p3:uint, p4:uint>.init
 TensorView<T>.load
 TensorView<T>.size
 TensorView<T>.store

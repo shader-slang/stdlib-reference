@@ -113,6 +113,7 @@ Slang's Standard Library defines the following types:
 - [StructuredBuffer](structuredbuffer-0a/index)
 - [SubpassInput](subpassinput-07)
 - [SubpassInputMS](subpassinputms-07cd)
+- [TensorLayout](tensorlayout-06/index)
 - [TensorView](tensorview-06/index)
 - [Texture1D](texture1d-08)
 - [Texture1DArray](texture1darray-089)
@@ -200,6 +201,7 @@ Optional <optional-0/index>
 ParameterBlock <parameterblock-09/index>
 Ptr <ptr-0/index>
 String <string-0/index>
+TensorLayout <tensorlayout-06/index>
 TensorView <tensorview-06/index>
 TorchTensor <torchtensor-05/index>
 Tuple <tuple-0/index>
