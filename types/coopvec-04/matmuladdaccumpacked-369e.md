@@ -69,3 +69,23 @@ layout: stdlib-reference
 ####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../byteaddressbuffer-04b/index.html)
 ####  <a id="decl-bias"></a>bias  : [ByteAddressBuffer](../byteaddressbuffer-04b/index.html)
 
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+Requires capability: `hlsl_coopvec_poc`.
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+
+

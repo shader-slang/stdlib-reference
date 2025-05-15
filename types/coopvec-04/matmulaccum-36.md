@@ -74,3 +74,23 @@ The stride in bytes between rows/columns of the matrix.
 The matrix to multiply with the input vector.
 
 
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+Requires capability: `hlsl_coopvec_poc`.
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+
+

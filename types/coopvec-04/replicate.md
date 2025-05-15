@@ -28,3 +28,23 @@ The scalar value to replicate across all elements.
 A new cooperative vector where each element equals the input value.
 
 
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+Requires capability: `hlsl_coopvec_poc`.
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+
+

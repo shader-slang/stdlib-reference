@@ -81,6 +81,7 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
+Requires capability: `hlsl_coopvec_poc`.
 #### cpp
 Available in all stages.
 
