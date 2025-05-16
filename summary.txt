@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 553(44.7%)
+undocumented pages: 556(44.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -59,6 +59,7 @@ AtomicAdd.storeOnce_backward<T>
 AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
+BindlessDescriptorOptions
 Buffer<T, format:int>
 ByteAddressBuffer.GetBufferPointer
 ByteAddressBuffer.Handle
@@ -104,6 +105,7 @@ CoopVec<T, N:int>.matMulAddAccum<U, K:int>
 CoopVec<T, N:int>.matMulAddAccumPacked<U, PackedK:int>
 CoopVec<T, N:int>.subscript
 DefaultDataLayout
+DefaultVkBindlessBindings
 DescriptorAccess
 DescriptorHandle<T>.equals
 DescriptorHandle<T>.init
@@ -320,6 +322,7 @@ Tuple<T>.equals
 Tuple<each T>.init
 Tuple<T>.lessThan
 Tuple<T>.lessThanOrEquals
+VkMutableBindlessBindings
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
 _Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords

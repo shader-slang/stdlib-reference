@@ -10,6 +10,7 @@ Slang's Standard Library defines the following types:
 - [Array](array-0/index)
 - [Atomic](atomic-0/index)
 - [AtomicAdd](atomicadd-06/index)
+- [BindlessDescriptorOptions](bindlessdescriptoroptions-08i/index)
 - [Buffer](buffer-0)
 - [BuiltInTriangleIntersectionAttributes](builtintriangleintersectionattributes-057fr/index)
 - [ByteAddressBuffer](byteaddressbuffer-04b/index)
@@ -25,6 +26,7 @@ Slang's Standard Library defines the following types:
 - [CoopVecComponentType](coopveccomponenttype-047g/index)
 - [CoopVecMatrixLayout](coopvecmatrixlayout-047d/index)
 - [DefaultDataLayout](defaultdatalayout-07b/index)
+- [DefaultVkBindlessBindings](defaultvkbindlessbindings-079h/index)
 - [DescriptorAccess](descriptoraccess-0a/index)
 - [DescriptorHandle](descriptorhandle-0a/index)
 - [DescriptorKind](descriptorkind-0a/index)
@@ -131,6 +133,7 @@ Slang's Standard Library defines the following types:
 - [TorchTensor](torchtensor-05/index)
 - [TriangleStream](trianglestream-08/index)
 - [Tuple](tuple-0/index)
+- [VkMutableBindlessBindings](vkmutablebindlessbindings-029h/index)
 - [WSampler1D](wsampler1d-019)
 - [WSampler1DArray](wsampler1darray-019a)
 - [WSampler2D](wsampler2d-019)
@@ -179,6 +182,7 @@ Texture types <texture_types>
 Array <array-0/index>
 Atomic <atomic-0/index>
 AtomicAdd <atomicadd-06/index>
+BindlessDescriptorOptions <bindlessdescriptoroptions-08i/index>
 ConstantBuffer <constantbuffer-08/index>
 CoopMat <coopmat-04/index>
 CoopMatClampMode <coopmatclampmode-047c/index>
@@ -187,6 +191,7 @@ CoopMatMatrixUse <coopmatmatrixuse-047d/index>
 CoopVec <coopvec-04/index>
 CoopVecComponentType <coopveccomponenttype-047g/index>
 CoopVecMatrixLayout <coopvecmatrixlayout-047d/index>
+DefaultVkBindlessBindings <defaultvkbindlessbindings-079h/index>
 DescriptorAccess <descriptoraccess-0a/index>
 DescriptorHandle <descriptorhandle-0a/index>
 DescriptorKind <descriptorkind-0a/index>
@@ -205,6 +210,7 @@ TensorLayout <tensorlayout-06/index>
 TensorView <tensorview-06/index>
 TorchTensor <torchtensor-05/index>
 Tuple <tuple-0/index>
+VkMutableBindlessBindings <vkmutablebindlessbindings-029h/index>
 _AttributeTargets <0attributetargets-01a/index>
 int8_t4_packed <int8_t4_packed>
 uint8_t4_packed <uint8_t4_packed>
