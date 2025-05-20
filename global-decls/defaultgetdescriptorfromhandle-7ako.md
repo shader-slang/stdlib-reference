@@ -15,7 +15,9 @@ to a descriptor object.
 ## Signature 
 
 <pre>
-<a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a> <a href="defaultgetdescriptorfromhandle-7ako.html">defaultGetDescriptorFromHandle</a>&lt;<a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a>&gt; <a href="defaultgetdescriptorfromhandle-7ako.html#decl-handleValue" class="code_param">handleValue</a>)
+<a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a> <a href="defaultgetdescriptorfromhandle-7ako.html">defaultGetDescriptorFromHandle</a>&lt;<a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a>&gt; <a href="defaultgetdescriptorfromhandle-7ako.html#decl-handleValue" class="code_param">handleValue</a>,
+    <a href="../types/bindlessdescriptoroptions-08i/index.html" class="code_type">BindlessDescriptorOptions</a> <a href="defaultgetdescriptorfromhandle-7ako.html#decl-bindlessOptions" class="code_param">bindlessOptions</a>)
     <span class='code_keyword'>where</span> <a href="defaultgetdescriptorfromhandle-7ako.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
 </pre>
@@ -27,4 +29,5 @@ to a descriptor object.
 ## Parameters
 
 ####  <a id="decl-handleValue"></a>handleValue  : [DescriptorHandle](../types/descriptorhandle-0a/index.html)\<[T](../types/descriptorhandle-0a/index.html#typeparam-T)\>
+####  <a id="decl-bindlessOptions"></a>bindlessOptions  : [BindlessDescriptorOptions](../types/bindlessdescriptoroptions-08i/index.html) = [BindlessDescriptorOptions](../types/bindlessdescriptoroptions-08i/index.html)\.[None](../types/bindlessdescriptoroptions-08i/index.html#decl-None)
 
