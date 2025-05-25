@@ -52,6 +52,6 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
-Requires capabilities: `spvGroupNonUniformBallot`, `spvGroupNonUniformPartitionedNV`.
+Requires capabilities: `spvGroupNonUniformBallot`, `spvGroupNonUniformArithmetic`, `spvGroupNonUniformPartitionedNV`.
 
 

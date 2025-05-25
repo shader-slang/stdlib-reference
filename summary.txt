@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 556(44.8%)
+undocumented pages: 577(45.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -507,12 +507,33 @@ WaveGetLaneCount
 WaveGetLaneIndex
 WaveIsFirstLane
 WaveMatch<T>
+WaveMultiBitAnd<T>
+WaveMultiBitOr<T>
+WaveMultiBitXor<T>
+WaveMultiMax<T>
+WaveMultiMin<T>
 WaveMultiPrefixBitAnd<T>
 WaveMultiPrefixBitOr<T>
 WaveMultiPrefixBitXor<T>
 WaveMultiPrefixCountBits
+WaveMultiPrefixExclusiveBitAnd<T>
+WaveMultiPrefixExclusiveBitOr<T>
+WaveMultiPrefixExclusiveBitXor<T>
+WaveMultiPrefixExclusiveMax<T>
+WaveMultiPrefixExclusiveMin<T>
+WaveMultiPrefixExclusiveProduct<T>
+WaveMultiPrefixExclusiveSum<T>
+WaveMultiPrefixInclusiveBitAnd<T>
+WaveMultiPrefixInclusiveBitOr<T>
+WaveMultiPrefixInclusiveBitXor<T>
+WaveMultiPrefixInclusiveMax<T>
+WaveMultiPrefixInclusiveMin<T>
+WaveMultiPrefixInclusiveProduct<T>
+WaveMultiPrefixInclusiveSum<T>
 WaveMultiPrefixProduct<T>
 WaveMultiPrefixSum<T>
+WaveMultiProduct<T>
+WaveMultiSum<T>
 WavePrefixCountBits
 WavePrefixProduct<T>
 WavePrefixSum<T>
