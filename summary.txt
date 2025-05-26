@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 577(45.8%)
+undocumented pages: 579(45.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -147,8 +147,10 @@ HitObject.GetObjectRayOrigin
 HitObject.GetObjectToWorld
 HitObject.GetShaderRecordBufferHandle
 HitObject.GetWorldToObject
+HitObject.LoadLocalRootArgumentsConstant
 HitObject.MakeMotionHit<attr_t>
 HitObject.MakeMotionMiss
+HitObject.SetShaderTableIndex
 HitObject.init
 InputPatch<T, N:int>
 InputPatch<T, N:int>.subscript<TIndex>

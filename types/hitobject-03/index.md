@@ -27,6 +27,8 @@ and its related functions are available in raytracing shader types only.
 * [IsNop](isnop-02)
 * [GetRayDesc](getraydesc-036)
 * [GetShaderTableIndex](getshadertableindex-039e)
+* [SetShaderTableIndex](setshadertableindex-039e)
+* [LoadLocalRootArgumentsConstant](loadlocalrootargumentsconstant-049dm)
 * [GetInstanceIndex](getinstanceindex-03b)
 * [GetInstanceID](getinstanceid-03bc)
 * [GetGeometryIndex](getgeometryindex-03b)
@@ -67,12 +69,14 @@ Invoke <invoke-0>
 IsHit <ishit-02>
 IsMiss <ismiss-02>
 IsNop <isnop-02>
+LoadLocalRootArgumentsConstant <loadlocalrootargumentsconstant-049dm>
 LoadLocalRootTableConstant <loadlocalroottableconstant-049di>
 MakeHit <makehit-04>
 MakeMiss <makemiss-04>
 MakeMotionHit <makemotionhit-04a>
 MakeMotionMiss <makemotionmiss-04a>
 MakeNop <makenop-04>
+SetShaderTableIndex <setshadertableindex-039e>
 TraceMotionRay <tracemotionray-05b>
 TraceRay <traceray-05>
 init <init>
