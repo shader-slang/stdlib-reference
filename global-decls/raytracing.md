@@ -27,6 +27,10 @@ This category contains the following declarations:
 
 #### [GetClusterID](getclusterid-03ab)
 
+#### [GetLssPositionsAndRadii](getlsspositionsandradii-036fi)
+
+#### [GetSpherePositionAndRadius](getspherepositionandradius-039hk)
+
 #### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](hit_kind_triangle_back_face-01245679abcdefgijklnopq)
 
 #### [HIT\_KIND\_TRIANGLE\_FRONT\_FACE](hit_kind_triangle_front_face-01245679abcdefgijklmopqr)
@@ -40,6 +44,10 @@ This category contains the following declarations:
 #### [InstanceID](instanceid-089)
 
 #### [InstanceIndex](instanceindex-08)
+
+#### [IsLssHit](islsshit-025)
+
+#### [IsSphereHit](isspherehit-028)
 
 #### [ObjectRayDirection](objectraydirection-069)
 
@@ -118,6 +126,8 @@ DispatchRaysDimensions <dispatchraysdimensions-08c>
 DispatchRaysIndex <dispatchraysindex-08c>
 GeometryIndex <geometryindex-08>
 GetClusterID <getclusterid-03ab>
+GetLssPositionsAndRadii <getlsspositionsandradii-036fi>
+GetSpherePositionAndRadius <getspherepositionandradius-039hk>
 HIT_KIND_TRIANGLE_BACK_FACE <hit_kind_triangle_back_face-01245679abcdefgijklnopq>
 HIT_KIND_TRIANGLE_FRONT_FACE <hit_kind_triangle_front_face-01245679abcdefgijklmopqr>
 HitKind <hitkind-03>
@@ -125,6 +135,8 @@ HitTriangleVertexPosition <hittrianglevertexposition-03bh>
 IgnoreHit <ignorehit-06>
 InstanceID <instanceid-089>
 InstanceIndex <instanceindex-08>
+IsLssHit <islsshit-025>
+IsSphereHit <isspherehit-028>
 ObjectRayDirection <objectraydirection-069>
 ObjectRayOrigin <objectrayorigin-069>
 ObjectToWorld <objecttoworld-068>
