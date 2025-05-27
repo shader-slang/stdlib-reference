@@ -27,6 +27,3 @@ A buffer descriptor.
 ####  <a id="decl-AccelerationStructure"></a>_AccelerationStructure = _
 A sampler state descriptor.
 
-####  <a id="decl-TexelBuffer"></a>_TexelBuffer = _
-A ray tracing acceleration structure descriptor.
-

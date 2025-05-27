@@ -50,9 +50,6 @@ Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in `raygen` stage only.
 
-#### cuda
-Available in `raygen` stage only.
-
 #### spirv
 Available in `raygen` stage only.
 

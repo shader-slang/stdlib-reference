@@ -51,7 +51,17 @@ This category contains the following declarations:
 
 #### [WaveMatch\<T\>](wavematch-04)
 
+#### [WaveMultiPrefixBitAnd\<T\>](wavemultiprefixbitand-049fi)
+
+#### [WaveMultiPrefixBitOr\<T\>](wavemultiprefixbitor-049fi)
+
+#### [WaveMultiPrefixBitXor\<T\>](wavemultiprefixbitxor-049fi)
+
 #### [WaveMultiPrefixCountBits](wavemultiprefixcountbits-049fk)
+
+#### [WaveMultiPrefixProduct\<T\>](wavemultiprefixproduct-049f)
+
+#### [WaveMultiPrefixSum\<T\>](wavemultiprefixsum-049f)
 
 #### [WavePrefixCountBits](waveprefixcountbits-04af)
 
@@ -96,7 +106,12 @@ WaveGetLaneCount <wavegetlanecount-047b>
 WaveGetLaneIndex <wavegetlaneindex-047b>
 WaveIsFirstLane <waveisfirstlane-046b>
 WaveMatch <wavematch-04>
+WaveMultiPrefixBitAnd <wavemultiprefixbitand-049fi>
+WaveMultiPrefixBitOr <wavemultiprefixbitor-049fi>
+WaveMultiPrefixBitXor <wavemultiprefixbitxor-049fi>
 WaveMultiPrefixCountBits <wavemultiprefixcountbits-049fk>
+WaveMultiPrefixProduct <wavemultiprefixproduct-049f>
+WaveMultiPrefixSum <wavemultiprefixsum-049f>
 WavePrefixCountBits <waveprefixcountbits-04af>
 WavePrefixProduct <waveprefixproduct-04a>
 WavePrefixSum <waveprefixsum-04a>
