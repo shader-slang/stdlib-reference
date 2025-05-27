@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 579(45.8%)
+undocumented pages: 587(46.2%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -142,11 +142,15 @@ DifferentialPtrPair<T>.init
 DifferentialPtrPair<T>.p
 DifferentialPtrPair<T>.v
 HitObject.GetCurrentTime
+HitObject.GetLssPositionsAndRadii
 HitObject.GetObjectRayDirection
 HitObject.GetObjectRayOrigin
 HitObject.GetObjectToWorld
 HitObject.GetShaderRecordBufferHandle
+HitObject.GetSpherePositionAndRadius
 HitObject.GetWorldToObject
+HitObject.IsLssHit
+HitObject.IsSphereHit
 HitObject.LoadLocalRootArgumentsConstant
 HitObject.MakeMotionHit<attr_t>
 HitObject.MakeMotionMiss
@@ -471,10 +475,14 @@ spv_target_env_1_3
 CheckAccessFullyMapped
 D3DCOLORtoUBYTE4
 GetClusterID
+GetLssPositionsAndRadii
 GetRenderTargetSampleCount
 GetRenderTargetSamplePosition
+GetSpherePositionAndRadius
 HitTriangleVertexPosition
 IsHelperLane
+IsLssHit
+IsSphereHit
 Process2DQuadTessFactorsAvg
 Process2DQuadTessFactorsMax
 Process2DQuadTessFactorsMin

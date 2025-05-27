@@ -35,6 +35,10 @@ and its related functions are available in raytracing shader types only.
 * [GetPrimitiveIndex](getprimitiveindex-03c)
 * [GetHitKind](gethitkind-036)
 * [GetClusterID](getclusterid-03ab)
+* [GetSpherePositionAndRadius](getspherepositionandradius-039hk)
+* [GetLssPositionsAndRadii](getlsspositionsandradii-036fi)
+* [IsSphereHit](isspherehit-028)
+* [IsLssHit](islsshit-025)
 * [GetWorldToObject](getworldtoobject-038a)
 * [GetObjectToWorld](getobjecttoworld-039b)
 * [GetCurrentTime](getcurrenttime-03a)
@@ -57,6 +61,7 @@ GetGeometryIndex <getgeometryindex-03b>
 GetHitKind <gethitkind-036>
 GetInstanceID <getinstanceid-03bc>
 GetInstanceIndex <getinstanceindex-03b>
+GetLssPositionsAndRadii <getlsspositionsandradii-036fi>
 GetObjectRayDirection <getobjectraydirection-039c>
 GetObjectRayOrigin <getobjectrayorigin-039c>
 GetObjectToWorld <getobjecttoworld-039b>
@@ -64,11 +69,14 @@ GetPrimitiveIndex <getprimitiveindex-03c>
 GetRayDesc <getraydesc-036>
 GetShaderRecordBufferHandle <getshaderrecordbufferhandle-039fl>
 GetShaderTableIndex <getshadertableindex-039e>
+GetSpherePositionAndRadius <getspherepositionandradius-039hk>
 GetWorldToObject <getworldtoobject-038a>
 Invoke <invoke-0>
 IsHit <ishit-02>
+IsLssHit <islsshit-025>
 IsMiss <ismiss-02>
 IsNop <isnop-02>
+IsSphereHit <isspherehit-028>
 LoadLocalRootArgumentsConstant <loadlocalrootargumentsconstant-049dm>
 LoadLocalRootTableConstant <loadlocalroottableconstant-049di>
 MakeHit <makehit-04>
