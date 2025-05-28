@@ -29,5 +29,5 @@ to a descriptor object.
 ## Parameters
 
 ####  <a id="decl-handleValue"></a>handleValue  : [DescriptorHandle](../types/descriptorhandle-0a/index.html)\<[T](../types/descriptorhandle-0a/index.html#typeparam-T)\>
-####  <a id="decl-bindlessOptions"></a>bindlessOptions  : [BindlessDescriptorOptions](../types/bindlessdescriptoroptions-08i/index.html) = [BindlessDescriptorOptions](../types/bindlessdescriptoroptions-08i/index.html)\.[None](../types/bindlessdescriptoroptions-08i/index.html#decl-None)
+####  <a id="decl-bindlessOptions"></a>bindlessOptions  : [BindlessDescriptorOptions](../types/bindlessdescriptoroptions-08i/index.html) = [BindlessDescriptorOptions](../types/bindlessdescriptoroptions-08i/index.html)\.[VkMutable](../types/bindlessdescriptoroptions-08i/index.html#decl-VkMutable)
 
