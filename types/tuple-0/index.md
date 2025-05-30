@@ -32,6 +32,7 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 * [lessThan](lessthan-4)
 * [lessThanOrEquals](lessthanorequals-48a)
 * [equals](equals)
+* [MapElement](mapelement-03)
 * [dzero](dzero)
 * [dadd](dadd)
 * [dmul](dmul)
@@ -53,6 +54,7 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 :hidden:
 
 Differential <differential-0>
+MapElement <mapelement-03>
 dadd <dadd>
 dmul <dmul>
 dzero <dzero>

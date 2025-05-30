@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 587(46.2%)
+undocumented pages: 588(46.2%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -321,6 +321,7 @@ TriangleStream<T>
 TriangleStream<T>.Append
 TriangleStream<T>.RestartStrip
 Tuple<T>.Differential
+Tuple<linalg.CoopMat<T, S, M, N, R>, expand linalg.CoopMat<each Ts, S, M, N, R>>.MapElement
 Tuple<T>.dadd
 Tuple<T>.dmul<U>
 Tuple<T>.dzero
