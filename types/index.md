@@ -26,6 +26,7 @@ Slang's Standard Library defines the following types:
 - [CoopVecComponentType](coopveccomponenttype-047g/index)
 - [CoopVecMatrixLayout](coopvecmatrixlayout-047d/index)
 - [DefaultDataLayout](defaultdatalayout-07b/index)
+- [DefaultPushConstantDataLayout](defaultpushconstantdatalayout-07bjn/index)
 - [DefaultVkBindlessBindings](defaultvkbindlessbindings-079h/index)
 - [DescriptorAccess](descriptoraccess-0a/index)
 - [DescriptorHandle](descriptorhandle-0a/index)

@@ -7,6 +7,8 @@ This category contains the following declarations:
 
 #### [DefaultDataLayout](defaultdatalayout-07b/index)
 
+#### [DefaultPushConstantDataLayout](defaultpushconstantdatalayout-07bjn/index)
+
 #### [MemoryOrder](memoryorder-06/index)
 
 #### [NativeString](nativestring-06/index)
@@ -38,6 +40,7 @@ This category contains the following declarations:
 :hidden:
 
 DefaultDataLayout <defaultdatalayout-07b/index>
+DefaultPushConstantDataLayout <defaultpushconstantdatalayout-07bjn/index>
 MemoryOrder <memoryorder-06/index>
 NativeString <nativestring-06/index>
 ScalarDataLayout <scalardatalayout-06a/index>

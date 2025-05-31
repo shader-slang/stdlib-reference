@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 588(46.2%)
+undocumented pages: 589(46.3%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -105,6 +105,7 @@ CoopVec<T, N:int>.matMulAddAccum<U, K:int>
 CoopVec<T, N:int>.matMulAddAccumPacked<U, PackedK:int>
 CoopVec<T, N:int>.subscript
 DefaultDataLayout
+DefaultPushConstantDataLayout
 DefaultVkBindlessBindings
 DescriptorAccess
 DescriptorHandle<T>.equals
