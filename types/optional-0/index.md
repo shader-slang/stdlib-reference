@@ -4,6 +4,10 @@ layout: stdlib-reference
 
 # struct Optional\<T\>
 
+*Conforms to:* [IDefaultInitializable](../../interfaces/idefaultinitializable-018/index.html)
+
+*Conditionally conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html), [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
+
 ## Description
 
 <span class='code'><a href="index.html" class="code_type">Optional</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a type with one extra value than <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>, this extra value is
@@ -36,13 +40,30 @@ If this <span class='code'><a href="index.html" class="code_type">Optional</a></
 ## Methods
 
 * [init](init)
+* [dzero](dzero)
+* [dadd](dadd)
+* [dmul](dmul)
 
+## Conditional Conformances
+
+### Conformance to IDifferentiable
+`Optional<T>` additionally conforms to `IDifferentiable` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
+### Conformance to IDifferentiablePtrType
+`Optional<T>` additionally conforms to `IDifferentiablePtrType` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 <!-- RTD-TOC-START
 ```{toctree}
 :titlesonly:
 :hidden:
 
+Differential <differential-0>
+dadd <dadd>
+dmul <dmul>
+dzero <dzero>
 hasValue <hasvalue-3>
 init <init>
 value <value>

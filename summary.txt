@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 589(46.3%)
+undocumented pages: 593(46.4%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -176,6 +176,10 @@ NullDifferential.dadd
 NullDifferential.dmul<T>
 NullDifferential.dummy
 NullDifferential.dzero
+Optional<T>.Differential
+Optional<T>.dadd
+Optional<T>.dmul<U>
+Optional<T>.dzero
 Optional<T>.hasValue
 Optional<T>.init
 OutputIndices<T, MAX_PRIMITIVES:uint>
