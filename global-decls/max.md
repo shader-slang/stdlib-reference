@@ -55,7 +55,7 @@ Maximum.
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
@@ -130,6 +130,26 @@ Available in all stages.
 
 
 ### Capability Set 2
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+Requires capability: `hlsl_coopvec_poc`.
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+Requires capability: `optix_coopvec`.
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+
+### Capability Set 3
 
 Defined for the following targets:
 
