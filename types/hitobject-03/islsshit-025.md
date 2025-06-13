@@ -22,13 +22,13 @@ layout: stdlib-reference
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `closesthit`, `anyhit`.
+Available in stages: `raygen`, `closesthit`, `anyhit`.
 
 #### cuda
-Available in stages: `closesthit`, `anyhit`.
+Available in stages: `raygen`, `closesthit`, `anyhit`.
 
 #### spirv
-Available in stages: `closesthit`, `anyhit`.
+Available in stages: `raygen`, `closesthit`, `anyhit`.
 
 Requires capability: `spvRayTracingKHR`.
 
