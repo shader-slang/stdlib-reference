@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# CoopVec\<T, N:int\>\.matMulAccumPacked
+# CoopVec\<T, int N\>\.matMulAccumPacked
 
 ## Description
 
@@ -13,7 +13,7 @@ Multiply the given input Cooperative vector with the given matrix and accumulate
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="matmulaccumpacked-36b.html">matMulAccumPacked</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>:<span class="code_keyword">int</span>&gt;(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="matmulaccumpacked-36b.html">matMulAccumPacked</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>&gt;(
     <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="matmulaccumpacked-36b.html#decl-input" class="code_param">input</a>,
     <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccumpacked-36b.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-k" class="code_param">k</a>,
@@ -26,7 +26,7 @@ Multiply the given input Cooperative vector with the given matrix and accumulate
     <span class='code_keyword'>where</span> <a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="matmulaccumpacked-36b.html">matMulAccumPacked</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>:<span class="code_keyword">int</span>&gt;(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="matmulaccumpacked-36b.html">matMulAccumPacked</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>&gt;(
     <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="matmulaccumpacked-36b.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccumpacked-36b.html#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="matmulaccumpacked-36b.html#decl-input" class="code_param">input</a>,
     <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccumpacked-36b.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <span class="code_keyword">int</span> <a href="matmulaccumpacked-36b.html#decl-k" class="code_param">k</a>,

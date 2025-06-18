@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct RayQuery\<rayFlagsGeneric:uint\>
+# struct RayQuery\<uint rayFlagsGeneric\>
 
 ## Description
 

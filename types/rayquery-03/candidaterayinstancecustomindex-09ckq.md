@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CandidateRayInstanceCustomIndex
+# RayQuery\<uint rayFlagsGeneric\>\.CandidateRayInstanceCustomIndex
 
 ## Description
 
@@ -13,7 +13,7 @@ Gets the custom index of the instance containing the candidate hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidaterayinstancecustomindex-09ckq.html">CandidateRayInstanceCustomIndex</a>();
+<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="candidaterayinstancecustomindex-09ckq.html">CandidateRayInstanceCustomIndex</a>();
 
 </pre>
 

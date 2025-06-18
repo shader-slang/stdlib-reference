@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct InputPatch\<T, N:int\>
+# struct InputPatch\<T, int N\>
 
 ## Description
 

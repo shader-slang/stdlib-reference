@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct linalg::TensorView\<Dim:uint, HasDimensions:bool, p0:uint, p1:uint, p2:uint, p3:uint, p4:uint\>
+# struct linalg::TensorView\<uint Dim, bool HasDimensions, uint p0, uint p1, uint p2, uint p3, uint p4\>
 
 ## Generic Parameters
 

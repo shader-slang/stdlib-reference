@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a>[<a href="makearrayfromelement-49d.html#decl-N" class="code_var">N</a>] <a href="makearrayfromelement-49d.html">makeArrayFromElement</a>&lt;<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a>, <a href="makearrayfromelement-49d.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a> <a href="makearrayfromelement-49d.html#decl-element" class="code_param">element</a>);
+<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a>[<a href="makearrayfromelement-49d.html#decl-N" class="code_var">N</a>] <a href="makearrayfromelement-49d.html">makeArrayFromElement</a>&lt;<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="makearrayfromelement-49d.html#decl-N" class="code_var">N</a>&gt;(<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a> <a href="makearrayfromelement-49d.html#decl-element" class="code_param">element</a>);
 
 </pre>
 

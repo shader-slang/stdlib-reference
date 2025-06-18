@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias RWSampler2DMSArray\<T, sampleCount:int, format:int\>
+# typealias RWSampler2DMSArray\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a read-write, multisampled 2D combined texture-sampler ar
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="rwsampler2dmsarray-012abcd.html" class="code_type">RWSampler2DMSArray</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="rwsampler2dmsarray-012abcd.html" class="code_type">RWSampler2DMSArray</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape2d-028/index.html" class="code_type">__Shape2D</a>, 1, 1, sampleCount, 1, 0, 1, format&gt;;
 </pre>
 

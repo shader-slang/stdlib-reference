@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct linalg::TensorLayout\<Dim:uint, ClampMode:linalg\.CoopMatClampMode\>
+# struct linalg::TensorLayout\<uint Dim, linalg\.CoopMatClampMode ClampMode\>
 
 ## Generic Parameters
 

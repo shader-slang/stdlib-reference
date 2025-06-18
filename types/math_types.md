@@ -5,9 +5,9 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [matrix\<T, R:int, C:int, L:int\>](matrix/index)
+#### [matrix\<T, int R, int C, int L\>](matrix/index)
 
-#### [vector\<T, N:int\>](vector/index)
+#### [vector\<T, int N\>](vector/index)
 
 
 <!-- RTD-TOC-START

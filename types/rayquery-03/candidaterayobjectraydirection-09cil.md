@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CandidateRayObjectRayDirection
+# RayQuery\<uint rayFlagsGeneric\>\.CandidateRayObjectRayDirection
 
 ## Description
 
@@ -13,7 +13,7 @@ Gets the ray direction in object space for the candidate hit.
 ## Signature 
 
 <pre>
-<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidaterayobjectraydirection-09cil.html">CandidateRayObjectRayDirection</a>();
+<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="candidaterayobjectraydirection-09cil.html">CandidateRayObjectRayDirection</a>();
 
 </pre>
 

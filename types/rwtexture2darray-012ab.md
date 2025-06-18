@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias RWTexture2DArray\<T, sampleCount:int, format:int\>
+# typealias RWTexture2DArray\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a read-write 2D texture array.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="rwtexture2darray-012ab.html" class="code_type">RWTexture2DArray</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="rwtexture2darray-012ab.html" class="code_type">RWTexture2DArray</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape2d-028/index.html" class="code_type">__Shape2D</a>, 1, 0, sampleCount, 1, 0, 0, format&gt;;
 </pre>
 

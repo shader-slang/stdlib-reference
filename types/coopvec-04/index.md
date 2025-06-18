@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct CoopVec\<T, N:int\>
+# struct CoopVec\<T, int N\>
 
 *Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
 

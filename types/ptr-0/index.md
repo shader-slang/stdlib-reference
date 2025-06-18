@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct Ptr\<T, addrSpace:uint64\_t\>
+# struct Ptr\<T, uint64\_t addrSpace\>
 
 ## Description
 

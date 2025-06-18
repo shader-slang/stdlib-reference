@@ -16,7 +16,7 @@ layout: stdlib-reference
 <a href="store_backward.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">IDiffTensorWrapper</a>.<a href="store_backward.html">store_backward</a>&lt;<a href="store_backward.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">uint</span> <a href="store_backward.html#decl-i" class="code_param">i</a>)
     <span class='code_keyword'>where</span> <a href="store_backward.html#typeparam-T" class="code_type">T</a> : <a href="../0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="store_backward.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">IDiffTensorWrapper</a>.<a href="store_backward.html">store_backward</a>&lt;<a href="store_backward.html#typeparam-T" class="code_type">T</a>, <a href="store_backward.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+<a href="store_backward.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">IDiffTensorWrapper</a>.<a href="store_backward.html">store_backward</a>&lt;<a href="store_backward.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="store_backward.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="store_backward.html#decl-N" class="code_var">N</a>&gt; <a href="store_backward.html#decl-i" class="code_param">i</a>)
     <span class='code_keyword'>where</span> <a href="store_backward.html#typeparam-T" class="code_type">T</a> : <a href="../0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 

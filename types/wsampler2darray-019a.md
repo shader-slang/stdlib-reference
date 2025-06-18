@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias WSampler2DArray\<T, sampleCount:int, format:int\>
+# typealias WSampler2DArray\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a write-only 2D combined texture-sampler array.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="wsampler2darray-019a.html" class="code_type">WSampler2DArray</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="wsampler2darray-019a.html" class="code_type">WSampler2DArray</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape2d-028/index.html" class="code_type">__Shape2D</a>, 1, 0, sampleCount, 2, 0, 1, format&gt;;
 </pre>
 

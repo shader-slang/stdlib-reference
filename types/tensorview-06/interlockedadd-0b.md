@@ -18,7 +18,7 @@ layout: stdlib-reference
     <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-val" class="code_param">val</a>,
     <span class="code_keyword">out</span> <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-oldVal" class="code_param">oldVal</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedadd-0b.html">InterlockedAdd</a>&lt;<a href="interlockedadd-0b.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedadd-0b.html">InterlockedAdd</a>&lt;<span class="code_keyword">int</span> <a href="interlockedadd-0b.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedadd-0b.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedadd-0b.html#decl-index" class="code_param">index</a>,
     <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-val" class="code_param">val</a>,
     <span class="code_keyword">out</span> <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-oldVal" class="code_param">oldVal</a>);

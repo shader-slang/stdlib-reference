@@ -15,11 +15,11 @@ Find first set bit starting at high bit and working down.
 <pre>
 <span class="code_keyword">int</span> <a href="firstbithigh.html">firstbithigh</a>(<span class="code_keyword">int</span> <a href="firstbithigh.html#decl-value" class="code_param">value</a>);
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html">firstbithigh</a>&lt;<a href="firstbithigh.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html#decl-value" class="code_param">value</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html">firstbithigh</a>&lt;<span class="code_keyword">int</span> <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html#decl-value" class="code_param">value</a>);
 
 <span class="code_keyword">uint</span> <a href="firstbithigh.html">firstbithigh</a>(<span class="code_keyword">uint</span> <a href="firstbithigh.html#decl-value" class="code_param">value</a>);
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html">firstbithigh</a>&lt;<a href="firstbithigh.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html#decl-value" class="code_param">value</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html">firstbithigh</a>&lt;<span class="code_keyword">int</span> <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbithigh.html#decl-N" class="code_var">N</a>&gt; <a href="firstbithigh.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

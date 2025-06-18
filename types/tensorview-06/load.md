@@ -37,7 +37,7 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <a href="load.html#decl-i3" class="code_param">i3</a>,
     <span class="code_keyword">uint</span> <a href="load.html#decl-i4" class="code_param">i4</a>);
 
-<a href="index.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="load.html">load</a>&lt;<a href="load.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="load.html#decl-N" class="code_var">N</a>&gt; <a href="load.html#decl-index" class="code_param">index</a>);
+<a href="index.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="load.html">load</a>&lt;<span class="code_keyword">int</span> <a href="load.html#decl-N" class="code_var">N</a>&gt;(<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="load.html#decl-N" class="code_var">N</a>&gt; <a href="load.html#decl-index" class="code_param">index</a>);
 
 </pre>
 

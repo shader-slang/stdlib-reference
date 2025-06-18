@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias TextureCube\<T, sampleCount:int, format:int\>
+# typealias TextureCube\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a read-only Cube texture.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="texturecube-07.html" class="code_type">TextureCube</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="texturecube-07.html" class="code_type">TextureCube</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shapecube-027/index.html" class="code_type">__ShapeCube</a>, 0, 0, sampleCount, 0, 0, 0, format&gt;;
 </pre>
 

@@ -15,7 +15,7 @@ Reverse order of bits.
 <pre>
 <span class="code_keyword">uint</span> <a href="reversebits.html">reversebits</a>(<span class="code_keyword">uint</span> <a href="reversebits.html#decl-value" class="code_param">value</a>);
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html">reversebits</a>&lt;<a href="reversebits.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html#decl-value" class="code_param">value</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html">reversebits</a>&lt;<span class="code_keyword">int</span> <a href="reversebits.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

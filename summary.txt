@@ -39,12 +39,12 @@ AppendStructuredBuffer<T, L>.Handle
 AppendStructuredBuffer<T, L>.descriptorAccess
 AppendStructuredBuffer<T, L>.init
 AppendStructuredBuffer<T, L>.kind
-Array<T, N:int>
+Array<T, int N>
 T[N].Differential
 T[N].dadd
 T[N].dmul<U>
 T[N].dzero
-Array<T, N:int>.getCount
+Array<T, int N>.getCount
 Atomic<T>.compareExchange
 Atomic<T>.exchange
 Atomic<T>.load
@@ -60,7 +60,7 @@ AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
 BindlessDescriptorOptions
-Buffer<T, format:int>
+Buffer<T, int format>
 ByteAddressBuffer.GetBufferPointer
 ByteAddressBuffer.Handle
 ByteAddressBuffer.LoadByteOffset<T>
@@ -76,34 +76,34 @@ ConsumeStructuredBuffer<T, L>.Handle
 ConsumeStructuredBuffer<T, L>.descriptorAccess
 ConsumeStructuredBuffer<T, L>.init
 ConsumeStructuredBuffer<T, L>.kind
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Load<matrixLayout:linalg.CoopMatMatrixLayout>
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.MapElement
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Reduce2x2
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.ReduceColumn<RM:int>
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.ReduceRow<RN:int>
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.ReduceRowAndColumn<RM:int, RN:int>
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Store<matrixLayout:linalg.CoopMatMatrixLayout>
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.Transpose
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.add
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.div
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.equals
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.init
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.lessThan
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.lessThanOrEquals
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.mod
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.mul
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.neg
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.sub
-linalg::CoopMat<T, S:MemoryScope, M:int, N:int, R:linalg.CoopMatMatrixUse>.subscript
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Load<linalg.CoopMatMatrixLayout matrixLayout>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.MapElement
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Reduce2x2
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceColumn<int RM>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceRow<int RN>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceRowAndColumn<int RM, int RN>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Store<linalg.CoopMatMatrixLayout matrixLayout>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Transpose
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.add
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.div
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.equals
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.init
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.lessThan
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.lessThanOrEquals
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.mod
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.mul
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.neg
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.sub
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.subscript
 linalg::CoopMatClampMode
 linalg::CoopMatMatrixLayout
 linalg::CoopMatMatrixUse
-CoopVec<T, N:int>.getCount
-CoopVec<T, N:int>.init
-CoopVec<T, N:int>.matMulAddAccum<U, K:int>
-CoopVec<T, N:int>.matMulAddAccumPacked<U, PackedK:int>
-CoopVec<T, N:int>.subscript
+CoopVec<T, int N>.getCount
+CoopVec<T, int N>.init
+CoopVec<T, int N>.matMulAddAccum<U, int K>
+CoopVec<T, int N>.matMulAddAccumPacked<U, int PackedK>
+CoopVec<T, int N>.subscript
 DefaultDataLayout
 DefaultPushConstantDataLayout
 DefaultVkBindlessBindings
@@ -157,8 +157,8 @@ HitObject.MakeMotionHit<attr_t>
 HitObject.MakeMotionMiss
 HitObject.SetShaderTableIndex
 HitObject.init
-InputPatch<T, N:int>
-InputPatch<T, N:int>.subscript<TIndex>
+InputPatch<T, int N>
+InputPatch<T, int N>.subscript<TIndex>
 LineStream<T>
 LineStream<T>.Append
 LineStream<T>.RestartStrip
@@ -182,23 +182,23 @@ Optional<T>.dmul<U>
 Optional<T>.dzero
 Optional<T>.hasValue
 Optional<T>.init
-OutputIndices<T, MAX_PRIMITIVES:uint>
-OutputIndices<T, MAX_PRIMITIVES:uint>.subscript
-OutputPatch<T, N:int>
-OutputPatch<T, N:int>.subscript<TIndex>
-OutputPrimitives<T, MAX_PRIMITIVES:uint>
-OutputPrimitives<T, MAX_PRIMITIVES:uint>.subscript
-OutputVertices<T, MAX_VERTS:uint>
-OutputVertices<T, MAX_VERTS:uint>._metalSetVertex
-OutputVertices<T, MAX_VERTS:uint>._setVertex
-OutputVertices<T, MAX_VERTS:uint>.subscript
+OutputIndices<T, uint MAX_PRIMITIVES>
+OutputIndices<T, uint MAX_PRIMITIVES>.subscript
+OutputPatch<T, int N>
+OutputPatch<T, int N>.subscript<TIndex>
+OutputPrimitives<T, uint MAX_PRIMITIVES>
+OutputPrimitives<T, uint MAX_PRIMITIVES>.subscript
+OutputVertices<T, uint MAX_VERTS>
+OutputVertices<T, uint MAX_VERTS>._metalSetVertex
+OutputVertices<T, uint MAX_VERTS>._setVertex
+OutputVertices<T, uint MAX_VERTS>.subscript
 ParameterBlock<T>
 PointStream<T>
 PointStream<T>.Append
 PointStream<T>.RestartStrip
-Ptr<T, addrSpace:uint64_t>.init<U>
-Ptr<T, addrSpace:uint64_t>.subscript<TInt>
-RWBuffer<T, format:int>
+Ptr<T, uint64_t addrSpace>.init<U>
+Ptr<T, uint64_t addrSpace>.subscript<TInt>
+RWBuffer<T, int format>
 RWByteAddressBuffer.GetBufferPointer
 RWByteAddressBuffer.Handle
 RWByteAddressBuffer.InterlockedAddF64
@@ -213,7 +213,7 @@ RWStructuredBuffer<T, L>.getCount
 RWStructuredBuffer<T, L>.init
 RWStructuredBuffer<T, L>.kind
 RWStructuredBuffer<T, L>.subscript<TIndex>
-RasterizerOrderedBuffer<T, format:int>
+RasterizerOrderedBuffer<T, int format>
 RasterizerOrderedByteAddressBuffer.Handle
 RasterizerOrderedByteAddressBuffer.descriptorAccess
 RasterizerOrderedByteAddressBuffer.init
@@ -224,25 +224,25 @@ RasterizerOrderedStructuredBuffer<T, L>.getCount
 RasterizerOrderedStructuredBuffer<T, L>.init
 RasterizerOrderedStructuredBuffer<T, L>.kind
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
-RayQuery<rayFlagsGeneric:uint>.CandidateGeometryIndex
-RayQuery<rayFlagsGeneric:uint>.CandidateInstanceContributionToHitGroupIndex
-RayQuery<rayFlagsGeneric:uint>.CandidateInstanceID
-RayQuery<rayFlagsGeneric:uint>.CandidateInstanceIndex
-RayQuery<rayFlagsGeneric:uint>.CandidateObjectRayDirection
-RayQuery<rayFlagsGeneric:uint>.CandidateObjectRayOrigin
-RayQuery<rayFlagsGeneric:uint>.CandidatePrimitiveIndex
-RayQuery<rayFlagsGeneric:uint>.CandidateTriangleBarycentrics
-RayQuery<rayFlagsGeneric:uint>.CandidateTriangleFrontFace
-RayQuery<rayFlagsGeneric:uint>.CommittedGeometryIndex
-RayQuery<rayFlagsGeneric:uint>.CommittedInstanceContributionToHitGroupIndex
-RayQuery<rayFlagsGeneric:uint>.CommittedInstanceID
-RayQuery<rayFlagsGeneric:uint>.CommittedInstanceIndex
-RayQuery<rayFlagsGeneric:uint>.CommittedObjectRayDirection
-RayQuery<rayFlagsGeneric:uint>.CommittedObjectRayOrigin
-RayQuery<rayFlagsGeneric:uint>.CommittedPrimitiveIndex
-RayQuery<rayFlagsGeneric:uint>.CommittedTriangleBarycentrics
-RayQuery<rayFlagsGeneric:uint>.CommittedTriangleFrontFace
-RayQuery<rayFlagsGeneric:uint>.RayFlags
+RayQuery<uint rayFlagsGeneric>.CandidateGeometryIndex
+RayQuery<uint rayFlagsGeneric>.CandidateInstanceContributionToHitGroupIndex
+RayQuery<uint rayFlagsGeneric>.CandidateInstanceID
+RayQuery<uint rayFlagsGeneric>.CandidateInstanceIndex
+RayQuery<uint rayFlagsGeneric>.CandidateObjectRayDirection
+RayQuery<uint rayFlagsGeneric>.CandidateObjectRayOrigin
+RayQuery<uint rayFlagsGeneric>.CandidatePrimitiveIndex
+RayQuery<uint rayFlagsGeneric>.CandidateTriangleBarycentrics
+RayQuery<uint rayFlagsGeneric>.CandidateTriangleFrontFace
+RayQuery<uint rayFlagsGeneric>.CommittedGeometryIndex
+RayQuery<uint rayFlagsGeneric>.CommittedInstanceContributionToHitGroupIndex
+RayQuery<uint rayFlagsGeneric>.CommittedInstanceID
+RayQuery<uint rayFlagsGeneric>.CommittedInstanceIndex
+RayQuery<uint rayFlagsGeneric>.CommittedObjectRayDirection
+RayQuery<uint rayFlagsGeneric>.CommittedObjectRayOrigin
+RayQuery<uint rayFlagsGeneric>.CommittedPrimitiveIndex
+RayQuery<uint rayFlagsGeneric>.CommittedTriangleBarycentrics
+RayQuery<uint rayFlagsGeneric>.CommittedTriangleFrontFace
+RayQuery<uint rayFlagsGeneric>.RayFlags
 RaytracingAccelerationStructure.Handle
 RaytracingAccelerationStructure.descriptorAccess
 RaytracingAccelerationStructure.init
@@ -273,15 +273,15 @@ StructuredBuffer<T, L>.getCount
 StructuredBuffer<T, L>.init
 StructuredBuffer<T, L>.kind
 StructuredBuffer<T, L>.subscript<TIndex>
-SubpassInput<T, isMS:int>
-SubpassInputMS<T, isMS:int>
-linalg::TensorLayout<Dim:uint, ClampMode:linalg.CoopMatClampMode>
+SubpassInput<T, int isMS>
+SubpassInputMS<T, int isMS>
+linalg::TensorLayout<uint Dim, linalg.CoopMatClampMode ClampMode>
 linalg.TensorLayout<1, ClampMode>.BlockSize
 linalg.TensorLayout<1, ClampMode>.ClampValue
 linalg.TensorLayout<1, ClampMode>.Dimension
 linalg.TensorLayout<1, ClampMode>.Slice
 linalg.TensorLayout<1, ClampMode>.Stride
-linalg::TensorLayout<Dim:uint, ClampMode:linalg.CoopMatClampMode>.init
+linalg::TensorLayout<uint Dim, linalg.CoopMatClampMode ClampMode>.init
 linalg.TensorView<1, HasDimensions, Dim0, 255, 255, 255, 255>.Clip
 linalg.TensorView<1, HasDimensions, Dim0, 255, 255, 255, 255>.Dimension
 TensorView<T>.InterlockedAdd
@@ -296,7 +296,7 @@ linalg.TensorView<1, HasDimensions, Dim0, 255, 255, 255, 255>.Stride
 TensorView<T>.data_ptr
 TensorView<T>.data_ptr_at
 TensorView<T>.dims
-linalg::TensorView<Dim:uint, HasDimensions:bool, p0:uint, p1:uint, p2:uint, p3:uint, p4:uint>.init
+linalg::TensorView<uint Dim, bool HasDimensions, uint p0, uint p1, uint p2, uint p3, uint p4>.init
 TensorView<T>.load
 TensorView<T>.size
 TensorView<T>.store
@@ -307,9 +307,9 @@ TextureBuffer<T>.Handle
 TextureBuffer<T>.descriptorAccess
 TextureBuffer<T>.init
 TextureBuffer<T>.kind
-TextureFootprint<ND:int>
-TextureFootprint<ND:int>._isSingleLevel
-TextureFootprint<ND:int>.isSingleLevel
+TextureFootprint<int ND>
+TextureFootprint<int ND>._isSingleLevel
+TextureFootprint<int ND>.isSingleLevel
 TextureFootprint2D
 TextureFootprint3D
 TorchTensor<T>.alloc
@@ -413,8 +413,8 @@ matrix<T,N,M>.div
 matrix<T,N,M>.dmul<U>
 matrix<T,N,M>.dzero
 matrix<T,N,M>.equals
-matrix<T, R:int, C:int, L:int>.getCount
-matrix<T, R:int, C:int, L:int>.init
+matrix<T, int R, int C, int L>.getCount
+matrix<T, int R, int C, int L>.init
 matrix<T,N,M>.lessThan
 matrix<T,N,M>.lessThanOrEquals
 matrix<T,N,M>.mod
@@ -430,7 +430,7 @@ uint32_t
 uint8_t4_packed
 usize_t
 vector<T,N>.Differential
-vector<T, N:int>.Element
+vector<T, int N>.Element
 vector<T,N>.add
 vector<T,N>.and
 vector<T,N>.bitAnd
@@ -443,7 +443,7 @@ vector<T,N>.dmul<U>
 vector<T,N>.dzero
 vector<half,N>.elementCount
 vector<T,N>.equals
-vector<T, N:int>.getCount
+vector<T, int N>.getCount
 vector<T,N>.lessThan
 vector<T,N>.lessThanOrEquals
 vector<T,N>.mod
@@ -566,7 +566,7 @@ clip<T>
 clock2x32ARB
 clockARB
 concat<each T, each U>
-coopVecLoadGroupshared<N:int, T, M:int>
+coopVecLoadGroupshared<int N, T, int M>
 createDynamicObject<T, U>
 cudaBlockDim
 cudaBlockIdx
@@ -579,7 +579,7 @@ f16tof32
 getRealtimeClock
 getRealtimeClockLow
 isDifferentialNull
-makeArrayFromElement<T, N:int>
+makeArrayFromElement<T, int N>
 makeTuple<each T>
 max<T>
 min<T>

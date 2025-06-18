@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias SubpassInputMS\<T, isMS:int\>
+# typealias SubpassInputMS\<T, int isMS\>
 
 ## Description
 
@@ -11,7 +11,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="subpassinputms-07cd.html" class="code_type">SubpassInputMS</a>&lt;T, isMS:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="subpassinputms-07cd.html" class="code_type">SubpassInputMS</a>&lt;T, <span class="code_keyword">int</span> isMS&gt; = 
     __SubpassImpl&lt;T, isMS&gt;;
 </pre>
 

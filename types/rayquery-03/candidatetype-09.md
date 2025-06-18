@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CandidateType
+# RayQuery\<uint rayFlagsGeneric\>\.CandidateType
 
 ## Description
 
@@ -21,7 +21,7 @@ user code.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidatetype-09.html">CandidateType</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="candidatetype-09.html">CandidateType</a>();
 
 </pre>
 

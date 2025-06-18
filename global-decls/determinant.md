@@ -13,7 +13,7 @@ Compute matrix determinant.
 ## Signature 
 
 <pre>
-<a href="determinant.html#typeparam-T" class="code_type">T</a> <a href="determinant.html">determinant</a>&lt;<a href="determinant.html#typeparam-T" class="code_type">T</a>, <a href="determinant.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="determinant.html#typeparam-T" class="code_type">T</a>, <a href="determinant.html#decl-N" class="code_var">N</a>, <a href="determinant.html#decl-N" class="code_var">N</a>&gt; <a href="determinant.html#decl-m" class="code_param">m</a>)
+<a href="determinant.html#typeparam-T" class="code_type">T</a> <a href="determinant.html">determinant</a>&lt;<a href="determinant.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="determinant.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="determinant.html#typeparam-T" class="code_type">T</a>, <a href="determinant.html#decl-N" class="code_var">N</a>, <a href="determinant.html#decl-N" class="code_var">N</a>&gt; <a href="determinant.html#decl-m" class="code_param">m</a>)
     <span class='code_keyword'>where</span> <a href="determinant.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>

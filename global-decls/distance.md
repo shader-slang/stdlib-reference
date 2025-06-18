@@ -13,7 +13,7 @@ Vector distance. Returns the distance between two points.
 ## Signature 
 
 <pre>
-<a href="distance.html#typeparam-T" class="code_type">T</a> <a href="distance.html">distance</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <a href="distance.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+<a href="distance.html#typeparam-T" class="code_type">T</a> <a href="distance.html">distance</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="distance.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <a href="distance.html#decl-N" class="code_var">N</a>&gt; <a href="distance.html#decl-x" class="code_param">x</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="distance.html#typeparam-T" class="code_type">T</a>, <a href="distance.html#decl-N" class="code_var">N</a>&gt; <a href="distance.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="distance.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;

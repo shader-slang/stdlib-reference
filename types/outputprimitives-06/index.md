@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>
+# struct OutputPrimitives\<T, uint MAX\_PRIMITIVES\>
 
 ## Description
 

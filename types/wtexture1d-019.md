@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias WTexture1D\<T, sampleCount:int, format:int\>
+# typealias WTexture1D\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a write-only 1D texture.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="wtexture1d-019.html" class="code_type">WTexture1D</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="wtexture1d-019.html" class="code_type">WTexture1D</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape1d-028/index.html" class="code_type">__Shape1D</a>, 0, 0, sampleCount, 2, 0, 0, format&gt;;
 </pre>
 

@@ -5,25 +5,25 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InputPatch\<T, N:int\>](inputpatch-05/index)
+#### [InputPatch\<T, int N\>](inputpatch-05/index)
 
 #### [LineStream\<T\>](linestream-04/index)
 
-#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](outputindices-06/index)
+#### [OutputIndices\<T, uint MAX\_PRIMITIVES\>](outputindices-06/index)
 
-#### [OutputPatch\<T, N:int\>](outputpatch-06/index)
+#### [OutputPatch\<T, int N\>](outputpatch-06/index)
 
-#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](outputprimitives-06/index)
+#### [OutputPrimitives\<T, uint MAX\_PRIMITIVES\>](outputprimitives-06/index)
 
-#### [OutputVertices\<T, MAX\_VERTS:uint\>](outputvertices-06/index)
+#### [OutputVertices\<T, uint MAX\_VERTS\>](outputvertices-06/index)
 
 #### [PointStream\<T\>](pointstream-05/index)
 
-#### [SubpassInput\<T, isMS:int\>](subpassinput-07)
+#### [SubpassInput\<T, int isMS\>](subpassinput-07)
 
-#### [SubpassInputMS\<T, isMS:int\>](subpassinputms-07cd)
+#### [SubpassInputMS\<T, int isMS\>](subpassinputms-07cd)
 
-#### [TextureFootprint\<ND:int\>](texturefootprint-07/index)
+#### [TextureFootprint\<int ND\>](texturefootprint-07/index)
 
 #### [TextureFootprint2D](texturefootprint2d-07h)
 

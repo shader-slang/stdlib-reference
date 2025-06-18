@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct OutputVertices\<T, MAX\_VERTS:uint\>
+# struct OutputVertices\<T, uint MAX\_VERTS\>
 
 ## Description
 

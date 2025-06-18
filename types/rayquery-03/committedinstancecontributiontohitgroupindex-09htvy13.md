@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CommittedInstanceContributionToHitGroupIndex
+# RayQuery\<uint rayFlagsGeneric\>\.CommittedInstanceContributionToHitGroupIndex
 
 ## Description
 
@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="committedinstancecontributiontohitgroupindex-09htvy13.html">CommittedInstanceContributionToHitGroupIndex</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="committedinstancecontributiontohitgroupindex-09htvy13.html">CommittedInstanceContributionToHitGroupIndex</a>();
 
 </pre>
 

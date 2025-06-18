@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct OutputIndices\<T, MAX\_PRIMITIVES:uint\>
+# struct OutputIndices\<T, uint MAX\_PRIMITIVES\>
 
 ## Description
 

@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias Texture2DMS\<T, sampleCount:int, format:int\>
+# typealias Texture2DMS\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a read-only, multisampled 2D texture.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="texture2dms-089a.html" class="code_type">Texture2DMS</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="texture2dms-089a.html" class="code_type">Texture2DMS</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape2d-028/index.html" class="code_type">__Shape2D</a>, 0, 1, sampleCount, 0, 0, 0, format&gt;;
 </pre>
 

@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CommittedRayInstanceCustomIndex
+# RayQuery\<uint rayFlagsGeneric\>\.CommittedRayInstanceCustomIndex
 
 ## Description
 
@@ -13,7 +13,7 @@ Gets the custom index of the instance containing the committed hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="committedrayinstancecustomindex-09ckq.html">CommittedRayInstanceCustomIndex</a>();
+<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="committedrayinstancecustomindex-09ckq.html">CommittedRayInstanceCustomIndex</a>();
 
 </pre>
 

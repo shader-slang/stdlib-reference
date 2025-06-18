@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.Proceed
+# RayQuery\<uint rayFlagsGeneric\>\.Proceed
 
 ## Description
 
@@ -26,7 +26,7 @@ that was found.
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="proceed-0.html">Proceed</a>();
+<span class="code_keyword">bool</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="proceed-0.html">Proceed</a>();
 
 </pre>
 

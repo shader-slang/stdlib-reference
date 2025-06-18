@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.TraceRayInline
+# RayQuery\<uint rayFlagsGeneric\>\.TraceRayInline
 
 ## Description
 
@@ -24,7 +24,7 @@ must obey any API-imposed restrictions.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="tracerayinline-058.html">TraceRayInline</a>(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="tracerayinline-058.html">TraceRayInline</a>(
     <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracerayinline-058.html#decl-accelerationStructure" class="code_param">accelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="tracerayinline-058.html#decl-rayFlags" class="code_param">rayFlags</a>,
     <span class="code_keyword">uint</span> <a href="tracerayinline-058.html#decl-instanceInclusionMask" class="code_param">instanceInclusionMask</a>,

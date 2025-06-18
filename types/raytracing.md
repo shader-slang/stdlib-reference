@@ -17,7 +17,7 @@ This category contains the following declarations:
 
 #### [RayDesc](raydesc-03/index)
 
-#### [RayQuery\<rayFlagsGeneric:uint\>](rayquery-03/index)
+#### [RayQuery\<uint rayFlagsGeneric\>](rayquery-03/index)
 
 #### [RaytracingAccelerationStructure](raytracingaccelerationstructure-0am/index)
 

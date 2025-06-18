@@ -25,13 +25,13 @@ This category contains the following declarations:
 
 #### [clamp\<T\>](clamp)
 
-#### [copysign\<T, N:int\>](copysign)
+#### [copysign\<T, int N\>](copysign)
 
-#### [copysign\_double\<N:int\>](copysign_double)
+#### [copysign\_double\<int N\>](copysign_double)
 
-#### [copysign\_float\<N:int\>](copysign_float)
+#### [copysign\_float\<int N\>](copysign_float)
 
-#### [copysign\_half\<N:int\>](copysign_half)
+#### [copysign\_half\<int N\>](copysign_half)
 
 #### [cos\<T\>](cos)
 
@@ -43,9 +43,9 @@ This category contains the following declarations:
 
 #### [degrees\<T\>](degrees)
 
-#### [determinant\<T, N:int\>](determinant)
+#### [determinant\<T, int N\>](determinant)
 
-#### [distance\<T, N:int\>](distance)
+#### [distance\<T, int N\>](distance)
 
 #### [divide\<T\>](divide)
 
@@ -67,7 +67,7 @@ This category contains the following declarations:
 
 #### [fabs\<T\>](fabs)
 
-#### [faceforward\<T, N:int\>](faceforward)
+#### [faceforward\<T, int N\>](faceforward)
 
 #### [fdim\<T\>](fdim)
 
@@ -101,7 +101,7 @@ This category contains the following declarations:
 
 #### [ldexp\<T\>](ldexp)
 
-#### [length\<T, N:int\>](length)
+#### [length\<T, int N\>](length)
 
 #### [lerp\<T\>](lerp)
 
@@ -131,7 +131,7 @@ This category contains the following declarations:
 
 #### [mul\<T\>](mul)
 
-#### [normalize\<T, N:int\>](normalize)
+#### [normalize\<T, int N\>](normalize)
 
 #### [pow\<T\>](pow)
 
@@ -143,7 +143,7 @@ This category contains the following declarations:
 
 #### [reflect\<T\>](reflect)
 
-#### [refract\<T, N:int\>](refract)
+#### [refract\<T, int N\>](refract)
 
 #### [rint\<T\>](rint)
 
@@ -175,7 +175,7 @@ This category contains the following declarations:
 
 #### [tanpi\<T\>](tanpi)
 
-#### [transpose\<T, N:int, M:int\>](transpose)
+#### [transpose\<T, int N, int M\>](transpose)
 
 #### [trunc\<T\>](trunc)
 

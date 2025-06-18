@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CommittedRayInstanceShaderBindingTableRecordOffset
+# RayQuery\<uint rayFlagsGeneric\>\.CommittedRayInstanceShaderBindingTableRecordOffset
 
 ## Description
 
@@ -13,7 +13,7 @@ Gets the shader binding table offset for the instance containing the committed h
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="committedrayinstanceshaderbindingtablerecordoffset-09ckqx1218.html">CommittedRayInstanceShaderBindingTableRecordOffset</a>();
+<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="committedrayinstanceshaderbindingtablerecordoffset-09ckqx1218.html">CommittedRayInstanceShaderBindingTableRecordOffset</a>();
 
 </pre>
 

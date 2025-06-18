@@ -18,11 +18,11 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="any.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">bool</span> <a href="any.html">any</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <a href="any.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <a href="any.html#decl-N" class="code_var">N</a>&gt; <a href="any.html#decl-x" class="code_param">x</a>)
+<span class="code_keyword">bool</span> <a href="any.html">any</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="any.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <a href="any.html#decl-N" class="code_var">N</a>&gt; <a href="any.html#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="any.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">bool</span> <a href="any.html">any</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <a href="any.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="any.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <a href="any.html#decl-N" class="code_var">N</a>, <a href="any.html#decl-M" class="code_var">M</a>&gt; <a href="any.html#decl-x" class="code_param">x</a>)
+<span class="code_keyword">bool</span> <a href="any.html">any</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="any.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="any.html#decl-M" class="code_var">M</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="any.html#typeparam-T" class="code_type">T</a>, <a href="any.html#decl-N" class="code_var">N</a>, <a href="any.html#decl-M" class="code_var">M</a>&gt; <a href="any.html#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="any.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>

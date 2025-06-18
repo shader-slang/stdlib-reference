@@ -43,7 +43,7 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <a href="store.html#decl-i4" class="code_param">i4</a>,
     <a href="index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>&lt;<a href="store.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>&lt;<span class="code_keyword">int</span> <a href="store.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="store.html#decl-N" class="code_var">N</a>&gt; <a href="store.html#decl-index" class="code_param">index</a>,
     <a href="index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
 

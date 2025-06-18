@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# RayQuery\<rayFlagsGeneric:uint\>\.CandidateTriangleRayT
+# RayQuery\<uint rayFlagsGeneric\>\.CandidateTriangleRayT
 
 ## Description
 
@@ -13,7 +13,7 @@ Gets the distance to the candidate triangle hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">float</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidatetrianglerayt-09hk.html">CandidateTriangleRayT</a>();
+<span class="code_keyword">float</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;.<a href="candidatetrianglerayt-09hk.html">CandidateTriangleRayT</a>();
 
 </pre>
 

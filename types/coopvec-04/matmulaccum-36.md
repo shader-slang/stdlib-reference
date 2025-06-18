@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# CoopVec\<T, N:int\>\.matMulAccum
+# CoopVec\<T, int N\>\.matMulAccum
 
 ## Description
 
@@ -13,7 +13,7 @@ Accumulate the result from a matrix multiplication between an input Cooperative 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="matmulaccum-36.html">matMulAccum</a>&lt;<a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccum-36.html#decl-K" class="code_var">K</a>:<span class="code_keyword">int</span>&gt;(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="matmulaccum-36.html">matMulAccum</a>&lt;<a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a>, <span class="code_keyword">int</span> <a href="matmulaccum-36.html#decl-K" class="code_var">K</a>&gt;(
     <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccum-36.html#decl-K" class="code_var">K</a>&gt; <a href="matmulaccum-36.html#decl-input" class="code_param">input</a>,
     <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccum-36.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="matmulaccum-36.html#decl-matrix" class="code_param">matrix</a>,
@@ -25,7 +25,7 @@ Accumulate the result from a matrix multiplication between an input Cooperative 
     <span class='code_keyword'>where</span> <a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="matmulaccum-36.html">matMulAccum</a>&lt;<a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccum-36.html#decl-K" class="code_var">K</a>:<span class="code_keyword">int</span>&gt;(
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="matmulaccum-36.html">matMulAccum</a>&lt;<a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a>, <span class="code_keyword">int</span> <a href="matmulaccum-36.html#decl-K" class="code_var">K</a>&gt;(
     <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="matmulaccum-36.html#typeparam-U" class="code_type">U</a>, <a href="matmulaccum-36.html#decl-K" class="code_var">K</a>&gt; <a href="matmulaccum-36.html#decl-input" class="code_param">input</a>,
     <a href="../coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="matmulaccum-36.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <a href="../byteaddressbuffer-04b/index.html" class="code_type">ByteAddressBuffer</a> <a href="matmulaccum-36.html#decl-matrix" class="code_param">matrix</a>,

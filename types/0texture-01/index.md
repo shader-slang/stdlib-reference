@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct \_Texture\<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int\>
+# struct \_Texture\<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format\>
 
 *Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
@@ -104,7 +104,7 @@ The storage format of the texture. Users should specify the format using an <spa
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`_Texture<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>` when the following conditions are met:
+`_Texture<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
   * [Shape](index.html#typeparam-Shape) : [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)

@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct TextureFootprint\<ND:int\>
+# struct TextureFootprint\<int ND\>
 
 *Conforms to:* \_\_TextureFootprintData\<[ND](index.html#decl-ND)\>
 

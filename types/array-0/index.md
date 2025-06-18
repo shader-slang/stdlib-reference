@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct Array\<T, N:int\>
+# struct Array\<T, int N\>
 
 *Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index.html)\<[T](../../interfaces/irwarray-0123/index.html#typeparam-T)\>
 
@@ -23,11 +23,11 @@ layout: stdlib-reference
 ## Conditional Conformances
 
 ### Conformance to IDifferentiable
-`Array<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
+`Array<T, int N>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 ### Conformance to IDifferentiablePtrType
-`Array<T, N:int>` additionally conforms to `IDifferentiablePtrType` when the following conditions are met:
+`Array<T, int N>` additionally conforms to `IDifferentiablePtrType` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 

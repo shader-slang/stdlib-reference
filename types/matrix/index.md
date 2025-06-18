@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct matrix\<T, R:int, C:int, L:int\>
+# struct matrix\<T, int R, int C, int L\>
 
 *Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), C \>\>
 
@@ -42,11 +42,11 @@ A matrix with <span class='code'><a href="index.html#decl-R" class="code_var">R<
 ## Conditional Conformances
 
 ### Conformance to IFloat
-`matrix<T, R:int, C:int, L:int>` additionally conforms to `IFloat` when the following conditions are met:
+`matrix<T, int R, int C, int L>` additionally conforms to `IFloat` when the following conditions are met:
 
   * [T](t-0.html) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IDifferentiable
-`matrix<T, R:int, C:int, L:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
+`matrix<T, int R, int C, int L>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
   * [T](t-0.html) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 

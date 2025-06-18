@@ -13,7 +13,7 @@ Refract incident vector given surface normal and index of refraction.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html">refract</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html">refract</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="refract.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html#decl-i" class="code_param">i</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="refract.html#typeparam-T" class="code_type">T</a>, <a href="refract.html#decl-N" class="code_var">N</a>&gt; <a href="refract.html#decl-n" class="code_param">n</a>,
     <a href="refract.html#typeparam-T" class="code_type">T</a> <a href="refract.html#decl-eta" class="code_param">eta</a>)

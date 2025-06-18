@@ -13,7 +13,7 @@ Compute the length of a vector.
 ## Signature 
 
 <pre>
-<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>&gt; <a href="length.html#decl-x" class="code_param">x</a>)
+<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="length.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>&gt; <a href="length.html#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="length.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>&gt;(<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html#decl-x" class="code_param">x</a>)

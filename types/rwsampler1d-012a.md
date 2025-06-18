@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias RWSampler1D\<T, sampleCount:int, format:int\>
+# typealias RWSampler1D\<T, int sampleCount, int format\>
 
 ## Description
 
@@ -11,7 +11,7 @@ Represents a handle to a read-write 1D combined texture-sampler.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="rwsampler1d-012a.html" class="code_type">RWSampler1D</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+<span class='code_keyword'>typealias</span> <a href="rwsampler1d-012a.html" class="code_type">RWSampler1D</a>&lt;T, <span class="code_keyword">int</span> sampleCount, <span class="code_keyword">int</span> format&gt; = 
     <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape1d-028/index.html" class="code_type">__Shape1D</a>, 0, 0, sampleCount, 1, 0, 1, format&gt;;
 </pre>
 
