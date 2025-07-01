@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Accumulate the sum of a cooperative vector into a buffer at the specified offset.
+Atomically accumulates the elements a cooperative vector into a buffer at the specified offset.
 
 
 
@@ -32,6 +32,12 @@ Accumulate the sum of a cooperative vector into a buffer at the specified offset
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-v" class="code_param">v</a>,
     <a href="coopvecreducesumaccumulate-47dg.html#typeparam-U" class="code_type">U</a>[<a href="coopvecreducesumaccumulate-47dg.html#decl-IgnoredBufferSize" class="code_var">IgnoredBufferSize</a>] <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="coopvecreducesumaccumulate-47dg.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+
+/// Requires Capability Set 2:
+<span class="code_keyword">void</span> <a href="coopvecreducesumaccumulate-47dg.html">coopVecReduceSumAccumulate</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-v" class="code_param">v</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>)
     <span class='code_keyword'>where</span> <a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
@@ -60,6 +66,17 @@ The buffer to accumulate the sum into.
 
 ####  <a id="decl-buffer"></a>buffer  : [U](coopvecreducesumaccumulate-47dg.html#typeparam-U) \[ [IgnoredBufferSize](coopvecreducesumaccumulate-47dg.html#decl-IgnoredBufferSize) \]
 The buffer to accumulate the sum into.
+
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index.html)\<void\>
+The buffer to accumulate the sum into.
+
+
+## Remarks
+This function is equivalent to:
+```
+for (int i = 0; i < N; i++)
+    atomicAdd(dest[i], v[i]);
+```
 
 
 ## Availability and Requirements
