@@ -17,7 +17,7 @@ Represent types that can be used as texel element.
 
 Constraints:
 
-  - ITexelElement\.This\.Element : \_\_BuiltinArithmeticType
+  - Element : \_\_BuiltinArithmeticType
 
 
 ## Fields
