@@ -6,9 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Multiply a matrix with a cooperative vector and add a bias vector.
-Given a M-row by K-col <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-matrix" class="code_param">matrix</a></span>, a K-element column vector <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-input" class="code_param">input</a></span>, and a M-element vector <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a></span>, computes <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-matrix" class="code_param">matrix</a>*<a href="coopvecmatmuladd-47ad.html#decl-input" class="code_param">input</a>+<a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a></span>, and
-returns a M-element vector.
+Multiply a cooperative vector with a matrix and add a bias vector.
 
 
 
@@ -79,20 +77,6 @@ returns a M-element vector.
     <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
-<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmuladd-47ad.html">coopVecMatMulAdd</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>&gt;(
-    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-input" class="code_param">input</a>,
-    <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="coopvecmatmuladd-47ad.html#decl-matrix" class="code_param">matrix</a>,
-    <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a>,
-    <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-biasInterpretation" class="code_param">biasInterpretation</a>,
-    <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecmatmuladd-47ad.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
-    <span class="code_keyword">bool</span> <a href="coopvecmatmuladd-47ad.html#decl-transpose" class="code_param">transpose</a>,
-    <span class="code_keyword">uint</span> <a href="coopvecmatmuladd-47ad.html#decl-matrixStride" class="code_param">matrixStride</a>)
-    <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
-    <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
-
 </pre>
 
 ## Generic Parameters
@@ -156,24 +140,9 @@ The matrix buffer to multiply with.
 ####  <a id="decl-bias"></a>bias  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The bias buffer to add after multiplication.
 
-####  <a id="decl-matrix"></a>matrix  : [Ptr](../types/ptr-0/index.html)\<void\>
-The matrix buffer to multiply with.
-
-####  <a id="decl-bias"></a>bias  : [Ptr](../types/ptr-0/index.html)\<void\>
-The bias buffer to add after multiplication.
-
 
 ## Return value
 A new cooperative vector containing the result of the matrix multiplication plus bias.
-
-## Remarks
-Depending on target hardware, some combinations of <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-inputInterpretation" class="code_param">inputInterpretation</a></span>, <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a></span> and <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-memoryLayout" class="code_param">memoryLayout</a></span> may not be supported.
-For example, CoopVecComponentType.Float32 is not widely supported. Developers should query device properties through the host graphics API to
-find out which interpretations are supported.
-
-Transposing is not supported when <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-memoryLayout" class="code_param">memoryLayout</a></span> is <span class='code'>RowMajor</span> or <span class='code'>ColumnMajor</span>, and <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-transpose" class="code_param">transpose</a></span> must be <span class='code'>false</span>.
-Not all component types support transposing.
-When <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-memoryLayout" class="code_param">memoryLayout</a></span> is <span class='code'>InferencingOptimal</span> or <span class='code'>TrainingOptimal</span>, <span class='code'><a href="coopvecmatmuladd-47ad.html#decl-matrixStride" class="code_param">matrixStride</a></span> is ignored.
 
 
 ## Availability and Requirements

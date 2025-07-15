@@ -15,7 +15,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* [subscript](subscript)
+* operator\[\]
 
 
 <!-- RTD-TOC-START
