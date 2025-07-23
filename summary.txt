@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 593(46.4%)
+undocumented pages: 595(46.5%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -475,7 +475,6 @@ TreatAsDifferentiable
 allow
 disable_array_flattening
 noRefInline
-payload
 raypayload
 spv_target_env_1_3
 CheckAccessFullyMapped
@@ -486,6 +485,8 @@ GetRenderTargetSampleCount
 GetRenderTargetSamplePosition
 GetSpherePositionAndRadius
 HitTriangleVertexPosition
+InterlockedAddF16Emulated
+InterlockedAddF16x2
 IsHelperLane
 IsLssHit
 IsSphereHit
@@ -557,6 +558,7 @@ WaveReadLaneAt<T>
 WaveReadLaneFirst<T>
 WaveRotate<T>
 WaveShuffle<T>
+WorkgroupCount
 WorkgroupSize
 _WaveCountBits
 abort

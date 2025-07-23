@@ -52,7 +52,7 @@ An <span class='code'><a href="index.html#decl-N" class="code_var">N</a></span> 
 * [dzero](dzero)
 * [dadd](dadd)
 * [dmul](dmul)
-* operator$init
+* [init](init)
 
 ## Conditional Conformances
 

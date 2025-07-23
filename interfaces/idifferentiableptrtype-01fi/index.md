@@ -35,7 +35,7 @@ See the auto-diff user guide for more details (https://shader-slang.org/slang/us
 
 Constraints:
 
-  - IDifferentiablePtrType\.This\.Differential : IDifferentiablePtrType
+  - Differential : IDifferentiablePtrType
 
 
 ## Remarks

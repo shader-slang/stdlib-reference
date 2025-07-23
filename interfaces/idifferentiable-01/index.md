@@ -167,7 +167,7 @@ implementation will be exactly the same as the manually written code listed abov
 
 Constraints:
 
-  - IDifferentiable\.This\.Differential : IDifferentiable
+  - Differential : IDifferentiable
 
 
 ## Methods

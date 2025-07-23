@@ -80,7 +80,6 @@ Slang's Standard Library defines the following attributes:
 - [outputtopology](outputtopology)
 - [partitioning](partitioning)
 - [patchconstantfunc](patchconstantfunc)
-- [payload](payload)
 - [push\_constant](push_constant)
 - [raypayload](raypayload)
 - [require](require)
@@ -179,7 +178,6 @@ outputcontrolpoints <outputcontrolpoints>
 outputtopology <outputtopology>
 partitioning <partitioning>
 patchconstantfunc <patchconstantfunc>
-payload <payload>
 push_constant <push_constant>
 raypayload <raypayload>
 require <require>

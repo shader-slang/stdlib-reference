@@ -17,8 +17,8 @@ The type of the value pointed to.
 
 ## Methods
 
-* operator\[\]
-* operator$init
+* [subscript](subscript)
+* [init](init)
 
 ## Remarks
 

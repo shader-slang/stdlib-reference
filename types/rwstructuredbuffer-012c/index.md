@@ -31,7 +31,7 @@ The memory layout of the buffer.
 * [GetDimensions](getdimensions-03)
 * [IncrementCounter](incrementcounter-09)
 * [Load](load-0)
-* operator\[\]
+* [subscript](subscript)
 * [init](init)
 * [getCount](getcount-3)
 

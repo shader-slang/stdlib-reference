@@ -41,6 +41,8 @@ Slang's Standard Library defines the following global declarations:
 - [InstanceID](instanceid-089)
 - [InstanceIndex](instanceindex-08)
 - [InterlockedAdd](interlockedadd-0b)
+- [InterlockedAddF16Emulated](interlockedaddf16emulated-0beh)
+- [InterlockedAddF16x2](interlockedaddf16x2-0be)
 - [InterlockedAnd](interlockedand-0b)
 - [InterlockedCompareExchange](interlockedcompareexchange-0bi)
 - [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv)
@@ -152,6 +154,7 @@ Slang's Standard Library defines the following global declarations:
 - [WaveReadLaneFirst](wavereadlanefirst-048c)
 - [WaveRotate](waverotate-04)
 - [WaveShuffle](waveshuffle-04)
+- [WorkgroupCount](workgroupcount-09)
 - [WorkgroupSize](workgroupsize-09)
 - [WorldRayDirection](worldraydirection-058)
 - [WorldRayOrigin](worldrayorigin-058)
@@ -371,6 +374,8 @@ D3DCOLORtoUBYTE4 <d3dcolortoubyte4-0234567abcde>
 GetAttributeAtVertex <getattributeatvertex-03ce>
 GetRenderTargetSampleCount <getrendertargetsamplecount-039fl>
 GetRenderTargetSamplePosition <getrendertargetsampleposition-039fl>
+InterlockedAddF16Emulated <interlockedaddf16emulated-0beh>
+InterlockedAddF16x2 <interlockedaddf16x2-0be>
 IsHelperLane <ishelperlane-028>
 NonUniformResourceIndex <nonuniformresourceindex-03ai>
 QuadAll <quadall-04>
@@ -404,6 +409,7 @@ WaveMultiPrefixSum <wavemultiprefixsum-049f>
 WaveMultiProduct <wavemultiproduct-049>
 WaveMultiSum <wavemultisum-049>
 WaveRotate <waverotate-04>
+WorkgroupCount <workgroupcount-09>
 WorkgroupSize <workgroupsize-09>
 abort <abort>
 all <all>
