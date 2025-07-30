@@ -28,7 +28,6 @@ and its related functions are available in raytracing shader types only.
 * [GetRayDesc](getraydesc-036)
 * [GetShaderTableIndex](getshadertableindex-039e)
 * [SetShaderTableIndex](setshadertableindex-039e)
-* [LoadLocalRootArgumentsConstant](loadlocalrootargumentsconstant-049dm)
 * [GetInstanceIndex](getinstanceindex-03b)
 * [GetInstanceID](getinstanceid-03bc)
 * [GetGeometryIndex](getgeometryindex-03b)
@@ -77,7 +76,6 @@ IsLssHit <islsshit-025>
 IsMiss <ismiss-02>
 IsNop <isnop-02>
 IsSphereHit <isspherehit-028>
-LoadLocalRootArgumentsConstant <loadlocalrootargumentsconstant-049dm>
 LoadLocalRootTableConstant <loadlocalroottableconstant-049di>
 MakeHit <makehit-04>
 MakeMiss <makemiss-04>

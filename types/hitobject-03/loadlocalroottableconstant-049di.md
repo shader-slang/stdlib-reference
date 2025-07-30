@@ -31,5 +31,8 @@ Defined for the following targets:
 Available in all stages.
 
 Requires capability: `hlsl_nvapi`.
+#### cuda
+Available in all stages.
+
 
 
