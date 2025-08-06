@@ -285,6 +285,7 @@ Slang's Standard Library defines the following global declarations:
 - [nonuniform](nonuniform)
 - [normalize](normalize)
 - [operator\*](operatorx2A)
+- [operator?:](operatorx3Fx3A)
 - [packHalf2x16](packhalf2x16-4)
 - [packInt4x8](packint4x8-4)
 - [packInt4x8Clamp](packint4x8clamp-4a)
@@ -447,6 +448,7 @@ makeTuple <maketuple-4>
 nextafter <nextafter>
 nonuniform <nonuniform>
 operator* <operatorx2A>
+operator?: <operatorx3Fx3A>
 packHalf2x16 <packhalf2x16-4>
 packInt4x8 <packint4x8-4>
 packInt4x8Clamp <packint4x8clamp-4a>
