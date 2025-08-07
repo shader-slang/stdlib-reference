@@ -5,7 +5,6 @@ layout: stdlib-reference
 
 Slang's Standard Library defines the following types:
 
-- [](t-0/index)
 - [AppendStructuredBuffer](appendstructuredbuffer-06g/index)
 - [Array](array-0/index)
 - [Atomic](atomic-0/index)
@@ -152,6 +151,7 @@ Slang's Standard Library defines the following types:
 - [\_\_Shape3D](0_shape3d-028/index)
 - [\_\_ShapeBuffer](0_shapebuffer-027/index)
 - [\_\_ShapeCube](0_shapecube-027/index)
+- [extension T : ITexelElement](t-0/index)
 - [float16\_t](float16_t)
 - [float32\_t](float32_t)
 - [float64\_t](float64_t)
@@ -179,7 +179,6 @@ Sampler types <sampler_types>
 Scalar types <scalar_types>
 Stage IO types <stage_io>
 Texture types <texture_types>
- <t-0/index>
 Array <array-0/index>
 Atomic <atomic-0/index>
 AtomicAdd <atomicadd-06/index>
@@ -213,6 +212,7 @@ TorchTensor <torchtensor-05/index>
 Tuple <tuple-0/index>
 VkMutableBindlessBindings <vkmutablebindlessbindings-029h/index>
 _AttributeTargets <0attributetargets-01a/index>
+extension T : ITexelElement <t-0/index>
 int8_t4_packed <int8_t4_packed>
 uint8_t4_packed <uint8_t4_packed>
 ```
