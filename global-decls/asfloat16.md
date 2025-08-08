@@ -20,21 +20,16 @@ Reinterpret bits as a float16 (HLSL SM 6.2).
 
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">half</span>, <a href="asfloat16.html#decl-R" class="code_var">R</a>, <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt; <a href="asfloat16.html">asfloat16</a>&lt;<span class="code_keyword">int</span> <a href="asfloat16.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">half</span>, <a href="asfloat16.html#decl-R" class="code_var">R</a>, <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt; <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
-/// Requires Capability Set 1:
 <span class="code_keyword">half</span> <a href="asfloat16.html">asfloat16</a>(uint16_t <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
-/// Requires Capability Set 1:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="asfloat16.html#decl-N" class="code_var">N</a>&gt; <a href="asfloat16.html">asfloat16</a>&lt;<span class="code_keyword">int</span> <a href="asfloat16.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;uint16_t, <a href="asfloat16.html#decl-N" class="code_var">N</a>&gt; <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">half</span>, <a href="asfloat16.html#decl-R" class="code_var">R</a>, <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt; <a href="asfloat16.html">asfloat16</a>&lt;<span class="code_keyword">int</span> <a href="asfloat16.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;uint16_t, <a href="asfloat16.html#decl-R" class="code_var">R</a>, <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt; <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
-/// Requires Capability Set 2:
 <span class="code_keyword">half</span> <a href="asfloat16.html">asfloat16</a>(int16_t <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
-/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="asfloat16.html#decl-N" class="code_var">N</a>&gt; <a href="asfloat16.html">asfloat16</a>&lt;<span class="code_keyword">int</span> <a href="asfloat16.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;int16_t, <a href="asfloat16.html#decl-N" class="code_var">N</a>&gt; <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
-/// Requires Capability Set 3:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">half</span>, <a href="asfloat16.html#decl-R" class="code_var">R</a>, <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt; <a href="asfloat16.html">asfloat16</a>&lt;<span class="code_keyword">int</span> <a href="asfloat16.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;int16_t, <a href="asfloat16.html#decl-R" class="code_var">R</a>, <a href="asfloat16.html#decl-C" class="code_var">C</a>&gt; <a href="asfloat16.html#decl-value" class="code_param">value</a>);
 
 </pre>
@@ -59,45 +54,12 @@ Reinterpret bits as a float16 (HLSL SM 6.2).
 
 ## Availability and Requirements
 
-### Capability Set 1
-
 Defined for the following targets:
 
 #### hlsl
 Available in all stages.
 
 #### glsl
-Available in all stages.
-
-#### cuda
-Available in all stages.
-
-#### spirv
-Available in all stages.
-
-
-### Capability Set 2
-
-Defined for the following targets:
-
-#### hlsl
-Available in all stages.
-
-#### cuda
-Available in all stages.
-
-#### metal
-Available in all stages.
-
-#### spirv
-Available in all stages.
-
-
-### Capability Set 3
-
-Defined for the following targets:
-
-#### hlsl
 Available in all stages.
 
 #### cuda

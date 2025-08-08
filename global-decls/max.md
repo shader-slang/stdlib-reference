@@ -137,6 +137,9 @@ Defined for the following targets:
 Available in all stages.
 
 Requires capability: `hlsl_coopvec_poc`.
+#### glsl
+Available in all stages.
+
 #### cpp
 Available in all stages.
 
@@ -157,6 +160,9 @@ Defined for the following targets:
 Available in all stages.
 
 Requires capability: `hlsl_coopvec_poc`.
+#### glsl
+Available in all stages.
+
 #### cpp
 Available in all stages.
 
