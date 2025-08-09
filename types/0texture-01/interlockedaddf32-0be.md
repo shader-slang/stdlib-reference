@@ -57,6 +57,9 @@ Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in all stages.
 
+#### metal
+Available in all stages.
+
 #### spirv
 Available in all stages.
 
