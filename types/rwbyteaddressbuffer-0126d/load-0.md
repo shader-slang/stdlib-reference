@@ -21,7 +21,7 @@ Load a 32-bit unsigned integer or value with type of <span class='code'><a href=
     <span class="code_keyword">int</span> <a href="load-0.html#decl-location" class="code_param">location</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="load-0.html#decl-status" class="code_param">status</a>);
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 1:
 <a href="load-0.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="load-0.html">Load</a>&lt;<a href="load-0.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">uint</span> <a href="load-0.html#decl-location" class="code_param">location</a>);
 
 </pre>

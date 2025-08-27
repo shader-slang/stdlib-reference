@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 595(46.5%)
+undocumented pages: 596(46.6%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -63,6 +63,7 @@ ByteAddressBuffer.LoadByteOffset<T>
 ByteAddressBuffer.descriptorAccess
 ByteAddressBuffer.init
 ByteAddressBuffer.kind
+CDataLayout
 ConstantBuffer<T, L>
 ConstantBuffer<T, L>.Handle
 ConstantBuffer<T, L>.descriptorAccess

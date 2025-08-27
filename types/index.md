@@ -14,6 +14,7 @@ Slang's Standard Library defines the following types:
 - [BuiltInTriangleIntersectionAttributes](builtintriangleintersectionattributes-057fr/index)
 - [ByteAddressBuffer](byteaddressbuffer-04b/index)
 - [CANDIDATE\_TYPE](candidate_type-012345678abcd)
+- [CDataLayout](cdatalayout-015/index)
 - [COMMITTED\_STATUS](committed_status-012345678abcdef)
 - [ConstantBuffer](constantbuffer-08/index)
 - [ConsumeStructuredBuffer](consumestructuredbuffer-07h/index)

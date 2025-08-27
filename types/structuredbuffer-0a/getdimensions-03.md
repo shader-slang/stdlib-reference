@@ -29,3 +29,27 @@ The number of structures in the buffer.
 The stride, in bytes, of each structure element.
 
 
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### wgsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+
+

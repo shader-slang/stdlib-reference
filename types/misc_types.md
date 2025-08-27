@@ -5,6 +5,8 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
+#### [CDataLayout](cdatalayout-015/index)
+
 #### [DefaultDataLayout](defaultdatalayout-07b/index)
 
 #### [DefaultPushConstantDataLayout](defaultpushconstantdatalayout-07bjn/index)
@@ -39,6 +41,7 @@ This category contains the following declarations:
 :titlesonly:
 :hidden:
 
+CDataLayout <cdatalayout-015/index>
 DefaultDataLayout <defaultdatalayout-07b/index>
 DefaultPushConstantDataLayout <defaultpushconstantdatalayout-07bjn/index>
 MemoryOrder <memoryorder-06/index>

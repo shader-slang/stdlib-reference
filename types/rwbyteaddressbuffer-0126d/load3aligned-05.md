@@ -52,6 +52,9 @@ Available in all stages.
 #### metal
 Available in all stages.
 
+#### wgsl
+Available in all stages.
+
 #### spirv
 Available in all stages.
 

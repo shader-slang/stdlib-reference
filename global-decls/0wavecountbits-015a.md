@@ -38,5 +38,8 @@ Requires capability: `spvGroupNonUniformBallot`.
 #### cuda
 Available in all stages.
 
+#### metal
+Available in all stages.
+
 
 
