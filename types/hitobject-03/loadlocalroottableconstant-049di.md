@@ -28,11 +28,11 @@ represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 Defined for the following targets:
 
 #### hlsl
-Available in all stages.
+Available in stages: `raygen`, `closesthit`, `miss`.
 
 Requires capability: `hlsl_nvapi`.
 #### cuda
-Available in all stages.
+Available in stages: `raygen`, `closesthit`, `miss`.
 
 
 
