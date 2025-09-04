@@ -88,9 +88,9 @@ returns a M-element vector.
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladdpacked-47adg.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladdpacked-47adg.html#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="coopvecmatmuladdpacked-47adg.html#decl-input" class="code_param">input</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladdpacked-47adg.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <span class="code_keyword">int</span> <a href="coopvecmatmuladdpacked-47adg.html#decl-k" class="code_param">k</a>,
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="coopvecmatmuladdpacked-47adg.html#decl-matrixPtr" class="code_param">matrixPtr</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access::ReadWrite, AddressSpace::Device&gt; <a href="coopvecmatmuladdpacked-47adg.html#decl-matrixPtr" class="code_param">matrixPtr</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladdpacked-47adg.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="coopvecmatmuladdpacked-47adg.html#decl-biasPtr" class="code_param">biasPtr</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access::ReadWrite, AddressSpace::Device&gt; <a href="coopvecmatmuladdpacked-47adg.html#decl-biasPtr" class="code_param">biasPtr</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladdpacked-47adg.html#decl-biasInterpretation" class="code_param">biasInterpretation</a>,
     <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecmatmuladdpacked-47adg.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
     <span class="code_keyword">bool</span> <a href="coopvecmatmuladdpacked-47adg.html#decl-transpose" class="code_param">transpose</a>,
@@ -164,8 +164,8 @@ The matrix buffer to multiply with.
 ####  <a id="decl-bias"></a>bias  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The bias buffer to add after multiplication.
 
-####  <a id="decl-matrixPtr"></a>matrixPtr  : [Ptr](../types/ptr-0/index.html)\<void\>
-####  <a id="decl-biasPtr"></a>biasPtr  : [Ptr](../types/ptr-0/index.html)\<void\>
+####  <a id="decl-matrixPtr"></a>matrixPtr  : [Ptr](../types/ptr-0/index.html)\<void, Access : : ReadWrite, AddressSpace : : Device\>
+####  <a id="decl-biasPtr"></a>biasPtr  : [Ptr](../types/ptr-0/index.html)\<void, Access : : ReadWrite, AddressSpace : : Device\>
 
 ## Return value
 A new cooperative vector containing the result of the matrix multiplication with added bias.

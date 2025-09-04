@@ -70,7 +70,7 @@ returns a M-element vector.
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmul-47a.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmul-47a.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmul-47a.html">coopVecMatMul</a>&lt;<a href="coopvecmatmul-47a.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmul-47a.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmul-47a.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmul-47a.html#typeparam-U" class="code_type">U</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmul-47a.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmul-47a.html#decl-K" class="code_var">K</a>&gt; <a href="coopvecmatmul-47a.html#decl-input" class="code_param">input</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmul-47a.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>&gt; <a href="coopvecmatmul-47a.html#decl-matrix" class="code_param">matrix</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access::ReadWrite, AddressSpace::Device&gt; <a href="coopvecmatmul-47a.html#decl-matrix" class="code_param">matrix</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmul-47a.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
     <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecmatmul-47a.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
     <span class="code_keyword">bool</span> <a href="coopvecmatmul-47a.html#decl-transpose" class="code_param">transpose</a>,
@@ -123,7 +123,7 @@ The M-by-K matrix to multiply with the input vector.
 ####  <a id="decl-matrix"></a>matrix  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The M-by-K matrix to multiply with the input vector.
 
-####  <a id="decl-matrix"></a>matrix  : [Ptr](../types/ptr-0/index.html)\<void\>
+####  <a id="decl-matrix"></a>matrix  : [Ptr](../types/ptr-0/index.html)\<void, Access : : ReadWrite, AddressSpace : : Device\>
 The M-by-K matrix to multiply with the input vector.
 
 

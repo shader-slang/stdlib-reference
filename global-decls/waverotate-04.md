@@ -43,6 +43,9 @@ Defined for the following targets:
 #### glsl
 Available in all stages.
 
+#### cuda
+Available in all stages.
+
 #### metal
 Available in all stages.
 

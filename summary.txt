@@ -1,5 +1,5 @@
 documented pages: 684
-undocumented pages: 596(46.6%)
+undocumented pages: 595(46.5%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -159,7 +159,6 @@ LineStream<T>
 LineStream<T>.Append
 LineStream<T>.RestartStrip
 MemoryOrder
-MemoryScope
 NativeString
 NativeString.getBuffer
 NativeString.getLength
@@ -192,8 +191,8 @@ ParameterBlock<T>
 PointStream<T>
 PointStream<T>.Append
 PointStream<T>.RestartStrip
-Ptr<T, uint64_t addrSpace>.init<U>
-Ptr<T, uint64_t addrSpace>.subscript<TInt>
+Ptr<T, Access access, AddressSpace addrSpace>.init<U, Access accessOther>
+Ptr<T, Access access, AddressSpace addrSpace>.subscript<TInt>
 RWBuffer<T, int format>
 RWByteAddressBuffer.GetBufferPointer
 RWByteAddressBuffer.Handle

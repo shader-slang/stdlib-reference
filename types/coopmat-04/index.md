@@ -9,7 +9,7 @@ layout: stdlib-reference
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
-####  <a id="decl-S"></a>S  : [MemoryScope](../memoryscope-06/index.html)
+####  <a id="decl-S"></a>S  : MemoryScope
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-R"></a>R  : linalg\.[CoopMatMatrixUse](../coopmatmatrixuse-047d/index.html)

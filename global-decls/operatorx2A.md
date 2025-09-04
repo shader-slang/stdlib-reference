@@ -13,8 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-/// Requires Capability Set 1:
-Ref&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, uint64_t addrSpace&gt;(Addr&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
+Ref&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Generic&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace addrSpace&gt;(<a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Generic&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
+
+ConstRef&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access access, AddressSpace addrSpace&gt;(
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Generic&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
 
 int8_t operator*(
     int8_t left,
@@ -428,13 +430,11 @@ uintptr_t operator*(
 <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
-/// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt; <a href="operatorx2A.html#decl-lhs" class="code_param">lhs</a>,
     <span class="code_keyword">const</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> <a href="operatorx2A.html#decl-rhs" class="code_param">rhs</a>)
     <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt;(
     <span class="code_keyword">const</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> <a href="operatorx2A.html#decl-lhs" class="code_param">lhs</a>,
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt; <a href="operatorx2A.html#decl-rhs" class="code_param">rhs</a>)
@@ -445,7 +445,8 @@ uintptr_t operator*(
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T
-####  <a id="decl-addrSpace"></a>addrSpace  : uint64\_t
+####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace
+####  <a id="decl-access"></a>access  : Access
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
@@ -455,7 +456,7 @@ uintptr_t operator*(
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : Addr\<[T](operatorx2A.html#typeparam-T)\>
+####  <a id="decl-value"></a>value  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), Access : : ReadWrite, AddressSpace : : Generic\>
 ####  <a id="decl-left"></a>left  : int8\_t
 ####  <a id="decl-right"></a>right  : int8\_t
 ####  <a id="decl-left"></a>left  : [vector](../types/vector/index.html)\<int8\_t, [N](../types/vector/index.html#decl-N)\>
@@ -549,22 +550,6 @@ uintptr_t operator*(
 ####  <a id="decl-rhs"></a>rhs  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), [N](../types/coopvec-04/index.html#decl-N)\>
 
 ## Availability and Requirements
-
-### Capability Set 1
-
-Defined for the following targets:
-
-#### cpp
-Available in all stages.
-
-#### cuda
-Available in all stages.
-
-#### spirv
-Available in all stages.
-
-
-### Capability Set 2
 
 Defined for the following targets:
 

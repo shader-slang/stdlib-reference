@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct Ptr\<T, uint64\_t addrSpace\>
+# struct Ptr\<T, Access access, AddressSpace addrSpace\>
 
 ## Description
 
@@ -13,7 +13,8 @@ Represents a pointer type.
 ####  <a id="typeparam-T"></a>T
 The type of the value pointed to.
 
-####  <a id="decl-addrSpace"></a>addrSpace  : uint64\_t = 4294967297 ULL
+####  <a id="decl-access"></a>access  : Access = Access\.ReadWrite
+####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace = AddressSpace\.Device
 
 ## Methods
 

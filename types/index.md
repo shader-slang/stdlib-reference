@@ -41,7 +41,6 @@ Slang's Standard Library defines the following types:
 - [InputPatch](inputpatch-05/index)
 - [LineStream](linestream-04/index)
 - [MemoryOrder](memoryorder-06/index)
-- [MemoryScope](memoryscope-06/index)
 - [NativeString](nativestring-06/index)
 - [NodePayloadPtr](nodepayloadptr-04b)
 - [NullDifferential](nulldifferential-04/index)
@@ -200,7 +199,6 @@ DiffTensorView <difftensorview-04a/index>
 DifferentialPair <differentialpair-0c/index>
 DifferentialPtrPair <differentialptrpair-0cf/index>
 DispatchNodeInputRecord <dispatchnodeinputrecord-08ch/index>
-MemoryScope <memoryscope-06/index>
 NodePayloadPtr <nodepayloadptr-04b>
 NullDifferential <nulldifferential-04/index>
 Optional <optional-0/index>

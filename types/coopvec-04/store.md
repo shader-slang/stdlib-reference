@@ -28,7 +28,7 @@ Pointer accesses are 16-byte aligned.
 
 /// Requires Capability Set 3:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="store.html">store</a>(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="store.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Device&gt; <a href="store.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
@@ -55,7 +55,7 @@ The byte offset from the start of the buffer where the data will be stored. Must
 ####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 The destination buffer to store the values into.
 
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T)\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access : : ReadWrite, AddressSpace : : Device\>
 The destination buffer to store the values into.
 
 ####  <a id="decl-data"></a>data  : [T](index.html#typeparam-T) \[ M \]
