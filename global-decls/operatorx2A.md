@@ -13,10 +13,8 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-Ref&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Generic&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace addrSpace&gt;(<a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Generic&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
-
-ConstRef&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access access, AddressSpace addrSpace&gt;(
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Generic&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
+Ref&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace::Generic&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access access, AddressSpace addrSpace&gt;(
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace::Generic&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
 
 int8_t operator*(
     int8_t left,
@@ -445,8 +443,8 @@ uintptr_t operator*(
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T
-####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace
 ####  <a id="decl-access"></a>access  : Access
+####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
@@ -456,7 +454,7 @@ uintptr_t operator*(
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), Access : : ReadWrite, AddressSpace : : Generic\>
+####  <a id="decl-value"></a>value  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), AddressSpace : : Generic\>
 ####  <a id="decl-left"></a>left  : int8\_t
 ####  <a id="decl-right"></a>right  : int8\_t
 ####  <a id="decl-left"></a>left  : [vector](../types/vector/index.html)\<int8\_t, [N](../types/vector/index.html#decl-N)\>
