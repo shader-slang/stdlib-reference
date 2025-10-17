@@ -1,5 +1,5 @@
-documented pages: 684
-undocumented pages: 595(46.5%)
+documented pages: 695
+undocumented pages: 601(46.4%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -75,12 +75,14 @@ ConsumeStructuredBuffer<T, L>.init
 ConsumeStructuredBuffer<T, L>.kind
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Load<linalg.CoopMatMatrixLayout matrixLayout>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.LoadCoherent<linalg.CoopMatMatrixLayout matrixLayout>
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.MapElement
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Reduce2x2
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceColumn<int RM>
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceRow<int RN>
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceRowAndColumn<int RM, int RN>
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Store<linalg.CoopMatMatrixLayout matrixLayout>
+linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.StoreCoherent<linalg.CoopMatMatrixLayout matrixLayout>
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Transpose
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.add
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.div
@@ -98,8 +100,10 @@ linalg::CoopMatMatrixLayout
 linalg::CoopMatMatrixUse
 CoopVec<T, int N>.getCount
 CoopVec<T, int N>.init
+CoopVec<T, int N>.loadCoherent
 CoopVec<T, int N>.matMulAddAccum<U, int K>
 CoopVec<T, int N>.matMulAddAccumPacked<U, int PackedK>
+CoopVec<T, int N>.storeCoherent
 CoopVec<T, int N>.subscript
 DefaultDataLayout
 DefaultPushConstantDataLayout
@@ -567,6 +571,7 @@ clip<T>
 clock2x32ARB
 clockARB
 concat<each T, each U>
+coopVecLoadCoherent<int N, T>
 coopVecLoadGroupshared<int N, T, int M>
 createDynamicObject<T, U>
 cudaBlockDim
@@ -576,6 +581,7 @@ debugBreak
 dot2add
 dot4add_i8packed
 dot4add_u8packed
+enableVMMDeviceScopeCapabilityIfNeeded
 f16tof32
 getRealtimeClock
 getRealtimeClockLow

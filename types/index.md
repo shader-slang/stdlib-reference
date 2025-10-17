@@ -28,6 +28,15 @@ Slang's Standard Library defines the following types:
 - [DefaultDataLayout](defaultdatalayout-07b/index)
 - [DefaultPushConstantDataLayout](defaultpushconstantdatalayout-07bjn/index)
 - [DefaultVkBindlessBindings](defaultvkbindlessbindings-079h/index)
+- [DepthTexture1D](depthtexture1d-05d)
+- [DepthTexture1DArray](depthtexture1darray-05de)
+- [DepthTexture2D](depthtexture2d-05d)
+- [DepthTexture2DArray](depthtexture2darray-05de)
+- [DepthTexture2DMS](depthtexture2dms-05def)
+- [DepthTexture2DMSArray](depthtexture2dmsarray-05defg)
+- [DepthTexture3D](depthtexture3d-05d)
+- [DepthTextureCube](depthtexturecube-05c)
+- [DepthTextureCubeArray](depthtexturecubearray-05cg)
 - [DescriptorAccess](descriptoraccess-0a/index)
 - [DescriptorHandle](descriptorhandle-0a/index)
 - [DescriptorKind](descriptorkind-0a/index)
@@ -38,6 +47,7 @@ Slang's Standard Library defines the following types:
 - [FeedbackTexture2D](feedbacktexture2d-08g)
 - [FeedbackTexture2DArray](feedbacktexture2darray-08gh)
 - [HitObject](hitobject-03/index)
+- [ImmutablePtr](immutableptr-09)
 - [InputPatch](inputpatch-05/index)
 - [LineStream](linestream-04/index)
 - [MemoryOrder](memoryorder-06/index)
@@ -97,9 +107,10 @@ Slang's Standard Library defines the following types:
 - [Sampler2DArrayShadow](sampler2darrayshadow-089e)
 - [Sampler2DMS](sampler2dms-089a)
 - [Sampler2DMSArray](sampler2dmsarray-089ab)
+- [Sampler2DMSArrayShadow](sampler2dmsarrayshadow-089abg)
+- [Sampler2DMSShadow](sampler2dmsshadow-089ab)
 - [Sampler2DShadow](sampler2dshadow-089)
 - [Sampler3D](sampler3d-08)
-- [Sampler3DArrayShadow](sampler3darrayshadow-089e)
 - [Sampler3DShadow](sampler3dshadow-089)
 - [SamplerComparisonState](samplercomparisonstate-07h/index)
 - [SamplerCube](samplercube-07)
@@ -199,6 +210,7 @@ DiffTensorView <difftensorview-04a/index>
 DifferentialPair <differentialpair-0c/index>
 DifferentialPtrPair <differentialptrpair-0cf/index>
 DispatchNodeInputRecord <dispatchnodeinputrecord-08ch/index>
+ImmutablePtr <immutableptr-09>
 NodePayloadPtr <nodepayloadptr-04b>
 NullDifferential <nulldifferential-04/index>
 Optional <optional-0/index>

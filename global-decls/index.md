@@ -190,6 +190,7 @@ Slang's Standard Library defines the following global declarations:
 - [clockARB](clockarb-567)
 - [concat](concat)
 - [coopVecLoad](coopvecload-47)
+- [coopVecLoadCoherent](coopvecloadcoherent-47b)
 - [coopVecLoadGroupshared](coopvecloadgroupshared-47b)
 - [coopVecMatMul](coopvecmatmul-47a)
 - [coopVecMatMulAdd](coopvecmatmuladd-47ad)
@@ -229,6 +230,7 @@ Slang's Standard Library defines the following global declarations:
 - [dot4add\_i8packed](dot4add_i8packed)
 - [dot4add\_u8packed](dot4add_u8packed)
 - [dst](dst)
+- [enableVMMDeviceScopeCapabilityIfNeeded](enablevmmdevicescopecapabilityifneeded-6789fkuw)
 - [exp](exp)
 - [exp10](exp10)
 - [exp2](exp2)
@@ -422,6 +424,7 @@ clock2x32ARB <clock2x32arb-9ab>
 clockARB <clockarb-567>
 concat <concat>
 coopVecLoad <coopvecload-47>
+coopVecLoadCoherent <coopvecloadcoherent-47b>
 coopVecLoadGroupshared <coopvecloadgroupshared-47b>
 coopVecMatMul <coopvecmatmul-47a>
 coopVecMatMulAdd <coopvecmatmuladd-47ad>
@@ -437,6 +440,7 @@ debugBreak <debugbreak-5>
 defaultGetDescriptorFromHandle <defaultgetdescriptorfromhandle-7ako>
 detach <detach>
 diffPair <diffpair-4>
+enableVMMDeviceScopeCapabilityIfNeeded <enablevmmdevicescopecapabilityifneeded-6789fkuw>
 getDescriptorFromHandle <getdescriptorfromhandle-3dh>
 getRealtimeClock <getrealtimeclock-3b>
 getRealtimeClockLow <getrealtimeclocklow-3bg>

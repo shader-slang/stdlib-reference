@@ -7,6 +7,24 @@ This category contains the following declarations:
 
 #### [Buffer\<T, int format\>](buffer-0)
 
+#### [DepthTexture1D\<int format\>](depthtexture1d-05d)
+
+#### [DepthTexture1DArray\<int format\>](depthtexture1darray-05de)
+
+#### [DepthTexture2D\<int format\>](depthtexture2d-05d)
+
+#### [DepthTexture2DArray\<int format\>](depthtexture2darray-05de)
+
+#### [DepthTexture2DMS\<int format\>](depthtexture2dms-05def)
+
+#### [DepthTexture2DMSArray\<int format\>](depthtexture2dmsarray-05defg)
+
+#### [DepthTexture3D\<int format\>](depthtexture3d-05d)
+
+#### [DepthTextureCube\<int format\>](depthtexturecube-05c)
+
+#### [DepthTextureCubeArray\<int format\>](depthtexturecubearray-05cg)
+
 #### [FeedbackTexture2D\<T, int sampleCount, int format\>](feedbacktexture2d-08g)
 
 #### [FeedbackTexture2DArray\<T, int sampleCount, int format\>](feedbacktexture2darray-08gh)
@@ -85,11 +103,13 @@ This category contains the following declarations:
 
 #### [Sampler2DMSArray\<T, int sampleCount, int format\>](sampler2dmsarray-089ab)
 
+#### [Sampler2DMSArrayShadow\<int format\>](sampler2dmsarrayshadow-089abg)
+
+#### [Sampler2DMSShadow\<int format\>](sampler2dmsshadow-089ab)
+
 #### [Sampler2DShadow\<int format\>](sampler2dshadow-089)
 
 #### [Sampler3D\<T, int sampleCount, int format\>](sampler3d-08)
-
-#### [Sampler3DArrayShadow\<int format\>](sampler3darrayshadow-089e)
 
 #### [Sampler3DShadow\<int format\>](sampler3dshadow-089)
 
@@ -150,6 +170,15 @@ This category contains the following declarations:
 :hidden:
 
 Buffer <buffer-0>
+DepthTexture1D <depthtexture1d-05d>
+DepthTexture1DArray <depthtexture1darray-05de>
+DepthTexture2D <depthtexture2d-05d>
+DepthTexture2DArray <depthtexture2darray-05de>
+DepthTexture2DMS <depthtexture2dms-05def>
+DepthTexture2DMSArray <depthtexture2dmsarray-05defg>
+DepthTexture3D <depthtexture3d-05d>
+DepthTextureCube <depthtexturecube-05c>
+DepthTextureCubeArray <depthtexturecubearray-05cg>
 FeedbackTexture2D <feedbacktexture2d-08g>
 FeedbackTexture2DArray <feedbacktexture2darray-08gh>
 RWBuffer <rwbuffer-012>
@@ -189,9 +218,10 @@ Sampler2DArray <sampler2darray-089>
 Sampler2DArrayShadow <sampler2darrayshadow-089e>
 Sampler2DMS <sampler2dms-089a>
 Sampler2DMSArray <sampler2dmsarray-089ab>
+Sampler2DMSArrayShadow <sampler2dmsarrayshadow-089abg>
+Sampler2DMSShadow <sampler2dmsshadow-089ab>
 Sampler2DShadow <sampler2dshadow-089>
 Sampler3D <sampler3d-08>
-Sampler3DArrayShadow <sampler3darrayshadow-089e>
 Sampler3DShadow <sampler3dshadow-089>
 SamplerCube <samplercube-07>
 SamplerCubeArray <samplercubearray-07b>

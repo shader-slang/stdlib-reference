@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="nodepayloadptr-04b.html" class="code_type">NodePayloadPtr</a>&lt;T&gt; = <a href="ptr-0/index.html" class="code_type">Ptr</a>&lt;T, Access::ReadWrite&gt;;
+<span class='code_keyword'>typealias</span> <a href="nodepayloadptr-04b.html" class="code_type">NodePayloadPtr</a>&lt;T&gt; = <a href="ptr-0/index.html" class="code_type">Ptr</a>&lt;T, Access.ReadWrite&gt;;
 </pre>
 
 ## Generic Parameters

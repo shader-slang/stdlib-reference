@@ -639,6 +639,15 @@
 <li data-link="/stdlib-reference/types/texture_types"><span>Texture types</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/buffer-0"><span>Buffer</span>
+</li><li data-link="/stdlib-reference/types/depthtexture1d-05d"><span>DepthTexture1D</span>
+</li><li data-link="/stdlib-reference/types/depthtexture1darray-05de"><span>DepthTexture1DArray</span>
+</li><li data-link="/stdlib-reference/types/depthtexture2d-05d"><span>DepthTexture2D</span>
+</li><li data-link="/stdlib-reference/types/depthtexture2darray-05de"><span>DepthTexture2DArray</span>
+</li><li data-link="/stdlib-reference/types/depthtexture2dms-05def"><span>DepthTexture2DMS</span>
+</li><li data-link="/stdlib-reference/types/depthtexture2dmsarray-05defg"><span>DepthTexture2DMSArray</span>
+</li><li data-link="/stdlib-reference/types/depthtexture3d-05d"><span>DepthTexture3D</span>
+</li><li data-link="/stdlib-reference/types/depthtexturecube-05c"><span>DepthTextureCube</span>
+</li><li data-link="/stdlib-reference/types/depthtexturecubearray-05cg"><span>DepthTextureCubeArray</span>
 </li><li data-link="/stdlib-reference/types/feedbacktexture2d-08g"><span>FeedbackTexture2D</span>
 </li><li data-link="/stdlib-reference/types/feedbacktexture2darray-08gh"><span>FeedbackTexture2DArray</span>
 </li><li data-link="/stdlib-reference/types/rwbuffer-012"><span>RWBuffer</span>
@@ -688,9 +697,10 @@
 </li><li data-link="/stdlib-reference/types/sampler2darrayshadow-089e"><span>Sampler2DArrayShadow</span>
 </li><li data-link="/stdlib-reference/types/sampler2dms-089a"><span>Sampler2DMS</span>
 </li><li data-link="/stdlib-reference/types/sampler2dmsarray-089ab"><span>Sampler2DMSArray</span>
+</li><li data-link="/stdlib-reference/types/sampler2dmsarrayshadow-089abg"><span>Sampler2DMSArrayShadow</span>
+</li><li data-link="/stdlib-reference/types/sampler2dmsshadow-089ab"><span>Sampler2DMSShadow</span>
 </li><li data-link="/stdlib-reference/types/sampler2dshadow-089"><span>Sampler2DShadow</span>
 </li><li data-link="/stdlib-reference/types/sampler3d-08"><span>Sampler3D</span>
-</li><li data-link="/stdlib-reference/types/sampler3darrayshadow-089e"><span>Sampler3DArrayShadow</span>
 </li><li data-link="/stdlib-reference/types/sampler3dshadow-089"><span>Sampler3DShadow</span>
 </li><li data-link="/stdlib-reference/types/samplercube-07"><span>SamplerCube</span>
 </li><li data-link="/stdlib-reference/types/samplercubearray-07b"><span>SamplerCubeArray</span>
@@ -828,12 +838,14 @@
 </li><li data-link="/stdlib-reference/types/coopmat-04/getlength-03"><span>GetLength</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/getrowcount-036"><span>GetRowCount</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/load-0"><span>Load</span>
+</li><li data-link="/stdlib-reference/types/coopmat-04/loadcoherent-04"><span>LoadCoherent</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/mapelement-03"><span>MapElement</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/reduce2x2-0"><span>Reduce2x2</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/reducecolumn-06"><span>ReduceColumn</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/reducerow-06"><span>ReduceRow</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/reducerowandcolumn-069c"><span>ReduceRowAndColumn</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/store-0"><span>Store</span>
+</li><li data-link="/stdlib-reference/types/coopmat-04/storecoherent-05"><span>StoreCoherent</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/transpose-0"><span>Transpose</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/add"><span>add</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/copyfrom-4"><span>copyFrom</span>
@@ -866,6 +878,7 @@
 </li><li data-link="/stdlib-reference/types/coopvec-04/lessthanorequals-48a"><span>lessThanOrEquals</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/load"><span>load</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/loadany-4"><span>loadAny</span>
+</li><li data-link="/stdlib-reference/types/coopvec-04/loadcoherent-4"><span>loadCoherent</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/matmulaccum-36"><span>matMulAccum</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/matmulaccumpacked-36b"><span>matMulAccumPacked</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/matmuladdaccum-369"><span>matMulAddAccum</span>
@@ -876,6 +889,7 @@
 </li><li data-link="/stdlib-reference/types/coopvec-04/replicate"><span>replicate</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/store"><span>store</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/storeany-5"><span>storeAny</span>
+</li><li data-link="/stdlib-reference/types/coopvec-04/storecoherent-5"><span>storeCoherent</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/sub"><span>sub</span>
 </li><li data-link="/stdlib-reference/types/coopvec-04/subscript"><span>subscript</span>
 </li></ul>
@@ -932,6 +946,7 @@
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/dispatchnodeinputrecord-08ch/get-0"><span>Get</span>
 </li></ul>
+</li><li data-link="/stdlib-reference/types/immutableptr-09"><span>ImmutablePtr</span>
 </li><li data-link="/stdlib-reference/types/nodepayloadptr-04b"><span>NodePayloadPtr</span>
 </li><li data-link="/stdlib-reference/types/nulldifferential-04/index"><span>NullDifferential</span>
 <ul class="toc_list">
@@ -1451,6 +1466,7 @@
 </li><li data-link="/stdlib-reference/global-decls/clockarb-567"><span>clockARB</span>
 </li><li data-link="/stdlib-reference/global-decls/concat"><span>concat</span>
 </li><li data-link="/stdlib-reference/global-decls/coopvecload-47"><span>coopVecLoad</span>
+</li><li data-link="/stdlib-reference/global-decls/coopvecloadcoherent-47b"><span>coopVecLoadCoherent</span>
 </li><li data-link="/stdlib-reference/global-decls/coopvecloadgroupshared-47b"><span>coopVecLoadGroupshared</span>
 </li><li data-link="/stdlib-reference/global-decls/coopvecmatmul-47a"><span>coopVecMatMul</span>
 </li><li data-link="/stdlib-reference/global-decls/coopvecmatmuladd-47ad"><span>coopVecMatMulAdd</span>
@@ -1466,6 +1482,7 @@
 </li><li data-link="/stdlib-reference/global-decls/defaultgetdescriptorfromhandle-7ako"><span>defaultGetDescriptorFromHandle</span>
 </li><li data-link="/stdlib-reference/global-decls/detach"><span>detach</span>
 </li><li data-link="/stdlib-reference/global-decls/diffpair-4"><span>diffPair</span>
+</li><li data-link="/stdlib-reference/global-decls/enablevmmdevicescopecapabilityifneeded-6789fkuw"><span>enableVMMDeviceScopeCapabilityIfNeeded</span>
 </li><li data-link="/stdlib-reference/global-decls/getdescriptorfromhandle-3dh"><span>getDescriptorFromHandle</span>
 </li><li data-link="/stdlib-reference/global-decls/getrealtimeclock-3b"><span>getRealtimeClock</span>
 </li><li data-link="/stdlib-reference/global-decls/getrealtimeclocklow-3bg"><span>getRealtimeClockLow</span>
