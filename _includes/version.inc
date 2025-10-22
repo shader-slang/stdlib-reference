@@ -1,1 +1,1 @@
-v2025.19.1-7-g6fce5b75e
+v1.0.0-test-neural-release
