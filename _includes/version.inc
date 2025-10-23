@@ -1,1 +1,1 @@
-v2025.19.1-test-aarch
+v1.0.0-test-neural-release

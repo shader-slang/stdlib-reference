@@ -1,5 +1,5 @@
 documented pages: 695
-undocumented pages: 601(46.4%)
+undocumented pages: 602(46.4%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -467,6 +467,7 @@ BackwardDerivativeOf
 BackwardDifferentiable
 DerivativeMember
 Differentiable
+ExperimentalModule
 ForwardDerivativeOf
 ForwardDifferentiable
 KnownBuiltin
