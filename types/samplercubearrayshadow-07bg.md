@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Represents a handle to a Cube combined texture-sampler array for shadow comparison.
+Represents a handle to a Cube combined texture-sampler for shadow comparison.
 
 ## Signature
 

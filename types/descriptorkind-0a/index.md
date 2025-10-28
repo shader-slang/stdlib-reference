@@ -18,24 +18,15 @@ Unknown descriptor kind.
 ####  <a id="decl-CombinedTextureSampler"></a>_CombinedTextureSampler = _
 A texture descriptor.
 
-####  <a id="decl-ConstantBuffer"></a>_ConstantBuffer = _
+####  <a id="decl-Buffer"></a>_Buffer = _
 A combined texture and sampler state descriptor.
 
-####  <a id="decl-StorageBuffer"></a>_StorageBuffer = _
-A constant buffer descriptor.
-
-####  <a id="decl-Buffer"></a>_Buffer = DescriptorKind\.StorageBuffer_
-A storage buffer descriptor.
-
 ####  <a id="decl-Sampler"></a>_Sampler = _
-Deprecated. Use <span class='code'><a href="index.html#decl-StorageBuffer" class="code_var">StorageBuffer</a></span> instead.
+A buffer descriptor.
 
 ####  <a id="decl-AccelerationStructure"></a>_AccelerationStructure = _
 A sampler state descriptor.
 
-####  <a id="decl-UniformTexelBuffer"></a>_UniformTexelBuffer = _
+####  <a id="decl-TexelBuffer"></a>_TexelBuffer = _
 A ray tracing acceleration structure descriptor.
-
-####  <a id="decl-StorageTexelBuffer"></a>_StorageTexelBuffer = _
-A uniform texel buffer descriptor (read-only).
 

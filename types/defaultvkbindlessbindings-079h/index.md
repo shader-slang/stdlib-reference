@@ -10,26 +10,23 @@ layout: stdlib-reference
 ####  <a id="decl-CombinedTextureSampler"></a>_CombinedTextureSampler = 1_
 SAMPLER
 
-####  <a id="decl-SampledImage"></a>_SampledImage = 2_
+####  <a id="decl-Texture_Read"></a>_Texture_Read = 2_
 COMBINED_IMAGE_SAMPLER
 
-####  <a id="decl-StorageImage"></a>_StorageImage = 3_
+####  <a id="decl-Texture_ReadWrite"></a>_Texture_ReadWrite = 3_
 SAMPLED_IMAGE
 
-####  <a id="decl-UniformTexelBuffer"></a>_UniformTexelBuffer = 4_
+####  <a id="decl-TexelBuffer_Read"></a>_TexelBuffer_Read = 4_
 STORAGE_IMAGE
 
-####  <a id="decl-StorageTexelBuffer"></a>_StorageTexelBuffer = 5_
+####  <a id="decl-TexelBuffer_ReadWrite"></a>_TexelBuffer_ReadWrite = 5_
 UNIFORM_TEXEL_BUFFER
 
-####  <a id="decl-ConstantBuffer_Read"></a>_ConstantBuffer_Read = 6_
+####  <a id="decl-Buffer_Read"></a>_Buffer_Read = 6_
 STORAGE_TEXEL_BUFFER
 
-####  <a id="decl-StorageBuffer_Read"></a>_StorageBuffer_Read = 7_
+####  <a id="decl-Buffer_ReadWrite"></a>_Buffer_ReadWrite = 7_
 UNIFORM_BUFFER
-
-####  <a id="decl-StorageBuffer_ReadWrite"></a>_StorageBuffer_ReadWrite = 7_
-STORAGE_BUFFER
 
 ####  <a id="decl-Unknown"></a>_Unknown = 8_
 STORAGE_BUFFER

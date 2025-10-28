@@ -37,7 +37,7 @@ Atomically accumulates the elements a cooperative vector into a buffer at the sp
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> <a href="coopvecreducesumaccumulate-47dg.html">coopVecReduceSumAccumulate</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a>, <a href="coopvecreducesumaccumulate-47dg.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-v" class="code_param">v</a>,
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access.ReadWrite, AddressSpace.Device&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>)
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access::ReadWrite, AddressSpace::Device&gt; <a href="coopvecreducesumaccumulate-47dg.html#decl-buffer" class="code_param">buffer</a>)
     <span class='code_keyword'>where</span> <a href="coopvecreducesumaccumulate-47dg.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
@@ -67,7 +67,7 @@ The buffer to accumulate the sum into.
 ####  <a id="decl-buffer"></a>buffer  : [U](coopvecreducesumaccumulate-47dg.html#typeparam-U) \[ [IgnoredBufferSize](coopvecreducesumaccumulate-47dg.html#decl-IgnoredBufferSize) \]
 The buffer to accumulate the sum into.
 
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index.html)\<void, Access\.ReadWrite, AddressSpace\.Device\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index.html)\<void, Access : : ReadWrite, AddressSpace : : Device\>
 The buffer to accumulate the sum into.
 
 

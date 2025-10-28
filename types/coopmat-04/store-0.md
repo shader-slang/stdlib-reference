@@ -29,7 +29,7 @@ layout: stdlib-reference
 
 /// Requires Capability Set 1:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Device&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
@@ -109,7 +109,7 @@ layout: stdlib-reference
 ####  <a id="decl-element"></a>element  : uint
 ####  <a id="decl-stride"></a>stride  : uint
 ####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access : : ReadWrite, AddressSpace : : Device\>
 ####  <a id="decl-data"></a>data  : [T](index.html#typeparam-T) \[ V \]
 ####  <a id="decl-data"></a>data  : [U](store-0.html#typeparam-U) \[ [V](store-0.html#decl-V) \]
 ####  <a id="decl-data"></a>data  : [vector](../vector/index.html)\<U, L\> \[ V \]

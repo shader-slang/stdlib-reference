@@ -39,7 +39,7 @@ Load values from a byte-addressable buffer into a cooperative vector.
 
 /// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecload-47.html">coopVecLoad</a>&lt;<span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-N" class="code_var">N</a>, <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="coopvecload-47.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, Access::ReadWrite, AddressSpace::Device&gt; <a href="coopvecload-47.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
@@ -67,7 +67,7 @@ The source buffer to load data from.
 ####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<[T](../types/rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The source buffer to load data from.
 
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), Access : : ReadWrite, AddressSpace : : Device\>
 The source buffer to load data from.
 
 
