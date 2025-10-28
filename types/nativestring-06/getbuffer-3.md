@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access::ReadWrite, AddressSpace::Device&gt; <a href="index.html" class="code_type">NativeString</a>.<a href="getbuffer-3.html">getBuffer</a>();
+<a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<span class="code_keyword">void</span>, Access.ReadWrite, AddressSpace.Device&gt; <a href="index.html" class="code_type">NativeString</a>.<a href="getbuffer-3.html">getBuffer</a>();
 
 </pre>
 

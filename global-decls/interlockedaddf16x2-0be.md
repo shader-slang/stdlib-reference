@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 <span class="code_keyword">void</span> <a href="interlockedaddf16x2-0be.html">InterlockedAddF16x2</a>(
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt;, Access::ReadWrite, AddressSpace::Device&gt; <a href="interlockedaddf16x2-0be.html#decl-dest" class="code_param">dest</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt;, Access.ReadWrite, AddressSpace.Device&gt; <a href="interlockedaddf16x2-0be.html#decl-dest" class="code_param">dest</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="interlockedaddf16x2-0be.html#decl-value" class="code_param">value</a>,
     <span class="code_keyword">out</span> <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="interlockedaddf16x2-0be.html#decl-originalValue" class="code_param">originalValue</a>);
 
@@ -22,7 +22,7 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-dest"></a>dest  : [Ptr](../types/ptr-0/index.html)\<[vector](../types/vector/index.html)\<half, 2\>, Access : : ReadWrite, AddressSpace : : Device\>
+####  <a id="decl-dest"></a>dest  : [Ptr](../types/ptr-0/index.html)\<[vector](../types/vector/index.html)\<half, 2\>, Access\.ReadWrite, AddressSpace\.Device\>
 ####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<half, 2\>
 ####  <a id="decl-originalValue"></a>originalValue  : [vector](../types/vector/index.html)\<half, 2\>
 

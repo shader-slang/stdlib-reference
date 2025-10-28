@@ -37,6 +37,5 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
-Requires capability: `spvRayTracingKHR`.
 
 

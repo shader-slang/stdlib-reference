@@ -23,7 +23,7 @@ The memory layout of the buffer.
 ## Fields
 
 ####  <a id="decl-descriptorAccess"></a>[descriptorAccess](descriptoraccess-a.html) : [DescriptorAccess](../descriptoraccess-0a/index.html) = [DescriptorAccess](../descriptoraccess-0a/index.html)\.[ReadWrite](../descriptoraccess-0a/index.html#decl-ReadWrite)
-####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Buffer](../descriptorkind-0a/index.html#decl-Buffer)
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[StorageBuffer](../descriptorkind-0a/index.html#decl-StorageBuffer)
 
 ## Methods
 

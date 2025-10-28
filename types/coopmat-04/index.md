@@ -30,6 +30,8 @@ layout: stdlib-reference
 * [ReduceRowAndColumn](reducerowandcolumn-069c)
 * [Reduce2x2](reduce2x2-0)
 * [MapElement](mapelement-03)
+* [StoreCoherent](storecoherent-05)
+* [LoadCoherent](loadcoherent-04)
 * [add](add)
 * [sub](sub)
 * [mul](mul)
@@ -52,12 +54,14 @@ GetColumnCount <getcolumncount-039>
 GetLength <getlength-03>
 GetRowCount <getrowcount-036>
 Load <load-0>
+LoadCoherent <loadcoherent-04>
 MapElement <mapelement-03>
 Reduce2x2 <reduce2x2-0>
 ReduceColumn <reducecolumn-06>
 ReduceRow <reducerow-06>
 ReduceRowAndColumn <reducerowandcolumn-069c>
 Store <store-0>
+StoreCoherent <storecoherent-05>
 Transpose <transpose-0>
 add <add>
 copyFrom <copyfrom-4>

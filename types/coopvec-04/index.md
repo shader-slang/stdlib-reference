@@ -26,8 +26,10 @@ The vector size.
 * [init](init)
 * [copyFrom](copyfrom-4)
 * [fill](fill)
+* [storeCoherent](storecoherent-5)
 * [store](store)
 * [storeAny](storeany-5)
+* [loadCoherent](loadcoherent-4)
 * [load](load)
 * [loadAny](loadany-4)
 * [getCount](getcount-3)
@@ -64,6 +66,7 @@ lessThan <lessthan-4>
 lessThanOrEquals <lessthanorequals-48a>
 load <load>
 loadAny <loadany-4>
+loadCoherent <loadcoherent-4>
 matMulAccum <matmulaccum-36>
 matMulAccumPacked <matmulaccumpacked-36b>
 matMulAddAccum <matmuladdaccum-369>
@@ -74,6 +77,7 @@ neg <neg>
 replicate <replicate>
 store <store>
 storeAny <storeany-5>
+storeCoherent <storecoherent-5>
 sub <sub>
 subscript <subscript>
 ```

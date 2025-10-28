@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Represents a handle to a 2D combined texture-sampler for shadow comparison.
+Represents a handle to a 2D combined texture-sampler array for shadow comparison.
 
 ## Signature
 
