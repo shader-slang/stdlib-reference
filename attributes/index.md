@@ -22,7 +22,6 @@ Slang's Standard Library defines the following attributes:
 - [Differentiable](differentiable-0)
 - [DllExport](dllexport-03)
 - [DllImport](dllimport-03)
-- [ExperimentalModule](experimentalmodule-0c)
 - [Flags](flags-0)
 - [ForceInline](forceinline-05)
 - [ForceUnroll](forceunroll-05)
@@ -121,7 +120,6 @@ DerivativeMember <derivativemember-0a>
 Differentiable <differentiable-0>
 DllExport <dllexport-03>
 DllImport <dllimport-03>
-ExperimentalModule <experimentalmodule-0c>
 Flags <flags-0>
 ForceInline <forceinline-05>
 ForceUnroll <forceunroll-05>
