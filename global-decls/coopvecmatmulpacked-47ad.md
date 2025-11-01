@@ -69,7 +69,7 @@ Multiply a cooperative vector with a matrix and return the result.
     <span class='code_keyword'>where</span> <a href="coopvecmatmulpacked-47ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="coopvecmatmulpacked-47ad.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmulpacked-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmulpacked-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmulpacked-47ad.html">coopVecMatMulPacked</a>&lt;<a href="coopvecmatmulpacked-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmulpacked-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmulpacked-47ad.html#decl-PackedK" class="code_var">PackedK</a>, <a href="coopvecmatmulpacked-47ad.html#typeparam-U" class="code_type">U</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmulpacked-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmulpacked-47ad.html#decl-PackedK" class="code_var">PackedK</a>&gt; <a href="coopvecmatmulpacked-47ad.html#decl-input" class="code_param">input</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmulpacked-47ad.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
@@ -160,12 +160,26 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
+Requires capability: `optix_coopvec`.
 #### spirv
 Available in all stages.
 
 Requires capability: `spvCooperativeVectorNV`.
 
 ### Capability Set 2
+
+Defined for the following targets:
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+#### cuda
+Available in all stages.
+
+Requires capability: `optix_coopvec`.
+
+### Capability Set 3
 
 Defined for the following targets:
 

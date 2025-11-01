@@ -79,7 +79,7 @@ returns a M-element vector.
     <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmuladd-47ad.html">coopVecMatMulAdd</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-input" class="code_param">input</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
@@ -202,6 +202,19 @@ Available in all stages.
 Requires capability: `spvCooperativeVectorNV`.
 
 ### Capability Set 2
+
+Defined for the following targets:
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+#### cuda
+Available in all stages.
+
+Requires capability: `optix_coopvec`.
+
+### Capability Set 3
 
 Defined for the following targets:
 

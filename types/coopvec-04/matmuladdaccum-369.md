@@ -109,6 +109,7 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
+Requires capability: `optix_coopvec`.
 #### spirv
 Available in all stages.
 
