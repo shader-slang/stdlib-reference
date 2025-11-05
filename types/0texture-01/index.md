@@ -56,6 +56,7 @@ The storage format of the texture. Users should specify the format using an <spa
 
 ## Methods
 
+* [SampleLevelZero](samplelevelzero-06b)
 * [CalculateLevelOfDetail](calculatelevelofdetail-09eg)
 * [CalculateLevelOfDetailUnclamped](calculatelevelofdetailunclamped-09egm)
 * [Sample](sample-0)
@@ -207,6 +208,7 @@ SampleCmpLevel <samplecmplevel-069>
 SampleCmpLevelZero <samplecmplevelzero-069e>
 SampleGrad <samplegrad-06>
 SampleLevel <samplelevel-06>
+SampleLevelZero <samplelevelzero-06b>
 Store <store-0>
 TextureCoord <texturecoord-07>
 WriteSamplerFeedback <writesamplerfeedback-05c>

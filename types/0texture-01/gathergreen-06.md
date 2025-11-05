@@ -57,7 +57,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="index.html#decl-access" class="code_var">access</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isCombined" class="code_var">isCombined</a> == 0;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>.Element, 4&gt; <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="gathergreen-06.html">GatherGreen</a>(
     <a href="../samplerstate-07/index.html" class="code_type">SamplerState</a> <a href="gathergreen-06.html#decl-s" class="code_param">s</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, <a href="index.html#decl-isArray" class="code_var">isArray</a>+<a href="index.html#typeparam-Shape" class="code_type">Shape</a>.dimensions&gt; <a href="gathergreen-06.html#decl-location" class="code_param">location</a>,
@@ -126,7 +126,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="index.html#decl-access" class="code_var">access</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isCombined" class="code_var">isCombined</a> == 1;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>.Element, 4&gt; <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="gathergreen-06.html">GatherGreen</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, <a href="index.html#decl-isArray" class="code_var">isArray</a>+<a href="index.html#typeparam-Shape" class="code_type">Shape</a>.dimensions&gt; <a href="gathergreen-06.html#decl-location" class="code_param">location</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>.planeDimensions&gt; <a href="gathergreen-06.html#decl-offset1" class="code_param">offset1</a>,
@@ -199,5 +199,20 @@ Defined for the following targets:
 #### hlsl
 Available in all stages.
 
+
+### Capability Set 3
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvImageGatherExtended`.
 
 

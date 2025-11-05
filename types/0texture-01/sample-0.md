@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Samples the texture at the given location.
+Samples the texture at a given location using implicit level of detail.
 
 
 
@@ -103,7 +103,7 @@ The location to sample the texture at.
 Texel offset to apply.
 
 ####  <a id="decl-clamp"></a>clamp  : float
-The max level of detail to use.
+The maximum level of detail to use.
 
 ####  <a id="decl-status"></a>status  : uint
 \[out\] The result status of the operation.
@@ -117,13 +117,27 @@ The <span class='code'><a href="../samplerstate-07/index.html" class="code_type"
 ## Return value
 The sampled texture value.
 
+<span class='code'><a href="sample-0.html#decl-location" class="code_param">location</a></span> is a vector of floats as follows:
+- For 1d/2d/3d-textures, the vector is a 1d/2d/3d-vector specifying the sample location. Usually, normalized coordinates are used
+such that the coordinate range <span class='code'>[0, 1]</span> denotes the full span of the texture. Depending on the sampler state and the sampled texture type,
+other conventions may also be used. For example, <span class='code'>GL_TEXTURE_RECTANGLE</span> uses non-normalized texel locations.
+- For cube textures, the location is a 3d-vector specifying the direction from the center of the cube at the sample. The direction
+does not need to be normalized.
+- For texture arrays, the location vector is appended with the array index. The array
+index (float) is first rounded to the nearest integer value and then clamped to <span class='code'>[0, d-1]</span> where <span class='code'>d</span> is the number of array elements.
+
+
 ## Remarks
 
 The <span class='code'><a href="sample-0.html">Sample</a></span> function is defined for all read-only texture types, including
 <span class='code'><a href="../texture1d-08.html" class="code_type">Texture1D</a></span>, <span class='code'><a href="../texture2d-08.html" class="code_type">Texture2D</a></span>, <span class='code'><a href="../texture3d-08.html" class="code_type">Texture3D</a></span>, <span class='code'><a href="../texturecube-07.html" class="code_type">TextureCube</a></span>,
 <span class='code'><a href="../texture1darray-089.html" class="code_type">Texture1DArray</a></span>, <span class='code'><a href="../texture2darray-089.html" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="../texturecubearray-07b.html" class="code_type">TextureCubeArray</a></span>.
 
-The function is not available for read-write texture types.
+This function requires the implicit sampling derivatives, which are always available in the fragment stage. In other stages, the derivatives
+are enabled on the target using the appropriate target extensions as necessary. It is an error to use this function when
+implicit derivatives cannot be enabled. See also capability <span class='code'>GL_NV_compute_shader_derivatives</span>.
+
+This function is not available for read-write and write-only texture types.
 
 For HLSL/D3D targets, the texture element type must be a scalar or vector of float or half types.
 
@@ -222,5 +236,6 @@ Available in all stages.
 
 
 ## See Also
-<span class='code'><a href="samplebias-06.html">SampleBias</a></span>, <span class='code'><a href="samplelevel-06.html">SampleLevel</a></span>, <span class='code'><a href="samplegrad-06.html">SampleGrad</a></span>, <span class='code'><a href="samplecmp-06.html">SampleCmp</a></span>, <span class='code'><a href="samplecmplevelzero-069e.html">SampleCmpLevelZero</a></span>, <span class='code'><a href="samplecmplevel-069.html">SampleCmpLevel</a></span>.
+<span class='code'><a href="samplebias-06.html">SampleBias</a></span>, <span class='code'><a href="samplelevel-06.html">SampleLevel</a></span>, <span class='code'><a href="samplelevelzero-06b.html">SampleLevelZero</a></span>, <span class='code'><a href="samplegrad-06.html">SampleGrad</a></span>, <span class='code'><a href="samplecmp-06.html">SampleCmp</a></span>, <span class='code'><a href="samplecmplevelzero-069e.html">SampleCmpLevelZero</a></span>, <span class='code'><a href="samplecmplevel-069.html">SampleCmpLevel</a></span>.
+
 

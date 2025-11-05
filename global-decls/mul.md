@@ -13,81 +13,97 @@ Multiply.
 ## Signature 
 
 <pre>
+/// Requires Capability Set 1:
 <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>&gt;(
     <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
+/// Requires Capability Set 1:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
+/// Requires Capability Set 1:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>&gt;(
     <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
+/// Requires Capability Set 1:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
+/// Requires Capability Set 1:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
+/// Requires Capability Set 2:
 <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+/// Requires Capability Set 2:
 <a href="mul.html#typeparam-T" class="code_type">T</a> <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-x" class="code_param">x</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinlogicaltype-029g/index.html" class="code_type">__BuiltinLogicalType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-M" class="code_var">M</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-M" class="code_var">M</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinlogicaltype-029g/index.html" class="code_type">__BuiltinLogicalType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-R" class="code_var">R</a>, <a href="mul.html#decl-C" class="code_var">C</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-C" class="code_var">C</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-R" class="code_var">R</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-C" class="code_var">C</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-R" class="code_var">R</a>, <a href="mul.html#decl-C" class="code_var">C</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-C" class="code_var">C</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-R" class="code_var">R</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-C" class="code_var">C</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
     <span class='code_keyword'>where</span> <a href="mul.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
+/// Requires Capability Set 2:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-R" class="code_var">R</a>, <a href="mul.html#decl-C" class="code_var">C</a>&gt; <a href="mul.html">mul</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="mul.html#decl-C" class="code_var">C</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-R" class="code_var">R</a>, <a href="mul.html#decl-N" class="code_var">N</a>&gt; <a href="mul.html#decl-left" class="code_param">left</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="mul.html#typeparam-T" class="code_type">T</a>, <a href="mul.html#decl-N" class="code_var">N</a>, <a href="mul.html#decl-C" class="code_var">C</a>&gt; <a href="mul.html#decl-right" class="code_param">right</a>)
@@ -167,6 +183,8 @@ The inner product of <span class='code'><a href="mul.html#decl-x" class="code_pa
 
 ## Availability and Requirements
 
+### Capability Set 1
+
 Defined for the following targets:
 
 #### hlsl
@@ -182,6 +200,32 @@ Available in all stages.
 Available in all stages.
 
 #### metal
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+
+### Capability Set 2
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### metal
+Available in all stages.
+
+#### wgsl
 Available in all stages.
 
 #### spirv
