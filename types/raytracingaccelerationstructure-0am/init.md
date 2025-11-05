@@ -31,10 +31,10 @@ layout: stdlib-reference
 
 Defined for the following targets:
 
-#### glsl
+#### spirv
 Available in all stages.
 
-#### spirv
+#### glsl
 Available in all stages.
 
 

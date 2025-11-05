@@ -35,10 +35,10 @@ Constructor for uint64_t handles
 
 Defined for the following targets:
 
-#### glsl
+#### spirv
 Available in all stages.
 
-#### spirv
+#### glsl
 Available in all stages.
 
 #### hlsl

@@ -195,10 +195,10 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 
 Defined for the following targets:
 
-#### glsl
+#### spirv
 Available in all stages.
 
-#### spirv
+#### glsl
 Available in all stages.
 
 #### hlsl
