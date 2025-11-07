@@ -22,10 +22,10 @@ layout: stdlib-reference
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `compute`, `amplification`, `mesh`.
+Available in stages: `compute`, `mesh`, `amplification`.
 
 #### glsl
-Available in stages: `compute`, `amplification`, `mesh`.
+Available in stages: `compute`, `mesh`, `amplification`.
 
 #### c
 Available in `compute` stage only.
@@ -37,10 +37,10 @@ Available in `compute` stage only.
 Available in `compute` stage only.
 
 #### metal
-Available in stages: `compute`, `amplification`, `mesh`.
+Available in stages: `compute`, `mesh`, `amplification`.
 
 #### spirv
-Available in stages: `compute`, `amplification`, `mesh`.
+Available in stages: `compute`, `mesh`, `amplification`.
 
 #### wgsl
 Available in `compute` stage only.

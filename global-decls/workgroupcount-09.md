@@ -22,10 +22,10 @@ layout: stdlib-reference
 Defined for the following targets:
 
 #### glsl
-Available in stages: `compute`, `amplification`, `mesh`.
+Available in stages: `compute`, `mesh`, `amplification`.
 
 #### spirv
-Available in stages: `compute`, `amplification`, `mesh`.
+Available in stages: `compute`, `mesh`, `amplification`.
 
 
 
