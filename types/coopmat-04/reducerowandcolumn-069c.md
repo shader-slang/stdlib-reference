@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Reduces the matrix along both rows and columns using the specified combining operation.
+Requires Vulkan with SPV_NV_cooperative_matrix2 extension.
 
 
 
@@ -22,11 +23,21 @@ linalg.<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html
 ## Generic Parameters
 
 ####  <a id="decl-RM"></a>RM  : int
+The number of rows in the resulting reduced matrix.
+
 ####  <a id="decl-RN"></a>RN  : int
+The number of columns in the resulting reduced matrix.
+
 
 ## Parameters
 
 ####  <a id="decl-combineOp"></a>combineOp  : \( [T](index.html#typeparam-T), [T](index.html#typeparam-T) \) -\> [T](index.html#typeparam-T)
+The binary function used to combine elements (e.g., addition, multiplication).
+
+
+## Return value
+A reduced accumulator matrix with dimensions RM42949672354294967191RN.
+
 
 ## Availability and Requirements
 

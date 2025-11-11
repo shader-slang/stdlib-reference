@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Applies a per-element operation to the cooperative matrix.
+Requires Vulkan with SPV_NV_cooperative_matrix2 extension.
 
 
 
@@ -31,7 +32,15 @@ linalg.<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html
 ## Parameters
 
 ####  <a id="decl-mapOp"></a>mapOp  : \( uint, uint, [T](index.html#typeparam-T) \) -\> [T](index.html#typeparam-T)
+A function that takes (row, column, element) and returns a new element value.
+
 ####  <a id="decl-mapOp"></a>mapOp  : [TFunc](mapelement-03.html#typeparam-TFunc)
+A function that takes (row, column, element) and returns a new element value.
+
+
+## Return value
+A new cooperative matrix with the operation applied to each element.
+
 
 ## Availability and Requirements
 

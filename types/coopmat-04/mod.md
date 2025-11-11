@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Performs element-wise modulo operation of two cooperative matrices.
 
 
 
@@ -22,4 +22,10 @@ linalg.<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html
 ## Parameters
 
 ####  <a id="decl-other"></a>other  : linalg\.[CoopMat](index.html)\<[T](index.html#typeparam-T), [S](index.html#decl-S), [M](index.html#decl-M), [N](index.html#decl-N), [R](index.html#decl-R)\>
+The cooperative matrix to compute modulo with.
+
+
+## Return value
+A new cooperative matrix containing the element-wise remainder.
+
 

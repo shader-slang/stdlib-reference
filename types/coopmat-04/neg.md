@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Negates all elements in the cooperative matrix.
 
 
 
@@ -17,4 +17,8 @@ linalg.<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
+
+## Return value
+A new cooperative matrix with all elements negated.
+
 

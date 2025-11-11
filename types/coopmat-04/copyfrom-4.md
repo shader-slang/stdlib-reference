@@ -36,6 +36,9 @@ The source cooperative matrix to copy from.
 
 Defined for the following targets:
 
+#### cuda
+Available in all stages.
+
 #### spirv
 Available in all stages.
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Stores the cooperative matrix into a byte address buffer.
 
 
 
@@ -20,56 +20,56 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout&gt;(
     <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout&gt;(
     <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, <span class="code_keyword">int</span> V&gt;(
     <a href="index.html#typeparam-T" class="code_type">T</a>[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 3:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V&gt;(
     <a href="store-0.html#typeparam-U" class="code_type">U</a>[<a href="store-0.html#decl-V" class="code_var">V</a>] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V, <span class="code_keyword">int</span> L&gt;(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="store-0.html#typeparam-U" class="code_type">U</a>, <a href="store-0.html#decl-L" class="code_var">L</a>&gt;[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode&gt;(
     <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode&gt;(
     <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, <span class="code_keyword">uint</span> DimView, <span class="code_keyword">bool</span> HasDimensions, <span class="code_keyword">uint</span> p0, <span class="code_keyword">uint</span> p1, <span class="code_keyword">uint</span> p2, <span class="code_keyword">uint</span> p3, <span class="code_keyword">uint</span> p4&gt;(
     <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -77,7 +77,7 @@ layout: stdlib-reference
     linalg.<a href="../tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="store-0.html#decl-DimView" class="code_var">DimView</a>, <a href="store-0.html#decl-HasDimensions" class="code_var">HasDimensions</a>, <a href="store-0.html#decl-p0" class="code_var">p0</a>, <a href="store-0.html#decl-p1" class="code_var">p1</a>, <a href="store-0.html#decl-p2" class="code_var">p2</a>, <a href="store-0.html#decl-p3" class="code_var">p3</a>, <a href="store-0.html#decl-p4" class="code_var">p4</a>&gt; <a href="store-0.html#decl-tensorView" class="code_param">tensorView</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, <span class="code_keyword">uint</span> DimView, <span class="code_keyword">bool</span> HasDimensions, <span class="code_keyword">uint</span> p0, <span class="code_keyword">uint</span> p1, <span class="code_keyword">uint</span> p2, <span class="code_keyword">uint</span> p3, <span class="code_keyword">uint</span> p4&gt;(
     <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -106,10 +106,21 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
+The RWByteAddressBuffer to store the matrix into.
+
 ####  <a id="decl-element"></a>element  : uint
+The starting element index in the buffer to store the matrix into.
+
 ####  <a id="decl-stride"></a>stride  : uint
+The stride in elements between consecutive rows (for row major layout) or columns (for column major layout)
+and must be a multiple of 8 for __half element type or multiple of 4 for float element type. (i.e., multiple of 16 bytes in both cases)
+
 ####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
+The RWByteAddressBuffer to store the matrix into.
+
 ####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device\>
+The RWByteAddressBuffer to store the matrix into.
+
 ####  <a id="decl-data"></a>data  : [T](index.html#typeparam-T) \[ V \]
 ####  <a id="decl-data"></a>data  : [U](store-0.html#typeparam-U) \[ [V](store-0.html#decl-V) \]
 ####  <a id="decl-data"></a>data  : [vector](../vector/index.html)\<U, L\> \[ V \]
@@ -122,12 +133,36 @@ layout: stdlib-reference
 
 Defined for the following targets:
 
+#### cuda
+Available in all stages.
+
 #### spirv
 Available in all stages.
 
 Requires capability: `spvCooperativeMatrixKHR`.
 
 ### Capability Set 2
+
+Defined for the following targets:
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeMatrixKHR`.
+
+### Capability Set 3
+
+Defined for the following targets:
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeMatrixKHR`.
+
+### Capability Set 4
 
 Defined for the following targets:
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Transposes the cooperative matrix. Requires Vulkan with SPV_NV_cooperative_matrix2 extension.
 
 
 
@@ -18,9 +18,16 @@ linalg.<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html
 
 </pre>
 
+## Return value
+A transposed cooperative matrix with dimensions N42949672354294967191M and MatrixB usage.
+
+
 ## Availability and Requirements
 
 Defined for the following targets:
+
+#### cuda
+Available in all stages.
 
 #### spirv
 Available in all stages.

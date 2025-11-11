@@ -6,10 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-Returns the number of elements for the current thread.
-Depending on the number of threads for the given matrix, each
-thread will get smaller length.
-
+Returns the number of elements for accessible by the current thread.
+The number of components accessible by current thread is implementation-dependent.
 
 
 
@@ -21,6 +19,11 @@ thread will get smaller length.
 
 </pre>
 
+## Return value
+The number of elements accessible by the current thread.
+
+
+
 ## Remarks
 The return value is unlikely to be same to M * N.
 
@@ -28,6 +31,9 @@ The return value is unlikely to be same to M * N.
 ## Availability and Requirements
 
 Defined for the following targets:
+
+#### cuda
+Available in all stages.
 
 #### spirv
 Available in all stages.

@@ -184,6 +184,7 @@ Slang's Standard Library defines the following types:
 
 Buffer types <buffer_types>
 Math types <math_types>
+matrix_types <matrix_types>
 Miscelaneous types <misc_types>
 Ray-tracing <raytracing>
 Sampler types <sampler_types>
@@ -195,7 +196,6 @@ Atomic <atomic-0/index>
 AtomicAdd <atomicadd-06/index>
 BindlessDescriptorOptions <bindlessdescriptoroptions-08i/index>
 ConstantBuffer <constantbuffer-08/index>
-CoopMat <coopmat-04/index>
 CoopMatClampMode <coopmatclampmode-047c/index>
 CoopMatMatrixLayout <coopmatmatrixlayout-047d/index>
 CoopMatMatrixUse <coopmatmatrixuse-047d/index>

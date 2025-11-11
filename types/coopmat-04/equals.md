@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-
+Tests if two cooperative matrices are equal by comparing all elements.
 
 
 
@@ -22,4 +22,10 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-other"></a>other  : linalg\.[CoopMat](index.html)\<[T](index.html#typeparam-T), [S](index.html#decl-S), [M](index.html#decl-M), [N](index.html#decl-N), [R](index.html#decl-R)\>
+The cooperative matrix to compare with.
+
+
+## Return value
+True if all corresponding elements are equal, false otherwise.
+
 

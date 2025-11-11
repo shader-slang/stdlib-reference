@@ -6,7 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-
+Stores the cooperative matrix into a pointer buffer with coherent memory access.
+Ensures memory writes are made available across the specified memory scope. Vulkan only.
 
 
 
@@ -25,13 +26,23 @@ layout: stdlib-reference
 ## Generic Parameters
 
 ####  <a id="decl-matrixLayout"></a>matrixLayout  : linalg\.[CoopMatMatrixLayout](../coopmatmatrixlayout-047d/index.html)
+The memory layout (RowMajor or ColMajor) to use when storing.
+
 
 ## Parameters
 
 ####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device\>
+The pointer to the buffer to store the matrix into.
+
 ####  <a id="decl-element"></a>element  : uint
+The starting element index in the buffer.
+
 ####  <a id="decl-stride"></a>stride  : uint
+The stride in elements between consecutive rows (for row major) or columns (for column major).
+
 ####  <a id="decl-memoryScope"></a>memoryScope  : MemoryScope
+The scope across which the write should be made visible (e.g., Device, Workgroup).
+
 
 ## Availability and Requirements
 

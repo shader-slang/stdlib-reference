@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-Returns the count as an integer value.
-
+Returns the number of elements for accessible by the current thread.
+The number of components accessible by current thread is implementation-dependent.
 
 
 
@@ -19,9 +19,21 @@ Returns the count as an integer value.
 
 </pre>
 
+## Return value
+The number of elements accessible by the current thread.
+
+
+
+## Remarks
+The return value is unlikely to be same to M * N.
+
+
 ## Availability and Requirements
 
 Defined for the following targets:
+
+#### cuda
+Available in all stages.
 
 #### spirv
 Available in all stages.

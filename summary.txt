@@ -1,5 +1,5 @@
-documented pages: 696
-undocumented pages: 602(46.4%)
+documented pages: 717
+undocumented pages: 581(44.8%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -73,27 +73,6 @@ ConsumeStructuredBuffer<T, L>.Handle
 ConsumeStructuredBuffer<T, L>.descriptorAccess
 ConsumeStructuredBuffer<T, L>.init
 ConsumeStructuredBuffer<T, L>.kind
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Load<linalg.CoopMatMatrixLayout matrixLayout>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.LoadCoherent<linalg.CoopMatMatrixLayout matrixLayout>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.MapElement
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Reduce2x2
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceColumn<int RM>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceRow<int RN>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.ReduceRowAndColumn<int RM, int RN>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Store<linalg.CoopMatMatrixLayout matrixLayout>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.StoreCoherent<linalg.CoopMatMatrixLayout matrixLayout>
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.Transpose
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.add
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.div
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.equals
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.init
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.lessThan
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.lessThanOrEquals
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.mod
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.mul
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.neg
-linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.sub
 linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>.subscript
 linalg::CoopMatClampMode
 linalg::CoopMatMatrixLayout
