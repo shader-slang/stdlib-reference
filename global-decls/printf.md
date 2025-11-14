@@ -15,7 +15,7 @@ Print a message to the debug output.
 <pre>
 <span class="code_keyword">void</span> <a href="printf.html">printf</a>&lt;<span class="code_keyword">each</span> <a href="printf.html#typeparam-T" class="code_type">T</a>&gt;(
     <a href="../types/nativestring-06/index.html" class="code_type">NativeString</a> <a href="printf.html#decl-format" class="code_param">format</a>,
-    <a href="printf.html#typeparam-T" class="code_type">T</a> <a href="printf.html#decl-args" class="code_param">args</a>);
+    <span class="code_keyword">const</span> <a href="printf.html#typeparam-T" class="code_type">T</a> <a href="printf.html#decl-args" class="code_param">args</a>);
 
 </pre>
 

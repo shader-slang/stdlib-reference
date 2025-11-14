@@ -27,7 +27,7 @@ layout: stdlib-reference
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 3:
-<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<span class="code_keyword">each</span> <a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="init.html#typeparam-U" class="code_type">U</a> <a href="init.html#decl-args" class="code_param">args</a>)
+<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<span class="code_keyword">each</span> <a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<span class="code_keyword">const</span> <a href="init.html#typeparam-U" class="code_type">U</a> <a href="init.html#decl-args" class="code_param">args</a>)
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
