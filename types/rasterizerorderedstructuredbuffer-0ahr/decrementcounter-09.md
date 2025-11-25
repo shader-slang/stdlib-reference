@@ -26,3 +26,12 @@ The post-decremented counter value.
 This function is not implemented when targeting non-HLSL.
 
 
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+
+

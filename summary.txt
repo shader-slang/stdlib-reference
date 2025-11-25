@@ -1,5 +1,5 @@
-documented pages: 717
-undocumented pages: 581(44.8%)
+documented pages: 726
+undocumented pages: 583(44.5%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -335,6 +335,8 @@ _Texture<float, Shape, 0, 0, 0, 1, 0, 0, format>.InterlockedAddF32
 _Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.Load
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleBias
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmp
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpBias
+_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpGrad
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevel
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevelZero
 _Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleGrad

@@ -21,6 +21,8 @@ This category contains the following declarations:
 
 #### [RaytracingAccelerationStructure](raytracingaccelerationstructure-0am/index)
 
+#### [TRAVERSABLE\_TRANSFORM\_TYPE](traversable_transform_type-0123456789acdefghijkmnop/index)
+
 
 <!-- RTD-TOC-START
 ```{toctree}
@@ -35,5 +37,6 @@ RAY_FLAG <ray_flag-0124567>
 RayDesc <raydesc-03/index>
 RayQuery <rayquery-03/index>
 RaytracingAccelerationStructure <raytracingaccelerationstructure-0am/index>
+TRAVERSABLE_TRANSFORM_TYPE <traversable_transform_type-0123456789acdefghijkmnop/index>
 ```
 RTD-TOC-END -->

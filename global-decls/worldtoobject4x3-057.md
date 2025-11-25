@@ -34,6 +34,9 @@ Available in stages: `intersection`, `closesthit`, `anyhit`.
 #### glsl
 Available in stages: `intersection`, `closesthit`, `anyhit`.
 
+#### cuda
+Available in stages: `intersection`, `closesthit`, `anyhit`.
+
 #### spirv
 Available in stages: `intersection`, `closesthit`, `anyhit`.
 

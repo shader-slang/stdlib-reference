@@ -45,13 +45,13 @@ struct DifferentialPtrPair<T : IDifferentiablePtrType> : IDifferentiablePtrType
 
 Differential ptr pairs can be created via constructor.
 ```csharp
-struct DPtrFloat : IDifferentialPtrType 
-{ 
+struct DPtrFloat : IDifferentialPtrType
+{
     typealias Differential = DPtrFloat;
     float* ptr;
 };
 
-DifferentialPtrPair<DPtrFloat> dpa = 
+DifferentialPtrPair<DPtrFloat> dpa =
            DifferentialPtrPair<float>({&outputBuffer[0]}, {&outputBuffer[1]});
 ```
 Note that derivative ptr pairs are used to pass derivatives into and out of auto-diff functions.

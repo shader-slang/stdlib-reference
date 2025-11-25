@@ -27,9 +27,25 @@ This category contains the following declarations:
 
 #### [GetClusterID](getclusterid-03ab)
 
+#### [GetInstanceTraversable](getinstancetraversable-03b)
+
 #### [GetLssPositionsAndRadii](getlsspositionsandradii-036fi)
 
 #### [GetSpherePositionAndRadius](getspherepositionandradius-039hk)
+
+#### [GetTransformListHandle](gettransformlisthandle-03cg)
+
+#### [GetTransformListSize](gettransformlistsize-03cg)
+
+#### [GetTraversableChild](gettraversablechild-03e)
+
+#### [GetTraversableInstanceId](gettraversableinstanceid-03em)
+
+#### [GetTraversableObjectToWorld](gettraversableobjecttoworld-03ekm)
+
+#### [GetTraversableTransformType](gettraversabletransformtype-03en)
+
+#### [GetTraversableWorldToObject](gettraversableworldtoobject-03ejl)
 
 #### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](hit_kind_triangle_back_face-01245679abcdefgijklnopq)
 
@@ -126,8 +142,16 @@ DispatchRaysDimensions <dispatchraysdimensions-08c>
 DispatchRaysIndex <dispatchraysindex-08c>
 GeometryIndex <geometryindex-08>
 GetClusterID <getclusterid-03ab>
+GetInstanceTraversable <getinstancetraversable-03b>
 GetLssPositionsAndRadii <getlsspositionsandradii-036fi>
 GetSpherePositionAndRadius <getspherepositionandradius-039hk>
+GetTransformListHandle <gettransformlisthandle-03cg>
+GetTransformListSize <gettransformlistsize-03cg>
+GetTraversableChild <gettraversablechild-03e>
+GetTraversableInstanceId <gettraversableinstanceid-03em>
+GetTraversableObjectToWorld <gettraversableobjecttoworld-03ekm>
+GetTraversableTransformType <gettraversabletransformtype-03en>
+GetTraversableWorldToObject <gettraversableworldtoobject-03ejl>
 HIT_KIND_TRIANGLE_BACK_FACE <hit_kind_triangle_back_face-01245679abcdefgijklnopq>
 HIT_KIND_TRIANGLE_FRONT_FACE <hit_kind_triangle_front_face-01245679abcdefgijklmopqr>
 HitKind <hitkind-03>

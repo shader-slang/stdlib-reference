@@ -64,6 +64,8 @@ The storage format of the texture. Users should specify the format using an <spa
 * [SampleCmp](samplecmp-06)
 * [SampleCmpLevelZero](samplecmplevelzero-069e)
 * [SampleCmpLevel](samplecmplevel-069)
+* [SampleCmpGrad](samplecmpgrad-069)
+* [SampleCmpBias](samplecmpbias-069)
 * [SampleGrad](samplegrad-06)
 * [SampleLevel](samplelevel-06)
 * [GetSamplePosition](getsampleposition-039)
@@ -204,6 +206,8 @@ Load <load-0>
 Sample <sample-0>
 SampleBias <samplebias-06>
 SampleCmp <samplecmp-06>
+SampleCmpBias <samplecmpbias-069>
+SampleCmpGrad <samplecmpgrad-069>
 SampleCmpLevel <samplecmplevel-069>
 SampleCmpLevelZero <samplecmplevelzero-069e>
 SampleGrad <samplegrad-06>

@@ -126,6 +126,7 @@ Slang's Standard Library defines the following types:
 - [StructuredBuffer](structuredbuffer-0a/index)
 - [SubpassInput](subpassinput-07)
 - [SubpassInputMS](subpassinputms-07cd)
+- [TRAVERSABLE\_TRANSFORM\_TYPE](traversable_transform_type-0123456789acdefghijkmnop/index)
 - [TensorLayout](tensorlayout-06/index)
 - [TensorView](tensorview-06/index)
 - [Texture1D](texture1d-08)

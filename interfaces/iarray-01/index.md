@@ -52,7 +52,7 @@ void computeMain(int3 dispatchThreadID : SV_DispatchThreadID)
     outputBuffer[1] = sum(v);    // 10.0
 
     // treat `m` as array of `float2`.
-    float2 innerSum = sum(m); 
+    float2 innerSum = sum(m);
     outputBuffer[2] = sum(innerSum); // 10.0
 }
 ```

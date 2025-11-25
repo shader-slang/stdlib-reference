@@ -24,6 +24,9 @@ Defined for the following targets:
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
+#### cuda
+Available in stages: `raygen`, `closesthit`, `miss`.
+
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
