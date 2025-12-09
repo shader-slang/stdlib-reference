@@ -25,7 +25,7 @@ Index of the vertex (0-2)
 
 
 ## Return value
-World-space position of the specified vertex
+Object-space position of the specified vertex
 
 ## Remarks
 Requires ray tracing position fetch extension
