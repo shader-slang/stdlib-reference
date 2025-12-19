@@ -48,5 +48,8 @@ Available in `compute` stage only.
 #### slangvm
 Available in `compute` stage only.
 
+#### llvm
+Available in `compute` stage only.
+
 
 

@@ -1,5 +1,5 @@
-documented pages: 726
-undocumented pages: 583(44.5%)
+documented pages: 734
+undocumented pages: 586(44.4%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -536,6 +536,9 @@ WaveMultiPrefixProduct<T>
 WaveMultiPrefixSum<T>
 WaveMultiProduct<T>
 WaveMultiSum<T>
+WavePrefixBitAnd<T>
+WavePrefixBitOr<T>
+WavePrefixBitXor<T>
 WavePrefixCountBits
 WavePrefixProduct<T>
 WavePrefixSum<T>

@@ -24,5 +24,8 @@ Defined for the following targets:
 #### cpp
 Available in all stages.
 
+#### llvm
+Available in all stages.
+
 
 

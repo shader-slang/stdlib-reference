@@ -45,7 +45,19 @@ This category contains the following declarations:
 
 #### [WaveGetLaneCount](wavegetlanecount-047b)
 
+#### [WaveGetLaneEqMask](wavegetlaneeqmask-047bd)
+
+#### [WaveGetLaneGeMask](wavegetlanegemask-047bd)
+
+#### [WaveGetLaneGtMask](wavegetlanegtmask-047bd)
+
 #### [WaveGetLaneIndex](wavegetlaneindex-047b)
+
+#### [WaveGetLaneLeMask](wavegetlanelemask-047bd)
+
+#### [WaveGetLaneLtMask](wavegetlaneltmask-047bd)
+
+#### [WaveGetNumWaves](wavegetnumwaves-047a)
 
 #### [WaveIsFirstLane](waveisfirstlane-046b)
 
@@ -53,7 +65,17 @@ This category contains the following declarations:
 
 #### [WaveMultiPrefixCountBits](wavemultiprefixcountbits-049fk)
 
+#### [WavePrefixBitAnd\<T\>](waveprefixbitand-04ad)
+
+#### [WavePrefixBitOr\<T\>](waveprefixbitor-04ad)
+
+#### [WavePrefixBitXor\<T\>](waveprefixbitxor-04ad)
+
 #### [WavePrefixCountBits](waveprefixcountbits-04af)
+
+#### [WavePrefixMax\<T\>](waveprefixmax-04a)
+
+#### [WavePrefixMin\<T\>](waveprefixmin-04a)
 
 #### [WavePrefixProduct\<T\>](waveprefixproduct-04a)
 
@@ -93,11 +115,22 @@ WaveBroadcastLaneAt <wavebroadcastlaneat-04dh>
 WaveGetActiveMulti <wavegetactivemulti-047d>
 WaveGetConvergedMulti <wavegetconvergedmulti-047g>
 WaveGetLaneCount <wavegetlanecount-047b>
+WaveGetLaneEqMask <wavegetlaneeqmask-047bd>
+WaveGetLaneGeMask <wavegetlanegemask-047bd>
+WaveGetLaneGtMask <wavegetlanegtmask-047bd>
 WaveGetLaneIndex <wavegetlaneindex-047b>
+WaveGetLaneLeMask <wavegetlanelemask-047bd>
+WaveGetLaneLtMask <wavegetlaneltmask-047bd>
+WaveGetNumWaves <wavegetnumwaves-047a>
 WaveIsFirstLane <waveisfirstlane-046b>
 WaveMatch <wavematch-04>
 WaveMultiPrefixCountBits <wavemultiprefixcountbits-049fk>
+WavePrefixBitAnd <waveprefixbitand-04ad>
+WavePrefixBitOr <waveprefixbitor-04ad>
+WavePrefixBitXor <waveprefixbitxor-04ad>
 WavePrefixCountBits <waveprefixcountbits-04af>
+WavePrefixMax <waveprefixmax-04a>
+WavePrefixMin <waveprefixmin-04a>
 WavePrefixProduct <waveprefixproduct-04a>
 WavePrefixSum <waveprefixsum-04a>
 WaveReadLaneAt <wavereadlaneat-048c>

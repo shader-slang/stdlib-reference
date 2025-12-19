@@ -81,6 +81,9 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
+#### llvm
+Available in all stages.
+
 
 ### Capability Set 2
 

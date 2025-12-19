@@ -70,6 +70,9 @@ Available in all stages.
 Available in all stages.
 
 Requires capability: `SPV_KHR_non_semantic_info`.
+#### llvm
+Available in all stages.
+
 #### slangvm
 Available in all stages.
 
