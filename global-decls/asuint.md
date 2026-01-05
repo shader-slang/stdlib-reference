@@ -32,10 +32,10 @@ Reinterpret bits of double as a uint.
 /// Requires Capability Set 2:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="asuint.html#decl-N" class="code_var">N</a>&gt; <a href="asuint.html">asuint</a>&lt;<span class="code_keyword">int</span> <a href="asuint.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="asuint.html#decl-N" class="code_var">N</a>&gt; <a href="asuint.html#decl-x" class="code_param">x</a>);
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 3:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">uint</span>, <a href="asuint.html#decl-N" class="code_var">N</a>, <a href="asuint.html#decl-M" class="code_var">M</a>&gt; <a href="asuint.html">asuint</a>&lt;<span class="code_keyword">int</span> <a href="asuint.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="asuint.html#decl-M" class="code_var">M</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, <a href="asuint.html#decl-N" class="code_var">N</a>, <a href="asuint.html#decl-M" class="code_var">M</a>&gt; <a href="asuint.html#decl-x" class="code_param">x</a>);
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 3:
 <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">uint</span>, <a href="asuint.html#decl-N" class="code_var">N</a>, <a href="asuint.html#decl-M" class="code_var">M</a>&gt; <a href="asuint.html">asuint</a>&lt;<span class="code_keyword">int</span> <a href="asuint.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="asuint.html#decl-M" class="code_var">M</a>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">int</span>, <a href="asuint.html#decl-N" class="code_var">N</a>, <a href="asuint.html#decl-M" class="code_var">M</a>&gt; <a href="asuint.html#decl-x" class="code_param">x</a>);
 
 <span class="code_keyword">uint</span> <a href="asuint.html">asuint</a>(<span class="code_keyword">uint</span> <a href="asuint.html#decl-x" class="code_param">x</a>);
@@ -111,6 +111,32 @@ Available in all stages.
 Available in all stages.
 
 #### wgsl
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+#### llvm
+Available in all stages.
+
+
+### Capability Set 3
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### metal
 Available in all stages.
 
 #### spirv
