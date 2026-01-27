@@ -1,5 +1,5 @@
-documented pages: 734
-undocumented pages: 586(44.4%)
+documented pages: 747
+undocumented pages: 589(44.1%)
 
 IArray<T>.subscript
 IDefaultInitializable.init
@@ -124,17 +124,17 @@ DifferentialPtrPair<T>.p
 DifferentialPtrPair<T>.v
 HitObject.GetCurrentTime
 HitObject.GetLssPositionsAndRadii
-HitObject.GetObjectRayDirection
-HitObject.GetObjectRayOrigin
-HitObject.GetObjectToWorld
+HitObject.GetRayDesc
 HitObject.GetShaderRecordBufferHandle
 HitObject.GetSpherePositionAndRadius
-HitObject.GetWorldToObject
+HitObject.Invoke<payload_t>
 HitObject.IsLssHit
 HitObject.IsSphereHit
 HitObject.MakeMotionHit<attr_t>
 HitObject.MakeMotionMiss
 HitObject.SetShaderTableIndex
+HitObject.TraceMotionRay<T>
+HitObject.TraceRay<T>
 HitObject.init
 InputPatch<T, int N>
 InputPatch<T, int N>.subscript<TIndex>
@@ -176,6 +176,7 @@ PointStream<T>.Append
 PointStream<T>.RestartStrip
 Ptr<T, Access access, AddressSpace addrSpace>.init<U, Access accessOther>
 Ptr<T, Access access, AddressSpace addrSpace>.subscript<TInt>
+RAYQUERY_FLAG
 RWBuffer<T, int format>
 RWByteAddressBuffer.GetBufferPointer
 RWByteAddressBuffer.Handle
@@ -202,6 +203,7 @@ RasterizerOrderedStructuredBuffer<T, L>.getCount
 RasterizerOrderedStructuredBuffer<T, L>.init
 RasterizerOrderedStructuredBuffer<T, L>.kind
 RasterizerOrderedStructuredBuffer<T, L>.subscript<TIndex>
+RayQuery<uint rayFlagsGeneric>
 RayQuery<uint rayFlagsGeneric>.CandidateGeometryIndex
 RayQuery<uint rayFlagsGeneric>.CandidateInstanceContributionToHitGroupIndex
 RayQuery<uint rayFlagsGeneric>.CandidateInstanceID
@@ -489,6 +491,8 @@ QuadReadAcrossDiagonal<T>
 QuadReadAcrossX<T>
 QuadReadAcrossY<T>
 QuadReadLaneAt<T>
+RAYQUERY_FLAG_NONE
+RAY_FLAG_FORCE_OMM_2_STATE
 WaveActiveAllEqual<T>
 WaveActiveAllTrue
 WaveActiveAnyTrue
@@ -578,7 +582,6 @@ min<T>
 mul<T>
 nextafter<T>
 nonuniform<T>
-operator*<T>
 operator?:<T, int N, int M>
 select<T>
 sin<T>

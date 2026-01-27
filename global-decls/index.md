@@ -64,6 +64,7 @@ Slang's Standard Library defines the following global declarations:
 - [IsHelperLane](ishelperlane-028)
 - [IsLssHit](islsshit-025)
 - [IsSphereHit](isspherehit-028)
+- [MaybeReorderThread](maybereorderthread-05c)
 - [NonUniformResourceIndex](nonuniformresourceindex-03ai)
 - [ObjectRayDirection](objectraydirection-069)
 - [ObjectRayOrigin](objectrayorigin-069)
@@ -87,12 +88,15 @@ Slang's Standard Library defines the following global declarations:
 - [QuadReadAcrossX](quadreadacrossx-048e)
 - [QuadReadAcrossY](quadreadacrossy-048e)
 - [QuadReadLaneAt](quadreadlaneat-048c)
+- [RAYQUERY\_FLAG\_ALLOW\_OPACITY\_MICROMAPS](rayquery_flag_allow_opacity_micromaps-012345679abcefghiklmnopqstuvwxyz10)
+- [RAYQUERY\_FLAG\_NONE](rayquery_flag_none-012345679abcefgh)
 - [RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH](ray_flag_accept_first_hit_and_end_search-01245679abcdeghijkmnoqrsuvwyz10111213)
 - [RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES](ray_flag_cull_back_facing_triangles-01245679abcefghjklmnoqrstuvwxy)
 - [RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES](ray_flag_cull_front_facing_triangles-01245679abcefghiklmnoprstuvwxyz)
 - [RAY\_FLAG\_CULL\_NON\_OPAQUE](ray_flag_cull_non_opaque-01245679abcefgijklmn)
 - [RAY\_FLAG\_CULL\_OPAQUE](ray_flag_cull_opaque-01245679abcefghij)
 - [RAY\_FLAG\_FORCE\_NON\_OPAQUE](ray_flag_force_non_opaque-01245679abcdfghjklmno)
+- [RAY\_FLAG\_FORCE\_OMM\_2\_STATE](ray_flag_force_omm_2_state-01245679abcdfghlmnop)
 - [RAY\_FLAG\_FORCE\_OPAQUE](ray_flag_force_opaque-01245679abcdfghijk)
 - [RAY\_FLAG\_NONE](ray_flag_none-01245679abc)
 - [RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER](ray_flag_skip_closest_hit_shader-01245679abcefghijkmnoqrstuv)
@@ -399,6 +403,7 @@ GetRenderTargetSamplePosition <getrendertargetsampleposition-039fl>
 InterlockedAddF16Emulated <interlockedaddf16emulated-0beh>
 InterlockedAddF16x2 <interlockedaddf16x2-0be>
 IsHelperLane <ishelperlane-028>
+MaybeReorderThread <maybereorderthread-05c>
 NonUniformResourceIndex <nonuniformresourceindex-03ai>
 QuadAll <quadall-04>
 QuadAny <quadany-04>

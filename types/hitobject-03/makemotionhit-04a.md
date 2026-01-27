@@ -15,7 +15,6 @@ Currently only supported on VK
 ## Signature 
 
 <pre>
-/// Requires Capability Set 1:
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemotionhit-04a.html">MakeMotionHit</a>&lt;<a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
     <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makemotionhit-04a.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
@@ -28,7 +27,6 @@ Currently only supported on VK
     <span class="code_keyword">float</span> <a href="makemotionhit-04a.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
     <a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="makemotionhit-04a.html#decl-attributes" class="code_param">attributes</a>);
 
-/// Requires Capability Set 2:
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemotionhit-04a.html">MakeMotionHit</a>&lt;<a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-HitGroupRecordIndex" class="code_param">HitGroupRecordIndex</a>,
     <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makemotionhit-04a.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
@@ -62,33 +60,12 @@ Currently only supported on VK
 
 ## Availability and Requirements
 
-### Capability Set 1
-
 Defined for the following targets:
-
-#### hlsl
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capability: `hlsl_nvapi`.
-#### glsl
-Available in stages: `raygen`, `closesthit`, `miss`.
 
 #### cuda
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-#### spirv
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capabilities: `spvRayTracingMotionBlurNV`, `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
-
-### Capability Set 2
-
-Defined for the following targets:
-
 #### glsl
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-#### cuda
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 #### spirv

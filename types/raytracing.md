@@ -13,6 +13,8 @@ This category contains the following declarations:
 
 #### [HitObject](hitobject-03/index)
 
+#### [RAYQUERY\_FLAG](rayquery_flag-012345679abc)
+
 #### [RAY\_FLAG](ray_flag-0124567)
 
 #### [RayDesc](raydesc-03/index)
@@ -33,6 +35,7 @@ BuiltInTriangleIntersectionAttributes <builtintriangleintersectionattributes-057
 CANDIDATE_TYPE <candidate_type-012345678abcd>
 COMMITTED_STATUS <committed_status-012345678abcdef>
 HitObject <hitobject-03/index>
+RAYQUERY_FLAG <rayquery_flag-012345679abc>
 RAY_FLAG <ray_flag-0124567>
 RayDesc <raydesc-03/index>
 RayQuery <rayquery-03/index>

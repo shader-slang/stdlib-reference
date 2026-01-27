@@ -6,6 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
+Returns object-space ray direction. Valid if the hit object represents a hit.
 
 
 
@@ -21,6 +22,10 @@ layout: stdlib-reference
 
 Defined for the following targets:
 
+#### hlsl
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
@@ -30,6 +35,6 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

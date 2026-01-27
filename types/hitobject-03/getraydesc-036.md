@@ -7,6 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Queries ray properties from HitObject. Valid if the hit object represents a hit or a miss.
+Note: This is an NVAPI/SPIRV/CUDA extension. DXR 1.3 uses individual accessors (GetRayTMin, GetRayTCurrent, etc.)
 
 
 
@@ -25,7 +26,7 @@ Defined for the following targets:
 #### hlsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capability: `hlsl_nvapi`.
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
@@ -35,6 +36,6 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

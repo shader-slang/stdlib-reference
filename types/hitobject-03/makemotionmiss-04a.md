@@ -32,10 +32,6 @@ Currently only supported on VK
 
 Defined for the following targets:
 
-#### hlsl
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
@@ -45,6 +41,6 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capabilities: `spvRayTracingMotionBlurNV`, `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingMotionBlurNV`, `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

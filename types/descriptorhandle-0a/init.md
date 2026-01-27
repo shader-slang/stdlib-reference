@@ -56,5 +56,8 @@ Defined for the following targets:
 Available in all stages.
 
 Requires capability: `spvBindlessTextureNV`.
+#### cuda
+Available in all stages.
+
 
 

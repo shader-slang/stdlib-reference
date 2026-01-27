@@ -393,6 +393,7 @@
 </li><li data-link="/stdlib-reference/types/coopmat-04/storecoherent-05"><span>StoreCoherent</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/transpose-0"><span>Transpose</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/add"><span>add</span>
+</li><li data-link="/stdlib-reference/types/coopmat-04/convertuse-7"><span>convertUse</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/copyfrom-4"><span>copyFrom</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/div"><span>div</span>
 </li><li data-link="/stdlib-reference/types/coopmat-04/equals"><span>equals</span>
@@ -469,7 +470,8 @@
 </li><li data-link="/stdlib-reference/types/committed_status-012345678abcdef"><span>COMMITTED_STATUS</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/index"><span>HitObject</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/hitobject-03/getattributes-03"><span>GetAttributes</span>
+<li data-link="/stdlib-reference/types/hitobject-03/fromrayquery-047"><span>FromRayQuery</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getattributes-03"><span>GetAttributes</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getclusterid-03ab"><span>GetClusterID</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getcurrenttime-03a"><span>GetCurrentTime</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getgeometryindex-03b"><span>GetGeometryIndex</span>
@@ -480,12 +482,21 @@
 </li><li data-link="/stdlib-reference/types/hitobject-03/getobjectraydirection-039c"><span>GetObjectRayDirection</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getobjectrayorigin-039c"><span>GetObjectRayOrigin</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getobjecttoworld-039b"><span>GetObjectToWorld</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getobjecttoworld3x4-039b"><span>GetObjectToWorld3x4</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getobjecttoworld4x3-039b"><span>GetObjectToWorld4x3</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getprimitiveindex-03c"><span>GetPrimitiveIndex</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getraydesc-036"><span>GetRayDesc</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getrayflags-036"><span>GetRayFlags</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getraytcurrent-0367"><span>GetRayTCurrent</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getraytmin-0367"><span>GetRayTMin</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getshaderrecordbufferhandle-039fl"><span>GetShaderRecordBufferHandle</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getshadertableindex-039e"><span>GetShaderTableIndex</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getspherepositionandradius-039hk"><span>GetSpherePositionAndRadius</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getworldraydirection-038b"><span>GetWorldRayDirection</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getworldrayorigin-038b"><span>GetWorldRayOrigin</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/getworldtoobject-038a"><span>GetWorldToObject</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getworldtoobject3x4-038a"><span>GetWorldToObject3x4</span>
+</li><li data-link="/stdlib-reference/types/hitobject-03/getworldtoobject4x3-038a"><span>GetWorldToObject4x3</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/invoke-0"><span>Invoke</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/ishit-02"><span>IsHit</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/islsshit-025"><span>IsLssHit</span>
@@ -503,6 +514,7 @@
 </li><li data-link="/stdlib-reference/types/hitobject-03/traceray-05"><span>TraceRay</span>
 </li><li data-link="/stdlib-reference/types/hitobject-03/init"><span>init</span>
 </li></ul>
+</li><li data-link="/stdlib-reference/types/rayquery_flag-012345679abc"><span>RAYQUERY_FLAG</span>
 </li><li data-link="/stdlib-reference/types/ray_flag-0124567"><span>RAY_FLAG</span>
 </li><li data-link="/stdlib-reference/types/raydesc-03/index"><span>RayDesc</span>
 <ul class="toc_list">
@@ -1356,12 +1368,15 @@
 </li><li data-link="/stdlib-reference/global-decls/objecttoworld3x4-068"><span>ObjectToWorld3x4</span>
 </li><li data-link="/stdlib-reference/global-decls/objecttoworld4x3-068"><span>ObjectToWorld4x3</span>
 </li><li data-link="/stdlib-reference/global-decls/primitiveindex-09"><span>PrimitiveIndex</span>
+</li><li data-link="/stdlib-reference/global-decls/rayquery_flag_allow_opacity_micromaps-012345679abcefghiklmnopqstuvwxyz10"><span>RAYQUERY_FLAG_ALLOW_OPACITY_MICROMAPS</span>
+</li><li data-link="/stdlib-reference/global-decls/rayquery_flag_none-012345679abcefgh"><span>RAYQUERY_FLAG_NONE</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_accept_first_hit_and_end_search-01245679abcdeghijkmnoqrsuvwyz10111213"><span>RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_cull_back_facing_triangles-01245679abcefghjklmnoqrstuvwxy"><span>RAY_FLAG_CULL_BACK_FACING_TRIANGLES</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_cull_front_facing_triangles-01245679abcefghiklmnoprstuvwxyz"><span>RAY_FLAG_CULL_FRONT_FACING_TRIANGLES</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_cull_non_opaque-01245679abcefgijklmn"><span>RAY_FLAG_CULL_NON_OPAQUE</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_cull_opaque-01245679abcefghij"><span>RAY_FLAG_CULL_OPAQUE</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_force_non_opaque-01245679abcdfghjklmno"><span>RAY_FLAG_FORCE_NON_OPAQUE</span>
+</li><li data-link="/stdlib-reference/global-decls/ray_flag_force_omm_2_state-01245679abcdfghlmnop"><span>RAY_FLAG_FORCE_OMM_2_STATE</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_force_opaque-01245679abcdfghijk"><span>RAY_FLAG_FORCE_OPAQUE</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_none-01245679abc"><span>RAY_FLAG_NONE</span>
 </li><li data-link="/stdlib-reference/global-decls/ray_flag_skip_closest_hit_shader-01245679abcefghijkmnoqrstuv"><span>RAY_FLAG_SKIP_CLOSEST_HIT_SHADER</span>
@@ -1450,6 +1465,7 @@
 </li><li data-link="/stdlib-reference/global-decls/interlockedaddf16emulated-0beh"><span>InterlockedAddF16Emulated</span>
 </li><li data-link="/stdlib-reference/global-decls/interlockedaddf16x2-0be"><span>InterlockedAddF16x2</span>
 </li><li data-link="/stdlib-reference/global-decls/ishelperlane-028"><span>IsHelperLane</span>
+</li><li data-link="/stdlib-reference/global-decls/maybereorderthread-05c"><span>MaybeReorderThread</span>
 </li><li data-link="/stdlib-reference/global-decls/nonuniformresourceindex-03ai"><span>NonUniformResourceIndex</span>
 </li><li data-link="/stdlib-reference/global-decls/quadall-04"><span>QuadAll</span>
 </li><li data-link="/stdlib-reference/global-decls/quadany-04"><span>QuadAny</span>

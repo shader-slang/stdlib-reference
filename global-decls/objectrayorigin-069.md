@@ -21,7 +21,7 @@ Returns the ray origin in object space of the current instance.
 Object-space position where the ray originated
 
 ## Remarks
-Transformed by the inverse of the instance transform
+Transformed by the inverse of the instance transform. On CUDA/OptiX, only available in anyhit and intersection stages.
 
 
 ## Availability and Requirements
@@ -29,16 +29,16 @@ Transformed by the inverse of the instance transform
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `intersection`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `anyhit`, `closesthit`.
 
 #### glsl
-Available in stages: `intersection`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `anyhit`, `closesthit`.
 
 #### cuda
-Available in stages: `intersection`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `anyhit`.
 
 #### spirv
-Available in stages: `intersection`, `closesthit`, `anyhit`.
+Available in stages: `intersection`, `anyhit`, `closesthit`.
 
 Requires capability: `spvRayTracingKHR`.
 

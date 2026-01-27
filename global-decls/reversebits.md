@@ -13,22 +13,25 @@ Reverse order of bits.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="reversebits.html">reversebits</a>(<span class="code_keyword">uint</span> <a href="reversebits.html#decl-value" class="code_param">value</a>);
+<a href="reversebits.html#typeparam-T" class="code_type">T</a> <a href="reversebits.html">reversebits</a>&lt;<a href="reversebits.html#typeparam-T" class="code_type">T</a>&gt;(<a href="reversebits.html#typeparam-T" class="code_type">T</a> <a href="reversebits.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="reversebits.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html">reversebits</a>&lt;<span class="code_keyword">int</span> <a href="reversebits.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html#decl-value" class="code_param">value</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="reversebits.html#typeparam-T" class="code_type">T</a>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html">reversebits</a>&lt;<a href="reversebits.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="reversebits.html#decl-N" class="code_var">N</a>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="reversebits.html#typeparam-T" class="code_type">T</a>, <a href="reversebits.html#decl-N" class="code_var">N</a>&gt; <a href="reversebits.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="reversebits.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : uint
+####  <a id="decl-value"></a>value  : [T](reversebits.html#typeparam-T)
 The value to reverse bits of.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<uint, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to reverse bits of.
 
 

@@ -29,7 +29,7 @@ Defined for the following targets:
 #### hlsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capability: `hlsl_nvapi`.
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
@@ -39,6 +39,6 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

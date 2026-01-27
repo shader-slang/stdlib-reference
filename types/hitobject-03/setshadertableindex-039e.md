@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="setshadertableindex-039e.html">SetShaderTableIndex</a>(<span class="code_keyword">uint</span> <a href="setshadertableindex-039e.html#decl-RecordIndex" class="code_param">RecordIndex</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">HitObject</a>.<a href="setshadertableindex-039e.html">SetShaderTableIndex</a>(<span class="code_keyword">uint</span> <a href="setshadertableindex-039e.html#decl-RecordIndex" class="code_param">RecordIndex</a>);
 
 </pre>
 
@@ -28,9 +28,16 @@ Defined for the following targets:
 #### hlsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capability: `hlsl_nvapi`.
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
+#### glsl
+Available in stages: `raygen`, `closesthit`, `miss`.
+
 #### cuda
 Available in stages: `raygen`, `closesthit`, `miss`.
 
+#### spirv
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

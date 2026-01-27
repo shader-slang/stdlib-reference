@@ -62,6 +62,7 @@ The matrix use specifier indicating whether this is a Matrix A, Matrix B, or acc
 * [lessThanOrEquals](lessthanorequals-48a)
 * [Load](load-0)
 * [Store](store-0)
+* [convertUse](convertuse-7)
 
 ## Remarks
 
@@ -102,7 +103,20 @@ Note: Vulkan's supported shapes are device-specific and can be queried at runtim
 VkPhysicalDeviceCooperativeMatrixPropertiesKHR. The above list represents common configurations
 but may vary by GPU vendor and driver. The element distribution across threads in a subgroup
 may differ between CUDA and Vulkan implementations, so code using the subscript operator
-should only perform uniform operations for portability.
+should only perform uniform operations for portability. If your code specifies a combination
+that is not supported by the device, the behavior is undefined.
+
+Additionally, while only <span class='code'>MemoryScope.Subgroup</span> (warp-level cooperation) is supported on CUDA,
+<span class='code'>MemoryScope.Workgroup</span> can be used when targeting Vulkan, allowing cooperation among threads
+within the entire workgroup. Whenever <span class='code'>Workgroup</span> scope is supported, it is recommended to use it
+instead of <span class='code'>Subgroup</span> scope for simplicity and performance.
+
+When using <span class='code'>MemoryScope.Workgroup</span>, Slang will emit SPIR-V code that uses the
+<span class='code'>SPV_NV_cooperative_matrix2</span> extension. A workgroup-scope cooperative
+matrix can use larger matrix shapes that are multiples of 16/32 depending on the target device.
+Workgroup-scope cooperative matrices requires a specific workgroup size setting (specified via
+<span class='code'>[numthreads]</span>). Use the Vulkan API to query the supported combinations of element type, matrix
+shape and workgroup size settings.
 
 
 
@@ -126,6 +140,7 @@ Store <store-0>
 StoreCoherent <storecoherent-05>
 Transpose <transpose-0>
 add <add>
+convertUse <convertuse-7>
 copyFrom <copyfrom-4>
 div <div>
 equals <equals>

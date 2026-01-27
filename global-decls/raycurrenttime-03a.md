@@ -28,10 +28,6 @@ Available when motion blur extension is enabled
 
 Defined for the following targets:
 
-#### hlsl
-Available in stages: `closesthit`, `anyhit`, `miss`, `intersection`.
-
-Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in stages: `closesthit`, `anyhit`, `miss`, `intersection`.
 

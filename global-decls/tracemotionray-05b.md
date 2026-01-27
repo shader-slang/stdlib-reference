@@ -68,10 +68,6 @@ Extended version of TraceRay with motion blur support
 
 Defined for the following targets:
 
-#### hlsl
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capability: `hlsl_nvapi`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 

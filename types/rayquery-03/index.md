@@ -6,32 +6,6 @@ layout: stdlib-reference
 
 ## Description
 
-Note: The treatment of the <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> type in Slang does not
-perfectly match its semantics in vanilla HLSL in some corner
-cases. Specifically, a <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> in vanilla HLSL is an
-opaque handle to mutable storage, and assigning a <span class='code'><a href="index.html" class="code_type">RayQuery</a></span>
-or passing one as a parameter will only copy the *handle*,
-potentially resulting in aliasing of the underlying mutable
-storage.
-
-In contrast, Slang considers a <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> to own its mutable
-state, and (because the API does not support cloning of queries),
-<span class='code'><a href="index.html" class="code_type">RayQuery</a></span> values are non-copyable (aka "move-only").
-
-The main place where this arises as a consideration is when
-passing a <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> down into a function that will perform
-mutating operations on it (e.g., <span class='code'><a href="../../global-decls/traceray-05.html">TraceRay</a></span> or <span class='code'><a href="proceed-0.html">Proceed</a></span>):
-```
-     void myFunc( inout RayQuery<FLAGS> q )
-     {
-         q.Proceed();
-     }
-```
-In Slang, a parameter like <span class='code'>q</span> above should be declared <span class='code'><span class="code_keyword">inout</span></span>.
-HLSL does not care about whether <span class='code'>q</span> is declared <span class='code'><span class="code_keyword">inout</span></span> or not.
-
-cannot use a cap for struct with unequal target support
-since it will propegate rules to children.
 
 
 ## Generic Parameters

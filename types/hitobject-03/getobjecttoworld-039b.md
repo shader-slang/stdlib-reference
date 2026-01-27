@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
+Returns 4x3 object-to-world transform matrix. Valid if the hit object represents a hit.
+Note: NVAPI/SPIRV/GLSL extension. DXR 1.3 uses GetObjectToWorld3x4() and GetObjectToWorld4x3().
 
 
 
@@ -24,13 +26,16 @@ Defined for the following targets:
 #### hlsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capability: `hlsl_nvapi`.
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+#### cuda
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

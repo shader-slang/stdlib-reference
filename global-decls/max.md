@@ -20,6 +20,12 @@ Maximum.
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
+<a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/icomparable-01/index.html" class="code_type">IComparable</a>;
+
+/// Requires Capability Set 1:
 <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
@@ -66,6 +72,7 @@ Maximum.
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
+####  <a id="typeparam-T"></a>T: [IComparable](../interfaces/icomparable-01/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)

@@ -11,7 +11,7 @@ the least significant bits of CoherenceHint should be considered during reorderi
 Applications should set this to the lowest value required to represent all possible values in
 CoherenceHint. For best performance, all threads should provide the same value for
 NumCoherenceHintBits.
-Where possible, reordering will also attempt to retain locality in the thread429496726642949671684294967193s launch indices
+Where possible, reordering will also attempt to retain locality in the thread's launch indices
 (DispatchRaysIndex in DXR).
 
 
@@ -46,7 +46,7 @@ Defined for the following targets:
 #### hlsl
 Available in `raygen` stage only.
 
-Requires capability: `hlsl_nvapi`.
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
 Available in `raygen` stage only.
 
@@ -56,6 +56,6 @@ Available in `raygen` stage only.
 #### spirv
 Available in `raygen` stage only.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

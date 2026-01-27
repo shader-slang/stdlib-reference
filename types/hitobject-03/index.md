@@ -18,7 +18,6 @@ and its related functions are available in raytracing shader types only.
 * [TraceMotionRay](tracemotionray-05b)
 * [MakeHit](makehit-04)
 * [MakeMotionHit](makemotionhit-04a)
-* [MakeMiss](makemiss-04)
 * [MakeMotionMiss](makemotionmiss-04a)
 * [MakeNop](makenop-04)
 * [Invoke](invoke-0)
@@ -46,6 +45,17 @@ and its related functions are available in raytracing shader types only.
 * [GetShaderRecordBufferHandle](getshaderrecordbufferhandle-039fl)
 * [GetAttributes](getattributes-03)
 * [LoadLocalRootTableConstant](loadlocalroottableconstant-049di)
+* [GetRayFlags](getrayflags-036)
+* [GetRayTMin](getraytmin-0367)
+* [GetRayTCurrent](getraytcurrent-0367)
+* [GetWorldRayOrigin](getworldrayorigin-038b)
+* [GetWorldRayDirection](getworldraydirection-038b)
+* [GetObjectToWorld3x4](getobjecttoworld3x4-039b)
+* [GetObjectToWorld4x3](getobjecttoworld4x3-039b)
+* [GetWorldToObject3x4](getworldtoobject3x4-038a)
+* [GetWorldToObject4x3](getworldtoobject4x3-038a)
+* [MakeMiss](makemiss-04)
+* [FromRayQuery](fromrayquery-047)
 
 
 <!-- RTD-TOC-START
@@ -53,6 +63,7 @@ and its related functions are available in raytracing shader types only.
 :titlesonly:
 :hidden:
 
+FromRayQuery <fromrayquery-047>
 GetAttributes <getattributes-03>
 GetClusterID <getclusterid-03ab>
 GetCurrentTime <getcurrenttime-03a>
@@ -64,12 +75,21 @@ GetLssPositionsAndRadii <getlsspositionsandradii-036fi>
 GetObjectRayDirection <getobjectraydirection-039c>
 GetObjectRayOrigin <getobjectrayorigin-039c>
 GetObjectToWorld <getobjecttoworld-039b>
+GetObjectToWorld3x4 <getobjecttoworld3x4-039b>
+GetObjectToWorld4x3 <getobjecttoworld4x3-039b>
 GetPrimitiveIndex <getprimitiveindex-03c>
 GetRayDesc <getraydesc-036>
+GetRayFlags <getrayflags-036>
+GetRayTCurrent <getraytcurrent-0367>
+GetRayTMin <getraytmin-0367>
 GetShaderRecordBufferHandle <getshaderrecordbufferhandle-039fl>
 GetShaderTableIndex <getshadertableindex-039e>
 GetSpherePositionAndRadius <getspherepositionandradius-039hk>
+GetWorldRayDirection <getworldraydirection-038b>
+GetWorldRayOrigin <getworldrayorigin-038b>
 GetWorldToObject <getworldtoobject-038a>
+GetWorldToObject3x4 <getworldtoobject3x4-038a>
+GetWorldToObject4x3 <getworldtoobject4x3-038a>
 Invoke <invoke-0>
 IsHit <ishit-02>
 IsLssHit <islsshit-025>

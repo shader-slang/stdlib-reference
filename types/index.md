@@ -62,6 +62,7 @@ Slang's Standard Library defines the following types:
 - [ParameterBlock](parameterblock-09/index)
 - [PointStream](pointstream-05/index)
 - [Ptr](ptr-0/index)
+- [RAYQUERY\_FLAG](rayquery_flag-012345679abc)
 - [RAY\_FLAG](ray_flag-0124567)
 - [RWBuffer](rwbuffer-012)
 - [RWByteAddressBuffer](rwbyteaddressbuffer-0126d/index)

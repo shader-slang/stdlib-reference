@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Creates a HitObject representing 429496726642949671684294967196NOP429496726642949671684294967197 (no operation) which is neither a hit nor a miss. Invoking a
+Creates a HitObject representing "NOP" (no operation) which is neither a hit nor a miss. Invoking a
 NOP hit object using HitObject::Invoke has no effect. Reordering by hit objects using
 ReorderThread will group NOP hit objects together. This can be useful in some reordering
 scenarios where future control flow for some threads is known to process neither a hit nor a
@@ -29,7 +29,7 @@ Defined for the following targets:
 #### hlsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capability: `hlsl_nvapi`.
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
@@ -39,6 +39,6 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 
 

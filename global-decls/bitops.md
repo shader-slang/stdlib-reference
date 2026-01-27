@@ -7,11 +7,11 @@ This category contains the following declarations:
 
 #### [countbits\<T\>](countbits)
 
-#### [firstbithigh](firstbithigh)
+#### [firstbithigh\<T\>](firstbithigh)
 
-#### [firstbitlow](firstbitlow)
+#### [firstbitlow\<T\>](firstbitlow)
 
-#### [reversebits](reversebits)
+#### [reversebits\<T\>](reversebits)
 
 
 <!-- RTD-TOC-START

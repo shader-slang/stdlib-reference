@@ -49,6 +49,12 @@ Minimum.
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+/// Requires Capability Set 1:
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/icomparable-01/index.html" class="code_type">IComparable</a>;
+
 /// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="min.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
@@ -69,6 +75,7 @@ Minimum.
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-T"></a>T: [IComparable](../interfaces/icomparable-01/index.html)
 
 ## Parameters
 

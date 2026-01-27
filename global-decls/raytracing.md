@@ -77,6 +77,10 @@ This category contains the following declarations:
 
 #### [PrimitiveIndex](primitiveindex-09)
 
+#### [RAYQUERY\_FLAG\_ALLOW\_OPACITY\_MICROMAPS](rayquery_flag_allow_opacity_micromaps-012345679abcefghiklmnopqstuvwxyz10)
+
+#### [RAYQUERY\_FLAG\_NONE](rayquery_flag_none-012345679abcefgh)
+
 #### [RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH](ray_flag_accept_first_hit_and_end_search-01245679abcdeghijkmnoqrsuvwyz10111213)
 
 #### [RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES](ray_flag_cull_back_facing_triangles-01245679abcefghjklmnoqrstuvwxy)
@@ -88,6 +92,8 @@ This category contains the following declarations:
 #### [RAY\_FLAG\_CULL\_OPAQUE](ray_flag_cull_opaque-01245679abcefghij)
 
 #### [RAY\_FLAG\_FORCE\_NON\_OPAQUE](ray_flag_force_non_opaque-01245679abcdfghjklmno)
+
+#### [RAY\_FLAG\_FORCE\_OMM\_2\_STATE](ray_flag_force_omm_2_state-01245679abcdfghlmnop)
 
 #### [RAY\_FLAG\_FORCE\_OPAQUE](ray_flag_force_opaque-01245679abcdfghijk)
 
@@ -167,12 +173,15 @@ ObjectToWorld <objecttoworld-068>
 ObjectToWorld3x4 <objecttoworld3x4-068>
 ObjectToWorld4x3 <objecttoworld4x3-068>
 PrimitiveIndex <primitiveindex-09>
+RAYQUERY_FLAG_ALLOW_OPACITY_MICROMAPS <rayquery_flag_allow_opacity_micromaps-012345679abcefghiklmnopqstuvwxyz10>
+RAYQUERY_FLAG_NONE <rayquery_flag_none-012345679abcefgh>
 RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH <ray_flag_accept_first_hit_and_end_search-01245679abcdeghijkmnoqrsuvwyz10111213>
 RAY_FLAG_CULL_BACK_FACING_TRIANGLES <ray_flag_cull_back_facing_triangles-01245679abcefghjklmnoqrstuvwxy>
 RAY_FLAG_CULL_FRONT_FACING_TRIANGLES <ray_flag_cull_front_facing_triangles-01245679abcefghiklmnoprstuvwxyz>
 RAY_FLAG_CULL_NON_OPAQUE <ray_flag_cull_non_opaque-01245679abcefgijklmn>
 RAY_FLAG_CULL_OPAQUE <ray_flag_cull_opaque-01245679abcefghij>
 RAY_FLAG_FORCE_NON_OPAQUE <ray_flag_force_non_opaque-01245679abcdfghjklmno>
+RAY_FLAG_FORCE_OMM_2_STATE <ray_flag_force_omm_2_state-01245679abcdfghlmnop>
 RAY_FLAG_FORCE_OPAQUE <ray_flag_force_opaque-01245679abcdfghijk>
 RAY_FLAG_NONE <ray_flag_none-01245679abc>
 RAY_FLAG_SKIP_CLOSEST_HIT_SHADER <ray_flag_skip_closest_hit_shader-01245679abcefghijkmnoqrstuv>
