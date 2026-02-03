@@ -9,6 +9,7 @@ Slang's Standard Library defines the following types:
 - [Array](array-0/index)
 - [Atomic](atomic-0/index)
 - [AtomicAdd](atomicadd-06/index)
+- [BFloat16](bfloat16-01/index)
 - [BindlessDescriptorOptions](bindlessdescriptoroptions-08i/index)
 - [Buffer](buffer-0)
 - [BuiltInTriangleIntersectionAttributes](builtintriangleintersectionattributes-057fr/index)
@@ -46,6 +47,8 @@ Slang's Standard Library defines the following types:
 - [DispatchNodeInputRecord](dispatchnodeinputrecord-08ch/index)
 - [FeedbackTexture2D](feedbacktexture2d-08g)
 - [FeedbackTexture2DArray](feedbacktexture2darray-08gh)
+- [FloatE4M3](floate4m3-057/index)
+- [FloatE5M2](floate5m2-057/index)
 - [HitObject](hitobject-03/index)
 - [ImmutablePtr](immutableptr-09)
 - [InputPatch](inputpatch-05/index)
@@ -164,7 +167,7 @@ Slang's Standard Library defines the following types:
 - [\_\_Shape3D](0_shape3d-028/index)
 - [\_\_ShapeBuffer](0_shapebuffer-027/index)
 - [\_\_ShapeCube](0_shapecube-027/index)
-- [extension T : ITexelElement](t-0/index)
+- [extension T](t-0/index)
 - [float16\_t](float16_t)
 - [float32\_t](float32_t)
 - [float64\_t](float64_t)
@@ -196,6 +199,7 @@ Texture types <texture_types>
 Array <array-0/index>
 Atomic <atomic-0/index>
 AtomicAdd <atomicadd-06/index>
+BFloat16 <bfloat16-01/index>
 BindlessDescriptorOptions <bindlessdescriptoroptions-08i/index>
 ConstantBuffer <constantbuffer-08/index>
 CoopMatClampMode <coopmatclampmode-047c/index>
@@ -212,6 +216,8 @@ DiffTensorView <difftensorview-04a/index>
 DifferentialPair <differentialpair-0c/index>
 DifferentialPtrPair <differentialptrpair-0cf/index>
 DispatchNodeInputRecord <dispatchnodeinputrecord-08ch/index>
+FloatE4M3 <floate4m3-057/index>
+FloatE5M2 <floate5m2-057/index>
 ImmutablePtr <immutableptr-09>
 NodePayloadPtr <nodepayloadptr-04b>
 NullDifferential <nulldifferential-04/index>
@@ -225,7 +231,7 @@ TorchTensor <torchtensor-05/index>
 Tuple <tuple-0/index>
 VkMutableBindlessBindings <vkmutablebindlessbindings-029h/index>
 _AttributeTargets <0attributetargets-01a/index>
-extension T : ITexelElement <t-0/index>
+extension T <t-0/index>
 int8_t4_packed <int8_t4_packed>
 uint8_t4_packed <uint8_t4_packed>
 ```

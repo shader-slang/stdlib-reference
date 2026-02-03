@@ -12,6 +12,7 @@ Slang's Standard Library defines the following interfaces:
 - [IBitAtomicable](ibitatomicable-014/index)
 - [IBufferDataLayout](ibufferdatalayout-017b/index)
 - [IComparable](icomparable-01/index)
+- [ICoopElement](icoopelement-015/index)
 - [IDefaultInitializable](idefaultinitializable-018/index)
 - [IDiffTensorWrapper](idifftensorwrapper-015b/index)
 - [IDifferentiable](idifferentiable-01/index)
@@ -19,6 +20,7 @@ Slang's Standard Library defines the following interfaces:
 - [IDifferentiableMutatingFunc](idifferentiablemutatingfunc-01fn/index)
 - [IDifferentiablePtrType](idifferentiableptrtype-01fi/index)
 - [IFloat](ifloat-01/index)
+- [IFloatingPointCoopElement](ifloatingpointcoopelement-019ei/index)
 - [IFunc](ifunc-01/index)
 - [IInteger](iinteger-01/index)
 - [ILogical](ilogical-01/index)
@@ -48,6 +50,7 @@ IAtomicable <iatomicable-01/index>
 IBitAtomicable <ibitatomicable-014/index>
 IBufferDataLayout <ibufferdatalayout-017b/index>
 IComparable <icomparable-01/index>
+ICoopElement <icoopelement-015/index>
 IDefaultInitializable <idefaultinitializable-018/index>
 IDiffTensorWrapper <idifftensorwrapper-015b/index>
 IDifferentiable <idifferentiable-01/index>
@@ -55,6 +58,7 @@ IDifferentiableFunc <idifferentiablefunc-01f/index>
 IDifferentiableMutatingFunc <idifferentiablemutatingfunc-01fn/index>
 IDifferentiablePtrType <idifferentiableptrtype-01fi/index>
 IFloat <ifloat-01/index>
+IFloatingPointCoopElement <ifloatingpointcoopelement-019ei/index>
 IFunc <ifunc-01/index>
 IInteger <iinteger-01/index>
 ILogical <ilogical-01/index>

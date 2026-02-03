@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface \_\_BuiltinFloatingPointType
 
-*Inherits from:* \_\_BuiltinRealType, [IFloat](../ifloat-01/index.html)
+*Inherits from:* \_\_BuiltinRealType, [IFloat](../ifloat-01/index.html), [IFloatingPointCoopElement](../ifloatingpointcoopelement-019ei/index.html)
 
 ## Description
 

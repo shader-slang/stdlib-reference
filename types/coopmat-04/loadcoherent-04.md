@@ -19,7 +19,7 @@ Ensures memory reads observe writes made visible across the specified memory sco
     <span class="code_keyword">uint</span> <a href="loadcoherent-04.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="loadcoherent-04.html#decl-stride" class="code_param">stride</a>,
     MemoryScope <a href="loadcoherent-04.html#decl-memoryScope" class="code_param">memoryScope</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
 </pre>
 

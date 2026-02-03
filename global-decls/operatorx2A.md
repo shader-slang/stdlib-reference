@@ -433,13 +433,13 @@ uintptr_t operator*(
 linalg.<a href="../types/coopmat-04/index.html" class="code_type">CoopMat</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-S" class="code_var">S</a>, <a href="operatorx2A.html#decl-M" class="code_var">M</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>, <a href="operatorx2A.html#decl-R" class="code_var">R</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="operatorx2A.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-N" class="code_var">N</a>, linalg.<a href="../types/coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;(
     linalg.<a href="../types/coopmat-04/index.html" class="code_type">CoopMat</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-S" class="code_var">S</a>, <a href="operatorx2A.html#decl-M" class="code_var">M</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>, <a href="operatorx2A.html#decl-R" class="code_var">R</a>&gt; <a href="operatorx2A.html#decl-lhs" class="code_param">lhs</a>,
     <span class="code_keyword">const</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> <a href="operatorx2A.html#decl-rhs" class="code_param">rhs</a>)
-    <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
 /// Requires Capability Set 1:
 linalg.<a href="../types/coopmat-04/index.html" class="code_type">CoopMat</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-S" class="code_var">S</a>, <a href="operatorx2A.html#decl-M" class="code_var">M</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>, <a href="operatorx2A.html#decl-R" class="code_var">R</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="operatorx2A.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-N" class="code_var">N</a>, linalg.<a href="../types/coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;(
     <span class="code_keyword">const</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> <a href="operatorx2A.html#decl-lhs" class="code_param">lhs</a>,
     linalg.<a href="../types/coopmat-04/index.html" class="code_type">CoopMat</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-S" class="code_var">S</a>, <a href="operatorx2A.html#decl-M" class="code_var">M</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>, <a href="operatorx2A.html#decl-R" class="code_var">R</a>&gt; <a href="operatorx2A.html#decl-rhs" class="code_param">rhs</a>)
-    <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
 /// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="operatorx2A.html#decl-N" class="code_var">N</a>&gt;(
@@ -478,6 +478,9 @@ The element type of the cooperative matrix.
 The element type of the cooperative matrix.
 
 ####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../interfaces/iopaquedescriptor-017/index.html)
+The element type of the cooperative matrix.
+
+####  <a id="typeparam-T"></a>T: [ICoopElement](../interfaces/icoopelement-015/index.html)
 The element type of the cooperative matrix.
 
 ####  <a id="decl-S"></a>S  : MemoryScope

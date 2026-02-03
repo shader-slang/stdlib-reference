@@ -1,7 +1,9 @@
-documented pages: 747
-undocumented pages: 589(44.1%)
+documented pages: 750
+undocumented pages: 595(44.2%)
 
 IArray<T>.subscript
+ICoopElement
+ICoopElement.init
 IDefaultInitializable.init
 IDiffTensorWrapper
 IDiffTensorWrapper.loadOnce_backward<T>
@@ -15,6 +17,7 @@ IDiffTensorWrapper.store_forward<T>
 IDifferentiableFunc<TR, each TP>.operator()
 IDifferentiableMutatingFunc<TR, each TP>.operator()
 IDifferentiablePtrType
+IFloatingPointCoopElement
 IFunc<TR, each TP>.operator()
 IInteger.init
 ILogical.init
@@ -55,6 +58,7 @@ AtomicAdd.storeOnce_backward<T>
 AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
+BFloat16.init
 BindlessDescriptorOptions
 Buffer<T, int format>
 ByteAddressBuffer.GetBufferPointer
@@ -122,6 +126,8 @@ DifferentialPtrPair<T>.d
 DifferentialPtrPair<T>.init
 DifferentialPtrPair<T>.p
 DifferentialPtrPair<T>.v
+FloatE4M3.init
+FloatE5M2.init
 HitObject.GetCurrentTime
 HitObject.GetLssPositionsAndRadii
 HitObject.GetRayDesc

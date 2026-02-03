@@ -4,7 +4,9 @@ layout: stdlib-reference
 
 # struct linalg::CoopMat\<T, MemoryScope S, int M, int N, linalg\.CoopMatMatrixUse R\>
 
-*Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
+*Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>
+
+*Conditionally conforms to:* [IArithmetic](../../interfaces/iarithmetic-01/index.html)
 
 ## Description
 
@@ -17,7 +19,7 @@ matrix extensions.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="typeparam-T"></a>T: [ICoopElement](../../interfaces/icoopelement-015/index.html)
 The element type of the matrix. Must be a built-in arithmetic type.
 
 ####  <a id="decl-S"></a>S  : MemoryScope
@@ -51,6 +53,9 @@ The matrix use specifier indicating whether this is a Matrix A, Matrix B, or acc
 * [MapElement](mapelement-03)
 * [StoreCoherent](storecoherent-05)
 * [LoadCoherent](loadcoherent-04)
+* [Load](load-0)
+* [Store](store-0)
+* [convertUse](convertuse-7)
 * [add](add)
 * [sub](sub)
 * [mul](mul)
@@ -60,10 +65,13 @@ The matrix use specifier indicating whether this is a Matrix A, Matrix B, or acc
 * [equals](equals)
 * [lessThan](lessthan-4)
 * [lessThanOrEquals](lessthanorequals-48a)
-* [Load](load-0)
-* [Store](store-0)
-* [convertUse](convertuse-7)
 
+## Conditional Conformances
+
+### Conformance to IArithmetic
+`linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>` additionally conforms to `IArithmetic` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
 ## Remarks
 
 

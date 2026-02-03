@@ -23,6 +23,10 @@ Vector dot product. Returns the dot product of two vectors.
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="dot.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+<a href="../types/bfloat16-01/index.html" class="code_type">BFloat16</a> <a href="dot.html">dot</a>&lt;<span class="code_keyword">int</span> <a href="dot.html#decl-N" class="code_var">N</a>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="../types/bfloat16-01/index.html" class="code_type">BFloat16</a>, N&gt; <a href="dot.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="../types/bfloat16-01/index.html" class="code_type">BFloat16</a>, N&gt; <a href="dot.html#decl-y" class="code_param">y</a>);
+
 <a href="dot.html#typeparam-T" class="code_type">T</a> <a href="dot.html">dot</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="dot.html#decl-N" class="code_var">N</a>&gt;(
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-x" class="code_param">x</a>,
     <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-y" class="code_param">y</a>)
@@ -48,6 +52,12 @@ The second vector.
 The first vector.
 
 ####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+The second vector.
+
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[BFloat16](../types/bfloat16-01/index.html), N\>
+The first vector.
+
+####  <a id="decl-y"></a>y  : [vector](../types/vector/index.html)\<[BFloat16](../types/bfloat16-01/index.html), N\>
 The second vector.
 
 
