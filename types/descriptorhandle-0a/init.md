@@ -35,16 +35,16 @@ Constructor for uint64_t handles
 
 Defined for the following targets:
 
-#### spirv
+#### hlsl
 Available in all stages.
 
 #### glsl
 Available in all stages.
 
-#### hlsl
+#### wgsl
 Available in all stages.
 
-#### wgsl
+#### spirv
 Available in all stages.
 
 

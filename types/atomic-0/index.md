@@ -33,11 +33,20 @@ operate on <span class='code'><a href="index.html" class="code_type">Atomic</a>&
 * [sub](sub)
 * [max](max)
 * [min](min)
+* [reduceAdd](reduceadd-6)
+* [reduceSub](reducesub-6)
+* [reduceMax](reducemax-6)
+* [reduceMin](reducemin-6)
 * [and](and)
 * [or](or)
 * [xor](xor)
 * [increment](increment)
 * [decrement](decrement)
+* [reduceAnd](reduceand-6)
+* [reduceOr](reduceor-6)
+* [reduceXor](reducexor-6)
+* [reduceInc](reduceinc-6)
+* [reduceDec](reducedec-6)
 
 
 <!-- RTD-TOC-START
@@ -55,6 +64,15 @@ load <load>
 max <max>
 min <min>
 or <or>
+reduceAdd <reduceadd-6>
+reduceAnd <reduceand-6>
+reduceDec <reducedec-6>
+reduceInc <reduceinc-6>
+reduceMax <reducemax-6>
+reduceMin <reducemin-6>
+reduceOr <reduceor-6>
+reduceSub <reducesub-6>
+reduceXor <reducexor-6>
 store <store>
 sub <sub>
 xor <xor>

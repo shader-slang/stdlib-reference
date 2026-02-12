@@ -1,5 +1,5 @@
-documented pages: 750
-undocumented pages: 595(44.2%)
+documented pages: 759
+undocumented pages: 595(43.9%)
 
 IArray<T>.subscript
 ICoopElement
