@@ -265,6 +265,7 @@ Slang's Standard Library defines the following global declarations:
 - [fdim](fdim)
 - [firstbithigh](firstbithigh)
 - [firstbitlow](firstbitlow)
+- [floatCast](floatcast-5)
 - [floor](floor)
 - [fma](fma)
 - [fmax](fmax)
@@ -465,6 +466,7 @@ defaultGetDescriptorFromHandle <defaultgetdescriptorfromhandle-7ako>
 detach <detach>
 diffPair <diffpair-4>
 enableVMMDeviceScopeCapabilityIfNeeded <enablevmmdevicescopecapabilityifneeded-6789fkuw>
+floatCast <floatcast-5>
 getDescriptorFromHandle <getdescriptorfromhandle-3dh>
 getRealtimeClock <getrealtimeclock-3b>
 getRealtimeClockLow <getrealtimeclocklow-3bg>

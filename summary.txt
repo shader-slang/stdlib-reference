@@ -1,5 +1,5 @@
 documented pages: 759
-undocumented pages: 595(43.9%)
+undocumented pages: 596(44.0%)
 
 IArray<T>.subscript
 ICoopElement
@@ -578,6 +578,7 @@ dot4add_i8packed
 dot4add_u8packed
 enableVMMDeviceScopeCapabilityIfNeeded
 f16tof32
+floatCast<T, U>
 getRealtimeClock
 getRealtimeClockLow
 isDifferentialNull
