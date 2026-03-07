@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# typealias ImmutablePtr\<T, AddressSpace addrSpace\>
+# typealias ImmutablePtr\<T, AddressSpace addrSpace, L\>
 
 ## Description
 
@@ -15,12 +15,13 @@ data through such pointers may be invalid.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="immutableptr-09.html" class="code_type">ImmutablePtr</a>&lt;T, AddressSpace addrSpace&gt; = 
-    <a href="ptr-0/index.html" class="code_type">Ptr</a>&lt;T, Access.Immutable, AddressSpace.Generic&gt;;
+<span class='code_keyword'>typealias</span> <a href="immutableptr-09.html" class="code_type">ImmutablePtr</a>&lt;T, AddressSpace addrSpace, L&gt; = 
+    <a href="ptr-0/index.html" class="code_type">Ptr</a>&lt;T, Access.Immutable, AddressSpace.Generic, <a href="defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt;;
 </pre>
 
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T
 ####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace = AddressSpace\.Device
+####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../interfaces/ibufferdatalayout-017b/index.html) = [DefaultDataLayout](defaultdatalayout-07b/index.html)
 

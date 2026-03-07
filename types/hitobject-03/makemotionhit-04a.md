@@ -62,10 +62,10 @@ Currently only supported on VK
 
 Defined for the following targets:
 
-#### cuda
+#### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
-#### glsl
+#### cuda
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 #### spirv

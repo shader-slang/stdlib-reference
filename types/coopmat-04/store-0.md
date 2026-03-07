@@ -29,7 +29,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
@@ -43,11 +43,11 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.GroupShared&gt; <a href="store-0.html#decl-data" class="code_param">data</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.GroupShared, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 3:
+/// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V&gt;(
     <a href="store-0.html#typeparam-U" class="code_type">U</a>[<a href="store-0.html#decl-V" class="code_var">V</a>] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -56,7 +56,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-U" class="code_type">U</a>, Access.ReadWrite, AddressSpace.GroupShared&gt; <a href="store-0.html#decl-data" class="code_param">data</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-U" class="code_type">U</a>, Access.ReadWrite, AddressSpace.GroupShared, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
@@ -83,7 +83,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, P&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-P" class="code_type">P</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="store-0.html#decl-dest" class="code_param">dest</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-P" class="code_type">P</a>, Access.ReadWrite, AddressSpace.Device, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-dest" class="code_param">dest</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
@@ -105,7 +105,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, <span class="code_keyword">uint</span> DimView, <span class="code_keyword">bool</span> HasDimensions, <span class="code_keyword">uint</span> p0, <span class="code_keyword">uint</span> p1, <span class="code_keyword">uint</span> p2, <span class="code_keyword">uint</span> p3, <span class="code_keyword">uint</span> p4, P&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-P" class="code_type">P</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="store-0.html#decl-dest" class="code_param">dest</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-P" class="code_type">P</a>, Access.ReadWrite, AddressSpace.Device, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-dest" class="code_param">dest</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>,
     linalg.<a href="../tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="store-0.html#decl-DimView" class="code_var">DimView</a>, <a href="store-0.html#decl-HasDimensions" class="code_var">HasDimensions</a>, <a href="store-0.html#decl-p0" class="code_var">p0</a>, <a href="store-0.html#decl-p1" class="code_var">p1</a>, <a href="store-0.html#decl-p2" class="code_var">p2</a>, <a href="store-0.html#decl-p3" class="code_var">p3</a>, <a href="store-0.html#decl-p4" class="code_var">p4</a>&gt; <a href="store-0.html#decl-tensorView" class="code_param">tensorView</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
@@ -144,16 +144,16 @@ and must be a multiple of 8 for __half element type or multiple of 4 for float e
 ####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 The RWByteAddressBuffer to store the matrix into.
 
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device, [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 The RWByteAddressBuffer to store the matrix into.
 
 ####  <a id="decl-data"></a>data  : [T](index.html#typeparam-T) \[ V \]
-####  <a id="decl-data"></a>data  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.GroupShared\>
+####  <a id="decl-data"></a>data  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.GroupShared, [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 ####  <a id="decl-data"></a>data  : [U](store-0.html#typeparam-U) \[ [V](store-0.html#decl-V) \]
-####  <a id="decl-data"></a>data  : [Ptr](../ptr-0/index.html)\<U, Access\.ReadWrite, AddressSpace\.GroupShared\>
+####  <a id="decl-data"></a>data  : [Ptr](../ptr-0/index.html)\<U, Access\.ReadWrite, AddressSpace\.GroupShared, [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 ####  <a id="decl-data"></a>data  : [vector](../vector/index.html)\<U, L\> \[ V \]
 ####  <a id="decl-tensorLayout"></a>tensorLayout  : linalg\.[TensorLayout](../tensorlayout-06/index.html)\<[Dim](../tensorlayout-06/index.html#decl-Dim), [ClampMode](../tensorlayout-06/index.html#decl-ClampMode)\>
-####  <a id="decl-dest"></a>dest  : [Ptr](../ptr-0/index.html)\<P, Access\.ReadWrite, AddressSpace\.Device\>
+####  <a id="decl-dest"></a>dest  : [Ptr](../ptr-0/index.html)\<P, Access\.ReadWrite, AddressSpace\.Device, [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 ####  <a id="decl-tensorView"></a>tensorView  : linalg\.[TensorView](../tensorview-06/index.html)\<DimView, [HasDimensions](../tensorview-06/index.html#decl-HasDimensions), [p0](../tensorview-06/index.html#decl-p0), [p1](../tensorview-06/index.html#decl-p1), [p2](../tensorview-06/index.html#decl-p2), [p3](../tensorview-06/index.html#decl-p3), [p4](../tensorview-06/index.html#decl-p4)\>
 
 ## Availability and Requirements

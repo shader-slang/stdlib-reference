@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# struct Ptr\<T, Access access, AddressSpace addrSpace\>
+# struct Ptr\<T, Access access, AddressSpace addrSpace, L\>
 
 ## Description
 
@@ -15,6 +15,7 @@ The type of the value pointed to.
 
 ####  <a id="decl-access"></a>access  : Access = Access\.ReadWrite
 ####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace = AddressSpace\.Device
+####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index.html) = [DefaultDataLayout](../defaultdatalayout-07b/index.html)
 
 ## Methods
 

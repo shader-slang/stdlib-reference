@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Returns the parametric ending point (T value at hit/miss). Valid if the hit object represents a hit or a miss.
-DXR 1.3 only.
+DXR 1.3 and OptiX.
 
 
 
@@ -27,5 +27,8 @@ Defined for the following targets:
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 Requires capability: `ser_hlsl_native`.
+#### cuda
+Available in stages: `raygen`, `closesthit`, `miss`.
+
 
 

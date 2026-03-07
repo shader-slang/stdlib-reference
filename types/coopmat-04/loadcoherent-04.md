@@ -15,7 +15,7 @@ Ensures memory reads observe writes made visible across the specified memory sco
 
 <pre>
 <span class='code_keyword'>static</span> linalg.<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-S" class="code_var">S</a>, <a href="index.html#decl-M" class="code_var">M</a>, <a href="index.html#decl-N" class="code_var">N</a>, <a href="index.html#decl-R" class="code_var">R</a>&gt; linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="loadcoherent-04.html">LoadCoherent</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout&gt;(
-    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device&gt; <a href="loadcoherent-04.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="loadcoherent-04.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="loadcoherent-04.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="loadcoherent-04.html#decl-stride" class="code_param">stride</a>,
     MemoryScope <a href="loadcoherent-04.html#decl-memoryScope" class="code_param">memoryScope</a>)
@@ -31,7 +31,7 @@ The memory layout (RowMajor or ColMajor) of the data in the buffer.
 
 ## Parameters
 
-####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device\>
+####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device, [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
 The pointer to the buffer to load from.
 
 ####  <a id="decl-element"></a>element  : uint

@@ -1,4 +1,4 @@
-documented pages: 759
+documented pages: 760
 undocumented pages: 596(44.0%)
 
 IArray<T>.subscript
@@ -180,8 +180,8 @@ ParameterBlock<T>
 PointStream<T>
 PointStream<T>.Append
 PointStream<T>.RestartStrip
-Ptr<T, Access access, AddressSpace addrSpace>.init<U, Access accessOther>
-Ptr<T, Access access, AddressSpace addrSpace>.subscript<TInt>
+Ptr<T, Access access, AddressSpace addrSpace, L>.init<U, Access accessOther>
+Ptr<T, Access access, AddressSpace addrSpace, L>.subscript<TInt>
 RAYQUERY_FLAG
 RWBuffer<T, int format>
 RWByteAddressBuffer.GetBufferPointer

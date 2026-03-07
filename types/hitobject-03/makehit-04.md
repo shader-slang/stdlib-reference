@@ -63,19 +63,19 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 
 Defined for the following targets:
 
-#### cuda
+#### hlsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
+Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 #### glsl
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+#### cuda
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 #### spirv
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
-#### hlsl
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capabilities: `hlsl_nvapi`, `ser_hlsl_native`.
 
 

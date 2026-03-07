@@ -21,7 +21,7 @@ Gets the custom index of the instance containing the candidate hit.
 User-provided instance identifier
 
 ## Remarks
-GLSL/SPIRV only
+GLSL/METAL/SPIRV only
 
 
 ## Availability and Requirements
@@ -29,6 +29,9 @@ GLSL/SPIRV only
 Defined for the following targets:
 
 #### glsl
+Available in all stages.
+
+#### metal
 Available in all stages.
 
 #### spirv

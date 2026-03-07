@@ -52,6 +52,7 @@ Slang's Standard Library defines the following types:
 - [HitObject](hitobject-03/index)
 - [ImmutablePtr](immutableptr-09)
 - [InputPatch](inputpatch-05/index)
+- [LayoutPtr](layoutptr-06)
 - [LineStream](linestream-04/index)
 - [MemoryOrder](memoryorder-06/index)
 - [NativeString](nativestring-06/index)
@@ -219,6 +220,7 @@ DispatchNodeInputRecord <dispatchnodeinputrecord-08ch/index>
 FloatE4M3 <floate4m3-057/index>
 FloatE5M2 <floate5m2-057/index>
 ImmutablePtr <immutableptr-09>
+LayoutPtr <layoutptr-06>
 NodePayloadPtr <nodepayloadptr-04b>
 NullDifferential <nulldifferential-04/index>
 Optional <optional-0/index>

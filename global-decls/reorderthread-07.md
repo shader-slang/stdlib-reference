@@ -56,6 +56,6 @@ Available in `raygen` stage only.
 #### spirv
 Available in `raygen` stage only.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
 
 

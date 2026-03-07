@@ -14,8 +14,9 @@ Performs element-wise multiplication of each element in the matrix by the scalar
 ## Signature 
 
 <pre>
-Ref&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace.Generic&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access access, AddressSpace addrSpace&gt;(
-    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace.Generic&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>);
+Ref&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace.Generic, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, Access access, AddressSpace addrSpace, L&gt;(
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>, AddressSpace.Generic, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> L : <a href="../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>;
 
 int8_t operator*(
     int8_t left,
@@ -462,6 +463,7 @@ The element type of the cooperative matrix.
 
 ####  <a id="decl-access"></a>access  : Access
 ####  <a id="decl-addrSpace"></a>addrSpace  : AddressSpace
+####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../interfaces/ibufferdatalayout-017b/index.html)
 ####  <a id="decl-N"></a>N  : int
 The number of columns in the matrix fragment.
 
@@ -492,7 +494,7 @@ The matrix use specifier (MatrixA, MatrixB, or MatrixAccumulator).
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), AddressSpace\.Generic\>
+####  <a id="decl-value"></a>value  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T), AddressSpace\.Generic, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 ####  <a id="decl-left"></a>left  : int8\_t
 ####  <a id="decl-right"></a>right  : int8\_t
 ####  <a id="decl-left"></a>left  : [vector](../types/vector/index.html)\<int8\_t, [N](../types/vector/index.html#decl-N)\>

@@ -27,12 +27,12 @@ Defined for the following targets:
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 Requires capability: `ser_hlsl_native`.
-#### spirv
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`, `spvShaderInvocationReorderEXT`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
+#### spirv
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
 
 

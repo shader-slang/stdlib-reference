@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# Ptr\<T, Access access, AddressSpace addrSpace\>\.subscript
+# Ptr\<T, Access access, AddressSpace addrSpace, L\>\.subscript
 
 ## Description
 
@@ -13,9 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access <a href="index.html#decl-access" class="code_var">access</a>, AddressSpace <a href="index.html#decl-addrSpace" class="code_var">addrSpace</a>&gt;.<a href="subscript.html">subscript</a>&lt;<a href="subscript.html#typeparam-TInt" class="code_type">TInt</a>&gt;(
+<a href="index.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, Access <a href="index.html#decl-access" class="code_var">access</a>, AddressSpace <a href="index.html#decl-addrSpace" class="code_var">addrSpace</a>, <a href="index.html#typeparam-L" class="code_type">L</a>&gt;.<a href="subscript.html">subscript</a>&lt;<a href="subscript.html#typeparam-TInt" class="code_type">TInt</a>&gt;(
     <a href="subscript.html#typeparam-TInt" class="code_type">TInt</a> <a href="subscript.html#decl-index" class="code_param">index</a>)
-    <span class='code_keyword'>where</span> <a href="subscript.html#typeparam-TInt" class="code_type">TInt</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="subscript.html#typeparam-TInt" class="code_type">TInt</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>;
 
 </pre>
 
