@@ -37,10 +37,10 @@ Indicates whether the texture is a multisampled texture.
 The number of samples of a multisampled texture.
 
 ####  <a id="decl-access"></a>access  : int
-The access mode of the texture. 0 for read-only, 1 for read-write, 2 for rasterizer-ordered, 3 for feedback.
+The access mode of the texture. 0 for read-only, 1 for read-write, 2 for write-only, 3 for rasterizer-ordered, 4 for feedback.
 
 ####  <a id="decl-isShadow"></a>isShadow  : int
-Indicates whether the texture is a shadow texture (for combined texture-sampler only).
+Indicates whether the texture is a depth texture (<span class='code'><a href="index.html#decl-isCombined" class="code_var">isCombined</a>==0</span>) or a shadow texture (<span class='code'><a href="index.html#decl-isCombined" class="code_var">isCombined</a>==1</span>).
 
 ####  <a id="decl-isCombined"></a>isCombined  : int
 Indicates whether the texture is a combined texture-sampler.
@@ -168,7 +168,91 @@ Allowed <span class='code'>formatString</span> values are:
 
 When targeting Vulkan, a combined-texture-sampler type (<span class='code'><a href="index.html#decl-isCombined" class="code_var">isCombined</a>==1</span>) translates to a <span class='code'>OpTypeSampledImage</span> type in SPIR-V.
 For other targets, the combined-texture-sampler type is translated to a pair of a <span class='code'>Texture</span> and <span class='code'><a href="../samplerstate-07/index.html" class="code_type">SamplerState</a></span>.
-<span class='code'><a href="index.html#decl-isShadow" class="code_var">isShadow</a></span> is only applicable to combined-texture-sampler types and must be <span class='code'>0</span> for non-combined texture types.
+
+The defined texture types and their backend support:
+
+| Type                              | Cuda | GLSL core version / extension         | HLSL   | Metal/macOS | SPIR-V | WGSL |
+|:----------------------------------|:-----|:--------------------------------------|:-------|:------------|:-------|:-----|
+| <span class='code'><a href="../depthtexture1d-05d.html" class="code_type">DepthTexture1D</a></span>                  |      | 110                                   | SM 4.0 | -           |        | -    |
+| <span class='code'><a href="../depthtexture1darray-05de.html" class="code_type">DepthTexture1DArray</a></span>             |      | 130 / EXT_texture_array               | SM 4.0 | -           |        | -    |
+| <span class='code'><a href="../depthtexture2d-05d.html" class="code_type">DepthTexture2D</a></span>                  |      | 110                                   | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../depthtexture2darray-05de.html" class="code_type">DepthTexture2DArray</a></span>             |      | 130 / EXT_texture_array               | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../depthtexture2dms-05def.html" class="code_type">DepthTexture2DMS</a></span>                |      | -                                     | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../depthtexture2dmsarray-05defg.html" class="code_type">DepthTexture2DMSArray</a></span>           |      | -                                     | SM 4.0 | 2.0         |        | -    |
+| <span class='code'><a href="../depthtexture3d-05d.html" class="code_type">DepthTexture3D</a></span>                  |      | -                                     | -      | -           |        | -    |
+| <span class='code'><a href="../depthtexturecube-05c.html" class="code_type">DepthTextureCube</a></span>                |      | 110                                   | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../depthtexturecubearray-05cg.html" class="code_type">DepthTextureCubeArray</a></span>           |      | 400 / ARB_texture_cube_map_array      | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../feedbacktexture2d-08g.html" class="code_type">FeedbackTexture2D</a></span>               |      | -                                     | SM 6.5 | -           |        | -    |
+| <span class='code'><a href="../feedbacktexture2darray-08gh.html" class="code_type">FeedbackTexture2DArray</a></span>          |      | -                                     | SM 6.5 | -           |        | -    |
+| <span class='code'><a href="../rwtexture1d-012a.html" class="code_type">RWTexture1D</a></span>                     |      | 420 / ARB_shader_image_load_store     | SM 5.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../rwtexture1darray-012ab.html" class="code_type">RWTexture1DArray</a></span>                |      | 420 / ARB_shader_image_load_store     | SM 5.0 | 1.0         |        | -    |
+| <span class='code'><a href="../rwtexture2d-012a.html" class="code_type">RWTexture2D</a></span>                     |      | 420 / ARB_shader_image_load_store     | SM 5.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../rwtexture2darray-012ab.html" class="code_type">RWTexture2DArray</a></span>                |      | 420 / ARB_shader_image_load_store     | SM 5.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../rwtexture2dms-012abc.html" class="code_type">RWTexture2DMS</a></span>                   |      | 420 / ARB_shader_image_load_store     | SM 6.7 | -           |        | -    |
+| <span class='code'><a href="../rwtexture2dmsarray-012abcd.html" class="code_type">RWTexture2DMSArray</a></span>              |      | 420 / ARB_shader_image_load_store     | SM 6.7 | -           |        | -    |
+| <span class='code'><a href="../rwtexture3d-012a.html" class="code_type">RWTexture3D</a></span>                     |      | 420 / ARB_shader_image_load_store     | SM 5.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../rasterizerorderedtexture1d-0ahp.html" class="code_type">RasterizerOrderedTexture1D</a></span>      |      | none / ARB_fragment_shader_interlock  | SM 5.1 | 2.0         |        | -    |
+| <span class='code'><a href="../rasterizerorderedtexture1darray-0ahpq.html" class="code_type">RasterizerOrderedTexture1DArray</a></span> |      | none / ARB_fragment_shader_interlock  | SM 5.1 | 2.0         |        | -    |
+| <span class='code'><a href="../rasterizerorderedtexture2d-0ahp.html" class="code_type">RasterizerOrderedTexture2D</a></span>      |      | none / ARB_fragment_shader_interlock  | SM 5.1 | 2.0         |        | -    |
+| <span class='code'><a href="../rasterizerorderedtexture2darray-0ahpq.html" class="code_type">RasterizerOrderedTexture2DArray</a></span> |      | none / ARB_fragment_shader_interlock  | SM 5.1 | 2.0         |        | -    |
+| <span class='code'><a href="../rasterizerorderedtexture3d-0ahp.html" class="code_type">RasterizerOrderedTexture3D</a></span>      |      | none / ARB_fragment_shader_interlock  | SM 5.1 | 2.0         |        | -    |
+| <span class='code'><a href="../texture1d-08.html" class="code_type">Texture1D</a></span>                       |      | 110                                   | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../texture1darray-089.html" class="code_type">Texture1DArray</a></span>                  |      | 130 / EXT_texture_array               | SM 4.0 | 1.0         |        | -    |
+| <span class='code'><a href="../texture2d-08.html" class="code_type">Texture2D</a></span>                       |      | 110                                   | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../texture2darray-089.html" class="code_type">Texture2DArray</a></span>                  |      | 130 / EXT_texture_array               | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../texture2dms-089a.html" class="code_type">Texture2DMS</a></span>                     |      | 150(*)                                | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../texture2dmsarray-089ab.html" class="code_type">Texture2DMSArray</a></span>                |      | 150(*)                                | SM 4.0 | 2.0         |        | -    |
+| <span class='code'><a href="../texture3d-08.html" class="code_type">Texture3D</a></span>                       |      | 110                                   | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../texturecube-07.html" class="code_type">TextureCube</a></span>                     |      | 110                                   | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../texturecubearray-07b.html" class="code_type">TextureCubeArray</a></span>                |      | 400 / ARB_texture_cube_map_array      | SM 4.0 | 1.0         |        | 1.0  |
+| <span class='code'><a href="../wtexture1d-019.html" class="code_type">WTexture1D</a></span>                      |      | 420 / ARB_shader_image_load_store     | -      | 1.0         |        | 1.0  |
+| <span class='code'><a href="../wtexture1darray-019a.html" class="code_type">WTexture1DArray</a></span>                 |      | 420 / ARB_shader_image_load_store     | -      | 1.0         |        | -    |
+| <span class='code'><a href="../wtexture2d-019.html" class="code_type">WTexture2D</a></span>                      |      | 420 / ARB_shader_image_load_store     | -      | 1.0         |        | 1.0  |
+| <span class='code'><a href="../wtexture2darray-019a.html" class="code_type">WTexture2DArray</a></span>                 |      | 420 / ARB_shader_image_load_store     | -      | 1.0         |        | 1.0  |
+| <span class='code'><a href="../wtexture3d-019.html" class="code_type">WTexture3D</a></span>                      |      | 420 / ARB_shader_image_load_store     | -      | 1.0         |        | 1.0  |
+
+(*) Usable only via combined texture-sampler types.
+
+The combined texture-sampler types and their backend support:
+
+| Type                              | Cuda | GLSL | HLSL   | Metal/macOS | SPIR-V | WGSL |
+|:----------------------------------|:-----|:-----|:-------|:------------|:-------|:-----|
+| <span class='code'><a href="../sampler1dshadow-089.html" class="code_type">Sampler1DShadow</a></span>                 |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler1darrayshadow-089e.html" class="code_type">Sampler1DArrayShadow</a></span>            |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2dshadow-089.html" class="code_type">Sampler2DShadow</a></span>                 |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2darrayshadow-089e.html" class="code_type">Sampler2DArrayShadow</a></span>            |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2dmsshadow-089ab.html" class="code_type">Sampler2DMSShadow</a></span>               |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2dmsarrayshadow-089abg.html" class="code_type">Sampler2DMSArrayShadow</a></span>          |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler3dshadow-089.html" class="code_type">Sampler3DShadow</a></span>                 |      |      |        |             |        |      |
+| <span class='code'><a href="../samplercubeshadow-07b.html" class="code_type">SamplerCubeShadow</a></span>               |      |      |        |             |        |      |
+| <span class='code'><a href="../samplercubearrayshadow-07bg.html" class="code_type">SamplerCubeArrayShadow</a></span>          |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler1d-012a.html" class="code_type">RWSampler1D</a></span>                     |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler1darray-012ab.html" class="code_type">RWSampler1DArray</a></span>                |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler2d-012a.html" class="code_type">RWSampler2D</a></span>                     |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler2darray-012ab.html" class="code_type">RWSampler2DArray</a></span>                |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler2dms-012abc.html" class="code_type">RWSampler2DMS</a></span>                   |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler2dmsarray-012abcd.html" class="code_type">RWSampler2DMSArray</a></span>              |      |      |        |             |        |      |
+| <span class='code'><a href="../rwsampler3d-012a.html" class="code_type">RWSampler3D</a></span>                     |      |      |        |             |        |      |
+| <span class='code'><a href="../rasterizerorderedsampler1d-0ahp.html" class="code_type">RasterizerOrderedSampler1D</a></span>      |      |      |        |             |        |      |
+| <span class='code'><a href="../rasterizerorderedsampler1darray-0ahpq.html" class="code_type">RasterizerOrderedSampler1DArray</a></span> |      |      |        |             |        |      |
+| <span class='code'><a href="../rasterizerorderedsampler2d-0ahp.html" class="code_type">RasterizerOrderedSampler2D</a></span>      |      |      |        |             |        |      |
+| <span class='code'><a href="../rasterizerorderedsampler2darray-0ahpq.html" class="code_type">RasterizerOrderedSampler2DArray</a></span> |      |      |        |             |        |      |
+| <span class='code'><a href="../rasterizerorderedsampler3d-0ahp.html" class="code_type">RasterizerOrderedSampler3D</a></span>      |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler1d-08.html" class="code_type">Sampler1D</a></span>                       |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler1darray-089.html" class="code_type">Sampler1DArray</a></span>                  |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2d-08.html" class="code_type">Sampler2D</a></span>                       |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2darray-089.html" class="code_type">Sampler2DArray</a></span>                  |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2dms-089a.html" class="code_type">Sampler2DMS</a></span>                     |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler2dmsarray-089ab.html" class="code_type">Sampler2DMSArray</a></span>                |      |      |        |             |        |      |
+| <span class='code'><a href="../sampler3d-08.html" class="code_type">Sampler3D</a></span>                       |      |      |        |             |        |      |
+| <span class='code'><a href="../samplercube-07.html" class="code_type">SamplerCube</a></span>                     |      |      |        |             |        |      |
+| <span class='code'><a href="../samplercubearray-07b.html" class="code_type">SamplerCubeArray</a></span>                |      |      |        |             |        |      |
+| <span class='code'><a href="../wsampler1d-019.html" class="code_type">WSampler1D</a></span>                      |      |      |        |             |        |      |
+| <span class='code'><a href="../wsampler1darray-019a.html" class="code_type">WSampler1DArray</a></span>                 |      |      |        |             |        |      |
+| <span class='code'><a href="../wsampler2d-019.html" class="code_type">WSampler2D</a></span>                      |      |      |        |             |        |      |
+| <span class='code'><a href="../wsampler2darray-019a.html" class="code_type">WSampler2DArray</a></span>                 |      |      |        |             |        |      |
+| <span class='code'><a href="../wsampler3d-019.html" class="code_type">WSampler3D</a></span>                      |      |      |        |             |        |      |
+
 
 ## See also
 
