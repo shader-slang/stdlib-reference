@@ -48,13 +48,13 @@ returns a M-element vector.
     <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmuladd-47ad.html">coopVecMatMulAdd</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>&gt;(
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmuladd-47ad.html">coopVecMatMulAdd</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBiasBufferElementType" class="code_type">IgnoredBiasBufferElementType</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-input" class="code_param">input</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-matrix" class="code_param">matrix</a>,
     <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
-    <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a>,
+    <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBiasBufferElementType" class="code_type">IgnoredBiasBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a>,
     <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-biasOffset" class="code_param">biasOffset</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-biasInterpretation" class="code_param">biasInterpretation</a>,
     <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecmatmuladd-47ad.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
@@ -64,13 +64,13 @@ returns a M-element vector.
     <span class='code_keyword'>where</span> <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmuladd-47ad.html">coopVecMatMulAdd</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>&gt;(
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>&gt; <a href="coopvecmatmuladd-47ad.html">coopVecMatMulAdd</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBiasBufferElementType" class="code_type">IgnoredBiasBufferElementType</a>&gt;(
     <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-U" class="code_type">U</a>, <a href="coopvecmatmuladd-47ad.html#decl-K" class="code_var">K</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-input" class="code_param">input</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-inputInterpretation" class="code_param">inputInterpretation</a>,
     <a href="../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-matrix" class="code_param">matrix</a>,
     <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-matrixOffset" class="code_param">matrixOffset</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-matrixInterpretation" class="code_param">matrixInterpretation</a>,
-    <a href="../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBufferElementType" class="code_type">IgnoredBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a>,
+    <a href="../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a>&lt;<a href="coopvecmatmuladd-47ad.html#typeparam-IgnoredBiasBufferElementType" class="code_type">IgnoredBiasBufferElementType</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecmatmuladd-47ad.html#decl-bias" class="code_param">bias</a>,
     <span class="code_keyword">int</span> <a href="coopvecmatmuladd-47ad.html#decl-biasOffset" class="code_param">biasOffset</a>,
     <a href="../types/coopveccomponenttype-047g/index.html" class="code_type">CoopVecComponentType</a> <a href="coopvecmatmuladd-47ad.html#decl-biasInterpretation" class="code_param">biasInterpretation</a>,
     <a href="../types/coopvecmatrixlayout-047d/index.html" class="code_type">CoopVecMatrixLayout</a> <a href="coopvecmatmuladd-47ad.html#decl-memoryLayout" class="code_param">memoryLayout</a>,
@@ -102,6 +102,7 @@ returns a M-element vector.
 ####  <a id="decl-K"></a>K  : int
 ####  <a id="typeparam-U"></a>U: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="typeparam-IgnoredBufferElementType"></a>IgnoredBufferElementType
+####  <a id="typeparam-IgnoredBiasBufferElementType"></a>IgnoredBiasBufferElementType
 
 ## Parameters
 
@@ -147,13 +148,13 @@ The bias buffer to add after multiplication.
 ####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The matrix buffer to multiply with.
 
-####  <a id="decl-bias"></a>bias  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
+####  <a id="decl-bias"></a>bias  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<IgnoredBiasBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The bias buffer to add after multiplication.
 
 ####  <a id="decl-matrix"></a>matrix  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The matrix buffer to multiply with.
 
-####  <a id="decl-bias"></a>bias  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
+####  <a id="decl-bias"></a>bias  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBiasBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
 The bias buffer to add after multiplication.
 
 ####  <a id="decl-matrix"></a>matrix  : [Ptr](../types/ptr-0/index.html)\<void, Access\.ReadWrite, AddressSpace\.Device, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
