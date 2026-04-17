@@ -37,6 +37,9 @@ The source cooperative matrix to copy from.
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
 #### cuda
 Available in all stages.
 

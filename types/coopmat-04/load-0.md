@@ -306,6 +306,9 @@ A cooperative matrix loaded from the buffer.
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
 #### cuda
 Available in all stages.
 

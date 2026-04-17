@@ -20,3 +20,8 @@ Mark a declaration as deprecated.
 The diagnostic message to show when the declaration is used.
 
 
+## See also
+
+<span class='code'>[<a href="removedsince-07.html">RemovedSince</a>]</span>.
+
+

@@ -51,7 +51,6 @@ An <span class='code'><a href="index.html#decl-N" class="code_var">N</a></span> 
 * [toFloat](tofloat-2)
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 * [init](init)
 
 ## Conditional Conformances
@@ -131,7 +130,6 @@ bitOr <bitor-3>
 bitXor <bitxor-3>
 dadd <dadd>
 div <div>
-dmul <dmul>
 dzero <dzero>
 elementCount <elementcount-7>
 equals <equals>

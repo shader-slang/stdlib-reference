@@ -162,6 +162,9 @@ The RWByteAddressBuffer to store the matrix into.
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
 #### cuda
 Available in all stages.
 

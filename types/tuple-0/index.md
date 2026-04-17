@@ -35,7 +35,6 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 * [MapElement](mapelement-03)
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 
 ## Conditional Conformances
 
@@ -56,7 +55,6 @@ The number of elements in a tuple is given by the <span class='code'>countof</sp
 Differential <differential-0>
 MapElement <mapelement-03>
 dadd <dadd>
-dmul <dmul>
 dzero <dzero>
 equals <equals>
 init <init>

@@ -32,6 +32,9 @@ The return value is unlikely to be same to M * N.
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
 #### cuda
 Available in all stages.
 

@@ -47,7 +47,6 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 * [getPrimal](getprimal-3)
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 
 
 <!-- RTD-TOC-START
@@ -59,7 +58,6 @@ Differential <differential-0>
 DifferentialElementType <differentialelementtype-0cj>
 d <d>
 dadd <dadd>
-dmul <dmul>
 dzero <dzero>
 getDifferential <getdifferential-3>
 getPrimal <getprimal-3>

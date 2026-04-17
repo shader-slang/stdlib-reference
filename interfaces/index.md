@@ -9,8 +9,10 @@ Slang's Standard Library defines the following interfaces:
 - [IArithmeticAtomicable](iarithmeticatomicable-01b/index)
 - [IArray](iarray-01/index)
 - [IAtomicable](iatomicable-01/index)
+- [IBackwardDifferentiable](ibackwarddifferentiable-019/index)
 - [IBitAtomicable](ibitatomicable-014/index)
 - [IBufferDataLayout](ibufferdatalayout-017b/index)
+- [IBwdCallable](ibwdcallable-014/index)
 - [IComparable](icomparable-01/index)
 - [ICoopElement](icoopelement-015/index)
 - [IDefaultInitializable](idefaultinitializable-018/index)
@@ -21,6 +23,7 @@ Slang's Standard Library defines the following interfaces:
 - [IDifferentiablePtrType](idifferentiableptrtype-01fi/index)
 - [IFloat](ifloat-01/index)
 - [IFloatingPointCoopElement](ifloatingpointcoopelement-019ei/index)
+- [IForwardDifferentiable](iforwarddifferentiable-018/index)
 - [IFunc](ifunc-01/index)
 - [IInteger](iinteger-01/index)
 - [ILogical](ilogical-01/index)
@@ -47,8 +50,10 @@ IArithmetic <iarithmetic-01/index>
 IArithmeticAtomicable <iarithmeticatomicable-01b/index>
 IArray <iarray-01/index>
 IAtomicable <iatomicable-01/index>
+IBackwardDifferentiable <ibackwarddifferentiable-019/index>
 IBitAtomicable <ibitatomicable-014/index>
 IBufferDataLayout <ibufferdatalayout-017b/index>
+IBwdCallable <ibwdcallable-014/index>
 IComparable <icomparable-01/index>
 ICoopElement <icoopelement-015/index>
 IDefaultInitializable <idefaultinitializable-018/index>
@@ -59,6 +64,7 @@ IDifferentiableMutatingFunc <idifferentiablemutatingfunc-01fn/index>
 IDifferentiablePtrType <idifferentiableptrtype-01fi/index>
 IFloat <ifloat-01/index>
 IFloatingPointCoopElement <ifloatingpointcoopelement-019ei/index>
+IForwardDifferentiable <iforwarddifferentiable-018/index>
 IFunc <ifunc-01/index>
 IInteger <iinteger-01/index>
 ILogical <ilogical-01/index>

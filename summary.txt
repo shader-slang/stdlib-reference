@@ -1,7 +1,13 @@
-documented pages: 760
-undocumented pages: 596(44.0%)
+documented pages: 758
+undocumented pages: 654(46.3%)
 
 IArray<T>.subscript
+IBackwardDifferentiable<FType>
+IBackwardDifferentiable<FType>.apply_bwd
+IBackwardDifferentiable<FType>.bwd_diff
+IBackwardDifferentiable<FType>.remat
+IBwdCallable<FType>
+IBwdCallable<FType>.operator()
 ICoopElement
 ICoopElement.init
 IDefaultInitializable.init
@@ -18,6 +24,8 @@ IDifferentiableFunc<TR, each TP>.operator()
 IDifferentiableMutatingFunc<TR, each TP>.operator()
 IDifferentiablePtrType
 IFloatingPointCoopElement
+IForwardDifferentiable<FType>
+IForwardDifferentiable<FType>.fwd_diff
 IFunc<TR, each TP>.operator()
 IInteger.init
 ILogical.init
@@ -38,10 +46,10 @@ AppendStructuredBuffer<T, L>.Handle
 AppendStructuredBuffer<T, L>.descriptorAccess
 AppendStructuredBuffer<T, L>.init
 AppendStructuredBuffer<T, L>.kind
+ApplyForBwdFuncType<FType, CtxType>
 Array<T, int N>
 T[N].Differential
 T[N].dadd
-T[N].dmul<U>
 T[N].dzero
 Array<T, int N>.getCount
 Atomic<T>.compareExchange
@@ -61,6 +69,8 @@ AtomicAdd.store_forward<T>
 BFloat16.init
 BindlessDescriptorOptions
 Buffer<T, int format>
+BwdCallableFuncType<FType, CtxType>
+BwdDiffFuncType<FType>
 ByteAddressBuffer.GetBufferPointer
 ByteAddressBuffer.Handle
 ByteAddressBuffer.LoadByteOffset<T>
@@ -112,7 +122,6 @@ DifferentialPair<T>.Differential
 DifferentialPair<T>.DifferentialElementType
 DifferentialPair<T>.d
 DifferentialPair<T>.dadd
-DifferentialPair<T>.dmul<U>
 DifferentialPair<T>.dzero
 DifferentialPair<T>.getDifferential
 DifferentialPair<T>.getPrimal
@@ -128,6 +137,7 @@ DifferentialPtrPair<T>.p
 DifferentialPtrPair<T>.v
 FloatE4M3.init
 FloatE5M2.init
+FwdDiffFuncType<FType>
 HitObject.GetCurrentTime
 HitObject.GetLssPositionsAndRadii
 HitObject.GetRayDesc
@@ -157,12 +167,10 @@ NodePayloadPtr<T>
 NullDifferential
 NullDifferential.Differential
 NullDifferential.dadd
-NullDifferential.dmul<T>
 NullDifferential.dummy
 NullDifferential.dzero
 Optional<T>.Differential
 Optional<T>.dadd
-Optional<T>.dmul<U>
 Optional<T>.dzero
 Optional<T>.hasValue
 Optional<T>.init
@@ -233,6 +241,7 @@ RaytracingAccelerationStructure.Handle
 RaytracingAccelerationStructure.descriptorAccess
 RaytracingAccelerationStructure.init
 RaytracingAccelerationStructure.kind
+RematFuncType<FType, MinimalCtxType, FullCtxType>
 SAMPLER_FEEDBACK_MIN_MIP
 SAMPLER_FEEDBACK_MIN_MIP.Element
 SAMPLER_FEEDBACK_MIN_MIP.elementCount
@@ -314,7 +323,6 @@ TriangleStream<T>.RestartStrip
 Tuple<T>.Differential
 Tuple<linalg.CoopMat<T, S, M, N, R>, expand linalg.CoopMat<each Ts, S, M, N, R>>.MapElement
 Tuple<T>.dadd
-Tuple<T>.dmul<U>
 Tuple<T>.dzero
 Tuple<T>.equals
 Tuple<each T>.init
@@ -392,6 +400,55 @@ __ShapeCube.planeDimensions
 T.Element
 T.elementCount
 T.init
+<T>
+<T>
+<T>
+<T>
+<T>
+<T>
+<T, int N>
+<T>
+<T, int N>
+<T>
+<T>
+<T>
+<T>
+<T>
+<T, int N>
+<T, int N>
+<T, int N>
+<T>
+<T>
+<T, int N>
+<T, int N>
+<T>
+<T, int N>
+<T, int N>
+<T, A>
+<T, A>
+<T>
+<T>
+<T>
+<T, int N>
+<T, int N>
+<T, int N>
+<T, int N, int M>
+<T, int N>
+<T, int N>
+<T>
+<T>
+<T, int N>
+<T, int N>
+<T>
+<T>
+<T>
+<T>
+<T>
+<T, A>
+<T, A>
+<T>
+<T>
+<T, int N, int M>
 float16_t
 float32_t
 float64_t
@@ -402,7 +459,6 @@ matrix<int16_t,R,C>.T
 matrix<T,N,M>.add
 matrix<T,N,M>.dadd
 matrix<T,N,M>.div
-matrix<T,N,M>.dmul<U>
 matrix<T,N,M>.dzero
 matrix<T,N,M>.equals
 matrix<T, int R, int C, int L>.getCount
@@ -431,7 +487,6 @@ vector<T,N>.bitOr
 vector<T,N>.bitXor
 vector<T,N>.dadd
 vector<T,N>.div
-vector<T,N>.dmul<U>
 vector<T,N>.dzero
 vector<half,N>.elementCount
 vector<T,N>.equals
@@ -459,8 +514,10 @@ Differentiable
 ExperimentalModule
 ForwardDerivativeOf
 ForwardDifferentiable
+HasTrivialForwardDerivative
 KnownBuiltin
 MaxIters
+MaybeDifferentiable
 NoDiffThis
 PrimalSubstitute
 PrimalSubstituteOf
@@ -568,6 +625,8 @@ clockARB
 concat<each T, each U>
 coopVecLoadCoherent<int N, T>
 coopVecLoadGroupshared<int N, T, int M>
+coopVecMatMulAddPacked<T, int M, int PackedK, U>
+coopVecMatMulPacked<T, int M, int PackedK, U>
 createDynamicObject<T, U>
 cudaBlockDim
 cudaBlockIdx
@@ -581,7 +640,6 @@ f16tof32
 floatCast<T, U>
 getRealtimeClock
 getRealtimeClockLow
-isDifferentialNull
 makeArrayFromElement<T, int N>
 makeTuple<each T>
 max<T>

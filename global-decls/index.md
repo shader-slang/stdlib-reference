@@ -284,7 +284,6 @@ Slang's Standard Library defines the following global declarations:
 - [getRealtimeClock](getrealtimeclock-3b)
 - [getRealtimeClockLow](getrealtimeclocklow-3bg)
 - [getStringHash](getstringhash-39)
-- [isDifferentialNull](isdifferentialnull-2e)
 - [isfinite](isfinite)
 - [isinf](isinf)
 - [isnan](isnan)
@@ -471,7 +470,6 @@ getDescriptorFromHandle <getdescriptorfromhandle-3dh>
 getRealtimeClock <getrealtimeclock-3b>
 getRealtimeClockLow <getrealtimeclocklow-3bg>
 getStringHash <getstringhash-39>
-isDifferentialNull <isdifferentialnull-2e>
 loadAligned <loadaligned-4>
 makeArrayFromElement <makearrayfromelement-49d>
 makeTuple <maketuple-4>

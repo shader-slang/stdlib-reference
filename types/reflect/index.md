@@ -1,0 +1,25 @@
+---
+layout: stdlib-reference
+---
+
+# extension reflect\<T, N\> : IForwardDifferentiable\<reflect\<T, N\>\>
+
+*Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[reflect](../../global-decls/reflect.html)\<[T](../../global-decls/reflect.html#typeparam-T), [N](../../global-decls/reflect.html#decl-N) \>\>
+
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[reflect](../../global-decls/reflect.html)\<[T](../../global-decls/reflect.html#typeparam-T), [N](../../global-decls/reflect.html#decl-N) \>\>
+
+## Generic Parameters
+
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="decl-N"></a>N  : int
+
+## Methods
+
+* fwd\_diff
+
+## Conditional Conformances
+
+### Conformance to IForwardDifferentiable\<reflect\<T, N\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<reflect<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)

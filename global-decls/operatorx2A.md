@@ -611,6 +611,9 @@ A new cooperative matrix with all elements multiplied by the scalar.
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
 #### cuda
 Available in all stages.
 

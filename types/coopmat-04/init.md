@@ -59,6 +59,9 @@ linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.htm
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
 #### cuda
 Available in all stages.
 
@@ -70,6 +73,9 @@ Requires capability: `spvCooperativeMatrixKHR`.
 ### Capability Set 2
 
 Defined for the following targets:
+
+#### hlsl
+Available in all stages.
 
 #### cuda
 Available in all stages.

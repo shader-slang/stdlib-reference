@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Multiply a cooperative vector with a matrix and return the result.
+
 
 
 
@@ -95,51 +95,18 @@ Multiply a cooperative vector with a matrix and return the result.
 ## Parameters
 
 ####  <a id="decl-input"></a>input  : [CoopVec](../types/coopvec-04/index.html)\<U, PackedK\>
-The input cooperative vector to multiply with the matrix.
-
 ####  <a id="decl-inputInterpretation"></a>inputInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index.html)
-Specifies how to interpret the values in the input vector (e.g. as packed values).
-
 ####  <a id="decl-k"></a>k  : int
-The number of columns in the matrix.
-
 ####  <a id="decl-matrix"></a>matrix  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index.html)
-The matrix buffer to multiply with.
-
 ####  <a id="decl-matrixOffset"></a>matrixOffset  : int
-Byte offset into the matrix buffer.
-
 ####  <a id="decl-matrixInterpretation"></a>matrixInterpretation  : [CoopVecComponentType](../types/coopveccomponenttype-047g/index.html)
-Specifies how to interpret the values in the matrix.
-
 ####  <a id="decl-memoryLayout"></a>memoryLayout  : [CoopVecMatrixLayout](../types/coopvecmatrixlayout-047d/index.html)
-Specifies the memory layout of the matrix (row-major or column-major).
-
 ####  <a id="decl-transpose"></a>transpose  : bool
-Whether to transpose the matrix before multiplication.
-
 ####  <a id="decl-matrixStride"></a>matrixStride  : uint
-The stride between matrix rows/columns in bytes.
-
 ####  <a id="decl-matrix"></a>matrix  : [ByteAddressBuffer](../types/byteaddressbuffer-04b/index.html)
-The matrix buffer to multiply with.
-
 ####  <a id="decl-matrix"></a>matrix  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
-The matrix buffer to multiply with.
-
 ####  <a id="decl-matrix"></a>matrix  : [StructuredBuffer](../types/structuredbuffer-0a/index.html)\<IgnoredBufferElementType, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
-The matrix buffer to multiply with.
-
 ####  <a id="decl-matrixPtr"></a>matrixPtr  : [Ptr](../types/ptr-0/index.html)\<void, Access\.ReadWrite, AddressSpace\.Device, [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
-
-## Return value
-A new cooperative vector containing the result of the matrix multiplication.
-
-## Remarks
-Unlike coopVecMatMul, this function supports packed input interpretations where multiple values
-can be packed into each element of the input vector. The k parameter specifies the actual number of
-values to use from the packed input.
-
 
 ## Availability and Requirements
 

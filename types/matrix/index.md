@@ -36,7 +36,6 @@ A matrix with <span class='code'><a href="index.html#decl-R" class="code_var">R<
 * [toFloat](tofloat-2)
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 * [init](init)
 
 ## Conditional Conformances
@@ -60,7 +59,6 @@ T <t-0>
 add <add>
 dadd <dadd>
 div <div>
-dmul <dmul>
 dzero <dzero>
 equals <equals>
 getCount <getcount-3>

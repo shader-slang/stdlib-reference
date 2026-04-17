@@ -174,7 +174,6 @@ Constraints:
 
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 
 
 <!-- RTD-TOC-START
@@ -183,7 +182,6 @@ Constraints:
 :hidden:
 
 dadd <dadd>
-dmul <dmul>
 dzero <dzero>
 ```
 RTD-TOC-END -->

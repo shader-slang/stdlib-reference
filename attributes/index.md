@@ -29,9 +29,11 @@ Slang's Standard Library defines the following attributes:
 - [ForwardDerivative](forwardderivative-07)
 - [ForwardDerivativeOf](forwardderivativeof-07h)
 - [ForwardDifferentiable](forwarddifferentiable-07)
+- [HasTrivialForwardDerivative](hastrivialforwardderivative-03ah)
 - [KnownBuiltin](knownbuiltin-05)
 - [MaxIters](maxiters-03)
 - [MaximallyReconverges](maximallyreconverges-09)
+- [MaybeDifferentiable](maybedifferentiable-05)
 - [NoDiffThis](nodiffthis-026)
 - [NonUniformReturn](nonuniformreturn-03a)
 - [NumThreads](numthreads-03)
@@ -42,6 +44,7 @@ Slang's Standard Library defines the following attributes:
 - [PrimalSubstituteOf](primalsubstituteof-06g)
 - [PyExport](pyexport-02)
 - [QuadDerivatives](quadderivatives-04)
+- [RemovedSince](removedsince-07)
 - [RequireFullQuads](requirefullquads-07b)
 - [RequirePrelude](requireprelude-07)
 - [Shader](shader-0)
@@ -128,9 +131,11 @@ ForceUnroll <forceunroll-05>
 ForwardDerivative <forwardderivative-07>
 ForwardDerivativeOf <forwardderivativeof-07h>
 ForwardDifferentiable <forwarddifferentiable-07>
+HasTrivialForwardDerivative <hastrivialforwardderivative-03ah>
 KnownBuiltin <knownbuiltin-05>
 MaxIters <maxiters-03>
 MaximallyReconverges <maximallyreconverges-09>
+MaybeDifferentiable <maybedifferentiable-05>
 NoDiffThis <nodiffthis-026>
 NonUniformReturn <nonuniformreturn-03a>
 NumThreads <numthreads-03>
@@ -141,6 +146,7 @@ PrimalSubstitute <primalsubstitute-06>
 PrimalSubstituteOf <primalsubstituteof-06g>
 PyExport <pyexport-02>
 QuadDerivatives <quadderivatives-04>
+RemovedSince <removedsince-07>
 RequireFullQuads <requirefullquads-07b>
 RequirePrelude <requireprelude-07>
 Shader <shader-0>

@@ -6,6 +6,7 @@ layout: stdlib-reference
 Slang's Standard Library defines the following types:
 
 - [AppendStructuredBuffer](appendstructuredbuffer-06g/index)
+- [ApplyForBwdFuncType](applyforbwdfunctype-058bf/index)
 - [Array](array-0/index)
 - [Atomic](atomic-0/index)
 - [AtomicAdd](atomicadd-06/index)
@@ -13,6 +14,8 @@ Slang's Standard Library defines the following types:
 - [BindlessDescriptorOptions](bindlessdescriptoroptions-08i/index)
 - [Buffer](buffer-0)
 - [BuiltInTriangleIntersectionAttributes](builtintriangleintersectionattributes-057fr/index)
+- [BwdCallableFuncType](bwdcallablefunctype-03bf/index)
+- [BwdDiffFuncType](bwddifffunctype-037b/index)
 - [ByteAddressBuffer](byteaddressbuffer-04b/index)
 - [CANDIDATE\_TYPE](candidate_type-012345678abcd)
 - [CDataLayout](cdatalayout-015/index)
@@ -49,6 +52,7 @@ Slang's Standard Library defines the following types:
 - [FeedbackTexture2DArray](feedbacktexture2darray-08gh)
 - [FloatE4M3](floate4m3-057/index)
 - [FloatE5M2](floate5m2-057/index)
+- [FwdDiffFuncType](fwddifffunctype-037b/index)
 - [HitObject](hitobject-03/index)
 - [ImmutablePtr](immutableptr-09)
 - [InputPatch](inputpatch-05/index)
@@ -101,6 +105,7 @@ Slang's Standard Library defines the following types:
 - [RayDesc](raydesc-03/index)
 - [RayQuery](rayquery-03/index)
 - [RaytracingAccelerationStructure](raytracingaccelerationstructure-0am/index)
+- [RematFuncType](rematfunctype-059/index)
 - [SAMPLER\_FEEDBACK\_MIN\_MIP](sampler_feedback_min_mip-012345689abcdefhijlmn/index)
 - [SAMPLER\_FEEDBACK\_MIP\_REGION\_USED](sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/index)
 - [Sampler1D](sampler1d-08)
@@ -169,6 +174,55 @@ Slang's Standard Library defines the following types:
 - [\_\_ShapeBuffer](0_shapebuffer-027/index)
 - [\_\_ShapeCube](0_shapecube-027/index)
 - [extension T](t-0/index)
+- [extension abs : IForwardDifferentiable\<abs\<T\>\>](abs/index)
+- [extension acos : IForwardDifferentiable\<acos\<T\>\>](acos/index)
+- [extension acosh : IForwardDifferentiable\<acosh\<T\>\>](acosh/index)
+- [extension asin : IForwardDifferentiable\<asin\<T\>\>](asin/index)
+- [extension asinh : IForwardDifferentiable\<asinh\<T\>\>](asinh/index)
+- [extension atan : IForwardDifferentiable\<atan\<T\>\>](atan/index)
+- [extension atan2 : IForwardDifferentiable\<atan2\<T, N\>\>](atan2/index)
+- [extension atanh : IForwardDifferentiable\<atanh\<T\>\>](atanh/index)
+- [extension clamp : IForwardDifferentiable\<clamp\<T, N\>\>](clamp/index)
+- [extension copysign : IForwardDifferentiable\<copysign\<T\>\>](copysign/index)
+- [extension cos : IForwardDifferentiable\<cos\<T\>\>](cos/index)
+- [extension cosh : IForwardDifferentiable\<cosh\<T\>\>](cosh/index)
+- [extension cross : IForwardDifferentiable\<cross\<T\>\>](cross/index)
+- [extension degrees : IForwardDifferentiable\<degrees\<T\>\>](degrees/index)
+- [extension determinant : IForwardDifferentiable\<determinant\<T, N\>\>](determinant/index)
+- [extension distance : IForwardDifferentiable\<distance\<T, N\>\>](distance/index)
+- [extension dot : IForwardDifferentiable\<dot\<T, N\>\>](dot/index)
+- [extension exp : IForwardDifferentiable\<exp\<T\>\>](exp/index)
+- [extension exp2 : IForwardDifferentiable\<exp2\<T\>\>](exp2/index)
+- [extension fma : IForwardDifferentiable\<fma\<T, N\>\>](fma/index)
+- [extension fmod : IForwardDifferentiable\<fmod\<T, N\>\>](fmod/index)
+- [extension frac : IForwardDifferentiable\<frac\<T\>\>](frac/index)
+- [extension length : IForwardDifferentiable\<length\<T, N\>\>](length/index)
+- [extension lerp : IForwardDifferentiable\<lerp\<T, N\>\>](lerp/index)
+- [extension load : IForwardDifferentiable\<DiffTensorView\<T, A\>\.load\>](load/index)
+- [extension loadOnce : IForwardDifferentiable\<DiffTensorView\<T, A\>\.loadOnce\>](loadonce-4/index)
+- [extension log : IForwardDifferentiable\<log\<T\>\>](log/index)
+- [extension log10 : IForwardDifferentiable\<log10\<T\>\>](log10/index)
+- [extension log2 : IForwardDifferentiable\<log2\<T\>\>](log2/index)
+- [extension mad : IForwardDifferentiable\<mad\<T, N\>\>](mad/index)
+- [extension max : IForwardDifferentiable\<max\<T, N\>\>](max/index)
+- [extension min : IForwardDifferentiable\<min\<T, N\>\>](min/index)
+- [extension mul : IForwardDifferentiable\<mul\<T, N, M\>\>](mul/index)
+- [extension normalize : IForwardDifferentiable\<normalize\<T, N\>\>](normalize/index)
+- [extension pow : IForwardDifferentiable\<pow\<T, N\>\>](pow/index)
+- [extension radians : IForwardDifferentiable\<radians\<T\>\>](radians/index)
+- [extension rcp : IForwardDifferentiable\<rcp\<T\>\>](rcp/index)
+- [extension reflect : IForwardDifferentiable\<reflect\<T, N\>\>](reflect/index)
+- [extension refract : IForwardDifferentiable\<refract\<T, N\>\>](refract/index)
+- [extension rsqrt : IForwardDifferentiable\<rsqrt\<T\>\>](rsqrt/index)
+- [extension saturate : IForwardDifferentiable\<saturate\<T\>\>](saturate/index)
+- [extension sin : IForwardDifferentiable\<sin\<T\>\>](sin/index)
+- [extension sinh : IForwardDifferentiable\<sinh\<T\>\>](sinh/index)
+- [extension sqrt : IForwardDifferentiable\<sqrt\<T\>\>](sqrt/index)
+- [extension store : IForwardDifferentiable\<DiffTensorView\<T, A\>\.store\>](store/index)
+- [extension storeOnce : IForwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\>](storeonce-5/index)
+- [extension tan : IForwardDifferentiable\<tan\<T\>\>](tan/index)
+- [extension tanh : IForwardDifferentiable\<tanh\<T\>\>](tanh/index)
+- [extension transpose : IForwardDifferentiable\<transpose\<T, N, M\>\>](transpose/index)
 - [float16\_t](float16_t)
 - [float32\_t](float32_t)
 - [float64\_t](float64_t)
@@ -197,11 +251,14 @@ Sampler types <sampler_types>
 Scalar types <scalar_types>
 Stage IO types <stage_io>
 Texture types <texture_types>
+ApplyForBwdFuncType <applyforbwdfunctype-058bf/index>
 Array <array-0/index>
 Atomic <atomic-0/index>
 AtomicAdd <atomicadd-06/index>
 BFloat16 <bfloat16-01/index>
 BindlessDescriptorOptions <bindlessdescriptoroptions-08i/index>
+BwdCallableFuncType <bwdcallablefunctype-03bf/index>
+BwdDiffFuncType <bwddifffunctype-037b/index>
 ConstantBuffer <constantbuffer-08/index>
 CoopMatClampMode <coopmatclampmode-047c/index>
 CoopMatMatrixLayout <coopmatmatrixlayout-047d/index>
@@ -219,6 +276,7 @@ DifferentialPtrPair <differentialptrpair-0cf/index>
 DispatchNodeInputRecord <dispatchnodeinputrecord-08ch/index>
 FloatE4M3 <floate4m3-057/index>
 FloatE5M2 <floate5m2-057/index>
+FwdDiffFuncType <fwddifffunctype-037b/index>
 ImmutablePtr <immutableptr-09>
 LayoutPtr <layoutptr-06>
 NodePayloadPtr <nodepayloadptr-04b>
@@ -226,6 +284,7 @@ NullDifferential <nulldifferential-04/index>
 Optional <optional-0/index>
 ParameterBlock <parameterblock-09/index>
 Ptr <ptr-0/index>
+RematFuncType <rematfunctype-059/index>
 String <string-0/index>
 TensorLayout <tensorlayout-06/index>
 TensorView <tensorview-06/index>
@@ -234,6 +293,55 @@ Tuple <tuple-0/index>
 VkMutableBindlessBindings <vkmutablebindlessbindings-029h/index>
 _AttributeTargets <0attributetargets-01a/index>
 extension T <t-0/index>
+extension abs : IForwardDifferentiable<abs<T>> <abs/index>
+extension acos : IForwardDifferentiable<acos<T>> <acos/index>
+extension acosh : IForwardDifferentiable<acosh<T>> <acosh/index>
+extension asin : IForwardDifferentiable<asin<T>> <asin/index>
+extension asinh : IForwardDifferentiable<asinh<T>> <asinh/index>
+extension atan : IForwardDifferentiable<atan<T>> <atan/index>
+extension atan2 : IForwardDifferentiable<atan2<T, N>> <atan2/index>
+extension atanh : IForwardDifferentiable<atanh<T>> <atanh/index>
+extension clamp : IForwardDifferentiable<clamp<T, N>> <clamp/index>
+extension copysign : IForwardDifferentiable<copysign<T>> <copysign/index>
+extension cos : IForwardDifferentiable<cos<T>> <cos/index>
+extension cosh : IForwardDifferentiable<cosh<T>> <cosh/index>
+extension cross : IForwardDifferentiable<cross<T>> <cross/index>
+extension degrees : IForwardDifferentiable<degrees<T>> <degrees/index>
+extension determinant : IForwardDifferentiable<determinant<T, N>> <determinant/index>
+extension distance : IForwardDifferentiable<distance<T, N>> <distance/index>
+extension dot : IForwardDifferentiable<dot<T, N>> <dot/index>
+extension exp : IForwardDifferentiable<exp<T>> <exp/index>
+extension exp2 : IForwardDifferentiable<exp2<T>> <exp2/index>
+extension fma : IForwardDifferentiable<fma<T, N>> <fma/index>
+extension fmod : IForwardDifferentiable<fmod<T, N>> <fmod/index>
+extension frac : IForwardDifferentiable<frac<T>> <frac/index>
+extension length : IForwardDifferentiable<length<T, N>> <length/index>
+extension lerp : IForwardDifferentiable<lerp<T, N>> <lerp/index>
+extension load : IForwardDifferentiable<DiffTensorView<T, A>.load> <load/index>
+extension loadOnce : IForwardDifferentiable<DiffTensorView<T, A>.loadOnce> <loadonce-4/index>
+extension log : IForwardDifferentiable<log<T>> <log/index>
+extension log10 : IForwardDifferentiable<log10<T>> <log10/index>
+extension log2 : IForwardDifferentiable<log2<T>> <log2/index>
+extension mad : IForwardDifferentiable<mad<T, N>> <mad/index>
+extension max : IForwardDifferentiable<max<T, N>> <max/index>
+extension min : IForwardDifferentiable<min<T, N>> <min/index>
+extension mul : IForwardDifferentiable<mul<T, N, M>> <mul/index>
+extension normalize : IForwardDifferentiable<normalize<T, N>> <normalize/index>
+extension pow : IForwardDifferentiable<pow<T, N>> <pow/index>
+extension radians : IForwardDifferentiable<radians<T>> <radians/index>
+extension rcp : IForwardDifferentiable<rcp<T>> <rcp/index>
+extension reflect : IForwardDifferentiable<reflect<T, N>> <reflect/index>
+extension refract : IForwardDifferentiable<refract<T, N>> <refract/index>
+extension rsqrt : IForwardDifferentiable<rsqrt<T>> <rsqrt/index>
+extension saturate : IForwardDifferentiable<saturate<T>> <saturate/index>
+extension sin : IForwardDifferentiable<sin<T>> <sin/index>
+extension sinh : IForwardDifferentiable<sinh<T>> <sinh/index>
+extension sqrt : IForwardDifferentiable<sqrt<T>> <sqrt/index>
+extension store : IForwardDifferentiable<DiffTensorView<T, A>.store> <store/index>
+extension storeOnce : IForwardDifferentiable<DiffTensorView<T, A>.storeOnce> <storeonce-5/index>
+extension tan : IForwardDifferentiable<tan<T>> <tan/index>
+extension tanh : IForwardDifferentiable<tanh<T>> <tanh/index>
+extension transpose : IForwardDifferentiable<transpose<T, N, M>> <transpose/index>
 int8_t4_packed <int8_t4_packed>
 uint8_t4_packed <uint8_t4_packed>
 ```

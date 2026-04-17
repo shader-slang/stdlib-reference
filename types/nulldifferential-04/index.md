@@ -8,14 +8,13 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-dummy"></a>[dummy](dummy.html) : uint
+####  <a id="decl-dummy"></a>[dummy](dummy.html) : float
 
 ## Methods
 
 * init
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 
 
 <!-- RTD-TOC-START
@@ -25,7 +24,6 @@ layout: stdlib-reference
 
 Differential <differential-0>
 dadd <dadd>
-dmul <dmul>
 dummy <dummy>
 dzero <dzero>
 ```

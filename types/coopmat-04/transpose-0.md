@@ -26,9 +26,6 @@ A transposed cooperative matrix with dimensions N42949672354294967191M and Matri
 
 Defined for the following targets:
 
-#### cuda
-Available in all stages.
-
 #### spirv
 Available in all stages.
 

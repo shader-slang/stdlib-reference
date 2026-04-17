@@ -18,7 +18,6 @@ layout: stdlib-reference
 * [getCount](getcount-3)
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 
 ## Conditional Conformances
 
@@ -38,7 +37,6 @@ layout: stdlib-reference
 
 Differential <differential-0>
 dadd <dadd>
-dmul <dmul>
 dzero <dzero>
 getCount <getcount-3>
 ```

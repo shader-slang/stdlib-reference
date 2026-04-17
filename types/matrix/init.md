@@ -24,6 +24,9 @@ Initialize a vector from a value of the same type
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-v" class="code_param">v</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> == int16_t;
 
@@ -686,6 +689,7 @@ Initialize a vector from a value of the same type
 ####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), [R](index.html#decl-R), [C](index.html#decl-C)\>
 ####  <a id="decl-v"></a>v  : int
 ####  <a id="decl-v"></a>v  : float
+####  <a id="decl-value"></a>value  : [T](t-0.html)
 ####  <a id="decl-value"></a>value  : int
 ####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), 4\>
 ####  <a id="decl-m00"></a>m00  : [T](t-0.html)

@@ -37,6 +37,10 @@ Initialize a vector where all elements have the same scalar <span class='code'><
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/ifloatingpointcoopelement-019ei/index.html" class="code_type">IFloatingPointCoopElement</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-other" class="code_param">other</a>)
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+
+<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-other" class="code_param">other</a>)
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 

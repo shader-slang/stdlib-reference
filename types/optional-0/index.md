@@ -42,7 +42,6 @@ If this <span class='code'><a href="index.html" class="code_type">Optional</a></
 * [init](init)
 * [dzero](dzero)
 * [dadd](dadd)
-* [dmul](dmul)
 
 ## Conditional Conformances
 
@@ -62,7 +61,6 @@ If this <span class='code'><a href="index.html" class="code_type">Optional</a></
 
 Differential <differential-0>
 dadd <dadd>
-dmul <dmul>
 dzero <dzero>
 hasValue <hasvalue-3>
 init <init>
