@@ -65,6 +65,9 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
+#### metal
+Available in all stages.
+
 #### spirv
 Available in all stages.
 

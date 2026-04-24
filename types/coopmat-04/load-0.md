@@ -312,6 +312,9 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
+#### metal
+Available in all stages.
+
 #### spirv
 Available in all stages.
 
@@ -322,6 +325,9 @@ Requires capability: `spvCooperativeMatrixKHR`.
 Defined for the following targets:
 
 #### cuda
+Available in all stages.
+
+#### metal
 Available in all stages.
 
 #### spirv

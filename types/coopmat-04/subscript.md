@@ -23,3 +23,19 @@ layout: stdlib-reference
 
 ####  <a id="decl-index"></a>index  : int
 
+## Availability and Requirements
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeMatrixKHR`.
+
+
