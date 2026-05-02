@@ -39,6 +39,7 @@ The matrix use specifier indicating whether this is a Matrix A, Matrix B, or acc
 
 * [init](init)
 * [fill](fill)
+* [clear](clear)
 * [copyFrom](copyfrom-4)
 * [getCount](getcount-3)
 * [subscript](subscript)
@@ -75,16 +76,14 @@ The matrix use specifier indicating whether this is a Matrix A, Matrix B, or acc
 ## Remarks
 
 
-The dimensions M and N must match hardware-supported fragment shapes. For CUDA WMMA,
-valid shape combinations are (where k is always 16):
+The dimensions M and N must match hardware-supported fragment shapes. For CUDA (mma.sync.m16n8k16),
+only the m16n16k16 shape is supported:
 - Shape m16n16k16: Matrix A (164294967235429496719116), Matrix B (164294967235429496719116), Accumulator (164294967235429496719116)
-- Shape m8n32k16:  Matrix A (84294967235429496719116),  Matrix B (164294967235429496719132), Accumulator (84294967235429496719132)
-- Shape m32n8k16:  Matrix A (324294967235429496719116), Matrix B (16429496723542949671918),  Accumulator (32429496723542949671918)
 
 Matrix A dimensions are (m42949672354294967191k), Matrix B dimensions are (k42949672354294967191n), and Accumulator dimensions are (m42949672354294967191n).
-For all CUDA WMMA shapes listed above:
-- Matrix A and B support: half, uint8, int8
-- Accumulator (Matrix C) supports: float, half, int
+For CUDA m16n16k16:
+- Matrix A and B support: half
+- Accumulator (Matrix C) supports: float, half
 
 All matrices involved in a multiply-accumulate operation must use the same shape combination.
 The actual physical layout and distribution of elements across threads is hardware-specific.
@@ -155,6 +154,7 @@ Store <store-0>
 StoreCoherent <storecoherent-05>
 Transpose <transpose-0>
 add <add>
+clear <clear>
 convertUse <convertuse-7>
 copyFrom <copyfrom-4>
 div <div>
