@@ -73,6 +73,10 @@ The matrix use specifier indicating whether this is a Matrix A, Matrix B, or acc
 `linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>` additionally conforms to `IArithmetic` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
+### Conformance to IArithmetic
+`linalg::CoopMat<T, MemoryScope S, int M, int N, linalg.CoopMatMatrixUse R>` additionally conforms to `IArithmetic` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) == [BFloat16](../bfloat16-01/index.html)
 ## Remarks
 
 
@@ -82,8 +86,13 @@ only the m16n16k16 shape is supported:
 
 Matrix A dimensions are (m42949672354294967191k), Matrix B dimensions are (k42949672354294967191n), and Accumulator dimensions are (m42949672354294967191n).
 For CUDA m16n16k16:
-- Matrix A and B support: half
-- Accumulator (Matrix C) supports: float, half
+- Matrix A and B support: half, BFloat16, int8_t, uint8_t, FloatE4M3, FloatE5M2
+(A and B must share the same element type)
+- Accumulator (Matrix C) supports an element type that matches the input family:
+- half inputs        -> half or float accumulator/output
+- BFloat16 inputs    -> float accumulator/output
+- int8_t / uint8_t   -> int (s32) accumulator/output (with optional .satfinite)
+- FloatE4M3 / FloatE5M2 inputs -> half or float accumulator/output (SM 8.9+)
 
 All matrices involved in a multiply-accumulate operation must use the same shape combination.
 The actual physical layout and distribution of elements across threads is hardware-specific.
