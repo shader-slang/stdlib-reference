@@ -2,11 +2,11 @@
 layout: stdlib-reference
 ---
 
-# extension DiffTensorView\<T, A\>\.storeOnce : IForwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\>
+# extension DiffTensorView\<T, A\>\.storeOnce : IBackwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\>
 
-*Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\>
+*Conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\<[N](../difftensorview-04a/storeonce-5.html#decl-N) \>\>
+*Conditionally conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\<[N](../difftensorview-04a/storeonce-5.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.[storeOnce](../difftensorview-04a/storeonce-5.html)\<[N](../difftensorview-04a/storeonce-5.html#decl-N) \>\>
 
 ## Generic Parameters
 
@@ -15,11 +15,29 @@ layout: stdlib-reference
 
 ## Methods
 
-* fwd\_diff
+* [apply\_bwd](apply_bwd)
+* bwd\_diff
+* [remat](remat)
+* [fwd\_diff](fwd_diff)
 
 ## Conditional Conformances
 
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\>
+`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.storeOnce>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.storeOnce>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\<N\>\>
+`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.storeOnce<N>>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.storeOnce\<N\>\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.storeOnce<N>>`.
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+apply_bwd <apply_bwd>
+fwd_diff <fwd_diff>
+remat <remat>
+```
+RTD-TOC-END -->

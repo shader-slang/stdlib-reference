@@ -1,0 +1,12 @@
+---
+layout: stdlib-reference
+---
+
+# typealias sin\<T\>\.BwdCallable
+
+## Signature
+
+<pre>
+<span class='code_keyword'>typealias</span> <a href="../../global-decls/sin.html">sin</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.BwdCallable = ;
+</pre>
+

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[transpose](../../global-decls/transpose.html)\<[T](../../global-decls/transpose.html#typeparam-T), [N](../../global-decls/transpose.html#decl-N), [M](../../global-decls/transpose.html#decl-M) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[transpose](../../global-decls/transpose.html)\<[T](../../global-decls/transpose.html#typeparam-T), [N](../../global-decls/transpose.html#decl-N), [M](../../global-decls/transpose.html#decl-M) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[transpose](../../global-decls/transpose.html)\<[T](../../global-decls/transpose.html#typeparam-T), [N](../../global-decls/transpose.html#decl-N), [M](../../global-decls/transpose.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[transpose](../../global-decls/transpose.html)\<[T](../../global-decls/transpose.html#typeparam-T), [N](../../global-decls/transpose.html#decl-N), [M](../../global-decls/transpose.html#decl-M) \>\>
 
 ## Generic Parameters
 
@@ -17,6 +17,9 @@ layout: stdlib-reference
 ## Methods
 
 * fwd\_diff
+* [apply\_bwd](apply_bwd)
+* [bwd\_diff](bwd_diff)
+* [remat](remat)
 
 ## Conditional Conformances
 
@@ -24,3 +27,20 @@ layout: stdlib-reference
 `<T, int N, int M>` additionally conforms to `IForwardDifferentiable<transpose<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<transpose\<T, N, M\>\>
+`<T, int N, int M>` additionally conforms to `IBackwardDifferentiable<transpose<T, N, M>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+BwdCallable <bwdcallable-03>
+MinimalContext <minimalcontext-07>
+apply_bwd <apply_bwd>
+bwd_diff <bwd_diff>
+remat <remat>
+```
+RTD-TOC-END -->

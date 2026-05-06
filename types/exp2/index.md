@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T), [N](../../global-decls/exp2.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T), [N](../../global-decls/exp2.html#decl-N), [M](../../global-decls/exp2.html#decl-M) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T), [N](../../global-decls/exp2.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T), [N](../../global-decls/exp2.html#decl-N), [M](../../global-decls/exp2.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T), [N](../../global-decls/exp2.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[exp2](../../global-decls/exp2.html)\<[T](../../global-decls/exp2.html#typeparam-T), [N](../../global-decls/exp2.html#decl-N), [M](../../global-decls/exp2.html#decl-M) \>\>
 
 ## Generic Parameters
 
@@ -15,6 +15,9 @@ layout: stdlib-reference
 ## Methods
 
 * fwd\_diff
+* [apply\_bwd](apply_bwd)
+* [bwd\_diff](bwd_diff)
+* [remat](remat)
 
 ## Conditional Conformances
 
@@ -30,3 +33,28 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<exp2<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<exp2\<T\>\>
+`<T>` additionally conforms to `IBackwardDifferentiable<exp2<T>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<exp2\<T, N\>\>
+`<T>` additionally conforms to `IBackwardDifferentiable<exp2<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<exp2\<T, N, M\>\>
+`<T>` additionally conforms to `IBackwardDifferentiable<exp2<T, N, M>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+BwdCallable <bwdcallable-03>
+MinimalContext <minimalcontext-07>
+apply_bwd <apply_bwd>
+bwd_diff <bwd_diff>
+remat <remat>
+```
+RTD-TOC-END -->
