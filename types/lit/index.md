@@ -20,9 +20,9 @@ Legacy lighting function (obsolete).
 ## Methods
 
 * bwd\_diff
-* [apply\_bwd](apply_bwd)
-* [fwd\_diff](fwd_diff)
-* [remat](remat)
+* apply\_bwd
+* fwd\_diff
+* remat
 
 ## Conditional Conformances
 
@@ -34,12 +34,3 @@ Legacy lighting function (obsolete).
 
 In HLSL, this function is implemented as an intrinsic. It is emulated for other targets.
 
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Math functions <math>
-```
-RTD-TOC-END -->

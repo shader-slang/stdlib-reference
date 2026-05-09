@@ -27,15 +27,17 @@ Pointer accesses are 16-byte aligned.
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="load.html">load</a>(
-    <a href="../structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="load.html#decl-buffer" class="code_param">buffer</a>,
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="load.html">load</a>&lt;<a href="load.html#typeparam-L" class="code_type">L</a>&gt;(
+    <a href="../structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, L&gt; <a href="load.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="load.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="load.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="load.html">load</a>(
-    <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="load.html#decl-buffer" class="code_param">buffer</a>,
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="load.html">load</a>&lt;<a href="load.html#typeparam-L" class="code_type">L</a>&gt;(
+    <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, L&gt; <a href="load.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="load.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="load.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 3:
@@ -54,6 +56,7 @@ Pointer accesses are 16-byte aligned.
 
 ## Generic Parameters
 
+####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index.html) = [DefaultDataLayout](../defaultdatalayout-07b/index.html)
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
@@ -67,10 +70,10 @@ The byte offset from the start of the buffer. Must be 16-byte aligned.
 ####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index.html)
 The source buffer to load data from.
 
-####  <a id="decl-buffer"></a>buffer  : [StructuredBuffer](../structuredbuffer-0a/index.html)\<[T](../structuredbuffer-0a/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
+####  <a id="decl-buffer"></a>buffer  : [StructuredBuffer](../structuredbuffer-0a/index.html)\<[T](../structuredbuffer-0a/index.html#typeparam-T), [L](../structuredbuffer-0a/index.html#typeparam-L)\>
 The source buffer to load data from.
 
-####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../rwstructuredbuffer-012c/index.html)\<[T](../rwstructuredbuffer-012c/index.html#typeparam-T), [L](../rwstructuredbuffer-012c/index.html#typeparam-L)\>
 The source buffer to load data from.
 
 ####  <a id="decl-buffer"></a>buffer  : [Ptr](../ptr-0/index.html)\<[T](../ptr-0/index.html#typeparam-T), Access\.ReadWrite, AddressSpace\.Device, [DefaultDataLayout](../defaultdatalayout-07b/index.html)\>

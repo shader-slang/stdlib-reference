@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T) \>\>
 
-*Conditionally conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N), [M](../../global-decls/sincos.html#decl-M), [L1](../../global-decls/sincos.html#decl-L1), [L2](../../global-decls/sincos.html#decl-L2) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N), [M](../../global-decls/sincos.html#decl-M), [L1](../../global-decls/sincos.html#decl-L1), [L2](../../global-decls/sincos.html#decl-L2) \>\>
+*Conditionally conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N), [M](../../global-decls/sincos.html#decl-M), [L1](../../global-decls/sincos.html#decl-L1), [L2](../../global-decls/sincos.html#decl-L2) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[sincos](../../global-decls/sincos.html)\<[T](../../global-decls/sincos.html#typeparam-T), [N](../../global-decls/sincos.html#decl-N), [M](../../global-decls/sincos.html#decl-M), [L1](../../global-decls/sincos.html#decl-L1), [L2](../../global-decls/sincos.html#decl-L2) \>\>
 
 ## Description
 
@@ -20,9 +20,9 @@ Calculate both the sine and cosine of <span class='code'>x</span>.
 ## Methods
 
 * bwd\_diff
-* [apply\_bwd](apply_bwd)
-* [fwd\_diff](fwd_diff)
-* [remat](remat)
+* apply\_bwd
+* fwd\_diff
+* remat
 
 ## Conditional Conformances
 
@@ -42,20 +42,11 @@ Calculate both the sine and cosine of <span class='code'>x</span>.
 `<T>` additionally conforms to `IBackwardDifferentiable<sincos<T, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<sincos\<T, N, M, L1, L2\>\>
-`<T>` additionally conforms to `IForwardDifferentiable<sincos<T, N, M, L1, L2>>` when the following conditions are met:
-
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<sincos\<T, N, M, L1, L2\>\>
 `<T>` additionally conforms to `IBackwardDifferentiable<sincos<T, N, M, L1, L2>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<sincos\<T, N, M, L1, L2\>\>
+`<T>` additionally conforms to `IForwardDifferentiable<sincos<T, N, M, L1, L2>>` when the following conditions are met:
 
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-Math functions <math>
-```
-RTD-TOC-END -->
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
