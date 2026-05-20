@@ -5,15 +5,15 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [dst\<T\>\.BwdCallable](bwdcallable-03)
+#### [lit\.BwdCallable](bwdcallable-03)
 
-#### [dst\<T\>\.MinimalContext](minimalcontext-07)
+#### [lit\.MinimalContext](minimalcontext-07)
 
-#### [dst\<T\>\.apply\_bwd](apply_bwd)
+#### [lit\.apply\_bwd](apply_bwd)
 
-#### [dst\<T\>\.fwd\_diff](fwd_diff)
+#### [lit\.fwd\_diff](fwd_diff)
 
-#### [dst\<T\>\.remat](remat)
+#### [lit\.remat](remat)
 
 
 <!-- RTD-TOC-START

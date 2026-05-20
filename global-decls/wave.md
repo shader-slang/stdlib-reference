@@ -59,6 +59,8 @@ This category contains the following declarations:
 
 #### [WaveGetNumWaves](wavegetnumwaves-047a)
 
+#### [WaveGetWaveIndex](wavegetwaveindex-047b)
+
 #### [WaveIsFirstLane](waveisfirstlane-046b)
 
 #### [WaveMatch\<T\>](wavematch-04)
@@ -122,6 +124,7 @@ WaveGetLaneIndex <wavegetlaneindex-047b>
 WaveGetLaneLeMask <wavegetlanelemask-047bd>
 WaveGetLaneLtMask <wavegetlaneltmask-047bd>
 WaveGetNumWaves <wavegetnumwaves-047a>
+WaveGetWaveIndex <wavegetwaveindex-047b>
 WaveIsFirstLane <waveisfirstlane-046b>
 WaveMatch <wavematch-04>
 WaveMultiPrefixCountBits <wavemultiprefixcountbits-049fk>

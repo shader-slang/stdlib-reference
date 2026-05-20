@@ -2,11 +2,11 @@
 layout: stdlib-reference
 ---
 
-# extension vector\<T,N\>\.neg : IBackwardDifferentiable\<vector\<T,N\>\.neg\>
+# extension vector\<T,N\>\.neg : IForwardDifferentiable\<vector\<T,N\>\.neg\>
 
-*Conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), [N](../vector/index.html#decl-N)\>\.[neg](../vector/neg.html)\>
+*Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), [N](../vector/index.html#decl-N)\>\.[neg](../vector/neg.html)\>
 
-*Conditionally conforms to:* [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), [N](../vector/index.html#decl-N)\>\.[neg](../vector/neg.html)\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), [N](../vector/index.html#decl-N)\>\.[neg](../vector/neg.html)\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[matrix](../matrix/index.html)\<[T](../matrix/t-0.html), [N](../matrix/index.html#decl-N), [M](../matrix/index.html#decl-M)\>\.[neg](../matrix/neg.html)\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[matrix](../matrix/index.html)\<[T](../matrix/t-0.html), [N](../matrix/index.html#decl-N), [M](../matrix/index.html#decl-M)\>\.[neg](../matrix/neg.html)\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), [N](../vector/index.html#decl-N)\>\.[neg](../vector/neg.html)\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), [N](../vector/index.html#decl-N)\>\.[neg](../vector/neg.html)\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[matrix](../matrix/index.html)\<[T](../matrix/t-0.html), [N](../matrix/index.html#decl-N), [M](../matrix/index.html#decl-M)\>\.[neg](../matrix/neg.html)\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[matrix](../matrix/index.html)\<[T](../matrix/t-0.html), [N](../matrix/index.html#decl-N), [M](../matrix/index.html#decl-M)\>\.[neg](../matrix/neg.html)\>
 
 ## Generic Parameters
 
@@ -16,20 +16,20 @@ layout: stdlib-reference
 ## Methods
 
 * bwd\_diff
-* apply\_bwd
+* [apply\_bwd](apply_bwd)
 * fwd\_diff
-* remat
+* [remat](remat)
 
 ## Conditional Conformances
 
-### Conformance to IBackwardDifferentiable\<vector\<T,N\>\.neg\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<vector<T,N>.neg>`.
 ### Conformance to IForwardDifferentiable\<vector\<T,N\>\.neg\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<vector<T,N>.neg>`.
-### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.neg\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.neg>`.
+### Conformance to IBackwardDifferentiable\<vector\<T,N\>\.neg\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<vector<T,N>.neg>`.
 ### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.neg\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.neg>`.
+### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.neg\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.neg>`.
 
 <!-- RTD-TOC-START
 ```{toctree}
@@ -38,5 +38,7 @@ layout: stdlib-reference
 
 BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
+apply_bwd <apply_bwd>
+remat <remat>
 ```
 RTD-TOC-END -->

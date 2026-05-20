@@ -136,6 +136,7 @@ Slang's Standard Library defines the following global declarations:
 - [WaveGetLaneLeMask](wavegetlanelemask-047bd)
 - [WaveGetLaneLtMask](wavegetlaneltmask-047bd)
 - [WaveGetNumWaves](wavegetnumwaves-047a)
+- [WaveGetWaveIndex](wavegetwaveindex-047b)
 - [WaveIsFirstLane](waveisfirstlane-046b)
 - [WaveMatch](wavematch-04)
 - [WaveMultiBitAnd](wavemultibitand-049c)
