@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Load two 32-bit unsigned integers from the buffer at the specified location with alignment
-of <span class='code'>uint2</span>, which is 8.
+Load two 32-bit unsigned integers from the buffer at the specified location with a known alignment.
 
 
 
@@ -26,12 +25,20 @@ of <span class='code'>uint2</span>, which is 8.
 ## Parameters
 
 ####  <a id="decl-location"></a>location  : uint
-The input address in bytes, which must be a multiple of alignment of 8.
+The input address in bytes, which must be a multiple of 4.
 
 ####  <a id="decl-alignment"></a>alignment  : uint
+The known alignment of <span class='code'><a href="load2aligned-05.html#decl-location" class="code_param">location</a></span>, which must be a multiple of 4.
+
 
 ## Return value
-<span class='code'>uint2</span> Two 32-bit unsigned integers loaded from the buffer.
+Two 32-bit unsigned integers loaded from the buffer.
+
+## Remarks
+
+On HLSL, <span class='code'><a href="load2aligned-05.html#decl-alignment" class="code_param">alignment</a></span> is informational only; the load is emitted as the native <span class='code'>.<a href="load2-0.html">Load2</a></span>
+intrinsic, which does not accept an alignment operand. On other targets, <span class='code'><a href="load2aligned-05.html#decl-alignment" class="code_param">alignment</a></span> is
+forwarded to the lowered load instruction.
 
 
 ## Availability and Requirements

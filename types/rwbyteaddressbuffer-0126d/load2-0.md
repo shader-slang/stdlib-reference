@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Load two 32-bit unsigned integers from the buffer at the specified location
-with additional alignment.
+Load two 32-bit unsigned integers from the buffer at the specified location.
 
 
 
@@ -27,25 +26,12 @@ with additional alignment.
 ## Parameters
 
 ####  <a id="decl-location"></a>location  : uint
-The input address in bytes.
+The input address in bytes, which must be a multiple of 4.
 
 ####  <a id="decl-status"></a>status  : uint
-\[out\] The status of the operation.
-
 
 ## Return value
 Two 32-bit unsigned integers loaded from the buffer.
-
-
-## Remarks
-
-This function only supports when targeting HLSL.
-You can't access the output parameter <span class='code'><a href="load2-0.html#decl-status" class="code_param">status</a></span> directly; instead,
-pass the status to the <span class='code'><a href="../../global-decls/checkaccessfullymapped-05bg.html">CheckAccessFullyMapped</a></span> intrinsic function.
-<span class='code'><a href="../../global-decls/checkaccessfullymapped-05bg.html">CheckAccessFullyMapped</a></span> returns TRUE if all values from the corresponding Sample,
-Gather, or Load operation accessed mapped tiles in a tiled resource.
-If any values were taken from an unmapped tile, <span class='code'><a href="../../global-decls/checkaccessfullymapped-05bg.html">CheckAccessFullyMapped</a></span> returns FALSE.
-When targeting non-HLSL, the status is always 0.
 
 
 ## Availability and Requirements

@@ -6,8 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Load four 32-bit unsigned integers from the buffer at the specified location with alignment
-of <span class='code'>uint4</span>, which is 16.
+Load four 32-bit unsigned integers from the buffer at the specified location with a known alignment.
 
 
 
@@ -25,12 +24,20 @@ of <span class='code'>uint4</span>, which is 16.
 ## Parameters
 
 ####  <a id="decl-location"></a>location  : uint
-The input address in bytes which must be a multiple of alignment of 16.
+The input address in bytes, which must be a multiple of 4.
 
 ####  <a id="decl-alignment"></a>alignment  : uint
+The known alignment of <span class='code'><a href="load4aligned-05.html#decl-location" class="code_param">location</a></span>, which must be a multiple of 4.
+
 
 ## Return value
-<span class='code'>uint4</span> Four 32-bit unsigned integer value loaded from the buffer.
+Four 32-bit unsigned integers loaded from the buffer.
+
+## Remarks
+
+On HLSL, <span class='code'><a href="load4aligned-05.html#decl-alignment" class="code_param">alignment</a></span> is informational only; the load is emitted as the native <span class='code'>.<a href="load4-0.html">Load4</a></span>
+intrinsic, which does not accept an alignment operand. On other targets, <span class='code'><a href="load4aligned-05.html#decl-alignment" class="code_param">alignment</a></span> is
+forwarded to the lowered load instruction.
 
 
 ## Availability and Requirements
@@ -50,6 +57,9 @@ Available in all stages.
 Available in all stages.
 
 #### metal
+Available in all stages.
+
+#### wgsl
 Available in all stages.
 
 #### spirv

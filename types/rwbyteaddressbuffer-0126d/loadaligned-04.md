@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Load an element with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location with alignment of <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
+Load a value with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location with a known alignment.
 
 
 
@@ -24,20 +24,25 @@ Load an element with type <span class='code'><a href="loadaligned-04.html#typepa
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T
+The type of the value to load from the buffer.
+
 
 ## Parameters
 
 ####  <a id="decl-location"></a>location  : uint
-The input address in bytes which must be a multiple of size of <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
+The input address in bytes, which must be a multiple of 4.
 
 ####  <a id="decl-alignment"></a>alignment  : uint
+The known alignment of <span class='code'><a href="loadaligned-04.html#decl-location" class="code_param">location</a></span>, which must be a multiple of 4 and compatible with <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
+
 
 ## Return value
-T value with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> loaded from the buffer.
+The value loaded from the buffer.
 
 ## Remarks
 
-Currently, this function only supports when <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> is scalar, vector, or matrix type.
+On HLSL, <span class='code'><a href="loadaligned-04.html#decl-alignment" class="code_param">alignment</a></span> is informational only and does not affect the emitted intrinsic.
+On other targets, <span class='code'><a href="loadaligned-04.html#decl-alignment" class="code_param">alignment</a></span> is forwarded to the lowered load instruction.
 
 
 ## Availability and Requirements
