@@ -17,7 +17,7 @@ layout: stdlib-reference
 
 * apply\_bwd
 * bwd\_diff
-* remat
+* [remat](remat)
 * [fwd\_diff](fwd_diff)
 
 ## Conditional Conformances
@@ -37,5 +37,6 @@ layout: stdlib-reference
 :hidden:
 
 fwd_diff <fwd_diff>
+remat <remat>
 ```
 RTD-TOC-END -->

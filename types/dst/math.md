@@ -5,10 +5,6 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [dst\<T\>\.BwdCallable](bwdcallable-03)
-
-#### [dst\<T\>\.MinimalContext](minimalcontext-07)
-
 #### [dst\<T\>\.apply\_bwd](apply_bwd)
 
 #### [dst\<T\>\.fwd\_diff](fwd_diff)
@@ -21,8 +17,6 @@ This category contains the following declarations:
 :titlesonly:
 :hidden:
 
-BwdCallable <bwdcallable-03>
-MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 fwd_diff <fwd_diff>
 remat <remat>

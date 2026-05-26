@@ -17,7 +17,7 @@ This category contains the following declarations:
 :titlesonly:
 :hidden:
 
-extension dst : IForwardDifferentiable<dst<T>> <dst/index>
+extension dst : IBackwardDifferentiable<dst<T>> <dst/index>
 extension lit : IForwardDifferentiable<lit> <lit/index>
 extension sincos : IBackwardDifferentiable<sincos<T>> <sincos/index>
 ```
