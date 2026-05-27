@@ -15,9 +15,9 @@ layout: stdlib-reference
 ## Methods
 
 * bwd\_diff
-* apply\_bwd
-* [fwd\_diff](fwd_diff)
-* remat
+* [apply\_bwd](apply_bwd)
+* fwd\_diff
+* [remat](remat)
 
 ## Conditional Conformances
 
@@ -45,6 +45,10 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
 `<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
+### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
+`<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
+### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
+`<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
 `<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
@@ -53,10 +57,6 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
 `<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
-### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
-`<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
-### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
-`<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IForwardDifferentiable\<NullDifferential\.$init\>
 `<T>` additionally conforms to `IForwardDifferentiable<NullDifferential.$init>`.
 ### Conformance to IBackwardDifferentiable\<NullDifferential\.$init\>
@@ -69,6 +69,7 @@ layout: stdlib-reference
 
 BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
-fwd_diff <fwd_diff>
+apply_bwd <apply_bwd>
+remat <remat>
 ```
 RTD-TOC-END -->

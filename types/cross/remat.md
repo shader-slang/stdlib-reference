@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../../global-decls/cross.html">cross</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.remat(
+<span class='code_keyword'>static</span> <a href="../../global-decls/cross.html">cross</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.remat(
      ,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, 3&gt; ,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, 3&gt; )

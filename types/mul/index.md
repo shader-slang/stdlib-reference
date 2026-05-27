@@ -16,9 +16,9 @@ layout: stdlib-reference
 ## Methods
 
 * bwd\_diff
-* apply\_bwd
+* [apply\_bwd](apply_bwd)
 * [fwd\_diff](fwd_diff)
-* remat
+* [remat](remat)
 
 ## Conditional Conformances
 
@@ -34,12 +34,12 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
-
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IForwardDifferentiable\<mul\<T, N, M\>\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
@@ -92,6 +92,10 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
+BwdCallable <bwdcallable-03>
+MinimalContext <minimalcontext-07>
+apply_bwd <apply_bwd>
 fwd_diff <fwd_diff>
+remat <remat>
 ```
 RTD-TOC-END -->
