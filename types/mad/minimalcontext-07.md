@@ -2,11 +2,11 @@
 layout: stdlib-reference
 ---
 
-# typealias mad\<T, N\>\.MinimalContext
+# typealias mad\<T\>\.MinimalContext
 
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="../../global-decls/mad.html">mad</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.MinimalContext = ;
+<span class='code_keyword'>typealias</span> <a href="../../global-decls/mad.html">mad</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.MinimalContext = ;
 </pre>
 

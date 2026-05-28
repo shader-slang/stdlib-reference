@@ -50,6 +50,10 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IForwardDifferentiable\<mul\<T, N, M\>\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
@@ -58,20 +62,8 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
-
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IForwardDifferentiable\<mul\<T, R, N, C\>\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, R, N, C>>` when the following conditions are met:
-
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<mul\<T, R, N, C\>\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, R, N, C>>` when the following conditions are met:
-
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IBackwardDifferentiable\<mul\<T, R, N, C\>\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, R, N, C>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<mul\<T, R, N, C\>\>
@@ -84,6 +76,14 @@ layout: stdlib-reference
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<mul\<T, R, N, C\>\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, R, N, C>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<mul\<T, R, N, C\>\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, R, N, C>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<mul\<T, R, N, C\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, R, N, C>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 
