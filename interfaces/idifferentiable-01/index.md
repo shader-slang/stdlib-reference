@@ -25,9 +25,9 @@ interface IDifferentiable
     associatedtype Differential : IDifferentiable
         where Differential.Differential == Differential;
 
-    [Differentiable] static Differential dzero();
+    static Differential dzero();
 
-    [Differentiable] static Differential dadd(Differential, Differential);
+    static Differential dadd(Differential, Differential);
 }
 ```
 
@@ -86,26 +86,24 @@ struct MyRay : IDifferentiable
     // Specify that `MyRay.Differential` is `MyRayDifferential`.
     typealias Differential = MyRayDifferential;
 
-    // Specify that the derivative for `origin` will be stored in `MyRayDifferential.d_origin`.
-    [DerivativeMember(MyRayDifferential.d_origin)]
+    // Specify that the derivative for `origin` will be stored in `MayRayDifferential.d_origin`.
+    [DerivativeMember(MayRayDifferential.d_origin)]
     float3 origin;
 
-    // Specify that the derivative for `dir` will be stored in `MyRayDifferential.d_dir`.
-    [DerivativeMember(MyRayDifferential.d_dir)]
+    // Specify that the derivative for `dir` will be stored in `MayRayDifferential.d_dir`.
+    [DerivativeMember(MayRayDifferential.d_dir)]
     float3 dir;
 
     // This is a non-differentiable field so we don't put any attributes on it.
     int nonDifferentiablePayload;
 
     // Define zero derivative.
-    [Differentiable]
     static MyRayDifferential dzero()
     {
         return {float3(0.0), float3(0.0)};
     }
 
     // Define the add operation of two derivatives.
-    [Differentiable]
     static MyRayDifferential dadd(MyRayDifferential v1, MyRayDifferential v2)
     {
         MyRayDifferential result;
@@ -119,11 +117,7 @@ struct MyRay : IDifferentiable
 Note that for each struct field that is differentiable, we need to use the <span class='code'>[DerivativeMember]</span> attribute to associate it with the
 corresponding field in the <span class='code'>Differential</span> type, so the compiler knows how to access the derivative for the field.
 
-However, there is still a missing piece in the above code: we also need to make
-<span class='code'>MyRayDifferential</span> conform to <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span> because it is required that
-the <span class='code'>Differential</span> of a type must itself be <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span>, and that
-<span class='code'>Differential.Differential==Differential</span>. Again we can use automatic
-fulfillment by simply adding <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span> conformance to <span class='code'>MyRayDifferential</span>:
+However, there is still a missing piece in the above code: we also need to make <span class='code'>MyRayDifferential</span> conform to <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span> because it is required that the <span class='code'>Differential</span> of a type must itself be <span class='code'>Differential</span>. Again we can use automatic fulfillment by simply adding <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span> conformance to <span class='code'>MyRayDifferential</span>:
 ```csharp
 struct MyRayDifferential : IDifferentiable
 {
@@ -140,31 +134,28 @@ struct MyRayDifferential : IDifferentiable
 {
     typealias Differential = MyRayDifferential;
 
-    [DerivativeMember(MyRayDifferential.d_origin)]
-    float3 d_origin;
+   [DerivativeMember(MyRayDifferential.d_origin)]
+   float3 d_origin;
 
-    [DerivativeMember(MyRayDifferential.d_dir)]
-    float3 d_dir;
+   [DerivativeMember(MyRayDifferential.d_dir)]
+   float3 d_dir;
 
-    [Differentiable]
-    static MyRayDifferential dzero()
-    {
-        return {float3(0.0), float3(0.0)};
-    }
+   static MyRayDifferential dzero()
+   {
+       return {float3(0.0), float3(0.0)};
+   }
 
-    [Differentiable]
-    static MyRayDifferential dadd(MyRayDifferential v1, MyRayDifferential v2)
-    {
-        MyRayDifferential result;
-        result.d_origin = v1.d_origin + v2.d_origin;
+   static MyRayDifferential dadd(MyRayDifferential v1, MyRayDifferential v2)
+   {
+       MyRayDifferential result;
+       result.d_origin = v1.d_origin + v2.d_origin;
         result.d_dir = v1.d_dir + v2.d_dir;
         return result;
     }
 }
 ```
-In this specific case, the manually written <span class='code'><a href="dzero.html">dzero</a></span> and <span class='code'><a href="dadd.html">dadd</a></span> have the same
-value behavior as the automatically generated <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span> implementation.
-When writing these requirements manually, include <span class='code'>[Differentiable]</span> as shown.
+In this specific case, the automatically generated <span class='code'><a href="index.html" class="code_type">IDifferentiable</a></span>
+implementation will be exactly the same as the manually written code listed above.
 
 
 

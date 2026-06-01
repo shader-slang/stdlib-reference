@@ -16,8 +16,8 @@ struct DifferentialPair<T : IDifferentiable> : IDifferentiable
     typealias Differential = DifferentialPair<T.Differential>;
     property T p {get;}
     property T.Differential d {get;}
-    [Differentiable] static Differential dzero();
-    [Differentiable] static Differential dadd(Differential a, Differential b);
+    static Differential dzero();
+    static Differential dadd(Differential a, Differential b);
 }
 ```
 
