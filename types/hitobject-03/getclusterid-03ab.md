@@ -34,8 +34,8 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 #### spirv
-Available in stages: `raygen`, `closesthit`, `miss`.
+Available in all stages.
 
-Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
+Requires capability: `spvShaderInvocationReorderNV`.
 
 

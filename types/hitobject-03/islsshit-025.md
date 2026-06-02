@@ -28,8 +28,8 @@ Available in stages: `raygen`, `closesthit`, `anyhit`.
 Available in stages: `raygen`, `closesthit`, `anyhit`.
 
 #### spirv
-Available in stages: `raygen`, `closesthit`, `anyhit`.
+Available in all stages.
 
-Requires capability: `spvRayTracingKHR`.
+Requires capability: `spvShaderInvocationReorderNV`.
 
 
