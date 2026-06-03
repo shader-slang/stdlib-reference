@@ -26,18 +26,14 @@ layout: stdlib-reference
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
-`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
-`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
-`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
+`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
@@ -46,6 +42,10 @@ layout: stdlib-reference
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
+`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
+`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].set>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.set\>
