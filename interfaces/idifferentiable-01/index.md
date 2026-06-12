@@ -174,11 +174,6 @@ When writing these requirements manually, include <span class='code'>[Differenti
 
 
 
-Constraints:
-
-  - Differential : IDifferentiable
-
-
 ## Methods
 
 * [dzero](dzero)

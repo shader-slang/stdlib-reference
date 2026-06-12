@@ -15,11 +15,6 @@ Represent types that can be used as texel element.
 
 
 
-Constraints:
-
-  - Element : \_\_BuiltinArithmeticType
-
-
 ## Fields
 
 ####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int

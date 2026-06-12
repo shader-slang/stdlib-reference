@@ -12,12 +12,7 @@ layout: stdlib-reference
 
 #### _BwdCallable
 
--> intermediate_context_type 
-
-Constraints:
-
-  - IBackwardDifferentiable\<FType\>\.This\.BwdCallable : IBwdCallable\<FType\>
-#### _MinimalContext
+-> intermediate_context_type #### _MinimalContext
 
 -> minimal_context_type 
 
