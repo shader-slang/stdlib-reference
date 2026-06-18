@@ -1,0 +1,23 @@
+---
+layout: stdlib-reference
+---
+
+# IDifferentiableArithmetic\.sub
+
+## Description
+
+
+
+
+
+## Signature 
+
+<pre>
+<a href="index.html" class="code_type">IDifferentiableArithmetic</a>.<span class="code_keyword">This</span> <a href="index.html" class="code_type">IDifferentiableArithmetic</a>.<a href="sub.html">sub</a>(<a href="index.html" class="code_type">IDifferentiableArithmetic</a>.<span class="code_keyword">This</span> <a href="sub.html#decl-other" class="code_param">other</a>);
+
+</pre>
+
+## Parameters
+
+####  <a id="decl-other"></a>other  : [IDifferentiableArithmetic](index.html)\.This
+

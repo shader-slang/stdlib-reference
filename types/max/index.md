@@ -38,6 +38,14 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<max<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<max\<T, N\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<max<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<max\<T, N\>\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<max<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IForwardDifferentiable\<max\<T\>\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<max<T>>` when the following conditions are met:
 

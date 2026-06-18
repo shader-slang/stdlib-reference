@@ -35,6 +35,7 @@ Slang's Standard Library defines the following attributes:
 - [MaximallyReconverges](maximallyreconverges-09)
 - [MaybeDifferentiable](maybedifferentiable-05)
 - [NoDiffThis](nodiffthis-026)
+- [NoDiscard](nodiscard-02)
 - [NonUniformReturn](nonuniformreturn-03a)
 - [NumThreads](numthreads-03)
 - [OverloadRank](overloadrank-08)
@@ -137,6 +138,7 @@ MaxIters <maxiters-03>
 MaximallyReconverges <maximallyreconverges-09>
 MaybeDifferentiable <maybedifferentiable-05>
 NoDiffThis <nodiffthis-026>
+NoDiscard <nodiscard-02>
 NonUniformReturn <nonuniformreturn-03a>
 NumThreads <numthreads-03>
 OverloadRank <overloadrank-08>

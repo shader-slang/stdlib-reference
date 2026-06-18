@@ -56,6 +56,12 @@ Initialize a matrix where all elements have the same scalar <span class='code'>v
     <a href="index.html#typeparam-T" class="code_type">T</a> )
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
+<span class='code_keyword'>static</span> <a href="../coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="../coopvec-04/init.html">init</a>&lt;<a href="index.html#typeparam-U" class="code_type">U</a>&gt;.remat(
+     ,
+    <span class="code_keyword">const</span> <a href="index.html#typeparam-U" class="code_type">U</a> )
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+
 <span class='code_keyword'>static</span> __syn_BackwardDiffIntermediateContextType__S4core16NullDifferentialR8_24xinitp1pi_ffb <a href="../nulldifferential-04/index.html" class="code_type">NullDifferential</a>.init.remat(
     __syn_BackwardDiffMinimalContextType__S4core16NullDifferentialR8_24xinitp1pi_ffb ,
     <span class="code_keyword">float</span> );

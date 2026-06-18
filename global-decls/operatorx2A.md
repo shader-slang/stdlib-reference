@@ -427,6 +427,11 @@ uintptr_t operator*(
     <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> v1)
     <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/ifloat-01/index.html" class="code_type">IFloat</a>;
 
+<a href="operatorx2A.html#typeparam-T" class="code_type">T</a> operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> v0,
+    <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> v1)
+    <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/idifferentiablearithmetic-01f/index.html" class="code_type">IDifferentiableArithmetic</a>;
+
 <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> operator*&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="operatorx2A.html#typeparam-T" class="code_type">T</a>&gt; <a href="operatorx2A.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="operatorx2A.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
@@ -477,6 +482,9 @@ The element type of the cooperative matrix.
 The element type of the cooperative matrix.
 
 ####  <a id="typeparam-T"></a>T: [IFloat](../interfaces/ifloat-01/index.html)
+The element type of the cooperative matrix.
+
+####  <a id="typeparam-T"></a>T: [IDifferentiableArithmetic](../interfaces/idifferentiablearithmetic-01f/index.html)
 The element type of the cooperative matrix.
 
 ####  <a id="typeparam-T"></a>T: [IOpaqueDescriptor](../interfaces/iopaquedescriptor-017/index.html)

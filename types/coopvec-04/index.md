@@ -6,6 +6,8 @@ layout: stdlib-reference
 
 *Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
 
+*Conditionally conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html), [IDifferentiableArithmetic](../../interfaces/idifferentiablearithmetic-01f/index.html)
+
 ## Description
 
 Represents a Cooperative Vector type that is for matrix-vector multiplication that
@@ -23,7 +25,6 @@ The vector size.
 
 ## Methods
 
-* [init](init)
 * [copyFrom](copyfrom-4)
 * [fill](fill)
 * [storeCoherent](storecoherent-5)
@@ -38,26 +39,42 @@ The vector size.
 * [equals](equals)
 * [lessThan](lessthan-4)
 * [lessThanOrEquals](lessthanorequals-48a)
-* [add](add)
-* [sub](sub)
-* [mul](mul)
-* [div](div)
 * [mod](mod)
-* [neg](neg)
 * [matMulAccumPacked](matmulaccumpacked-36b)
 * [matMulAccum](matmulaccum-36)
 * [matMulAddAccumPacked](matmuladdaccumpacked-369e)
 * [matMulAddAccum](matmuladdaccum-369)
+* [dzero](dzero)
+* [dadd](dadd)
+* [init](init)
+* [add](add)
+* [sub](sub)
+* [mul](mul)
+* [div](div)
+* [neg](neg)
 
+## Conditional Conformances
+
+### Conformance to IDifferentiable
+`CoopVec<T, int N>` additionally conforms to `IDifferentiable` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IDifferentiableArithmetic
+`CoopVec<T, int N>` additionally conforms to `IDifferentiableArithmetic` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 
 <!-- RTD-TOC-START
 ```{toctree}
 :titlesonly:
 :hidden:
 
+Differential <differential-0>
 add <add>
 copyFrom <copyfrom-4>
+dadd <dadd>
 div <div>
+dzero <dzero>
 equals <equals>
 fill <fill>
 getCount <getcount-3>

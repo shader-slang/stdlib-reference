@@ -45,12 +45,21 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IBackwardDifferentiable<log2<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<log2\<T, N\>\>
+`<T>` additionally conforms to `IForwardDifferentiable<log2<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<log2\<T, N\>\>
+`<T>` additionally conforms to `IBackwardDifferentiable<log2<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 
 <!-- RTD-TOC-START
 ```{toctree}
 :titlesonly:
 :hidden:
 
+ <>
 BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>

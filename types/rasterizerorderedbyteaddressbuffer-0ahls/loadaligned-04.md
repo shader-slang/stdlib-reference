@@ -31,10 +31,10 @@ The type of the value to load from the buffer.
 ## Parameters
 
 ####  <a id="decl-location"></a>location  : uint
-The input address in bytes, which must be a multiple of 4.
+The input address in bytes, which must be a multiple of <span class='code'><a href="loadaligned-04.html#decl-alignment" class="code_param">alignment</a></span>.
 
 ####  <a id="decl-alignment"></a>alignment  : uint
-The known alignment of <span class='code'><a href="loadaligned-04.html#decl-location" class="code_param">location</a></span>, which must be a multiple of 4 and compatible with <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
+The known alignment of <span class='code'><a href="loadaligned-04.html#decl-location" class="code_param">location</a></span> in bytes; a compile-time constant.
 
 
 ## Return value

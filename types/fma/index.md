@@ -38,6 +38,14 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<fma<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<fma\<T, N\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<fma<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<fma\<T, N\>\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<fma<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IForwardDifferentiable\<fma\<T\>\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<fma<T>>` when the following conditions are met:
 

@@ -18,6 +18,7 @@ Slang's Standard Library defines the following interfaces:
 - [IDefaultInitializable](idefaultinitializable-018/index)
 - [IDiffTensorWrapper](idifftensorwrapper-015b/index)
 - [IDifferentiable](idifferentiable-01/index)
+- [IDifferentiableArithmetic](idifferentiablearithmetic-01f/index)
 - [IDifferentiableFunc](idifferentiablefunc-01f/index)
 - [IDifferentiableMutatingFunc](idifferentiablemutatingfunc-01fn/index)
 - [IDifferentiablePtrType](idifferentiableptrtype-01fi/index)
@@ -59,6 +60,7 @@ ICoopElement <icoopelement-015/index>
 IDefaultInitializable <idefaultinitializable-018/index>
 IDiffTensorWrapper <idifftensorwrapper-015b/index>
 IDifferentiable <idifferentiable-01/index>
+IDifferentiableArithmetic <idifferentiablearithmetic-01f/index>
 IDifferentiableFunc <idifferentiablefunc-01f/index>
 IDifferentiableMutatingFunc <idifferentiablemutatingfunc-01fn/index>
 IDifferentiablePtrType <idifferentiableptrtype-01fi/index>

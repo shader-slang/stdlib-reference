@@ -38,6 +38,14 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<min<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<min\<T, N\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<min<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IBackwardDifferentiable\<min\<T, N\>\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<min<T, N>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IForwardDifferentiable\<min\<T\>\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<min<T>>` when the following conditions are met:
 

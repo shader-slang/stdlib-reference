@@ -16,9 +16,9 @@ layout: stdlib-reference
 ## Methods
 
 * bwd\_diff
-* [apply\_bwd](apply_bwd)
+* apply\_bwd
 * fwd\_diff
-* [remat](remat)
+* remat
 
 ## Conditional Conformances
 
@@ -30,6 +30,10 @@ layout: stdlib-reference
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
@@ -38,8 +42,6 @@ layout: stdlib-reference
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
@@ -48,17 +50,3 @@ layout: stdlib-reference
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-
-<!-- RTD-TOC-START
-```{toctree}
-:titlesonly:
-:hidden:
-
-BwdCallable <bwdcallable-03>
-MinimalContext <minimalcontext-07>
-apply_bwd <apply_bwd>
-remat <remat>
-```
-RTD-TOC-END -->
