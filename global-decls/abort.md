@@ -41,6 +41,6 @@ Available in all stages.
 #### spirv
 Available in all stages.
 
-Requires capability: `SPV_KHR_shader_abort`.
+Requires capability: `spvAbort`.
 
 
