@@ -81,6 +81,16 @@ layout: stdlib-reference
 * [WorldRayOrigin](worldrayorigin-058)
 * [WorldRayDirection](worldraydirection-058)
 * [RayTMin](raytmin-034)
+* [CandidateSphereObjectPositionAndRadiusNV](candidatesphereobjectpositionandradiusnv-09fltw1213)
+* [CommittedSphereObjectPositionAndRadiusNV](committedsphereobjectpositionandradiusnv-09fltw1213)
+* [CandidateLssObjectPositionsAndRadiiNV](candidatelssobjectpositionsandradiinv-09ciruz10)
+* [CommittedLssObjectPositionsAndRadiiNV](committedlssobjectpositionsandradiinv-09ciruz10)
+* [CandidateLssHitParameterNV](candidatelsshitparameternv-09cfop)
+* [CommittedLssHitParameterNV](committedlsshitparameternv-09cfop)
+* [CandidateIsNonOpaqueLssNV](candidateisnonopaquelssnv-09bekno)
+* [CommittedIsLssNV](committedislssnv-09bef)
+* [CandidateIsNonOpaqueSphereNV](candidateisnonopaquespherenv-09bekqr)
+* [CommittedIsSphereNV](committedisspherenv-09bhi)
 
 
 <!-- RTD-TOC-START
@@ -95,6 +105,10 @@ CandidateGetIntersectionTriangleVertexPositions <candidategetintersectiontriangl
 CandidateInstanceContributionToHitGroupIndex <candidateinstancecontributiontohitgroupindex-09htvy13>
 CandidateInstanceID <candidateinstanceid-09hi>
 CandidateInstanceIndex <candidateinstanceindex-09h>
+CandidateIsNonOpaqueLssNV <candidateisnonopaquelssnv-09bekno>
+CandidateIsNonOpaqueSphereNV <candidateisnonopaquespherenv-09bekqr>
+CandidateLssHitParameterNV <candidatelsshitparameternv-09cfop>
+CandidateLssObjectPositionsAndRadiiNV <candidatelssobjectpositionsandradiinv-09ciruz10>
 CandidateObjectRayDirection <candidateobjectraydirection-09fi>
 CandidateObjectRayOrigin <candidateobjectrayorigin-09fi>
 CandidateObjectToWorld3x4 <candidateobjecttoworld3x4-09fh>
@@ -112,6 +126,7 @@ CandidateRayObjectRayOrigin <candidaterayobjectrayorigin-09cil>
 CandidateRayObjectToWorld <candidaterayobjecttoworld-09cik>
 CandidateRayPrimitiveIndex <candidaterayprimitiveindex-09cl>
 CandidateRayWorldToObject <candidaterayworldtoobject-09chj>
+CandidateSphereObjectPositionAndRadiusNV <candidatesphereobjectpositionandradiusnv-09fltw1213>
 CandidateTriangleBarycentrics <candidatetrianglebarycentrics-09h>
 CandidateTriangleFrontFace <candidatetrianglefrontface-09hm>
 CandidateTriangleRayT <candidatetrianglerayt-09hk>
@@ -126,6 +141,10 @@ CommittedGetIntersectionTriangleVertexPositions <committedgetintersectiontriangl
 CommittedInstanceContributionToHitGroupIndex <committedinstancecontributiontohitgroupindex-09htvy13>
 CommittedInstanceID <committedinstanceid-09hi>
 CommittedInstanceIndex <committedinstanceindex-09h>
+CommittedIsLssNV <committedislssnv-09bef>
+CommittedIsSphereNV <committedisspherenv-09bhi>
+CommittedLssHitParameterNV <committedlsshitparameternv-09cfop>
+CommittedLssObjectPositionsAndRadiiNV <committedlssobjectpositionsandradiinv-09ciruz10>
 CommittedObjectRayDirection <committedobjectraydirection-09fi>
 CommittedObjectRayOrigin <committedobjectrayorigin-09fi>
 CommittedObjectToWorld3x4 <committedobjecttoworld3x4-09fh>
@@ -143,6 +162,7 @@ CommittedRayObjectToWorld <committedrayobjecttoworld-09cik>
 CommittedRayPrimitiveIndex <committedrayprimitiveindex-09cl>
 CommittedRayT <committedrayt-09c>
 CommittedRayWorldToObject <committedrayworldtoobject-09chj>
+CommittedSphereObjectPositionAndRadiusNV <committedsphereobjectpositionandradiusnv-09fltw1213>
 CommittedStatus <committedstatus-09>
 CommittedTriangleBarycentrics <committedtrianglebarycentrics-09h>
 CommittedTriangleFrontFace <committedtrianglefrontface-09hm>

@@ -9,6 +9,10 @@ layout: stdlib-reference
 Returns the number of waves (subgroups) in the current workgroup.
 Equivalent to GLSL gl_NumSubgroups.
 
+On GLSL and SPIR-V this lowers to gl_NumSubgroups / BuiltIn NumSubgroups,
+which are restricted to compute-class execution models (compute, mesh,
+amplification); using it from any other stage is a capability error.
+
 
 
 
@@ -27,7 +31,7 @@ Defined for the following targets:
 Available in all stages.
 
 #### glsl
-Available in all stages.
+Available in stages: `amplification`, `mesh`, `compute`.
 
 #### cuda
 Available in all stages.
@@ -39,8 +43,8 @@ Available in all stages.
 Available in all stages.
 
 #### spirv
-Available in all stages.
+Available in stages: `amplification`, `mesh`, `compute`.
 
-Requires capability: `spvGroupNonUniform`.
+Requires capabilities: `spvGroupNonUniform`, `spvMeshShadingEXT`.
 
 
