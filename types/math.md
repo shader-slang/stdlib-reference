@@ -19,6 +19,6 @@ This category contains the following declarations:
 
 extension dst : IForwardDifferentiable<dst<T>> <dst/index>
 extension lit : IBackwardDifferentiable<lit> <lit/index>
-extension sincos : IBackwardDifferentiable<sincos<T>> <sincos/index>
+extension sincos : IForwardDifferentiable<sincos<T>> <sincos/index>
 ```
 RTD-TOC-END -->

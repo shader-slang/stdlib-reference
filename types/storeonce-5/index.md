@@ -16,7 +16,7 @@ layout: stdlib-reference
 ## Methods
 
 * apply\_bwd
-* bwd\_diff
+* [bwd\_diff](bwd_diff)
 * remat
 * [fwd\_diff](fwd_diff)
 
@@ -36,6 +36,8 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
+BwdCallable <bwdcallable-03>
+bwd_diff <bwd_diff>
 fwd_diff <fwd_diff>
 ```
 RTD-TOC-END -->
