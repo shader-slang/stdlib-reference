@@ -17,7 +17,7 @@ layout: stdlib-reference
 
 * apply\_bwd
 * bwd\_diff
-* [remat](remat)
+* remat
 * [fwd\_diff](fwd_diff)
 
 ## Conditional Conformances
@@ -36,8 +36,6 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
-MinimalContext <minimalcontext-07>
 fwd_diff <fwd_diff>
-remat <remat>
 ```
 RTD-TOC-END -->

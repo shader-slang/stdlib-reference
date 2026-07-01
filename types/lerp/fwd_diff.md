@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# tan\<T\>\.fwd\_diff
+# lerp\<T, N\>\.fwd\_diff
 
 ## Description
 
@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> &lt;error&gt; <a href="../../global-decls/tan.html">tan</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.fwd_diff()
+<span class='code_keyword'>static</span> &lt;error&gt; <a href="../../global-decls/lerp.html">lerp</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.fwd_diff()
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<span class='code_keyword'>static</span> &lt;error&gt; <a href="../../global-decls/tan.html">tan</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.fwd_diff()
+<span class='code_keyword'>static</span> &lt;error&gt; <a href="../../global-decls/lerp.html">lerp</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>, <a href="index.html#decl-M" class="code_var">M</a>&gt;.fwd_diff()
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<span class='code_keyword'>static</span> &lt;error&gt; <a href="../../global-decls/tan.html">tan</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>, <a href="index.html#decl-M" class="code_var">M</a>&gt;.fwd_diff()
+<span class='code_keyword'>static</span> &lt;error&gt; <a href="../../global-decls/lerp.html">lerp</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.fwd_diff()
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
