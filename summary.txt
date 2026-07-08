@@ -1,5 +1,5 @@
-documented pages: 784
-undocumented pages: 989(55.8%)
+documented pages: 789
+undocumented pages: 989(55.6%)
 
 IArray<T>.subscript
 IBackwardDifferentiable<FType>

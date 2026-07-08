@@ -343,11 +343,14 @@
 </li>
 <li data-link="/stdlib-reference/types/math"><span>Math functions</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/dst/index"><span>extension dst : IForwardDifferentiable&lt;dst&lt;T&gt;&gt;</span>
+<li data-link="/stdlib-reference/types/dst/index"><span>extension dst : IBackwardDifferentiable&lt;dst&lt;T&gt;&gt;</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/dst/math"><span>Math functions</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/dst/minimalcontext-07"><span>MinimalContext</span>
+<li data-link="/stdlib-reference/types/dst/bwdcallable-03"><span>BwdCallable</span>
+</li><li data-link="/stdlib-reference/types/dst/minimalcontext-07"><span>MinimalContext</span>
+</li><li data-link="/stdlib-reference/types/dst/apply_bwd"><span>apply_bwd</span>
+</li><li data-link="/stdlib-reference/types/dst/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/dst/remat"><span>remat</span>
 </li></ul>
 </li>
@@ -356,18 +359,19 @@
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/lit/math"><span>Math functions</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/lit/apply_bwd"><span>apply_bwd</span>
+<li data-link="/stdlib-reference/types/lit/minimalcontext-07"><span>MinimalContext</span>
+</li><li data-link="/stdlib-reference/types/lit/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/lit/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/lit/remat"><span>remat</span>
 </li></ul>
 </li>
 </ul>
-</li><li data-link="/stdlib-reference/types/sincos/index"><span>extension sincos : IBackwardDifferentiable&lt;sincos&lt;T&gt;&gt;</span>
+</li><li data-link="/stdlib-reference/types/sincos/index"><span>extension sincos : IForwardDifferentiable&lt;sincos&lt;T&gt;&gt;</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/sincos/math"><span>Math functions</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/sincos/minimalcontext-07"><span>MinimalContext</span>
-</li><li data-link="/stdlib-reference/types/sincos/apply_bwd"><span>apply_bwd</span>
+<li data-link="/stdlib-reference/types/sincos/bwdcallable-03"><span>BwdCallable</span>
+</li><li data-link="/stdlib-reference/types/sincos/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/sincos/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/sincos/remat"><span>remat</span>
 </li></ul>
@@ -1702,6 +1706,7 @@
 </li><li data-link="/stdlib-reference/attributes/requirefullquads-07b"><span>RequireFullQuads</span>
 </li><li data-link="/stdlib-reference/attributes/requireprelude-07"><span>RequirePrelude</span>
 </li><li data-link="/stdlib-reference/attributes/shader-0"><span>Shader</span>
+</li><li data-link="/stdlib-reference/attributes/shader64bitindexing-08b"><span>Shader64BitIndexing</span>
 </li><li data-link="/stdlib-reference/attributes/specializationconstant-0e"><span>SpecializationConstant</span>
 </li><li data-link="/stdlib-reference/attributes/specialize-0"><span>Specialize</span>
 </li><li data-link="/stdlib-reference/attributes/torchentrypoint-05a"><span>TorchEntryPoint</span>

@@ -49,6 +49,7 @@ Slang's Standard Library defines the following attributes:
 - [RequireFullQuads](requirefullquads-07b)
 - [RequirePrelude](requireprelude-07)
 - [Shader](shader-0)
+- [Shader64BitIndexing](shader64bitindexing-08b)
 - [SpecializationConstant](specializationconstant-0e)
 - [Specialize](specialize-0)
 - [TorchEntryPoint](torchentrypoint-05a)
@@ -152,6 +153,7 @@ RemovedSince <removedsince-07>
 RequireFullQuads <requirefullquads-07b>
 RequirePrelude <requireprelude-07>
 Shader <shader-0>
+Shader64BitIndexing <shader64bitindexing-08b>
 SpecializationConstant <specializationconstant-0e>
 Specialize <specialize-0>
 TorchEntryPoint <torchentrypoint-05a>
