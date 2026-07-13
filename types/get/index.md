@@ -17,7 +17,7 @@ layout: stdlib-reference
 
 * bwd\_diff
 * [apply\_bwd](apply_bwd)
-* fwd\_diff
+* [fwd\_diff](fwd_diff)
 * [remat](remat)
 
 ## Conditional Conformances
@@ -38,14 +38,14 @@ layout: stdlib-reference
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, A>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, A>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
@@ -57,8 +57,8 @@ layout: stdlib-reference
 :hidden:
 
 BwdCallable <bwdcallable-03>
-MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
+fwd_diff <fwd_diff>
 remat <remat>
 ```
 RTD-TOC-END -->
