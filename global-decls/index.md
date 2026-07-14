@@ -109,6 +109,8 @@ Slang's Standard Library defines the following global declarations:
 - [ReorderThread](reorderthread-07)
 - [ReportHit](reporthit-06)
 - [ReportHitOptix](reporthitoptix-069)
+- [ResourceDescriptorHeap](resourcedescriptorheap-08i)
+- [SamplerDescriptorHeap](samplerdescriptorheap-07h)
 - [SetMeshOutputCounts](setmeshoutputcounts-037d)
 - [TraceMotionRay](tracemotionray-05b)
 - [TraceRay](traceray-05)
@@ -409,6 +411,8 @@ NonUniformResourceIndex <nonuniformresourceindex-03ai>
 QuadAll <quadall-04>
 QuadAny <quadany-04>
 ReorderThread <reorderthread-07>
+ResourceDescriptorHeap <resourcedescriptorheap-08i>
+SamplerDescriptorHeap <samplerdescriptorheap-07h>
 WaveClusteredRotate <waveclusteredrotate-04d>
 WaveMultiBitAnd <wavemultibitand-049c>
 WaveMultiBitOr <wavemultibitor-049c>
