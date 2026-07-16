@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# CoopVec\<T, N\>\.operator\[\]\.set\.fwd\_diff
+# DiffTensorView\<T, A\>\.operator\[\]\.set\.fwd\_diff
 
 ## Description
 
@@ -13,12 +13,6 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="../coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.operator[].<span class="code_keyword">set</span>.fwd_diff(
-    <span class="code_keyword">inout</span> <a href="../differentialpair-0c/index.html" class="code_type">DifferentialPair</a>&lt;<a href="../coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;&gt; <a href="fwd_diff.html#decl-self" class="code_param">self</a>,
-    <span class="code_keyword">int</span> <a href="fwd_diff.html#decl-index" class="code_param">index</a>,
-    <a href="../differentialpair-0c/index.html" class="code_type">DifferentialPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="fwd_diff.html#decl-newValue" class="code_param">newValue</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
-
 <span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="../difftensorview-04a/index.html" class="code_type">DiffTensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-A" class="code_type">A</a>&gt;.operator[].<span class="code_keyword">set</span>.fwd_diff(
     <span class="code_keyword">inout</span> <a href="../difftensorview-04a/index.html" class="code_type">DiffTensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-A" class="code_type">A</a>&gt; ,
     <span class="code_keyword">uint</span> ,
@@ -78,7 +72,4 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-self"></a>self  : [DifferentialPair](../differentialpair-0c/index.html)\<[CoopVec](../coopvec-04/index.html)\<[T](../coopvec-04/index.html#typeparam-T), [N](../coopvec-04/index.html#decl-N) \>\>
-####  <a id="decl-index"></a>index  : int
-####  <a id="decl-newValue"></a>newValue  : [DifferentialPair](../differentialpair-0c/index.html)\<[T](../differentialpair-0c/index.html#typeparam-T)\>
 

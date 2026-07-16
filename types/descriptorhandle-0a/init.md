@@ -22,20 +22,12 @@ Constructor for uint64_t handles
 <a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(uint64_t <a href="init.html#decl-handleValue" class="code_param">handleValue</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
-<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="../untypedresourcehandle-07f/index.html" class="code_type">UntypedResourceHandle</a> <a href="init.html#decl-h" class="code_param">h</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : __IDynamicResourceCastable&lt;__DynamicResourceKind.General&gt;;
-
-<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="../untypedsamplerhandle-07e/index.html" class="code_type">UntypedSamplerHandle</a> <a href="init.html#decl-h" class="code_param">h</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : __IDynamicResourceCastable&lt;__DynamicResourceKind.Sampler&gt;;
-
 </pre>
 
 ## Parameters
 
 ####  <a id="decl-handleValue"></a>handleValue  : [vector](../vector/index.html)\<uint, 2\>
 ####  <a id="decl-handleValue"></a>handleValue  : uint64\_t
-####  <a id="decl-h"></a>h  : [UntypedResourceHandle](../untypedresourcehandle-07f/index.html)
-####  <a id="decl-h"></a>h  : [UntypedSamplerHandle](../untypedsamplerhandle-07e/index.html)
 
 ## Availability and Requirements
 

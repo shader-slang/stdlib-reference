@@ -15,9 +15,9 @@ layout: stdlib-reference
 ## Methods
 
 * bwd\_diff
-* [apply\_bwd](apply_bwd)
-* [fwd\_diff](fwd_diff)
-* [remat](remat)
+* apply\_bwd
+* fwd\_diff
+* remat
 
 ## Conditional Conformances
 
@@ -45,8 +45,5 @@ layout: stdlib-reference
 
 BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
-apply_bwd <apply_bwd>
-fwd_diff <fwd_diff>
-remat <remat>
 ```
 RTD-TOC-END -->

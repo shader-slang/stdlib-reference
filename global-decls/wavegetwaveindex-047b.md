@@ -9,10 +9,6 @@ layout: stdlib-reference
 Returns the index of the current wave (subgroup) within the workgroup.
 Equivalent to GLSL gl_SubgroupID / Metal simdgroup_index_in_threadgroup.
 
-On GLSL and SPIR-V this lowers to gl_SubgroupID / BuiltIn SubgroupId,
-which are restricted to compute-class execution models (compute, mesh,
-amplification); using it from any other stage is a capability error.
-
 
 
 
@@ -31,7 +27,7 @@ Defined for the following targets:
 Available in all stages.
 
 #### glsl
-Available in stages: `amplification`, `mesh`, `compute`.
+Available in all stages.
 
 #### cuda
 Available in all stages.
@@ -43,8 +39,8 @@ Available in all stages.
 Available in all stages.
 
 #### spirv
-Available in stages: `amplification`, `mesh`, `compute`.
+Available in all stages.
 
-Requires capabilities: `spvGroupNonUniform`, `spvMeshShadingEXT`.
+Requires capability: `spvGroupNonUniform`.
 
 

@@ -82,13 +82,13 @@ The valid values of each component of <span class='code'><a href="evaluateattrib
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `raygen`, `intersection`, `anyhit`.
 
 #### glsl
-Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `raygen`, `intersection`, `anyhit`.
 
 #### spirv
-Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `raygen`, `intersection`, `anyhit`.
 
 Requires capabilities: `SPV_KHR_compute_shader_derivatives`, `spvMeshShadingEXT`.
 

@@ -11,6 +11,10 @@ This category contains the following declarations:
 
 #### [lit\.apply\_bwd](apply_bwd)
 
+#### [lit\.fwd\_diff](fwd_diff)
+
+#### [lit\.remat](remat)
+
 
 <!-- RTD-TOC-START
 ```{toctree}
@@ -20,5 +24,7 @@ This category contains the following declarations:
 BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
+fwd_diff <fwd_diff>
+remat <remat>
 ```
 RTD-TOC-END -->
