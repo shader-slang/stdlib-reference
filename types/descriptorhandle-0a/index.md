@@ -17,10 +17,10 @@ declared in any memory location.
 
 ## Methods
 
-* [init](init)
 * [equals](equals)
 * [lessThan](lessthan-4)
 * [lessThanOrEquals](lessthanorequals-48a)
+* [init](init)
 
 ## Remarks
 

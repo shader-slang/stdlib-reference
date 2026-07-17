@@ -26,8 +26,8 @@ Use the subtraction operator '-' instead.
 
 * bwd\_diff
 * apply\_bwd
-* fwd\_diff
-* remat
+* [fwd\_diff](fwd_diff)
+* [remat](remat)
 
 ## Conditional Conformances
 
@@ -39,3 +39,12 @@ Use the subtraction operator '-' instead.
 `<T>` additionally conforms to `IForwardDifferentiable<dst<T>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+
+<!-- RTD-TOC-START
+```{toctree}
+:titlesonly:
+:hidden:
+
+Math functions <math>
+```
+RTD-TOC-END -->

@@ -5,8 +5,6 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [sincos\<T\>\.BwdCallable](bwdcallable-03)
-
 #### [sincos\<T\>\.MinimalContext](minimalcontext-07)
 
 #### [sincos\<T\>\.apply\_bwd](apply_bwd)
@@ -21,7 +19,6 @@ This category contains the following declarations:
 :titlesonly:
 :hidden:
 
-BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 fwd_diff <fwd_diff>

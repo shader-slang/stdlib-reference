@@ -54,10 +54,10 @@ For SPIR-V, this function maps to <span class='code'>OpDPdx</span>.
 Defined for the following targets:
 
 #### hlsl
-Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `raygen`, `intersection`, `anyhit`.
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
 
 #### glsl
-Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `raygen`, `intersection`, `anyhit`.
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
 
 #### cpp
 Available in `fragment` stage only.
@@ -72,7 +72,7 @@ Available in `fragment` stage only.
 Available in `fragment` stage only.
 
 #### spirv
-Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `raygen`, `intersection`, `anyhit`.
+Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
 
 Requires capabilities: `SPV_KHR_compute_shader_derivatives`, `spvMeshShadingEXT`.
 
