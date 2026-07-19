@@ -5,13 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [sincos\<T\>\.MinimalContext](minimalcontext-07)
-
-#### [sincos\<T\>\.apply\_bwd](apply_bwd)
-
-#### [sincos\<T\>\.fwd\_diff](fwd_diff)
-
-#### [sincos\<T\>\.remat](remat)
+#### [sincos\<T\>\.BwdCallable](bwdcallable-03)
 
 
 <!-- RTD-TOC-START
@@ -19,9 +13,6 @@ This category contains the following declarations:
 :titlesonly:
 :hidden:
 
-MinimalContext <minimalcontext-07>
-apply_bwd <apply_bwd>
-fwd_diff <fwd_diff>
-remat <remat>
+BwdCallable <bwdcallable-03>
 ```
 RTD-TOC-END -->
