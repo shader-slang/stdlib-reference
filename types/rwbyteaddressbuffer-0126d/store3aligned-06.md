@@ -23,7 +23,7 @@ to the alignment of <span class='code'>uint3</span>, which is 12.
 ## Parameters
 
 ####  <a id="decl-address"></a>address  : uint
-The input address in bytes, which must be a multiple of 12.
+The input address in bytes, which must be a multiple of 4 (the natural alignment of <span class='code'>uint3</span>).
 
 ####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<uint, 3\>
 Three input values.

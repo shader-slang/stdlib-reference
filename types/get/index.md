@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[CoopVec](../coopvec-04/index.html)\<[T](../coopvec-04/index.html#typeparam-T), [N](../coopvec-04/index.html#decl-N)\>\.operator\.get\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[CoopVec](../coopvec-04/index.html)\<[T](../coopvec-04/index.html#typeparam-T), [N](../coopvec-04/index.html#decl-N)\>\.operator\.get\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[CoopVec](../coopvec-04/index.html)\<[T](../coopvec-04/index.html#typeparam-T), [N](../coopvec-04/index.html#decl-N)\>\.operator\.get\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.operator\.get\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.operator\.get\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[CoopVec](../coopvec-04/index.html)\<[T](../coopvec-04/index.html#typeparam-T), [N](../coopvec-04/index.html#decl-N)\>\.operator\.get\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[CoopVec](../coopvec-04/index.html)\<[T](../coopvec-04/index.html#typeparam-T), [N](../coopvec-04/index.html#decl-N)\>\.operator\.get\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.operator\.get\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[DiffTensorView](../difftensorview-04a/index.html)\<[T](../difftensorview-04a/index.html#typeparam-T), [A](../difftensorview-04a/index.html#typeparam-A)\>\.operator\.get\>
 
 ## Generic Parameters
 
@@ -26,18 +26,6 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IForwardDifferentiable<CoopVec<T, N>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<CoopVec\<T, N\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<CoopVec<T, N>.operator[].get>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
@@ -50,6 +38,18 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>

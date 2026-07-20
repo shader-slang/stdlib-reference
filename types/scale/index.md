@@ -43,8 +43,6 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
-BwdCallable <bwdcallable-03>
-MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 fwd_diff <fwd_diff>
 remat <remat>
