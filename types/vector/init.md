@@ -117,6 +117,16 @@ Initialize a vector where all elements have the same scalar <span class='code'><
     <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 3&gt; <a href="init.html#decl-yzw" class="code_param">yzw</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 4;
 
+<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 2&gt; <a href="init.html#decl-xy" class="code_param">xy</a>,
+    <a href="init.html#typeparam-T" class="code_type">T</a> <a href="init.html#decl-z" class="code_param">z</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 4;
+
+<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(
+    <a href="init.html#typeparam-T" class="code_type">T</a> <a href="init.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 2&gt; <a href="init.html#decl-yz" class="code_param">yz</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 4;
+
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">half</span> <a href="init.html#decl-x" class="code_param">x</a>)
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">half</span>;
 
