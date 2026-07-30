@@ -35,9 +35,9 @@ The format string.
 
 
 ## Remarks
-The function maps to <span class='code'><a href="printf.html">printf</a></span> for HLSL, CPU and CUDA targets, and maps to <span class='code'>OpDebugPrintf</span> for SPIR-V target,
-and maps to <span class='code'>debugPrintfEXT</span> for GLSL target. Depending on the target and execution environment, the function may have
-no effect.
+The function maps to <span class='code'><a href="printf.html">printf</a></span> for HLSL, CPU and CUDA targets, maps to <span class='code'>OpDebugPrintf</span> for SPIR-V target,
+maps to <span class='code'>debugPrintfEXT</span> for GLSL target, and maps to <span class='code'>os_log_default.<a href="log.html">log</a></span> for Metal target.
+Depending on the target and execution environment, the function may have no effect.
 
 ## Example
 
@@ -66,6 +66,10 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
+#### metal
+Available in all stages.
+
+Requires capability: `metallib_3_2`.
 #### spirv
 Available in all stages.
 
