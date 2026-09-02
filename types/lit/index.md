@@ -20,9 +20,9 @@ Legacy lighting function (obsolete).
 ## Methods
 
 * bwd\_diff
-* [apply\_bwd](apply_bwd)
-* fwd\_diff
-* [remat](remat)
+* apply\_bwd
+* [fwd\_diff](fwd_diff)
+* remat
 
 ## Conditional Conformances
 

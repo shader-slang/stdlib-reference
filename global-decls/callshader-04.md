@@ -46,6 +46,9 @@ Available in stages: `closesthit`, `raygen`, `miss`, `callable`.
 #### glsl
 Available in stages: `closesthit`, `raygen`, `miss`, `callable`.
 
+#### cuda
+Available in stages: `closesthit`, `raygen`, `miss`, `callable`.
+
 #### spirv
 Available in stages: `closesthit`, `raygen`, `miss`, `callable`.
 
