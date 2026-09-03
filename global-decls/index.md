@@ -283,6 +283,7 @@ Slang's Standard Library defines the following global declarations:
 - [fwidth](fwidth)
 - [fwidth\_coarse](fwidth_coarse)
 - [fwidth\_fine](fwidth_fine)
+- [getDescriptorFromDynamicResourceHeap](getdescriptorfromdynamicresourceheap-3dhow)
 - [getDescriptorFromHandle](getdescriptorfromhandle-3dh)
 - [getRealtimeClock](getrealtimeclock-3b)
 - [getRealtimeClockLow](getrealtimeclocklow-3bg)
@@ -471,6 +472,7 @@ detach <detach>
 diffPair <diffpair-4>
 enableVMMDeviceScopeCapabilityIfNeeded <enablevmmdevicescopecapabilityifneeded-6789fkuw>
 floatCast <floatcast-5>
+getDescriptorFromDynamicResourceHeap <getdescriptorfromdynamicresourceheap-3dhow>
 getDescriptorFromHandle <getdescriptorfromhandle-3dh>
 getRealtimeClock <getrealtimeclock-3b>
 getRealtimeClockLow <getrealtimeclocklow-3bg>

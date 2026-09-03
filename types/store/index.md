@@ -15,8 +15,8 @@ layout: stdlib-reference
 
 ## Methods
 
-* apply\_bwd
-* [bwd\_diff](bwd_diff)
+* [apply\_bwd](apply_bwd)
+* bwd\_diff
 * [remat](remat)
 * [fwd\_diff](fwd_diff)
 
@@ -36,9 +36,7 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
-BwdCallable <bwdcallable-03>
-MinimalContext <minimalcontext-07>
-bwd_diff <bwd_diff>
+apply_bwd <apply_bwd>
 fwd_diff <fwd_diff>
 remat <remat>
 ```
