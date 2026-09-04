@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N), [M](../../global-decls/fmod.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N), [M](../../global-decls/fmod.html#decl-M) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [M](../../global-decls/fmod.html#decl-M), [N](../../global-decls/fmod.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T), [N](../../global-decls/fmod.html#decl-N), [M](../../global-decls/fmod.html#decl-M) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[fmod](../../global-decls/fmod.html)\<[T](../../global-decls/fmod.html#typeparam-T) \>\>
 
 ## Generic Parameters
 
@@ -15,7 +15,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* fwd\_diff
+* [fwd\_diff](fwd_diff)
 * [apply\_bwd](apply_bwd)
 * [bwd\_diff](bwd_diff)
 * [remat](remat)
@@ -26,8 +26,8 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IForwardDifferentiable<fmod<T, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<fmod\<T, N, M\>\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<fmod<T, N, M>>` when the following conditions are met:
+### Conformance to IForwardDifferentiable\<fmod\<T, M, N\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<fmod<T, M, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<fmod\<T, N\>\>
@@ -56,6 +56,7 @@ BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 bwd_diff <bwd_diff>
+fwd_diff <fwd_diff>
 remat <remat>
 ```
 RTD-TOC-END -->

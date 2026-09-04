@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N), [M](../../global-decls/saturate.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N), [M](../../global-decls/saturate.html#decl-M) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [M](../../global-decls/saturate.html#decl-M), [N](../../global-decls/saturate.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[saturate](../../global-decls/saturate.html)\<[T](../../global-decls/saturate.html#typeparam-T), [N](../../global-decls/saturate.html#decl-N), [M](../../global-decls/saturate.html#decl-M) \>\>
 
 ## Generic Parameters
 
@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* fwd\_diff
+* [fwd\_diff](fwd_diff)
 * [apply\_bwd](apply_bwd)
 * [bwd\_diff](bwd_diff)
 * [remat](remat)
@@ -29,8 +29,8 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<saturate<T, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<saturate\<T, N, M\>\>
-`<T>` additionally conforms to `IForwardDifferentiable<saturate<T, N, M>>` when the following conditions are met:
+### Conformance to IForwardDifferentiable\<saturate\<T, M, N\>\>
+`<T>` additionally conforms to `IForwardDifferentiable<saturate<T, M, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<saturate\<T\>\>
@@ -55,6 +55,7 @@ BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 bwd_diff <bwd_diff>
+fwd_diff <fwd_diff>
 remat <remat>
 ```
 RTD-TOC-END -->

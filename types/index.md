@@ -229,7 +229,7 @@ Slang's Standard Library defines the following types:
 - [extension scale : IForwardDifferentiable\<vector\<T,N\>\.scale\<T1\>\>](scale/index)
 - [extension set : IForwardDifferentiable\<CoopVec\<T, N\>\.operator\[\]\.set\>](set/index)
 - [extension sin : IForwardDifferentiable\<sin\<T\>\>](sin/index)
-- [extension sincos : IForwardDifferentiable\<sincos\<T\>\>](sincos/index)
+- [extension sincos : IBackwardDifferentiable\<sincos\<T\>\>](sincos/index)
 - [extension sinh : IForwardDifferentiable\<sinh\<T\>\>](sinh/index)
 - [extension sqrt : IForwardDifferentiable\<sqrt\<T\>\>](sqrt/index)
 - [extension store : IBackwardDifferentiable\<DiffTensorView\<T, A\>\.store\>](store/index)

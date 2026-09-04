@@ -21,7 +21,7 @@ Legacy lighting function (obsolete).
 
 * bwd\_diff
 * apply\_bwd
-* fwd\_diff
+* [fwd\_diff](fwd_diff)
 * [remat](remat)
 
 ## Conditional Conformances

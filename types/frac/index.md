@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N), [M](../../global-decls/frac.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N), [M](../../global-decls/frac.html#decl-M) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [M](../../global-decls/frac.html#decl-M), [N](../../global-decls/frac.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[frac](../../global-decls/frac.html)\<[T](../../global-decls/frac.html#typeparam-T), [N](../../global-decls/frac.html#decl-N), [M](../../global-decls/frac.html#decl-M) \>\>
 
 ## Generic Parameters
 
@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* fwd\_diff
+* [fwd\_diff](fwd_diff)
 * [apply\_bwd](apply_bwd)
 * [bwd\_diff](bwd_diff)
 * [remat](remat)
@@ -29,8 +29,8 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<frac<T, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<frac\<T, N, M\>\>
-`<T>` additionally conforms to `IForwardDifferentiable<frac<T, N, M>>` when the following conditions are met:
+### Conformance to IForwardDifferentiable\<frac\<T, M, N\>\>
+`<T>` additionally conforms to `IForwardDifferentiable<frac<T, M, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<frac\<T\>\>
@@ -55,6 +55,7 @@ BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 bwd_diff <bwd_diff>
+fwd_diff <fwd_diff>
 remat <remat>
 ```
 RTD-TOC-END -->

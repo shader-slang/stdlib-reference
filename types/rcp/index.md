@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N), [M](../../global-decls/rcp.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N), [M](../../global-decls/rcp.html#decl-M) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [M](../../global-decls/rcp.html#decl-M), [N](../../global-decls/rcp.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rcp](../../global-decls/rcp.html)\<[T](../../global-decls/rcp.html#typeparam-T), [N](../../global-decls/rcp.html#decl-N), [M](../../global-decls/rcp.html#decl-M) \>\>
 
 ## Generic Parameters
 
@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* fwd\_diff
+* [fwd\_diff](fwd_diff)
 * [apply\_bwd](apply_bwd)
 * [bwd\_diff](bwd_diff)
 * [remat](remat)
@@ -29,8 +29,8 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<rcp<T, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<rcp\<T, N, M\>\>
-`<T>` additionally conforms to `IForwardDifferentiable<rcp<T, N, M>>` when the following conditions are met:
+### Conformance to IForwardDifferentiable\<rcp\<T, M, N\>\>
+`<T>` additionally conforms to `IForwardDifferentiable<rcp<T, M, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<rcp\<T\>\>
@@ -55,6 +55,7 @@ BwdCallable <bwdcallable-03>
 MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 bwd_diff <bwd_diff>
+fwd_diff <fwd_diff>
 remat <remat>
 ```
 RTD-TOC-END -->

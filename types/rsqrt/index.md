@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T) \>\>
 
-*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N), [M](../../global-decls/rsqrt.html#decl-M) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N), [M](../../global-decls/rsqrt.html#decl-M) \>\>
+*Conditionally conforms to:* [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N) \>\>, [IForwardDifferentiable](../../interfaces/iforwarddifferentiable-018/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [M](../../global-decls/rsqrt.html#decl-M), [N](../../global-decls/rsqrt.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N) \>\>, [IBackwardDifferentiable](../../interfaces/ibackwarddifferentiable-019/index.html)\<[rsqrt](../../global-decls/rsqrt.html)\<[T](../../global-decls/rsqrt.html#typeparam-T), [N](../../global-decls/rsqrt.html#decl-N), [M](../../global-decls/rsqrt.html#decl-M) \>\>
 
 ## Generic Parameters
 
@@ -29,8 +29,8 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<rsqrt<T, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<rsqrt\<T, N, M\>\>
-`<T>` additionally conforms to `IForwardDifferentiable<rsqrt<T, N, M>>` when the following conditions are met:
+### Conformance to IForwardDifferentiable\<rsqrt\<T, M, N\>\>
+`<T>` additionally conforms to `IForwardDifferentiable<rsqrt<T, M, N>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<rsqrt\<T\>\>
