@@ -36,7 +36,6 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
-BwdCallable <bwdcallable-03>
 fwd_diff <fwd_diff>
 ```
 RTD-TOC-END -->
