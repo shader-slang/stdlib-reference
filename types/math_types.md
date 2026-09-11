@@ -5,7 +5,7 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [matrix\<T, int R, int C, int L\>](matrix/index)
+#### [matrix\<T, int R, int C, MatrixLayoutMode L\>](matrix/index)
 
 #### [vector\<T, int N\>](vector/index)
 

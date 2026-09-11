@@ -20,9 +20,9 @@ Calculate both the sine and cosine of <span class='code'>x</span>.
 ## Methods
 
 * bwd\_diff
-* apply\_bwd
+* [apply\_bwd](apply_bwd)
 * [fwd\_diff](fwd_diff)
-* remat
+* [remat](remat)
 
 ## Conditional Conformances
 

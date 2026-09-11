@@ -7,6 +7,8 @@ This category contains the following declarations:
 
 #### [lit\.BwdCallable](bwdcallable-03)
 
+#### [lit\.MinimalContext](minimalcontext-07)
+
 #### [lit\.apply\_bwd](apply_bwd)
 
 #### [lit\.remat](remat)
@@ -18,6 +20,7 @@ This category contains the following declarations:
 :hidden:
 
 BwdCallable <bwdcallable-03>
+MinimalContext <minimalcontext-07>
 apply_bwd <apply_bwd>
 remat <remat>
 ```

@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# matrix\<T, int R, int C, int L\>\.init
+# matrix\<T, int R, int C, MatrixLayoutMode L\>\.init
 
 ## Description
 
@@ -14,9 +14,11 @@ Initialize a vector from a value of the same type
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="index.html#decl-C" class="code_var">C</a>, <span class="code_keyword">int</span> <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-val" class="code_param">val</a>);
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="index.html#decl-C" class="code_var">C</a>, MatrixLayoutMode <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
+    <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-val" class="code_param">val</a>);
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="index.html#decl-C" class="code_var">C</a>, <span class="code_keyword">int</span> <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>);
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="index.html#decl-C" class="code_var">C</a>, MatrixLayoutMode <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>);
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>, <a href="index.html#decl-M" class="code_var">M</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;

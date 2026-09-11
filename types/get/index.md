@@ -42,18 +42,18 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
-### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 ### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IBackwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IBackwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
+### Conformance to IForwardDifferentiable\<DiffTensorView\<T, A\>\.operator\[\]\.get\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<DiffTensorView<T, A>.operator[].get>`.
 
 <!-- RTD-TOC-START
 ```{toctree}
