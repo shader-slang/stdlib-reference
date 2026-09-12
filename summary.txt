@@ -1,5 +1,5 @@
-documented pages: 793
-undocumented pages: 1016(56.2%)
+documented pages: 788
+undocumented pages: 1020(56.4%)
 
 IArray<T>.subscript
 IBackwardDifferentiable<FType>
@@ -537,8 +537,9 @@ distance<T, N>.remat
 <T, int N>
 CoopVec<T, N>.div.
 vector<T,N>.div.BwdCallable
+vector<T,N>.div.MinimalContext
 vector<T,N>.div.apply_bwd
-vector<T,N>.div.fwd_diff
+vector<T,N>.div.remat
 <T, int N>
 dot<T, N>.BwdCallable
 dot<T, N>.MinimalContext
@@ -679,9 +680,13 @@ vector<T,N>.mod.fwd_diff
 vector<T,N>.mod.remat
 <T, int N>
 CoopVec<T, N>.mul.
+vector<T,N>.mul.MinimalContext
+vector<T,N>.mul.apply_bwd
+vector<T,N>.mul.fwd_diff
+vector<T,N>.mul.remat
 <T, int N>
 CoopVec<T, N>.neg.
-vector<T,N>.neg.remat
+vector<T,N>.neg.fwd_diff
 <T, int N>
 normalize<T, N>.BwdCallable
 normalize<T, N>.MinimalContext
@@ -736,7 +741,8 @@ saturate<T>.bwd_diff
 saturate<T>.fwd_diff
 saturate<T>.remat
 <T1>
-vector<T,N>.scale<T1>.fwd_diff
+vector<T,N>.scale<T1>.BwdCallable
+vector<T,N>.scale<T1>.MinimalContext
 <T, int N>
 CoopVec<T, N>.operator[].set.
 CoopVec<T, N>.operator[].set.BwdCallable
@@ -781,6 +787,7 @@ DiffTensorView<T, A>.storeOnce.remat
 <T, int N>
 CoopVec<T, N>.sub.
 vector<T,N>.sub.fwd_diff
+vector<T,N>.sub.remat
 <T>
 tan<T>.BwdCallable
 tan<T>.MinimalContext
@@ -797,11 +804,8 @@ tanh<T>.bwd_diff
 tanh<T>.fwd_diff
 tanh<T>.remat
 <T, int N>
-vector<T,N>.toFloat.BwdCallable
-vector<T,N>.toFloat.MinimalContext
 vector<T,N>.toFloat.apply_bwd
 vector<T,N>.toFloat.fwd_diff
-vector<T,N>.toFloat.remat
 <T, int N, int M>
 transpose<T, N, M>.BwdCallable
 transpose<T, N, M>.MinimalContext

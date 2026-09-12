@@ -38,6 +38,7 @@ Slang's Standard Library defines the following attributes:
 - [NoDiscard](nodiscard-02)
 - [NonUniformReturn](nonuniformreturn-03a)
 - [NumThreads](numthreads-03)
+- [OutputTopology](outputtopology-06)
 - [OverloadRank](overloadrank-08)
 - [PreferCheckpoint](prefercheckpoint-06)
 - [PreferRecompute](preferrecompute-06)
@@ -142,6 +143,7 @@ NoDiffThis <nodiffthis-026>
 NoDiscard <nodiscard-02>
 NonUniformReturn <nonuniformreturn-03a>
 NumThreads <numthreads-03>
+OutputTopology <outputtopology-06>
 OverloadRank <overloadrank-08>
 PreferCheckpoint <prefercheckpoint-06>
 PreferRecompute <preferrecompute-06>
