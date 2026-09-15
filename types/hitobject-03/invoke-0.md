@@ -67,5 +67,15 @@ Defined for the following targets:
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 Requires capability: `ser_hlsl_native`.
+#### glsl
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+#### cuda
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+#### spirv
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderEXT`.
 
 

@@ -25,6 +25,10 @@ layout: stdlib-reference
 
 Defined for the following targets:
 
+#### hlsl
+Available in stages: `raygen`, `closesthit`, `miss`.
+
+Requires capability: `ser_hlsl_native`.
 #### glsl
 Available in stages: `raygen`, `closesthit`, `miss`.
 
@@ -35,9 +39,5 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 Available in stages: `raygen`, `closesthit`, `miss`.
 
 Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderEXT`.
-#### hlsl
-Available in stages: `raygen`, `closesthit`, `miss`.
-
-Requires capability: `ser_hlsl_native`.
 
 
