@@ -53,6 +53,9 @@ Available in `intersection` stage only.
 #### glsl
 Available in `intersection` stage only.
 
+#### cuda
+Available in `intersection` stage only.
+
 #### spirv
 Available in `intersection` stage only.
 
