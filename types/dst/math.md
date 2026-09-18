@@ -7,8 +7,6 @@ This category contains the following declarations:
 
 #### [dst\<T\>\.BwdCallable](bwdcallable-03)
 
-#### [dst\<T\>\.MinimalContext](minimalcontext-07)
-
 #### [dst\<T\>\.fwd\_diff](fwd_diff)
 
 
@@ -18,7 +16,6 @@ This category contains the following declarations:
 :hidden:
 
 BwdCallable <bwdcallable-03>
-MinimalContext <minimalcontext-07>
 fwd_diff <fwd_diff>
 ```
 RTD-TOC-END -->

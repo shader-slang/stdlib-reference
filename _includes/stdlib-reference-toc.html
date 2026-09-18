@@ -343,24 +343,23 @@
 </li>
 <li data-link="/stdlib-reference/types/math"><span>Math functions</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/dst/index"><span>extension dst : IBackwardDifferentiable&lt;dst&lt;T&gt;&gt;</span>
+<li data-link="/stdlib-reference/types/dst/index"><span>extension dst : IForwardDifferentiable&lt;dst&lt;T&gt;&gt;</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/dst/math"><span>Math functions</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/dst/bwdcallable-03"><span>BwdCallable</span>
-</li><li data-link="/stdlib-reference/types/dst/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/dst/fwd_diff"><span>fwd_diff</span>
 </li></ul>
 </li>
 </ul>
-</li><li data-link="/stdlib-reference/types/lit/index"><span>extension lit : IForwardDifferentiable&lt;lit&gt;</span>
+</li><li data-link="/stdlib-reference/types/lit/index"><span>extension lit : IBackwardDifferentiable&lt;lit&gt;</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/lit/math"><span>Math functions</span>
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/lit/bwdcallable-03"><span>BwdCallable</span>
 </li><li data-link="/stdlib-reference/types/lit/minimalcontext-07"><span>MinimalContext</span>
+</li><li data-link="/stdlib-reference/types/lit/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/lit/fwd_diff"><span>fwd_diff</span>
-</li><li data-link="/stdlib-reference/types/lit/remat"><span>remat</span>
 </li></ul>
 </li>
 </ul>
@@ -368,10 +367,7 @@
 <ul class="toc_list">
 <li data-link="/stdlib-reference/types/sincos/math"><span>Math functions</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/sincos/bwdcallable-03"><span>BwdCallable</span>
-</li><li data-link="/stdlib-reference/types/sincos/minimalcontext-07"><span>MinimalContext</span>
-</li><li data-link="/stdlib-reference/types/sincos/apply_bwd"><span>apply_bwd</span>
-</li><li data-link="/stdlib-reference/types/sincos/fwd_diff"><span>fwd_diff</span>
+<li data-link="/stdlib-reference/types/sincos/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/sincos/remat"><span>remat</span>
 </li></ul>
 </li>
@@ -1169,6 +1165,7 @@
 </li><li data-link="/stdlib-reference/types/abs/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/abs/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/abs/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/abs/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/abs/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/acos/index"><span>extension acos : IForwardDifferentiable&lt;acos&lt;T&gt;&gt;</span>
@@ -1177,6 +1174,7 @@
 </li><li data-link="/stdlib-reference/types/acos/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/acos/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/acos/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/acos/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/acos/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/acosh/index"><span>extension acosh : IForwardDifferentiable&lt;acosh&lt;T&gt;&gt;</span>
@@ -1185,6 +1183,7 @@
 </li><li data-link="/stdlib-reference/types/acosh/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/acosh/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/acosh/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/acosh/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/acosh/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/add/index"><span>extension add : IBackwardDifferentiable&lt;vector&lt;T,N&gt;.add&gt;</span>
@@ -1202,6 +1201,7 @@
 </li><li data-link="/stdlib-reference/types/asin/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/asin/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/asin/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/asin/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/asin/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/asinh/index"><span>extension asinh : IForwardDifferentiable&lt;asinh&lt;T&gt;&gt;</span>
@@ -1210,6 +1210,7 @@
 </li><li data-link="/stdlib-reference/types/asinh/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/asinh/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/asinh/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/asinh/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/asinh/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/atan/index"><span>extension atan : IForwardDifferentiable&lt;atan&lt;T&gt;&gt;</span>
@@ -1219,6 +1220,7 @@
 </li><li data-link="/stdlib-reference/types/atan/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/atan/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/atan/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/atan/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/atan/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/atan2/index"><span>extension atan2 : IForwardDifferentiable&lt;atan2&lt;T, N&gt;&gt;</span>
@@ -1236,6 +1238,7 @@
 </li><li data-link="/stdlib-reference/types/atanh/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/atanh/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/atanh/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/atanh/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/atanh/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/clamp/index"><span>extension clamp : IForwardDifferentiable&lt;clamp&lt;T, N&gt;&gt;</span>
@@ -1244,7 +1247,6 @@
 </li><li data-link="/stdlib-reference/types/clamp/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/clamp/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/clamp/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/clamp/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/clamp/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/copysign/index"><span>extension copysign : IForwardDifferentiable&lt;copysign&lt;T&gt;&gt;</span>
@@ -1253,7 +1255,6 @@
 </li><li data-link="/stdlib-reference/types/copysign/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/copysign/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/copysign/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/copysign/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/copysign/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/cos/index"><span>extension cos : IForwardDifferentiable&lt;cos&lt;T&gt;&gt;</span>
@@ -1263,6 +1264,7 @@
 </li><li data-link="/stdlib-reference/types/cos/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/cos/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/cos/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/cos/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/cos/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/cosh/index"><span>extension cosh : IForwardDifferentiable&lt;cosh&lt;T&gt;&gt;</span>
@@ -1271,6 +1273,7 @@
 </li><li data-link="/stdlib-reference/types/cosh/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/cosh/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/cosh/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/cosh/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/cosh/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/cross/index"><span>extension cross : IForwardDifferentiable&lt;cross&lt;T&gt;&gt;</span>
@@ -1311,7 +1314,6 @@
 </li><li data-link="/stdlib-reference/types/distance/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/distance/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/distance/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/distance/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/distance/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/div/index"><span>extension div : IBackwardDifferentiable&lt;vector&lt;T,N&gt;.div&gt;</span>
@@ -1373,7 +1375,6 @@
 </li><li data-link="/stdlib-reference/types/fma/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/fma/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/fma/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/fma/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/fma/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/fmod/index"><span>extension fmod : IForwardDifferentiable&lt;fmod&lt;T, N&gt;&gt;</span>
@@ -1382,7 +1383,6 @@
 </li><li data-link="/stdlib-reference/types/fmod/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/fmod/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/fmod/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/fmod/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/fmod/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/frac/index"><span>extension frac : IForwardDifferentiable&lt;frac&lt;T&gt;&gt;</span>
@@ -1391,6 +1391,7 @@
 </li><li data-link="/stdlib-reference/types/frac/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/frac/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/frac/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/frac/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/frac/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/fwd_diff/index"><span>extension fwd_diff : IForwardDifferentiable&lt;DifferentialPair&lt;T&gt;.$init.fwd_diff&gt;</span>
@@ -1421,13 +1422,11 @@
 </li><li data-link="/stdlib-reference/types/lerp/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/lerp/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/lerp/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/lerp/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/lerp/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/load/index"><span>extension load : IBackwardDifferentiable&lt;DiffTensorView&lt;T, A&gt;.load&gt;</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/load/bwdcallable-03"><span>BwdCallable</span>
-</li><li data-link="/stdlib-reference/types/load/minimalcontext-07"><span>MinimalContext</span>
+<li data-link="/stdlib-reference/types/load/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/load/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/load/bwd_diff"><span>bwd_diff</span>
 </li><li data-link="/stdlib-reference/types/load/fwd_diff"><span>fwd_diff</span>
@@ -1448,6 +1447,7 @@
 </li><li data-link="/stdlib-reference/types/log/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/log/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/log/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/log/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/log/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/log10/index"><span>extension log10 : IForwardDifferentiable&lt;log10&lt;T&gt;&gt;</span>
@@ -1456,6 +1456,7 @@
 </li><li data-link="/stdlib-reference/types/log10/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/log10/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/log10/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/log10/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/log10/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/log2/index"><span>extension log2 : IForwardDifferentiable&lt;log2&lt;T&gt;&gt;</span>
@@ -1474,6 +1475,7 @@
 </li><li data-link="/stdlib-reference/types/mad/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/mad/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/mad/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/mad/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/mad/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/max/index"><span>extension max : IForwardDifferentiable&lt;max&lt;T, N&gt;&gt;</span>
@@ -1526,7 +1528,6 @@
 </li><li data-link="/stdlib-reference/types/normalize/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/normalize/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/normalize/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/normalize/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/normalize/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/pow/index"><span>extension pow : IForwardDifferentiable&lt;pow&lt;T, N&gt;&gt;</span>
@@ -1552,6 +1553,7 @@
 </li><li data-link="/stdlib-reference/types/rcp/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/rcp/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/rcp/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/rcp/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/rcp/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/reflect/index"><span>extension reflect : IForwardDifferentiable&lt;reflect&lt;T, N&gt;&gt;</span>
@@ -1569,7 +1571,6 @@
 </li><li data-link="/stdlib-reference/types/refract/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/refract/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/refract/bwd_diff"><span>bwd_diff</span>
-</li><li data-link="/stdlib-reference/types/refract/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/refract/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/rsqrt/index"><span>extension rsqrt : IForwardDifferentiable&lt;rsqrt&lt;T&gt;&gt;</span>
@@ -1578,6 +1579,7 @@
 </li><li data-link="/stdlib-reference/types/rsqrt/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/rsqrt/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/rsqrt/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/rsqrt/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/rsqrt/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/saturate/index"><span>extension saturate : IForwardDifferentiable&lt;saturate&lt;T&gt;&gt;</span>
@@ -1586,6 +1588,7 @@
 </li><li data-link="/stdlib-reference/types/saturate/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/saturate/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/saturate/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/saturate/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/saturate/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/scale/index"><span>extension scale : IForwardDifferentiable&lt;vector&lt;T,N&gt;.scale&lt;T1&gt;&gt;</span>
@@ -1610,6 +1613,7 @@
 </li><li data-link="/stdlib-reference/types/sin/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/sin/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/sin/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/sin/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/sin/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/sinh/index"><span>extension sinh : IForwardDifferentiable&lt;sinh&lt;T&gt;&gt;</span>
@@ -1618,6 +1622,7 @@
 </li><li data-link="/stdlib-reference/types/sinh/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/sinh/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/sinh/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/sinh/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/sinh/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/sqrt/index"><span>extension sqrt : IForwardDifferentiable&lt;sqrt&lt;T&gt;&gt;</span>
@@ -1626,18 +1631,24 @@
 </li><li data-link="/stdlib-reference/types/sqrt/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/sqrt/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/sqrt/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/sqrt/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/sqrt/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/store/index"><span>extension store : IBackwardDifferentiable&lt;DiffTensorView&lt;T, A&gt;.store&gt;</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/store/minimalcontext-07"><span>MinimalContext</span>
+<li data-link="/stdlib-reference/types/store/bwdcallable-03"><span>BwdCallable</span>
+</li><li data-link="/stdlib-reference/types/store/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/store/apply_bwd"><span>apply_bwd</span>
+</li><li data-link="/stdlib-reference/types/store/bwd_diff"><span>bwd_diff</span>
 </li><li data-link="/stdlib-reference/types/store/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/store/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/storeonce-5/index"><span>extension storeOnce : IBackwardDifferentiable&lt;DiffTensorView&lt;T, A&gt;.storeOnce&gt;</span>
 <ul class="toc_list">
-<li data-link="/stdlib-reference/types/storeonce-5/fwd_diff"><span>fwd_diff</span>
+<li data-link="/stdlib-reference/types/storeonce-5/bwdcallable-03"><span>BwdCallable</span>
+</li><li data-link="/stdlib-reference/types/storeonce-5/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/storeonce-5/fwd_diff"><span>fwd_diff</span>
+</li><li data-link="/stdlib-reference/types/storeonce-5/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/sub/index"><span>extension sub : IBackwardDifferentiable&lt;vector&lt;T,N&gt;.sub&gt;</span>
 <ul class="toc_list">
@@ -1650,6 +1661,7 @@
 </li><li data-link="/stdlib-reference/types/tan/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/tan/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/tan/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/tan/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/tan/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/tanh/index"><span>extension tanh : IForwardDifferentiable&lt;tanh&lt;T&gt;&gt;</span>
@@ -1659,6 +1671,7 @@
 </li><li data-link="/stdlib-reference/types/tanh/minimalcontext-07"><span>MinimalContext</span>
 </li><li data-link="/stdlib-reference/types/tanh/apply_bwd"><span>apply_bwd</span>
 </li><li data-link="/stdlib-reference/types/tanh/bwd_diff"><span>bwd_diff</span>
+</li><li data-link="/stdlib-reference/types/tanh/fwd_diff"><span>fwd_diff</span>
 </li><li data-link="/stdlib-reference/types/tanh/remat"><span>remat</span>
 </li></ul>
 </li><li data-link="/stdlib-reference/types/tofloat-2/index"><span>extension toFloat : IBackwardDifferentiable&lt;vector&lt;T,N&gt;.toFloat&gt;</span>
@@ -1763,6 +1776,7 @@
 </li><li data-link="/stdlib-reference/attributes/outputtopology"><span>outputtopology</span>
 </li><li data-link="/stdlib-reference/attributes/partitioning"><span>partitioning</span>
 </li><li data-link="/stdlib-reference/attributes/patchconstantfunc"><span>patchconstantfunc</span>
+</li><li data-link="/stdlib-reference/attributes/postdepthcoverage"><span>postdepthcoverage</span>
 </li><li data-link="/stdlib-reference/attributes/push_constant"><span>push_constant</span>
 </li><li data-link="/stdlib-reference/attributes/raypayload"><span>raypayload</span>
 </li><li data-link="/stdlib-reference/attributes/require"><span>require</span>

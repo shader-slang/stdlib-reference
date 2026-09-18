@@ -2,7 +2,7 @@
 layout: stdlib-reference
 ---
 
-# lit\.remat
+# lit\.apply\_bwd
 
 ## Description
 
@@ -14,8 +14,7 @@ Legacy lighting function (obsolete).
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> __syn_BackwardDiffIntermediateContextType__S4core10__lit_implp3pi_fi_fi_fv4fb <a href="../../global-decls/lit.html">lit</a>.remat(
-    __syn_BackwardDiffMinimalContextType__S4core10__lit_implp3pi_fi_fi_fv4fb ,
+<a href="../tuple-0/index.html" class="code_type">Tuple</a>&lt;<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt;, __syn_BackwardDiffMinimalContextType__S4core10__lit_implp3pi_fi_fi_fv4fb&gt; <a href="../../global-decls/lit.html">lit</a>.apply_bwd(
     <span class="code_keyword">float</span> ,
     <span class="code_keyword">float</span> ,
     <span class="code_keyword">float</span> );
