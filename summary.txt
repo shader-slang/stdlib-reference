@@ -1,5 +1,5 @@
-documented pages: 787
-undocumented pages: 1022(56.5%)
+documented pages: 791
+undocumented pages: 988(55.5%)
 
 IArray<T>.subscript
 IBackwardDifferentiable<FType>
@@ -417,29 +417,22 @@ abs<T>.BwdCallable
 abs<T>.MinimalContext
 abs<T>.apply_bwd
 abs<T>.bwd_diff
-abs<T>.fwd_diff
 abs<T>.remat
 <T>
 acos<T>.BwdCallable
 acos<T>.MinimalContext
 acos<T>.apply_bwd
 acos<T>.bwd_diff
-acos<T>.fwd_diff
 acos<T>.remat
 <T>
 acosh<T>.BwdCallable
 acosh<T>.MinimalContext
 acosh<T>.apply_bwd
 acosh<T>.bwd_diff
-acosh<T>.fwd_diff
 acosh<T>.remat
 <T, int N>
 CoopVec<T, N>.add.
-vector<T,N>.add.BwdCallable
-vector<T,N>.add.MinimalContext
-vector<T,N>.add.apply_bwd
 vector<T,N>.add.fwd_diff
-vector<T,N>.add.remat
 <T>
 asin<T>.BwdCallable
 asin<T>.MinimalContext
@@ -460,21 +453,18 @@ atan<T>.BwdCallable
 atan<T>.MinimalContext
 atan<T>.apply_bwd
 atan<T>.bwd_diff
-atan<T>.fwd_diff
 atan<T>.remat
 <T, int N>
 atan2<T, N>.BwdCallable
 atan2<T, N>.MinimalContext
 atan2<T, N>.apply_bwd
 atan2<T, N>.bwd_diff
-atan2<T, N>.fwd_diff
 atan2<T, N>.remat
 <T>
 atanh<T>.BwdCallable
 atanh<T>.MinimalContext
 atanh<T>.apply_bwd
 atanh<T>.bwd_diff
-atanh<T>.fwd_diff
 atanh<T>.remat
 <T, int N>
 clamp<T, N>.BwdCallable
@@ -501,17 +491,18 @@ cosh<T>.BwdCallable
 cosh<T>.MinimalContext
 cosh<T>.apply_bwd
 cosh<T>.bwd_diff
-cosh<T>.fwd_diff
 cosh<T>.remat
 <T>
 cross<T>.BwdCallable
 cross<T>.MinimalContext
 cross<T>.apply_bwd
 cross<T>.bwd_diff
+cross<T>.fwd_diff
 cross<T>.remat
 <T>
 DifferentialPair<T>.dadd.BwdCallable
-DifferentialPair<T>.dadd.fwd_diff
+DifferentialPair<T>.dadd.MinimalContext
+DifferentialPair<T>.dadd.apply_bwd
 DifferentialPair<T>.dadd.remat
 <T>
 degrees<T>.BwdCallable
@@ -525,19 +516,20 @@ determinant<T, N>.BwdCallable
 determinant<T, N>.MinimalContext
 determinant<T, N>.apply_bwd
 determinant<T, N>.bwd_diff
-determinant<T, N>.fwd_diff
 determinant<T, N>.remat
 <T, int N>
 distance<T, N>.BwdCallable
 distance<T, N>.MinimalContext
 distance<T, N>.apply_bwd
 distance<T, N>.bwd_diff
+distance<T, N>.fwd_diff
 distance<T, N>.remat
 <T, int N>
 CoopVec<T, N>.div.
-vector<T,N>.div.BwdCallable
 vector<T,N>.div.MinimalContext
+vector<T,N>.div.apply_bwd
 vector<T,N>.div.fwd_diff
+vector<T,N>.div.remat
 <T, int N>
 dot<T, N>.BwdCallable
 dot<T, N>.MinimalContext
@@ -546,7 +538,7 @@ dot<T, N>.bwd_diff
 dot<T, N>.fwd_diff
 dot<T, N>.remat
 <T>
-DifferentialPair<T>.dzero.MinimalContext
+DifferentialPair<T>.dzero.BwdCallable
 DifferentialPair<T>.dzero.apply_bwd
 DifferentialPair<T>.dzero.fwd_diff
 DifferentialPair<T>.dzero.remat
@@ -556,7 +548,6 @@ exp<T>.BwdCallable
 exp<T>.MinimalContext
 exp<T>.apply_bwd
 exp<T>.bwd_diff
-exp<T>.fwd_diff
 exp<T>.remat
 <T>
 exp10<T, N>.
@@ -564,7 +555,6 @@ exp10<T>.BwdCallable
 exp10<T>.MinimalContext
 exp10<T>.apply_bwd
 exp10<T>.bwd_diff
-exp10<T>.fwd_diff
 exp10<T>.remat
 <T>
 exp2<T, N>.
@@ -579,6 +569,7 @@ fma<T, N>.BwdCallable
 fma<T, N>.MinimalContext
 fma<T, N>.apply_bwd
 fma<T, N>.bwd_diff
+fma<T, N>.fwd_diff
 fma<T, N>.remat
 <T, int N>
 fmod<T, N>.BwdCallable
@@ -591,7 +582,6 @@ frac<T>.BwdCallable
 frac<T>.MinimalContext
 frac<T>.apply_bwd
 frac<T>.bwd_diff
-frac<T>.fwd_diff
 frac<T>.remat
 <T, int N>
 CoopVec<T, N>.operator[].get.
@@ -605,6 +595,7 @@ length<T, N>.BwdCallable
 length<T, N>.MinimalContext
 length<T, N>.apply_bwd
 length<T, N>.bwd_diff
+length<T, N>.fwd_diff
 length<T, N>.remat
 <T, int N>
 lerp<T, N>.BwdCallable
@@ -613,31 +604,24 @@ lerp<T, N>.apply_bwd
 lerp<T, N>.bwd_diff
 lerp<T, N>.remat
 <T, A>
-DiffTensorView<T, A>.load.MinimalContext
 DiffTensorView<T, A>.load.apply_bwd
 DiffTensorView<T, A>.load.bwd_diff
 DiffTensorView<T, A>.load.fwd_diff
+DiffTensorView<T, A>.load.remat
 <T, A>
-DiffTensorView<T, A>.loadOnce.BwdCallable
-DiffTensorView<T, A>.loadOnce.MinimalContext
-DiffTensorView<T, A>.loadOnce.apply_bwd
-DiffTensorView<T, A>.loadOnce.bwd_diff
 DiffTensorView<T, A>.loadOnce.fwd_diff
-DiffTensorView<T, A>.loadOnce.remat
 <T>
 log<T, N>.
 log<T>.BwdCallable
 log<T>.MinimalContext
 log<T>.apply_bwd
 log<T>.bwd_diff
-log<T>.fwd_diff
 log<T>.remat
 <T>
 log10<T>.BwdCallable
 log10<T>.MinimalContext
 log10<T>.apply_bwd
 log10<T>.bwd_diff
-log10<T>.fwd_diff
 log10<T>.remat
 <T>
 log2<T, N>.
@@ -645,14 +629,12 @@ log2<T>.BwdCallable
 log2<T>.MinimalContext
 log2<T>.apply_bwd
 log2<T>.bwd_diff
-log2<T>.fwd_diff
 log2<T>.remat
 <T, int N>
 mad<T, N>.BwdCallable
 mad<T, N>.MinimalContext
 mad<T, N>.apply_bwd
 mad<T, N>.bwd_diff
-mad<T, N>.fwd_diff
 mad<T, N>.remat
 <T, int N>
 max<T, N>.BwdCallable
@@ -683,11 +665,8 @@ vector<T,N>.mul.fwd_diff
 vector<T,N>.mul.remat
 <T, int N>
 CoopVec<T, N>.neg.
-vector<T,N>.neg.BwdCallable
-vector<T,N>.neg.MinimalContext
 vector<T,N>.neg.apply_bwd
 vector<T,N>.neg.fwd_diff
-vector<T,N>.neg.remat
 <T, int N>
 normalize<T, N>.BwdCallable
 normalize<T, N>.MinimalContext
@@ -699,6 +678,7 @@ pow<T, N>.BwdCallable
 pow<T, N>.MinimalContext
 pow<T, N>.apply_bwd
 pow<T, N>.bwd_diff
+pow<T, N>.fwd_diff
 pow<T, N>.remat
 <T>
 radians<T>.BwdCallable
@@ -726,6 +706,7 @@ refract<T, N>.BwdCallable
 refract<T, N>.MinimalContext
 refract<T, N>.apply_bwd
 refract<T, N>.bwd_diff
+refract<T, N>.fwd_diff
 refract<T, N>.remat
 <T>
 rsqrt<T>.BwdCallable
@@ -739,12 +720,9 @@ saturate<T>.BwdCallable
 saturate<T>.MinimalContext
 saturate<T>.apply_bwd
 saturate<T>.bwd_diff
-saturate<T>.fwd_diff
 saturate<T>.remat
 <T1>
-vector<T,N>.scale<T1>.MinimalContext
 vector<T,N>.scale<T1>.fwd_diff
-vector<T,N>.scale<T1>.remat
 <T, int N>
 CoopVec<T, N>.operator[].set.
 CoopVec<T, N>.operator[].set.BwdCallable
@@ -758,43 +736,36 @@ sin<T>.BwdCallable
 sin<T>.MinimalContext
 sin<T>.apply_bwd
 sin<T>.bwd_diff
-sin<T>.fwd_diff
 sin<T>.remat
 <T>
 sinh<T>.BwdCallable
 sinh<T>.MinimalContext
 sinh<T>.apply_bwd
 sinh<T>.bwd_diff
-sinh<T>.fwd_diff
 sinh<T>.remat
 <T>
 sqrt<T>.BwdCallable
 sqrt<T>.MinimalContext
 sqrt<T>.apply_bwd
 sqrt<T>.bwd_diff
-sqrt<T>.fwd_diff
 sqrt<T>.remat
 <T, A>
-DiffTensorView<T, A>.store.BwdCallable
-DiffTensorView<T, A>.store.MinimalContext
-DiffTensorView<T, A>.store.apply_bwd
-DiffTensorView<T, A>.store.bwd_diff
 DiffTensorView<T, A>.store.fwd_diff
-DiffTensorView<T, A>.store.remat
 <T, A>
-DiffTensorView<T, A>.storeOnce.BwdCallable
-DiffTensorView<T, A>.storeOnce.bwd_diff
+DiffTensorView<T, A>.storeOnce.MinimalContext
+DiffTensorView<T, A>.storeOnce.apply_bwd
 DiffTensorView<T, A>.storeOnce.fwd_diff
-DiffTensorView<T, A>.storeOnce.remat
 <T, int N>
 CoopVec<T, N>.sub.
+vector<T,N>.sub.MinimalContext
+vector<T,N>.sub.apply_bwd
 vector<T,N>.sub.fwd_diff
+vector<T,N>.sub.remat
 <T>
 tan<T>.BwdCallable
 tan<T>.MinimalContext
 tan<T>.apply_bwd
 tan<T>.bwd_diff
-tan<T>.fwd_diff
 tan<T>.remat
 <T>
 tanh<T, N>.
@@ -802,13 +773,8 @@ tanh<T>.BwdCallable
 tanh<T>.MinimalContext
 tanh<T>.apply_bwd
 tanh<T>.bwd_diff
-tanh<T>.fwd_diff
 tanh<T>.remat
 <T, int N>
-vector<T,N>.toFloat.BwdCallable
-vector<T,N>.toFloat.MinimalContext
-vector<T,N>.toFloat.apply_bwd
-vector<T,N>.toFloat.remat
 <T, int N, int M>
 transpose<T, N, M>.BwdCallable
 transpose<T, N, M>.MinimalContext
