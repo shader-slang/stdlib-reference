@@ -7,9 +7,11 @@ layout: stdlib-reference
 ## Description
 
 Look up <span class='code'><a href="getdescriptorfromdynamicresourceheap-3dhow.html#decl-handleValue" class="code_param">handleValue</a></span> in the Vulkan dynamic-resource heap and return the descriptor. This is the
-<span class='code'>uint2</span>-handle path used directly on plain SPIR-V / GLSL, and reused by the <span class='code'>spvBindlessTextureNV</span>
-arm of <span class='code'><a href="defaultgetdescriptorfromhandle-7ako.html">defaultGetDescriptorFromHandle</a></span> for the kinds that extension does not convert (buffers and
-acceleration structures), so the heap lowering lives in exactly one place. Capabilities are
+<span class='code'>uint2</span>-handle path used directly on plain SPIR-V / GLSL (the <span class='code'>spirv</span>/<span class='code'>glsl</span> arm of
+<span class='code'><a href="defaultgetdescriptorfromhandle-7ako.html">defaultGetDescriptorFromHandle</a></span>); the descriptors <span class='code'>spvBindlessTextureNV</span> does not convert (buffers
+and acceleration structures) reach it via that same <span class='code'>spirv</span> arm when only <span class='code'>spvBindlessTextureNV</span> is
+enabled (that capability implies <span class='code'>spirv</span>) 429496726642949671684294967188 with <span class='code'>spvDescriptorHeapEXT</span> also enabled they take the
+EXT arm instead. So the dynamic-heap lowering lives in exactly one place. Capabilities are
 inferred from the body (as for <span class='code'><a href="defaultgetdescriptorfromhandle-7ako.html">defaultGetDescriptorFromHandle</a></span>) rather than declared, so the
 acceleration-structure path's <span class='code'>__asuint64</span> / ray-tracing requirements are picked up automatically.
 

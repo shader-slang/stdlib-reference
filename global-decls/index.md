@@ -283,7 +283,9 @@ Slang's Standard Library defines the following global declarations:
 - [fwidth](fwidth)
 - [fwidth\_coarse](fwidth_coarse)
 - [fwidth\_fine](fwidth_fine)
+- [getDescriptorFromDescriptorHeapEXT](getdescriptorfromdescriptorheapext-3dhrvwx)
 - [getDescriptorFromDynamicResourceHeap](getdescriptorfromdynamicresourceheap-3dhow)
+- [getDescriptorFromExplicitHeapIndex](getdescriptorfromexplicitheapindex-3dhpt)
 - [getDescriptorFromHandle](getdescriptorfromhandle-3dh)
 - [getRealtimeClock](getrealtimeclock-3b)
 - [getRealtimeClockLow](getrealtimeclocklow-3bg)
@@ -381,6 +383,7 @@ Slang's Standard Library defines the following global declarations:
 - [updateDiff](updatediff-6)
 - [updatePair](updatepair-6)
 - [updatePrimal](updateprimal-6)
+- [usesNativeSpirvDescriptorHandle](usesnativespirvdescriptorhandle-4afp)
 - [workgroupUniformLoad](workgroupuniformload-9g)
 
 <!-- RTD-TOC-START
@@ -472,7 +475,9 @@ detach <detach>
 diffPair <diffpair-4>
 enableVMMDeviceScopeCapabilityIfNeeded <enablevmmdevicescopecapabilityifneeded-6789fkuw>
 floatCast <floatcast-5>
+getDescriptorFromDescriptorHeapEXT <getdescriptorfromdescriptorheapext-3dhrvwx>
 getDescriptorFromDynamicResourceHeap <getdescriptorfromdynamicresourceheap-3dhow>
+getDescriptorFromExplicitHeapIndex <getdescriptorfromexplicitheapindex-3dhpt>
 getDescriptorFromHandle <getdescriptorfromhandle-3dh>
 getRealtimeClock <getrealtimeclock-3b>
 getRealtimeClockLow <getrealtimeclocklow-3bg>
@@ -525,6 +530,7 @@ unused <unused>
 updateDiff <updatediff-6>
 updatePair <updatepair-6>
 updatePrimal <updateprimal-6>
+usesNativeSpirvDescriptorHandle <usesnativespirvdescriptorhandle-4afp>
 workgroupUniformLoad <workgroupuniformload-9g>
 ```
 RTD-TOC-END -->
