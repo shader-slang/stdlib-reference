@@ -44,6 +44,7 @@ and its related functions are available in raytracing shader types only.
 * [GetObjectRayDirection](getobjectraydirection-039c)
 * [GetShaderRecordBufferHandle](getshaderrecordbufferhandle-039fl)
 * [GetAttributes](getattributes-03)
+* [GetTriangleVertexPositions](gettrianglevertexpositions-03bh)
 * [LoadLocalRootTableConstant](loadlocalroottableconstant-049di)
 * [GetRayFlags](getrayflags-036)
 * [GetRayTMin](getraytmin-0367)
@@ -85,6 +86,7 @@ GetRayTMin <getraytmin-0367>
 GetShaderRecordBufferHandle <getshaderrecordbufferhandle-039fl>
 GetShaderTableIndex <getshadertableindex-039e>
 GetSpherePositionAndRadius <getspherepositionandradius-039hk>
+GetTriangleVertexPositions <gettrianglevertexpositions-03bh>
 GetWorldRayDirection <getworldraydirection-038b>
 GetWorldRayOrigin <getworldrayorigin-038b>
 GetWorldToObject <getworldtoobject-038a>
