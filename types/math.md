@@ -17,8 +17,8 @@ This category contains the following declarations:
 :titlesonly:
 :hidden:
 
-extension dst : IBackwardDifferentiable<dst<T>> <dst/index>
-extension lit : IBackwardDifferentiable<lit> <lit/index>
+extension dst : IForwardDifferentiable<dst<T>> <dst/index>
+extension lit : IForwardDifferentiable<lit> <lit/index>
 extension sincos : IBackwardDifferentiable<sincos<T>> <sincos/index>
 ```
 RTD-TOC-END -->

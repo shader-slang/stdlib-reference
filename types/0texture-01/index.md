@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct \_Texture\<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format\>
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+*Conditionally conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 > #### Internal Feature
 > The feature described in this page is marked as an internal implementation detail, and is not intended for use by end-users.
@@ -80,6 +80,7 @@ The storage format of the texture. Users should specify the format using an <spa
 * [GatherCmpBlue](gathercmpblue-069)
 * [GatherCmpAlpha](gathercmpalpha-069)
 * [Store](store-0)
+* [getCount](getcount-3)
 * [GetDimensions](getdimensions-03)
 * [Load](load-0)
 * [subscript](subscript)
@@ -106,6 +107,17 @@ The storage format of the texture. Users should specify the format using an <spa
 
 ## Conditional Conformances
 
+### Conformance to IArray\<T\>
+`_Texture<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `IArray<T>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
+  * [Shape](index.html#typeparam-Shape) == [\_\_ShapeBuffer](../0_shapebuffer-027/index.html)
+  * [isArray](index.html#decl-isArray) == 0
+  * [isMS](index.html#decl-isMS) == 0
+  * [sampleCount](index.html#decl-sampleCount) == 0
+  * [access](index.html#decl-access) == 0
+  * [isShadow](index.html#decl-isShadow) == 0
+  * [isCombined](index.html#decl-isCombined) == 0
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `_Texture<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>` when the following conditions are met:
 
@@ -304,6 +316,7 @@ WriteSamplerFeedbackBias <writesamplerfeedbackbias-05ck>
 WriteSamplerFeedbackGrad <writesamplerfeedbackgrad-05ck>
 WriteSamplerFeedbackLevel <writesamplerfeedbacklevel-05ck>
 descriptorAccess <descriptoraccess-a>
+getCount <getcount-3>
 init <init>
 kind <kind>
 queryFootprintCoarse <queryfootprintcoarse-5e>
