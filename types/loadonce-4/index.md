@@ -36,7 +36,6 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
-MinimalContext <minimalcontext-07>
 fwd_diff <fwd_diff>
 remat <remat>
 ```
