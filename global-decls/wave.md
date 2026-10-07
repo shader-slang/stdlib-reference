@@ -39,6 +39,20 @@ This category contains the following declarations:
 
 #### [WaveBroadcastLaneAt\<T\>](wavebroadcastlaneat-04dh)
 
+#### [WaveClusteredBitAnd\<T\>](waveclusteredbitand-04dg)
+
+#### [WaveClusteredBitOr\<T\>](waveclusteredbitor-04dg)
+
+#### [WaveClusteredBitXor\<T\>](waveclusteredbitxor-04dg)
+
+#### [WaveClusteredMax\<T\>](waveclusteredmax-04d)
+
+#### [WaveClusteredMin\<T\>](waveclusteredmin-04d)
+
+#### [WaveClusteredProduct\<T\>](waveclusteredproduct-04d)
+
+#### [WaveClusteredSum\<T\>](waveclusteredsum-04d)
+
 #### [WaveGetActiveMulti](wavegetactivemulti-047d)
 
 #### [WaveGetConvergedMulti](wavegetconvergedmulti-047g)
@@ -114,6 +128,13 @@ WaveActiveMin <waveactivemin-04a>
 WaveActiveProduct <waveactiveproduct-04a>
 WaveActiveSum <waveactivesum-04a>
 WaveBroadcastLaneAt <wavebroadcastlaneat-04dh>
+WaveClusteredBitAnd <waveclusteredbitand-04dg>
+WaveClusteredBitOr <waveclusteredbitor-04dg>
+WaveClusteredBitXor <waveclusteredbitxor-04dg>
+WaveClusteredMax <waveclusteredmax-04d>
+WaveClusteredMin <waveclusteredmin-04d>
+WaveClusteredProduct <waveclusteredproduct-04d>
+WaveClusteredSum <waveclusteredsum-04d>
 WaveGetActiveMulti <wavegetactivemulti-047d>
 WaveGetConvergedMulti <wavegetconvergedmulti-047g>
 WaveGetLaneCount <wavegetlanecount-047b>

@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IInteger
 
-*Inherits from:* [IArithmetic](../iarithmetic-01/index.html), [ILogical](../ilogical-01/index.html)
+*Inherits from:* [IArithmetic](../iarithmetic-01/index.html), [ILogical](../ilogical-01/index.html), \_\_IMinMax
 
 ## Description
 

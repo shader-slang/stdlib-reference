@@ -15,10 +15,10 @@ layout: stdlib-reference
 
 ## Methods
 
-* [fwd\_diff](fwd_diff)
+* fwd\_diff
 * apply\_bwd
 * bwd\_diff
-* remat
+* [remat](remat)
 
 ## Conditional Conformances
 
@@ -34,10 +34,6 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IForwardDifferentiable<CoopVec<T, N>.sub>`.
 ### Conformance to IBackwardDifferentiable\<CoopVec\<T, N\>\.sub\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<CoopVec<T, N>.sub>`.
-### Conformance to IForwardDifferentiable\<CoopVec\<T, N\>\.sub\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<CoopVec<T, N>.sub>`.
-### Conformance to IBackwardDifferentiable\<CoopVec\<T, N\>\.sub\>
-`<T, int N>` additionally conforms to `IBackwardDifferentiable<CoopVec<T, N>.sub>`.
 
 <!-- RTD-TOC-START
 ```{toctree}
@@ -45,6 +41,8 @@ layout: stdlib-reference
 :hidden:
 
  <>
-fwd_diff <fwd_diff>
+BwdCallable <bwdcallable-03>
+MinimalContext <minimalcontext-07>
+remat <remat>
 ```
 RTD-TOC-END -->

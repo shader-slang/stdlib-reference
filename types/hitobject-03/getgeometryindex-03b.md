@@ -7,6 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Returns the geometry index of a hit. Valid if the hit object represents a hit.
+On CUDA/OptiX, returns the SBT GAS index of the hit primitive; see <span class='code'><a href="../../global-decls/geometryindex-08.html">GeometryIndex</a>()</span>.
 
 
 

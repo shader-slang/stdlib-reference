@@ -23,6 +23,18 @@ Maximum.
 <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>&gt;(
     <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-x" class="code_param">x</a>,
     <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/ifloat-01/index.html" class="code_type">IFloat</a>;
+
+/// Requires Capability Set 1:
+<a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iinteger-01/index.html" class="code_type">IInteger</a>;
+
+/// Requires Capability Set 1:
+<a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/icomparable-01/index.html" class="code_type">IComparable</a>;
 
 /// Requires Capability Set 1:
@@ -72,6 +84,8 @@ Maximum.
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
+####  <a id="typeparam-T"></a>T: [IFloat](../interfaces/ifloat-01/index.html)
+####  <a id="typeparam-T"></a>T: [IInteger](../interfaces/iinteger-01/index.html)
 ####  <a id="typeparam-T"></a>T: [IComparable](../interfaces/icomparable-01/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int

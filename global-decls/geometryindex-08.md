@@ -18,7 +18,10 @@ Returns the index of the geometry that was hit in an intersection, any-hit, or c
 </pre>
 
 ## Return value
-Zero-based index of the geometry in the current instance
+Zero-based index of the geometry in the current instance. On CUDA/OptiX, the SBT GAS index
+of the hit primitive, which equals the geometry index when every build input of the geometry
+acceleration structure has one shader binding table record (see "Geometry index" in the CUDA target
+documentation).
 
 ## Remarks
 Available in intersection, any-hit, and closest-hit shaders
@@ -32,6 +35,9 @@ Defined for the following targets:
 Available in stages: `intersection`, `closesthit`, `anyhit`.
 
 #### glsl
+Available in stages: `intersection`, `closesthit`, `anyhit`.
+
+#### cuda
 Available in stages: `intersection`, `closesthit`, `anyhit`.
 
 #### spirv

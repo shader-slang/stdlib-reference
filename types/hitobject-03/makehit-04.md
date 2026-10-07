@@ -12,6 +12,8 @@ and PrimitiveIndex must exist. The shader table index is computed using the form
 TraceRay. The computed index must reference a valid hit group record in the shader table. The
 Attributes parameter must either be an attribute struct, such as
 BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attributes from.
+On CUDA/OptiX, GeometryIndex is an SBT GAS index (see <span class='code'><a href="makehit-04.html#decl-GeometryIndex" class="code_param">GeometryIndex</a>()</span>), and with OptiX 9.0 and
+later the hit-identifying arguments are not used (see "Geometry index" in the CUDA target documentation).
 
 
 

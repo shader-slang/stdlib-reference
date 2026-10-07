@@ -53,6 +53,18 @@ Minimum.
 <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
     <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
     <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/ifloat-01/index.html" class="code_type">IFloat</a>;
+
+/// Requires Capability Set 1:
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iinteger-01/index.html" class="code_type">IInteger</a>;
+
+/// Requires Capability Set 1:
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/icomparable-01/index.html" class="code_type">IComparable</a>;
 
 /// Requires Capability Set 2:
@@ -75,6 +87,8 @@ Minimum.
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-T"></a>T: [IFloat](../interfaces/ifloat-01/index.html)
+####  <a id="typeparam-T"></a>T: [IInteger](../interfaces/iinteger-01/index.html)
 ####  <a id="typeparam-T"></a>T: [IComparable](../interfaces/icomparable-01/index.html)
 
 ## Parameters

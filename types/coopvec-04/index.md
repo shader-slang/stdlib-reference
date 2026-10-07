@@ -39,7 +39,12 @@ The vector size.
 * [equals](equals)
 * [lessThan](lessthan-4)
 * [lessThanOrEquals](lessthanorequals-48a)
+* [add](add)
+* [sub](sub)
+* [mul](mul)
+* [div](div)
 * [mod](mod)
+* [neg](neg)
 * [matMulAccumPacked](matmulaccumpacked-36b)
 * [matMulAccum](matmulaccum-36)
 * [matMulAddAccumPacked](matmuladdaccumpacked-369e)
@@ -47,11 +52,6 @@ The vector size.
 * [dzero](dzero)
 * [dadd](dadd)
 * [init](init)
-* [add](add)
-* [sub](sub)
-* [mul](mul)
-* [div](div)
-* [neg](neg)
 
 ## Conditional Conformances
 
