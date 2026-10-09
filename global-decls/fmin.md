@@ -49,7 +49,10 @@ The second value to compare.
 The smaller of the two values, element-wise if vector typed.
 
 ## Remarks
-Result is <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> if <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> < <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span>, either <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> or <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span> if both <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span> are zeros, otherwise <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span>. Which operand is the result is undefined if one of the operands is a NaN.
+HLSL/DXIL returns the numeric operand for one NaN, and a NaN for two NaNs.
+SPIR-V uses the corresponding <span class='code'>NMin</span>/<span class='code'>NMax</span> operations; target floating-point modes may relax
+special-value behavior. GLSL uses native <span class='code'><a href="min.html">min</a></span>/<span class='code'><a href="max.html">max</a></span>, which need not follow those NaN rules.
+Zero-sign selection also follows the target operation.
 
 
 ## Availability and Requirements

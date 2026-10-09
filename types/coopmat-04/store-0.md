@@ -35,7 +35,7 @@ Stores the cooperative matrix into a byte address buffer.
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, <span class="code_keyword">int</span> V&gt;(
     <a href="index.html#typeparam-T" class="code_type">T</a>[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -48,7 +48,7 @@ Stores the cooperative matrix into a byte address buffer.
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V&gt;(
     <a href="store-0.html#typeparam-U" class="code_type">U</a>[<a href="store-0.html#decl-V" class="code_var">V</a>] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -61,21 +61,21 @@ Stores the cooperative matrix into a byte address buffer.
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 3:
+/// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V, <span class="code_keyword">int</span> L&gt;(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="store-0.html#typeparam-U" class="code_type">U</a>, <a href="store-0.html#typeparam-L" class="code_type">L</a>&gt;[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 4:
+/// Requires Capability Set 5:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode&gt;(
     <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 4:
+/// Requires Capability Set 5:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, L&gt;(
     <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, L&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -83,13 +83,13 @@ Stores the cooperative matrix into a byte address buffer.
     <span class='code_keyword'>where</span> <a href="store-0.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 4:
+/// Requires Capability Set 5:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, P&gt;(
     <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-P" class="code_type">P</a>, Access.ReadWrite, AddressSpace.Device, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-dest" class="code_param">dest</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 4:
+/// Requires Capability Set 5:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, <span class="code_keyword">uint</span> DimView, <span class="code_keyword">bool</span> HasDimensions, <span class="code_keyword">uint</span> p0, <span class="code_keyword">uint</span> p1, <span class="code_keyword">uint</span> p2, <span class="code_keyword">uint</span> p3, <span class="code_keyword">uint</span> p4&gt;(
     <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -97,7 +97,7 @@ Stores the cooperative matrix into a byte address buffer.
     linalg.<a href="../tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="store-0.html#decl-DimView" class="code_var">DimView</a>, <a href="store-0.html#decl-HasDimensions" class="code_var">HasDimensions</a>, <a href="store-0.html#decl-p0" class="code_var">p0</a>, <a href="store-0.html#decl-p1" class="code_var">p1</a>, <a href="store-0.html#decl-p2" class="code_var">p2</a>, <a href="store-0.html#decl-p3" class="code_var">p3</a>, <a href="store-0.html#decl-p4" class="code_var">p4</a>&gt; <a href="store-0.html#decl-tensorView" class="code_param">tensorView</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 4:
+/// Requires Capability Set 5:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, <span class="code_keyword">uint</span> DimView, <span class="code_keyword">bool</span> HasDimensions, <span class="code_keyword">uint</span> p0, <span class="code_keyword">uint</span> p1, <span class="code_keyword">uint</span> p2, <span class="code_keyword">uint</span> p3, <span class="code_keyword">uint</span> p4, L&gt;(
     <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, L&gt; <a href="store-0.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
@@ -106,7 +106,7 @@ Stores the cooperative matrix into a byte address buffer.
     <span class='code_keyword'>where</span> <a href="store-0.html#typeparam-L" class="code_type">L</a> : <a href="../../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
 
-/// Requires Capability Set 4:
+/// Requires Capability Set 5:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;<span class="code_keyword">uint</span> <a href="store-0.html#decl-Dim" class="code_var">Dim</a>, linalg.<a href="../coopmatclampmode-047c/index.html" class="code_type">CoopMatClampMode</a>ClampMode, <span class="code_keyword">uint</span> DimView, <span class="code_keyword">bool</span> HasDimensions, <span class="code_keyword">uint</span> p0, <span class="code_keyword">uint</span> p1, <span class="code_keyword">uint</span> p2, <span class="code_keyword">uint</span> p3, <span class="code_keyword">uint</span> p4, P&gt;(
     <a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="store-0.html#typeparam-P" class="code_type">P</a>, Access.ReadWrite, AddressSpace.Device, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store-0.html#decl-dest" class="code_param">dest</a>,
     linalg.<a href="../tensorlayout-06/index.html" class="code_type">TensorLayout</a>&lt;<a href="store-0.html#decl-Dim" class="code_var">Dim</a>, <a href="store-0.html#decl-ClampMode" class="code_var">ClampMode</a>&gt; <a href="store-0.html#decl-tensorLayout" class="code_param">tensorLayout</a>,
@@ -199,12 +199,30 @@ Requires capability: `spvCooperativeMatrixKHR`.
 
 Defined for the following targets:
 
+#### hlsl
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### metal
+Available in all stages.
+
 #### spirv
 Available in all stages.
 
 Requires capability: `spvCooperativeMatrixKHR`.
 
 ### Capability Set 4
+
+Defined for the following targets:
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeMatrixKHR`.
+
+### Capability Set 5
 
 Defined for the following targets:
 

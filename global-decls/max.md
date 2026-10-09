@@ -44,7 +44,7 @@ Maximum.
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="max.html#decl-M" class="code_var">M</a>&gt;(
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="max.html#decl-M" class="code_var">M</a>, MatrixLayoutMode <a href="max.html#decl-L" class="code_var">L</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
@@ -62,10 +62,22 @@ Maximum.
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="max.html#decl-M" class="code_var">M</a>&gt;(
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+
+/// Requires Capability Set 1:
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="max.html#decl-M" class="code_var">M</a>, MatrixLayoutMode <a href="max.html#decl-L" class="code_var">L</a>&gt;(
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
     <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
     <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+
+/// Requires Capability Set 1:
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>, <span class="code_keyword">int</span> <a href="max.html#decl-M" class="code_var">M</a>, MatrixLayoutMode <a href="max.html#decl-L" class="code_var">L</a>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="max.html#decl-N" class="code_var">N</a>&gt;(
@@ -89,7 +101,9 @@ Maximum.
 ####  <a id="typeparam-T"></a>T: [IComparable](../interfaces/icomparable-01/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
+####  <a id="decl-L"></a>L  : MatrixLayoutMode
 ####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 
 ## Parameters
 
