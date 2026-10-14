@@ -16,7 +16,8 @@ Mark a compute shader entry point to allow it to use implicit derivatives.
 
 ## Remarks
 
-This attributes causes Slang to emit <span class='code'>DerivativeGroupQuadsNV</span> execution mode when producing SPIR-V. The attribute has no
-effect on other targets.
+This attribute emits the <span class='code'>DerivativeGroupQuadsKHR</span> execution mode for SPIR-V
+and the <span class='code'>derivative_group_quadsNV</span> layout qualifier for GLSL.
+It has no effect on other targets.
 
 
