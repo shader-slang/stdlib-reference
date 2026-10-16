@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct SAMPLER\_FEEDBACK\_MIP\_REGION\_USED
 
-*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../../interfaces/itexelelement-016/index.html)
+*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelData](../../interfaces/itexeldata-016/index.html)
 
 ## Description
 

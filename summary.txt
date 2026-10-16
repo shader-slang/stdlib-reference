@@ -1,5 +1,5 @@
-documented pages: 796
-undocumented pages: 1022(56.2%)
+documented pages: 835
+undocumented pages: 1188(58.7%)
 
 IArray<T>.subscript
 IBackwardDifferentiable<FType>
@@ -43,7 +43,9 @@ IPhysicalBuffer.LoadByteOffset<T>
 IRWArray<T>.subscript
 IRWPhysicalBuffer
 IRWPhysicalBuffer.StoreByteOffset<T>
-ITexelElement.elementCount
+ITexelData.elementCount
+ITexelData.init
+ITexelElement.format
 ITexelElement.init
 __ITextureShape.dimensions
 __ITextureShape.flavor
@@ -73,8 +75,12 @@ AtomicAdd.storeOnce_forward<T>
 AtomicAdd.store_backward<T>
 AtomicAdd.store_forward<T>
 BFloat16.init
+BGRA8Unorm.DataType
+BGRA8Unorm.format
+BGRA8Unorm.init
+BGRA8Unorm.value
 BindlessDescriptorOptions
-Buffer<T, int format>
+Buffer<T>
 BwdCallableFuncType<FType, CtxType>
 BwdDiffFuncType<FType>
 ByteAddressBuffer.GetBufferPointer
@@ -198,8 +204,172 @@ PointStream<T>.Append
 PointStream<T>.RestartStrip
 Ptr<T, Access access, AddressSpace addrSpace, L>.init<U, Access accessOther>
 Ptr<T, Access access, AddressSpace addrSpace, L>.subscript<TInt>
+R11G11B10F.DataType
+R11G11B10F.format
+R11G11B10F.init
+R11G11B10F.value
+R16F.DataType
+R16F.format
+R16F.init
+R16F.value
+R16I.DataType
+R16I.format
+R16I.init
+R16I.value
+R16Snorm.DataType
+R16Snorm.format
+R16Snorm.init
+R16Snorm.value
+R16UI.DataType
+R16UI.format
+R16UI.init
+R16UI.value
+R16Unorm.DataType
+R16Unorm.format
+R16Unorm.init
+R16Unorm.value
+R32F.DataType
+R32F.format
+R32F.init
+R32F.value
+R32I.DataType
+R32I.format
+R32I.init
+R32I.value
+R32UI.DataType
+R32UI.format
+R32UI.init
+R32UI.value
+R64I.DataType
+R64I.format
+R64I.init
+R64I.value
+R64UI.DataType
+R64UI.format
+R64UI.init
+R64UI.value
+R8I.DataType
+R8I.format
+R8I.init
+R8I.value
+R8Snorm.DataType
+R8Snorm.format
+R8Snorm.init
+R8Snorm.value
+R8UI.DataType
+R8UI.format
+R8UI.init
+R8UI.value
+R8Unorm.DataType
+R8Unorm.format
+R8Unorm.init
+R8Unorm.value
 RAYQUERY_FLAG
-RWBuffer<T, int format>
+RG16F.DataType
+RG16F.format
+RG16F.init
+RG16F.value
+RG16I.DataType
+RG16I.format
+RG16I.init
+RG16I.value
+RG16Snorm.DataType
+RG16Snorm.format
+RG16Snorm.init
+RG16Snorm.value
+RG16UI.DataType
+RG16UI.format
+RG16UI.init
+RG16UI.value
+RG16Unorm.DataType
+RG16Unorm.format
+RG16Unorm.init
+RG16Unorm.value
+RG32F.DataType
+RG32F.format
+RG32F.init
+RG32F.value
+RG32I.DataType
+RG32I.format
+RG32I.init
+RG32I.value
+RG32UI.DataType
+RG32UI.format
+RG32UI.init
+RG32UI.value
+RG8I.DataType
+RG8I.format
+RG8I.init
+RG8I.value
+RG8Snorm.DataType
+RG8Snorm.format
+RG8Snorm.init
+RG8Snorm.value
+RG8UI.DataType
+RG8UI.format
+RG8UI.init
+RG8UI.value
+RG8Unorm.DataType
+RG8Unorm.format
+RG8Unorm.init
+RG8Unorm.value
+RGB10A2UI.DataType
+RGB10A2UI.format
+RGB10A2UI.init
+RGB10A2UI.value
+RGB10A2Unorm.DataType
+RGB10A2Unorm.format
+RGB10A2Unorm.init
+RGB10A2Unorm.value
+RGBA16F.DataType
+RGBA16F.format
+RGBA16F.init
+RGBA16F.value
+RGBA16I.DataType
+RGBA16I.format
+RGBA16I.init
+RGBA16I.value
+RGBA16Snorm.DataType
+RGBA16Snorm.format
+RGBA16Snorm.init
+RGBA16Snorm.value
+RGBA16UI.DataType
+RGBA16UI.format
+RGBA16UI.init
+RGBA16UI.value
+RGBA16Unorm.DataType
+RGBA16Unorm.format
+RGBA16Unorm.init
+RGBA16Unorm.value
+RGBA32F.DataType
+RGBA32F.format
+RGBA32F.init
+RGBA32F.value
+RGBA32I.DataType
+RGBA32I.format
+RGBA32I.init
+RGBA32I.value
+RGBA32UI.DataType
+RGBA32UI.format
+RGBA32UI.init
+RGBA32UI.value
+RGBA8I.DataType
+RGBA8I.format
+RGBA8I.init
+RGBA8I.value
+RGBA8Snorm.DataType
+RGBA8Snorm.format
+RGBA8Snorm.init
+RGBA8Snorm.value
+RGBA8UI.DataType
+RGBA8UI.format
+RGBA8UI.init
+RGBA8UI.value
+RGBA8Unorm.DataType
+RGBA8Unorm.format
+RGBA8Unorm.init
+RGBA8Unorm.value
+RWBuffer<T>
 RWByteAddressBuffer.GetBufferPointer
 RWByteAddressBuffer.Handle
 RWByteAddressBuffer.InterlockedAddF64
@@ -214,7 +384,7 @@ RWStructuredBuffer<T, L>.getCount
 RWStructuredBuffer<T, L>.init
 RWStructuredBuffer<T, L>.kind
 RWStructuredBuffer<T, L>.subscript<TIndex>
-RasterizerOrderedBuffer<T, int format>
+RasterizerOrderedBuffer<T>
 RasterizerOrderedByteAddressBuffer.Handle
 RasterizerOrderedByteAddressBuffer.descriptorAccess
 RasterizerOrderedByteAddressBuffer.init
@@ -341,59 +511,60 @@ UntypedResourceHandle.init
 UntypedSamplerHandle
 UntypedSamplerHandle.init
 VkMutableBindlessBindings
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Footprint
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.FootprintGranularity
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.Gather
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherAlpha
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherBlue
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmp
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpAlpha
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpBlue
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpGreen
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpRed
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherGreen
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherRed
-_Texture<T, __Shape1D, 0, 0, sampleCount, access, isShadow, isCombined, format>.GetDimensions
-_Texture<T, Shape, isArray, 1, sampleCount, access, isShadow, isCombined, format>.GetSamplePosition
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.Handle
-_Texture<float, Shape, 0, 0, 0, 1, 0, 0, format>.InterlockedAddF32
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.Load
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleBias
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmp
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpBias
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpGrad
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevel
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevelZero
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleGrad
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleLevel
-_Texture<T, Shape, isArray, 0, sampleCount, 1, isShadow, 0, format>.Store
-_Texture<T, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.TextureCoord
-FeedbackTexture2D<T>.WriteSamplerFeedback<S>
-FeedbackTexture2D<T>.WriteSamplerFeedbackBias<S>
-FeedbackTexture2D<T>.WriteSamplerFeedbackGrad<S>
-FeedbackTexture2D<T>.WriteSamplerFeedbackLevel<S>
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.descriptorAccess
-Buffer<T>.getCount
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.init
-_Texture<T, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.kind
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarse
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBias
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBiasClamp
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseClamp
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseGrad
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseGradClamp
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseLevel
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFine
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineBias
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineBiasClamp
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineClamp
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGrad
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGradClamp
-_Texture<T, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineLevel
-_Texture<T, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.subscript
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetail
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.CalculateLevelOfDetailUnclamped
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Coords
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.Footprint
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.FootprintGranularity
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.Gather
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherAlpha
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherBlue
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmp
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpAlpha
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpBlue
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpGreen
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherCmpRed
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherGreen
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, 0, format>.GatherRed
+_Texture<Texel, __Shape1D, 0, 0, sampleCount, access, isShadow, isCombined, format>.GetDimensions
+_Texture<Texel, Shape, isArray, 1, sampleCount, access, isShadow, isCombined, format>.GetSamplePosition
+_Texture<Texel, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.Handle
+_Texture<Texel, Shape, 0, 0, 0, 1, 0, 0, format>.InterlockedAddF32
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.Load
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleBias
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmp
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpBias
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpGrad
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevel
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleCmpLevelZero
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleGrad
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.SampleLevel
+_Texture<Texel, Shape, isArray, 0, sampleCount, 1, isShadow, 0, format>.Store
+_Texture<Texel, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>.T
+_Texture<Texel, Shape, isArray, isMS, sampleCount, 0, isShadow, 1, format>.TextureCoord
+FeedbackTexture2D<Texel>.WriteSamplerFeedback<S, int textureFormat>
+FeedbackTexture2D<Texel>.WriteSamplerFeedbackBias<S, int textureFormat>
+FeedbackTexture2D<Texel>.WriteSamplerFeedbackGrad<S, int textureFormat>
+FeedbackTexture2D<Texel>.WriteSamplerFeedbackLevel<S, int textureFormat>
+_Texture<Texel, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.descriptorAccess
+Buffer<Texel>.getCount
+_Texture<Texel, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.init
+_Texture<Texel, Shape, isArray, isMS, sampleCount, access, isShadow, isCombined, format>.kind
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarse
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBias
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseBiasClamp
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseClamp
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseGrad
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseGradClamp
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintCoarseLevel
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFine
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineBias
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineBiasClamp
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineClamp
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGrad
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineGradClamp
+_Texture<Texel, Shape, 0, 0, sampleCount, 0, isShadow, 0, format>.queryFootprintFineLevel
+_Texture<Texel, Shape, isArray, 0, sampleCount, 0, isShadow, isCombined, format>.subscript
 __Shape1D.dimensions
 __Shape1D.flavor
 __Shape1D.planeDimensions
@@ -410,8 +581,8 @@ __ShapeCube.dimensions
 __ShapeCube.flavor
 __ShapeCube.planeDimensions
 <T>
-T.Element
-T.elementCount
+T.DataType
+T.format
 T.init
 <T>
 abs<T>.BwdCallable
@@ -425,14 +596,12 @@ acos<T>.BwdCallable
 acos<T>.MinimalContext
 acos<T>.apply_bwd
 acos<T>.bwd_diff
-acos<T>.fwd_diff
 acos<T>.remat
 <T>
 acosh<T>.BwdCallable
 acosh<T>.MinimalContext
 acosh<T>.apply_bwd
 acosh<T>.bwd_diff
-acosh<T>.fwd_diff
 acosh<T>.remat
 <T, int N>
 CoopVec<T, N>.add.
@@ -440,6 +609,7 @@ vector<T,N>.add.BwdCallable
 vector<T,N>.add.MinimalContext
 vector<T,N>.add.apply_bwd
 vector<T,N>.add.fwd_diff
+vector<T,N>.add.remat
 <T>
 asin<T>.BwdCallable
 asin<T>.MinimalContext
@@ -460,14 +630,12 @@ atan<T>.BwdCallable
 atan<T>.MinimalContext
 atan<T>.apply_bwd
 atan<T>.bwd_diff
-atan<T>.fwd_diff
 atan<T>.remat
 <T, int N>
 atan2<T, N>.BwdCallable
 atan2<T, N>.MinimalContext
 atan2<T, N>.apply_bwd
 atan2<T, N>.bwd_diff
-atan2<T, N>.fwd_diff
 atan2<T, N>.remat
 <T>
 atanh<T>.BwdCallable
@@ -481,13 +649,13 @@ clamp<T, N>.BwdCallable
 clamp<T, N>.MinimalContext
 clamp<T, N>.apply_bwd
 clamp<T, N>.bwd_diff
-clamp<T, N>.fwd_diff
 clamp<T, N>.remat
 <T>
 copysign<T>.BwdCallable
 copysign<T>.MinimalContext
 copysign<T>.apply_bwd
 copysign<T>.bwd_diff
+copysign<T>.fwd_diff
 copysign<T>.remat
 <T>
 cos<T, N>.
@@ -495,7 +663,6 @@ cos<T>.BwdCallable
 cos<T>.MinimalContext
 cos<T>.apply_bwd
 cos<T>.bwd_diff
-cos<T>.fwd_diff
 cos<T>.remat
 <T>
 cosh<T>.BwdCallable
@@ -509,15 +676,16 @@ cross<T>.BwdCallable
 cross<T>.MinimalContext
 cross<T>.apply_bwd
 cross<T>.bwd_diff
+cross<T>.fwd_diff
 cross<T>.remat
 <T>
-DifferentialPair<T>.dadd.fwd_diff
+DifferentialPair<T>.dadd.BwdCallable
+DifferentialPair<T>.dadd.remat
 <T>
 degrees<T>.BwdCallable
 degrees<T>.MinimalContext
 degrees<T>.apply_bwd
 degrees<T>.bwd_diff
-degrees<T>.fwd_diff
 degrees<T>.remat
 <T, int N>
 determinant<T, N>.BwdCallable
@@ -534,6 +702,7 @@ distance<T, N>.bwd_diff
 distance<T, N>.remat
 <T, int N>
 CoopVec<T, N>.div.
+vector<T,N>.div.BwdCallable
 vector<T,N>.div.MinimalContext
 vector<T,N>.div.apply_bwd
 vector<T,N>.div.fwd_diff
@@ -546,8 +715,10 @@ dot<T, N>.bwd_diff
 dot<T, N>.fwd_diff
 dot<T, N>.remat
 <T>
+DifferentialPair<T>.dzero.BwdCallable
 DifferentialPair<T>.dzero.MinimalContext
 DifferentialPair<T>.dzero.apply_bwd
+DifferentialPair<T>.dzero.fwd_diff
 DifferentialPair<T>.dzero.remat
 <T>
 exp<T, N>.
@@ -555,7 +726,6 @@ exp<T>.BwdCallable
 exp<T>.MinimalContext
 exp<T>.apply_bwd
 exp<T>.bwd_diff
-exp<T>.fwd_diff
 exp<T>.remat
 <T>
 exp10<T, N>.
@@ -578,6 +748,7 @@ fma<T, N>.BwdCallable
 fma<T, N>.MinimalContext
 fma<T, N>.apply_bwd
 fma<T, N>.bwd_diff
+fma<T, N>.fwd_diff
 fma<T, N>.remat
 <T, int N>
 fmod<T, N>.BwdCallable
@@ -591,7 +762,6 @@ frac<T>.BwdCallable
 frac<T>.MinimalContext
 frac<T>.apply_bwd
 frac<T>.bwd_diff
-frac<T>.fwd_diff
 frac<T>.remat
 <T, int N>
 CoopVec<T, N>.operator[].get.
@@ -605,7 +775,6 @@ length<T, N>.BwdCallable
 length<T, N>.MinimalContext
 length<T, N>.apply_bwd
 length<T, N>.bwd_diff
-length<T, N>.fwd_diff
 length<T, N>.remat
 <T, int N>
 lerp<T, N>.BwdCallable
@@ -616,13 +785,13 @@ lerp<T, N>.fwd_diff
 lerp<T, N>.remat
 <T, A>
 DiffTensorView<T, A>.load.BwdCallable
+DiffTensorView<T, A>.load.apply_bwd
+DiffTensorView<T, A>.load.bwd_diff
 DiffTensorView<T, A>.load.fwd_diff
-DiffTensorView<T, A>.load.remat
 <T, A>
 DiffTensorView<T, A>.loadOnce.BwdCallable
 DiffTensorView<T, A>.loadOnce.MinimalContext
 DiffTensorView<T, A>.loadOnce.apply_bwd
-DiffTensorView<T, A>.loadOnce.bwd_diff
 DiffTensorView<T, A>.loadOnce.fwd_diff
 DiffTensorView<T, A>.loadOnce.remat
 <T>
@@ -631,14 +800,12 @@ log<T>.BwdCallable
 log<T>.MinimalContext
 log<T>.apply_bwd
 log<T>.bwd_diff
-log<T>.fwd_diff
 log<T>.remat
 <T>
 log10<T>.BwdCallable
 log10<T>.MinimalContext
 log10<T>.apply_bwd
 log10<T>.bwd_diff
-log10<T>.fwd_diff
 log10<T>.remat
 <T>
 log2<T, N>.
@@ -653,12 +820,14 @@ mad<T, N>.BwdCallable
 mad<T, N>.MinimalContext
 mad<T, N>.apply_bwd
 mad<T, N>.bwd_diff
+mad<T, N>.fwd_diff
 mad<T, N>.remat
 <T, int N>
 max<T, N>.BwdCallable
 max<T, N>.MinimalContext
 max<T, N>.apply_bwd
 max<T, N>.bwd_diff
+max<T, N>.fwd_diff
 max<T, N>.remat
 <T, int N>
 min<T, N>.BwdCallable
@@ -671,37 +840,38 @@ min<T, N>.remat
 vector<T,N>.mod.BwdCallable
 vector<T,N>.mod.MinimalContext
 vector<T,N>.mod.apply_bwd
-vector<T,N>.mod.fwd_diff
 vector<T,N>.mod.remat
 <T, int N>
 CoopVec<T, N>.mul.
+vector<T,N>.mul.BwdCallable
+vector<T,N>.mul.MinimalContext
+vector<T,N>.mul.apply_bwd
 vector<T,N>.mul.fwd_diff
+vector<T,N>.mul.remat
 <T, int N>
 CoopVec<T, N>.neg.
 vector<T,N>.neg.BwdCallable
 vector<T,N>.neg.MinimalContext
 vector<T,N>.neg.apply_bwd
-vector<T,N>.neg.fwd_diff
 vector<T,N>.neg.remat
 <T, int N>
 normalize<T, N>.BwdCallable
 normalize<T, N>.MinimalContext
 normalize<T, N>.apply_bwd
 normalize<T, N>.bwd_diff
-normalize<T, N>.fwd_diff
 normalize<T, N>.remat
 <T, int N>
 pow<T, N>.BwdCallable
 pow<T, N>.MinimalContext
 pow<T, N>.apply_bwd
 pow<T, N>.bwd_diff
+pow<T, N>.fwd_diff
 pow<T, N>.remat
 <T>
 radians<T>.BwdCallable
 radians<T>.MinimalContext
 radians<T>.apply_bwd
 radians<T>.bwd_diff
-radians<T>.fwd_diff
 radians<T>.remat
 <T>
 rcp<T>.BwdCallable
@@ -721,7 +891,6 @@ refract<T, N>.BwdCallable
 refract<T, N>.MinimalContext
 refract<T, N>.apply_bwd
 refract<T, N>.bwd_diff
-refract<T, N>.fwd_diff
 refract<T, N>.remat
 <T>
 rsqrt<T>.BwdCallable
@@ -738,11 +907,6 @@ saturate<T>.bwd_diff
 saturate<T>.fwd_diff
 saturate<T>.remat
 <T1>
-vector<T,N>.scale<T1>.BwdCallable
-vector<T,N>.scale<T1>.MinimalContext
-vector<T,N>.scale<T1>.apply_bwd
-vector<T,N>.scale<T1>.fwd_diff
-vector<T,N>.scale<T1>.remat
 <T, int N>
 CoopVec<T, N>.operator[].set.
 CoopVec<T, N>.operator[].set.BwdCallable
@@ -756,14 +920,12 @@ sin<T>.BwdCallable
 sin<T>.MinimalContext
 sin<T>.apply_bwd
 sin<T>.bwd_diff
-sin<T>.fwd_diff
 sin<T>.remat
 <T>
 sinh<T>.BwdCallable
 sinh<T>.MinimalContext
 sinh<T>.apply_bwd
 sinh<T>.bwd_diff
-sinh<T>.fwd_diff
 sinh<T>.remat
 <T>
 sqrt<T>.BwdCallable
@@ -773,22 +935,25 @@ sqrt<T>.bwd_diff
 sqrt<T>.fwd_diff
 sqrt<T>.remat
 <T, A>
+DiffTensorView<T, A>.store.apply_bwd
+DiffTensorView<T, A>.store.bwd_diff
 DiffTensorView<T, A>.store.fwd_diff
+DiffTensorView<T, A>.store.remat
 <T, A>
-DiffTensorView<T, A>.storeOnce.apply_bwd
+DiffTensorView<T, A>.storeOnce.BwdCallable
+DiffTensorView<T, A>.storeOnce.bwd_diff
 DiffTensorView<T, A>.storeOnce.fwd_diff
+DiffTensorView<T, A>.storeOnce.remat
 <T, int N>
 CoopVec<T, N>.sub.
-vector<T,N>.sub.BwdCallable
 vector<T,N>.sub.MinimalContext
 vector<T,N>.sub.apply_bwd
-vector<T,N>.sub.remat
+vector<T,N>.sub.fwd_diff
 <T>
 tan<T>.BwdCallable
 tan<T>.MinimalContext
 tan<T>.apply_bwd
 tan<T>.bwd_diff
-tan<T>.fwd_diff
 tan<T>.remat
 <T>
 tanh<T, N>.
@@ -796,10 +961,11 @@ tanh<T>.BwdCallable
 tanh<T>.MinimalContext
 tanh<T>.apply_bwd
 tanh<T>.bwd_diff
-tanh<T>.fwd_diff
 tanh<T>.remat
 <T, int N>
-vector<T,N>.toFloat.fwd_diff
+vector<T,N>.toFloat.BwdCallable
+vector<T,N>.toFloat.MinimalContext
+vector<T,N>.toFloat.apply_bwd
 vector<T,N>.toFloat.remat
 <T, int N, int M>
 transpose<T, N, M>.BwdCallable

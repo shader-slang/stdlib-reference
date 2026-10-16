@@ -2,9 +2,9 @@
 layout: stdlib-reference
 ---
 
-# struct \_Texture\<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format\>
+# struct \_Texture\<Texel, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format\>
 
-*Conditionally conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
+*Conditionally conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<Texel\.DataType\>, \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 
 > #### Internal Feature
 > The feature described in this page is marked as an internal implementation detail, and is not intended for use by end-users.
@@ -21,8 +21,8 @@ This documentation is provided for reference purposes only.
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [ITexelElement](../../interfaces/itexelelement-016/index.html)
-The element type of the texture. Must be a scalar or vector type.
+####  <a id="typeparam-Texel"></a>Texel: [ITexelElement](../../interfaces/itexelelement-016/index.html)
+The texel type or storage format descriptor. Its <span class='code'>DataType</span> is used to read, write, or sample texels.
 
 ####  <a id="typeparam-Shape"></a>Shape: [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)
 The shape of the texture. Must be one of <span class='code'><a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a></span>, <span class='code'><a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a></span>, <span class='code'><a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a></span>, <span class='code'><a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a></span>.
@@ -46,7 +46,7 @@ Indicates whether the texture is a depth texture (<span class='code'><a href="in
 Indicates whether the texture is a combined texture-sampler.
 
 ####  <a id="decl-format"></a>format  : int
-The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
+The storage format of the texture. Users should use public texture format types such as <span class='code'><a href="../rgba16f-01236/index.html" class="code_type">RGBA16F</a></span> instead.
 
 
 ## Fields
@@ -107,10 +107,10 @@ The storage format of the texture. Users should specify the format using an <spa
 
 ## Conditional Conformances
 
-### Conformance to IArray\<T\>
-`_Texture<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `IArray<T>` when the following conditions are met:
+### Conformance to IArray\<Texel\.DataType\>
+`_Texture<Texel, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `IArray<Texel.DataType>` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
+  * [Texel](index.html#typeparam-Texel) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
   * [Shape](index.html#typeparam-Shape) == [\_\_ShapeBuffer](../0_shapebuffer-027/index.html)
   * [isArray](index.html#decl-isArray) == 0
   * [isMS](index.html#decl-isMS) == 0
@@ -119,9 +119,9 @@ The storage format of the texture. Users should specify the format using an <spa
   * [isShadow](index.html#decl-isShadow) == 0
   * [isCombined](index.html#decl-isCombined) == 0
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
-`_Texture<T, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>` when the following conditions are met:
+`_Texture<Texel, Shape, int isArray, int isMS, int sampleCount, int access, int isShadow, int isCombined, int format>` additionally conforms to `__IDynamicResourceCastable<__DynamicResourceKind.General>` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
+  * [Texel](index.html#typeparam-Texel) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
   * [Shape](index.html#typeparam-Shape) : [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)
 ## Remarks
 
@@ -129,9 +129,9 @@ The storage format of the texture. Users should specify the format using an <spa
 HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href="index.html" class="code_type">_Texture</a></span> type. Users
 are advised to use the HLSL-specific texture types instead of <span class='code'><a href="index.html" class="code_type">_Texture</a></span> directly.
 
-For read-write textures, Slang will automatically infer <span class='code'><a href="index.html#decl-format" class="code_var">format</a></span> from <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>.
-To explicitly specify texel storage formats for read-write textures,
-use the <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
+For public texture aliases, Slang infers <span class='code'><a href="index.html#decl-format" class="code_var">format</a></span> from explicit texture format types such as <span class='code'><a href="../rgba16f-01236/index.html" class="code_type">RGBA16F</a></span>.
+Plain scalar and vector types use an unknown format. The <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute remains supported
+for compatibility with existing declarations.
 Allowed <span class='code'>formatString</span> values are:
 
 |id | Format string        | Meaning           |
@@ -310,6 +310,7 @@ SampleGrad <samplegrad-06>
 SampleLevel <samplelevel-06>
 SampleLevelZero <samplelevelzero-06b>
 Store <store-0>
+T <t-0>
 TextureCoord <texturecoord-07>
 WriteSamplerFeedback <writesamplerfeedback-05c>
 WriteSamplerFeedbackBias <writesamplerfeedbackbias-05ck>
