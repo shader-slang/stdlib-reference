@@ -11,7 +11,6 @@ Slang's Standard Library defines the following types:
 - [Atomic](atomic-0/index)
 - [AtomicAdd](atomicadd-06/index)
 - [BFloat16](bfloat16-01/index)
-- [BGRA8Unorm](bgra8unorm-01235/index)
 - [BindlessDescriptorOptions](bindlessdescriptoroptions-08i/index)
 - [Buffer](buffer-0)
 - [BuiltInTriangleIntersectionAttributes](builtintriangleintersectionattributes-057fr/index)
@@ -69,49 +68,8 @@ Slang's Standard Library defines the following types:
 - [ParameterBlock](parameterblock-09/index)
 - [PointStream](pointstream-05/index)
 - [Ptr](ptr-0/index)
-- [R11G11B10F](r11g11b10f-0369/index)
-- [R16F](r16f-03/index)
-- [R16I](r16i-03/index)
-- [R16Snorm](r16snorm-03/index)
-- [R16UI](r16ui-034/index)
-- [R16Unorm](r16unorm-03/index)
-- [R32F](r32f-03/index)
-- [R32I](r32i-03/index)
-- [R32UI](r32ui-034/index)
-- [R64I](r64i-03/index)
-- [R64UI](r64ui-034/index)
-- [R8I](r8i-02/index)
-- [R8Snorm](r8snorm-02/index)
-- [R8UI](r8ui-023/index)
-- [R8Unorm](r8unorm-02/index)
 - [RAYQUERY\_FLAG](rayquery_flag-012345679abc)
 - [RAY\_FLAG](ray_flag-0124567)
-- [RG16F](rg16f-014/index)
-- [RG16I](rg16i-014/index)
-- [RG16Snorm](rg16snorm-014/index)
-- [RG16UI](rg16ui-0145/index)
-- [RG16Unorm](rg16unorm-014/index)
-- [RG32F](rg32f-014/index)
-- [RG32I](rg32i-014/index)
-- [RG32UI](rg32ui-0145/index)
-- [RG8I](rg8i-013/index)
-- [RG8Snorm](rg8snorm-013/index)
-- [RG8UI](rg8ui-0134/index)
-- [RG8Unorm](rg8unorm-013/index)
-- [RGB10A2UI](rgb10a2ui-012578/index)
-- [RGB10A2Unorm](rgb10a2unorm-01257/index)
-- [RGBA16F](rgba16f-01236/index)
-- [RGBA16I](rgba16i-01236/index)
-- [RGBA16Snorm](rgba16snorm-01236/index)
-- [RGBA16UI](rgba16ui-012367/index)
-- [RGBA16Unorm](rgba16unorm-01236/index)
-- [RGBA32F](rgba32f-01236/index)
-- [RGBA32I](rgba32i-01236/index)
-- [RGBA32UI](rgba32ui-012367/index)
-- [RGBA8I](rgba8i-01235/index)
-- [RGBA8Snorm](rgba8snorm-01235/index)
-- [RGBA8UI](rgba8ui-012356/index)
-- [RGBA8Unorm](rgba8unorm-01235/index)
 - [RWBuffer](rwbuffer-012)
 - [RWByteAddressBuffer](rwbyteaddressbuffer-0126d/index)
 - [RWSampler1D](rwsampler1d-012a)
@@ -219,7 +177,7 @@ Slang's Standard Library defines the following types:
 - [extension abs : IForwardDifferentiable\<abs\<T\>\>](abs/index)
 - [extension acos : IForwardDifferentiable\<acos\<T\>\>](acos/index)
 - [extension acosh : IForwardDifferentiable\<acosh\<T\>\>](acosh/index)
-- [extension add : IBackwardDifferentiable\<vector\<T,N\>\.add\>](add/index)
+- [extension add : IForwardDifferentiable\<vector\<T,N\>\.add\>](add/index)
 - [extension asin : IForwardDifferentiable\<asin\<T\>\>](asin/index)
 - [extension asinh : IForwardDifferentiable\<asinh\<T\>\>](asinh/index)
 - [extension atan : IForwardDifferentiable\<atan\<T\>\>](atan/index)
@@ -230,26 +188,26 @@ Slang's Standard Library defines the following types:
 - [extension cos : IForwardDifferentiable\<cos\<T\>\>](cos/index)
 - [extension cosh : IForwardDifferentiable\<cosh\<T\>\>](cosh/index)
 - [extension cross : IForwardDifferentiable\<cross\<T\>\>](cross/index)
-- [extension dadd : IForwardDifferentiable\<DifferentialPair\<T\>\.dadd\>](dadd/index)
+- [extension dadd : IBackwardDifferentiable\<DifferentialPair\<T\>\.dadd\>](dadd/index)
 - [extension degrees : IForwardDifferentiable\<degrees\<T\>\>](degrees/index)
 - [extension determinant : IForwardDifferentiable\<determinant\<T, N\>\>](determinant/index)
 - [extension distance : IForwardDifferentiable\<distance\<T, N\>\>](distance/index)
-- [extension div : IForwardDifferentiable\<vector\<T,N\>\.div\>](div/index)
+- [extension div : IBackwardDifferentiable\<vector\<T,N\>\.div\>](div/index)
 - [extension dot : IForwardDifferentiable\<dot\<T, N\>\>](dot/index)
-- [extension dst : IBackwardDifferentiable\<dst\<T\>\>](dst/index)
-- [extension dzero : IBackwardDifferentiable\<DifferentialPair\<T\>\.dzero\>](dzero/index)
+- [extension dst : IForwardDifferentiable\<dst\<T\>\>](dst/index)
+- [extension dzero : IForwardDifferentiable\<DifferentialPair\<T\>\.dzero\>](dzero/index)
 - [extension exp : IForwardDifferentiable\<exp\<T\>\>](exp/index)
 - [extension exp10 : IForwardDifferentiable\<exp10\<T\>\>](exp10/index)
 - [extension exp2 : IForwardDifferentiable\<exp2\<T\>\>](exp2/index)
 - [extension fma : IForwardDifferentiable\<fma\<T, N\>\>](fma/index)
 - [extension fmod : IForwardDifferentiable\<fmod\<T, N\>\>](fmod/index)
 - [extension frac : IForwardDifferentiable\<frac\<T\>\>](frac/index)
-- [extension fwd\_diff : IBackwardDifferentiable\<DifferentialPair\<T\>\.$init\.fwd\_diff\>](fwd_diff/index)
+- [extension fwd\_diff : IForwardDifferentiable\<DifferentialPair\<T\>\.$init\.fwd\_diff\>](fwd_diff/index)
 - [extension get : IForwardDifferentiable\<CoopVec\<T, N\>\.operator\[\]\.get\>](get/index)
-- [extension init : IBackwardDifferentiable\<DifferentialPair\<T\>\.$init\>](init/index)
+- [extension init : IForwardDifferentiable\<DifferentialPair\<T\>\.$init\>](init/index)
 - [extension length : IForwardDifferentiable\<length\<T, N\>\>](length/index)
 - [extension lerp : IForwardDifferentiable\<lerp\<T, N\>\>](lerp/index)
-- [extension lit : IBackwardDifferentiable\<lit\>](lit/index)
+- [extension lit : IForwardDifferentiable\<lit\>](lit/index)
 - [extension load : IBackwardDifferentiable\<DiffTensorView\<T, A\>\.load\>](load/index)
 - [extension loadOnce : IBackwardDifferentiable\<DiffTensorView\<T, A\>\.loadOnce\>](loadonce-4/index)
 - [extension log : IForwardDifferentiable\<log\<T\>\>](log/index)
@@ -258,9 +216,9 @@ Slang's Standard Library defines the following types:
 - [extension mad : IForwardDifferentiable\<mad\<T, N\>\>](mad/index)
 - [extension max : IForwardDifferentiable\<max\<T, N\>\>](max/index)
 - [extension min : IForwardDifferentiable\<min\<T, N\>\>](min/index)
-- [extension mod : IForwardDifferentiable\<vector\<T,N\>\.mod\>](mod/index)
-- [extension mul : IForwardDifferentiable\<vector\<T,N\>\.mul\>](mul/index)
-- [extension neg : IForwardDifferentiable\<vector\<T,N\>\.neg\>](neg/index)
+- [extension mod : IBackwardDifferentiable\<vector\<T,N\>\.mod\>](mod/index)
+- [extension mul : IBackwardDifferentiable\<vector\<T,N\>\.mul\>](mul/index)
+- [extension neg : IBackwardDifferentiable\<vector\<T,N\>\.neg\>](neg/index)
 - [extension normalize : IForwardDifferentiable\<normalize\<T, N\>\>](normalize/index)
 - [extension pow : IForwardDifferentiable\<pow\<T, N\>\>](pow/index)
 - [extension radians : IForwardDifferentiable\<radians\<T\>\>](radians/index)
@@ -280,7 +238,7 @@ Slang's Standard Library defines the following types:
 - [extension sub : IBackwardDifferentiable\<vector\<T,N\>\.sub\>](sub/index)
 - [extension tan : IForwardDifferentiable\<tan\<T\>\>](tan/index)
 - [extension tanh : IForwardDifferentiable\<tanh\<T\>\>](tanh/index)
-- [extension toFloat : IForwardDifferentiable\<vector\<T,N\>\.toFloat\>](tofloat-2/index)
+- [extension toFloat : IBackwardDifferentiable\<vector\<T,N\>\.toFloat\>](tofloat-2/index)
 - [extension transpose : IForwardDifferentiable\<transpose\<T, N, M\>\>](transpose/index)
 - [float16\_t](float16_t)
 - [float32\_t](float32_t)
@@ -356,7 +314,7 @@ extension T <t-0/index>
 extension abs : IForwardDifferentiable<abs<T>> <abs/index>
 extension acos : IForwardDifferentiable<acos<T>> <acos/index>
 extension acosh : IForwardDifferentiable<acosh<T>> <acosh/index>
-extension add : IBackwardDifferentiable<vector<T,N>.add> <add/index>
+extension add : IForwardDifferentiable<vector<T,N>.add> <add/index>
 extension asin : IForwardDifferentiable<asin<T>> <asin/index>
 extension asinh : IForwardDifferentiable<asinh<T>> <asinh/index>
 extension atan : IForwardDifferentiable<atan<T>> <atan/index>
@@ -367,22 +325,22 @@ extension copysign : IForwardDifferentiable<copysign<T>> <copysign/index>
 extension cos : IForwardDifferentiable<cos<T>> <cos/index>
 extension cosh : IForwardDifferentiable<cosh<T>> <cosh/index>
 extension cross : IForwardDifferentiable<cross<T>> <cross/index>
-extension dadd : IForwardDifferentiable<DifferentialPair<T>.dadd> <dadd/index>
+extension dadd : IBackwardDifferentiable<DifferentialPair<T>.dadd> <dadd/index>
 extension degrees : IForwardDifferentiable<degrees<T>> <degrees/index>
 extension determinant : IForwardDifferentiable<determinant<T, N>> <determinant/index>
 extension distance : IForwardDifferentiable<distance<T, N>> <distance/index>
-extension div : IForwardDifferentiable<vector<T,N>.div> <div/index>
+extension div : IBackwardDifferentiable<vector<T,N>.div> <div/index>
 extension dot : IForwardDifferentiable<dot<T, N>> <dot/index>
-extension dzero : IBackwardDifferentiable<DifferentialPair<T>.dzero> <dzero/index>
+extension dzero : IForwardDifferentiable<DifferentialPair<T>.dzero> <dzero/index>
 extension exp : IForwardDifferentiable<exp<T>> <exp/index>
 extension exp10 : IForwardDifferentiable<exp10<T>> <exp10/index>
 extension exp2 : IForwardDifferentiable<exp2<T>> <exp2/index>
 extension fma : IForwardDifferentiable<fma<T, N>> <fma/index>
 extension fmod : IForwardDifferentiable<fmod<T, N>> <fmod/index>
 extension frac : IForwardDifferentiable<frac<T>> <frac/index>
-extension fwd_diff : IBackwardDifferentiable<DifferentialPair<T>.$init.fwd_diff> <fwd_diff/index>
+extension fwd_diff : IForwardDifferentiable<DifferentialPair<T>.$init.fwd_diff> <fwd_diff/index>
 extension get : IForwardDifferentiable<CoopVec<T, N>.operator[].get> <get/index>
-extension init : IBackwardDifferentiable<DifferentialPair<T>.$init> <init/index>
+extension init : IForwardDifferentiable<DifferentialPair<T>.$init> <init/index>
 extension length : IForwardDifferentiable<length<T, N>> <length/index>
 extension lerp : IForwardDifferentiable<lerp<T, N>> <lerp/index>
 extension load : IBackwardDifferentiable<DiffTensorView<T, A>.load> <load/index>
@@ -393,9 +351,9 @@ extension log2 : IForwardDifferentiable<log2<T>> <log2/index>
 extension mad : IForwardDifferentiable<mad<T, N>> <mad/index>
 extension max : IForwardDifferentiable<max<T, N>> <max/index>
 extension min : IForwardDifferentiable<min<T, N>> <min/index>
-extension mod : IForwardDifferentiable<vector<T,N>.mod> <mod/index>
-extension mul : IForwardDifferentiable<vector<T,N>.mul> <mul/index>
-extension neg : IForwardDifferentiable<vector<T,N>.neg> <neg/index>
+extension mod : IBackwardDifferentiable<vector<T,N>.mod> <mod/index>
+extension mul : IBackwardDifferentiable<vector<T,N>.mul> <mul/index>
+extension neg : IBackwardDifferentiable<vector<T,N>.neg> <neg/index>
 extension normalize : IForwardDifferentiable<normalize<T, N>> <normalize/index>
 extension pow : IForwardDifferentiable<pow<T, N>> <pow/index>
 extension radians : IForwardDifferentiable<radians<T>> <radians/index>
@@ -414,7 +372,7 @@ extension storeOnce : IBackwardDifferentiable<DiffTensorView<T, A>.storeOnce> <s
 extension sub : IBackwardDifferentiable<vector<T,N>.sub> <sub/index>
 extension tan : IForwardDifferentiable<tan<T>> <tan/index>
 extension tanh : IForwardDifferentiable<tanh<T>> <tanh/index>
-extension toFloat : IForwardDifferentiable<vector<T,N>.toFloat> <tofloat-2/index>
+extension toFloat : IBackwardDifferentiable<vector<T,N>.toFloat> <tofloat-2/index>
 extension transpose : IForwardDifferentiable<transpose<T, N, M>> <transpose/index>
 int8_t4_packed <int8_t4_packed>
 uint8_t4_packed <uint8_t4_packed>

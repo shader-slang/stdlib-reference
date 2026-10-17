@@ -12,7 +12,7 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-format"></a>[format](format.html) : int = 0
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int = 1
 
 ## Methods
 
@@ -28,8 +28,8 @@ layout: stdlib-reference
 :titlesonly:
 :hidden:
 
-DataType <datatype-04>
-format <format>
+Element <element-0>
+elementCount <elementcount-7>
 init <init>
 ```
 RTD-TOC-END -->

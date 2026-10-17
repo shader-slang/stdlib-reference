@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 *Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index.html)\<[T](../../interfaces/irwarray-0123/index.html#typeparam-T)\>
 
-*Conditionally conforms to:* [IInteger](../../interfaces/iinteger-01/index.html), [IFloat](../../interfaces/ifloat-01/index.html), [IDifferentiable](../../interfaces/idifferentiable-01/index.html), [ITexelData](../../interfaces/itexeldata-016/index.html)
+*Conditionally conforms to:* [IInteger](../../interfaces/iinteger-01/index.html), [IFloat](../../interfaces/ifloat-01/index.html), [IDifferentiable](../../interfaces/idifferentiable-01/index.html), [ITexelElement](../../interfaces/itexelelement-016/index.html)
 
 ## Description
 
@@ -67,50 +67,50 @@ An <span class='code'><a href="index.html#decl-N" class="code_var">N</a></span> 
 `vector<T, int N>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == half
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == float
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == int
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == uint
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == int8\_t
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == int16\_t
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == uint8\_t
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == uint16\_t
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == double
   * [N](index.html#decl-N) == 2
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == uint64\_t
   * [N](index.html#decl-N) == 2
-### Conformance to ITexelData
-`vector<T, int N>` additionally conforms to `ITexelData` when the following conditions are met:
+### Conformance to ITexelElement
+`vector<T, int N>` additionally conforms to `ITexelElement` when the following conditions are met:
 
   * [T](index.html#typeparam-T) == int64\_t
   * [N](index.html#decl-N) == 2

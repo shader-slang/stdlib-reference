@@ -34,7 +34,6 @@ Slang's Standard Library defines the following interfaces:
 - [IRWArray](irwarray-0123/index)
 - [IRWPhysicalBuffer](irwphysicalbuffer-0123b/index)
 - [IRangedValue](irangedvalue-017/index)
-- [ITexelData](itexeldata-016/index)
 - [ITexelElement](itexelelement-016/index)
 - [\_\_BuiltinArithmeticType](0_builtinarithmetictype-029j/index)
 - [\_\_BuiltinFloatingPointType](0_builtinfloatingpointtype-029hm/index)
@@ -77,7 +76,6 @@ IPhysicalBuffer <iphysicalbuffer-019/index>
 IRWArray <irwarray-0123/index>
 IRWPhysicalBuffer <irwphysicalbuffer-0123b/index>
 IRangedValue <irangedvalue-017/index>
-ITexelData <itexeldata-016/index>
 ITexelElement <itexelelement-016/index>
 __BuiltinArithmeticType <0_builtinarithmetictype-029j/index>
 __BuiltinFloatingPointType <0_builtinfloatingpointtype-029hm/index>
