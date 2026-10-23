@@ -14,7 +14,7 @@ Perform an atomic compare and store operation on <span class='code'><a href="int
 
 <pre>
 <span class="code_keyword">void</span> <a href="interlockedcomparestore-0bi.html">InterlockedCompareStore</a>&lt;<a href="interlockedcomparestore-0bi.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="interlockedcomparestore-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcomparestore-0bi.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <a href="interlockedcomparestore-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcomparestore-0bi.html#decl-dest" class="code_param">dest</a>,
     <a href="interlockedcomparestore-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcomparestore-0bi.html#decl-compare_value" class="code_param">compare_value</a>,
     <a href="interlockedcomparestore-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcomparestore-0bi.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="interlockedcomparestore-0bi.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iatomicable-01/index.html" class="code_type">IAtomicable</a>;

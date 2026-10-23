@@ -14,12 +14,12 @@ Perform an atomic compare and exchange operation on <span class='code'><a href="
 
 <pre>
 <span class="code_keyword">void</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html">InterlockedCompareExchangeFloatBitwise</a>(
-    <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-dest" class="code_param">dest</a>,
     <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-compare_value" class="code_param">compare_value</a>,
     <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-value" class="code_param">value</a>);
 
 <span class="code_keyword">void</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html">InterlockedCompareExchangeFloatBitwise</a>(
-    <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-dest" class="code_param">dest</a>,
     <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-compare_value" class="code_param">compare_value</a>,
     <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-value" class="code_param">value</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-original_value" class="code_param">original_value</a>);

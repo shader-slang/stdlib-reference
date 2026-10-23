@@ -35,7 +35,7 @@ Pointer accesses are 16-byte aligned.
 
 /// Requires Capability Set 1:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="store.html">store</a>&lt;<span class="code_keyword">int</span> <a href="store.html#decl-M" class="code_var">M</a>&gt;(
-    <a href="index.html#typeparam-T" class="code_type">T</a>[M] <a href="store.html#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">ref</span> <a href="index.html#typeparam-T" class="code_type">T</a>[M] <a href="store.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 

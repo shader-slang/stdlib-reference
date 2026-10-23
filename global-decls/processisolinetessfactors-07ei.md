@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 <pre>
 <span class="code_keyword">void</span> <a href="processisolinetessfactors-07ei.html">ProcessIsolineTessFactors</a>(
-    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RawDetailFactor" class="code_param">RawDetailFactor</a>,
-    <span class="code_keyword">in</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RawDensityFactor" class="code_param">RawDensityFactor</a>,
+    <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RawDetailFactor" class="code_param">RawDetailFactor</a>,
+    <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RawDensityFactor" class="code_param">RawDensityFactor</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RoundedDetailFactor" class="code_param">RoundedDetailFactor</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="processisolinetessfactors-07ei.html#decl-RoundedDensityFactor" class="code_param">RoundedDensityFactor</a>);
 

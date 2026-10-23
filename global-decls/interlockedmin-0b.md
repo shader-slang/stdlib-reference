@@ -14,18 +14,18 @@ Perform an atomic min operation on <span class='code'><a href="interlockedmin-0b
 
 <pre>
 <span class="code_keyword">void</span> <a href="interlockedmin-0b.html">InterlockedMin</a>&lt;<a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
     <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iarithmeticatomicable-01b/index.html" class="code_type">IArithmeticAtomicable</a>;
 
 <span class="code_keyword">void</span> <a href="interlockedmin-0b.html">InterlockedMin</a>&lt;<a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
     <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-value" class="code_param">value</a>,
     <span class="code_keyword">out</span> <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedmin-0b.html#decl-original_value" class="code_param">original_value</a>)
     <span class='code_keyword'>where</span> <a href="interlockedmin-0b.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iarithmeticatomicable-01b/index.html" class="code_type">IArithmeticAtomicable</a>;
 
 <span class="code_keyword">void</span> <a href="interlockedmin-0b.html">InterlockedMin</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
     <span class="code_keyword">int</span> <a href="interlockedmin-0b.html#decl-value" class="code_param">value</a>);
 
 </pre>

@@ -18,7 +18,7 @@ and provide the values for per-mesh payload parameters.
     <span class="code_keyword">uint</span> <a href="dispatchmesh-08.html#decl-threadGroupCountX" class="code_param">threadGroupCountX</a>,
     <span class="code_keyword">uint</span> <a href="dispatchmesh-08.html#decl-threadGroupCountY" class="code_param">threadGroupCountY</a>,
     <span class="code_keyword">uint</span> <a href="dispatchmesh-08.html#decl-threadGroupCountZ" class="code_param">threadGroupCountZ</a>,
-    <a href="dispatchmesh-08.html#typeparam-P" class="code_type">P</a> <a href="dispatchmesh-08.html#decl-meshPayload" class="code_param">meshPayload</a>);
+    <span class="code_keyword">ref</span> <a href="dispatchmesh-08.html#typeparam-P" class="code_type">P</a> <a href="dispatchmesh-08.html#decl-meshPayload" class="code_param">meshPayload</a>);
 
 </pre>
 

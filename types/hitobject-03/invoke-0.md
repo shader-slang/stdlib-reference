@@ -18,12 +18,12 @@ shader is invoked. (NVAPI/SPIRV/CUDA variant with AccelerationStructure paramete
 /// Requires Capability Set 1:
 <span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="index.html" class="code_type">HitObject</a>.<a href="invoke-0.html">Invoke</a>&lt;<a href="invoke-0.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
     <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="invoke-0.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <a href="index.html" class="code_type">HitObject</a> <a href="invoke-0.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
+    borrow <a href="index.html" class="code_type">HitObject</a> <a href="invoke-0.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
     <span class="code_keyword">inout</span> <a href="invoke-0.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="invoke-0.html#decl-Payload" class="code_param">Payload</a>);
 
 /// Requires Capability Set 2:
 <span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="index.html" class="code_type">HitObject</a>.<a href="invoke-0.html">Invoke</a>&lt;<a href="invoke-0.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="index.html" class="code_type">HitObject</a> <a href="invoke-0.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
+    borrow <a href="index.html" class="code_type">HitObject</a> <a href="invoke-0.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
     <span class="code_keyword">inout</span> <a href="invoke-0.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="invoke-0.html#decl-Payload" class="code_param">Payload</a>);
 
 </pre>

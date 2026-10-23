@@ -18,7 +18,7 @@ Try to terminate the current draw or dispatch call (HLSL SM 4.0)
 
 <span class="code_keyword">void</span> <a href="abort.html">abort</a>&lt;<span class="code_keyword">each</span> <a href="abort.html#typeparam-T" class="code_type">T</a>&gt;(
     <a href="../types/nativestring-06/index.html" class="code_type">NativeString</a> <a href="abort.html#decl-format" class="code_param">format</a>,
-    <span class="code_keyword">const</span> <a href="abort.html#typeparam-T" class="code_type">T</a> <a href="abort.html#decl-args" class="code_param">args</a>);
+    <a href="abort.html#typeparam-T" class="code_type">T</a> <a href="abort.html#decl-args" class="code_param">args</a>);
 
 </pre>
 

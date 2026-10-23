@@ -14,18 +14,18 @@ Perform an atomic exchange operation on <span class='code'><a href="interlockede
 
 <pre>
 <span class="code_keyword">void</span> <a href="interlockedexchange-0b.html">InterlockedExchange</a>&lt;<a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a>,
     <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iatomicable-01/index.html" class="code_type">IAtomicable</a>;
 
 <span class="code_keyword">void</span> <a href="interlockedexchange-0b.html">InterlockedExchange</a>&lt;<a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a>,
     <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-value" class="code_param">value</a>,
     <span class="code_keyword">out</span> <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange-0b.html#decl-original_value" class="code_param">original_value</a>)
     <span class='code_keyword'>where</span> <a href="interlockedexchange-0b.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iatomicable-01/index.html" class="code_type">IAtomicable</a>;
 
 <span class="code_keyword">void</span> <a href="interlockedexchange-0b.html">InterlockedExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">ref</span> <span class="code_keyword">uint</span> <a href="interlockedexchange-0b.html#decl-dest" class="code_param">dest</a>,
     <span class="code_keyword">int</span> <a href="interlockedexchange-0b.html#decl-value" class="code_param">value</a>);
 
 </pre>

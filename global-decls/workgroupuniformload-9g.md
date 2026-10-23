@@ -13,7 +13,7 @@ Mark a variable as being workgroup uniform.
 ## Signature 
 
 <pre>
-<a href="workgroupuniformload-9g.html#typeparam-T" class="code_type">T</a> <a href="workgroupuniformload-9g.html">workgroupUniformLoad</a>&lt;<a href="workgroupuniformload-9g.html#typeparam-T" class="code_type">T</a>&gt;(<a href="workgroupuniformload-9g.html#typeparam-T" class="code_type">T</a> <a href="workgroupuniformload-9g.html#decl-v" class="code_param">v</a>);
+<a href="workgroupuniformload-9g.html#typeparam-T" class="code_type">T</a> <a href="workgroupuniformload-9g.html">workgroupUniformLoad</a>&lt;<a href="workgroupuniformload-9g.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">ref</span> <a href="workgroupuniformload-9g.html#typeparam-T" class="code_type">T</a> <a href="workgroupuniformload-9g.html#decl-v" class="code_param">v</a>);
 
 </pre>
 

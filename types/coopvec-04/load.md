@@ -48,7 +48,7 @@ Pointer accesses are 16-byte aligned.
 
 /// Requires Capability Set 1:
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="load.html">load</a>&lt;<span class="code_keyword">int</span> <a href="load.html#decl-M" class="code_var">M</a>&gt;(
-    <span class="code_keyword">const</span> <a href="index.html#typeparam-T" class="code_type">T</a>[M] <a href="load.html#decl-data" class="code_param">data</a>,
+    borrow <a href="index.html#typeparam-T" class="code_type">T</a>[M] <a href="load.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">int</span> <a href="load.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 

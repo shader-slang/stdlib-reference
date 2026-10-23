@@ -17,10 +17,10 @@ DXR 1.3 only.
 
 <pre>
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="fromrayquery-047.html">FromRayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="fromrayquery-047.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt;(
-    <a href="../rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="fromrayquery-047.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt; <a href="fromrayquery-047.html#decl-Query" class="code_param">Query</a>);
+    borrow <a href="../rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="fromrayquery-047.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt; <a href="fromrayquery-047.html#decl-Query" class="code_param">Query</a>);
 
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="fromrayquery-047.html">FromRayQuery</a>&lt;<span class="code_keyword">uint</span> <a href="fromrayquery-047.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>, <a href="fromrayquery-047.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-    <a href="../rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="fromrayquery-047.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt; <a href="fromrayquery-047.html#decl-Query" class="code_param">Query</a>,
+    borrow <a href="../rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="fromrayquery-047.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>&gt; <a href="fromrayquery-047.html#decl-Query" class="code_param">Query</a>,
     <span class="code_keyword">uint</span> <a href="fromrayquery-047.html#decl-CommittedCustomHitKind" class="code_param">CommittedCustomHitKind</a>,
     <a href="fromrayquery-047.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="fromrayquery-047.html#decl-CommittedCustomAttribs" class="code_param">CommittedCustomAttribs</a>);
 

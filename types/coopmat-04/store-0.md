@@ -37,7 +37,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 3:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, <span class="code_keyword">int</span> V&gt;(
-    <a href="index.html#typeparam-T" class="code_type">T</a>[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">ref</span> <a href="index.html#typeparam-T" class="code_type">T</a>[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
@@ -50,7 +50,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 3:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V&gt;(
-    <a href="store-0.html#typeparam-U" class="code_type">U</a>[<a href="store-0.html#decl-V" class="code_var">V</a>] <a href="store-0.html#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">ref</span> <a href="store-0.html#typeparam-U" class="code_type">U</a>[<a href="store-0.html#decl-V" class="code_var">V</a>] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
@@ -63,7 +63,7 @@ Stores the cooperative matrix into a byte address buffer.
 
 /// Requires Capability Set 4:
 <span class="code_keyword">void</span> linalg::<a href="index.html" class="code_type">CoopMat</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, MemoryScope <a href="index.html#decl-S" class="code_var">S</a>, <span class="code_keyword">int</span> <a href="index.html#decl-M" class="code_var">M</a>, <span class="code_keyword">int</span> <a href="index.html#decl-N" class="code_var">N</a>, linalg.<a href="../coopmatmatrixuse-047d/index.html" class="code_type">CoopMatMatrixUse</a>R&gt;.<a href="store-0.html">Store</a>&lt;linalg.<a href="../coopmatmatrixlayout-047d/index.html" class="code_type">CoopMatMatrixLayout</a>matrixLayout, U, <span class="code_keyword">int</span> V, <span class="code_keyword">int</span> L&gt;(
-    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="store-0.html#typeparam-U" class="code_type">U</a>, <a href="store-0.html#typeparam-L" class="code_type">L</a>&gt;[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">ref</span> <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="store-0.html#typeparam-U" class="code_type">U</a>, <a href="store-0.html#typeparam-L" class="code_type">L</a>&gt;[V] <a href="store-0.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-element" class="code_param">element</a>,
     <span class="code_keyword">uint</span> <a href="store-0.html#decl-stride" class="code_param">stride</a>)
     <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/icoopelement-015/index.html" class="code_type">ICoopElement</a>;
