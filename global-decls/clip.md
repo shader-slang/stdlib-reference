@@ -53,6 +53,9 @@ Available in `fragment` stage only.
 #### cuda
 Available in `fragment` stage only.
 
+#### wgsl
+Available in `fragment` stage only.
+
 #### spirv
 Available in `fragment` stage only.
 

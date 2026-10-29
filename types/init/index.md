@@ -37,10 +37,10 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IForwardDifferentiable<vector<T,N>.$init<U>>` when the following conditions are met:
 
   * [U](index.html#typeparam-U) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<vector\<T,N\>\.$init\>
-`<T>` additionally conforms to `IForwardDifferentiable<vector<T,N>.$init>`.
 ### Conformance to IBackwardDifferentiable\<vector\<T,N\>\.$init\>
 `<T>` additionally conforms to `IBackwardDifferentiable<vector<T,N>.$init>`.
+### Conformance to IForwardDifferentiable\<vector\<T,N\>\.$init\>
+`<T>` additionally conforms to `IForwardDifferentiable<vector<T,N>.$init>`.
 ### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
 `<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
@@ -53,10 +53,10 @@ layout: stdlib-reference
 `<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
 `<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
-### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
-`<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IForwardDifferentiable\<matrix\<T,N,M\>\.$init\>
 `<T>` additionally conforms to `IForwardDifferentiable<matrix<T,N,M>.$init>`.
+### Conformance to IBackwardDifferentiable\<matrix\<T,N,M\>\.$init\>
+`<T>` additionally conforms to `IBackwardDifferentiable<matrix<T,N,M>.$init>`.
 ### Conformance to IForwardDifferentiable\<CoopVec\<T, N\>\.$init\<U\>\>
 `<T>` additionally conforms to `IForwardDifferentiable<CoopVec<T, N>.$init<U>>` when the following conditions are met:
 

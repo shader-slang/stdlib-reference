@@ -1,5 +1,5 @@
 documented pages: 802
-undocumented pages: 1006(55.6%)
+undocumented pages: 1011(55.8%)
 
 IArray<T>.subscript
 IBackwardDifferentiable<FType>
@@ -531,9 +531,9 @@ distance<T, N>.fwd_diff
 distance<T, N>.remat
 <T, int N>
 CoopVec<T, N>.div.
-vector<T,N>.div.BwdCallable
 vector<T,N>.div.MinimalContext
 vector<T,N>.div.apply_bwd
+vector<T,N>.div.fwd_diff
 vector<T,N>.div.remat
 <T, int N>
 dot<T, N>.BwdCallable
@@ -672,6 +672,7 @@ CoopVec<T, N>.neg.
 vector<T,N>.neg.BwdCallable
 vector<T,N>.neg.MinimalContext
 vector<T,N>.neg.apply_bwd
+vector<T,N>.neg.fwd_diff
 vector<T,N>.neg.remat
 <T, int N>
 normalize<T, N>.BwdCallable
@@ -726,6 +727,7 @@ saturate<T>.apply_bwd
 saturate<T>.bwd_diff
 saturate<T>.remat
 <T1>
+vector<T,N>.scale<T1>.BwdCallable
 vector<T,N>.scale<T1>.fwd_diff
 <T, int N>
 CoopVec<T, N>.operator[].set.
@@ -784,6 +786,9 @@ tanh<T>.bwd_diff
 tanh<T>.fwd_diff
 tanh<T>.remat
 <T, int N>
+vector<T,N>.toFloat.BwdCallable
+vector<T,N>.toFloat.MinimalContext
+vector<T,N>.toFloat.apply_bwd
 vector<T,N>.toFloat.fwd_diff
 <T, int N, int M>
 transpose<T, N, M>.BwdCallable

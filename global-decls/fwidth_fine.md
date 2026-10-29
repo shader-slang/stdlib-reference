@@ -56,6 +56,9 @@ Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `ca
 #### glsl
 Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
 
+#### wgsl
+Available in `fragment` stage only.
+
 #### spirv
 Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `callable`, `closesthit`, `anyhit`, `raygen`, `intersection`.
 
