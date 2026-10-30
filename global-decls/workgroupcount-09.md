@@ -27,5 +27,8 @@ Available in stages: `compute`, `mesh`, `amplification`.
 #### spirv
 Available in stages: `compute`, `mesh`, `amplification`.
 
+#### wgsl
+Available in `compute` stage only.
+
 
 

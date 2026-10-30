@@ -25,9 +25,9 @@ Use the subtraction operator '-' instead.
 ## Methods
 
 * bwd\_diff
-* [apply\_bwd](apply_bwd)
+* apply\_bwd
 * [fwd\_diff](fwd_diff)
-* [remat](remat)
+* remat
 
 ## Conditional Conformances
 
