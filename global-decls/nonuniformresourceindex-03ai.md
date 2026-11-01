@@ -42,15 +42,21 @@ Available in all stages.
 #### glsl
 Available in all stages.
 
+#### spirv
+Available in all stages.
+
+Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentFullyCoveredEXT`, `spvShaderNonUniformEXT`.
 #### cpp
 Available in all stages.
 
 #### cuda
 Available in all stages.
 
-#### spirv
+#### metal
 Available in all stages.
 
-Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentFullyCoveredEXT`, `spvShaderNonUniformEXT`.
+#### wgsl
+Available in all stages.
+
 
 
