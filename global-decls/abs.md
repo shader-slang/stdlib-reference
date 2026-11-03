@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-The abs function returns the absolute value of x.
+The abs function returns the absolute value of x. For an unsigned x, the result is x.
 
 
 
