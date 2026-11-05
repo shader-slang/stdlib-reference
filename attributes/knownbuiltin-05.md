@@ -7,10 +7,10 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href="knownbuiltin-05.html">KnownBuiltin</a>(<a href="knownbuiltin-05.html#decl-name" class="code_param">name</a> : <span class="code_keyword">int</span>)]
+[<a href="knownbuiltin-05.html">KnownBuiltin</a>(<a href="knownbuiltin-05.html#decl-name" class="code_param">name</a>)]
 </pre>
 
 ## Parameters
 
-####  <a id="decl-name"></a>name  : int
+####  <a id="decl-name"></a>name
 
