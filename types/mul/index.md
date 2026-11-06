@@ -17,7 +17,7 @@ layout: stdlib-reference
 
 * bwd\_diff
 * apply\_bwd
-* [fwd\_diff](fwd_diff)
+* fwd\_diff
 * remat
 
 ## Conditional Conformances
@@ -38,12 +38,12 @@ layout: stdlib-reference
 `<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
-### Conformance to IForwardDifferentiable\<mul\<T, N, M\>\>
-`<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
-
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
 `<T, int N>` additionally conforms to `IBackwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
+
+  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+### Conformance to IForwardDifferentiable\<mul\<T, N, M\>\>
+`<T, int N>` additionally conforms to `IForwardDifferentiable<mul<T, N, M>>` when the following conditions are met:
 
   * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IBackwardDifferentiable\<mul\<T, N, M\>\>
@@ -97,6 +97,5 @@ layout: stdlib-reference
 :hidden:
 
  <>
-fwd_diff <fwd_diff>
 ```
 RTD-TOC-END -->

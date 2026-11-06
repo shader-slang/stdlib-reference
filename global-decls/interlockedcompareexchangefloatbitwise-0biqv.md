@@ -47,7 +47,9 @@ When targeting HLSL, a call to this function will translate to a call to
 
 On SPIR-V (Vulkan), this function maps to <span class='code'>OpAtomicCompareExchange</span>.
 
-On Metal and WGSL, this function is not available.
+On Metal, <span class='code'><a href="interlockedcompareexchangefloatbitwise-0biqv.html#decl-dest" class="code_param">dest</a></span> must be in device memory, such as a <span class='code'><a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a></span> element or a device
+pointer, not a texture, a <span class='code'><a href="../types/rwbuffer-012.html" class="code_type">RWBuffer</a></span> or <span class='code'><span class="code_keyword">groupshared</span></span> memory.
+On WGSL, this function is not available.
 
 On CUDA, this function maps to <span class='code'>atomicCAS</span>.
 

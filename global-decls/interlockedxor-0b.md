@@ -59,7 +59,11 @@ When targeting HLSL, it is invalid to call this function with <span class='code'
 HLSL does not allow atomic operations on floating point types. For <span class='code'><a href="interlockedadd-0b.html">InterlockedAdd</a></span>, consider using
 <span class='code'><a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="../types/rwbyteaddressbuffer-0126d/interlockedaddf32-0be.html">InterlockedAddF32</a></span> or <span class='code'><a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="../types/rwbyteaddressbuffer-0126d/interlockedaddf16-0be.html">InterlockedAddF16</a></span> instead when NVAPI is available.
 On SPIR-V (Vulkan), all integer and floating point types are supported.
-On Metal and WGSL, all floating-point types are not supported.
+On Metal, <span class='code'><a href="interlockedadd-0b.html">InterlockedAdd</a></span> and <span class='code'><a href="interlockedexchange-0b.html">InterlockedExchange</a></span> are the only functions in this family that
+accept a floating-point <span class='code'><a href="interlockedxor-0b.html#typeparam-T" class="code_type">T</a></span>, and only a 32-bit <span class='code'><span class="code_keyword">float</span></span> in device memory, such as a
+<span class='code'><a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a></span> element or a device pointer, not a texture, a <span class='code'><a href="../types/rwbuffer-012.html" class="code_type">RWBuffer</a></span> or <span class='code'><span class="code_keyword">groupshared</span></span>
+memory.
+On WGSL, floating-point types are not supported.
 
 
 ## Availability and Requirements
