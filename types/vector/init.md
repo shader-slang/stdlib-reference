@@ -53,7 +53,7 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-v" class="code_param">v</a>)
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;MatrixLayoutMode <a href="init.html#decl-L" class="code_var">L</a>&gt;(<a href="../matrix/index.html" class="code_type">matrix</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;MatrixLayoutMode <a href="init.html#decl-L" class="code_var">L</a>&gt;(<a href="../matrix/index.html" class="code_type">matrix</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 2, 2, <a href="init.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 4;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(
@@ -186,7 +186,7 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 ####  <a id="decl-v"></a>v  : int64\_t
 ####  <a id="decl-other"></a>other  : [vector](index.html)\<U, [N](index.html#decl-N)\>
 ####  <a id="decl-v"></a>v  : float
-####  <a id="decl-value"></a>value  : [matrix](../matrix/index.html)\<[T](../matrix/t-0.html), 2, 2\>
+####  <a id="decl-value"></a>value  : [matrix](../matrix/index.html)\<[T](../matrix/t-0.html), 2, 2, [L](../matrix/index.html#decl-L)\>
 ####  <a id="decl-x"></a>x  : [T](init.html#typeparam-T)
 ####  <a id="decl-y"></a>y  : [T](init.html#typeparam-T)
 ####  <a id="decl-z"></a>z  : [T](init.html#typeparam-T)

@@ -18,189 +18,189 @@ Initialize a vector from a value of the same type
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-val" class="code_param">val</a>);
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <span class="code_keyword">int</span> <a href="index.html#decl-R" class="code_var">R</a>, <span class="code_keyword">int</span> <a href="index.html#decl-C" class="code_var">C</a>, MatrixLayoutMode <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>);
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>);
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>, <a href="index.html#decl-M" class="code_var">M</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>, <a href="index.html#decl-M" class="code_var">M</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-v" class="code_param">v</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-v" class="code_param">v</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-v" class="code_param">v</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-v" class="code_param">v</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> == int16_t;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 1&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 1, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 1&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 1, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 1&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 1, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -208,79 +208,79 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m10" class="code_param">m10</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 1&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 1, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 1&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 1, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m10" class="code_param">m10</a>,
@@ -288,45 +288,45 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -336,33 +336,33 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -374,69 +374,69 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m10" class="code_param">m10</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m20" class="code_param">m20</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 1&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 1, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 1&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m10" class="code_param">m10</a>,
@@ -446,40 +446,40 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -492,32 +492,32 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -533,24 +533,24 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m10" class="code_param">m10</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m20" class="code_param">m20</a>,
@@ -558,7 +558,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
@@ -566,25 +566,25 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 2, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 1&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m10" class="code_param">m10</a>,
@@ -596,7 +596,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
@@ -604,21 +604,21 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 3, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -634,7 +634,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
@@ -642,17 +642,17 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4, 4, <a href="index.html#decl-L" class="code_var">L</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m00" class="code_param">m00</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m01" class="code_param">m01</a>,
     <a href="t-0.html" class="code_type">T</a> <a href="init.html#decl-m02" class="code_param">m02</a>,
@@ -672,7 +672,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
@@ -680,7 +680,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>, <a href="index.html#decl-L" class="code_var">L</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-m" class="code_param">m</a>,
     <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
@@ -691,8 +691,8 @@ Initialize a vector from a value of the same type
 ## Parameters
 
 ####  <a id="decl-val"></a>val  : [T](t-0.html)
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), [R](index.html#decl-R), [C](index.html#decl-C)\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), [N](index.html#decl-N), [M](index.html#decl-M)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), [R](index.html#decl-R), [C](index.html#decl-C), [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), [N](index.html#decl-N), [M](index.html#decl-M), [L](index.html#decl-L)\>
 ####  <a id="decl-v"></a>v  : int
 ####  <a id="decl-v"></a>v  : float
 ####  <a id="decl-value"></a>value  : [T](t-0.html)
@@ -700,21 +700,21 @@ Initialize a vector from a value of the same type
 ####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), 4\>
 ####  <a id="decl-m00"></a>m00  : [T](t-0.html)
 ####  <a id="decl-row0"></a>row0  : [vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), 1\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 1, 2\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 1, 3\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 1, 4\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 1\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 2\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 3\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 4\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 1\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 2\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 3\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 4\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 1\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 2\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 3\>
-####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 4\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 1, 2, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 1, 3, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 1, 4, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 1, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 2, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 3, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 2, 4, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 1, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 2, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 3, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 3, 4, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 1, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 2, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 3, [L](index.html#decl-L)\>
+####  <a id="decl-value"></a>value  : [matrix](index.html)\<[T](t-0.html), 4, 4, [L](index.html#decl-L)\>
 ####  <a id="decl-m01"></a>m01  : [T](t-0.html)
 ####  <a id="decl-row0"></a>row0  : [vector](../vector/index.html)\<[T](../vector/index.html#typeparam-T), 2\>
 ####  <a id="decl-m02"></a>m02  : [T](t-0.html)
