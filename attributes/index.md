@@ -49,6 +49,7 @@ Slang's Standard Library defines the following attributes:
 - [RemovedSince](removedsince-07)
 - [RequireFullQuads](requirefullquads-07b)
 - [RequirePrelude](requireprelude-07)
+- [RootSignature](rootsignature-04)
 - [Shader](shader-0)
 - [Shader64BitIndexing](shader64bitindexing-08b)
 - [SpecializationConstant](specializationconstant-0e)
@@ -155,6 +156,7 @@ QuadDerivatives <quadderivatives-04>
 RemovedSince <removedsince-07>
 RequireFullQuads <requirefullquads-07b>
 RequirePrelude <requireprelude-07>
+RootSignature <rootsignature-04>
 Shader <shader-0>
 Shader64BitIndexing <shader64bitindexing-08b>
 SpecializationConstant <specializationconstant-0e>

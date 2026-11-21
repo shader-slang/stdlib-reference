@@ -21,8 +21,8 @@ Calculate both the sine and cosine of <span class='code'>x</span>.
 
 * bwd\_diff
 * [apply\_bwd](apply_bwd)
-* fwd\_diff
-* [remat](remat)
+* [fwd\_diff](fwd_diff)
+* remat
 
 ## Conditional Conformances
 

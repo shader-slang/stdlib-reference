@@ -25,21 +25,21 @@ Load values from a byte-addressable buffer into a cooperative vector.
     <span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecload-47.html">coopVecLoad</a>&lt;<span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-N" class="code_var">N</a>, <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#typeparam-L" class="code_type">L</a>&gt;(
     <a href="../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#typeparam-L" class="code_type">L</a>&gt; <a href="coopvecload-47.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="coopvecload-47.html#typeparam-L" class="code_type">L</a> : <a href="../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>;
 
-/// Requires Capability Set 1:
+/// Requires Capability Set 2:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecload-47.html">coopVecLoad</a>&lt;<span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-N" class="code_var">N</a>, <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#typeparam-L" class="code_type">L</a>&gt;(
     <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#typeparam-L" class="code_type">L</a>&gt; <a href="coopvecload-47.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
     <span class='code_keyword'>where</span> <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>
     <span class='code_keyword'>where</span> <a href="coopvecload-47.html#typeparam-L" class="code_type">L</a> : <a href="../interfaces/ibufferdatalayout-017b/index.html" class="code_type">IBufferDataLayout</a>;
 
-/// Requires Capability Set 2:
+/// Requires Capability Set 3:
 <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, <a href="coopvecload-47.html#decl-N" class="code_var">N</a>&gt; <a href="coopvecload-47.html">coopVecLoad</a>&lt;<span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-N" class="code_var">N</a>, <a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>&gt;(
     <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="coopvecload-47.html#typeparam-T" class="code_type">T</a>, Access.ReadWrite, AddressSpace.Device, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="coopvecload-47.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="coopvecload-47.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
@@ -96,12 +96,34 @@ Available in all stages.
 #### cuda
 Available in all stages.
 
+Requires capability: `optix_coopvec`.
 #### spirv
 Available in all stages.
 
 Requires capability: `spvCooperativeVectorNV`.
 
 ### Capability Set 2
+
+Defined for the following targets:
+
+#### hlsl
+Available in all stages.
+
+#### glsl
+Available in all stages.
+
+#### cpp
+Available in all stages.
+
+#### cuda
+Available in all stages.
+
+#### spirv
+Available in all stages.
+
+Requires capability: `spvCooperativeVectorNV`.
+
+### Capability Set 3
 
 Defined for the following targets:
 
